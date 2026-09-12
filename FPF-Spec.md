@@ -301,6 +301,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.39 | **Find and Develop a Way to Obtain a Result** | Draft | Use when you can state the needed local result but cannot yet explain an adequate way to obtain it. Reuse a sufficient existing Method or result and stop. Otherwise, trace a professional operation on target material and develop the missing connection; return one explained candidate, or the precise unresolved contribution with a useful next move or stop. | **Uses:** professional Methods, F.0.1 and F.1. **Coordinates with:** C.38 for same-result comparison, C.40 for material development, and C.11 for a local choice. A.10, A.3.1 and A.3.2 apply when stronger evidence or Method claims are needed. |
 | C.40 | **Develop Branching Search from Reusable Material** | Draft | Use when you have usable material and need to learn what a feasible variation makes possible. Its eventual contribution may already be selected or remain open. Perform the change, examine the difference and retain material needed for the next use. Return the variation with a justified continuation or stop. Enter C.40:4.3 directly when problems and ways need development together. | **Uses:** professional variation and examination Methods. **Coordinates with:** C.39 for a missing obtaining explanation, C.38 for finite comparison, C.18 for archive and front claims, C.19 for live-pool policy, and C.11 for local choice. |
 | C.36.P | **Cultural-Evolution Wording-Use Precision Restoration** | Stable | Recovers the FPF object hidden by culture, style, tradition, genre, scene, practice, technique, platform, regime, attractor, or developmental-machinery wording; returns a recovered cultural case to C.36 or the direct governing pattern. Generic development, evolution, or lineage ambiguity uses E.10.DEV first. | **Builds on:** E.10, E.10.ARCH, E.10.DEV, C.36, F.17, F.18, F.9. **Coordinates with:** E.10.MOVE, A.3.1, A.3.2, A.15, C.18, C.19, G.5, G.11. |
+| C.36.RP | **Sustain and Renew Shared Ways of Working** | Draft | Use when changing participants, tools or questions makes a shared method hard to obtain or apply. Locate the missing contribution, arrange access, acquisition or redistribution, and carry it into receiving work and further development. *Queries:* "Who can apply or adapt this method when the device or question changes?", "Which understanding must remain with its receiver?", "How can a discovery become usable by other agents?" | **Specializes:** C.36. **Uses:** E.23.CAE and E.23.CDI for capability questions, B.5.RC, B.5.RA and B.5.MPC for reasoning, and C.40 for further variations, C.18 for retaining possibilities and C.19 for exploration over a live search pool. |
 
 **Part D - Multi-scale Ethics and Conflict Optimization**
 
@@ -342,6 +343,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | E.9.DA | **DRR Decision-Adequacy Evaluation CharacteristicSpace** | Stable | Checks one exact DRR for one declared FPF authoring use. An ordinary bounded check reads the decision and any triggered actual-host effect, then returns a precise finding, repaired text, or the unchanged checked DRR when clean, plus the first drafting action or repair, stop or return, and reopen condition. A non-use boundary is added only for a grounded competing reading; a complete reusable coordinate result and exact assessment identities appear only when explicitly requested or consumed by a named later reliance. | **Builds on:** E.9, A.19.ECS. **Coordinates with:** E.8, E.10, E.19, E.21, E.22, E.23, F.19. |
 | E.10 | **Unified Lexical Rules for FPF** | Stable | Plain-first cue and router for word, head, and use precision. Use F.19 for the whole passage. For unresolved FPF meaning, distinguish an obtaining world-side relation, a reusable relation declaration, a claim/report episteme, and a representation with explicit correspondence. Supplies register, morphology, naming, and trigger-registry rules; routes claim-bearing learning wording through E.10.LRN, work/method-boundary wording through A.6.P.WMR, authority wording through A.2.8/A.2.8.PER/A.2.9, development or evolution ambiguity through E.10.DEV, and independent move or trajectory ambiguity through E.10.MOVE. Return readable wording or an exact blocker; retain the direct result when a governed claim is current. Trigger words are cues, not verdicts. | **Builds on:** A.7, E.5, F.5, F.18. **Coordinates with:** E.10.ARCH, E.10.LRN, E.10.DEV, E.10.MOVE, A.6.P, A.6.P.WMR, A.6.RCD, A.6.5, C.2.1, C.29, A.3.2, A.15.2, A.15.PROD, C.2.P, A.19.SPR, A.6.6, A.10, B.3, A.2.8, A.2.8.PER, A.2.9, E.24.CD, E.24.PUB, F.19. |
 | E.10.LRN | **Recovering What “Learning” Means in the Current Claim** | Stable | *Keywords:* learn, learning, learned, taught, trained, teaching Work, capability, model fitting, inference, information acquisition, learned representation, cultural change, learning product. *Queries:* "What exactly changed in this learning claim?", "Which participant, Work, Method, result, evidence, and use are hidden?", "Which direct pattern should receive each split claim?" | **Builds on:** E.10 and E.10.ARCH. **Returns to:** the direct capability, Work, Method, statistical-model-fitting, inference, experiment or data-acquisition, representation, product or publication, cultural, evidence, or decision owner. **Coordinates with:** F.17 and F.18; creates no generic Learning result or UTS row. |
+| E.10.INT | **Recovering What Interest or Curiosity Means Here** | Draft | Use when calling something interesting or saying that it serves an interest leaves the proposed work unclear. Recover the participant, contribution and next action; distinguish information gain, learning progress, engagement and promising continuations when their substitution would change the choice. *Queries:* "Interesting to whom, and for what work?", "What would this observation tell the agent?", "Can this construction open further possibilities?" | **Builds on:** E.10 and E.10.ARCH. **Uses:** E.10.LRN, C.16, C.17, C.11, C.18, C.19 and C.40 for the recovered question. |
 | E.10.DEV | **Recovering What Development or Evolution Means in the Current Claim** | Stable | After F.19 and compact E.10 routing, use when development or evolution wording still hides the changed or represented subject, continuity or membership, posture, direction or value basis, or direct owner. Returns one repaired direct claim, ordinary or quoted non-use, missing information, exact architecture gap, blocker, or stop; an explanatory guard is optional under F.19:4's plausible-reader test. | **Builds on:** F.19, E.10, E.10.ARCH, A.3.4.P, A.2.2, E.23.CAE, A.3.3, B.4, C.17–C.19, C.27.TA, C.29, C.36. **Coordinates with:** E.10.MOVE only for a remaining independent trajectory or path ambiguity, E.10.LRN for learning wording, C.36.P for a recovered cultural case, A.15, and direct holder or domain owners. |
 | E.10.MOVE | **Move and Readiness Wording Precision Restoration** | Stable | After F.19 and compact E.10 routing, restores the governed value hidden by move, movement, step, action, readiness, route, path, or trajectory wording. Separates practice-continuation description, coordination and ordering, recommendation, transformation, readiness, gate, publication, representation, and Work claims; returns each to its direct owner without creating a generic Move or Trajectory head. Its mantra branch distinguishes an E.11.PUA practice-continuation description shown in a post-qualification A.22.CGUS slice, a Plain local mantra, and a Plain long-mantra map. Evaluation-movement wording returns to E.23 for a separate prediction about a later evaluation result. | **Builds on:** F.19, E.10, E.10.ARCH, A.3.4.P, A.22.CGUS, E.11.PUA, E.11.PUR, E.23, A.15.5. **Coordinates with:** E.10.DEV for an independent development or evolution ambiguity, E.18.1, A.15, A.21, C.24, C.30, F.17, G.11. |
 | E.10.ARCH | **Wording-Use Ontological Precision Restoration Architecture** | Stable | Authoring architecture for the ontology question that remains after F.19 and compact E.10 routing. Bound the exact use, recover the exact subject and claim, bypass to the direct owner when clear, and add declaration/designation/reference/publication/representation apparatus only for a named receiver. Keeps an obtaining relation and actual participants, reusable `RelationSignature`/A.6.5 `SlotSpec` declaration, claim-bearing episteme and participant designations, C.29 representation and correspondence, separately governed method/work/result/structure/architecture objects, and the four A.6.P.WMR exits distinct. Select E.10.DEV or another realization only while stable recovery fields remain hidden; return the shortest usable sentence, ordinary non-use, exact gap, or blocker. Subject patterns keep thin pointers. | **Builds on:** E.10, E.10.DEV, A.6.P, A.6.5, A.6.P.WMR, A.6.RCD, A.6.F, C.2.P, C.2.P.DR, C.30.STRAT, A.19.SPR, A.6.3.CSC, A.3.1, A.3.2, A.6.0, A.6.1, E.20, A.15.PROD, E.24, E.24.CD, E.24.PUB, F.18, F.19, E.8, E.19, E.2. **Coordinates with:** E.10.MOVE, C.2.1, A.22, C.30, C.30.P, C.30.ASV, C.16, A.17, A.18, A.19, C.25, C.27.TA, C.27, C.29, A.3.3, A.3.4, A.15.1, A.15.2, A.10, E.21, E.11, I.2. |
@@ -41386,6 +41388,8 @@ Begin with the difference the answer should help you understand or make possible
 
 The result is a connected solution, a useful conditional consequence or bound, or a particular missing connection that directs the next inquiry. This pattern specializes B.5's choice and connection of inquiry contributions for this joint physical, mathematical and computational difficulty. It governs the reasoning that connects those contributions. Physical laws, mathematical constructions, algorithm design and the engineering of an executing arrangement supply their respective subject content.
 
+This is an epistemological and methodological synthesis. The epistemological question is what the connected contributions allow us to know: what follows from the constructions and premises, and how those consequences bear on the physical situation. The methodological question is how agents obtain and apply that knowledge, divide the work and change their methods. A result can support a physical change, expose a limitation or make a further question worth pursuing.
+
 A practitioner needs enough preparation to recover the question, follow the meanings of the important quantities and operations, and recognize where specialist help is needed. The worked cases explain their elementary algebra, graph and counting constructions. A more demanding application can require additional physical theory, mathematics, computation or measurement expertise; obtain that contribution with its explanation when it is missing.
 
 Use an already adequate calculation, implementation or operating procedure directly when its connection to the intended physical use is settled. A proof or bound can answer a physical design question before implementation is worthwhile. For an actual performance claim, add the observations, measurement relation and evidence needed for that claim; a conditional construction alone answers only what follows under its assumptions.
@@ -41729,6 +41733,8 @@ This connection work has a cost. Recovering an unfamiliar source, learning notat
 #### B.5.MPC:10.1 - Why the connection is a Method in its own right
 
 The receiving physical question joins several operations whose local success has different meanings. Derivation establishes what follows within a mathematical account. A physical explanation supports the choice of that account for a phenomenon. A procedure obtains a represented result; its realization connects that procedure to available system behavior. Coordinating these operations requires preserving their result dependencies while selecting a useful next contribution.
+
+The epistemological and methodological contributions meet in the use of a result. Axiomatization can make the objects, premises and permitted constructions explicit. A physical postulate contributes to empirical knowledge through an interpreted model whose consequences can be compared with observations. Computational formulation and realization let agents work through consequences using specified operations on represented inputs. The practitioner connects these contributions to obtain and apply knowledge, then uses an encountered limitation or a newly available operation to change the method or pose another question. Their detailed constructions give substance to the pragmatic question: which further work becomes possible?
 
 The robot makes the need concrete. Circumference, transmission ratio, integer rounding and signed-command semantics are separately intelligible. The useful command exists only when they refer to compatible motion and counts. A.3.3 can help recover state, C.29 can construct and transfer the mathematical consequence, and C.16 can interpret an observation. Their contributions enter the joint question through the dependencies explained in :4; none by itself chooses all the other subject content.
 
@@ -70232,6 +70238,8 @@ C.35 rejects the popular shortcut that a generated result, Pareto point, cluster
 
 Use this pattern when the current project question is about how a culture, style, tradition, discipline practice, method family, work family, canon, recognition regime, selection regime, or mediating system changes and can be deliberately influenced.
 
+When changing participants, tools or questions puts a shared method out of reach, C.36.RP helps make its use and development obtainable: locate the missing contribution, arrange its use and retain the means of renewal.
+
 Typical first-use situations:
 
 - an engineering group treats its product family, toolchain, platform family, research program, or AI-agent framework as an evolving set of variants rather than one fixed system;
@@ -71606,6 +71614,217 @@ Builds on: `E.10`, `E.10.ARCH`, `E.10.DEV`, `E.10.ROLE`, `C.36`, `F.17`, `F.18`,
 Coordinates with: `E.10.MOVE` for a remaining independent trajectory or path ambiguity, `A.1`, `A.1.1`, `A.6.RCD`, `B.2`, `B.2.P`, `B.2.2`, `B.2.3`, `B.2.4`, `B.2.5`, `A.3.3`, `C.16`, `C.20`, `C.23`, `C.27`, `C.29`, `C.30`, `C.30.AD`, `C.30.ASV`, `C.30.ILC`, `D.2`, `D.3`, `D.4`, `E.17`, and `E.18.1`.
 
 ### C.36.P:End
+
+## C.36.RP - Sustain and Renew Shared Ways of Working
+
+> **Type:** Method pattern
+>
+> **Status:** Draft
+>
+> **Normativity:** Normative unless marked informative
+
+### C.36.RP:1 - Problem frame
+
+**Use this when** changing participants, tools or questions puts a shared way of working out of reach, or when a useful discovery needs to become available to other participants. A team may still receive correct answers while losing the ability to apply the method under changed conditions. A researcher may discover a construction that colleagues cannot yet use. An ensemble may preserve a recording while newcomers cannot vary the phrase.
+
+Begin with the work participants need to perform or develop. Follow one available result back to the contributions that make it usable, and locate the contribution they cannot obtain. Restore access, arrange a capable contributor, support acquisition or develop a better way, according to the difficulty found.
+
+The first result is a means of obtaining and using the missing contribution. When the assignment includes carrying out the change, continue through its use in the receiving work. That use can expose a further difficulty or open a new question.
+
+This pattern concerns the availability and renewal of shared methods. A *shared repertoire* is the collection of ways participants can obtain and use in their work, including ways learned from predecessors or made accessible through other agents. People, AI agents and collective agents can contribute. Descriptions, examples, tools and working relationships help make those methods available.
+
+Use an already adequate method directly when its means of use remain available. Improving one person's performance within a stable arrangement can use the relevant development method. Use C.36 for a broader question about cultural transmission, selection or change.
+
+### C.36.RP:2 - Problem
+
+A result and a way of obtaining and applying it have different uses. A stored equation can answer a repeated question while leaving its reader unable to determine which device it describes. A machine can produce a proof that another contributor can verify but cannot yet adapt. Reproducing one rhythmic phrase leaves open how to make a related phrase for another entry point.
+
+Changes in the practice expose these differences. A departing colleague may take away an interpretive skill. A replacement tool may produce the same output through different assumptions. An AI may introduce a useful method whose operations are unfamiliar to the receiving participants.
+
+Preservation also involves choices. Requiring every participant to learn every operation can consume the resources needed for the actual work. Keeping an obsolete procedure can prevent improvement. A practice needs to retain or replace the means of obtaining useful contributions, while leaving room for methods whose later uses are still being discovered.
+
+### C.36.RP:3 - Forces
+
+| Force | Working tension |
+|---|---|
+| Continuity and renewal | Existing methods support current work; changed situations and discoveries can justify replacing them. |
+| Distributed capability | Different contributors can perform different operations, while each receiving contribution must remain usable. |
+| Available results and transferable methods | A finished answer is cheap to retain; later adaptation can depend on constructions and explanations absent from that answer. |
+| Present use and future possibilities | A known use can direct retention, while a promising method can deserve exploration before its later destination is clear. |
+| Acquisition and effort | Learning, access, tool provision and redistribution can answer different gaps at different costs. |
+
+### C.36.RP:4 - Solution
+
+Make the required methods obtainable through an arrangement that participants can use and, where needed, develop.
+
+**Recover the receiving work → locate the unavailable contribution → choose how it will remain obtainable → arrange acquisition, access or redistribution → use it in the receiving situation → retain the means of use and develop a worthwhile continuation.**
+
+These are dependencies of the work. An available demonstration, tool or newly discovered method can be the starting point.
+
+#### C.36.RP:4.1 - Start with work worth sustaining or opening
+
+Name a situation in which participants need to obtain or apply knowledge, make something, intervene, decide or investigate. Identify what has changed or what discovery could open useful work. Take an existing example, a recent failure or an intended variation that makes the need concrete.
+
+For a continuing activity, recover which result must still be obtainable and what the receiver must be able to do with it. For development, identify the promising construction or operation and an attainable way to explore it. A present clue can justify retaining a method before its eventual application is known.
+
+Bound the effort by this use. If the existing arrangement already supplies the needed contribution, use it and stop. A suspected limitation matters here when it can change the receiving work or a selected development opportunity.
+
+#### C.36.RP:4.2 - Locate what participants cannot obtain
+
+Follow the chosen case through its inputs, operations and receiving results. Examine the explanations, tools and capable help that participants can already obtain. Use existing work and knowledge when they settle what is available; perform a revealing attempt when an unresolved difference matters to the next action.
+
+Locate the first consequential gap. For example:
+
+- The method is understood, but the replacement instrument's interpretation is missing.
+- A calculation can be obtained, but nobody receiving it can connect its variable to the physical quantity.
+- The relevant contributor exists, but others cannot obtain that help when the work needs it.
+- A demonstration can be copied, but its operation cannot yet be used under the changed condition.
+
+These gaps call for different repairs. E.23.CAE distinguishes unavailable access, recognition of applicability, activation, expression and capability change. Restore access or the missing input when that is sufficient. Use E.23.CDI and the relevant learning method when a participant needs to acquire a capability.
+
+For connected physical, mathematical and computational work, B.5.MPC helps locate the missing relation. B.5.RC and B.5.RA help recover a construction or argument. The practice's subject methods supply the corresponding operations in other fields.
+
+Return the missing contribution in terms a provider can act on: “relate this indication to position for the replacement device” is enough to direct the next work. A label such as “knowledge loss” leaves that work unspecified.
+
+#### C.36.RP:4.3 - Choose how the method will remain obtainable
+
+Decide which contributions the receiving participants will perform themselves and which they will obtain through other people, AI or tools. Keep the capability where the later use needs it. A person who must recognize a faulty physical interpretation needs that understanding; an available specialist or AI may supply the algebra.
+
+Compare retaining the existing arrangement, adding a contributor, teaching or training, providing a tool, changing the method, and retiring a superseded way only where those alternatives answer the found difficulty. C.11 supplies a consequential choice among formed options. C.40 supplies construction of alternatives when the way is still to be found.
+
+Retain the material that makes the selected arrangement usable. Depending on the gap, this can be a readable construction, its inputs and conditions, an explanation of a decisive step, an executable model or an example that shows how to change the method. Keep access to the needed performer or executor as part of the arrangement. Select a form that the receivers can use.
+
+When the method changes, make the changed operations and conditions recoverable so participants can obtain the version their work needs. Keep the earlier variant when continued use, comparison or recovery needs it. An access repair can leave the method itself unchanged.
+
+#### C.36.RP:4.4 - Arrange the selected acquisition or transfer
+
+Use a form of learning or provision suited to the participant and operation. A demonstration may expose a visible procedure; explanation may supply the missing relation; practice with feedback may develop performance; a configured tool or obtainable specialist may supply the contribution directly.
+
+Choose what the receiver needs to recover from the method. Carrying out a stable procedure may require recognizing its entry conditions and interpreting its result. Adapting it can require reconstructing a dependency or derivation. Developing it can require changing an assumption or inventing another operation. Use B.5.RC/RA for the corresponding reasoning and the relevant subject development method for acquisition.
+
+For a human learning a demonstrated method, one useful arrangement is to observe its application, attempt the work with available help, and then use the operation in the receiving situation. Choose examples and assistance from the required transfer. An AI learner or a supplied tool can need a different training, configuration or interaction method.
+
+An explanation can use C.2.8 to recover what its reader needs to extract, and a subject explanation method to construct it. Introducing a method into an organization can require coordination of its work and resources. Use the corresponding practice's methods for those contributions; the result here is an obtainable way to perform the previously missing work.
+
+If an action requires another participant's agreement or access to a controlled resource, obtain it through the arrangement that governs that action. Keep the independently usable contributions available while the missing part is being arranged.
+
+#### C.36.RP:4.5 - Apply the method and use the resulting difference
+
+Perform the receiving work when implementation is part of the assignment. Have the receiver interpret and use the contribution under the conditions that matter there. A changed device, requested result or available resource can reveal whether the method supports the intended adaptation.
+
+Compare the result with the question that led to this work. If the result is usable, continue the activity it enables. If it fails, locate the missing operation, interpretation, access or capability and repair that part. Reuse contributions whose conditions still hold.
+
+A proposal can finish by explaining the selected arrangement and what remains to be carried out. Report an achieved transfer from the receiving use that occurred. For a claim that the method persisted across participants or over time, C.36 supplies the corresponding cultural-relation question and the observations that support it.
+
+#### C.36.RP:4.6 - Keep the means of renewal available
+
+Retain a way for later participants to obtain the method and its useful explanation. This can be through colleagues, teaching, a maintained tool, accessible source material or a combination. The choice follows the actual continuity problem.
+
+When development is wanted, use a consequential variation to open the next question. Change a premise, recipient, constraint or operation; examine the result through C.40. Preserve useful material and the means of further variation. C.18 supports an exploration archive; C.19 helps choose which directions in an active search pool to continue, retain or stop.
+
+Reconsider the arrangement when a relevant participant leaves, a tool or interface changes, an explanation ceases to support use, or a new question needs an unavailable operation. End the current work when its receiving use is supplied. Later renewal can begin from a later need.
+
+### C.36.RP:5 - Archetypal Grounding
+
+#### C.36.RP:5.1 - A replacement sensor and a changed interpretation
+
+The following is a constructed laboratory case. A group infers position `q` from a sensor indication `r` under a linear working account. The earlier device has reference readings `q=0, r=2` and `q=1, r=5`. They give `r=3q+2`, so indication 14 corresponds to position 4.
+
+A replacement device has available reference readings `q=0, r=4` and `q=2, r=10`. A saved notebook still returns 4 for indication 14. The group needs the method that relates a device's indication to position.
+
+The missing contribution is the replacement device's relation. A technician supplies its reference readings and conditions. An AI obtains the slope `(10-4)/(2-0)=3` and intercept 4. An engineer connects the resulting equation `r=3q+4` to the device and infers `q=(14-4)/3=10/3`. The saved answer changes because the physical interpretation changed.
+
+The group retains the two-point construction with its device and reference meanings and an obtainable way to perform each contribution. The technician need not derive every formula independently; the receiving engineer needs to recognize which device and account the formula concerns. The linear relation is a working assumption: two points determine its coefficients but leave empirical adequacy across a wider range open.
+
+A later question about another range can use that retained construction to ask where the linear account is usable or what further account is needed. The current case finishes at the interpreted conditional position result; a new inquiry depends on the use that needs it.
+
+#### C.36.RP:5.2 - Retain a rhythmic operation
+
+In this constructed case, an ensemble uses an eight-pulse cycle with onsets at 0, 3 and 6. New participants can copy the recording. The next arrangement requires shifting each onset position by `+2 modulo 8`.
+
+Adding two modulo eight gives 2, 5 and 0, or the ordered onset set 0, 2, 5. The operation depends on knowing the cycle, what an onset position means and how positions wrap at its end. Retaining those meanings lets a contributor produce the changed phrase.
+
+One musician demonstrates the original and changed phrases while counting the cycle. Another participant may use written marks or a computational representation. The ensemble retains a way to obtain the rotation and perform it in the receiving arrangement. Its musical practice supplies the performance and judgement of fit.
+
+The new phrase can become material for another variation. That continuation uses the operation and its means of performance. A claim about which phrase listeners find interesting adds the listener and musical-use question through E.10.INT.
+
+#### C.36.RP:5.3 - Learn a strategy discovered by AI
+
+Brinkmann and colleagues studied a machine-discovered strategy in a constrained reward-network task. Learners selected a demonstrator using available performance, watched and repeated its moves, attempted a solution, and then solved other networks. Nine of fifteen human-machine populations retained the strategy through the tested generations; six later lost it. This supports arranging receiving use while keeping later persistence open to observation. See [Brinkmann et al., 2026](https://www.nature.com/articles/s41467-026-76113-2.pdf).
+
+### C.36.RP:6 - Bias-Annotation
+
+The arrangement can unintentionally select participants by who already understands its representations or can access its tools. Inspect that effect when it changes who can contribute or benefit, and provide a different representation, help or access where the work calls for it.
+
+A familiar human learning method can be a poor choice for an AI learner, and an AI's efficient procedure can be difficult for a person to acquire. Recover the required contribution and the receiver's means before choosing transfer. Preserve an actual human understanding requirement when the work depends on it.
+
+### C.36.RP:7 - Conformance Checklist
+
+- [ ] The receiving work or development opportunity explains what needs to remain obtainable.
+- [ ] The found gap names an operation, interpretation, access or capability that can change that work.
+- [ ] The selected arrangement makes the required contributions obtainable by their receivers.
+- [ ] Acquisition, explanation or provision is suited to the participant and the required use.
+- [ ] A claimed performed transfer is supported by the receiving use that occurred; proposals retain what remains to be done.
+- [ ] Retained material and help support the intended later use or variation.
+- [ ] Continuation, renewal or stopping follows the work's value and remaining difficulty.
+
+### C.36.RP:8 - Common Anti-Patterns and How to Avoid Them
+
+| Anti-pattern | Why it fails here | Repair |
+|---|---|---|
+| Keep only the answer | The receiving variation needs an operation or interpretation absent from the saved result. | Retain or obtain the needed construction, explanation and means of use. |
+| Treat every failure as loss of skill | Missing access, a changed input or an unavailable tool can explain the failed use. | Locate the contribution and restore what the case needs through E.23.CAE. |
+| Teach every operation to everybody | The effort can exceed what the distributed work requires. | Allocate contributions and preserve understanding at the points that consume them. |
+| Preserve the old method by default | A changed situation or better method can make replacement useful. | Compare continuity through retention, redistribution and renewal. |
+| Claim enduring culture from one demonstration | Later availability and use remain outside the demonstrated occurrence. | Keep the claim at the supported scope; use C.36 for the later cultural question when it matters. |
+
+### C.36.RP:9 - Consequences
+
+The method makes continuity a question about usable contributions. A group can retain mathematical, physical or computational understanding while changing who performs particular operations. A promising discovery can enter shared work through an attainable form of acquisition or provision.
+
+The arrangement consumes resources. Explanation, practice, tools and access have costs, and some methods remain hard to transfer. The result can therefore be a useful redistribution, a narrower continuation or an identified contribution that still cannot be obtained.
+
+### C.36.RP:10 - Architectural Rationale
+
+C.36 describes cultural transmission, recognition, selection, retention and change. This member provides the coordination needed when participants must keep a method obtainable and usable through a change. Its work joins access and capability, the method's material and explanation, the receiving application and the next opportunity to develop it.
+
+C.40 supplies development through variation of usable material and coupled changes to problems and ways. That contribution is valuable after the practice can obtain the means of working with the material. A practice can also need continuity without a present search project, so the common coordination starts from the receiving work.
+
+The repertoire can be distributed across people and AI. Keeping it usable depends on the relations between contributions, including understanding where the result must be interpreted. The same arrangement can obtain knowledge, apply it and develop its method. This connects the epistemological and methodological sides of inquiry without prescribing one allocation of work for every practice.
+
+Descriptions and examples help because they can make operations recoverable. They work alongside trained participants and tools. A changed question tests a different use from repeating an answer; choose that variation when adaptation is part of the work being sustained.
+
+### C.36.RP:11 - SoTA-Echoing
+
+#### C.36.RP:11.1 - What must the receiving participants learn?
+
+The question is how to keep applying and adapting a useful method when its original contributor or tool changes. **Adapt:** locate the understanding or operation that the receiving work needs, then obtain it through a capable contributor, a tool or acquisition. This changes the allocation in §4.3 and the transfer in §§4.4–4.5.
+
+A serious alternative is to keep access to a capable provider and retain its usable results with their conditions. At the same application deadline and with the same available help, this can cost less than teaching the method to its receivers. Choose it when the provider can supply the expected variations and the receivers can interpret and use them. Where the receiver must recognize a changed physical interpretation, the answer alone leaves that operation unavailable. In §5.1 the group therefore keeps physical interpretation with the receiving engineer and obtains algebra through AI.
+
+[Klowden and Tao (2026), §4](https://arxiv.org/html/2603.26524v1), supplies the contemporary distinction between checking a mathematical result and understanding that supports further work. **Adopt** that distinction; **adapt** the allocation to other practices through the operation they need. The mathematical argument does not establish which human or AI allocation is best in every field. The demonstrated acquisition in §5.3 also separates receiving use from later persistence.
+
+The accepted trade-off is the time and support needed to make a missing operation obtainable. Compare that burden with continued provision before assigning learning. Reconsider the allocation when a cheaper provider supports the same use, access becomes unreliable, or the receiver still cannot perform the needed variation. Sections 4.2 and 4.5 then locate the part to change.
+
+#### C.36.RP:11.2 - What should remain available before its later use is known?
+
+**Adapt:** keep a promising method with the means of trying a worthwhile variation, as in §§4.1 and 4.6. The serious alternative is to retain only methods needed by currently specified work. That alternative protects time and attention when continuity of a stable activity is the task. For exploration, it can discard the very operation from which a new question could be developed.
+
+Stanley and Lehman's [2015 stepping-stone argument](https://doi.org/10.1007/978-3-319-15524-1) supplies this challenge to selecting solely by a known destination. [Enhanced POET (2020), §§2–3](https://proceedings.mlr.press/v119/wang20l/wang20l.pdf), supplies a computational construction in which difficulty relative to available agents, novelty and transfer work together. Its experimental environments support that combination under their conditions; they do not determine how a laboratory or ensemble should teach and retain its methods.
+
+With a fixed retention and practice budget, preserving the possibility of variation consumes resources that could support present work. Accept that trade-off where an attainable continuation is worth trying; §4.6 uses C.40 to develop it and C.18/C.19 for the relevant archive and live-pool choices. Retain an earlier variant when continued use, comparison or recovery needs it (§4.3). Reconsider retention when the variation becomes unattainable, its means become too costly, or another arrangement supports the useful continuation with less burden.
+
+### C.36.RP:12 - Relations
+
+- **Specializes C.36** for sustaining and renewing shared ways of working.
+- **Uses E.23.CAE and E.23.CDI** to distinguish unavailable use from capability change and to construct a needed development intervention.
+- **Uses B.5.RC, B.5.RA and B.5.MPC** for reconstruction, argument use and connected foundational reasoning where those contributions are needed.
+- **Uses C.40** to develop a method and its next questions through usable material and variation.
+- **Uses C.18 and C.19** for retained exploration material and the treatment of directions in an active search pool.
+- **Uses C.2.8** for the understanding a receiving explanation must support.
+- **Uses E.10.INT** when wording about interest or curiosity leaves the proposed continuation unclear.
+
+### C.36.RP:End
 
 # Part D - Multi-scale Ethics and Conflict Optimization
 
@@ -78030,7 +78249,7 @@ If the applicable pattern and the current object, direct relation and participan
 | Remaining unresolved question | Smallest next route |
 | --- | --- |
 | Local head, register, morphology, or already-settled token use | The applicable detailed `E.10` section. |
-| Meaning of `context`, learning-family wording, bare `role`, move or readiness wording, function-like wording, state-family wording, or characteristic wording | `E.10.D1`, `E.10.LRN`, `E.10.ROLE`, `E.10.MOVE`, `A.6.F`, `A.19.SPR`, or `C.16.P` respectively. |
+| Meaning of `context`, learning-family or interest-family wording, bare `role`, move or readiness wording, function-like wording, state-family wording, or characteristic wording | `E.10.D1`, `E.10.LRN`, `E.10.INT`, `E.10.ROLE`, `E.10.MOVE`, `A.6.F`, `A.19.SPR`, or `C.16.P` respectively. |
 | Development or evolution wording still hides the changed or represented subject, continuity or membership, posture, direction or value basis, direct owner, or receiving use | `E.10.DEV`; continue to `E.10.MOVE` only when an independent trajectory, route, path, ordering, posture, or representation ambiguity remains. |
 | Direct predicate or actual participant remains unclear | `A.6.P`; use `A.6.RCD` only after both are clear and no current pattern defines or constrains the predicate. |
 | Fact, reusable relation declaration, claim or report, and representation are still being confused | `E.10.ARCH`, followed by the exact subject pattern. |
@@ -78628,7 +78847,7 @@ Use these fields only when a receiving review or decision needs an inspectable w
 
 1. `BoundedTextSpan`: the exact sentence, row, section, pattern version, `DRR` slice, or project text deliberately using FPF-governed terms, pattern references, relation names, or conformance claims under repair.
 2. `TriggerSpan`: the word or phrase that carries possible FPF-governed use.
-3. `SelectedInterpretation`: one applicable repair-path classification from this closed value set—ordinary no FPF-governed use, local head repair, register repair, morphology repair, context-word recovery through `E.10.D1`, learning-word recovery through `E.10.LRN`, bare-role meaning recovery through `E.10.ROLE`, relation-like precision restoration, episteme precision restoration, publication precision restoration, source-use relation or source-ref target recovery, durable naming, or not-triggered false positive.
+3. `SelectedInterpretation`: one applicable repair-path classification from this closed value set—ordinary no FPF-governed use, local head repair, register repair, morphology repair, context-word recovery through `E.10.D1`, learning-word recovery through `E.10.LRN`, interest-or-curiosity recovery through `E.10.INT`, bare-role meaning recovery through `E.10.ROLE`, relation-like precision restoration, episteme precision restoration, publication precision restoration, source-use relation or source-ref target recovery, durable naming, or not-triggered false positive.
 4. `FinalWordingOrBlocker`: the accepted local wording, the result returned by the selected repair or pattern, or the blocker that remains.
 5. `StopBackToSubstance`: once the final wording or blocker is written, return to the domain question that made the phrase matter. Further lexical classification is non-use unless another phrase still hides an FPF-governed claim.
 
@@ -79738,6 +79957,171 @@ Recheck a source line only when a newer edition changes a distinction used by th
 
 ### E.10.LRN:End
 
+## E.10.INT - Recovering What Interest or Curiosity Means Here
+
+> **Type:** lexical and ontological precision restoration (E)
+>
+> **Status:** Draft
+
+### E.10.INT:1 - Problem frame
+
+**Use this when** a claim that something is *interesting*, *in someone's interest* or *driven by curiosity* is being used to choose work, but leaves you unsure what to do. You may need to select an experiment, retain a promising construction, design an agent's exploration policy or understand why participants want different outcomes.
+
+Begin by saying whose interest is involved and what the sentence proposes. “This experiment is interesting” might mean that its result would distinguish two models, that a participant wants to try it, or that the resulting technique could support further experiments. Each meaning can guide useful work.
+
+The first result is a clearer sentence and a next action that follows from its meaning. Keep ordinary wording when its meaning is already sufficient. A musician expressing delight and a contract stating an interest rate can continue their respective work without this recovery.
+
+### E.10.INT:2 - Problem
+
+The same word connects several different questions. An informative observation changes beliefs; a learning-progress signal compares what a learner can do; a promising stepping stone offers further possibilities; an affected participant has something to gain or lose. In a joint project these relations often coexist.
+
+Their differences matter when a phrase becomes an instruction. Asking an agent to maximize “surprise” may reward unpredictable observations instead of observations that help it distinguish its hypotheses. Requiring a promising idea to demonstrate progress toward a distant goal may discard the very construction from which another goal could emerge. Selecting an “interesting rhythm” leaves the choice unresolved until the listener, performer or musical use is known.
+
+### E.10.INT:3 - Forces
+
+| Force | Working tension |
+|---|---|
+| Shared vocabulary | A short familiar word helps discussion, but can hide which participant or consequence guides a choice. |
+| Several useful explanations | Motivation, information gain and future possibilities may contribute together, while their measures answer different questions. |
+| Open exploration | A present clue can justify trying a continuation before its eventual uses can be predicted. |
+| Proportionate precision | A consequential choice needs its meaning restored; an ordinary expression often needs no further work. |
+
+### E.10.INT:4 - Solution
+
+Recover the relied-on meaning, then continue the work that gives it value.
+
+1. **Locate the claim that matters.** Take the sentence together with the decision or activity it is meant to guide. Ask what would change if the object were judged interesting. If nothing depends on that judgement, keep the expression as it stands.
+2. **Name the participant and relation.** Identify who is engaged, affected, learning or choosing. Identify what draws attention, what might change, or what the participant stands to gain or lose. Use the distinctions in §4.1 only where they resolve the sentence.
+3. **Preserve combined meanings.** If a participant enjoys an experiment and the experiment could distinguish two models, say both. Let the corresponding motivation and inquiry methods supply their different contributions.
+4. **Restore a needed comparison.** When a score or optimization rule is proposed, name what it compares and under which model, experience or resources. Use §4.2 to resolve ambiguous appeals to surprise, progress or a Goldilocks region.
+5. **Return to the action.** Rewrite the claim so its recipient can choose, inquire, practise, retain a result or explain a concern. Continue once that meaning is sufficient. A shared decision can keep the clarification in its existing account; an ordinary sentence needs no additional form.
+
+#### E.10.INT:4.1 - Recover the contribution being claimed
+
+These are recurring uses of the wording. Select the ones needed for the sentence; several can apply together.
+
+| What the wording is doing | What to recover | Example of the resulting claim |
+|---|---|---|
+| Expressing a participant's stake | The participant, affected outcome and consequence | “The maintenance team wants the inspection window because it can then replace the worn coupling.” |
+| Expressing attraction or engagement | The person or group, activity and response | “These listeners want to keep moving to this rhythm.” |
+| Selecting information-seeking action | The agent's uncertainty, available observation and use of the resulting information | “The controller samples input 1 to distinguish the two candidate relations before choosing its command.” |
+| Describing learning progress | The learner or model, what changes and the comparison | “After training, the compressor describes the same material in fewer bits.” |
+| Explaining active-inference policy selection | The generative model, candidate actions, information expected from them and preferences over outcomes | “The agent first observes the cue to learn which action is likely to produce its preferred outcome.” |
+| Recognizing a promising continuation | The present clue, available variation or combination, and what is worth trying or retaining | “This construction permits a new family of transformations; keep it available for exploration.” |
+
+An information-seeking policy can be attributed to a human, an AI agent or a collective whose members obtain and use the information. For a claim about a person's experience, preserve that experiencer. A policy description alone leaves the question of subjective experience open.
+
+A prospective continuation can be supported by a hunch, a newly available operation or a promising variation. State that basis at its actual strength. Where its future destination is unknown, the next action can be to explore or retain the construction. C.18 supplies retention in an exploration archive; C.19 helps choose which directions in an active search pool to continue, retain or stop; C.40 helps develop problems and ways together.
+
+#### E.10.INT:4.2 - Recover the model behind the comparison
+
+For **surprise**, first recover the quantity being used. The surprisal of an observation, `-log p(observation)`, concerns its probability under a selected model. Bayesian surprise concerns the change from prior to posterior beliefs about chosen variables. Expected information gain evaluates a possible observation before it is obtained. A learning-progress signal compares successive predictive or constructive performance under a learning procedure. Those comparisons can disagree, as §5.1 shows.
+
+In **active inference**, distinguish updating beliefs from selecting actions. Predictive coding uses prediction errors to update beliefs about hidden states and, in learning formulations, model parameters. Policy selection also depends on the information and outcomes expected from action. Recover the prior preferences when a source explains avoiding an outcome through its expected surprise. The source's account may couple epistemic and pragmatic value. Preserve that coupling together with the quantities and assumptions that give it meaning.
+
+For a **Goldilocks region**, recover what varies, for which agent and use, and over which range. It might concern an attainable learning challenge, a listener's response to syncopation or a combination of rhythmic properties. Use the applicable account of the relation between those characteristics and the desired result. The useful region can move as the agent learns or as the task changes. In a search algorithm, a difficulty screen can select candidates for learning while novelty and transfer still govern which possibilities are retained.
+
+When a quantitative answer is needed, C.16 supplies measurement and C.17 separates novelty, usefulness and sample surprise. Keep an adequate qualitative comparison when it already settles the action.
+
+#### E.10.INT:4.3 - Combine contributions in a development project
+
+A project can use information-seeking to distinguish alternatives, learning progress to choose a promising practice opportunity, and novelty or diversity to retain further possibilities. State the contribution of each rule to that project.
+
+For example, a group can test the controller in §5.1 during a maintenance window. The researcher calls input 1 interesting because its response distinguishes two candidate relations. A colleague sees the query construction as material for other unknown interfaces. The maintenance team needs the controller returned to service before the window ends. Recover their claims as three instructions: “Query input 1 to choose the command”; “Keep this construction available for exploration of other interfaces”; and “Schedule controller work within the available window.” If the relation is supplied, the query becomes unnecessary. The potential use of the construction remains, and the window still constrains any remaining controller work.
+
+C.11 compares formed options when a choice is needed. C.19 helps decide which directions in an active search pool to continue, retain or stop. A single agent's information-seeking policy uses the applicable subject method; choosing among formed queries can use C.11. C.40 supports the development of problems and ways. The field's methods supply the experiment, training activity or construction itself.
+
+### E.10.INT:5 - Archetypal Grounding
+
+#### E.10.INT:5.1 - An informative controller query
+
+A controller must choose an input that gives output 5. It has two equally plausible candidate relations, `y=x` and `y=-x`, and can first query input 0 or input 1. “Choose the more surprising query” leaves the criterion unclear.
+
+At input 0 both candidates return 0. At input 1 they return 1 and -1 respectively. The second query distinguishes the candidates: after observing 1, command 5; after observing -1, command -5. The recovered instruction is “query input 1 to distinguish the relations, then choose the command.”
+
+A separate fair coin produces an outcome with one bit of surprisal, but its outcome is independent of which relation holds. Querying input 1 yields one bit of information about that relation under the stated equal prior. Tossing the coin yields none. If the controller is already given the relation, it can select the command immediately.
+
+The example constructs an information-seeking policy. Whether a particular controller can execute it is a further capability question.
+
+#### E.10.INT:5.2 - Progress and a stepping stone
+
+In a constructed example, a compressor learns a dictionary entry for a repeated substring in a fixed data block. Its total lossless description of that block, counting the dictionary and encoded data under the same convention, falls from 100 bits before the update to 80 afterwards. “The second version is more interesting” can now be recovered as “this dictionary update reduced the total description by 20 bits for this block.” If the team is choosing more training, it considers the likely further improvement and the work required.
+
+Another construction may deserve attention even though that measure has not improved. In Stanley and Lehman's Picbreeder example, a participant retained and developed an image resembling an alien face; a car-like image appeared through later changes. The first participant could act on the available image and its variation possibilities before knowing that destination. The practical result of this recovery is to retain the construction and its means of variation for exploration. C.18 governs an archive used for that purpose.
+
+These cases permit different choices: improving a known performance measure and preserving a possible starting point for new work.
+
+#### E.10.INT:5.3 - Choosing an interesting rhythm
+
+A workshop needs music for listeners who are familiar with 4/4 and are beginning to work with 7/8. “Choose moderately complex rhythms; they are the most interesting” hides both the response sought and the listeners' preparation.
+
+Recover the request as “choose material that helps these listeners maintain the beat and want to move while encountering 7/8.” The facilitator can start from simpler 7/8 material and adjust from the listeners' response. If the purpose is instead to exercise a skilled drummer's coordination, that practice question needs its own choice of material.
+
+This distinction is supported by Spiech and colleagues' study: Western listeners' groove ratings peaked at moderate complexity in 4/4, while simpler rhythms received the highest ratings in the less common meters tested. Here *groove* means the pleasurable urge to move. The study supports adapting the comparison to listener and meter; the workshop's teaching method supplies the exercise.
+
+### E.10.INT:6 - Bias-Annotation
+
+The source traditions model different aspects of agency. A person's felt curiosity, an AI policy's objective and a collective's exploration practice call for different accounts of how the effect occurs. Use the shared recovery procedure to keep those subjects visible while comparing their contributions.
+
+Rhythm examples also depend on musical experience. A result for Western listeners and selected meters provides a qualified starting point for that use; another musical practice may support another comparison.
+
+### E.10.INT:7 - Conformance Checklist
+
+- The repaired sentence identifies the participant and the contribution that matters to the work.
+- Combined meanings remain recoverable when both affect the action.
+- A proposed score retains its model, comparison and receiving use.
+- An exploratory continuation can proceed from its present basis while its eventual destination remains unknown.
+- The reader can resume the relevant activity, or identify the particular unresolved meaning that prevents it.
+- The recovery stops when ordinary wording is sufficient; further measurement or inquiry follows the needs of the activity.
+
+### E.10.INT:8 - Common Anti-Patterns and How to Avoid Them
+
+| Misuse | Why it changes the work | Repair |
+|---|---|---|
+| Rewarding unpredictable observations as if they resolved uncertainty | A random source can consume the query budget while leaving the relevant hypotheses unchanged. | Identify which observation updates beliefs about the question being investigated. |
+| Requiring a stepping stone to justify a distant objective | The eventual use may become visible only after the construction is varied or combined with another. | Judge the available exploration or retention opportunity from its present basis. |
+| Applying “moderate complexity” across agents and tasks | The learner's available methods or the listener's familiar structure can change which material is usable. | Recover the varying characteristic and the agent-relative comparison. |
+| Treating one participant's interest as the project's entire choice rule | Other participants can bear different consequences. | State the affected stakes before the applicable decision method compares options. |
+
+### E.10.INT:9 - Consequences
+
+A clarified interest claim can guide an experiment, an exploration policy, a practice choice or a discussion of stakes. A project can combine these contributions while preserving what each one explains.
+
+Recovery sometimes reveals that the needed information is absent. Keep that uncertainty attached to the claim. Obtain more information only when its possible contribution warrants the work, using C.11.DUA when the advice or demand itself needs examination.
+
+### E.10.INT:10 - Architectural Rationale
+
+The common operation is to recover the relation hidden by a familiar expression. A single engagement score would lose the distinction between a participant's response, a model's progress and a construction's further uses. Conversely, treating these meanings in isolation would miss how one project coordinates them.
+
+The procedure therefore identifies the participant and contribution first, and adds models or measurements only for the question that needs them. This also lets a promising new method be pursued from available clues while later uses are still being discovered.
+
+### E.10.INT:11 - SoTA-Echoing
+
+**Learning progress.** Schmidhuber's historical [formal theory of creativity and intrinsic motivation](https://people.idsia.ch/~juergen/ieeecreative.pdf) distinguishes improvement of a predictor or compressor from the unpredictability of its input. Adopt that comparison for progress claims in §4.2. The competing shortcut, fixed-model surprise, can reward an unlearnable signal; §5.1 makes the related information-seeking error actionable.
+
+**Information-seeking policies.** [Paprika](https://arxiv.org/html/2502.17543v3) describes strategic information gathering for task completion without an intrinsic-motivation reward. Its training curriculum uses a coefficient-of-variation heuristic for sampling tasks. Adapt the policy distinction in §4.1; keep that sampling heuristic separate from a measurement of acquired capability.
+
+**Active inference.** [Friston et al. (2017), §2](https://activeinference.github.io/papers/process_theory.pdf), supplies the historical coupling of epistemic and pragmatic value. Their [2025 technical note](https://arxiv.org/abs/2512.21129) extends information-seeking to distinctions among model structures. Adapt those contributions in §4.2: recover the model, expected information and preferences behind the action. This supplies a richer continuation than explaining all exploration as aversion to an unexpected observation; the selected formal account still determines its assumptions.
+
+**Open-ended search.** Stanley and Lehman's [Why Greatness Cannot Be Planned](https://doi.org/10.1007/978-3-319-15524-1), Chapters 5 and 9, gives the historical argument for judging available stepping stones without requiring their final destination. [Enhanced POET](https://proceedings.mlr.press/v119/wang20l.html), §§2-3, combines a population-relative difficulty screen with novelty and transfer. Adopt the distinction between an attainable learning opportunity and retained possibilities in §§4.1-4.3. A progress-only selector can lose the latter; the particular search method must supply its generation, retention and resource rules.
+
+**Agent-relative challenge.** [Oudeyer's 2026 preprint review](https://pyoudeyer.com/Curiosity-Review-OudeyerMarch26.pdf) compares curiosity processes across timescales and examines conditions for an intermediate-knowledge preference. Adapt this conditional treatment of the Goldilocks region. It improves on an agent-independent midpoint rule by retaining the learner, environment and changing knowledge.
+
+**Rhythmic interest.** Toussaint's *The Geometry of Musical Rhythm*, second edition, Chapter 41 and Epilogue, develops an account using several rhythmic properties and their combinations. [Spiech et al. (2025)](https://www.nature.com/articles/s44271-025-00360-0) compare groove ratings across complexity and meter in three behavioral experiments. Adapt their listener-and-meter distinction in §5.3. It provides a more useful selection basis than a universal complexity optimum, while leaving rhythm construction and teaching to their field methods.
+
+Reconsider these comparisons when a source provides a better account of the particular contribution, changes the conditions under which a signal works, or enables the same action with less inference or measurement.
+
+### E.10.INT:12 - Relations
+
+- **E.10 and E.10.ARCH** locate this recovery when interest-family wording hides the relation needed for work. F.19 handles the surrounding prose.
+- **E.10.LRN** recovers a remaining ambiguity about what learned or changed. E.10.DEV handles a remaining development or evolution claim.
+- **C.16 and C.17** supply measurement and the distinctions among novelty, usefulness and sample surprise.
+- **C.11** compares formed options; **C.19** governs directions in an active search pool; **C.18** supplies retention in an exploration archive. **C.40** develops problems and ways together.
+- **D.1 and D.3** supply ethical-value and conflict analysis when affected interests raise those questions.
+- **E.23.CDI** separates a described acquisition method, its execution and an asserted capability change. The applicable field pattern supplies the acquisition or intervention method.
+
+### E.10.INT:End
+
 ## E.10.DEV - Recovering What Development or Evolution Means in the Current Claim
 
 > **Type:** Part E precision-restoration pattern
@@ -80511,6 +80895,7 @@ Use this reference table to select or author a shared recovery rule for the unre
 | Relation construction; primary recoverable use is an obtaining direct relation or a relation-bearing claim | `A.6.P` only while recovery is needed, then the ClaimGraph or declaration that defines the exact predicate; `A.6.RCD` only after exact participants are recovered and no current direct relation closes the named receiving claim | Relation, endpoint, qualifier, slot, scope, time, viewpoint, evidence-use distinction, basedness, service, bridge wording, whole or part, mapping, comparison, dependency, or evaluative ascription when the hidden claim is relation construction. | Exact direct relation kind; participant meanings and actual governed participants; obtaining predicate; occurrence identity only for a named receiving use. A reusable `RelationSignature` and A.6.5 `SlotSpec` values appear only when typed declaration is current. A claim-bearing assertion or occurrence-description episteme and its participant designations appear only when that claim is current. | Short direct-relation sentence; exact claim-bearing episteme; reusable predicate-definition episteme; separately settled relation kind; use of the predicate's defining or testing rule; `A.6.RCD` result; or fail-closed Plain disposition. |
 | Bare claim-bearing *role*; primary recoverable use may be an exact local system-role kind, one direct assignment occurrence, direct-relation participation, a declaration place, representation position, another object or relation, episteme use, or ordinary wording | `E.10.ROLE` unless the object and the rule defining or testing it are already clear | Bare *role*, title-like `role`, `plays a role`, `role in`, or close wording on which an FPF claim relies | Ordinary sentence naming the recognizable object and action or relation; one exact selected object or relation; the rule defining, constraining, or testing it; no default system-role reading; no fixed expansion | Local rewrite, direct use of the recovered rule, ordinary or quoted non-use, exact `missing-governor`, blocker, or stop. |
 | Learning-word recovery; primary recoverable use is an exact changed subject, Work, Method, result, evidence claim, or receiving use hidden by one learning-family expression | `E.10.LRN` unless the direct claim and its governing rule are already clear | *learn*, *learning*, *learned*, *taught*, *trained*, *learning progress*, *learned representation*, and close claim-bearing wording | Participants; changed subject; Work and Method only when current; direct result; evidence and any transfer boundary needed by the receiving use; direct governing pattern; and split boundary for unlike claims | Repaired or split direct claims; direct pattern use; ordinary or quoted non-use; exact missing-information or missing-governor result; blocker; or stop. No generic Learning ontology, result, progress scale, or UTS row. |
+| Interest-or-curiosity recovery; wording hides a participant, engagement, informational contribution or prospective use | `E.10.INT` when the ambiguity changes the work | *interest*, *interesting*, *interested*, *curious*, *curiosity*, or a relied-on appeal to a Goldilocks region | Participant and contribution; combined meanings where needed; model or comparison only when the action depends on it | Clarified claim and continuation through the applicable inquiry, learning, exploration, decision or field method; ordinary wording when already sufficient. |
 | Development or evolution wording recovery; primary recoverable use is an exact changed or represented subject, continuity or membership basis, posture, direction or value claim, direct owner, or receiving use hidden by one development- or evolution-family expression | `E.10.DEV` unless the direct claim and its governing rule are already clear; use `E.10.MOVE` afterward only for an independent trajectory or path ambiguity | *development*, *develop*, *evolution*, *evolve*, *progress*, *growth*, *maturation*, *adaptation*, *lineage*, *development trajectory*, and close claim-bearing wording | Changed or represented subject; needed continuity or membership; separation of Work, Method, plan, result, evidence, and representation; posture; any declared direction or value basis; direct owner; receiving use; one-pass overlap stop; and an optional grounded non-use boundary only when `F.19` requires it | Repaired direct claim; direct pattern use; ordinary or quoted non-use; exact missing information or architecture gap; blocker; or stop. If the repaired sentence separately exposes known participants but lacks a direct-relation governor, exit to `A.6.P` or `A.6.P.WMR`; only that relation-recovery branch may return `missing-governor`. No generic Development kind, Evolution kind, lifecycle, stage scale, programme, evidence rule, population ontology, or `DevelopmentTrajectory` kind. |
 | Relation, declaration, interface, assignment, or slot wording; the sentence may hide a direct relation, reusable declaration, interface claim, bundle of boundary claims, assignment, port, another governed object or claim that belongs under a neighboring rule, or a source label that should remain reduced-use wording | `A.6.RSIR` until the direct relation, declaration, interface, or other governed object is clear; then use the rule that defines, constrains, or tests the recovered claim | Wording that may denote a relation, its reusable declaration, an interface or representation position, or a neighboring governed object—for example relation, signature, interface, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest—plus the direct-relation, declaration, interface, operation, or representation branch recovered under `E.10.ROLE`. | Project concern; the governed object or claim at issue; its defining, constraining, or testing rule and pattern locator; A.6.5 `SlotSpec` only when a reusable declaration is needed; any source label to retain; and the stop condition. A grounded non-use boundary appears only when it changes the receiving use. | `RSIRRepairNote` when the full note is needed; otherwise a direct rewrite, use of the recovered rule, reduced-use or quote-only source wording, a grounded non-use disposition, or stop. |
 | Function-like wording; primary recoverable use is an exact governed object or claim hidden by `function`, `functional`, `functionality`, `effect`, or similar wording | `A.6.F` first when the exact object, claim, or its defining or testing rule is not already recovered; otherwise use that rule directly | Functional architecture, required transformation or effect, method, Work occurrence, direct subject effect, measurement-result episteme, evaluation result, `C.11` `ChoiceResult` or decision record, system-role expectation, mathematical function, relation, loss, objective, quality or functionality claim, module allocation, interface or signature relation, or evidence, assurance, gate, or decision overread. | `FunctionUseRepair`; exact governed object or claim and its defining or testing rule; admitted direct predicate and actual participants when a relation is involved; one exact `C.2.1` relational-assertion episteme only when the text makes an affirmative, negative, or modal claim about that predicate; one occurrence distinction under the recovered relation's identity rule, applied through `A.6.REL`, only when the task must distinguish one obtaining episode from another; `C.30` or `C.30.ASV` functional-structure boundary; `C.29` mathematical-lens boundary; `C.16` or `C.25` quality boundary; `A.6.M` module-interface relations; and an `A.6.0` `RelationSignature` with A.6.5 `SlotSpec` values only when reusable declaration is needed. | Short statement naming the exact object or claim and the rule used; direct predicate with actual participants when a relation is involved; `C.2.1` assertion only when claim identity must be preserved; occurrence distinction under the recovered relation's identity rule only when one obtaining episode must be distinguished; `FunctionFlowModuleAlignmentNote`; mathematical-lens, quality, characteristic, or `A.6.M` result; ordinary-prose demotion; or stop. |
