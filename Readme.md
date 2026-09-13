@@ -104,66 +104,15 @@ FPF becomes useful when an ordinary conversation, document, dashboard, or genera
 | Humans and AI agents produce fluent output but disagree about facts, evidence, permission, or who decides. | Separate claims for capability, assignment, permission, authority, responsibility, evidence, and actual performed Work. |
 | A technical explanation or narrative is compelling but cannot be traced back to the source structure. | Source selection, preserved and lost relations, viewpoint, compression, reconstruction checks, evidence limits, and source return. |
 
-## How to use FPF with an AI agent
+## Use FPF with your agent
 
-### 1. Give the agent grounded access
+Copy `FPF-Spec.md`, `Readme.md`, `USING-FPF.md`, `LICENSE`, `LICENSING.md`, and the `Engineering DPF Suite` folder into a folder in your project, for example `fpf/`. Include other DPF publications you need, and preserve the relative paths of their accompanying files.
 
-For lightweight use, attach or index [FPF Core](./FPF-Spec.md) and only the DPF publications relevant to the task. For programmatic access to the current FPF Core reference, use the hosted [`fpf_reference` MCP service](https://mcp.fpf.sh/), which provides bounded search, structured queries, exact-document lookup, citations, and source-snapshot status. Attach or index a relevant DPF separately unless the current service snapshot explicitly reports that publication as included.
+Add the following paragraph to the project instructions your agent environment actually loads, whether those are kept in a file or in its settings. Replace `fpf/` with your chosen path:
 
-The MCP service is a lookup interface over its indexed FPF publication snapshot. It is not agent memory, a job-state store, a project-policy authority, or an engine that performs the engineering Work.
+> Use FPF and Engineering DPF Suite from `fpf/` for this project's work. Before using them, read `fpf/USING-FPF.md` and follow its guidance for choosing, reading, and applying patterns. Explain results and give feedback in the language of our work. Preserve the meaning of the sources.
 
-### 2. Start in the project's ordinary language
-
-Describe the actual difficulty, the object at stake, the decision or action that the answer must support, and the evidence already available. Do not begin by guessing a PatternID. Ask the agent to compare a small plausible set of patterns by their declared Situation and Question.
-
-### 3. Ask for one useful result
-
-The first answer should improve the current Work: clarify a subject, repair a claim, compare options, identify a missing interface, qualify evidence use, prepare a decision, expose a capability gap, or return an honest blocker. It should not inflate one local question into a complete project methodology.
-
-### 4. Make the answer inspectable
-
-Ask for plain technical language first, followed by exact PatternIDs and source locations. Require traceability to the relied-on patterns and evidence, plus assumptions, uncertainty, protected trade-offs, missing permissions or authority, and conditions that would reopen the result. Keep human review explicit whenever the result will support a consequential decision.
-
-### 5. Continue only when another question becomes current
-
-One result may reveal another concrete question. Apply the pattern that owns that new question. Do not infer a universal sequence from this local dependency.
-
-## Recommended first prompt
-
-```text
-You have grounded access to FPF Core and the relevant FPF-grounded DPF
-publications. Act as an FPF-driven engineering collaborator, not as an
-automatic authority or a generic project planner.
-
-Current situation and question:
-[Describe the actual project object, difficulty, intended use of the answer,
-constraints, available evidence, and decision or action that may follow.]
-
-1. Restate the actual subject, situation, and current question in plain
-   technical language. Distinguish the engineered System or other object from
-   its descriptions, models, plans, claims, and records.
-2. Compare a small plausible set of patterns by their declared Situation and
-   Question. Select only the pattern or cooperating patterns whose questions
-   are current. Do not infer a process from PatternIDs, file order, catalog
-   order, or example order.
-3. Produce the smallest useful result for the current Work, or return an
-   honest blocker. Help choose the next justified move, but do not invent a
-   universal project sequence.
-4. Keep Method, MethodDescription, WorkPlan, actual Work, result, capability,
-   assignment, permission, responsibility, authority, evidence, assurance,
-   and decision distinct whenever these distinctions affect truth or action.
-5. Do not treat an AI-generated statement, a fluent explanation, a passed
-   check, a document, a job title, or a model output as evidence or authority
-   without the required basis.
-6. State assumptions, alternatives, trade-offs, evidence limits, uncertainty,
-   missing facts or capabilities, and the conditions that would reopen the
-   result.
-7. Explain the result for an engineer who also coordinates specialists,
-   providers, tools, robots, and AI; negotiates architecture and interfaces;
-   organizes reviews and working meetings; and makes responsible decisions.
-8. After the plain explanation, give the exact FPF/DPF PatternIDs and source
-   locations used so the result can be inspected.
-```
+If the environment has no persistent project instructions, send that paragraph as the first message. Then describe the actual project question, constraints, and available evidence. [USING-FPF.md](./USING-FPF.md) contains the agent's working instructions, file structure, and search examples.
 
 ## Start from the question that is current now
 
