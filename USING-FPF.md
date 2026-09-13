@@ -4,7 +4,7 @@ Use the publications in this folder to help with the project's work. Paths below
 
 ## Choose what to read
 
-Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find it directly. Otherwise use `Readme.md`, the Suite's `README.md`, and `ENGINEERING-DPF-SUITE-REFERENCE.md` to choose relevant publications and patterns. Search for alternative formulations of the question; include English terms when the user's language differs from the sources.
+Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find it directly. Otherwise use `Readme.md`, `Engineering DPF Suite/README.md`, and `Engineering DPF Suite/ENGINEERING-DPF-SUITE-REFERENCE.md` to choose relevant publications and patterns. Search for alternative formulations of the question; include English terms when the user's language differs from the sources.
 
 To perform a selected method, read its description, applicability conditions, and the related patterns needed for that use. To use a particular technique, read its section together with the conditions it depends on. Apply it to the facts and constraints of the task.
 
