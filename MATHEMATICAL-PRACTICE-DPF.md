@@ -3,22 +3,20 @@
 > A pattern language for constructing mathematical objects, operations and arguments, using their results, and developing the next useful question.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** September 2026
+- **Version:** 15 September 2026
 - **Status:** Eternal alpha: a growing repertoire of methods for mathematical work.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Begin with the mathematical question in your work. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme gives selected entries; Preface explains how the methods connect and when to revise a construction.
+Begin with the working question. If you have not yet identified its mathematical contribution, use Readme entry MP-FRAME. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme gives selected entries; Preface explains how the methods connect and when to revise a construction.
 
 The reference code **MATH** names this DPF. Its numbers are stable pattern addresses; § shows position in this edition. References such as B.5.RA and C.29.1 name patterns in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) (September 2026). Use those patterns when the cited question arises.
 
 When a mathematical result changes a working method, [Method Engineering DPF](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) (11 September 2026) provides two further methods: ME.7 helps resolve a proposed composition of methods; ME.12 helps locate an inconsistency between a method, its descriptions, the work performed and its supporting means.
 
-When operations performed by different participants can overlap and change values used by one another, [Mathematical Modeling Practice DPF](https://github.com/ailev/FPF/blob/main/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp5---model-overlapping-work-with-shared-state) (September 2026) supplies MMP.5 - Model Overlapping Work with Shared State. It represents shared values, each participant's stored observations and the steps between which another participant can intervene.
-
 Open the cited publications for those pattern bodies. When using another edition, revisit your conclusion if a cited operation or condition has changed.
 
-To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
+To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, 15 September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
 
 # Table of Contents
 
@@ -38,7 +36,6 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, September 
 | 3 | [MATH.2 - Form a Quotient That Preserves Operations](#math2---form-a-quotient-that-preserves-operations) |  | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
 | 4 | [MATH.5 - Extend a Generator Assignment to a Homomorphism](#math5---extend-a-generator-assignment-to-a-homomorphism) |  | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
 | 5 | [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection) |  | bijection; transport; inverse map; isomorphism; domain of operation. How can a useful operation, law and answer be carried through a change of representation? | MATH.2 when identification is proposed instead of a bijection; C.29 for interpretation in another subject. |
-| 6 | [MATH.14 - Eliminate Linear Unknowns and Recover the Answer](#math14---eliminate-linear-unknowns-and-recover-the-answer) |  | linear equations; pivot; parameter cases; recovery; Schur complement. How can a smaller system retain all solutions and a requested output? When can an answer be fixed while unknowns remain free? | MATH.6 for a reduction counterexample; C.16.IR when the equations interpret observations. |
 
 ## Part B - Derive and test mathematical claims
 
@@ -53,27 +50,28 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, September 
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.15 - Find a Complete Matching and Test Uniqueness](#math15---find-a-complete-matching-and-test-uniqueness) |  | bipartite matching; allowed pairs; alternating path; shortage; uniqueness; shared condition. Can every element receive one partner? Does a complete pairing remain unique under the joint constraints? | MATH.1 for paths; MATH.14 for linear-equation questions after matrix reordering; C.29 for interpreting an assignment in another subject. |
-| 2 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) |  | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
-| 3 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) |  | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
-| 4 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) |  | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
-| 5 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) |  | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
-
-## Part D - Combine mathematical costs
-
-| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
-| :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.3 - Compose Minimum-Cost Tables](#math3---compose-minimum-cost-tables) |  | minimum cost; min-plus; weighted composition; intermediate states; attaining route. How can minimum costs be combined while preserving permission and feasibility? | MATH.1 for missing composition rules; MATH.2 before discarding a relevant state distinction. |
+| 1 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) |  | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
+| 2 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) |  | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
+| 3 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) |  | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
+| 4 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) |  | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
 
 # Mathematical Practice - Readme
 
 ## Practical entries
 
-Start with the mathematical question that prevents the next step in your work. The entries illustrate selected uses. Find one that matches your question, then open its named pattern for the construction and worked cases. Use the Table of Contents and pattern Problem frames for further questions.
+Begin with the question that prevents the next step in your work. It may concern an observed situation, an unfamiliar explanation, a calculation or a mathematical construction. If you do not yet know what mathematics is needed, start with MP-FRAME below. For an already formulated mathematical question, use the other entries and the Table of Contents to find the required construction.
 
 The patterns state their mathematical prerequisites. Their constructions can be used in mathematics itself or to describe another subject. For an application, distinguish the mathematical result from what it says about that subject. FPF C.29 helps establish and use that correspondence.
 
 You can ask an assisting agent to explain an answer or give feedback in ordinary language, without FPF terminology. For example: “Explain this and comment on my proposal without FPF jargon; use the language of my work.”
+
+### MP-FRAME - Find the mathematical contribution in an unfamiliar problem
+
+- **Situation:** Something in the work is unexplained or fails, and you do not yet know whether another observation, a new model, a mathematical construction or a different computation is needed.
+- **Question:** What must become distinguishable or possible for the next answer to be useful?
+- **First useful result or blocker:** A mathematical task with a stated use. For example, a cart's travel log gives total distance, but that total cannot tell whether the cart returned to its start. Identify the position question first. With straight-line motion and known displacements, a sequence of signed displacements supplies an account that can answer it. MATH.1 constructs the sequences and their composition; MATH.5 derives the accumulated displacement from the elementary displacements. A sensor report must first be interpreted as the movement it measures.
+- **Start with:** FPF B.5.FM. State the working question, identify the participants and relations that may change its answer, and build a small account that yields a consequence. If an unfamiliar theory supplies the account, B.5.TU helps construct its application. B.5.MPC connects the physical, mathematical and computational contributions when the difficulty lies between them. Their bodies are in the FPF publication linked above. If the problem is deciding what an object must let you form or recover, use MATH.16. If it is deciding which distinctions can be forgotten, use MATH.2. If an implication is doubtful, use MATH.6. The question determines the construction; an available formula may settle only part of it. C.29 supplies the interpretation through which a mathematical result answers the original question. C.29.2/.3 develop a needed procedure and its execution.
+- **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, ME.7/ME.12 help develop its composition and keep its description consistent with the work. The Preface's worked use follows these choices in detail.
 
 ### MP-CONSTRUCT - Choose an object from what it must let you do
 
@@ -98,14 +96,6 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 - **First useful result or blocker:** A usable operation on classes, or two supposedly interchangeable inputs that lead to different answers. Suppose a temperature-checking method receives values labelled Celsius or kelvin. It first converts them to kelvin, then tests whether they lie in the inclusive interval from 273.15 to 303.15 kelvin. Grouping inputs by the numeral alone loses the test's answer: 20 Celsius becomes 293.15 kelvin and passes; 20 kelvin stays 20 and fails.
 - **Start with:** [MATH.2 - Form a Quotient That Preserves Operations](#math2---form-a-quotient-that-preserves-operations), :4.1-:4.5. Name the retained operation and the requested answer before choosing the identification. In this example, convert with `n(v,C)=v+273.15` and `n(v,K)=v`, then apply the interval test. Identifying inputs with the same normalized kelvin value preserves both that normalization result and the test. The different input and output sets are handled in :4.1.
 - **Stop or return:** Use the classes for the questions they determine. A later question about the original unit needs the label again. If the problem instead concerns a working method whose description placed comparison before normalization, ME.12:4.4 shows how to locate and repair that contradiction.
-
-### MP-COST - Choose a cheapest complete route
-
-- **Situation:** A construction has stages with alternative routes, and repeated calculations need the least total additive cost.
-- **Question:** Which complete permitted route attains that minimum?
-- **First useful result or blocker:** A minimum together with a route that attains it, or the absence of a complete route in the supplied alternatives. For example, two prefixes cost 1 and 4. Only the second grants permission for a final step costing 2. The least complete cost is 6, using the second prefix and the final step. The cheaper prefix supplies no completion until an enabling step becomes available.
-- **Start with:** [MATH.3 - Compose Minimum-Cost Tables](#math3---compose-minimum-cost-tables), :4.1-:4.3. Retain the intermediate state, add costs along each permitted combination, and minimize across those alternatives. Keep the minimizing intermediate state and its route when the result must be carried out. If the intermediate state hides a condition such as permission, use [MATH.1](#math1---build-a-structure-of-composable-paths) to reconstruct the affected connections. Use [MATH.2](#math2---form-a-quotient-that-preserves-operations) when a proposed identification must preserve the next operations or answer.
-- **Stop or return:** Stop with the requested value, route or absence result. A new enabling step can change the answer: a permission-granting step of cost 1 after the cheap prefix makes a complete route of cost 4. A changed cost calls for recalculation; a newly relevant condition can require recovering routes discarded by an earlier table. When the choice also weighs other outcomes or uncertainty, the cost result can contribute to FPF C.11's wider decision method.
 
 ### MP-WITNESS - Produce the object whose existence you need
 
@@ -179,31 +169,15 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 - **Start with:** [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof), :4.1-:4.4. Find where the object is introduced, recover its inputs and compose the supplying operations. For induction, [MATH.4](#math4---construct-a-witness-by-induction) supplies the base and step constructions.
 - **Stop or return:** Return the object and its property, or the particular construction still needed. A proof of existence can justify an independently defined finite search. A changed representation can remove a branch decision, and an infinite input can invalidate a finite termination argument.
 
-### MP-ELIMINATE - Reduce equations and recover the answer
-
-- **Situation:** A system of linear equations carries internal unknowns through the calculation, while the next question needs only some coordinates or a derived quantity.
-- **Question:** How can a smaller system preserve the solutions and the requested answer?
-- **First useful result or blocker:** Reduced equations with recovery formulas, or a parameter case requiring another pivot. From `2*x+y=5` and `x-y=1`, substitute `y=5-2*x` to obtain `3*x=6`. Recover `x=2,y=1`; the requested output `x+2*y` is 4.
-- **Start with:** [MATH.14 - Eliminate Linear Unknowns and Recover the Answer](#math14---eliminate-linear-unknowns-and-recover-the-answer), :4.1-:4.5. Carry the right-hand sides, restrictions and output through every substitution. Use :4.6 when a solvable block of equations makes that calculation convenient.
-- **Stop or return:** Return the requested answer with its conditions. It can be fixed across a family of solutions even when some coordinates remain free. A changed output can reuse that family; a changed pivot coefficient can require a different parameter branch.
-
-### MP-MATCH - Find a complete pairing and test its uniqueness
-
-- **Situation:** Each item needs one partner from another finite set, but separate choices compete for the same partners.
-- **Question:** Is there a permitted pairing covering both sets, and is it the only one?
-- **First useful result or blocker:** A complete pairing, two alternatives, or a group with too few permitted partners. If a can use 1 or 2 while b can use only 1, an initial a-to-1 choice can be repaired: move a to 2 and give 1 to b.
-- **Start with:** [MATH.15 - Find a Complete Matching and Test Uniqueness](#math15---find-a-complete-matching-and-test-uniqueness), :4.1-:4.4. State the allowed pairs and follow alternating paths to enlarge a partial pairing. When uniqueness matters and pairwise conditions suffice, remove each chosen edge in turn from the original graph and test whether complete coverage remains possible.
-- **Stop or return:** One permitted complete assignment can settle an existence question. A second establishes ambiguity. Adding b-to-2 in the example permits both assignments. If several pairs must also satisfy one shared condition, test whole candidates through :4.5 before accepting them; failure of the first candidate leaves the others to be examined.
-
 # Mathematical Practice - Preface
 
 ## MATH.Preface:1 - Problem frame - Construct mathematics for the question
 
 You may know a formula, a programming technique or a useful physical law and still be unable to formulate the next problem. The objects may have been chosen too coarsely. Two operations may work separately but fail when combined. A plausible statement may need a proof, or a proof may leave you without a way to obtain its promised object.
 
-Mathematical Practice helps construct and develop the mathematics needed in such situations. Its starting repertoire forms objects and operations, tests identifications, builds arguments and witnesses, changes representations, reduces linear equations with solution recovery, and obtains consequences from transformations and constraints. Work can begin in mathematics itself, a physical investigation or the design of another working method.
+Mathematical Practice helps construct and develop the mathematics needed in such situations. Its starting repertoire forms objects and operations, tests identifications, builds arguments and witnesses, changes representations, and obtains consequences from transformations and constraints. Work can begin in mathematics itself, a physical investigation or the design of another working method.
 
-Begin with the question that is blocked. A direct pattern may supply the whole needed contribution. Use the Readme examples to find a starting point, and the Table of Contents for further questions. This Preface explains how the methods connect; each pattern gives its construction, prerequisites, worked cases and limits.
+Begin with the question that is blocked. If its mathematical form is still unclear, the Readme MP-FRAME entry uses FPF B.5.FM, B.5.TU and B.5.MPC to obtain the first account and locate the missing contribution. Once a mathematical operation is needed, a body here develops that operation. The worked use in :4 begins before a representation has been selected. Use the Table of Contents for other questions; each pattern states its prerequisites and conditions.
 
 The common starting preparation is elementary sets, relations, functions and the ability to follow a short proof. Several examples need only integer arithmetic. Variation of a curve additionally uses differentiation and integration; the relevant pattern states those requirements. A collaborator can provide a mathematical contribution that you cannot yet construct yourself. Retain the inputs, conditions and result of that contribution so that the next part of the work can use it.
 
@@ -222,7 +196,7 @@ Several tensions recur:
 | Reusable machinery and the cost of constructing it | Will a general structure help further work, or will a direct calculation settle the question? |
 | A solved problem and development of the repertoire | Which failure, remaining limit or new construction makes a worthwhile next question possible? |
 
-The same question can have several satisfactory mathematical descriptions. A list of paths may be easiest for three alternatives. A compositional cost table may become useful when many stages reuse those alternatives. A proof of impossibility may be more useful than continuing a search. Choose from the result needed and the effort available.
+The same question can have several satisfactory mathematical descriptions. A list of movement steps can show each change; a displacement summary can answer a final-position question with less information. A later question about visiting an intermediate position can require a distinction that the summary discarded. Choose a representation from the answer needed, its further use and the effort available.
 
 ## MATH.Preface:3 - Solution - Connect constructions through what they supply
 
@@ -236,8 +210,6 @@ When several descriptions should count as the same input, [MATH.2](#math2---form
 
 [MATH.7](#math7---transport-a-mathematical-structure-through-a-bijection) addresses a reversible change of representation. It constructs the operations in the new representation and carries results back. Renaming the elements while keeping an unsuitable operation can change the problem; the transported operation supplies the repair.
 
-[MATH.14](#math14---eliminate-linear-unknowns-and-recover-the-answer) constructs a smaller linear system together with formulas that recover its original solutions. A requested sum can be fixed even when individual unknowns remain free. Keeping parameter cases and the output formula allows the reduction to answer a changed question.
-
 These methods can be used separately. They also connect: form expressions from generators, interpret their operations, identify descriptions that preserve the desired answer, then choose a convenient representation for calculation.
 
 ### MATH.Preface:3.2 - Obtain an argument and the object it supports
@@ -245,8 +217,6 @@ These methods can be used separately. They also connect: form expressions from g
 [MATH.4](#math4---construct-a-witness-by-induction) obtains a witness by following the construction of a finite input. A step may require a stronger intermediate result or another parameter. [MATH.12](#math12---extract-a-construction-from-a-proof) recovers functions, pairs, projections and branch information from proof steps, including non-inductive steps. It distinguishes the operations that produce data from a proof that some suitable data exists.
 
 [MATH.6](#math6---construct-a-countermodel) constructs a case in which the assumptions hold and the proposed conclusion fails. Such a case can reveal a missing premise, a misplaced quantifier or an overly narrow search. [MATH.11](#math11---construct-an-invariant-from-transformation-rules) instead solves for a function preserved by the allowed transformations. Its value can exclude a target or determine an accumulated quantity. Equal values leave any required reachability construction to be supplied.
-
-[MATH.15](#math15---find-a-complete-matching-and-test-uniqueness) constructs a one-to-one pairing under allowed-pair constraints. An alternating path can repair earlier choices; exhausted search identifies a group with too few partners. With pairwise conditions alone, a second complete pairing establishes ambiguity. Any condition shared across pairs must also be tested on whole candidate assignments. The same graph construction can reorder a matrix or support observation association once the application supplies what its edges mean.
 
 An argument and an obtaining procedure can support each other. Given a finite list, a terminating test and a proof that some listed element passes, testing the entries obtains a witness. If the searched range becomes infinite, the finite-search argument must be reconsidered. The available result may remain a logical conclusion or a procedure for each finite portion.
 
@@ -258,39 +228,29 @@ When candidates satisfy constraints, [MATH.10](#math10---derive-a-condition-from
 
 Symmetry and variation can simplify the same problem while answering different questions. One establishes a relation among transformed problems and solutions; the other investigates admissible changes and their effect on a criterion. Preserve the conclusion supplied by each.
 
-### MATH.Preface:3.4 - Aggregate results and return them to further work
-
-[MATH.3](#math3---compose-minimum-cost-tables) combines finite stage alternatives by adding their costs and minimizing over permitted intermediate states. When the answer must be carried out, retain a route attaining the value. A result about the least additive cost can contribute to a wider choice that also concerns other outcomes or uncertainty.
+### MATH.Preface:3.4 - Return a construction to further work
 
 The connecting rule is simple: name what one construction returns and what the next one uses. A set of solutions, one chosen solution, a proof of existence and an executable selection support different continuations. Enter at a contribution already available and stop when the requested mathematical result has been supplied.
 
 For a question about another subject, use FPF C.29 to establish the correspondence through which the mathematical result answers that question. C.29.2 develops a missing computational formulation; C.29.3 connects a computation with the arrangement that prepares its inputs, performs it and exposes an interpretable result. B.5.MPC coordinates mathematical, physical and computational reasoning when their contributions must be developed together.
 
-## MATH.Preface:4 - Worked use - Repair a cheapest route after its rules change
+## MATH.Preface:4 - Worked use - Choose a representation after the question changes
 
-Suppose two prefixes reach one location. Prefix p costs 1 and leaves permission 0; prefix q costs 4 and leaves permission 1. A final step r costs 2 and reaches the destination. Initially r is available with either permission value.
+A team receives travel logs from a cart moving along a straight line. Two runs have the same recorded distance, yet one ends at the starting point and the other does not. The immediate question is which runs returned to their start. Starting with a familiar distance formula leaves the missing information unresolved.
 
-Use MATH.1 to form paths through the intermediate states. There are two complete routes, of costs 1+2=3 and 4+2=6. MATH.3 can summarize the alternatives by the least complete cost, 3, while retaining p followed by r when the route itself is requested. For this continuation, forgetting the permission value preserves both the availability of r and its destination.
+**Recover the subject account.** B.5.FM asks what can change the answer. Total distance has forgotten direction. Establish where the line's origin and positive direction are, and what a recorded movement denotes. For this small case, each observed movement is a monotone step of one unit, either forward or backward; the cart starts at zero. This is the supplied physical account. If the log only records a commanded movement, the actual displacement remains a question for observation or a supported movement model. B.5.MPC keeps that physical contribution distinct from the subsequent calculation.
 
-Now change the rule: r is available only with permission 1. The cheapest prefix still costs 1, but it supplies no permitted final step. The previous summary has lost a condition needed by composition.
+**Construct and interpret the mathematics.** Use MATH.1 to form finite sequences of forward and backward steps. MATH.5 constructs their displacement map by assigning +1 to a forward step, -1 to a backward step, and addition to concatenation. The empty sequence has displacement zero. Forward-then-backward and forward-then-forward both have total distance two, but their displacements are zero and two. Thus the first run returns to its starting point and the second does not, under the stated account.
 
-MATH.2 makes the failure explicit. The proposed identification merges (location,0) and (location,1), although r is defined at only one of them. Restore that distinction. MATH.1 then composes q with r, and MATH.3 returns 6 as the least complete cost.
+The method needed an operation on sequences, not just names for two kinds of movement. MATH.5's extension explains why adding the elementary displacements evaluates any finite sequence and respects concatenation. C.29 connects the resulting number back to the cart's position. If a program performs the calculation, C.29.2/.3 connect that rule to its input interpretation and implementation. For example, adding absolute distances would compute a different quantity from the one now requested.
 
-The same calculation can be written with the intermediate permission states retained:
+**Decide what can be forgotten.** For the return-to-start question, sequences with the same displacement have the same answer. Concatenating another movement sequence adds the same further displacement. MATH.2 therefore permits identification by displacement for these operations and this answer. The compact representation is useful because its retained information has been matched to the continuation.
 
-- `prefix costs = (1,4)`;
-- `continuation costs = (infinity,2)`;
-- `complete minimum = min(1+infinity,4+2)=6`.
+**Change the requested result.** Now ask whether a run visited position +1. Forward-then-backward visits +1; backward-then-forward does not. Both end at zero. The two histories could be identified for the former question, but their equivalence no longer preserves this new answer. Return through MATH.2 to the forgotten distinction. Retain the path and compute its successive positions; compare each with the queried location. In this unit-step example the recorded endpoints and monotone steps suffice. For a longer continuous movement from 0 to 2, the endpoints already imply a visit to +1. Use the recorded positions and known conditions of movement to answer the visit question. Recover further information only when those conditions leave the answer undetermined: a run that starts and ends at 0, for example, may or may not have reached +1 in between.
 
-Here infinity records absence of a route. The finite alternative is attained by q followed by r. Summarizing each stage separately is sound only when their retained intermediate states still determine which combinations are permitted.
+**Change the working method.** The team can now revise its logging and analysis method: retain the movement information needed by the questions it actually asks, specify how a calculation interprets it, and return a result with that meaning. An observer can supply displacements, a mathematical contributor can define the representation and its operations, and a programmer can implement them. ME.7/ME.12 help compose those contributions and align the description with the performed work. Each contributor must understand the conditions at the join where another uses the result.
 
-A new construction is now useful: add a step g that grants permission and costs 1. The route p, then g, then r costs 1+1+2=4. MATH.1 supplies its permitted composition; MATH.3 compares it with the retained route of cost 6.
-
-For several finite stages, the same construction uses tables. An entry gives the least attained cost between its endpoint states; composition takes `min_j(A_ij+B_jk)` over retained intermediate states j. The argument for composing such summaries is in MATH.3. Keeping the endpoints meaningful is the contribution of MATH.1 and MATH.2.
-
-The result also opens a mathematical question: which states can now be merged while preserving the permitted continuations and their minimum costs? The failure has identified what a proposed reduction must retain. FPF B.5.QD helps turn that remaining question into a useful first attempt; the appropriate state-reduction algorithm supplies a further construction.
-
-For an organizational or physical application, establish what grants permission and what the stated costs represent. C.29 connects the mathematical construction to that account. Changing the working method then uses the subject's methods, including Method Engineering where composition of the work is being redesigned.
+**Develop the next question.** The failure suggests a further mathematical problem: what smaller summary, if any, preserves both displacement and the requested visit information under concatenation? B.5.QD helps turn that question into a first construction or counterexample. MATH.16 can help specify what a proposed summary must let the next operation recover; the required maps and laws still need to be established. The cart is the worked example. Selecting distinctions by their use, constructing operations, justifying a compression and restoring information after a changed question are the reusable moves.
 
 ## MATH.Preface:5 - Worked use - Construct a choice after finding an obstruction
 
@@ -319,7 +279,7 @@ For a use spanning several patterns, check the following relations at the joins:
 
 Use the corresponding local pattern's argument where it already answers the question. A small direct use needs only its relevant conditions. A larger claim can require more: obtaining a minimum over one orbit does not by itself settle a minimum over every solution, and a physical conservation statement requires the dynamics under which the quantity is conserved.
 
-The route and choice cases illustrate common failures. Forgetting permission loses an available-operation distinction. Combining independently smallest numbers can produce no complete path. Requiring an invariant answer from a choice that must transform with the data changes the output question. Retain those distinctions where they affect the intended use.
+The movement example shows why a representation must be judged against the question it answers. Accumulated displacement answers the final-position question; it loses information needed for some visit questions. MATH.2 supplies the test for retaining an answer when cases are identified. In symmetry-dependent choice, MATH.8 and MATH.9 ask how the answer must change with the data; an invariant quantity and a choice that transforms with the input need different constructions.
 
 Another failure arises when mathematical equality is used to reorganize work without examining execution. MATH.12's split-and-join example returns equal values for a fixed function, while repeated evaluation can cost more. If a call changes hidden state, repeated calls can also return different values. Restore the relevant state and use C.29.3 for the execution correspondence before transferring that mathematical transformation.
 
@@ -331,13 +291,13 @@ This arrangement adds the cost of constructing the mathematical account. A reusa
 
 The examples favour small, inspectable constructions. They make dependence and failure visible, but do not establish that every larger instance will be computationally affordable. Existence of an answer, an efficient algorithm and an implementable calculation have different requirements.
 
-The starting repertoire concentrates on formation, proof, representation, transformations and linear reduction. Numerical analysis, statistical inference, signal processing and specialized algorithm design supply substantial further methods. Use those contributions when the question reaches their conditions. The present patterns can help formulate that question and carry the resulting mathematical contribution into a larger argument.
+The starting repertoire concentrates on formation, proof, representation and transformations. Numerical analysis, statistical inference, signal processing and specialized algorithm design supply substantial further methods. Use those contributions when the question reaches their conditions. The present patterns can help formulate that question and carry the resulting mathematical contribution into a larger argument.
 
 An assisting agent can propose objects, examples or proofs and execute calculations. Its contribution must be understandable at the join where another contributor uses it. The mathematical statement and its justification remain available for criticism and revision, including when a person delegates the detailed calculation.
 
 ## MATH.Preface:8 - Architectural Rationale - Organize by reusable constructions
 
-A single mathematical construction can serve many subjects. Minimum-cost composition can describe routes or stages of a working method; symmetry can organize solutions of a theoretical problem or constrain a learning system. This reuse makes the mathematics valuable across disciplines while leaving its specialized construction methods with mathematical practice.
+A single mathematical construction can serve many subjects. A quotient can retain the information used by a later operation; symmetry can organize solutions of a theoretical problem or constrain a learning system. This reuse makes the mathematics valuable across disciplines while leaving its specialized construction methods with mathematical practice.
 
 The organization therefore separates three relations. Mathematical methods form objects, perform operations and establish consequences under stated assumptions. A modeling correspondence interprets an object or result in another subject. An executing arrangement performs the selected computation. These relations can be developed together, but each supplies conditions that the others need. FPF's C.29 family makes their connections usable; the mathematical bodies develop the constructions in detail.
 
@@ -356,7 +316,7 @@ Revise this organization when a recurring use needs a construction that no body 
 ## MATH.Preface:9 - Source use and currentness
 
 
-For formation and composition, Fong and Spivak's [Seven Sketches in Compositionality](https://arxiv.org/pdf/1803.05316), §§2.5.3 and 3.2, supplies paths, imposed equations and minimum-plus matrix composition. The patterns adapt these constructions to explicit enabling states and recoverable routes. Direct enumeration remains a useful alternative when a small set of paths already answers the question.
+For formation and composition, Fong and Spivak's [Seven Sketches in Compositionality](https://arxiv.org/pdf/1803.05316), §3.2, supplies paths and imposed equations. The patterns adapt these constructions to explicit enabling states and interpretation of composite operations. Direct enumeration remains useful when a small set of paths already answers the question.
 
 For specifying an object through its needed maps, Riehl's [Category Theory in Context](https://emilyriehl.github.io/files/context.pdf), §§2.3, 3.1–3.2, supplies universal properties and set constructions. Fong and Spivak's Example 3.72 supplies currying: a function with two inputs becomes a function returning a function. MATH.16 uses these constructions to clarify an undecided use; directly defining a familiar representation remains sufficient when that choice is already settled.
 
@@ -517,7 +477,7 @@ Return the construction with the maps and conditions needed by its consumer. A n
 
 For a mathematical question, stop with the required map, equality, usable construction or demonstrated obstruction. For computation, obtain the procedure and resources needed for the chosen representation through C.29.2. A finite pullback can be enumerated by testing pairs, while a large or infinite one needs an appropriate computational method.
 
-For an application to another subject, C.29 supplies the correspondence that gives the mathematical objects and equations their subject meaning. In particular, a compatibility equation must represent the actual agreement needed by the work. A pairing of functions on one input describes a different operation from two executions that modify a shared input. MMP.5 develops the latter account.
+For an application to another subject, C.29 supplies the correspondence that gives the mathematical objects and equations their subject meaning. In particular, a compatibility equation must represent the actual agreement needed by the work. A pairing of functions on one input describes a different operation from two executions that modify a shared input. For the latter use, first specify which values each step reads and changes, and which intervening steps are permitted. Use that account to decide whether a function construction represents the work; the pairing alone leaves those interactions unspecified.
 
 When the question changes, return to the affected mapping requirement. Adding agreement can turn a product question into a pullback question. Needing to accept either input can call for a coproduct. Needing only selected answers can call for a quotient. Retain a useful earlier construction while its earlier question remains current.
 
@@ -630,7 +590,6 @@ The elementary examples use ordinary equality and functions. If the work changes
 - **MATH.7** transports structure through a bijection when a different representation is useful.
 - **B.5.FM and B.5.TU** connect the working question, construction and use at the common reasoning level.
 - **C.29 and C.29.2** supply subject correspondence and computational formulation.
-- **MMP.5** models executions whose overlap changes shared state.
 
 ### MATH.16:End
 
@@ -1209,7 +1168,6 @@ The useful comparison is with a supplied map or independent evaluation of a smal
 - **Uses MATH.1 where the source is a path construction:** retain the objects and permitted joins before interpreting composites.
 - **Uses MATH.4:** construct the evaluation on finite expressions and prove its recursive clauses and uniqueness.
 - **Uses MATH.2 when equations identify expressions:** obtain representative-independent evaluation on the quotient.
-- **Connects with MATH.3:** a cost interpretation can contribute to a later minimum-cost construction; summing one word's cost does not select a cheapest word.
 - **Connects with FPF C.29:** use the mathematical map in a subject correspondence and recover the result needed there.
 - **Connects with Method Engineering:** a mathematical account of composed methods can use the affine-effect construction; ME.7 and ME.12 address the proposed method and revision of its description.
 
@@ -1423,272 +1381,6 @@ A direct definition or an existing isomorphism can provide the same result with 
 - **Connects with A.6.3.RT.OE:** use the available expression rules to make the transported calculation operable; invention of a notation language is a further notational method.
 
 ### MATH.7:End
-
-## MATH.14 - Eliminate Linear Unknowns and Recover the Answer
-
-> **Type:** Method
-> **Normativity:** Normative
-
-### MATH.14:1 - Problem frame
-
-Use this pattern when a finite system of linear equations contains more unknowns than you want to carry through a calculation. You need a smaller system together with a way to recover the original solutions or a requested quantity.
-
-Start with one equation whose coefficient of an unknown is nonzero. Express that unknown through the others, substitute the expression into the remaining equations and the requested quantity, and keep the recovery expression. This removes an unknown without losing its contribution.
-
-The reader needs elementary algebra and substitution. The optional matrix notation in :4.4 and the block branch (:4.6 and :5.4) additionally use matrices and solving a linear system. The construction uses exact arithmetic over a field, such as rational, real or complex numbers. Parameters have fixed values within each branch of the calculation. Additional restrictions, such as nonnegative values, remain conditions on the solutions.
-
-For an already convenient small system, ordinary direct substitution may be enough. Use the full construction when several eliminations, parameter cases, repeated calculations or recovery of omitted quantities need to stay connected. Selecting a numerically stable large-system solver requires numerical analysis in addition to the algebra here.
-
-### MATH.14:2 - Problem
-
-A shorter equation can conceal what was discarded. Dividing by a parameter can remove a case where the system changes from one solution to many or none. Eliminating an internal quantity can also remove the formula needed to calculate the requested output.
-
-Solving every unknown uniquely can be unnecessary. A family of solutions may give the same value of the quantity being asked for. The task is to preserve the admitted solutions and their answers while making the calculation manageable.
-
-### MATH.14:3 - Forces
-
-| Force | Tension |
-| --- | --- |
-| Smaller system and recoverable result | Removing unknowns reduces the visible calculation; their effects and recovery formulas still matter. |
-| Convenient pivot and exceptional values | A coefficient may be easy to divide by except at a parameter value the question includes. |
-| Full state and requested output | Free unknowns can coexist with a uniquely determined answer. |
-| Algebraic equivalence and computing effort | Equivalent formulations can differ greatly in sparsity, arithmetic cost and numerical sensitivity. |
-
-### MATH.14:4 - Solution
-
-**State the equations and wanted output → choose a nonzero pivot → substitute and retain recovery → resolve the remaining equations → recover and interpret the answer.**
-
-#### MATH.14:4.1 - State the admitted solutions and the wanted quantity
-
-Identify the unknowns, known coefficients and right-hand sides. Keep parameters separate from unknowns: a parameter can select several systems, while an unknown is solved within one such system.
-
-State any extra restrictions on solutions. For instance, a mathematical equation over the reals can have solutions excluded by a separate nonnegativity condition. Carry that condition through substitution.
-
-Write the requested output as a function of the unknowns. It may be the complete solution, selected coordinates, a sum, or a threshold involving them. For a linear or affine output, use an expression of the form `q = c1*z1 + ... + cn*zn + q0`. Its constant term must survive elimination too.
-
-#### MATH.14:4.2 - Eliminate one unknown by a reversible substitution
-
-Choose an equation
-
-`a*y + r1*x1 + ... + rk*xk = b`
-
-with `a ≠ 0`. The chosen coefficient is the *pivot*. Solve this equation for y:
-
-`y = (b - r1*x1 - ... - rk*xk)/a`.
-
-Keep this formula for recovery. Substitute it into every other equation, every retained restriction and the requested output. The pivot equation has now been used to define y; remove it from the system being solved for the remaining unknowns.
-
-Two directions establish what was preserved. Every original solution supplies remaining coordinates that satisfy the substituted equations. Conversely, any remaining coordinates satisfying those equations and restrictions determine a unique y by the recovery formula, and the resulting tuple satisfies the original system. Thus the reduced and original solution sets correspond one-to-one under the stated pivot condition.
-
-
-If the chosen coefficient is zero, choose another nonzero coefficient and keep track of any variable or equation reordering. If it depends on a parameter that may make it zero, split the parameter cases before division. Section :5.2 shows why cancelling the resulting factor can lose a useful family.
-
-#### MATH.14:4.3 - Continue until the remaining equations answer the question
-
-Repeat the substitution on the reduced linear equations. Each pivot removes one active unknown and one equation, so this procedure has at most as many pivot steps as the original number of unknowns.
-
-At any stage an equation can reduce to one of two forms:
-
-- `0 = 0` adds no condition and can be removed.
-- `0 = d` with known `d ≠ 0` makes that parameter branch inconsistent.
-
-A row containing only an unresolved parameter gives a consistency condition. For example, `x+y=a` and `x+y=1` reduce to `0=1-a`. Retain `a=1` as the condition for solutions: on that branch `x=t,y=1-t` and `x+y=1`; for other a there is no solution.
-
-If nonzero coefficients remain, another pivot is available. When none remain and there is no contradiction, the unpivoted unknowns are free with respect to the equations. Express the pivoted unknowns in terms of those free values by applying the recovery formulas in reverse order.
-
-Retain any extra restrictions on the resulting free values. For example, `x+y=1` with `x,y ≥ 0` becomes `y=1-x` with `0 ≤ x ≤ 1`. The unrestricted one-parameter family would answer a different problem. Establishing feasibility under more complicated additional restrictions needs a method appropriate to those restrictions.
-
-#### MATH.14:4.4 - Determine what the output still depends on
-
-Substitute the recovery expressions into each requested output. For a linear or affine output, collect the terms containing free unknowns. For example, if `x=1+2*t-s` and `y=3-2*t+s`, their sum reduces to `x+y=4`: both free values disappear from that output.
-
-For a nonempty solution family with unrestricted free values, a linear or affine output is fixed exactly when all their coefficients vanish. If a coefficient remains nonzero, changing that free value produces a different answer. With several requested outputs, apply this test to each.
-
-For other output functions or additional restrictions, compare the substituted output over the admitted free values. For example, `x+y=0` over the reals leaves `x=t`, but the requested condition `x²≥0` is true for every t. In an affine formula, a coefficient can remain while the restrictions fix its argument. When a point answer is unavailable, return the family, a warranted range, or the conditional answer needed by the question.
-
-An inconsistent system has no solution from which to obtain the output. Establishing a constant expression after a contradictory branch does not turn it into an answer.
-
-**Optional matrix notation for the same calculation.** A complete solution family can be written as `z=z0+N*t`, where z0 is one solution, the columns of N give the free directions, and t contains their free coefficients. For an affine output `q=L*z+q0`, substitution gives
-
-`q = L*z0 + q0 + L*N*t`.
-
-When the family is nonempty and t is unrestricted, the output is fixed throughout it exactly when `L*N=0`. This is the same coefficient test applied to all output coordinates together.
-
-#### MATH.14:4.5 - Recover, check and reuse the result
-
-Use the recovery formulas for the quantities now needed. Substitute the resulting expressions into the original equations and restrictions. For a numerical worked case, this detects errors of sign, order or right-hand side. The two-direction substitution argument in :4.2 establishes preservation of all solutions.
-
-When only the requested output changes, reuse the solution family and apply the new output function. When the right-hand side changes but the coefficient system is unchanged, the same pivot order and coefficient reductions can be reused with the new right-hand side. A changed coefficient or parameter condition requires rechecking the affected pivots and substitutions.
-
-Stop when the required answer follows under its conditions. Unresolved coordinates that cannot change that answer give no mathematical reason to obtain additional information.
-
-#### MATH.14:4.6 - Eliminate a solvable block at once
-
-When several unknowns form a convenient block, write the equations as
-
-`A*x + B*y = f`
-
-`C*x + D*y = g`.
-
-Here x and y are vectors; the matrix dimensions must match the displayed products. Assume D is square and invertible. Solve
-
-`D*W = C` and `D*v = g`.
-
-Then `y = v - W*x`, and substitution gives the reduced system
-
-`(A - B*W)*x = f - B*v`.
-
-The coefficient matrix `A - B*D^-1*C` is the *Schur complement* of D in the full block matrix. The inverse notation expresses the algebra; computing W and v by solving with D avoids constructing an explicit inverse merely to obtain these products.
-
-Retain `y = v - W*x` even when the immediate question concerns only x. If the requested output is `q = H*x + K*y + q0`, reduce it too:
-
-`q = (H - K*W)*x + K*v + q0`.
-
-Apply :4.3–:4.4 to the reduced system. D being invertible gives unique recovery of y for each reduced solution; the reduced system itself may have one solution, many or none.
-
-If D is singular, return to scalar elimination or choose another solvable block. Singularity of the chosen block does not determine the solution count of the full system. For example, `y=1` and `x=2`, written with x first and y second, have block D=0 in the second equation but a unique solution.
-
-Select the block for the calculation being performed. A small reduced system can become dense or poorly conditioned. A numerical implementation must choose its factorization, pivoting and error control for that problem; the solution correspondence alone selects none of them.
-
-### MATH.14:5 - Archetypal Grounding
-
-#### MATH.14:5.1 - Eliminate, solve and change the requested output
-
-Let
-
-`2*x + y = 5`, `x - y = 1`,
-
-and ask for `q = x + 2*y`.
-
-The first equation gives `y = 5 - 2*x`. Substitute into the second equation and the output:
-
-`3*x = 6`, `q = 10 - 3*x`.
-
-Hence `x=2`, `y=1`, and `q=4`. Substitution in the two original equations gives 5 and 1 as required.
-
-If the next question asks for `x-y`, the recovered solution gives 1. The elimination need not be repeated. If the first right-hand side changes to 8, the same substitution form gives `y=8-2*x`, `3*x=9`, and the new solution `x=3,y=2`; the old numerical answer would be stale.
-
-#### MATH.14:5.2 - One parameter gives a unique solution, a family or inconsistency
-
-For real parameter a, let
-
-`a*x + y = 1`, `x + a*y = 1`,
-
-and ask for `q=x+y`.
-
-The coefficient of y in the first equation is always 1, so `y=1-a*x` is valid for every a. The second equation and output become
-
-`(1-a²)*x = 1-a`, `q = 1 + (1-a)*x`.
-
-Now separate the cases:
-
-| Parameter condition | Remaining equation | Solutions and output |
-| --- | --- | --- |
-| `a ≠ 1` and `a ≠ -1` | Divide by `1-a²`. | `x=y=1/(1+a)`, so `q=2/(1+a)`. |
-| `a=1` | `0=0`. | `x=t,y=1-t` for every real t; `q=1` throughout. |
-| `a=-1` | `0=2`. | The system is inconsistent. |
-
-At a=1 the requested sum is known even though neither coordinate is fixed. Cancelling `1-a` without retaining its zero case would hide that family. At a=-1 the original equations require both `y-x=1` and `x-y=1`, exposing the contradiction.
-
-#### MATH.14:5.3 - An eliminated internal value still contributes to an output
-
-Suppose an internal value h and two outputs u,v satisfy
-
-`2*h - x - y = p`, `u=h-x`, `v=h-y`,
-
-with supplied inputs x,y,p. Eliminating h gives
-
-`h=(p+x+y)/2`,
-
-`u=(p-x+y)/2`, `v=(p+x-y)/2`.
-
-For `x=30,y=20,p=12`, the recovered values are `h=31,u=1,v=11`, and `u+v=12`.
-
-Dropping p during reduction instead gives `h=25,u=-5,v=5` and sum zero. The lost right-hand side changes both the internal value and the outputs. In a heat-flow interpretation, p can represent heat supplied at an internal junction with unit conductances; the physical assumptions that yield these equations must come from that model. The algebra preserves those supplied equations.
-
-#### MATH.14:5.4 - Reduce a three-unknown system through a two-unknown block
-
-Let the equations be
-
-`4*x + 2*y1 - y2 = 7`,
-
-`x + 2*y1 + y2 = 4`,
-
-`2*x + y1 + 3*y2 = 5`,
-
-and request `q=3*x+y1+2*y2+5`. Retain x in the reduced system and eliminate the block `y=(y1,y2)`. The lower two equations give
-
-`D=[[2,1],[1,3]], C=[1,2], g=[4,5]`.
-
-Solving `D*W=C` gives `W=[1/5,3/5]`; solving `D*v=g` gives `v=[7/5,6/5]`. For example, the first components are checked by `2*(1/5)+3/5=1` and `2*(7/5)+6/5=4`. These solves can themselves use the scalar elimination of :4.2.
-
-The first equation has `A=4,B=[2,-1],f=7`. Its reduction is
-
-`(21/5)*x=27/5`, so `x=9/7`.
-
-The recovery formula returns `y1=8/7,y2=3/7`. The output reduces to
-
-`q=(8/5)*x+44/5=76/7`.
-
-Checking the three original left-hand sides gives `7,4,5`, respectively. The output calculated with the recovered values also gives `76/7`.
-
-Suppose the coefficient 4 in the first equation changes to 5 while the rest remains fixed. D, C and g are unchanged, so W and v can be reused. Only the reduced coefficient changes: `(26/5)*x=27/5`. Thus `x=27/26,y1=31/26,y2=15/26`, and the same output formula gives `q=136/13`.
-
-The block construction leaves one scalar equation for each such change at the retained unknown. Solving the full three-unknown system is also reasonable for this small example. The reduced form is useful when the D-solves are already available or when a larger calculation repeatedly changes the relation at x; a numerical speed comparison would need the implementations and repetition actually being considered.
-
-### MATH.14:6 - Bias-Annotation
-
-The chosen scope favors exact finite algebra. A symbolic nonzero coefficient can be a poor numerical pivot, and exact rational elimination can create large intermediate numerators and denominators. A larger or differently ordered formulation may therefore be cheaper to compute.
-
-The emphasis on solution recovery can also exceed a particular need. When only one bound is required, a method that establishes that bound without finding the full solution family may do less work. Select elimination for the contribution it supplies to the question.
-
-### MATH.14:7 - Conformance Checklist
-
-- Every division retains the condition that its pivot is nonzero; included zero cases have their own branch.
-- Substitution carries each right-hand side, restriction and required output.
-- Recovery maps each admitted reduced solution to an original solution, and every original solution is represented.
-- Contradiction, a family of solutions and a fixed output are distinguished by the resulting equations.
-- Reuse after a changed question preserves the coefficients and conditions on which it depends.
-- Numerical accuracy or speed is supported by the chosen numerical method when that claim is needed.
-
-### MATH.14:8 - Common Anti-Patterns and How to Avoid Them
-
-**Cancel a parameter factor and lose its zero case.** In :5.2 the cancelled factor changes whether the answer comes from a unique solution or a whole family. Split the cases before division.
-
-**Discard the recovery formula or the reduced output.** A later request for an internal value then requires reconstructing the calculation. Keep the substitution with the reduced system.
-
-**Require every coordinate before returning a known sum.** At a=1 in :5.2, q is already fixed. Determine dependence of the requested quantity on the free values.
-
-**Use singularity of one block as the verdict on the whole system.** Change the pivot or use scalar elimination; the example in :4.6 has a unique solution despite D=0.
-
-### MATH.14:9 - Consequences
-
-The result is a smaller linear system with its parameter conditions, any remaining restrictions, recovery formulas and requested output. It can support several later output questions without repeating the original elimination.
-
-The cost is maintaining the substitutions and their valid branches. Elimination can exchange a smaller dimension for denser coefficients, more arithmetic or greater numerical sensitivity. Its mathematical equivalence remains useful even when another computational arrangement is preferable.
-
-### MATH.14:10 - Architectural Rationale
-
-A pivot equation determines one unknown from the remaining values. Substitution therefore gives both reduction and recovery in one construction. Retaining those two directions explains why removing a variable can preserve all solutions; carrying the output explains why full coordinate recovery is sometimes unnecessary.
-
-Scalar and block elimination share this reason. The block form groups several substitutions when a subsystem can be solved efficiently. It does not assume that the reduced equations are uniquely solvable.
-
-Changing the equations or admitted domain can change the permitted pivots and the answer.
-
-### MATH.14:11 - SoTA-Echoing
-
-**How can elimination reduce the equations while retaining the solution?** Adopt the Schur-complement construction in Boyd and Vandenberghe, [*Convex Optimization*, Appendix C.4, especially Algorithm C.4](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf). Its operative contribution is a reduced system coupled to a solve and back-substitution. Sections :4.2 and :4.6 make that relationship usable at scalar and block scales; :4.4 carries the requested output. Solving the full system remains a serious alternative: elimination is preferable when the selected block or repeated use makes it convenient, while reduced dimension alone establishes no cost advantage. Reconsider the arrangement when the reduced matrix becomes dense or the repeated calculations change. The 2004 source supplies the algebra and computational alternatives, not evidence that any particular subject model is adequate.
-
-**What happens when the preferred pivot block fails?** Adapt the distinction between ordinary and generalized Schur complements in Higham's [*What Is the Schur Complement of a Matrix?*, 1 June 2023](https://nhigham.com/2023/06/01/what-is-the-schur-complement-of-a-matrix/). A generalized inverse is a possible alternative, with additional compatibility questions. For the elementary finite-system use here, :4.2–:4.3 and :4.6 instead return to nonzero scalar pivots or another solvable block. This preserves singular and inconsistent cases without requiring generalized-inverse theory. Reopen that choice when a receiving problem needs the structure supplied by a generalized complement. The source's positivity and numerical-stability results have their own premises; they are not claimed for arbitrary matrices here.
-
-### MATH.14:12 - Relations
-
-- [MATH.7](#math7---transport-a-mathematical-structure-through-a-bijection) transports operations through a supplied bijection. Elimination constructs such a correspondence between the original and reduced solution sets.
-- [MATH.6](#math6---construct-a-countermodel) can refute a proposed reduction by exhibiting a lost or spurious solution.
-- FPF [C.16.IR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16ir---determine-what-an-indication-can-resolve) uses compatible cases to determine what an indication resolves. Elimination can supply its mathematical solution family or output.
-- FPF [C.29](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c29---mathematical-lens-use) helps establish what these equations represent and how their results answer the question being modeled.
-
-### MATH.14:End
 
 # Part B - Derive and test mathematical claims
 
@@ -2580,250 +2272,6 @@ The three worked constructions and their changed conditions are derived here. Th
 
 # Part C - Use symmetries and constraints
 
-## MATH.15 - Find a Complete Matching and Test Uniqueness
-
-> **Type:** Method
-> **Normativity:** Normative
-
-### MATH.15:1 - Problem frame
-
-Use this pattern when two finite sets must be paired one-to-one, some pairs are forbidden, and choosing partners separately can prevent a complete assignment. You need an allowed pairing of all elements, a reason none exists, or a decision about whether the pairing is unique.
-
-Begin with the two sets and a table of allowed pairs. If an element has no free partner, try reassigning earlier pairs along a connected sequence. This can complete an assignment that a greedy choice leaves unfinished.
-
-The construction concerns a finite bipartite graph: its vertices belong to a left set and a right set, and each edge joins one vertex from each. The main branch assumes equally sized sets and that allowed edges together with one-to-one coverage fully specify admissibility. Section :4.5 retains an additional condition shared across pairs.
-
-The reader needs finite sets, elementary counting and the ability to follow a path in a diagram or table. A small case can be done by hand. The matrix example in :5.3 also uses linear equations; the software option in :11 assumes familiarity with Python and sparse matrices. Use a supplied pairing directly when only existence matters and it already satisfies the required conditions. Minimum cost, unequal capacities and probabilistic confidence require their corresponding formulations; the construction here answers existence and uniqueness under stated constraints.
-
-### MATH.15:2 - Problem
-
-An available partner for each element does not guarantee that the choices can coexist. Several left elements may depend on too few right elements. Conversely, failure of a particular greedy assignment can be repaired by moving a previously assigned partner.
-
-For the pairwise problem, finding one complete assignment answers existence. It leaves open whether a second assignment also satisfies the conditions. That difference matters when the assignment is to establish identification, rather than supply any permitted arrangement.
-
-The task is to construct the pairing and the reason for the conclusion being used. When the graph omits a shared condition, its pairings are candidates for that further test.
-
-### MATH.15:3 - Forces
-
-| Force | Tension |
-| --- | --- |
-| Local permission and collective coverage | Every chosen pair may be allowed while another element is left without a partner. |
-| Convenient first choice and completion | Preserving every early assignment can prevent a complete pairing. |
-| Existence and identification | One witness is enough to establish existence; uniqueness excludes every alternative. |
-| Visible pairs and shared constraints | A pairwise graph is economical, but it can forget a condition that several pairs must satisfy together. |
-| Transparent enumeration and search cost | Enumeration is transparent for a small set and can grow factorially; a graph algorithm avoids enumerating every assignment when pairwise constraints suffice. |
-
-### MATH.15:4 - Solution
-
-**State pair and shared conditions → build a complete graph matching or locate a shortage → apply any shared test → resolve the alternatives needed by the question → return the answer.**
-
-#### MATH.15:4.1 - State the two sets and the allowed-pair relation
-
-Let L and R be the two labeled sides, with n elements each. Keep the side labels on vertices even if both sides use the numbers 1 through n. Specify E as a subset of L×R: (a,b) belongs to E when that pair is allowed.
-
-A *matching* M is a subset of E in which no vertex occurs in more than one pair. A vertex with no pair in M is free. A complete, or *perfect*, matching contains n pairs and therefore covers every vertex.
-
-For example, L={a,b}, R={1,2} and E={(a,1),(a,2),(b,1)} allow a complete matching {(a,2),(b,1)}. Choosing (a,1) first requires revising that choice to accommodate b.
-
-Say which answer is needed and whether there is an additional condition shared across pairs. When pairwise conditions suffice and any complete assignment will do, stop when one is found. Use :4.4 if its uniqueness matters. With an additional shared condition, use :4.5 before accepting a candidate, even when only existence is needed.
-
-For n=0 the empty matching is the single complete matching.
-
-#### MATH.15:4.2 - Enlarge the matching by an alternating path
-
-Start with an empty matching, or a supplied partial matching whose pairs are allowed and disjoint. Search for a path that permits one additional pair:
-
-1. Temporarily direct every unselected edge from L to R, and every selected edge from R to L.
-2. Begin a search at all free left vertices. Mark a reached vertex once and remember the edge by which it was first reached.
-3. From a reached left vertex, follow its unselected edges. From a reached right vertex that is matched, follow its selected edge back to the left. Keep processing reached vertices until a free right vertex is found or no further vertex can be reached.
-4. If a free right vertex is reached, follow the remembered edges back to a starting free left vertex. Along that path, remove the selected pairs and select the previously unselected pairs.
-
-The path alternates between unselected and selected edges. Its two endpoints become matched, while each interior vertex loses one selected edge and gains one. The result is a matching with one more pair.
-
-Repeat the search with the new matching. Reaching n pairs supplies a complete matching. At most n successful enlargements are needed from an empty matching. If no free right vertex is reachable before completion, use :4.3.
-
-A stopped search and a search exhausted over all reachable vertices have different conclusions. Only the latter establishes the absence of an enlarging path.
-
-#### MATH.15:4.3 - Recover a shortage when completion fails
-
-Suppose the search is exhausted and at least one left vertex remains free. Let S be the reached left vertices and T the reached right vertices.
-
-Every neighbor of S is in T. An unselected edge would have been followed during the search; the selected partner of a reached nonfree left vertex is already on the path that reached it. Conversely, every vertex in T was reached from a neighbor in S. Thus T is precisely N(S), the set of right neighbors of S.
-
-Every vertex of T is matched, since a free one would finish an enlarging path. Its selected partner belongs to S. The set S also contains at least one free left vertex. Consequently,
-
-`|N(S)| = |T| < |S|`.
-
-There are too few permitted right partners for these left vertices. This shortage rules out every complete matching in the stated graph. Return S and its neighbors; that identifies which allowed-pair or coverage condition would have to change to make completion possible.
-
-This argument is also usable directly. Any subset S with fewer neighbors than elements disproves complete coverage without running the whole search.
-
-#### MATH.15:4.4 - Test whether a complete matching is unique
-
-When allowed pairs and complete coverage are the whole admissibility condition, let M be a complete matching. For each pair e in M:
-
-1. Remove e from the original graph for this test.
-2. Search for a complete matching in that graph, using :4.2–:4.3.
-3. If one is found, return it with M as two distinct allowed assignments. Restore the original graph before any other test.
-
-If every such test rules out complete coverage, M is unique. Any distinct complete matching must omit at least one pair of M, so it would survive the corresponding test.
-
-Stop after finding a second matching when only uniqueness is at issue. Enumerating the remaining matchings would not change that answer.
-
-An alternative uses the directions from :4.2 with M complete. A directed cycle alternates selected and unselected edges; exchanging them produces a second complete matching. Conversely, the differing edges of two complete matchings split into such cycles. To search for such a cycle, extend a directed path while marking its current vertices. Reaching a vertex already on that path supplies the cycle between its two occurrences. When all outgoing edges of a vertex have been examined, remove it from the current path and mark it finished; later searches need not reopen it. Resume at the preceding vertex on the path and try its next unexamined outgoing edge. When the path becomes empty, start at an unvisited vertex. Continue until a cycle is found or all vertices are finished. Use the edge-removal method for a small transparent calculation, or this cycle search when repeated matching work is costly.
-
-#### MATH.15:4.5 - Retain a condition that several pairs must satisfy together
-
-Suppose a complete pairing must also satisfy a predicate Q(M), such as a condition involving one parameter shared by all its pairs. A complete graph matching then establishes a candidate. Apply the method that decides Q to that whole candidate.
-
-For a small finite problem, enumerate candidates without duplicating them. Fix an order of left vertices. Assign the next left vertex to each allowed right vertex not already used, in turn, then continue with the next left vertex. When every left vertex has been assigned, test Q. Backtrack to try the remaining choices.
-
-A partial assignment can be abandoned early if the unassigned vertices have no complete matching in their remaining graph. This graph test cannot discard a possible completion. An additional early test of Q is useful only when its failure also excludes every completion of that partial assignment.
-
-If one feasible assignment answers the question, return the first candidate that satisfies Q. Two candidates satisfying Q establish ambiguity and can finish that question. A unique candidate or the absence of any candidate requires exhausting the remaining possibilities, or a separate argument that excludes them. Failure of the first candidate's Q test leaves the other candidates unresolved. An interrupted search yields only the candidates and exclusions actually established.
-
-If Q needs a mathematical construction that is not yet available, return that missing test with the candidates. The graph result remains usable at its pairwise scope.
-
-#### MATH.15:4.6 - Return the answer and revise only what a change affects
-
-Return the matching that supplies the requested arrangement, two matchings that demonstrate ambiguity, or the shortage or completed constrained search that rules out an arrangement. Retain any conditions needed to interpret that answer.
-
-A removed edge outside an existing matching leaves that matching valid. If it was unique, removing other edges also preserves uniqueness. Adding an edge preserves the old witness of existence but may create a second matching.
-
-If one selected edge is removed from a complete matching, keep the other pairs and start the enlargement search from the now-free left vertex. An enlarging path repairs the complete matching; an exhausted search supplies the relevant shortage.
-
-A changed shared condition reopens its feasibility test even when the graph is unchanged. When only the requested output changes, examine whether the retained assignments already give the answer. Different assignments can agree on a coarser requested result.
-
-### MATH.15:5 - Archetypal Grounding
-
-#### MATH.15:5.1 - Repair a greedy assignment
-
-Let a use slot 1 or 2, while b can use only slot 1. Start with M={(a,1)}. Left vertex b and right vertex 2 are free.
-
-The directed path is
-
-`b -> 1 -> a -> 2`.
-
-Select (b,1), remove (a,1), and select (a,2). The new matching covers both left elements and both slots.
-
-It is unique. Removing (b,1) leaves b without a neighbor. Removing (a,2) leaves both a and b dependent on slot 1.
-
-Now allow b to use slot 2 as well. The old matching remains valid, and {(a,1),(b,2)} becomes a second one. Existence survives the added edge; uniqueness does not.
-
-The question "who occupies slot 1?" is now unresolved: the two matchings give different occupants. The question "is slot 1 occupied?" still has the answer yes, because every complete matching covers it. That answer requires no further search.
-
-#### MATH.15:5.2 - Find the group that prevents completion
-
-Let L={a,b,c}, R={1,2,3}, with
-
-`a -> {1}; b -> {1}; c -> {2,3}`.
-
-Every left and right vertex has a neighbor. Yet S={a,b} has N(S)={1}. Two elements require the same single partner, so complete coverage is impossible.
-
-The search exposes this directly. With M={(a,1),(c,2)}, it starts at free vertex b, reaches 1, then a, and stops. The reached sets are S={a,b} and T={1}. Slot 3 is free but unreachable from b by an alternating path.
-
-Allowing either a or b to use an additional slot can remove this particular shortage. The changed graph still determines whether a complete matching exists; the explanation identifies a useful place to change the formulation.
-
-#### MATH.15:5.3 - Reorder a matrix by matching nonzero entries
-
-To put nonzero entries on the diagonal of a square matrix, let rows be L, columns be R and allow (i,j) when the entry is nonzero.
-
-For
-
-~~~
-A = [[0,2],
-     [3,0]]
-~~~
-
-the unique matching is row 1 to column 2 and row 2 to column 1. Placing the columns in order 2,1 gives the diagonal entries 2,3. The pairing supplies the needed reordering.
-
-Change the matrix to
-
-~~~
-B = [[1,1],
-     [1,1]]
-~~~
-
-There are two complete matchings and either places nonzero entries on the diagonal. Both rows give the same left-hand side x+y. If both equations require x+y=2, all pairs (t,2-t) solve them; if they require different totals, no pair can solve both. Thus B does not determine one solution for each right-hand side: it is singular, with determinant 1*1-1*1=0. Pairing nonzero positions settles the structural reordering question. MATH.14 examines the corresponding linear equations and their solutions.
-
-#### MATH.15:5.4 - Test a shared value instead of accepting the first candidate
-
-Let all four pairs between L={a,b} and R={1,2} be allowed. Each chosen pair also requires the same shared value t to belong to its listed set:
-
-| Pair | Allowed values of t |
-| --- | --- |
-| (a,1) | {0} |
-| (a,2) | {0} |
-| (b,1) | {0} |
-| (b,2) | {1} |
-
-The first graph matching {(a,1),(b,2)} requires both t=0 and t=1. Its shared-value test fails.
-
-The second matching {(a,2),(b,1)} admits t=0. Enumeration exhausts the two graph matchings, so the second is the unique pairing under the shared-value condition.
-
-If the last row is changed to {0}, both graph matchings admit t=0. If instead both pairs involving b require {1}, neither matching has a shared value. The graph stays unchanged in both cases; the condition on joint use changes the answer.
-
-### MATH.15:6 - Bias-Annotation
-
-Early commitment to a convenient pair can make a repairable partial assignment look impossible. Alternating reassignment preserves the requirement of one partner per element while allowing earlier choices to move.
-
-Search order can determine which complete matching is returned first. The existence result is unchanged by that order; an identity conclusion still needs the uniqueness or shared-condition test.
-
-A pairwise representation can hide dependence among pairs. State what membership in E establishes before using the graph result as a conclusion about a larger problem.
-
-### MATH.15:7 - Conformance Checklist
-
-- The two finite sets, coverage requirement and allowed-pair relation are recoverable.
-- Every returned matching uses allowed pairs and repeats no vertex.
-- A claimed complete matching has n pairs; a claimed impossibility has a shortage or an adequate constrained-search argument.
-- A claimed unique matching has no remaining alternative under the actual conditions.
-- Any shared condition is tested on whole candidates, with interrupted or unresolved search left at that scope.
-- The returned mathematical result answers the requested existence, uniqueness or coarser-output question.
-
-### MATH.15:8 - Common Anti-Patterns and How to Avoid Them
-
-**Keep every early pair fixed.** In :5.1 this strands b despite an available complete matching. Search for an alternating reassignment.
-
-**Infer completion from individual neighbors.** In :5.2 all vertices have neighbors, but a and b share too few. Inspect collective coverage.
-
-**Delete tested edges cumulatively.** A later test could then lose an alternative that an earlier deletion removed. Each uniqueness test in :4.4 starts from the original graph with only its selected edge removed.
-
-**Reject the whole problem after one shared-condition failure.** In :5.4 the other graph matching is feasible. Continue the constrained search or retain its unresolved alternatives.
-
-### MATH.15:9 - Consequences
-
-A successful construction supplies a pairing that can be used or interpreted. Failure supplies a group with insufficient partners, or an incompatible joint condition, which helps locate a useful change to the problem.
-
-The basic graph search avoids enumerating all pairings. Repeated uniqueness tests cost additional searches, and an arbitrary shared condition can require many candidate tests. Match the search to the conclusion needed; one usable assignment often ends the work before uniqueness matters.
-
-### MATH.15:10 - Architectural Rationale
-
-The alternating path preserves matching at each interior vertex and adds coverage at both ends. When no such path reaches a free right vertex, the reached left vertices supply their own obstruction: they have too few right neighbors. The construction therefore returns either progress or a reason completion cannot be obtained by a different sequence of choices.
-
-Uniqueness is a separate property of an existing witness. Edge removal and alternating-cycle search test the same possibility: can a selected pair be replaced as part of another complete arrangement?
-
-Pairwise admissibility supports efficient graph reasoning. Keeping a shared predicate separate makes the representation's contribution explicit and retains the additional mathematics needed to use several pairs together.
-
-### MATH.15:11 - SoTA-Echoing
-
-**How can local reassignment settle a global coverage problem?** Goemans's [MIT notes on bipartite matching, 2017, sections 1.1–1.1.1](https://math.mit.edu/~goemans/18453S17/matching-notes.pdf) supply the classical augmenting-path and neighborhood-shortage foundations. The construction above makes both the pairing and the failed-coverage explanation available. Enumeration remains a transparent alternative for very small sets or an additional shared predicate; graph search is preferable when pairwise conditions suffice and enumerating assignments would dominate the work.
-
-**When should the elementary search be replaced?** The current [SciPy matching implementation](https://docs.scipy.org/doc/scipy/reference/generated/scipy.sparse.csgraph.maximum_bipartite_matching.html) uses Hopcroft–Karp to find a maximum-cardinality matching. This is a practical alternative for a larger sparse graph. With adjacency lists, one elementary search visits O(n+m) vertices and edges, where each side has n vertices and the graph has m edges. At most n searches are needed, giving O(n*(n+m)) total cost. Its transparency is useful in small constructions. Hopcroft–Karp reduces the asymptotic search cost.
-
-In that implementation, use a sparse CSR matrix with left vertices as rows and right vertices as columns, and `perm_type='column'` to return each row's column partner. A value of -1 marks an unmatched row. Stored zeros still count as edges, so omit forbidden pairs from the sparse representation. The returned pairing may vary when alternatives exist. Test complete coverage and any required uniqueness or shared condition separately.
-
-Reconsider the method when graph size, density, a shared constraint or the requested output changes. Weighted or capacity-constrained assignments require their own optimization construction; the existence method remains useful only for the part of that question it actually settles.
-
-### MATH.15:12 - Relations
-
-- [MATH.1 - Build a Structure of Composable Paths](#math1---build-a-structure-of-composable-paths) supplies general path and composition constructions. The alternating-path operation here preserves a matching while enlarging it.
-- [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) helps express the iteration as a recursive construction when that form is needed. Use n-|M| as the remaining step count, decreasing it after each enlargement and returning immediately on a shortage.
-- [MATH.14 - Eliminate Linear Unknowns and Recover the Answer](#math14---eliminate-linear-unknowns-and-recover-the-answer) supplies algebraic solution and recovery after a matrix's structural arrangement has been chosen.
-- FPF [C.29.1 - Mathematical Result Transfer](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c291---mathematical-result-transfer) examines which mathematical operations and consequences survive a change of representation.
-- FPF [C.16.IR - Determine What an Indication Can Resolve](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16ir---determine-what-an-indication-can-resolve) can use the surviving assignments to determine what an observation resolves. The observation model supplies the pair and shared-condition meanings.
-
-### MATH.15:End
-
 ## MATH.13 - Derive a Consequence from a Symmetry
 
 > **Type:** Method
@@ -3713,198 +3161,3 @@ Revisit the construction when constraints, regularity, candidate class or the re
 - **B.5.MPC** connects the physical account, mathematical construction, computation and use. **C.28** handles a causal consequence attributed to an intervention.
 
 ### MATH.10:End
-
-# Part D - Combine mathematical costs
-
-## MATH.3 - Compose Minimum-Cost Tables
-
-> **Type:** Method
-> **Normativity:** Normative
-
-### MATH.3:1 - Problem frame
-
-Use this pattern when a construction proceeds through stages, each stage offers alternative routes between named states, and you want the least total additive cost between a starting and ending state. You have the least stage costs and enough state information to decide which stage routes can be joined.
-
-The mathematical move is to retain the intermediate state while combining costs. For each intermediate state, add the two stage costs; then take the minimum over those alternatives. This produces a new cost table that can be composed with a later stage.
-
-You need finite sets, addition and minimum. Start with one row and one column of the two tables. Return their minimum sum, and an attaining route if the receiving work needs one.
-
-Use direct enumeration when the few complete routes are already available and a table adds no useful reuse. If costs of joined routes do not add, first choose the appropriate combination rule; elapsed time for overlapping activities, for example, is a different quantity from the sum of their durations.
-
-### MATH.3:2 - Problem
-
-Keeping only the cheapest first-stage route can discard the one that permits the next stage. Conversely, retaining every full route can make repeated composition unnecessarily large.
-
-The task is to compress each stage to its minimum costs without losing a condition on future composition. The result must identify what routes its minimum ranges over and preserve an attaining route when a number alone cannot support the next action.
-
-### MATH.3:3 - Forces
-
-| Force | Tension |
-| --- | --- |
-| Smaller tables and sufficient state | One value per endpoint pair is economical only when the endpoint retains the conditions the next stage uses. |
-| Numerical answer and construction witness | A minimum cost answers one question; executing an optimal route also needs a way to obtain that route. |
-| Local minima and a composed minimum | Stage minima combine correctly when routes meeting at the same intermediate state remain interchangeable for the following stage. |
-| Repeated calculation and changing premises | Associativity permits reuse of composed tables, while a changed transition or cost can invalidate their affected entries. |
-
-### MATH.3:4 - Solution
-
-**Local mantra:** retain the intermediate state; add along a permitted combination; minimize across alternatives; keep a witness when it will be used.
-
-#### MATH.3:4.1 - Give each table its meaning
-
-Let `I`, `J` and `K` be finite sets of starting, intermediate and ending states. Let `A_ij` be the minimum cost of an admitted first-stage route from `i` to `j`, and `B_jk` the corresponding second-stage minimum from `j` to `k`.
-
-Each finite entry is a real cost attained by an admitted stage route. Write `infinity` when there is no route for that entry. This marker participates in the calculation by `infinity+x=infinity`; it denotes absence here, not an unusually expensive available route. The minimum of an empty set of alternatives is also `infinity`.
-
-The stages may consist of elementary arrows, explicitly listed paths or previously composed tables. An entry obtained from only a selected subset of routes supports a minimum over that subset. State the admitted family rather than silently widening its coverage.
-
-Check the composition premise: every first-stage route and second-stage route whose full intermediate state is `j` can be concatenated, and their costs add. Retain permission, remaining resource or other information in `j` when it changes that premise. MATH.1 supplies the path and endpoint construction.
-
-#### MATH.3:4.2 - Construct one composite entry
-
-For each `j`, the sum `A_ij+B_jk` is the cost of an available concatenation when both entries are finite. If either stage has no route, the sum is `infinity`.
-
-Define:
-
-`C_ik=min_{j∈J}(A_ij+B_jk)`.
-
-This operation is often called min-plus matrix multiplication. The name identifies minimum across alternatives and addition along a concatenation. Ordinary matrix multiplication uses different scalar operations.
-
-Why does the formula give the promised minimum? Any admitted concatenation through `j` has cost at least `A_ij+B_jk`. For a finite sum, routes attaining both stage minima can be joined by the composition premise. With finitely many intermediate states, a finite minimum is therefore attained by one of these concatenations.
-
-If all sums are infinite, no admitted two-stage route exists for this endpoint pair. Return that result and, when useful, the missing connection. A large arbitrary number in place of absence would instead create a fictitious expensive route.
-
-#### MATH.3:4.3 - Recover an attaining route when needed
-
-For a finite entry, choose an intermediate state `j*` attaining the minimum. Take a first-stage route attaining `A_i,j*` and a second-stage route attaining `B_j*,k`, and concatenate them.
-
-If only the minimum value will be consumed, the number can be the whole immediate result. If the receiver needs a route, retain the chosen intermediate state and the two stage witnesses, or a way to reconstruct them. A previously composed witness can be expanded recursively until the elementary steps are available.
-
-Ties allow several choices of `j*`. Returning any one is sufficient for a request for one cheapest route. A request for every cheapest route needs all tied stage alternatives as well as tied intermediate states; one witness per table entry does not retain them all.
-
-#### MATH.3:4.4 - Compose further stages and reuse the laws
-
-Write `A*B` for the table just constructed. For a third stage `D`, both `(A*B)*D` and `A*(B*D)` have entry:
-
-`min_{j,k}(A_ij+B_jk+D_kl)`.
-
-The finite minima range over the same intermediate pairs, and real addition is associative. Thus either grouping gives the same minimum cost under the same stage and composition premises. This permits a reusable table for a group of stages.
-
-At one state set, the identity table has 0 on the diagonal and `infinity` elsewhere. It represents empty paths. Composing with it leaves the other table unchanged.
-
-The laws concern minimum costs. Arbitrary tie-breaking in two groupings can return different cheapest routes with the same cost. If a later use distinguishes those routes, retain the relevant choices instead of assuming witness identity from cost equality.
-
-#### MATH.3:4.5 - Return to the changed premise
-
-When a stage entry changes, recompute the composite entries whose alternatives can use it. A changed column of a second-stage table can affect the corresponding column of the composite; it leaves other columns unchanged under the same premises.
-
-When a continuation depends on information absent from the intermediate state, refine that state and reconstruct the affected stage tables. Reusing the old minima alone cannot recover the discarded routes. The needed detail can come from retained generators, paths or another supplying result.
-
-Stop with the required minimum, attaining route or absence result. Reuse the composition proof when its definitions and premises remain unchanged. Search for a faster multiplication or a minimal state description is a further algorithmic question when the calculation's scale makes it consequential.
-
-### MATH.3:5 - Archetypal Grounding
-
-#### MATH.3:5.1 - A cheaper prefix that cannot continue
-
-Routes `p` and `q` from `S` reach location `V` at costs 1 and 4. The second route grants a permission; the first does not. A step from `V` to `T` costs 2 and needs that permission.
-
-Retain states `V0` and `V1`, without and with permission. The first table is the row `A=(1,4)`. The second is the column `B=(infinity,2)`. The composite cost is `min(1+infinity,4+2)=6`, attained by `q;r`.
-
-A location-only first-stage minimum would be 1. Adding 2 to it gives 3, but no route with that construction exists. The retained intermediate states make the unavailable concatenation explicit.
-
-Now add a stage that must finish with permission. From `V0`, it grants permission at cost 1; from `V1`, its empty path retains permission at cost 0. In row and column order `(V0,V1)`, its table is `G=((infinity,1),(infinity,0))`. Both rows end only at `V1`, as required by this stage. Then `A*G=(infinity,2)`, and `A*G*B=4`. The attaining route is the cheap prefix, grant, then final step. The new possibility changes the answer because a new operation was supplied.
-
-#### MATH.3:5.2 - Reusing a whole table
-
-Consider two starts `S1,S2`, two intermediate states `H1,H2` and two destinations `T1,T2`. Costs are additive in the same unit.
-
-| First stage | `H1` | `H2` |
-| --- | ---: | ---: |
-| `S1` | 1 | 4 |
-| `S2` | 3 | 2 |
-
-| Second stage | `T1` | `T2` |
-| --- | ---: | ---: |
-| `H1` | 5 | 2 |
-| `H2` | 1 | `infinity` |
-
-The composite table is:
-
-| Composite | `T1` | `T2` |
-| --- | ---: | ---: |
-| `S1` | 5 | 3 |
-| `S2` | 3 | 5 |
-
-For example, `S1→T1` uses `H2`, with cost `4+1=5`; `S1→T2` uses `H1`, with cost `1+2=3`. Which intermediate state is useful depends on the requested destination.
-
-Suppose a route `H2→T2` becomes available at cost 1. Recomputing the second destination column gives 3 from either start. The first destination column stays unchanged. The source transition, its table entry and the affected answer are separately recoverable.
-
-#### MATH.3:5.3 - Existence as a reduced case
-
-Suppose only the existence of a permitted route matters. Assign cost 0 to each available stage route and `infinity` to absence. A composite entry is 0 exactly when at least one intermediate state has both stage routes; otherwise it is infinite.
-
-This reduced calculation answers a reachability question at the specified stage boundaries. It discards the number and identities of possible routes. A later counting question needs a different aggregation of alternatives.
-
-### MATH.3:6 - Bias-Annotation
-
-The cheapest current option is salient even when its future continuation is unavailable. Retaining the intermediate state prevents that local numerical comparison from deciding the whole route.
-
-A cost table can also look more complete than its admitted route family. Each minimum inherits the routes actually supplied. A missing transition in the description and a transition established to be unavailable are different input situations; the table's claimed family has to make that distinction clear.
-
-### MATH.3:7 - Conformance Checklist
-
-- Does each table entry name its endpoint pair and the admitted stage routes whose minimum it gives?
-- Is each finite stage minimum attained, and is absence represented consistently?
-- Can stage routes meeting at the retained intermediate state be joined with additive cost?
-- Does each composite minimum range over all intermediate states of the claimed construction?
-- If a route is requested, can an attaining intermediate state and its stage witnesses be recovered?
-- After a changed transition, cost or state distinction, are the affected tables reconstructed or recomputed?
-- Are claims about all optimal routes, other quantities or a wider route family supported by the additional information they need?
-
-### MATH.3:8 - Common Anti-Patterns and How to Avoid Them
-
-**Minimize before retaining the condition needed by the next stage.** The permission case returns an impossible cost of 3 after a location-only reduction. Keep the enabling distinction in the intermediate state.
-
-**Use a large cost to mean unavailable.** The calculation can select that value when all other alternatives are larger. Use the absence marker and its stated arithmetic.
-
-**Infer the selected route from the cost alone.** Ties and different stage witnesses can produce the same minimum. Keep a witness for a request to carry out one route.
-
-**Sum a quantity that does not add across the selected composition.** Overlapping durations do not give elapsed completion time by simple addition. Change the cost meaning or the composition method before calculating that quantity.
-
-### MATH.3:9 - Consequences
-
-The result summarizes alternatives by endpoint pair and can itself be an input to another composition. This supports repeated calculation without retaining every full route in the table.
-
-A direct finite calculation considers each starting, intermediate and ending triple. Witness retention adds information, while a cost-only query can omit it. The savings from table reuse depend on the problem's alternatives and repeated uses.
-
-Compression remains conditional on sufficient intermediate states and attained stage minima. A new dependence on history can require a larger state and recovery of paths discarded by the earlier table.
-
-### MATH.3:10 - Architectural Rationale
-
-This method constructs an algebraic operation for additive cost and alternative choice. Minimum represents the chosen scalar comparison, while addition represents the contribution of consecutively joined stages. Their different roles explain the formula and the condition that makes local minima composable.
-
-This is aggregation over alternatives. MATH.2's quotient instead identifies objects while preserving specified operations. A cost table may be used with a quotient of states, but that identification needs its own continuation and query conditions.
-
-When the receiving question weighs cost alongside other outcomes, determine which comparison or choice is needed before treating one scalar minimum as its answer. The table supplies the least additive cost under its stated route and composition conditions.
-
-The route case connects formal composition, an interpreted permission condition and a numerical calculation. The same mathematics also operates on uninterpreted tables or formal transition systems. The application determines what its states and costs mean.
-
-### MATH.3:11 - SoTA-Echoing
-
-**Question:** how can stage alternatives be summarized while preserving the minimum cost of a permitted composition?
-
-**Adopt** the minimum-and-addition matrix construction from Fong and Spivak's [*Seven Sketches in Compositionality*](https://arxiv.org/pdf/1803.05316), §2.5.3, pp.73-75, 2018 manuscript. Its Cost instance supplies the selected scalar operations; :4 gives the finite composition and witness arguments used here. The finite argument also works for real attained stage costs, with positive infinity for absence; it makes no claim about a minimum over an unbounded family without an attaining route.
-
-Explicit path enumeration is the serious alternative. It keeps more information and is often simpler for a few routes. The table deliberately trades that detail for reusable endpoint minima. **Adapt** the construction in :4.1 and :4.3 by making the admitted family, enabling state and witness use explicit. The permission example shows why an even smaller summary containing only the prefix minimum is inadequate.
-
-Reconsider the table construction if costs cease to add, the intermediate state omits a condition on continuation, the query needs all optimal paths, or enumeration supplies the same answer more economically. The source gives the mathematics; the meaning and adequacy of a physical or organizational cost remain with the application.
-
-### MATH.3:12 - Relations
-
-- **Uses MATH.1:** stage routes compose at matching endpoints; empty paths give the identity table.
-- **Connects with MATH.2:** a proposed state identification is tested before its merged costs are relied on for continuation.
-- **Connects with FPF C.29 and B.5.MPC:** interpret the mathematical result and revisit the formulation when its use fails.
-- **For a choice among available alternatives, connects with FPF C.11:** use its decision method when preferences or uncertainty require more than the supplied scalar cost. MATH.3 can contribute cost values to that choice.
-- **Connects with algorithmic methods:** large-scale shortest-path, dynamic-programming or table-multiplication work supplies its own execution and resource methods.
-
-### MATH.3:End

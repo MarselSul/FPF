@@ -44,14 +44,14 @@ An AI agent can therefore help choose the **next justified move** without preten
 | Publication | What it contributes | Typical working questions |
 | --- | --- | --- |
 | [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
-| [**Mathematical Practice DPF**](./MATHEMATICAL-PRACTICE-DPF.md) | Methods for constructing mathematical objects, operations and arguments; working with symmetries and constraints; and using a result to develop the next question. | How can these steps be composed? What survives a change of representation? Can a proof supply the object I need? Which variation or symmetry gives a useful consequence? |
-| [**Mathematical Modeling Practice DPF**](./MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Five selected techniques for physical balance models, bounded observation association and shared-state interaction; the broader repertoire is under development. | Which relations complete this model? Which detail can be omitted while keeping the needed answer? What does the calculated result tell us about the modeled subject? |
+| [**Mathematical Practice DPF**](./MATHEMATICAL-PRACTICE-DPF.md) | Methods for choosing and constructing mathematical objects, operations and arguments; working with symmetries and constraints; and developing the next question. | What mathematics could answer this working question? How can these steps be composed? What survives a change of representation? Can a proof supply the object I need? |
+| [**Mathematical Modeling Practice DPF**](./MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Previous edition withdrawn; replacement in development. | See the withdrawal notice. A replacement edition is not yet available. |
 | [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published and planned FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
 | [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
 
 ### Mathematical Practice
 
-The September 2026 publication contains sixteen patterns, fifteen practical entries and a Preface showing how the methods work together. It is a standalone domain pattern language in the FPF ecosystem.
+The 15 September 2026 publication contains thirteen patterns and thirteen practical entries. Start with MP-FRAME when you have a working question but do not yet know which mathematics it needs. The Preface shows how to choose a representation, obtain and interpret a result, and revise the representation when the question changes. The individual bodies develop the mathematical constructions used along the way. This is a standalone domain pattern language in the FPF ecosystem.
 
 The variation and symmetry methods can be found under these addresses:
 
@@ -62,7 +62,7 @@ The variation and symmetry methods can be found under these addresses:
 
 ### Mathematical Modeling Practice
 
-The September 2026 publication supplies five selected techniques: closing physical balances, scaling differential models, constructing steady conductance networks, associating observations under motion bounds and modeling overlapping work through shared state. Six practical entries and a Preface explain when they apply. The broader repertoire, including general model-family selection, statistical construction and numerical modeling, is still under development. MATH supplies the mathematical constructions used by these techniques. Start with a question entry that fits your modeling problem or find a technique in the pattern index.
+The earlier five-pattern edition has been withdrawn: its selected techniques did not provide the general modeling methods promised by the title. The replacement is being developed around constructing, interpreting, using and revising models across different kinds of problems, connected to mathematical, physical and computational thinking. The former text is preserved in development history. The linked file explains the withdrawal; it is not a replacement DPF.
 
 ### Engineering DPF Suite
 
