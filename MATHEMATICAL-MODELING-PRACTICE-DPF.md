@@ -1,10 +1,10 @@
 # Mathematical Modeling Practice DPF
 
-> A pattern language for formulating models, calculating answers and revising the assumptions that determine how those answers can be used.
+> Selected methods for physical balance models, bounded observation association and shared-state interaction.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Version:** September 2026
-- **Status:** Eternal alpha: a growing repertoire of methods for mathematical modeling.
+- **Status:** Eternal alpha: five published techniques; the broader modeling repertoire is under development.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
@@ -42,7 +42,9 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Modeling Practice DPF*, S
 
 ## Practical entries
 
-Mathematical Modeling Practice helps turn a question about a subject into a mathematical formulation, calculate an answer and determine how that answer can be used. The examples below are selected starting points. Bring your actual question; the Table of Contents and the pattern bodies also support uses outside these examples.
+This edition provides five selected modeling techniques: closing a physical balance with response laws, scaling a differential model, constructing a steady conductance network, associating observations under motion bounds, and examining overlapping work through shared state. Start here when one of these difficulties fits your question; each pattern states the conditions under which its method applies.
+
+The broader Mathematical Modeling Practice repertoire is still being developed. General model-family selection, statistical model construction and general numerical modeling are not yet taught in this edition. For the common work of constructing a first account, consult B.5.FM in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md); C.29 helps connect mathematical work to the subject question. The entries below lead to the five available techniques.
 
 Open the cited pattern for its instructions, conditions and worked cases. The [Preface](#mathematical-modeling-practice---preface) explains how the contributions connect and what this repertoire currently supplies.
 
@@ -108,7 +110,9 @@ The same distinction matters after network reduction: an eliminated internal jun
 
 You may have a conservation law, a solver, a set of measurements or a diagram of a working method and still lack the model needed for the next decision. The balance may omit a component's response. The calculation may return an average where the question concerns a maximum. Measurements that look individually plausible may conflict when they must share one calibration. A diagram may conceal what another participant can change between two actions.
 
-Mathematical Modeling Practice develops methods for constructing the mathematical account, obtaining a result and returning it to the subject of the question. Its initial repertoire covers physical balance models, scale-dependent simplification, steady conductance networks, bounded-motion observation association and overlapping work represented by shared state. The patterns can be used separately and in combinations.
+The aim of Mathematical Modeling Practice is to help construct a mathematical account, obtain a result and return it to the subject of the question. This edition supplies five selected techniques: physical balance closure, scale-dependent simplification of differential models, steady conductance-network construction, bounded-motion observation association and overlapping work represented by shared state. The patterns can be used separately and in combinations within their stated conditions.
+
+The general repertoire is incomplete. In particular, this edition does not yet teach general model-family selection, statistical model construction or general numerical modeling. FPF's B.5.FM supplies the common first-model construction, and C.29 connects mathematical work to a subject question. Use those entries for the shared reasoning while obtaining any further mathematical modeling technique from an appropriate source.
 
 Begin with the unresolved question. The Readme helps select a first pattern; the Table of Contents also supports questions outside its examples. This Preface explains the shared approach and its branches. The bodies supply the constructions and their conditions.
 
@@ -244,7 +248,7 @@ The language is organized by reusable modeling difficulties rather than by a lis
 
 Mathematical Practice is a separate language because its constructions can be used within mathematics and across many subjects. MMP uses those constructions while adding the choice of physical or operating quantities, conditions and interpretation. FPF retains the common coordination of mathematical accounts, calculations and their use. This separation lets a better matching method or elimination technique become available to several modeling uses without restating it in each one.
 
-Organizing only around physical balance models would make the observation and interaction methods harder to find. A curated reading route is cheaper to maintain and remains useful for established detailed treatments. The full modeling bodies here provide the selected constructions and links to the required mathematical methods, at the cost of maintaining those instructions and their source comparisons. Repeating the full mathematical techniques would reduce the need to consult other publications but duplicate methods used elsewhere. MMP therefore returns to MATH for those techniques and includes the calculations needed to understand each worked use.
+Organizing only around physical balance models would make the observation and interaction methods harder to find. Each body provides its selected modeling construction and the calculations needed to understand the worked uses. It links to MATH for mathematical techniques that can also serve other subjects. This lets the reader obtain a needed mathematical contribution and reuse it with another modeling method.
 
 The physical, observation and interacting-work branches share contributions and can overlap. MMP.2's output-based approximation question, for example, can recur in more than one physical model. Publication Parts group the text for reading; the actual dependencies are the supply and return relations described in section 3.
 
