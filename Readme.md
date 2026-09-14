@@ -51,7 +51,7 @@ An AI agent can therefore help choose the **next justified move** without preten
 
 ### Mathematical Practice
 
-The September 2026 publication contains fifteen patterns, fourteen practical entries and a Preface showing how the methods work together. It is a standalone domain pattern language in the FPF ecosystem.
+The September 2026 publication contains sixteen patterns, fifteen practical entries and a Preface showing how the methods work together. It is a standalone domain pattern language in the FPF ecosystem.
 
 The variation and symmetry methods can be found under these addresses:
 
