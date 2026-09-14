@@ -44,8 +44,20 @@ An AI agent can therefore help choose the **next justified move** without preten
 | Publication | What it contributes | Typical working questions |
 | --- | --- | --- |
 | [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
+| [**Mathematical Practice DPF**](./MATHEMATICAL-PRACTICE-DPF.md) | Methods for constructing mathematical objects, operations and arguments; working with symmetries and constraints; and using a result to develop the next question. | How can these steps be composed? What survives a change of representation? Can a proof supply the object I need? Which variation or symmetry gives a useful consequence? |
 | [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published and planned FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
 | [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
+
+### Mathematical Practice
+
+The September 2026 publication contains fourteen patterns, thirteen practical entries and a Preface showing how the methods work together. It is a standalone domain pattern language in the FPF ecosystem.
+
+The variation and symmetry methods can be found under these addresses:
+
+| FPF address | Mathematical Practice method |
+| --- | --- |
+| C.29.AV | [MATH.10 - Derive a Condition from an Admissible Variation](./MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) |
+| C.29.SC | [MATH.13 - Derive a Consequence from a Symmetry](./MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) |
 
 ### Engineering DPF Suite
 

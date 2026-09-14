@@ -279,12 +279,10 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | C.27.TA | **Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness** | Stable | *Keywords:* temporal aspect, time window, freshness, currentness, rhythm, cadence, validity window, recovery timing. *Queries:* "Which time relation matters for this claim or object?", "How do I state freshness, rhythm, latency, or validity window without turning it into evidence, work, or dynamics law?" | **Builds on:** A.3.4, A.3.3, C.27, E.24. **Coordinates with:** A.10, B.3, A.15.1, A.15.2, A.20, A.21, C.16, C.29, E.18, G.11. |
 | C.28 | **CausalUse-CAL: Causal-Use Questions, Identification, and Realizability** | Stable | *Keywords:* causal-use question, causality ladder, association, intervention, counterfactual, Pearl Causal Hierarchy, Structural Causal Model, causal diagram, causal estimand, identification, counterfactual sampling realizability, causal support components, CausalUseSupportResult, target trial, causal fairness, off-policy causal evaluation, causal-RL evaluation. *Queries:* "Can I say this caused that?", "Is this intervention claim supported?", "What evidence supports a counterfactual claim?", "When does a fairness metric need causal support?", "Is simulation enough for a counterfactual claim?", "Which pattern handles causal benchmark parity?", "When should causal language be downgraded to association, measurement, temporal, QL, or local prose?" | **Builds on:** A.10, B.3, C.11, C.19, C.24, C.26, C.27, D.5, G.5, G.9. **Coordinates with:** A.2.4, A.3.2, A.6, A.15, C.16, G.11. |
 | C.28.MR | **Derive an Intervention Consequence by Mechanism Replacement** | Draft | Use when a causal model is available and a changed mechanism must be followed to its consequence. Replace the targeted equation, retain the other mechanisms and input law, and derive a value, distribution, contrast or useful bound. *Queries:* "What follows if this rule is replaced?", "Which equations stay in place while their output values change?", "Is the intervention outcome determined when the baseline is not?", "What later feedback must be represented?" | **Coordinates with:** C.28, A.3.3.TR, B.5.MPC, B.5.RR and C.29.1. |
-| C.29 | **Mathematical Lens Use** | Stable | Use when a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when a result is being carried beyond the representation's supported use. Construct the correspondence, derive a consequence and return its meaning and limits to the working question. *Queries:* "Which mathematical construction answers this question?", "What does it preserve or lose?", "What changes in the project if this consequence holds?" | **Builds on:** A.1.1, A.6.P, A.6.RCD, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC and F.9. **Related Methods:** C.29.1, C.29.2, C.29.3, C.29.AV, C.29.SC and C.29.BB. **Coordinates with:** B.5.MPC, C.26, C.28 and C.39. |
+| C.29 | **Mathematical Lens Use** | Stable | Use when a mathematical representation could expose a needed relation, invariant, obstruction, approximation or resource limit, or when a result is being carried beyond the representation's supported use. Construct the correspondence, derive a consequence and return its meaning and limits to the working question. *Queries:* "Which mathematical construction answers this question?", "What does it preserve or lose?", "What changes in the project if this consequence holds?" | **Builds on:** A.1.1, A.6.P, A.6.RCD, A.3.3, A.19, A.10, A.15, B.3, C.16, E.17.EFP, E.17.ID.CR, A.6.3.RT, A.6.3.CSC and F.9. **Related Methods:** C.29.1, C.29.2, C.29.3 and C.29.BB. **Coordinates with:** B.5.MPC, C.26, C.28 and C.39. |
 | C.29.1 | **Mathematical Result Transfer** | Draft | Use when an operation or result must be carried from one mathematical account to another. Compare performing then mapping with mapping then performing, test representative choice and recover a transferable consequence, a bound or a repair. *Queries:* "Does this summary preserve the operation and its permissions?", "Can two represented cases give different answers?", "Does the receiving answer correspond to a feasible source action?" | **Coordinates with:** C.29 for the representation question, B.5 for construction and argument recovery, A.3.3 for retained state, and A.6.3.RT for expression under a scheme. |
 | C.29.2 | **Computational Formulation** | Draft | Use when the required answer or available computing means are known, but the state, operations and obtaining procedure are not yet connected. Construct a computation, establish the claimed result and estimate the resources its use consumes. *Queries:* "How can these relations yield the newly requested unknown?", "Which representation makes the computation feasible?", "What accuracy or probability guarantee does this procedure provide?" | **Coordinates with:** C.29.1 for result transfer, C.29.3 for realization, A.3.3 for state, A.6.3.RT for notation, and C.39/C.40 for a missing construction. |
 | C.29.3 | **Computational Realization** | Draft | Use when a computation and a candidate executing system are available but their connection is unsettled. Relate preparation, system operation and readout; compare the interpreted result with the required equality, bound or behavior. *Queries:* "What does this command make the system do?", "Do range, timing or shared state invalidate the result?", "Do correct individual outputs compose into the required joint result?" | **Coordinates with:** C.29.2 for computation, A.6.1 for realization, A.3.3 for state, C.16 for observation, and B.5.MPC for the joint physical question. |
-| C.29.AV | **Derive a Condition from an Admissible Variation** | Draft | Use when a constrained candidate needs an improving change, a stationary condition or a justified optimum. Construct allowed variations, calculate their effect and establish the reach of the conclusion. *Queries:* "Which changes retain the constraints?", "Does a zero derivative settle this problem?", "What changes when a bound becomes active?" | **Coordinates with:** C.29 for interpretation, C.29.2 for computation, B.5.RR for changed premises, and B.5.MPC for the physical use. |
-| C.29.SC | **Derive a Consequence from a Symmetry** | Draft | Use when a transformation may preserve the structure that decides a problem. Follow its action on conditions and the required answer; derive a transferred solution, a restriction or an obstruction to selection. *Queries:* "Is the symmetry in the law or the whole fixed problem?", "Must the answer stay the same or transform?", "What distinction would permit the required choice?" | **Coordinates with:** C.29.1 for representation and return, C.29.AV for admissible change, C.29.2 for computation, and A.3.3.TR for time evolution. |
 | C.29.BB | **Construct a Balance across a Boundary** | Draft | Use when a changing total must be related to transfers, production and removal. Choose an additive quantity and included parts, combine compatible accounts and revise them when the boundary changes. *Queries:* "Which transfers cross this boundary?", "What changes when the connector is included?", "Can a bound settle the question without measuring every term?" | **Coordinates with:** A.3.3.TR for state change, C.29.1 for aggregation, C.29.2 for computational preservation, E.18.2 for flow descriptions, and C.11.DUA for further inquiry. |
 | C.30 | **Grounded Architecture and Selected-Structure Adequacy** | Stable | *Keywords:* grounded architecture, ArchitectureOf@Context, selected structure, architecture claim, architecture question card, candidate architecture use, architecture-description boundary, artifact-as-architecture guard. *Queries:* "How do I recover a grounded architecture claim?", "Which selected structure changes the architecture move?", "When does candidate synthesis go to C.32 rather than C.30?" | **Builds on:** A.22, C.2.1, A.6.3, A.7, E.17.0, E.17, E.10.D2, F.18. **Coordinates with:** C.30.AD, C.30.ASV, A.6.F, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, C.32.CONWAY, C.32.PAD, C.32.ADR, C.32.ADA, C.29, C.16, C.25, C.28, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.10, B.3, A.20, A.21, A.15. |
 | C.30.AD | **Architecture Description Adequacy** | Stable | *Keywords:* architecture description, ArchitectureDescription@Context, architecture description use card, architecture structural view, viewpoint, correspondence, source return, specification-use boundary, candidate-description boundary. *Queries:* "When is an architecture description the EntityOfConcern under repair?", "How do I keep views, viewpoints, selected structures, and publication boundaries distinct?", "Where do described candidate palettes and residual frames go?" | **Builds on:** C.30, C.30.ASV, A.22, A.7, A.6.3, E.17.0, E.17.1, E.17.2, E.17, C.2.P, E.10, E.10.ARCH. **Coordinates with:** C.30.P, C.30.TFS-REL, C.30.LCA, C.30.ILC, C.32, C.32.MLAO, A.19.CPM, A.19.SelectorMechanism, C.18, C.19, G.5, C.11, A.6.F, A.6.M, C.29, C.16, C.16.P, A.10, B.3, A.20, A.21, A.15, C.28, E.8, F.18. |
@@ -481,11 +479,25 @@ FPF helps when a project has outgrown one clever conversation. It is useful when
 
 Use FPF as a reference model and pattern language, not as a linear textbook. Start from the working question you bring from your project. Bring in internal FPF terms only after they help you keep the work precise.
 
+You can ask an assisting agent to explain an answer or give feedback in ordinary language, without FPF terminology. For example: “Explain this and comment on my proposal without FPF jargon; use the language of my work.” The patterns can guide the reasoning while the answer uses familiar words.
+
 This readme is a thin public practical-use rendering of FPF for engineers, researchers, managers, reviewers, and AI-assisted project workers deciding what FPF can help them do now. It foregrounds the project questions most likely to pay off and deliberately coarsens, omits, or defers the full pattern language, source publications, source-use history, and relation structure. When a claim becomes important, use the Preface and Table of Contents as locators, then inspect the exact definition, constraint, test, method, evidence rule, or assurance rule needed for that claim in the cited pattern body; do not treat this readme as the specification.
 
 Begin with the project object at stake and the current question about it. In FPF, a holon is an object whose actual construction supports treatment as a whole with parts and as a possible part of a larger whole. Examples, when they meet the conditions in `A.1`, include a machine, product, organization-as-system, body of knowledge, publication system, work occurrence, discipline, AI-agent arrangement, method, or local framework.
 
 Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, then continue through the object or relation it recovers. If the recovered wording is a claim-bearing function use, apply `A.6.F` and its selected subject pattern. Do not choose a branch from the trigger word alone. Once the object and question are named, ask which structure, claim, decision, evidence, description, Work, or improvement relation is current.
+
+## Mathematical Practice and earlier FPF addresses
+
+[Mathematical Practice DPF](./MATHEMATICAL-PRACTICE-DPF.md) develops methods for constructing, using and extending mathematical objects, operations and arguments. The following earlier FPF addresses locate the complete methods in that domain framework.
+
+### C.29.AV - Derive a Condition from an Admissible Variation
+
+[MATH.10 - Derive a Condition from an Admissible Variation](./MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) constructs allowed variations, calculates their effects and establishes whether they supply an improvement, a necessary condition or a justified optimum.
+
+### C.29.SC - Derive a Consequence from a Symmetry
+
+[MATH.13 - Derive a Consequence from a Symmetry](./MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) follows the transformation of a problem and its answer to transfer a solution, restrict possible answers or identify a choice the available distinctions cannot support.
 
 ## Practical entries
 
@@ -62562,9 +62574,9 @@ Choose the row that fits the problem, or use a closer domain construction. The m
 | Probe, order or context effect with incompatible frames | Quantum-like or contextual-probability model: identify the contextual obstruction that still changes inference or action after the ordinary subject patterns. | Apply C.26's adequacy conditions. A physical quantum claim additionally needs the relevant physics and observations. |
 | Storage, computational or realizability limit | Count actual represented objects and operations; apply a resource bound or constructive/impossibility argument. | Recompute for the actual alternative representation. A valid rejection of one implementation does not yet supply a feasible replacement. |
 
-For a constrained extremum or stationary construction, C.29.AV develops the admissible family, calculates its effect and establishes what the resulting condition proves. Use it when specifying a variation space still leaves the required construction unresolved.
+For a constrained extremum or stationary construction, construct or reuse a family of allowed candidates and calculate the resulting change in the target quantity. Distinguish an improving candidate, a necessary stationary condition and a justified optimum; carry the resulting conclusion and its assumptions into the working question.
 
-For a symmetry argument, C.29.SC follows the transformation through the conditions and required answer. It transfers a solution, restricts possible answers or identifies a choice that the available distinctions cannot support.
+For a symmetry argument, follow the transformation through the problem's data, conditions and required answer. Derive the transferred solution, restriction or obstruction to selection, and say which problem that consequence answers.
 
 When a balance must be constructed or its boundary changes, C.29.BB identifies the additive quantity, included stores and crossing transfers. It combines compatible accounts and returns the total, a bound or the missing contribution.
 
@@ -63421,8 +63433,7 @@ The comparison above selects the first-use Method. The references below provide 
 - **Construction and argument recovery:** B.5 recovers the inputs, operations and dependencies needed to obtain or understand a result. C.29 tests which consequence can be carried through the proposed mathematical correspondence.
 
 - **Related Methods:** C.29.1 constructs mathematical result transfer; C.29.2 constructs a computation; C.29.3 connects computation to concrete execution. Each has its own working entry. They can be composed when one result supplies another's input; a computational question can also begin with an already adequate mathematical representation.
-- **Admissible variation:** C.29.AV constructs a constraint-preserving family and obtains an improvement, necessary condition or justified optimum from its change.
-- **Symmetry consequence:** C.29.SC follows the action on a problem and its answer to transfer a solution, derive a restriction or expose an unsupported choice.
+
 - **Boundary balance:** C.29.BB constructs and revises an additive change account, preserving shared transfers and the information needed for the requested total.
 - **Joint reasoning:** B.5.MPC connects the physical account, mathematical question, computation and realization, starting from whichever contribution is available and returning to the contribution whose conditions fail. A.3.3 supplies state and continuation semantics; A.6.1 supplies the realization relation; C.39 helps find or develop a missing operation.
 
@@ -63554,6 +63565,10 @@ An equality on inputs where both sides happen to be defined leaves those availab
 For a sequence of operations, follow the intermediate representations. If each step has the required correspondence and passes an allowed intermediate result to the next, composing the equalities transfers the sequence. If a later operation depends on a distinction discarded earlier, the stepwise construction exposes where the summary has become insufficient.
 
 An invertible coordinate change offers a constructive route. Given F and its inverse, define the receiving update by V = F ∘ U ∘ F⁻¹ on the represented domain. This definition yields the commuting comparison there. If V was proposed independently, compare it with this expression. A bijection between states alone does not determine whether that proposed update agrees.
+
+The same comparison can relate transformed inputs and outputs within one model. Set V = U, choose F for the input transformation and G for the output transformation: G(U(x)) = U(F(x)) means that transforming a result agrees with applying the operation to transformed inputs. This is equivariance. Invariance of a quantity q under F means q(F(x)) = q(x). To obtain another solution of the original fixed problem by such a transformation, establish that its defining data and conditions are preserved. When the data change, carry that change into the receiving problem.
+
+Always name the transformation whose effect is being compared. Relabelling two components can preserve a quantity which the time update changes. To establish preservation during evolution, compare q(U(x)) with q(x) for that update.
 
 #### C.29.1:4.4 - Determine whether a merged representation defines the answer
 
@@ -63715,6 +63730,8 @@ d' = (T₁'−T₂')/2 = (1−2α)(T₁−T₂)/2 = (1−2α)d.
 ~~~
 
 The receiving operation preserves the mean and scales the contrast. It is a simpler expression of the same discrete update. Equal heat capacities explain the physical significance of the preserved mean: the two heat changes cancel. The warmer temperature is M = max(T₁,T₂) = m + |d|.
+
+**Relabelling and evolution.** Let S(T₁,T₂) = (T₂,T₁) swap the bodies, and let U denote the update above. Equal heat capacities and the shared α give S(U(T₁,T₂)) = U(S(T₁,T₂)): both sides equal (αT₁+(1−α)T₂, (1−α)T₁+αT₂). The same update therefore applies after the swap. The warmer temperature M is invariant under S. It changes under U: for α = 1/4, (20,80) becomes (35,65), so M falls from 80 °C to 65 °C. Preservation of the mean during that update follows from the separately derived identity m′ = m.
 
 Now consider discarding d and retaining only m. The identity update m' = m is still exact, but the warmer temperature is no longer determined. The states (0,100) and (50,50) both have m = 50. For α = 1/4, the first becomes (25,75), then (37.5,62.5); the second stays at (50,50). They give opposite answers to the 60 °C threshold question after two intervals. Mean preservation alone is insufficient.
 
@@ -64604,440 +64621,9 @@ Reconsider the realization when a required input, observation relation, executio
 
 ### C.29.3:End
 
-## C.29.AV - Derive a Condition from an Admissible Variation
 
-> **Type:** Method
-> **Status:** Draft
-> **Normativity:** Normative
 
-### C.29.AV:1 - Problem frame
 
-Use this pattern when you have a candidate allocation, shape, history or other mathematical construction under constraints, and need to find an improving change or a condition that an optimum or stationary construction must satisfy.
-
-For example, two allocations obey the same resource limit, but it is unclear how moving some resource between them changes the criterion. Or a proposed physical history has fixed endpoints, and you need to find what its action principle requires of the motion between them. In both cases, construct changes that preserve the relevant constraints, calculate their effect and determine the strength of the resulting conclusion.
-
-The subject of the Method is a family of admissible mathematical candidates and the change of a stated scalar quantity over that family. A *variation* is a specified change within the family; *admissible* means that the changed candidate satisfies the conditions retained for this question.
-
-The first useful result is an improving candidate, a necessary condition, a justified minimum or maximum, or a located obstacle to obtaining one. A necessary condition can narrow a search even when it does not settle the optimum.
-
-The reader needs the candidate, its constraints, the quantity being compared and the mathematical operations used to calculate its change. Elementary algebra is enough for the allocation example. The history example additionally uses differentiation and integration. A specialist can supply a construction or theorem at the step where that preparation is needed.
-
-If an available evaluation of a few fixed alternatives already answers the question, use that comparison. This Method is useful when constructing the allowed changes or reasoning from them is the difficulty.
-
-### C.29.AV:2 - Problem
-
-Changing one value independently can leave the allowed set. A derivative calculated in that direction can then recommend an impossible change. Even with admissible directions, a zero first derivative can describe a maximum, a saddle point or a flat comparison; further reasoning is needed for a minimum.
-
-The reverse difficulty occurs at a constraint boundary: an optimum can have a nonzero derivative because the improving direction is unavailable. A calculation that discards the allowed parameter range loses that conclusion.
-
-These errors share a missing connection between what can vary, what the variation does to the quantity and what the examined family establishes about the original question.
-
-### C.29.AV:3 - Forces
-
-| Force | Tension |
-| --- | --- |
-| Preserved conditions | A convenient change is easy to calculate, but it must retain the constraints used by the conclusion. |
-| Local information | A first-order change can expose a useful direction cheaply; stronger conclusions can require finite changes, further terms or a theorem. |
-| Coverage | A small family can reveal an obstruction, while a claim about every candidate needs a reason that the family or argument covers them. |
-| Form of the candidates | Discrete choices, smooth vectors and histories support different kinds of variation. |
-| Use of the result | A mathematical improvement can guide a decision or a model construction; its application still depends on the meaning of the criterion and constraints. |
-
-### C.29.AV:4 - Solution
-
-**Construct an admissible family → calculate the change → derive the condition → establish what it settles → use or revise the result.**
-
-#### C.29.AV:4.1 - Fix the comparison
-
-State the candidate, the conditions to retain, the scalar quantity and the conclusion sought. Write the candidate as `x` and the quantity as `J(x)` when that notation helps. For minimization, smaller values of J are preferred; for maximization, reverse the comparisons below.
-
-Keep the meaning of J visible. It might be a supplied allocation cost, an approximation error or a physical action functional, which assigns a number to a history. A physical principle can require stationarity of an action without selecting its minimum. Recover that principle and its conditions before using the variational calculation to describe physical behavior.
-
-Distinguish a search for one improving change from a claim of local or global optimality. Local optimality concerns a specified neighborhood of the candidate; global optimality concerns all candidates admitted by the problem.
-
-#### C.29.AV:4.2 - Construct changes that remain admissible
-
-Build a family `x(h)` with `x(0)=x`. State the allowed values of the parameter h and substitute the family into the constraints. The parameter may be a scalar, a vector or a discrete choice.
-
-For a fixed total `x1+x2=b`, the change `(x1+h, x2-h)` preserves the total. If both components must stay nonnegative, its range is `-x1 <= h <= x2`. A further capacity limit can shorten that range.
-
-For a history with fixed endpoint values, try `q_h(t)=q(t)+h*eta(t)`, where eta vanishes at both endpoints and has the regularity required by the functional. Check any additional path constraint as well.
-
-A direction tangent to a constraint may preserve it only to first order. At `(1,0)` on the unit circle, `(1,h)` has squared length `1+h^2` and leaves the circle whenever h is nonzero. The curve `(cos(h),sin(h))` stays on it. Use an admissible curve for a finite comparison, or keep a tangent calculation at the first-order scope its mathematical argument supports.
-
-When a useful family cannot yet be constructed, the missing result is concrete: a parameterized change that retains the named constraint. Obtain the corresponding mathematical construction rather than continue with an inadmissible substitute.
-
-#### C.29.AV:4.3 - Calculate the effect of the variation
-
-Form the difference
-
-`DeltaJ(h) = J(x(h)) - J(x(0)).`
-
-Substitute the whole changed candidate, including dependent values. Simplify enough to determine the sign or magnitude relevant to the question.
-
-For a differentiable comparison with a scalar parameter h near zero, write
-
-`DeltaJ(h) = a*h + r(h), with r(h)/h -> 0,`
-
-when that expansion is justified. The coefficient a is the first variation along this family. Higher-order terms or a bound on the remainder can be needed when a vanishes, or when choosing a finite step.
-
-A derivative tells how sufficiently small changes behave under its limit assumptions. To select a particular step, check the finite difference or a bound that covers that step. For a discrete family, compare its admissible members directly; differentiability is not an entry requirement.
-
-If the calculation uses a numerical approximation, relate its error to the sign or comparison being used. C.29.2 develops that computational task. A difference interval entirely below zero can establish improvement for minimization; an interval spanning zero leaves that comparison unresolved.
-
-#### C.29.AV:4.4 - Derive a condition with the allowed directions
-
-For minimization, an admissible h with `DeltaJ(h)<0` supplies an improvement. For a local conclusion, use families whose candidates approach the base candidate as h approaches zero, under the neighborhood notion of the problem.
-
-At a local minimum, a differentiable family allowing sufficiently small changes of both signs must have `a=0`: a positive or negative a would give a decrease in one of those directions. If only small nonnegative h are allowed, the necessary condition is `a>=0`. For other parameter domains, test the directions actually available.
-
-When a is zero, inspect the remaining change. The differences `h^2`, `-h^2` and `h^3` all have zero derivative at zero but respectively give a minimum, a maximum and neither on a two-sided neighborhood. This distinction changes whether the candidate is selected, rejected or needs a stronger argument.
-
-For a vector of variation parameters, keep their joint constraints. Checking one coordinate at a time can miss an improving combination.
-
-#### C.29.AV:4.5 - Establish the reach of the conclusion
-
-Say which candidates the family reaches and which conclusion the calculation proves.
-
-If every admissible candidate can be represented by a member of the family, and `DeltaJ(h)>=0` throughout its allowed domain, the base candidate is a global minimizer. If equality occurs only for the base candidate, it is the unique minimizer. An argument restricted to a neighborhood establishes the corresponding local result.
-
-A narrower family can still supply an improving candidate or a necessary condition. Extending that condition to a stronger conclusion requires coverage of the relevant variations or an applicable sufficiency theorem. A convexity argument can sometimes supply the latter; recover its hypotheses before using it. Repeated failure of a chosen local move supplies no general global-optimality guarantee.
-
-For a physical action, derive the stationarity condition required by the physical model. Establish a minimum only if the functional and allowed histories support that stronger conclusion. The free-history example below does so by a nonnegative finite difference.
-
-#### C.29.AV:4.6 - Return the result to the working question
-
-Use the obtained change or condition in the calculation, model or decision that needed it. Keep the admissible family and the reason for the conclusion in the explanation so another practitioner can alter the comparison.
-
-When a criterion changes, recalculate its difference. When a constraint changes, rebuild the parameter domain or family first. B.5.RR helps revise the dependent reasoning while retaining what remains valid.
-
-The mathematical comparison can be completed before any physical change is performed. B.5.MPC supplies the return to physical interpretation and use. If the question is whether an actual intervention causes a result, C.28 supplies the causal-use question.
-
-Stop at the result sufficient for the current use. An improving feasible candidate can be enough to continue; a demand for the global optimum calls for the stronger argument.
-
-### C.29.AV:5 - Archetypal Grounding
-
-#### C.29.AV:5.1 - Reallocate a fixed total, then change the criterion
-
-Allocate ten divisible units between two uses: `x1>=0`, `x2>=0` and `x1+x2=10`. The supplied cost is `J=x1^2+x2^2`. Take the admissible family `(x1+h,x2-h)`, with `-x1<=h<=x2`.
-
-Substitution gives
-
-`DeltaJ(h)=2*(x1-x2)*h+2*h^2.`
-
-For an interior candidate, both signs of small h are allowed. The first-order condition gives `x1=x2`, hence `(5,5)`. At this candidate, the entire finite difference is `2*h^2`. Every feasible allocation is `(5+h,5-h)` for `-5<=h<=5`, so this proves the unique global minimum, with cost 50.
-
-Now change the cost to `J=x1^2+2*x2^2`, retaining the total and nonnegativity. The same family gives
-
-`DeltaJ(h)=2*(x1-2*x2)*h+3*h^2.`
-
-The condition becomes `x1=2*x2`, giving `(20/3,10/3)`. Its difference is `3*h^2` across the whole feasible interval, so its cost `200/3` is the unique minimum. Keeping the earlier equal split would miss the change introduced by the new criterion.
-
-If the units must instead be whole, x1 and x2 are integers. Completing the square gives `J=3*(x1-20/3)^2+200/3`; the admissible integer closest to 20/3 is 7. Thus `(7,3)` has the lowest cost, 67, in that discrete problem. The continuous stationary point helped locate the candidates; the integer comparison settles their use.
-
-Keep the weighted cost `J=x1^2+2*x2^2`, make the units divisible again, and add `x1<=6` while retaining the total and nonnegativity. The previous continuous minimizer `(20/3,10/3)` is now unavailable. At `(6,4)`, the allowed family has `-6<=h<=0` and
-
-`DeltaJ(h)=-4*h+3*h^2>=0.`
-
-This family covers every newly feasible allocation. Thus `(6,4)`, with cost 68, is the unique global minimizer despite its nonzero derivative along the unrestricted line. The parameter domain carries the decisive information.
-
-These are calculations for the stated cost model. Its use in an allocation decision requires the supplied cost to represent the consequence being compared.
-
-#### C.29.AV:5.2 - Compare histories between fixed endpoints
-
-Consider a one-dimensional free particle with mass `m>0`, elapsed time `T>0`, and fixed positions `q(0)=0`, `q(T)=L`. The model's action is
-
-`J[q] = integral from 0 to T of (m/2)*(qdot(t))^2 dt.`
-
-Take the straight history `q0(t)=L*t/T`. For any continuously differentiable eta with `eta(0)=eta(T)=0`, construct `q_h(t)=q0(t)+h*eta(t)`. Expanding the square gives
-
-`DeltaJ(h) = (m*h*L/T)*integral eta_dot(t) dt + (m*h^2/2)*integral eta_dot(t)^2 dt.`
-
-The first integral is `eta(T)-eta(0)=0`. The remaining term is nonnegative, and it vanishes for a changed history only when its derivative change is identically zero; the fixed endpoints then force the change itself to vanish. Every continuously differentiable history with these endpoints can be expressed as q0 plus such a change. The straight history therefore uniquely minimizes this functional over that class.
-
-The construction exposes the reason: the fixed endpoints remove the cross term, while every remaining velocity deviation adds a nonnegative contribution.
-
-Now include a restoring potential. In dimensionless variables, use the harmonic-oscillator action `J[q]=integral from 0 to 2*pi of (qdot^2-q^2)/2 dt`, with `q(0)=q(2*pi)=0`. At the history `q=0`, every admissible family `q_h=h*eta` has zero first variation. Yet the admissible directions `eta=sin(t/2)` and `eta=sin(3*t/2)` give respectively `DeltaJ=-3*pi*h^2/8` and `DeltaJ=5*pi*h^2/8`: integration uses `integral eta^2 dt=pi` and `integral eta_dot^2 dt=n^2*pi/4` for these directions with n=1 and n=3. Arbitrarily small changes of both lower and higher action are available. The stationary history is therefore a saddle, not a minimum.
-
-Changing an endpoint condition also requires rebuilding the allowed histories before reusing the free-particle argument. Its vanishing cross term depended on both endpoint values.
-
-This example uses a supplied classical model. Constructing an appropriate action for an unfamiliar physical system is a further physical and mathematical modeling task.
-
-### C.29.AV:6 - Bias-Annotation
-
-A convenient coordinate can make some changes easy to express and hide others. State what the chosen family reaches before treating its result as a property of all candidates.
-
-A modeler can also import minimization from an allocation problem into a physical action principle. Recover whether the subject requires improvement, an extremum or stationarity; the same variation calculation supports different conclusions under those premises.
-
-For a search procedure, separate a failure to find a better local move from a proof about the full feasible set. This matters when discrete choices or disconnected regions prevent the chosen family from reaching other candidates.
-
-### C.29.AV:7 - Conformance Checklist
-
-| Question | Passing result |
-| --- | --- |
-| What is being compared? | The candidate, retained conditions, scalar quantity and sought conclusion are stated. |
-| Which changes are allowed? | Substitution or another applicable argument establishes the family's admissibility and parameter domain. |
-| What does the change do? | The difference, first variation or bounded numerical comparison is obtained for that family. |
-| Which directions matter? | Boundary and joint-parameter constraints remain in the sign or stationarity argument. |
-| How strong is the conclusion? | The reached candidate class and the argument distinguish improvement, necessity, local optimality and global optimality. |
-| What follows in use? | The receiving calculation or decision can use the result, or the missing construction is located. |
-
-### C.29.AV:8 - Common Anti-Patterns and How to Avoid Them
-
-| Observed or text-invited mistake | Repair |
-| --- | --- |
-| Vary each allocation independently while retaining a fixed-total claim. | Couple the changes so the total remains fixed and derive their allowed range. |
-| Use a tangent displacement as a finite feasible move on a curved constraint. | Construct a feasible curve or retain only the first-order conclusion supported by the tangent argument. |
-| Accept a zero derivative as a minimum. | Determine the remaining change or use a sufficiency theorem with its hypotheses. |
-| Reject a boundary optimum because its unrestricted derivative is nonzero. | Test the available one-sided or constrained changes. |
-| Apply a small-step sign to an arbitrarily large step. | Calculate the finite difference or bound the remainder over that step. |
-| Declare global optimality after testing one restricted family. | Supply the missing coverage or limit the conclusion to that family. |
-
-### C.29.AV:9 - Consequences
-
-A constrained comparison becomes a reusable calculation. It can expose a feasible improvement, reduce an optimization problem to a condition or explain why a proposed change cannot help.
-
-The main effort is constructing a useful admissible family and establishing the sign over the range needed by the conclusion. The Method permits an early useful result; full optimization is a larger task when the working question demands it. Keeping the family and argument makes later changes of criterion or constraints easier to handle.
-
-### C.29.AV:10 - Architectural Rationale
-
-The admissible family, change calculation and conclusion are separated because each can fail independently. A correct difference can describe impossible candidates. An admissible comparison can yield only a necessary condition. A strong mathematical result can still use a criterion that does not answer the practitioner's question.
-
-Finite differences provide the direct comparison whenever they are manageable. Derivatives expose local structure economically, and sufficiency theorems can extend that information under additional hypotheses. Keeping these routes connected lets the reader use the least machinery that obtains the needed result.
-
-The same construction spans a resource allocation and a continuous history. What carries across is the preservation of conditions and reasoning from the resulting change. The cost model and the physical action retain their different origins and uses.
-
-### C.29.AV:11 - SoTA-Echoing
-
-For a constrained comparison, the selected approach is to construct feasible changes before interpreting their effect. Direct substitution is useful for small expressions; differential conditions and numerical optimization become useful as the candidate class or calculation grows. The choice depends on the result needed and the assumptions available.
-
-[Boyd and Vandenberghe, *Convex Optimization*, §4.2.3](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf#page=153) gives the differentiable convex case: the gradient's inner product with every feasible displacement characterizes optimality. Adopt its attention to the feasible set and the hypotheses that make a first-order condition sufficient. The Method above also admits nonconvex and discrete comparisons, where that sufficiency cannot be inherited. Specialized convex formulations and algorithms remain useful external constructions when their inputs fit.
-
-[Tong, *Classical Dynamics*, §2.1](https://www.damtp.cam.ac.uk/user/tong/dynamics/dynhtml/S2.html) develops variations of a history with fixed endpoints and the resulting Euler-Lagrange equations. Adopt the explicit endpoint conditions and the distinction between stationary action and a minimum. This is an established classical source; it supplies neither an action for every new physical system nor its empirical justification.
-
-C.29 supplies the mathematical interpretation and return, while C.29.2 supplies computational formulation and error-sensitive use. Here the reusable contribution is construction of the admissible family and the argument from its change. If those operations require a specialized variational, optimization or physical-modeling technique, recover that technique at the point where the needed result becomes specific.
-
-Revisit the construction when constraints, regularity, candidate class or the required conclusion change. A newer solver can improve cost without changing the meaning of the admissibility and optimality claims.
-
-### C.29.AV:12 - Relations
-
-- **C.29** connects the mathematical candidates and conclusion to the original subject and working question.
-- **C.29.1** establishes the transfer of a result when a change of representation could lose a relevant distinction.
-- **C.29.2** constructs a computation and relates numerical error to the comparison being used.
-- **B.5.RC and B.5.RA** help recover a needed mathematical construction or argument; **B.5.RR** revises dependent reasoning after a premise changes.
-- **B.5.MPC** connects the physical account, mathematical construction, computation and use. **C.28** handles a causal consequence attributed to an intervention.
-
-### C.29.AV:End
-
-## C.29.SC - Derive a Consequence from a Symmetry
-
-> **Type:** Method
-> **Status:** Draft
-> **Normativity:** Normative
-
-### C.29.SC:1 - Problem frame
-
-Use this pattern when a transformation appears to preserve the structure relevant to a problem, and you need to turn that observation into a useful restriction, a transferred solution or a reason that a requested answer cannot be selected from the available information.
-
-A symmetric allocation problem can constrain its unique optimum before a full calculation. An anonymous arrangement can make a unique choice impossible under a stated selection rule. A rotationally symmetric physical law can relate motions with different initial states. The useful consequence depends on what the transformation actually preserves and how the required answer transforms.
-
-A *symmetry* here is an invertible transformation preserving the stated structure. The object of the Method is that transformation together with the problem and answer it acts on. State the structure: preserving a shape, an equation, a criterion or a fully specified problem gives different premises.
-
-The first result is a consequence with its reason: another valid solution, a restriction on possible answers, or a conflict between the input symmetry and the required output. This can reduce a search or identify the additional distinction a computation needs.
-
-The reader needs the problem's conditions and enough subject mathematics to apply the transformation and test its effect. The allocation and selection examples need algebra and permutations. The dynamics example additionally needs differentiation and elementary state updates.
-
-If no symmetry-related conclusion is needed, use the direct calculation. If the live problem is a general change of mathematical representation, C.29.1 supplies result transfer without requiring a symmetry.
-
-### C.29.SC:2 - Problem
-
-A suggestive symmetry can omit the feature that decides the problem. Equal-looking components can have different costs. A law can be unchanged while its boundary or initial data change. A function can require its output to rotate with its input rather than stay numerically identical.
-
-A second error begins after a real symmetry is established: the solver assumes more than it implies. A symmetric problem can have several asymmetric solutions. A rotation-respecting numerical scheme can fail to conserve the physical angular momentum. To obtain a usable conclusion, follow the transformation through the actual solution condition.
-
-### C.29.SC:3 - Forces
-
-| Force | Tension |
-| --- | --- |
-| Structure of interest | A transformation can preserve one structure while changing a criterion, condition or distinction needed by the question. |
-| Whole problem and law | Symmetry of a law can relate different input problems; a conclusion about one fixed problem needs its data preserved as well. |
-| Solution multiplicity | A transformation preserves the solution set, but individual solutions can move within it. |
-| Computational saving | Symmetry can reduce repeated work, while the output may need information lost by the reduction. |
-| Physical use | A mathematical symmetry can suggest a conserved quantity; its conservation needs the relevant dynamics or theorem. |
-
-### C.29.SC:4 - Solution
-
-**Specify the transformation → follow every relevant condition → transform the answer → derive the consequence → use it within those premises.**
-
-#### C.29.SC:4.1 - Name what must stay the same and what may transform
-
-Recover the problem: admitted candidates, supplied data, conditions, criterion if there is one, and the required kind of answer.
-
-Choose a transformation g and say how it acts on those participants. A permutation can exchange components; a rotation can change coordinates or rotate a physical configuration. Explain which operation is intended. For a symmetry claim, the transformation must be invertible on the relevant domain and retain the stated structure.
-
-Several transformations may form a group: they include doing nothing, composing transformations and undoing each transformation. Name the action on the objects used by the problem. A familiar group name alone leaves that action unspecified.
-
-Keep supplied data in the comparison. If swapping two components also swaps their different costs, the result can be an equivalent problem with transformed data. It is a symmetry of the fixed original problem only if the data required to remain fixed are preserved.
-
-#### C.29.SC:4.2 - Establish the problem-to-solution relation
-
-Apply the transformation to the conditions. Show that an admitted solution is taken to an admitted solution of the stated target problem.
-
-For an optimization problem, check feasibility and the criterion. If g maps the feasible set onto itself and `J(g(x))=J(x)`, it maps every minimizer to a minimizer of that same problem.
-
-For a rule `f:X->Y`, specify the input action g and the corresponding output action r(g). The relation
-
-`f(g(x))=r(g)(f(x))`
-
-is called *equivariance*: transforming the input and then computing agrees with computing and then transforming the output. *Invariance* is the case where the output stays unchanged. Classification of an object and prediction of its position can require these different relations.
-
-For a dynamics law, transform the state, parameters and initial or boundary data. A transformed trajectory may solve the law with transformed data. Establish that correspondence before claiming anything about the solution with the original fixed data.
-
-Use a mathematical argument for the range claimed. A few successful transformations can reveal or test a candidate symmetry; a conclusion covering an entire stated family requires the corresponding preservation argument.
-
-#### C.29.SC:4.3 - Obtain the useful consequence
-
-Follow the consequence needed by the question.
-
-**Transfer a solution.** From a known solution x, obtain g(x) and use the preservation argument from :4.2 to establish what problem it solves. Compositions can generate further related solutions. These are distinct answers only when the transformed objects differ under the problem's equality.
-
-**Restrict a unique solution.** If the fixed problem has exactly one solution x, every symmetry g of that problem must satisfy `g(x)=x`: g(x) is a solution, so uniqueness identifies it with x. Solve this fixed-point condition to restrict or find the candidate.
-
-If uniqueness has not been established, retain the weaker result: symmetries move solutions within the solution set. A symmetric candidate may be worth testing, but the existence of asymmetric solutions remains possible.
-
-**Test a requested deterministic answer.** Suppose an input x is fixed by g and the requested rule must be equivariant. Then `f(x)=r(g)(f(x))`. Check whether any permitted output can satisfy that condition for every transformation fixing x. If none can, the requested deterministic rule cannot answer that input under the stated requirements. The missing distinction or incompatible output requirement is a useful result.
-
-These deductions use preservation and, where stated, uniqueness or equivariance. A conservation law along physical time evolution is a different conclusion. Obtain it from the dynamics or the applicable theorem, including its conditions.
-
-#### C.29.SC:4.4 - Preserve the information needed for use
-
-When symmetry reduces a calculation, state what the reduced answer means in the original problem.
-
-An invariant output can often be calculated from a representative of a symmetry class. An equivariant output may need the transformation used to choose that representative so the answer can be returned to the original coordinates. If several transformations give the same representative, their different output actions must agree on the returned answer, or the result remains ambiguous.
-
-For example, rotating an image to a standard orientation can help classify the object. Reporting a location in the original image additionally requires the corresponding inverse coordinate transformation. If the task distinguishes orientations, the normalization must retain that information.
-
-Use C.29.1 when establishing this representation-and-return relation is itself the difficulty. Use C.29.2 to construct the actual computation; the existence of a symmetric formulation does not supply an efficient algorithm.
-
-#### C.29.SC:4.5 - Return a failed symmetry to its decisive premise
-
-When the comparison in :4.2 fails, identify what changed: an allowed candidate, supplied datum, criterion, output meaning or modeled law. Use that difference to revise the symmetry claim or the problem formulation.
-
-An approximate symmetry can still help, but the allowed discrepancy must be related to the requested result. Establish the bound needed by that use. Small-looking changes are insufficient when they reverse a selection or destroy uniqueness.
-
-After obtaining the consequence, continue with the reduced calculation, transferred solution or revised requirement. Stop when it answers the current question. Add observations or input distinctions only when they can resolve the remaining choice; C.11.DUA supplies the cost-sensitive decision about further work.
-
-### C.29.SC:5 - Archetypal Grounding
-
-#### C.29.SC:5.1 - A symmetric allocation and an asymmetric optimum
-
-Let `x1,x2>=0`, `x1+x2=10`, and minimize `J=x1^2+x2^2`. Swapping x1 and x2 preserves both the feasible set and J.
-
-The cost is strictly convex on this feasible segment, and a minimizer exists because the segment is compact and the cost is continuous. Hence the minimizer is unique. The symmetry condition requires `(x1,x2)=(x2,x1)`, so the only possible optimum is `(5,5)`. The direct calculation `J(5+h,5-h)=50+2*h^2` confirms it for every feasible h.
-
-Now use `J=x1^2+2*x2^2` under the same resource constraint. Swapping the allocations changes the cost: `J(10,0)=100` and `J(0,10)=200`. The original exchange symmetry is gone. The optimum is `(20/3,10/3)`, as the admissible-variation construction in C.29.AV shows.
-
-Symmetry alone also need not make individual solutions symmetric. If the original sum-of-squares criterion is maximized on the same segment, `(10,0)` and `(0,10)` are both maxima. The swap exchanges them. The midpoint is fixed by the swap but is the minimum, so selecting it from symmetry without the uniqueness and optimization premises would answer a different question.
-
-#### C.29.SC:5.2 - A unique choice from an indistinguishable arrangement
-
-A selector receives a three-vertex cycle with identical vertex attributes and equal edge attributes. Its output must designate exactly one vertex. Rotating the cycle is treated as a relabeling: the requested deterministic rule must rotate its selected vertex in the same way.
-
-For this input, a one-step rotation leaves the supplied arrangement unchanged. Equivariance therefore requires the selected vertex to be fixed by that rotation. No vertex is fixed: each moves to the next vertex. The requested deterministic selector has no permitted output for this input.
-
-One repair is to supply a distinguished attribute, such as an available unique priority, and let the rule use it. Another is to change the requested result to the set of all three equally admissible vertices. Random selection is another problem: a uniform distribution can be rotation-invariant even though a sampled vertex is not fixed. The construction of a coordinated random choice would need its own procedure.
-
-This is a mathematical result about the given input and rule requirements. Extra identifiers, timing distinctions or other available attributes can change the input symmetry and therefore the conclusion. It does not establish that every real three-agent arrangement faces this obstruction.
-
-#### C.29.SC:5.3 - A symmetry of motion and what a numerical step preserves
-
-Consider the planar model `qdot=v`, `vdot=-q`. Applying the same planar rotation R to q and v preserves these equations. Thus a trajectory starting at `(q0,v0)` produces a rotated trajectory starting at `(R*q0,R*v0)`.
-
-For `q0=(1,0)`, `v0=(0,1)`, a quarter-turn changes the initial data. The transformed trajectory solves another initial-value problem. Uniqueness for the original data therefore does not imply that its trajectory is fixed by every rotation.
-
-In this model, `J=x*vy-y*vx` is angular momentum for unit mass. Direct differentiation gives
-
-`Jdot = x*ay-y*ax = x*(-y)-y*(-x)=0.`
-
-This establishes conservation along its trajectories. A radial law `vdot=-k(t)*q` gives the same cancellation. The proof uses the acceleration relation; the rotational description alone is not the argument.
-
-Now compute with explicit Euler:
-
-`q_next=q+h*v; v_next=v-h*q.`
-
-The update is equivariant under the same rotations because R distributes over the linear combinations. Yet substitution gives
-
-`J_next=(1+h^2)*J.`
-
-Starting with J=1, h=0.1 and taking one hundred steps yields about 2.7048. Rotation equivariance of the scheme has survived while conservation of J has failed. If the question uses angular momentum, the computational construction must be changed or its error made acceptable for that use.
-
-For this model, the update `v_next=v-h*q; q_next=q+h*v_next` preserves J by substitution. Its preservation of this quantity is one property of that scheme; questions about phase or other errors retain their own numerical analysis.
-
-### C.29.SC:6 - Bias-Annotation
-
-Visual sameness can distract from a cost, label meaning or boundary datum that distinguishes the cases. Transform those inputs explicitly.
-
-A solver familiar with unique linear problems may carry uniqueness into a problem with several solutions. Keep the solution-set result available until uniqueness has its own basis.
-
-A conserved-looking scalar can also invite the wrong inference from equivariance. Distinguish a quantity unchanged under a spatial transformation from a quantity unchanged as the system evolves. The oscillator computation exposes the practical difference.
-
-### C.29.SC:7 - Conformance Checklist
-
-| Question | Passing result |
-| --- | --- |
-| What structure is preserved? | The transformation, its domain, inverse and action on relevant participants are stated. |
-| Which problem is related? | The argument identifies a fixed problem or a problem with transformed data. |
-| How does the answer transform? | The solution condition, criterion or required input-output relation is preserved as claimed. |
-| What follows from that relation? | The transferred solution, fixed-point restriction or output obstruction follows with its needed uniqueness or equivariance premise. |
-| What information must return? | A reduced or normalized calculation can supply the output in the required interpretation. |
-| What changes the conclusion? | The decisive datum, constraint, output requirement or law is identifiable when the symmetry fails. |
-
-### C.29.SC:8 - Common Anti-Patterns and How to Avoid Them
-
-| Text-invited mistake | Repair |
-| --- | --- |
-| Swap components but ignore their different costs. | Apply the transformation to the complete criterion and identify whether the data remain fixed. |
-| Infer a symmetric individual solution from a symmetric solution set. | Establish uniqueness or retain the whole transformed family of solutions. |
-| Rotate a law while silently keeping changed initial data as the same problem. | Track the transformed initial or boundary values. |
-| Demand an invariant output when the task needs an equivariant position or direction. | Specify and apply the output action. |
-| Normalize an input and lose the original coordinate relation. | Retain the transformation needed to return the answer or expose the remaining ambiguity. |
-| Infer physical conservation from an equivariant update alone. | Derive the quantity's change along the actual dynamics or numerical step. |
-
-### C.29.SC:9 - Consequences
-
-Symmetry can reduce calculation, generate useful related solutions or expose an impossible selection requirement before implementing a solver. The preservation argument also locates what new information would make a choice possible.
-
-The main cost is identifying the relevant structure and following the transformation through the whole problem. Large or continuous symmetry groups may require substantial mathematical methods. The direct consequence obtained here can make that further work worthwhile or show that the simpler calculation already suffices.
-
-### C.29.SC:10 - Architectural Rationale
-
-The Method follows a transformation through a problem and its answer. This keeps a visible symmetry from becoming an unrestricted claim about every quantity or every use.
-
-The fixed-point argument is particularly useful because it converts invariance of the input into a restriction on the answer. Uniqueness and equivariance enter at the point where that conversion needs them. Keeping those premises explicit makes the same reasoning useful in optimization, mathematical construction and computational selection.
-
-A dynamics symmetry, a conservation theorem and a numerical method can contribute to one physical answer while doing different work. The oscillator case retains that connection and exposes where a valid property is lost during computation. A specialized construction of Noether quantities or structure-preserving integrators is a further Method when that result is required.
-
-### C.29.SC:11 - SoTA-Echoing
-
-The selected approach defines the structure and input-output action before using symmetry. It supports direct algebra for a small problem and provides the premise for more specialized group, optimization or numerical constructions.
-
-[Bronstein, Bruna, Cohen and Veličković, *Geometric Deep Learning*, draft chapter 3, §§3.1-3.2](https://geometricdeeplearning.com/book/algebraicpriors.html) develops symmetries as invertible structure-preserving maps and distinguishes invariant and equivariant outputs. Adopt that explicit action and output discipline. Whether a transformation preserves a label or target still comes from the modeled task. Architecture construction and learning-performance claims need the corresponding further Methods and evidence.
-
-[Tong, *Classical Dynamics*, §2.4](https://www.damtp.cam.ac.uk/user/tong/dynamics/dynhtml/S2.html) derives conserved quantities from continuous symmetries of a Lagrangian using its equations of motion. The useful contribution is the extra argument connecting symmetry with time evolution. The simple oscillator calculation above performs that connection directly; it does not substitute for the wider Noether construction.
-
-[Hairer, *Geometric Numerical Integration*, lecture 2, §1](https://www.unige.ch/~hairer/poly_geoint/week2.pdf) supplies the symplectic Euler formulas and their Hamiltonian conditions. The direct comparison above shows why a requested invariant must be examined under the actual numerical update. A different model or requested accuracy can favor a different scheme.
-
-C.29.1 supplies the general result-transfer comparison. The fixed-point and selection constructions here make one specific consequence available without a full group-theory survey. Revisit the use when its structure, output meaning, uniqueness premise or transformation law changes.
-
-### C.29.SC:12 - Relations
-
-- **C.29** establishes the mathematical interpretation and its return to the working subject.
-- **C.29.1** constructs the preservation and recovery of a result through a changed representation.
-- **C.29.AV** derives consequences from changes that retain constraints; symmetry additionally preserves the specified structure or criterion.
-- **C.29.2 and C.29.3** connect a computation with its represented operations and realization.
-- **A.3.3.TR** constructs state change from the available laws. **B.5.MPC** connects that physical account with mathematical and computational contributions.
-- **B.5.RR** revises reasoning after a premise changes. **C.39** helps obtain a missing construction or reformulate an obstructed result.
-
-### C.29.SC:End
 
 ## C.29.BB - Construct a Balance across a Boundary
 
@@ -82831,7 +82417,12 @@ Do not let `record` mean "any file that remembers something", "the missing sourc
 ##### E.10:0.2c.9 - `model`, `diagram`, `screen`, `dashboard`, `table`, `note`, `memo`, `summary`, `explanation`
 
 These are recognition examples, not kinds.
-Classify each occurrence as one of:
+
+For unresolved `model` or `explanation` wording, recover the subject at issue and what the work needs to obtain or change. An explanation of a predictor may concern its behavior, its internal computation or the phenomenon it predicts. Constructing an account, expressing an available account and helping another agent acquire an ability can require different methods; one request can combine these contributions. Use the method that supplies the required result once the question is clear. If the object or relation remains unresolved, use `E.10.ARCH:3`.
+
+A performance claim states what the agent does or can do. A claim that it uses a particular internal representation concerns how that performance is obtained. Use `C.2.1` when the content and identity of an episteme are at issue; use the applicable subject method to establish a claimed physical or computational representation. Use `E.17.EFP` when ambiguity about source faithfulness changes how an expressed account may be used, and `C.2.8` when recoverability by a recipient is the question.
+
+When the wording concerns representation, publication or reliance, classify the occurrence as applicable:
 - episteme or episteme publication;
 - `U.View`, `U.EpistemeView`;
 - publication form;
@@ -87780,7 +87371,9 @@ Ordinary relation, source-return, maintenance, and reference tables may cite Pat
 
 Start the Readme body with `## Practical entries`. The product maintains one declaration for every selectable example and assigns each key exactly one public form: ordinary practical entry or Practical-Use Card. Each declared key occurs once, at H3 for an ordinary entry or at H4 for a card. A compact locator may precede or follow these examples, but it is a finding aid rather than another editable entry set.
 
-The Readme says plainly that its entries are selected examples, not a catalogue or coverage boundary. It tells the reader to bring the actual question and to use the product's index, direct patterns, or another finding aid when no example fits. The selected examples should make two uses visible without implying that every question belongs to either displayed case:
+The Readme says plainly that its entries are selected examples, not a catalogue or coverage boundary. It tells the reader to bring the actual question and to use the product's index, direct patterns, or another finding aid when no example fits. Tell readers that they can ask an assisting agent for explanations and comments in ordinary language, without the framework's specialist vocabulary. For example: “Explain this and give me your comments in ordinary language, without framework jargon.” Clear wording is the default under `F.19`; the request helps the assistant adapt its wording to the reader.
+
+The selected examples should make two uses visible without implying that every question belongs to either displayed case:
 
 - an ordinary entry shows how one direct pattern or one bounded direct route can answer a comparatively simple difficulty without a mantra; and
 - a Practical-Use Card shows a recurring complex difficulty whose useful answer spans several direct pattern contributions and whose long dependency is easier to retain with a mantra.
