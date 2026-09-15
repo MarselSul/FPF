@@ -487,18 +487,6 @@ Begin with the project object at stake and the current question about it. In FPF
 
 Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, then continue through the object or relation it recovers. If the recovered wording is a claim-bearing function use, apply `A.6.F` and its selected subject pattern. Do not choose a branch from the trigger word alone. Once the object and question are named, ask which structure, claim, decision, evidence, description, Work, or improvement relation is current.
 
-## Mathematical Practice and earlier FPF addresses
-
-[Mathematical Practice DPF](./MATHEMATICAL-PRACTICE-DPF.md) develops methods for constructing, using and extending mathematical objects, operations and arguments. The following earlier FPF addresses locate the complete methods in that domain framework.
-
-### C.29.AV - Derive a Condition from an Admissible Variation
-
-[MATH.10 - Derive a Condition from an Admissible Variation](./MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) constructs allowed variations, calculates their effects and establishes whether they supply an improvement, a necessary condition or a justified optimum.
-
-### C.29.SC - Derive a Consequence from a Symmetry
-
-[MATH.13 - Derive a Consequence from a Symmetry](./MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) follows the transformation of a problem and its answer to transfer a solution, restrict possible answers or identify a choice the available distinctions cannot support.
-
 ## Practical entries
 
 The entries below are examples, not a catalogue or a boundary around FPF, a DPF, or an LPF. Bring the actual difficulty from your project. If no example fits, search the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. These pattern languages can help with many more questions than a short Readme can show.

@@ -2,6 +2,8 @@
 
 Use the publications in this folder to help with the project's work. Paths below are relative to the folder containing this file.
 
+When a referenced publication is present in this folder, resolve its pattern references in that copy, including references written as GitHub links. Use another edition when the task calls for an update or a comparison.
+
 ## Choose what to read
 
 Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find it directly. Otherwise use `Readme.md` to choose a Suite or independent DPF. Each Suite folder has a `README.md` for first use and a named Reference for connecting contributions: `Foundational Thinking DPF Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md` or `Engineering DPF Suite/ENGINEERING-DPF-SUITE-REFERENCE.md`. Search for alternative formulations of the question; include English terms when the user's language differs from the sources.

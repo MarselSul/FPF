@@ -29,13 +29,13 @@ For use with an agent, follow [Using FPF](../USING-FPF.md). Copy this whole fold
 
 This is the public constitution and membership account for the Foundational Thinking DPF Suite. The following product series belong to it as of the date above.
 
-| Product series | Edition presented here | Useful contribution |
+| Product series | Publication status | Useful contribution |
 | --- | --- | --- |
-| [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | 15 September 2026; 20 patterns | Construct objects, operations and arguments; derive and use consequences. |
-| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | 15 September 2026; 5 patterns | Formulate the subject question, recording, choice and change; retain what its answer needs. |
-| [Foundational Thinking DPF Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) | 15 September 2026 | Choose and connect available contributions, understand their organization and locate a missing contribution. |
+| [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published; 20 patterns | Construct objects, operations and arguments; derive and use consequences. |
+| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published; 5 patterns | Formulate the subject question, recording, choice and change; retain what its answer needs. |
+| [Foundational Thinking DPF Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) | Published | Choose and connect available contributions, understand their organization and locate a missing contribution. |
 
-Physical Thinking, Computational Thinking and Notational Engineering are selected future DPF series. Their proposed contributions are explained in the Reference; they are not available member editions in this account. The filenames retain the established MATH and MMP series names. Current editions and this Reference are published together in this Suite folder.
+Physical Thinking, Computational Thinking and Notational Engineering are selected future DPF series. Their proposed contributions are explained in the Reference; they are not available member editions in this account. Current editions and this Reference are published together in this Suite folder.
 
 [FPF](../FPF-Spec.md) supplies the common reasoning methods. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/README.md) supplies collaborating domain methods, including Method Engineering and capability development. These publications can be used with this Suite without becoming its members.
 
@@ -59,4 +59,4 @@ A later Reference edition is admitted when its answers agree with the editions i
 
 Copyright © 2026 Anatoly Levenchuk. This account and the author's DPF publications are licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/), except material carrying a separate notice. Cited sources retain their own rights. Independent authors choose the licenses for their own DPFs and LPFs.
 
-Cite this account as: Anatoly Levenchuk. *Foundational Thinking DPF Suite*. 15 September 2026. [FPF repository](https://github.com/ailev/FPF). For a method, also cite its DPF edition and PatternID.
+Cite this account as: Anatoly Levenchuk. *Foundational Thinking DPF Suite*. [FPF repository](https://github.com/ailev/FPF). Include the date shown at the start of this file. For a method, also cite its DPF edition and PatternID.

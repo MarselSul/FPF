@@ -2,7 +2,9 @@
 
 > **AI-native declarative pattern languages for engineering work.** FPF gives engineers and AI agents a shared, precise language for Systems, Methods, architecture, Work, evidence, verification, decisions, improvement, and communication.
 
-[**FPF Core Specification**](./FPF-Spec.md) · [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/README.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) · [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/)
+[**FPF Core Specification**](./FPF-Spec.md) · [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/README.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md)
+
+**External links:** [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/) (third-party resources).
 
 **Author:** Anatoly Levenchuk, with AI-agent assistance  
 
@@ -56,18 +58,11 @@ Larger questions need several patterns. [Changing a combining rule](./Foundation
 
 #### Mathematical Thinking
 
-The [Mathematical Thinking publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md), dated 15 September 2026, contains twenty patterns, direct practical entries and a longer worked connection. Start with MP-FRAME when you have a working question but do not yet know which mathematics it needs. The Preface shows how to choose a representation, obtain and interpret a result, and revise the representation when the question changes. The individual bodies develop the mathematical constructions used along the way. This independently usable publication belongs to the Foundational Thinking DPF Suite. Mathematical Modeling is also published; Physical Thinking, Computational Thinking and Notational Engineering are planned. The [Suite Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) gives working combinations and explains how these methods connect with FPF and Method Engineering.
-
-The variation and symmetry methods can be found under these addresses:
-
-| FPF address | Mathematical Thinking method |
-| --- | --- |
-| C.29.AV | [MATH.10 - Derive a Condition from an Admissible Variation](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) |
-| C.29.SC | [MATH.13 - Derive a Consequence from a Symmetry](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) |
+The [Mathematical Thinking publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md) contains twenty patterns, direct practical entries and a longer worked connection. Start with MP-FRAME when you have a working question but do not yet know which mathematics it needs. The Preface shows how to choose a representation, obtain and interpret a result, and revise the representation when the question changes. The individual bodies develop the mathematical constructions used along the way. This independently usable publication belongs to the Foundational Thinking DPF Suite. Mathematical Modeling is also published; Physical Thinking, Computational Thinking and Notational Engineering are planned. The [Suite Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) gives working combinations and explains how these methods connect with FPF and Method Engineering.
 
 #### Mathematical Modeling
 
-The [Mathematical Modeling publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md), dated 15 September 2026, contains five general model-forming methods, direct practical entries and worked connections. Begin with MMP-START when the working question has no mathematical formulation. The methods help construct admissible representations and unknown relations, derive probability laws for the available records, formulate choices with the information available, and obtain a useful reduced model. Readme and Preface show their use with FPF and Mathematical Thinking, including a changed question and a return to the working method. The earlier narrow techniques remain preserved in development history.
+The [Mathematical Modeling publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md) contains five general model-forming methods, direct practical entries and worked connections. Begin with MMP-START when the working question has no mathematical formulation. The methods help construct admissible representations and unknown relations, derive probability laws for the available records, formulate choices with the information available, and obtain a useful reduced model. Readme and Preface show their use with FPF and Mathematical Thinking, including a changed question and a return to the working method.
 
 ### Engineering DPF Suite
 
@@ -129,7 +124,7 @@ FPF becomes useful when an ordinary conversation, document, dashboard, or genera
 
 ## Use FPF with your agent
 
-Copy `FPF-Spec.md`, `Readme.md`, `USING-FPF.md`, `LICENSE` and `LICENSING.md` into a folder in your project, for example `fpf/`. Add each Suite you need as a whole folder: `Foundational Thinking DPF Suite` and/or `Engineering DPF Suite`. Place these folders beside `FPF-Spec.md`, preserving their members and `README.md`/Reference links. Independent DPFs can be copied beside Core with their accompanying files.
+Copy `FPF-Spec.md`, `Readme.md`, `USING-FPF.md`, `LICENSE` and `LICENSING.md` into a folder in your project, for example `fpf/`. Add each Suite you need as a whole folder: `Foundational Thinking DPF Suite` and/or `Engineering DPF Suite`. Place these folders beside `FPF-Spec.md`, preserving their members and `README.md`/Reference links. Independent DPFs can be copied beside Core with their accompanying files. Resolve pattern references in the copies you supplied, even when a publication writes them as GitHub links. Choose another edition when your task needs an update or a comparison.
 
 For a project using both Suites:
 
