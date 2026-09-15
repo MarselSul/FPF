@@ -31,29 +31,29 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, 15 Septemb
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.16 - Choose a Construction from Its Required Maps](#math16---choose-a-construction-from-its-required-maps) |  | universal property; product; coproduct; pullback; function object; currying. What maps should a new object support, and how can that requirement select a construction? | MATH.2 for quotients; MATH.5 for generator extensions; MATH.7 for reversible representations; C.29 for interpretation in another subject. |
-| 2 | [MATH.1 - Build a Structure of Composable Paths](#math1---build-a-structure-of-composable-paths) |  | generators; paths; endpoints; identity; associativity. Which elementary steps can be composed? When do different sequences need to remain distinct? | MATH.2 when paths will be identified; C.29 when the construction represents another subject. |
-| 3 | [MATH.2 - Form a Quotient That Preserves Operations](#math2---form-a-quotient-that-preserves-operations) |  | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
-| 4 | [MATH.5 - Extend a Generator Assignment to a Homomorphism](#math5---extend-a-generator-assignment-to-a-homomorphism) |  | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
-| 5 | [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection) |  | bijection; transport; inverse map; isomorphism; domain of operation. How can a useful operation, law and answer be carried through a change of representation? | MATH.2 when identification is proposed instead of a bijection; C.29 for interpretation in another subject. |
+| 1 | [MATH.16 - Choose a Construction from Its Required Maps](#math16---choose-a-construction-from-its-required-maps) | Usable, evolving | universal property; product; coproduct; pullback; function object; currying. What maps should a new object support, and how can that requirement select a construction? | MATH.2 for quotients; MATH.5 for generator extensions; MATH.7 for reversible representations; C.29 for interpretation in another subject. |
+| 2 | [MATH.1 - Build a Structure of Composable Paths](#math1---build-a-structure-of-composable-paths) | Usable, evolving | generators; paths; endpoints; identity; associativity. Which elementary steps can be composed? When do different sequences need to remain distinct? | MATH.2 when paths will be identified; C.29 when the construction represents another subject. |
+| 3 | [MATH.2 - Form a Quotient That Preserves Operations](#math2---form-a-quotient-that-preserves-operations) | Usable, evolving | quotient; congruence; equivalence; partial operation; refinement. Can these objects be treated as the same without losing a later operation or result? | MATH.1 when paths first need construction; MATH.6 for a counterexample to the proposed identification. |
+| 4 | [MATH.5 - Extend a Generator Assignment to a Homomorphism](#math5---extend-a-generator-assignment-to-a-homomorphism) | Usable, evolving | generators; relations; homomorphism; free structure; extension. How can a choice on generators determine an operation-preserving map on everything they generate? | MATH.1 for paths; MATH.2 when an extension must descend to a quotient. |
+| 5 | [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection) | Usable, evolving | bijection; transport; inverse map; isomorphism; domain of operation. How can a useful operation, law and answer be carried through a change of representation? | MATH.2 when identification is proposed instead of a bijection; C.29 for interpretation in another subject. |
 
 ## Part B - Derive and test mathematical claims
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) |  | induction; recursive witness; base and step; representation. How can a proof supply an object for every finite input? Does the construction respect equivalent representations? | MATH.2 when a recursive construction must respect identification; MATH.12 for extracting constructions from other proof rules. |
-| 2 | [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof) |  | constructive proof; witness; function; pair; branch; finite search; computation. Which data-producing operation does a proof supply, and what is needed to execute it? | B.5.RA for an unfamiliar argument; MATH.4 for induction; C.29.2/.3 for formulation or execution questions. |
-| 3 | [MATH.6 - Construct a Countermodel](#math6---construct-a-countermodel) |  | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
-| 4 | [MATH.11 - Construct an Invariant from Transformation Rules](#math11---construct-an-invariant-from-transformation-rules) |  | invariant; transformation rule; preservation equation; coefficient; reachability. How can a preserved expression be constructed and used to obtain a formula or exclude a target? | MATH.2 for identification; MATH.7 for transport; C.29 for a consequence about the modeled subject. |
+| 1 | [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) | Usable, evolving | induction; recursive witness; base and step; representation. How can a proof supply an object for every finite input? Does the construction respect equivalent representations? | MATH.2 when a recursive construction must respect identification; MATH.12 for extracting constructions from other proof rules. |
+| 2 | [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof) | Usable, evolving | constructive proof; witness; function; pair; branch; finite search; computation. Which data-producing operation does a proof supply, and what is needed to execute it? | B.5.RA for an unfamiliar argument; MATH.4 for induction; C.29.2/.3 for formulation or execution questions. |
+| 3 | [MATH.6 - Construct a Countermodel](#math6---construct-a-countermodel) | Usable, evolving | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
+| 4 | [MATH.11 - Construct an Invariant from Transformation Rules](#math11---construct-an-invariant-from-transformation-rules) | Usable, evolving | invariant; transformation rule; preservation equation; coefficient; reachability. How can a preserved expression be constructed and used to obtain a formula or exclude a target? | MATH.2 for identification; MATH.7 for transport; C.29 for a consequence about the modeled subject. |
 
 ## Part C - Use symmetries and constraints
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) |  | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
-| 2 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) |  | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
-| 3 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) |  | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
-| 4 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) |  | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
+| 1 | [MATH.13 - Derive a Consequence from a Symmetry](#math13---derive-a-consequence-from-a-symmetry) | Usable, evolving | symmetry; uniqueness; fixed point; orbit; conservation; numerical update. What does a transformation preserve, and which conclusion actually follows from that symmetry? | MATH.8 for the full orbit construction; MATH.9 for compatible choice; MATH.10 for admissible variation. |
+| 2 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) | Usable, evolving | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
+| 3 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) | Usable, evolving | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
+| 4 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) | Usable, evolving | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
 
 # Mathematical Practice - Readme
 
@@ -345,6 +345,7 @@ For evaluating alternatives, reuse FPF's characteristic, comparison and improvem
 ## MATH.16 - Choose a Construction from Its Required Maps
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.16:1 - Problem frame
@@ -596,6 +597,7 @@ The elementary examples use ordinary equality and functions. If the work changes
 ## MATH.1 - Build a Structure of Composable Paths
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.1:1 - Problem frame
@@ -771,6 +773,7 @@ Section 3.2.2, pp.84-85, supplies the later option of imposing path equations; M
 ## MATH.2 - Form a Quotient That Preserves Operations
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.2:1 - Problem frame
@@ -965,6 +968,7 @@ The serious alternative is an equivalence relation chosen only by a shared prope
 ## MATH.5 - Extend a Generator Assignment to a Homomorphism
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.5:1 - Problem frame
@@ -1176,6 +1180,7 @@ The useful comparison is with a supplied map or independent evaluation of a smal
 ## MATH.7 - Transport a Mathematical Structure Through a Bijection
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.7:1 - Problem frame
@@ -1387,6 +1392,7 @@ A direct definition or an existing isomorphism can provide the same result with 
 ## MATH.4 - Construct a Witness by Induction
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.4:1 - Problem frame
@@ -1599,6 +1605,7 @@ Direct enumeration or a supplied operation can answer a small instance with less
 ## MATH.12 - Extract a Construction from a Proof
 
 > **Type:** Method pattern
+> **Status:** Usable, evolving
 > **Normativity:** Normative unless marked informative
 
 ### MATH.12:1 - Problem frame
@@ -1841,6 +1848,7 @@ Reopen the chosen method when a needed proof rule has no available computational
 ## MATH.6 - Construct a Countermodel
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.6:1 - Problem frame
@@ -2035,6 +2043,7 @@ Direct construction, a supplied counterexample and a proof are meaningful altern
 ## MATH.11 - Construct an Invariant from Transformation Rules
 
 > **Type:** Method pattern
+> **Status:** Usable, evolving
 > **Normativity:** Normative unless marked informative
 
 ### MATH.11:1 - Problem frame
@@ -2275,6 +2284,7 @@ The three worked constructions and their changed conditions are derived here. Th
 ## MATH.13 - Derive a Consequence from a Symmetry
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.13:1 - Problem frame
@@ -2485,6 +2495,7 @@ C.29.1 supplies the general result-transfer comparison. The fixed-point and sele
 ## MATH.8 - Generate a Solution Family by Symmetry
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.8:1 - Problem frame
@@ -2689,6 +2700,7 @@ Reopen when the action, data, solution relation, equality procedure or requested
 ## MATH.9 - Construct a Choice Rule That Respects Symmetry
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.9:1 - Problem frame
@@ -2942,6 +2954,7 @@ Reopen when the input attributes, action, permitted answer, demanded regularity 
 ## MATH.10 - Derive a Condition from an Admissible Variation
 
 > **Type:** Method
+> **Status:** Usable, evolving
 > **Normativity:** Normative
 
 ### MATH.10:1 - Problem frame
