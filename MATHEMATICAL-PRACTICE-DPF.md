@@ -1,4 +1,4 @@
-# Mathematical Practice DPF
+# Mathematical Thinking DPF
 
 > A pattern language for constructing mathematical objects, operations and arguments, using their results, and developing the next useful question.
 
@@ -16,7 +16,7 @@ When a mathematical result changes a working method, [Method Engineering DPF](ht
 
 Open the cited publications for those pattern bodies. When using another edition, revisit your conclusion if a cited operation or condition has changed.
 
-To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, 15 September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
+To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, 15 September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
 
 # Table of Contents
 
@@ -24,8 +24,8 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, 15 Septemb
 
 | Unit | Title | Use |
 | --- | --- | --- |
-| Readme | [Mathematical Practice - Readme](#mathematical-practice---readme) | Find a first pattern for your question. |
-| Preface | [Mathematical Practice - Preface](#mathematical-practice---preface) | Understand the connected methods, their rationale, sources and limits. |
+| Readme | [Mathematical Thinking - Readme](#mathematical-thinking---readme) | Find a first pattern for your question. |
+| Preface | [Mathematical Thinking - Preface](#mathematical-thinking---preface) | Understand the connected methods, their rationale, sources and limits. |
 
 ## Part A - Construct objects and preserve operations
 
@@ -55,7 +55,7 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Practice DPF*, 15 Septemb
 | 3 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) | Usable, evolving | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
 | 4 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) | Usable, evolving | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
 
-# Mathematical Practice - Readme
+# Mathematical Thinking - Readme
 
 ## Practical entries
 
@@ -71,7 +71,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 - **Question:** What must become distinguishable or possible for the next answer to be useful?
 - **First useful result or blocker:** A mathematical task with a stated use. For example, a cart's travel log gives total distance, but that total cannot tell whether the cart returned to its start. Identify the position question first. With straight-line motion and known displacements, a sequence of signed displacements supplies an account that can answer it. MATH.1 constructs the sequences and their composition; MATH.5 derives the accumulated displacement from the elementary displacements. A sensor report must first be interpreted as the movement it measures.
 - **Start with:** FPF B.5.FM. State the working question, identify the participants and relations that may change its answer, and build a small account that yields a consequence. If an unfamiliar theory supplies the account, B.5.TU helps construct its application. B.5.MPC connects the physical, mathematical and computational contributions when the difficulty lies between them. Their bodies are in the FPF publication linked above. If the problem is deciding what an object must let you form or recover, use MATH.16. If it is deciding which distinctions can be forgotten, use MATH.2. If an implication is doubtful, use MATH.6. The question determines the construction; an available formula may settle only part of it. C.29 supplies the interpretation through which a mathematical result answers the original question. C.29.2/.3 develop a needed procedure and its execution.
-- **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, ME.7/ME.12 help develop its composition and keep its description consistent with the work. The Preface's worked use follows these choices in detail.
+- **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, ME.7 helps describe the proposed operations and their relations; ME.12 checks the claims in that account and its description. The Preface's worked use follows these choices in detail.
 
 ### MP-CONSTRUCT - Choose an object from what it must let you do
 
@@ -169,13 +169,15 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 - **Start with:** [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof), :4.1-:4.4. Find where the object is introduced, recover its inputs and compose the supplying operations. For induction, [MATH.4](#math4---construct-a-witness-by-induction) supplies the base and step constructions.
 - **Stop or return:** Return the object and its property, or the particular construction still needed. A proof of existence can justify an independently defined finite search. A changed representation can remove a branch decision, and an infinite input can invalidate a finite termination argument.
 
-# Mathematical Practice - Preface
+# Mathematical Thinking - Preface
 
 ## MATH.Preface:1 - Problem frame - Construct mathematics for the question
 
 You may know a formula, a programming technique or a useful physical law and still be unable to formulate the next problem. The objects may have been chosen too coarsely. Two operations may work separately but fail when combined. A plausible statement may need a proof, or a proof may leave you without a way to obtain its promised object.
 
-Mathematical Practice helps construct and develop the mathematics needed in such situations. Its starting repertoire forms objects and operations, tests identifications, builds arguments and witnesses, changes representations, and obtains consequences from transformations and constraints. Work can begin in mathematics itself, a physical investigation or the design of another working method.
+Mathematical Thinking helps construct and develop the mathematics needed in such situations. Its starting repertoire forms objects and operations, tests identifications, builds arguments and witnesses, changes representations, and obtains consequences from transformations and constraints. Work can begin in mathematics itself, a physical investigation or the design of another working method.
+
+This edition contains thirteen patterns. Mathematical Thinking and Mathematical Modeling are the currently published members of the Foundational Thinking DPF Suite, which connects mathematical, physical and computational inquiry with the development of methods of work. Physical Thinking, Computational Thinking and Notational Engineering are planned additions. Use the present Table of Contents to find an available method; a planned contribution still requires another source or collaborator.
 
 Begin with the question that is blocked. If its mathematical form is still unclear, the Readme MP-FRAME entry uses FPF B.5.FM, B.5.TU and B.5.MPC to obtain the first account and locate the missing contribution. Once a mathematical operation is needed, a body here develops that operation. The worked use in :4 begins before a representation has been selected. Use the Table of Contents for other questions; each pattern states its prerequisites and conditions.
 
@@ -234,6 +236,16 @@ The connecting rule is simple: name what one construction returns and what the n
 
 For a question about another subject, use FPF C.29 to establish the correspondence through which the mathematical result answers that question. C.29.2 develops a missing computational formulation; C.29.3 connects a computation with the arrangement that prepares its inputs, performs it and exposes an interpretable result. B.5.MPC coordinates mathematical, physical and computational reasoning when their contributions must be developed together.
 
+### MATH.Preface:3.5 - Use this contribution within the wider repertoire
+
+The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/main/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains where this mathematical contribution connects with model formulation, physical premises, computation, notation and Method Engineering. A result such as a function object or an interpreted path becomes useful through what the next operation can do with it. Its mathematical laws alone leave the subject interpretation and execution conditions to their respective methods.
+
+The selected expansion adds seven bodies to the thirteen available here: study and transform operations as objects; construct and compare interpretations; build an argument for a proposed claim; obtain bounds; construct approximations; change axioms and trace their consequences; and develop a next problem. MATH.16 already supplies function objects and evaluation, while MATH.5 already interprets generators and typed paths.
+
+For example, changing the order of a read and an update can preserve the final stored value but change the reading used by a later decision. MATH.1/.5 supply sequences and their interpretation, and MATH.2 tests the proposed identification. Method Engineering uses that distinction when deciding how work may be rearranged. The mathematical construction and its use in the working method remain separately inspectable.
+
+These additions are planned. When the present bodies already produce the needed result, use it directly; when they do not, obtain the missing operation from a suitable source or collaborator.
+
 ## MATH.Preface:4 - Worked use - Choose a representation after the question changes
 
 A team receives travel logs from a cart moving along a straight line. Two runs have the same recorded distance, yet one ends at the starting point and the other does not. The immediate question is which runs returned to their start. Starting with a familiar distance formula leaves the missing information unresolved.
@@ -248,7 +260,7 @@ The method needed an operation on sequences, not just names for two kinds of mov
 
 **Change the requested result.** Now ask whether a run visited position +1. Forward-then-backward visits +1; backward-then-forward does not. Both end at zero. The two histories could be identified for the former question, but their equivalence no longer preserves this new answer. Return through MATH.2 to the forgotten distinction. Retain the path and compute its successive positions; compare each with the queried location. In this unit-step example the recorded endpoints and monotone steps suffice. For a longer continuous movement from 0 to 2, the endpoints already imply a visit to +1. Use the recorded positions and known conditions of movement to answer the visit question. Recover further information only when those conditions leave the answer undetermined: a run that starts and ends at 0, for example, may or may not have reached +1 in between.
 
-**Change the working method.** The team can now revise its logging and analysis method: retain the movement information needed by the questions it actually asks, specify how a calculation interprets it, and return a result with that meaning. An observer can supply displacements, a mathematical contributor can define the representation and its operations, and a programmer can implement them. ME.7/ME.12 help compose those contributions and align the description with the performed work. Each contributor must understand the conditions at the join where another uses the result.
+**Change the working method.** The team can now revise its logging and analysis method: retain the movement information needed by the questions it actually asks, specify how a calculation interprets it, and return a result with that meaning. An observer can supply displacements, a mathematical contributor can define the representation and its operations, and a programmer can implement them. ME.7 helps describe those proposed contributions and their relations. ME.12 checks the method claims and the description used by their recipients. Each contributor must understand the conditions at the join where another uses the result.
 
 **Develop the next question.** The failure suggests a further mathematical problem: what smaller summary, if any, preserves both displacement and the requested visit information under concatenation? B.5.QD helps turn that question into a first construction or counterexample. MATH.16 can help specify what a proposed summary must let the next operation recover; the required maps and laws still need to be established. The cart is the worked example. Selecting distinctions by their use, constructing operations, justifying a compression and restoring information after a changed question are the reusable moves.
 
@@ -332,13 +344,13 @@ These sources play different roles. Established mathematics supplies definitions
 
 ## MATH.Preface:10 - Relations to further reasoning and work
 
-FPF B.5.RC and B.5.RA recover an available construction or argument; B.5.RR follows a changed premise through it. Mathematical Practice supplies specific constructions that such reasoning can recover, use and revise. B.5.QD develops a further question from an obstruction or a successful result; C.39.RO and C.40.CD support reusable operations and their development. A construction can be worth retaining because it makes another operation or question possible before its final application is known. When choosing which question to pursue, state the work its answer could enable; E.10.INT distinguishes that usefulness from other senses of interest.
+FPF B.5.RC and B.5.RA recover an available construction or argument; B.5.RR follows a changed premise through it. Mathematical Thinking supplies specific constructions that such reasoning can recover, use and revise. B.5.QD develops a further question from an obstruction or a successful result; C.39.RO and C.40.CD support reusable operations and their development. A construction can be worth retaining because it makes another operation or question possible before its final application is known. When choosing which question to pursue, state the work its answer could enable; E.10.INT distinguishes that usefulness from other senses of interest.
 
-For expressions, A.6.3.RT and A.6.3.RT.OE help make an operation performable in a notation. Mathematical Practice constructs selected mathematical structures and transports their operations. Developing a notation for a new range of work can require additional notational-engineering methods.
+For expressions, A.6.3.RT and A.6.3.RT.OE help make an operation performable in a notation. Mathematical Thinking constructs selected mathematical structures and transports their operations. Developing a notation for a new range of work can require additional notational-engineering methods.
 
 For application, the C.29 family and B.5.MPC connect mathematical results, computational constructions and physical accounts. Method Engineering contributes when the result is used to design or revise a way of working. Other subject frameworks supply the physical, organizational or professional methods used with the mathematics.
 
-For evaluating alternatives, reuse FPF's characteristic, comparison and improvement methods. C.11 supports a consequential choice; C.11.DUA helps decide whether further calculation or inquiry can change that choice enough to justify its cost. Mathematical Practice supplies the relevant construction or quantitative relation.
+For evaluating alternatives, reuse FPF's characteristic, comparison and improvement methods. C.11 supports a consequential choice; C.11.DUA helps decide whether further calculation or inquiry can change that choice enough to justify its cost. Mathematical Thinking supplies the relevant construction or quantitative relation.
 
 # Part A - Construct objects and preserve operations
 
@@ -979,7 +991,7 @@ The needed map is a *homomorphism*: it carries each source operation to the corr
 
 Start with one generator and one composite expression. Return their images and the rule that extends the assignment, or a source equality that the proposed images cannot preserve. A first calculation can expose an incompatible assignment before a large translation is attempted.
 
-The reader needs functions, finite expressions and the operations used in the chosen example. The general construction below uses total operations with finitely many inputs. It also treats finite words with associative composition. Typed or partially defined composition must retain its input and output conditions; MATH.1 supplies that distinction for paths.
+The reader needs functions, finite expressions and the operations used in the chosen construction. The method covers total operations with finitely many inputs, finite words with associative composition, and the finite typed paths built by MATH.1. A typed path starts and ends at named objects; its interpretation must supply their images as well as the images of its arrows.
 
 If the required map or one needed value is already available, use it. An arbitrary map on a small finite set can be simpler to specify directly when preserving operations is not part of the question.
 
@@ -1012,6 +1024,8 @@ Name the target set and a corresponding operation for each source operation, inc
 
 For a word construction, state the target composition `star` and its identity `e`. The operation must be associative for unparenthesized words to denote a composition independently of grouping. MATH.1 constructs the source words or paths; here the task is to build their map into the target structure.
 
+For typed paths, assign each source object X a target object F(X). The target must supply arrows, associative composition on matching endpoints, and an identity at each object. Assign each generator `a:X -> Y` an arrow `a_target:F(X) -> F(Y)`. A target can consist of sets and functions; different source objects may then receive sets of different kinds of values. Check these domains before composing.
+
 #### MATH.5:4.2 - Extend the assignment recursively
 
 Assign a target value `a(x)` to every generator `x`. Define the evaluation `E` on finite expressions:
@@ -1026,6 +1040,8 @@ For a word `[x1,...,xk]`, the same move evaluates the assigned generator values 
 
 `E(p;q)=E(p) star E(q)`.
 
+For a typed path, set `E(id_X)=id_F(X)`. If `p:X -> Y` has been evaluated and `a:Y -> Z` is the next generator, set `E(p;a)=E(p) star a_target`, where `star` is again read in execution order. The intermediate object F(Y) makes this composition defined. Recursing by path length evaluates every finite path while keeping its endpoints. In a target of sets and functions, this means applying E(p) first and a_target second.
+
 The image of a composite is now computed from its parts. It is no longer an independently chosen entry in a correspondence table.
 
 #### MATH.5:4.3 - Establish preservation and uniqueness
@@ -1038,6 +1054,8 @@ The conclusion is uniqueness among maps preserving the named operations and agre
 
 For words, the corresponding argument starts with the empty word and extends by one generator. Every concatenation-preserving map with the same identity and generator images must return the same ordered product.
 
+For paths, the base case uses the identity at each F(X). Induction on the second path's length, using target associativity, gives `E(p;q)=E(p) star E(q)` for every permitted join. A map preserving identities and composition with the same object and generator assignments must follow those recursive clauses, so it is unique. Such an object-and-arrow map between categories is called a functor. The one-object word construction is its monoid case.
+
 #### MATH.5:4.4 - Make the map respect identified expressions
 
 If the source equates expressions, test the equations under `E`. To define `E_bar([t])=E(t)` on an equivalence class, require:
@@ -1045,6 +1063,8 @@ If the source equates expressions, test the equations under `E`. To define `E_ba
 `t~u implies E(t)=E(u)`.
 
 MATH.2 supplies the quotient and representative-independence construction. Here it is applied to the evaluation just obtained.
+
+For typed paths with the objects retained, impose equations between paths having the same source and target. Compare their target arrows, including the appropriate identity for an empty path. Closure under permitted composition makes the evaluation descend just as above. Identifying different source objects changes this setup and requires a construction that also accounts for their identities and permitted joins.
 
 When the source equivalence is generated by stated equations and their use inside larger expressions, show that each generating equation has equal evaluated sides. Equality is preserved when equal values enter the same target operation. It is also preserved along reversal and a finite sequence of equation replacements. These facts extend the result to the generated equivalence.
 
@@ -1110,6 +1130,14 @@ A different map can send each generator to cost 1 and concatenate by addition. I
 
 If a command's availability depends on intermediate state, the all-words construction is no longer the intended source. Use state-sensitive paths under MATH.1 and preserve their interfaces when constructing the interpretation.
 
+#### MATH.5:5.3 - Interpret paths with different kinds of values
+
+Take source objects A and B, with generators `u:A -> B` and `v:B -> A`. Interpret A as the integers and B as pairs of integers. Assign `u_target(n)=(n,0)` and `v_target(n,m)=n`. The empty path at A becomes the identity on integers; the empty path at B becomes the identity on integer pairs.
+
+Extension gives `E(u;v)(n)=n`, whereas `E(v;u)(n,m)=(n,0)`. The first composite therefore equals `E(id_A)`. The second differs from `E(id_B)`: it sends (7,5) to (7,0). The interpretation can descend through the source equation `u;v=id_A`, together with the equations generated from it by permitted composition. It keeps the information that the return path loses the second component.
+
+Now require `v;u=id_B` as well. The same assignment fails that new equation. Keep the free-path interpretation or the first quotient, change the assigned maps, or change the required identification. Both composites are valid paths; the failed assertion concerns their values, not whether they can be formed. This distinction lets a representation carry construction followed by recovery without claiming recovery in both directions.
+
 ### MATH.5:6 - Bias-Annotation
 
 Recognizable notation can encourage an unexamined substitution. Matrix multiplication retains order even when the same multiplication sign denotes commutative arithmetic elsewhere. Test the law that the source expression uses.
@@ -1119,6 +1147,8 @@ A compact target value can also be mistaken for a reversible description. The co
 Finally, a few successful evaluations can hide an equation schema's range. The reusable extension depends on preservation for every admitted instance of the equations it consumes.
 
 ### MATH.5:7 - Conformance Checklist
+
+- For typed paths, do the object assignments, generator endpoints and identities determine the extension, and do imposed equations compare arrows with the same endpoints?
 
 - Are the generators, constants and source operations specified?
 - Does each source operation have a defined target operation with the required inputs?
@@ -1165,15 +1195,17 @@ Burris and Sankappanavar's [*A Course in Universal Algebra*, corrected 2012 edit
 
 The [Mathlib free-monoid implementation](https://leanprover-community.github.io/mathlib4_docs/Mathlib/Algebra/FreeMonoid/Basic.html#FreeMonoid.lift) gives an executable formalization of the word case. `FreeMonoid.lift` extends generator values by the product of their images; `hom_eq` states uniqueness from generator agreement. **Adapt** that presentation into ordinary mathematical instructions, retaining the monoid premises.
 
-The useful comparison is with a supplied map or independent evaluation of a small number of expressions. Extension by generators improves repeated compositional use, while an imposed equation adds a real preservation obligation. Reopen when operations become partial, the source admits infinite constructions, an equation fails, or a simpler available map supplies the receiving result.
+The [Mathlib path-category construction](https://leanprover-community.github.io/mathlib4_docs/Mathlib/CategoryTheory/PathCategory/Basic.html#CategoryTheory.Paths.lift) formalizes the typed branch: `Paths.lift` extends an object-and-generator assignment; `lift_nil`, `lift_cons` and `lift_unique` establish the identity, recursive composition and uniqueness clauses. The pattern spells out those operations for use after MATH.1. The integer/pair case derives a consequence and a failed additional equation directly from its assigned functions.
+
+The useful comparison is with a supplied map or independent evaluation of a small number of expressions. Extension by generators improves repeated compositional use, while an imposed equation adds a real preservation obligation. Reopen when a partial operation has a domain beyond the path-endpoint construction supplied here, the source admits infinite constructions, an equation fails, or a simpler available map supplies the receiving result.
 
 ### MATH.5:12 - Relations
 
-- **Uses MATH.1 where the source is a path construction:** retain the objects and permitted joins before interpreting composites.
+- **Uses MATH.1 where the source is a path construction:** assign images to its objects and generators, then extend to its identities and permitted composites.
 - **Uses MATH.4:** construct the evaluation on finite expressions and prove its recursive clauses and uniqueness.
 - **Uses MATH.2 when equations identify expressions:** obtain representative-independent evaluation on the quotient.
 - **Connects with FPF C.29:** use the mathematical map in a subject correspondence and recover the result needed there.
-- **Connects with Method Engineering:** a mathematical account of composed methods can use the affine-effect construction; ME.7 and ME.12 address the proposed method and revision of its description.
+- **Connects with Method Engineering:** a mathematical account of composed methods can use the affine-effect construction; ME.7 develops the proposed composition account; ME.12 checks its claims and returns a correction to the description or construction that needs it.
 
 ### MATH.5:End
 

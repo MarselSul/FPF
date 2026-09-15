@@ -1,4 +1,4 @@
-# Mathematical Modeling Practice DPF
+# Mathematical Modeling DPF
 
 > Methods for constructing mathematical representations of a question, connecting unknown relations, observations and available actions, and revising the resulting models.
 
@@ -10,9 +10,9 @@
 
 Begin with the question your model must answer. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme gives selected entries; Preface explains the connected methods and their limits.
 
-The code **MMP** names this DPF. Its numbers are stable pattern addresses; § shows position in this edition. References beginning MATH name patterns in [Mathematical Practice](https://github.com/ailev/FPF/blob/main/MATHEMATICAL-PRACTICE-DPF.md) (September 2026). References such as C.29 name patterns in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) (September 2026). ME references name patterns in [Method Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) (11 September 2026). Open the cited publication when that contribution is needed. When using another version, revisit a conclusion if its cited operation or condition has changed.
+The code **MMP** names this DPF. Its numbers are stable pattern addresses; § shows position in this edition. References beginning MATH name patterns in [Mathematical Thinking](https://github.com/ailev/FPF/blob/main/MATHEMATICAL-PRACTICE-DPF.md) (September 2026). References such as C.29 name patterns in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) (September 2026). ME references name patterns in [Method Engineering](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) (11 September 2026). Open the cited publication when that contribution is needed. When using another version, revisit a conclusion if its cited operation or condition has changed.
 
-To cite this edition: Anatoly Levenchuk, *Mathematical Modeling Practice DPF*, 15 September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
+To cite this edition: Anatoly Levenchuk, *Mathematical Modeling DPF*, 15 September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
 
 # Table of Contents
 
@@ -20,8 +20,8 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Modeling Practice DPF*, 1
 
 | Unit | Title | Use |
 | --- | --- | --- |
-| Readme | [Mathematical Modeling Practice - Readme](#mathematical-modeling-practice---readme) | Find a first pattern for your question. |
-| Preface | [Mathematical Modeling Practice - Preface](#mathematical-modeling-practice---preface) | Understand the connected methods, their rationale, sources and limits. |
+| Readme | [Mathematical Modeling - Readme](#mathematical-modeling---readme) | Find a first pattern for your question. |
+| Preface | [Mathematical Modeling - Preface](#mathematical-modeling---preface) | Understand the connected methods, their rationale, sources and limits. |
 
 ## General model-forming methods
 
@@ -33,13 +33,13 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Modeling Practice DPF*, 1
 | 4 | [MMP.8 - Formulate Choices under Incomplete Information](#mmp8---formulate-choices-under-incomplete-information) | Usable, evolving | available information; action; policy; decision timing; objective; conditional requirement; average performance. What can be chosen with information available in time, and which conditions must that choice satisfy? | MMP.7 for reports; A.3.3.TR for change; MMP.10 for constraints; ME for changing the corresponding way of working. |
 | 5 | [MMP.9 - Derive a Reduced Evolution Model](#mmp9---derive-a-reduced-evolution-model) | Usable, evolving | reduction; hidden state; closure; memory; approximation; error; sufficient bound. What contribution is left by eliminated detail, and which replacement preserves the consequence needed? | A.3.3.TR for evolution; C.29.1 for preserved structure; MMP.11 for a replacement family; B.5.RR for affected revision. |
 
-# Mathematical Modeling Practice - Readme
+# Mathematical Modeling - Readme
 
 ## Practical entries
 
 Bring the question you need a model to answer. It may concern an unexplained observation, a proposed intervention, a design, a prediction or the way work is performed. A useful first result can be a relation that makes calculation possible, a conditional answer, a reason to reject a proposal or a more precise question.
 
-These entries are selected examples. Use the Table of Contents and the pattern bodies when your question differs. The bodies explain their mathematical prerequisites and when another subject contribution is needed. FPF supplies common reasoning methods; Mathematical Practice supplies constructions used in mathematics itself and in its applications. Read their named patterns when an entry calls for those contributions.
+These entries are selected examples. Use the Table of Contents and the pattern bodies when your question differs. The bodies explain their mathematical prerequisites and when another subject contribution is needed. FPF supplies common reasoning methods; Mathematical Thinking supplies constructions used in mathematics itself and in its applications. Read their named patterns when an entry calls for those contributions.
 
 You can ask an assisting agent: “Explain the result and give feedback in the language of my work, without framework jargon.”
 
@@ -119,19 +119,21 @@ Return this answer to the proposed work. The report must be produced before allo
 
 ME.7:4.1 helps examine the proposed composition: what each method contributes, how the report reaches the acting participant, and which timing and support conditions the whole needs. Its result can be a supported composition or a proposal with unresolved conditions. Retain the resource demands and timing when revising the mathematical question. The useful result is a change the work can perform, a supported explanation of why the present method suffices, or the specific contribution still needed to choose.
 
-# Mathematical Modeling Practice - Preface
+# Mathematical Modeling - Preface
 
 ## MMP.Preface:1 - Problem frame - Make a mathematical question useful
 
 You may know the relevant formulas and still be unable to build a model for the question in front of you. The candidate objects may be unclear. A recorded value may hide part of the observing procedure. A proposed decision may use information that arrives too late. A detailed model may become affordable only after removing something its answer depends on.
 
-Mathematical Modeling Practice develops methods for constructing and revising such mathematical questions. Its subject can be a physical situation, a working method, a computational process or another mathematical construction. The useful result may be a prediction, an explanation, an admissible arrangement, an instruction, a bound or a question that directs further inquiry. Start with what that result would let you understand or do.
+Mathematical Modeling develops methods for constructing and revising such mathematical questions. Its subject can be a physical situation, a working method, a computational process or another mathematical construction. The useful result may be a prediction, an explanation, an admissible arrangement, an instruction, a bound or a question that directs further inquiry. Start with what that result would let you understand or do.
+
+This edition contains five patterns. Together with Mathematical Thinking, it supplies the currently published members of the Foundational Thinking DPF Suite. The selected repertoire will expand these modeling methods and add Physical Thinking, Computational Thinking and Notational Engineering. The Table of Contents identifies the methods available here; obtaining a contribution outside them still needs another source or collaborator.
 
 The mathematical account and the subject supply different parts of the reasoning. A relation describing a material, an observing procedure or a permitted action needs its corresponding subject knowledge. A mathematical construction then helps express the relation and derive consequences. The answer returns to the original question with the conditions under which that interpretation holds. The [First Principles Framework (FPF)](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) develops this connection in B.5.FM and the C.29 family; the bodies here develop particular model-forming operations within it. Find a named FPF pattern by its full code in FPF-Spec.md and open its Problem frame and Solution. If GitHub cannot display the large file, use its View raw or Download raw file action, then search that copy.
 
 The needed preparation depends on the operation. Finite arrangements can use sets, functions and elementary counting. Probabilistic recording needs conditional probability and sums or integrals. Evolution and reduction can require differential equations. Each body states its prerequisites and works small cases. When a collaborator or assisting agent supplies the mathematics, ask for the meaning of its inputs, its conditions and the result the next part of your work can use. You can ask for that explanation in the language of your work.
 
-Begin with the [Readme](#mathematical-modeling-practice---readme) when the useful entry is unclear. Enter a body directly when its Problem frame matches the difficulty.
+Begin with the [Readme](#mathematical-modeling---readme) when the useful entry is unclear. Enter a body directly when its Problem frame matches the difficulty.
 
 ## MMP.Preface:2 - Problem and forces - Choose what the model must retain
 
@@ -155,7 +157,7 @@ The requested answer determines how far to develop the model. A bound can settle
 
 ### MMP.Preface:3.1 - Form the first account and recover its interpretation
 
-If there is no mathematical question yet, use B.5.FM: identify the participants, propose the relations relevant to the difficulty, work a small consequence and return it to the question. B.5.TU helps when an available theory supplies those relations. Mathematical Practice provides constructions of objects, operations, representations and arguments when the needed mathematics itself must be developed.
+If there is no mathematical question yet, use B.5.FM: identify the participants, propose the relations relevant to the difficulty, work a small consequence and return it to the question. B.5.TU helps when an available theory supplies those relations. Mathematical Thinking provides constructions of objects, operations, representations and arguments when the needed mathematics itself must be developed.
 
 Recover what a request to use a model means in this situation. A structure satisfying stated axioms answers a different question from a representation used to predict an observed process. Both can be useful mathematical work. E.10 clarifies the intended use when the word *model* conceals it; keep the subject's established vocabulary when it is already clear.
 
@@ -192,6 +194,16 @@ An information-dependent instruction needs both an obtainable report and a parti
 When a premise or question changes, B.5.RR identifies the reasoning that depends on it and derives the revised consequence. If the argument must first be recovered, use B.5.RA. B.5.MPC.R develops the comparison when the difficulty concerns a connection among physical, mathematical and computational accounts. The repair may belong to subject assumptions, observation, mathematical formulation or computation.
 
 These contributions admit several entry points and returns. A changed reporting procedure can require a new probability law while leaving the choice criterion intact. A changed criterion can require another instruction while leaving the reporting law intact. A changed intervention can require revising the model's mechanisms. Preserve each still-useful result and reconsider the part whose conditions changed.
+
+### MMP.Preface:3.6 - Use the model-forming result across the Suite
+
+The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/main/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains the shared architecture and worked combinations. Mathematical Thinking constructs the objects and arguments a formulation needs. Physical or other subject methods supply the supported relations. Computational methods obtain the consequence, and the subject interpretation determines what that consequence lets the work do. Notational methods make these operations recoverable by their participants.
+
+A particularly useful boundary concerns an unknown relation. MMP.11 can construct a family respecting supported conditions without selecting one fitted member. MMP.7 supplies a probabilistic recording law when that is the question, while C.16.IR can expose what a supplied indication or bound resolves. The appropriate next step can therefore be inference, a discriminating observation, an already sufficient bound, or action under the remaining uncertainty.
+
+The selected expansion adds eight bodies to the five available here: inverse formulation, inference, model criticism, causal identification, discriminating inquiry, surrogate construction, coupling models, and constructing decision-sufficient state for continuing choice. The last extends MMP.8's existing histories and continuing instructions; the histories themselves do not automatically provide a smaller sufficient state. General portfolio comparison and improvement remain with the existing FPF methods.
+
+These are planned additions. Use another source or collaborator for a needed inference method or subject premise that the present bodies do not supply.
 
 ## MMP.Preface:4 - Archetypal Grounding - A report, an instruction and a changed question
 
@@ -250,7 +262,7 @@ The organization follows difficulties that arise before and during the construct
 
 MMP.10 constructs an expression of admissible cases. MMP.11 constructs a varying relation inside supported structure. MMP.7 derives the law of a recording procedure. MMP.8 formulates choice with information and uncertainty. MMP.9 derives what must replace removed detail in an evolution law. These results can supply one another without requiring every project to use every method.
 
-Common reasoning remains in FPF: constructing a first account, applying a theory, connecting a mathematical result to its subject, describing change, replacing a mechanism and revising an argument. Mathematical Practice develops the mathematical constructions. MMP develops the model-forming operation that uses those contributions; it keeps the actual subject premises visible. This division allows mathematical, physical and computational thinking to support one another while retaining their different questions.
+Common reasoning remains in FPF: constructing a first account, applying a theory, connecting a mathematical result to its subject, describing change, replacing a mechanism and revising an argument. Mathematical Thinking develops the mathematical constructions. MMP develops the model-forming operation that uses those contributions; it keeps the actual subject premises visible. This division allows mathematical, physical and computational thinking to support one another while retaining their different questions.
 
 The same division applies to modeling a working method. A function, path or state rule can describe an aspect of that method. Its mathematical properties become useful only through the correspondence with the work: what counts as input, which operations are available, what state can change and what result is returned. Method Engineering uses the consequence to retain, compose or change the working methods. A mathematical transformation may preserve returned values while changing time, information or execution demands; include the demands relevant to the proposed use.
 
