@@ -2,7 +2,7 @@
 
 > **AI-native declarative pattern languages for engineering work.** FPF gives engineers and AI agents a shared, precise language for Systems, Methods, architecture, Work, evidence, verification, decisions, improvement, and communication.
 
-[**FPF Core Specification**](./FPF-Spec.md) · [**Foundational Thinking DPF Suite**](./FOUNDATIONAL-THINKING-DPF-SUITE.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) · [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/)
+[**FPF Core Specification**](./FPF-Spec.md) · [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/README.md) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) · [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/)
 
 **Author:** Anatoly Levenchuk, with AI-agent assistance  
 
@@ -10,7 +10,7 @@
 
 **Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
 
-This repository publishes the transdisciplinary **FPF Core** and domain pattern languages, available individually or in the **Foundational Thinking** and **Engineering DPF Suites**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Engineering Suite Readme](./Engineering%20DPF%20Suite/README.md) helps you choose and combine its DPFs. The [Foundational Thinking Reference](./FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) connects mathematical, physical, computational and modeling contributions and distinguishes available methods from planned additions.
+This repository publishes the transdisciplinary **FPF Core** and domain pattern languages, available individually or in the **Foundational Thinking** and **Engineering DPF Suites**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Engineering Suite Readme](./Engineering%20DPF%20Suite/README.md) helps you choose and combine its DPFs. The [Foundational Thinking Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) connects mathematical, physical, computational and modeling contributions and distinguishes available methods from planned additions.
 
 FPF is designed for two complementary uses:
 
@@ -44,26 +44,30 @@ An AI agent can therefore help choose the **next justified move** without preten
 | Publication | What it contributes | Typical working questions |
 | --- | --- | --- |
 | [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
-| [**Foundational Thinking DPF Suite**](./FOUNDATIONAL-THINKING-DPF-SUITE.md) | Mathematical Thinking and Mathematical Modeling, with a Reference for their connected use; Physical Thinking, Computational Thinking and Notational Engineering are planned. | How do we enter an unfamiliar problem, connect its different kinds of reasoning, use the result and change the way of working? |
-| [**Mathematical Thinking DPF**](./MATHEMATICAL-PRACTICE-DPF.md) | Methods for choosing and constructing mathematical objects, operations and arguments; working with symmetries and constraints; and developing the next question. | What mathematics could answer this working question? How can these steps be composed? What survives a change of representation? Can a proof supply the object I need? |
-| [**Mathematical Modeling DPF**](./MATHEMATICAL-MODELING-PRACTICE-DPF.md) | General methods for representing admissible cases, constructing model families, deriving probability laws for recorded data, formulating choices and reducing dynamic models. | How can this question become a mathematical problem? What does the recorded information permit us to infer or choose? Which differences must a simpler model retain? |
+| [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/README.md) | Mathematical Thinking and Mathematical Modeling, with a Reference for their connected use; Physical Thinking, Computational Thinking and Notational Engineering are planned. | How do we enter an unfamiliar problem, connect its different kinds of reasoning, use the result and change the way of working? |
 | [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published and planned FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
 | [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
 
-### Mathematical Thinking
+### Foundational Thinking DPF Suite
 
-The 15 September 2026 publication contains thirteen patterns and thirteen practical entries. Start with MP-FRAME when you have a working question but do not yet know which mathematics it needs. The Preface shows how to choose a representation, obtain and interpret a result, and revise the representation when the question changes. The individual bodies develop the mathematical constructions used along the way. This independently usable publication belongs to the Foundational Thinking DPF Suite. Mathematical Modeling is also published; Physical Thinking, Computational Thinking and Notational Engineering are planned. The [Suite Reference](./FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) gives working combinations and explains how these methods connect with FPF and Method Engineering.
+The [Suite Readme](./Foundational%20Thinking%20DPF%20Suite/README.md) introduces available members and connected examples. The [Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains their architecture and how to move between mathematical constructions, modeling and other contributions. Physical Thinking, Computational Thinking and Notational Engineering are planned.
+
+Larger questions need several patterns. [Changing a combining rule](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined) connects a counterexample, retained information, an operation and a proof. [Answering with incomplete model detail](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail) connects reduction, bounds, interpretation and further work. Their short sequences and worked explanations show those dependencies.
+
+#### Mathematical Thinking
+
+The [Mathematical Thinking publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md), dated 15 September 2026, contains twenty patterns, direct practical entries and a longer worked connection. Start with MP-FRAME when you have a working question but do not yet know which mathematics it needs. The Preface shows how to choose a representation, obtain and interpret a result, and revise the representation when the question changes. The individual bodies develop the mathematical constructions used along the way. This independently usable publication belongs to the Foundational Thinking DPF Suite. Mathematical Modeling is also published; Physical Thinking, Computational Thinking and Notational Engineering are planned. The [Suite Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) gives working combinations and explains how these methods connect with FPF and Method Engineering.
 
 The variation and symmetry methods can be found under these addresses:
 
 | FPF address | Mathematical Thinking method |
 | --- | --- |
-| C.29.AV | [MATH.10 - Derive a Condition from an Admissible Variation](./MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) |
-| C.29.SC | [MATH.13 - Derive a Consequence from a Symmetry](./MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) |
+| C.29.AV | [MATH.10 - Derive a Condition from an Admissible Variation](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math10---derive-a-condition-from-an-admissible-variation) |
+| C.29.SC | [MATH.13 - Derive a Consequence from a Symmetry](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math13---derive-a-consequence-from-a-symmetry) |
 
-### Mathematical Modeling
+#### Mathematical Modeling
 
-The 15 September 2026 replacement contains five general model-forming methods and eight practical entries. Begin with MMP-START when the working question has no mathematical formulation. The methods help construct admissible representations and unknown relations, derive probability laws for the available records, formulate choices with the information available, and obtain a useful reduced model. Readme and Preface show their use with FPF and Mathematical Thinking, including a changed question and a return to the working method. The earlier narrow techniques remain preserved in development history.
+The [Mathematical Modeling publication](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md), dated 15 September 2026, contains five general model-forming methods, direct practical entries and worked connections. Begin with MMP-START when the working question has no mathematical formulation. The methods help construct admissible representations and unknown relations, derive probability laws for the available records, formulate choices with the information available, and obtain a useful reduced model. Readme and Preface show their use with FPF and Mathematical Thinking, including a changed question and a return to the working method. The earlier narrow techniques remain preserved in development history.
 
 ### Engineering DPF Suite
 
@@ -125,7 +129,27 @@ FPF becomes useful when an ordinary conversation, document, dashboard, or genera
 
 ## Use FPF with your agent
 
-Copy `FPF-Spec.md`, `Readme.md`, `USING-FPF.md`, `LICENSE` and `LICENSING.md` into a folder in your project, for example `fpf/`. Add the DPF publications you need, preserving the relative paths of their accompanying files. For Engineering Suite methods, copy the `Engineering DPF Suite` folder alongside those files. For Foundational Thinking, copy `FOUNDATIONAL-THINKING-DPF-SUITE.md`, `FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md`, `MATHEMATICAL-PRACTICE-DPF.md` and `MATHEMATICAL-MODELING-PRACTICE-DPF.md` beside `FPF-Spec.md`; their relative links use that arrangement.
+Copy `FPF-Spec.md`, `Readme.md`, `USING-FPF.md`, `LICENSE` and `LICENSING.md` into a folder in your project, for example `fpf/`. Add each Suite you need as a whole folder: `Foundational Thinking DPF Suite` and/or `Engineering DPF Suite`. Place these folders beside `FPF-Spec.md`, preserving their members and `README.md`/Reference links. Independent DPFs can be copied beside Core with their accompanying files.
+
+For a project using both Suites:
+
+```text
+fpf/
+  FPF-Spec.md
+  Readme.md
+  USING-FPF.md
+  LICENSE
+  LICENSING.md
+  Foundational Thinking DPF Suite/
+    README.md
+    FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md
+    MATHEMATICAL-PRACTICE-DPF.md
+    MATHEMATICAL-MODELING-PRACTICE-DPF.md
+  Engineering DPF Suite/
+    README.md
+    ENGINEERING-DPF-SUITE-REFERENCE.md
+    ... member DPF files ...
+```
 
 Add the following paragraph to the project instructions your agent environment actually loads, whether those are kept in a file or in its settings. Replace `fpf/` with your chosen path:
 
@@ -148,7 +172,7 @@ If the environment has no persistent project instructions, send that paragraph a
 | What does current SoTA offer, where do approaches disagree, and what should be maintained as a DPF? | FPF `G.2`, `E.4.DPF`; preserve sources, rival approaches, scope, freshness, and stop conditions. |
 | How should source material become a technical explanation, learning rendering, or narrative without invented structure? | Narrativization and Narrative Studies DPF `NSTD.*`, selected by the current narrative question. |
 
-These are entry points, not stages. Most cases need only one direct pattern and should stop when that pattern returns the result needed by the present decision or Work.
+These are entry points. One pattern can resolve a local difficulty; a larger question can require results that depend on one another. Use the Suite's connected examples and cards to follow those dependencies, and stop when the result needed by the current work is available.
 
 ## One-minute cross-industry example
 

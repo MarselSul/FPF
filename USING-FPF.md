@@ -1,14 +1,16 @@
-# Using FPF and Engineering DPF Suite
+# Using FPF and its DPF Suites
 
 Use the publications in this folder to help with the project's work. Paths below are relative to the folder containing this file.
 
 ## Choose what to read
 
-Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find it directly. Otherwise use `Readme.md`, `Engineering DPF Suite/README.md`, and `Engineering DPF Suite/ENGINEERING-DPF-SUITE-REFERENCE.md` to choose relevant publications and patterns. Search for alternative formulations of the question; include English terms when the user's language differs from the sources.
+Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find it directly. Otherwise use `Readme.md` to choose a Suite or independent DPF. Each Suite folder has a `README.md` for first use and a named Reference for connecting contributions: `Foundational Thinking DPF Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md` or `Engineering DPF Suite/ENGINEERING-DPF-SUITE-REFERENCE.md`. Search for alternative formulations of the question; include English terms when the user's language differs from the sources.
 
 To perform a selected method, read its description, applicability conditions, and the related patterns needed for that use. To use a particular technique, read its section together with the conditions it depends on. Apply it to the facts and constraints of the task.
 
 Explain results and give feedback in the language of the project's work. Preserve the source distinctions that affect the answer. Cite the patterns and locations used. State assumptions, missing evidence, use limits, and the need for human judgement where they affect the decision. Let the current question determine the next step.
+
+When a question needs several methods, use a relevant connected example or Practical-Use Card. Follow the intermediate results: what each method returns, which operation uses it, and what changed condition sends the work back. A mantra helps retain that connection. Read the supplying patterns and start at the contribution whose inputs are available.
 
 ## File structure
 
