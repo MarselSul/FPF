@@ -4,7 +4,7 @@
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Date:** 16 September 2026
-- **Status:** Eternal alpha. Mathematical Thinking, Mathematical Modeling, Physical Thinking and Computational Thinking are available; the wider repertoire is being developed.
+- **Status:** Eternal alpha. All five member DPFs are available; further modeling methods and connections are being developed.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 **Start with the [Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md)** when you need to choose among these contributions or connect them. Open a DPF directly when you already know the contribution you need.
@@ -19,6 +19,7 @@ You may know formulas or individual operations and still be unable to connect th
 | Decide a question without reconstructing every hidden detail | [Obtain a sufficient answer](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail): expose what reduction loses, bound its effect, interpret the result and obtain more where it changes the answer. |
 | Develop a physical prediction and decide which observation matters | [Connect physical accounts and observations](PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs): constrain the law, derive a consequence, compare the observations that matter and revise the affected premise. |
 | Construct an algorithm and adapt it when the required answer changes | [Keep construction and output consistent](COMPUTATIONAL-THINKING-DPF.md#cp-answer-under-limits---obtain-the-answer-the-work-needs-within-available-resources): construct the recurrence, share results, use bounds where they reduce search, and revisit what may be discarded. |
+| Carry a changed instruction through several expressions | [Keep meaning and change connected](NOTATIONAL-ENGINEERING-DPF.md#nt-change-together---carry-a-changed-request-through-several-representations): recover references and interpretation, expose translation losses, and update the affected expressions. |
 | Connect mathematics to changes in working methods | [Understand and change a construction](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#32-understand-and-change-a-construction): retain the distinction a later operation uses and connect it to Method Engineering. |
 
 
@@ -38,9 +39,10 @@ This is the public constitution and membership account for the Foundational Thin
 | [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 5 patterns | Formulate the subject question, recording, choice and change; retain what its answer needs. |
 | [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
 | [Computational Thinking DPF](COMPUTATIONAL-THINKING-DPF.md) | Published - 14 patterns | Construct and transform algorithms; connect their meaning, representations, resource requirements and interactions. |
+| [Notational Engineering DPF](NOTATIONAL-ENGINEERING-DPF.md) | Published - 8 patterns | Design, interpret, transform and coordinate expressions, including temporal and embodied notation. |
 | [Foundational Thinking DPF Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) | Published | Choose and connect available contributions, understand their organization and locate a missing contribution. |
 
-Computational Thinking develops algorithmics within computer science; numerical computation is one of its applications. Notational Engineering is a selected future DPF series. Its proposed contributions are explained in the Reference; no member edition is available yet. Current editions and this Reference are published together in this Suite folder.
+Computational Thinking develops algorithmics within computer science; numerical computation is one of its applications. Notational Engineering develops the expression conventions that make operations interpretable and usable. Current editions and this Reference are published together in this Suite folder.
 
 [FPF](../FPF-Spec.md) supplies the common reasoning methods. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/) supplies collaborating domain methods, including Method Engineering and capability development. These publications can be used with this Suite without becoming its members.
 

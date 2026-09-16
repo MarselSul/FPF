@@ -1,14 +1,14 @@
 # Foundational Thinking DPF Suite Reference
 
-> Find the mathematical, physical, computational or modeling contribution your question needs, and understand how the contributions work together.
+> Find the mathematical, physical, computational, modeling or notational contribution your question needs, and understand how the contributions work together.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Date:** 16 September 2026
-- **Status:** Eternal alpha. This edition gives working entries through the published Mathematical Thinking, Mathematical Modeling, Physical Thinking and Computational Thinking DPFs and FPF. Notational Engineering remains planned.
+- **Status:** Eternal alpha. This edition gives working entries through all five member DPFs and FPF, with their available methods and remaining contributions distinguished.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 - **Suite:** [Purpose, membership and edition rules](./)
 
-If you have a mathematical question already, start with [Mathematical Thinking](MATHEMATICAL-PRACTICE-DPF.md). If you need to turn a subject question into a mathematical one, start with [Mathematical Modeling](MATHEMATICAL-MODELING-PRACTICE-DPF.md). For a physical account, consequence or observation, start with [Physical Thinking](PHYSICAL-THINKING-DPF.md). For algorithm construction, interpretation or analysis, start with [Computational Thinking](COMPUTATIONAL-THINKING-DPF.md). When the difficulty lies between contributions, use the question index below.
+If you have a mathematical question already, start with [Mathematical Thinking](MATHEMATICAL-PRACTICE-DPF.md). If you need to turn a subject question into a mathematical one, start with [Mathematical Modeling](MATHEMATICAL-MODELING-PRACTICE-DPF.md). For a physical account, consequence or observation, start with [Physical Thinking](PHYSICAL-THINKING-DPF.md). For algorithm construction, interpretation or analysis, start with [Computational Thinking](COMPUTATIONAL-THINKING-DPF.md). For expressions whose rules, interpretation or changes need repair, start with [Notational Engineering](NOTATIONAL-ENGINEERING-DPF.md). When the difficulty lies between contributions, use the question index below.
 
 The linked patterns describe methods; their results still have to be obtained or supplied for your situation. A small example shows what that use can produce. A planned pattern names a remaining contribution and cannot yet supply its instructions.
 
@@ -16,9 +16,9 @@ The linked patterns describe methods; their results still have to be obtained or
 
 | Section | What you can find there |
 | --- | --- |
-| [1. Start with a working question](#1-start-with-a-working-question) | Seven entries, including their available contributions and limits. |
+| [1. Start with a working question](#1-start-with-a-working-question) | Eight entries, including their available contributions and limits. |
 | [2. What this Suite connects](#2-what-this-suite-connects) | Mathematical, physical, computational, modeling, notational and methodological work. |
-| [3. Working combinations](#3-working-combinations) | Construction, changed methods, incomplete information, limits, continued inquiry and algorithmic development. |
+| [3. Working combinations](#3-working-combinations) | Construction, changed methods, incomplete information, limits, continued inquiry, algorithmic development and coordinated expressions. |
 | [4. Preparation and division of work](#4-preparation-and-division-of-work) | What a reader or collaborator needs to understand and supply. |
 | [5. Coverage and unfinished contributions](#5-coverage-and-unfinished-contributions) | The present repertoire and the selected expansion. |
 | [6. Architectural Rationale](#6-architectural-rationale) | Why these methods form separate languages, how they connect and when to change that arrangement. |
@@ -35,6 +35,7 @@ The linked patterns describe methods; their results still have to be obtained or
 | I must act before I know everything. What is worth finding out? | Formulate which information can reach the choice, compare the consequences still possible, and seek only information that can change the decision usefully. | [Choose with incomplete information](#33-choose-with-incomplete-information). |
 | The full calculation is too expensive. What may I simplify? | Select the consequence to preserve, derive the contribution removed detail makes, and seek a replacement, approximation or sufficient bound. | [Obtain a result under limits](#34-obtain-a-result-under-limits). |
 | A procedure gives a value, but I need a witness, every answer or a different error guarantee. | Reconstruct the required output, retain enough intermediate information and revise only the shortcuts that relied on the old request. | [Construct and change an algorithm](#36-construct-and-change-an-algorithm). |
+| A formula, table or diagram is changed. What should its other expressions now say? | Recover the shared references, interpretation and intended edit; retain independent information and expose a loss or conflict. | [Carry meaning through different expressions](#37-carry-meaning-through-different-expressions). |
 | A person or AI supplied an answer. Can we use, alter and extend the way it was obtained? | Recover the needed construction and its conditions, try the changed use, and identify the next useful question or missing capability. | [Continue and distribute thinking](#35-continue-and-distribute-thinking). |
 
 ## 2. What this Suite connects
@@ -49,7 +50,7 @@ Knowing a formula can leave its use unresolved. A mathematically valid calculati
 | **Mathematical Modeling** | Formulate how the subject question, supported relations, unknowns and observations enter mathematics. | A mathematical question whose answer has a stated use in the subject, with the conditions and losses of that use. |
 | **Notational Engineering** | Develop expressions and interpretation through which participants can recognize and perform the needed operations. | A usable notation, correspondences between representations and the preparation their readers need. |
 
-Computational Thinking supplies fourteen algorithmic methods. The notational row describes a selected field whose DPF is still being developed; existing FPF methods and direct sources can already supply particular notation contributions. Section 5 separates available bodies from the remaining work.
+Computational Thinking supplies fourteen algorithmic methods; Notational Engineering supplies eight expression-design methods. Section 5 separates available bodies from the remaining work.
 
 **Methodology connects the contributions to ways of working.** A mathematical construction can describe how operations combine. A physical or computational result can make a different working arrangement possible. Method Engineering then helps construct or change that arrangement, including its observation, action and division of work.
 
@@ -129,7 +130,7 @@ FPF B.5.RC/RA recovers the needed construction or argument, B.5.RR follows chang
 
 This obstruction opens useful next questions: may the representation introduce an order, does the intended work permit that extra structure, or does it need the whole set instead? A mathematical, computational and methodological discussion can now concern the same identified difference.
 
-For acquiring or providing the needed capability, use the [Engineering DPF Suite](../Engineering%20DPF%20Suite/) entries for Human Capability Development, development opportunities and Explanation Design. Their methods address learning, support and transfer. A description of a construction alone does not establish that a particular learner can use it. [MATH.23](MATHEMATICAL-PRACTICE-DPF.md#math23---develop-a-conjecture-by-changing-a-construction) supplies the mathematical conjecture-development method. Further notational methods for recoverable expression remain planned.
+For acquiring or providing the needed capability, use the [Engineering DPF Suite](../Engineering%20DPF%20Suite/) entries for Human Capability Development, development opportunities and Explanation Design. Their methods address learning, support and transfer. A description of a construction alone does not establish that a particular learner can use it. [MATH.23](MATHEMATICAL-PRACTICE-DPF.md#math23---develop-a-conjecture-by-changing-a-construction) supplies the mathematical conjecture-development method. [NOT.3](NOTATIONAL-ENGINEERING-DPF.md#not3---give-expressions-an-operative-interpretation) constructs the reading procedure; [NOT.7](NOTATIONAL-ENGINEERING-DPF.md#not7---redesign-a-notation-around-the-readers-difficult-operations) repairs the operation made difficult by a notation. A missing subject capability still needs the corresponding development method.
 
 ### 3.6. Construct and change an algorithm
 
@@ -143,6 +144,18 @@ If a weaker answer is acceptable, CMP.8 constructs an approximation and its erro
 
 These methods also support changing a way of working. A solver can move a contribution to another agent; a changed representation can make sharing possible; an interaction rule can prevent one contribution from invalidating another. C.29 and Method Engineering establish the correspondence to the actual working arrangement. They retain any physical or organizational requirement that the algorithmic argument did not address.
 
+### 3.7. Carry meaning through different expressions
+
+**Recover the operation → establish references and interpretation → preserve or expose translation loss → carry the intended change → revise the affected rule.**
+
+[NOT.1–.3](NOTATIONAL-ENGINEERING-DPF.md#nt-choose---decide-what-the-notation-must-let-a-reader-do) connect the work requirement to formation and interpretation. NOT.4 constructs a transformation under its preservation conditions; NOT.5 exposes what a translation cannot recover; NOT.6 coordinates the useful remaining forms. NOT.7 repairs the resulting reading or editing burden. A single adequate expression can be used without this whole combination.
+
+The [connected NOT example](NOTATIONAL-ENGINEERING-DPF.md#nt-change-together---carry-a-changed-request-through-several-representations) keeps a formula, operation graph and table usable through a parameter change. The table's sampled values do not determine the formula outside those inputs. A new parameter changes derived values while an independent observation remains a record of what was observed. Replacing a supplied variable by repeated sensor reads changes the interpretation again, so an arithmetic rewrite must be reconsidered.
+
+MATH.18 supplies mathematical interpretation and its preservation arguments. CMP.12 constructs an effective interpreter when the expressions must be executed computationally. C.29 and the physical or modeling method supply the correspondence to the measured subject. A human reading a diagram can obtain a consequence without running software; a formal meaning alone does not supply an algorithm for every consequence.
+
+When the expression is a score or gesture, NOT.8 adds the needed pulse, frame, segmentation and reading procedure. The direction a sign represents and the capability to perform that motion are different contributions. Method Engineering helps change the working method when the newly expressed or computed result makes another way of working possible.
+
 ## 4. Preparation and division of work
 
 The required preparation follows the selected operation. A finite path or set construction may need elementary sets and functions. Deriving a recording law uses probability; varying a curve uses calculus. A reader interpreting the result may need less technical preparation than the contributor constructing its proof, but must still understand the conditions and the consequence used next.
@@ -155,7 +168,7 @@ You may ask an assistant: “Use the relevant patterns, but explain the result i
 
 ## 5. Coverage and unfinished contributions
 
-The selection contains **65 planned or existing pattern bodies in five DPFs**. Of these, **49 are published here**: twenty in MATH, five in MMP, ten in PHY and fourteen in CMP. No NOT edition is offered in this Reference. The numbers describe this selected repertoire, not a completeness claim about the fields.
+The selection contains **65 planned or existing pattern bodies in five DPFs**. Of these, **57 are published here**: twenty in MATH, five in MMP, ten in PHY, fourteen in CMP and eight in NOT. The numbers describe this selected repertoire, not a completeness claim about the fields.
 
 | DPF | Available contribution | Selected expansion |
 | --- | --- | --- |
@@ -163,7 +176,7 @@ The selection contains **65 planned or existing pattern bodies in five DPFs**. O
 | Mathematical Modeling: 13 selected | 5 bodies: admissible formulation, structured unknown relations, probabilistic recording, information-dependent choice and reduced evolution. | 8 bodies: inverse questions, inference, model criticism, causal identification, discriminating inquiry, surrogates, coupled models and decision-sufficient continuing state. |
 | [Physical Thinking](PHYSICAL-THINKING-DPF.md): 10 selected | All 10 selected bodies: physical similarity and analogues; limits from permitted transformations; restrictions on unknown laws; effective descriptions by scales and couplings; evolution from balances and response laws; motion from variational principles; macroscopic behavior and fluctuations from weighted microscopic alternatives; measuring interactions; and tests separating rival accounts. | No remaining body in this selection. New difficulties or source contributions can require further methods. |
 | [Computational Thinking](COMPUTATIONAL-THINKING-DPF.md): 14 selected | All 14 selected bodies: reduction, recursive construction, sharing, search, relaxation, local updates and learning; approximation, sampling, representation and lower bounds; interpretation, abstraction and interacting composition. | No remaining body in this selection. Additional algorithmic difficulties or sources can require further methods. |
-| Notational Engineering: 8 selected | No public DPF edition yet. | Distinctions and operations to express; binding and composition of expressions; operative interpretation; transformations and translations preserving the needed use; complementary representations; repair of difficult reading operations; and temporal or embodied notation with its reading, replay or enactment procedure. |
+| [Notational Engineering](NOTATIONAL-ENGINEERING-DPF.md): 8 selected | All 8 selected bodies: expression requirements, formation and binding, interpretation, transformation, translation with loss recovery, complementary representations, redesign around difficult operations, and temporal or embodied notation. | No remaining body in this selection. Subject conventions, new media or additional reader operations can require specialized contributions. |
 
 The selected additions to Method Engineering are outside these 65: ME.6.MC for mathematical comparison of method arrangements and ME.25 for construction and change of a working method. Their existing collaborators remain usable.
 
