@@ -4,11 +4,11 @@
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Date:** 16 September 2026
-- **Status:** Eternal alpha. This edition gives working entries through the published Mathematical Thinking, Mathematical Modeling and Physical Thinking DPFs and FPF. Computational Thinking and Notational Engineering remain planned.
+- **Status:** Eternal alpha. This edition gives working entries through the published Mathematical Thinking, Mathematical Modeling, Physical Thinking and Computational Thinking DPFs and FPF. Notational Engineering remains planned.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 - **Suite:** [Purpose, membership and edition rules](./)
 
-If you have a mathematical question already, start with [Mathematical Thinking](MATHEMATICAL-PRACTICE-DPF.md). If you need to turn a subject question into a mathematical one, start with [Mathematical Modeling](MATHEMATICAL-MODELING-PRACTICE-DPF.md). For a physical account, consequence or observation, start with [Physical Thinking](PHYSICAL-THINKING-DPF.md). When the difficulty lies between contributions, use the question index below.
+If you have a mathematical question already, start with [Mathematical Thinking](MATHEMATICAL-PRACTICE-DPF.md). If you need to turn a subject question into a mathematical one, start with [Mathematical Modeling](MATHEMATICAL-MODELING-PRACTICE-DPF.md). For a physical account, consequence or observation, start with [Physical Thinking](PHYSICAL-THINKING-DPF.md). For algorithm construction, interpretation or analysis, start with [Computational Thinking](COMPUTATIONAL-THINKING-DPF.md). When the difficulty lies between contributions, use the question index below.
 
 The linked patterns describe methods; their results still have to be obtained or supplied for your situation. A small example shows what that use can produce. A planned pattern names a remaining contribution and cannot yet supply its instructions.
 
@@ -16,9 +16,9 @@ The linked patterns describe methods; their results still have to be obtained or
 
 | Section | What you can find there |
 | --- | --- |
-| [1. Start with a working question](#1-start-with-a-working-question) | Six entries, including their available contributions and limits. |
+| [1. Start with a working question](#1-start-with-a-working-question) | Seven entries, including their available contributions and limits. |
 | [2. What this Suite connects](#2-what-this-suite-connects) | Mathematical, physical, computational, modeling, notational and methodological work. |
-| [3. Working combinations](#3-working-combinations) | Construction, changed methods, incomplete information, limits and continued inquiry. |
+| [3. Working combinations](#3-working-combinations) | Construction, changed methods, incomplete information, limits, continued inquiry and algorithmic development. |
 | [4. Preparation and division of work](#4-preparation-and-division-of-work) | What a reader or collaborator needs to understand and supply. |
 | [5. Coverage and unfinished contributions](#5-coverage-and-unfinished-contributions) | The present repertoire and the selected expansion. |
 | [6. Architectural Rationale](#6-architectural-rationale) | Why these methods form separate languages, how they connect and when to change that arrangement. |
@@ -34,6 +34,7 @@ The linked patterns describe methods; their results still have to be obtained or
 | Two ways of working look equivalent. Can I replace one with the other? | Identify what the replacement must preserve. Matching final values can hide a different observation, enabling condition or cost. | [Understand and change a construction](#32-understand-and-change-a-construction). |
 | I must act before I know everything. What is worth finding out? | Formulate which information can reach the choice, compare the consequences still possible, and seek only information that can change the decision usefully. | [Choose with incomplete information](#33-choose-with-incomplete-information). |
 | The full calculation is too expensive. What may I simplify? | Select the consequence to preserve, derive the contribution removed detail makes, and seek a replacement, approximation or sufficient bound. | [Obtain a result under limits](#34-obtain-a-result-under-limits). |
+| A procedure gives a value, but I need a witness, every answer or a different error guarantee. | Reconstruct the required output, retain enough intermediate information and revise only the shortcuts that relied on the old request. | [Construct and change an algorithm](#36-construct-and-change-an-algorithm). |
 | A person or AI supplied an answer. Can we use, alter and extend the way it was obtained? | Recover the needed construction and its conditions, try the changed use, and identify the next useful question or missing capability. | [Continue and distribute thinking](#35-continue-and-distribute-thinking). |
 
 ## 2. What this Suite connects
@@ -44,11 +45,11 @@ Knowing a formula can leave its use unresolved. A mathematically valid calculati
 | --- | --- | --- |
 | **Mathematical Thinking** | Construct objects and operations; establish consequences; compare and change constructions. | An object with usable maps, an interpreted expression, an argument, a witness, an obstruction or a qualified approximation. |
 | **Physical Thinking** | Identify relevant phenomena, preparation, interactions and constraints; develop and challenge an account of what can happen. | Physical premises, possible changes, a distinguishing observation or a limit on realization. |
-| **Computational Thinking** | Construct a way to obtain an answer or behavior from represented inputs, accounting for progress and resources. | An obtaining procedure, its representation and conditions, or an obstruction requiring a different demand. |
+| **Computational Thinking** | Construct, understand, analyze and transform algorithms within computer science, including their semantics and interaction. | An algorithm, its representation and correctness, progress and resource conditions, or a limit that changes the requested answer or available operations. |
 | **Mathematical Modeling** | Formulate how the subject question, supported relations, unknowns and observations enter mathematics. | A mathematical question whose answer has a stated use in the subject, with the conditions and losses of that use. |
 | **Notational Engineering** | Develop expressions and interpretation through which participants can recognize and perform the needed operations. | A usable notation, correspondences between representations and the preparation their readers need. |
 
-The computational and notational rows describe selected fields whose DPF publications are still being developed. Existing FPF methods and direct sources can already supply particular contributions in those fields. Section 5 distinguishes that use from the future DPF bodies.
+Computational Thinking supplies fourteen algorithmic methods. The notational row describes a selected field whose DPF is still being developed; existing FPF methods and direct sources can already supply particular notation contributions. Section 5 separates available bodies from the remaining work.
 
 **Methodology connects the contributions to ways of working.** A mathematical construction can describe how operations combine. A physical or computational result can make a different working arrangement possible. Method Engineering then helps construct or change that arrangement, including its observation, action and division of work.
 
@@ -86,6 +87,8 @@ FPF B.5.RC and B.5.RA recover a construction or argument. MATH.1/.5 builds and i
 
 [MATH.17](MATHEMATICAL-PRACTICE-DPF.md#math17---construct-spaces-of-operations-and-operations-on-them) now constructs transformations of rules and derives the laws their use needs. [MATH.18](MATHEMATICAL-PRACTICE-DPF.md#math18---compare-mathematical-accounts-through-interpretations) compares descriptions through interpretations and recoverable consequences. For example, preserving how operations compose can permit a calculation in the second description; recovering the first answer also needs a return that retains its required distinctions. Their Readme entries MP-CHANGE-RULE and MP-INTERPRET offer starting questions.
 
+[CMP.14](COMPUTATIONAL-THINKING-DPF.md#cmp14---compose-interacting-computations-through-their-required-observations) develops the algorithmic interaction: expose shared state and allowed observations, construct coordination, and retain separate correctness and progress arguments. [CMP.12](COMPUTATIONAL-THINKING-DPF.md#cmp12---construct-an-interpreter-and-a-meaning-preserving-translation) supplies interpretation or translation when executable descriptions change.
+
 The mathematical result can inform a change to a working method through the correspondence above. ME.6.MC and ME.25, the further methods for comparing and transforming working arrangements through mathematics, remain planned. The available ME.3/.7/.12 contributions can already expose a failed replacement and identify what it must preserve.
 
 For a longer construction, use [MP-COMBINE-RESULTS](MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined). It follows an unreliable aggregation rule through a counterexample, compatible summary, operation on summaries and proof, then reopens retained information when the answer changes. Each contribution supplies a result the next uses.
@@ -112,7 +115,7 @@ General inferential construction, model discrimination, causal identification an
 
 A smaller model can therefore be sufficient for one decision while lacking a complete evolution law in the retained quantity. New interventions or a different time horizon can require the missing distinction again. FPF's ordinary comparison and improvement methods can retain several complementary models.
 
-[MATH.20](MATHEMATICAL-PRACTICE-DPF.md#math20---bound-an-unknown-by-comparable-constructions) now supplies the general bounding method: derive a comparison covering all admitted cases, carry it through the needed operation, and tighten it only if the answer needs more. [MATH.21](MATHEMATICAL-PRACTICE-DPF.md#math21---construct-an-object-through-convergent-approximations) constructs limits and justifies the operations performed on them. Physical Thinking supplies [PHY.3](PHYSICAL-THINKING-DPF.md#phy3---derive-a-physical-limit-from-permitted-transformations) for limits derived from permitted physical transformations, and [PHY.5](PHYSICAL-THINKING-DPF.md#phy5---choose-an-effective-physical-description-by-scales-and-couplings) for choosing which effects must be retained. Numerical obtaining and surrogate construction remain selected additions in CMP and MMP. Use a suitable existing specialist method for either operation until those bodies are available.
+[MATH.20](MATHEMATICAL-PRACTICE-DPF.md#math20---bound-an-unknown-by-comparable-constructions) now supplies the general bounding method: derive a comparison covering all admitted cases, carry it through the needed operation, and tighten it only if the answer needs more. [MATH.21](MATHEMATICAL-PRACTICE-DPF.md#math21---construct-an-object-through-convergent-approximations) constructs limits and justifies the operations performed on them. Physical Thinking supplies [PHY.3](PHYSICAL-THINKING-DPF.md#phy3---derive-a-physical-limit-from-permitted-transformations) for limits derived from permitted physical transformations, and [PHY.5](PHYSICAL-THINKING-DPF.md#phy5---choose-an-effective-physical-description-by-scales-and-couplings) for choosing which effects must be retained. [CMP.8](COMPUTATIONAL-THINKING-DPF.md#cmp8---construct-an-approximate-computation-with-controlled-error) constructs an effective approximation and finite return condition; [CMP.9](COMPUTATIONAL-THINKING-DPF.md#cmp9---construct-a-randomized-estimator-or-sampling-procedure) constructs sampling and estimation. Numerical procedures are one application of these algorithmic methods. Surrogate-model construction remains a selected MMP addition; use a suitable existing specialist method for that remaining operation.
 
 The full [MMP-SUFFICIENT-ANSWER example](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail) works this connection across MMP, MATH and FPF. Its changed-time question derives the particular initial-state distinction worth recovering.
 
@@ -128,6 +131,18 @@ This obstruction opens useful next questions: may the representation introduce a
 
 For acquiring or providing the needed capability, use the [Engineering DPF Suite](../Engineering%20DPF%20Suite/) entries for Human Capability Development, development opportunities and Explanation Design. Their methods address learning, support and transfer. A description of a construction alone does not establish that a particular learner can use it. [MATH.23](MATHEMATICAL-PRACTICE-DPF.md#math23---develop-a-conjecture-by-changing-a-construction) supplies the mathematical conjecture-development method. Further notational methods for recoverable expression remain planned.
 
+### 3.6. Construct and change an algorithm
+
+**Specify the required answer → construct its obtaining procedure → share or summarize only what the answer permits → bound cost and error → use the result → revise the changed dependency.**
+
+[CMP.1](COMPUTATIONAL-THINKING-DPF.md#cmp1---construct-a-computational-reduction-and-carry-its-consequence) builds effective conversions and answer recovery when another solver can help. [CMP.2](COMPUTATIONAL-THINKING-DPF.md#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs a recurrence; CMP.3 chooses reuse and order. A mathematical construction or the formulation in MMP supplies their intended objects and answer conditions. It does not supply an algorithm merely by defining the answer.
+
+The [connected CMP example](COMPUTATIONAL-THINKING-DPF.md#cp-answer-under-limits---obtain-the-answer-the-work-needs-within-available-resources) shows how a relaxed bound can finish a search for one best selection. Asking for every equally good selection changes which branches may be discarded and what a shared table must retain. CMP.4 supplies the exclusion rule, CMP.5 the bound and CMP.10 the representation comparison. The mathematical optimum can remain unchanged while its obtaining and output procedure changes.
+
+If a weaker answer is acceptable, CMP.8 constructs an approximation and its error account. If the question concerns every possible algorithm under given access operations, CMP.11 constructs a lower bound rather than extrapolating the cost of one implementation. A changed input promise or tolerated error can reopen that limit. C.29.3 then connects the selected operations to physical execution where that contribution is needed.
+
+These methods also support changing a way of working. A solver can move a contribution to another agent; a changed representation can make sharing possible; an interaction rule can prevent one contribution from invalidating another. C.29 and Method Engineering establish the correspondence to the actual working arrangement. They retain any physical or organizational requirement that the algorithmic argument did not address.
+
 ## 4. Preparation and division of work
 
 The required preparation follows the selected operation. A finite path or set construction may need elementary sets and functions. Deriving a recording law uses probability; varying a curve uses calculus. A reader interpreting the result may need less technical preparation than the contributor constructing its proof, but must still understand the conditions and the consequence used next.
@@ -140,14 +155,14 @@ You may ask an assistant: “Use the relevant patterns, but explain the result i
 
 ## 5. Coverage and unfinished contributions
 
-The selection contains **65 planned or existing pattern bodies in five DPFs**. Of these, **35 are published here**: twenty in MATH, five in MMP and ten in PHY. No CMP or NOT edition is offered in this Reference. The numbers describe this selected repertoire, not a completeness claim about the fields.
+The selection contains **65 planned or existing pattern bodies in five DPFs**. Of these, **49 are published here**: twenty in MATH, five in MMP, ten in PHY and fourteen in CMP. No NOT edition is offered in this Reference. The numbers describe this selected repertoire, not a completeness claim about the fields.
 
 | DPF | Available contribution | Selected expansion |
 | --- | --- | --- |
 | Mathematical Thinking: 20 bodies selected | All 20 selected bodies: formation, operations and interpretations; proofs, witnesses, extraction and countermodels; bounds and convergent approximations; invariants, symmetry and variation; changed axioms and conjecture development. | No remaining body in this selection. New difficulties or source contributions can require further methods. |
 | Mathematical Modeling: 13 selected | 5 bodies: admissible formulation, structured unknown relations, probabilistic recording, information-dependent choice and reduced evolution. | 8 bodies: inverse questions, inference, model criticism, causal identification, discriminating inquiry, surrogates, coupled models and decision-sufficient continuing state. |
 | [Physical Thinking](PHYSICAL-THINKING-DPF.md): 10 selected | All 10 selected bodies: physical similarity and analogues; limits from permitted transformations; restrictions on unknown laws; effective descriptions by scales and couplings; evolution from balances and response laws; motion from variational principles; macroscopic behavior and fluctuations from weighted microscopic alternatives; measuring interactions; and tests separating rival accounts. | No remaining body in this selection. New difficulties or source contributions can require further methods. |
-| Computational Thinking: 14 selected | No public DPF edition yet. | Reduction and effective construction, algorithmic organization, iterative and learned rules, numerical and statistical obtaining, resource limits, interpretation and transformation of computations. |
+| [Computational Thinking](COMPUTATIONAL-THINKING-DPF.md): 14 selected | All 14 selected bodies: reduction, recursive construction, sharing, search, relaxation, local updates and learning; approximation, sampling, representation and lower bounds; interpretation, abstraction and interacting composition. | No remaining body in this selection. Additional algorithmic difficulties or sources can require further methods. |
 | Notational Engineering: 8 selected | No public DPF edition yet. | Distinctions and operations to express; binding and composition of expressions; operative interpretation; transformations and translations preserving the needed use; complementary representations; repair of difficult reading operations; and temporal or embodied notation with its reading, replay or enactment procedure. |
 
 The selected additions to Method Engineering are outside these 65: ME.6.MC for mathematical comparison of method arrangements and ME.25 for construction and change of a working method. Their existing collaborators remain usable.

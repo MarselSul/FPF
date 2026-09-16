@@ -46,15 +46,15 @@ An AI agent can therefore help choose the **next justified move** without preten
 | Publication | What it contributes | Typical working questions |
 | --- | --- | --- |
 | [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
-| [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/) | Mathematical Thinking, Mathematical Modeling and Physical Thinking, with a Reference for their connected use; Computational Thinking and Notational Engineering are planned. | How do we enter an unfamiliar problem, connect its different kinds of reasoning, use the result and change the way of working? |
+| [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/) | Mathematical Thinking, Mathematical Modeling, Physical Thinking and Computational Thinking, with a Reference for their connected use; Notational Engineering is planned. | How do we enter an unfamiliar problem, connect its different kinds of reasoning, use the result and change the way of working? |
 | [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published and planned FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
 | [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
 
 ### Foundational Thinking DPF Suite
 
-The [Suite Readme](./Foundational%20Thinking%20DPF%20Suite/) introduces available members and connected examples. The [Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains their architecture and how to move between mathematical constructions, modeling and other contributions. Computational Thinking and Notational Engineering are planned.
+The [Suite Readme](./Foundational%20Thinking%20DPF%20Suite/) introduces available members and connected examples. The [Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) explains their architecture and how to move between mathematical constructions, modeling and other contributions. Notational Engineering is planned.
 
-Larger questions need several patterns. [Changing a combining rule](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined) connects a counterexample, retained information, an operation and a proof. [Answering with incomplete model detail](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail) connects reduction, bounds, interpretation and further work. [Developing a physical prediction](./Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs) links assumptions about an unknown physical law to a prediction, an observation that distinguishes alternatives, and revision when those assumptions change. Their short sequences and worked explanations show those dependencies.
+Larger questions need several patterns. [Changing a combining rule](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined) connects a counterexample, retained information, an operation and a proof. [Answering with incomplete model detail](./Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail) connects reduction, bounds, interpretation and further work. [Developing a physical prediction](./Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs) links assumptions about an unknown physical law to a prediction, an observation that distinguishes alternatives, and revision when those assumptions change. [Constructing an algorithm within available resources](./Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md#cp-answer-under-limits---obtain-the-answer-the-work-needs-within-available-resources) connects decomposition, reused subcomputations, search bounds and recovery of the requested answers. These sequences and worked explanations show how the pattern contributions depend on one another.
 
 #### Mathematical Thinking
 
@@ -67,6 +67,10 @@ The [Mathematical Modeling publication](./Foundational%20Thinking%20DPF%20Suite/
 #### Physical Thinking
 
 The [Physical Thinking publication](./Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md) contains ten patterns and seven practical entries. Start with a physical question for which you need an account, a prediction, an observation or a revised assumption. The methods help constrain unknown laws, choose the effects to retain, derive how a system changes, relate possible microscopic states to collective behavior, use physical similarity and analogues, establish physical limits, and construct measurements and tests. The Preface shows how physical, mathematical and computational contributions work together, and which contribution to revisit when the physical situation changes.
+
+#### Computational Thinking
+
+The [Computational Thinking publication](./Foundational%20Thinking%20DPF%20Suite/COMPUTATIONAL-THINKING-DPF.md) contains fourteen patterns for algorithmics within computer science. Start with CP-DECOMPOSE to derive a procedure from smaller problems, or CP-REUSE when an available solver may help. The methods help construct and revise algorithms, control computation cost and error, preserve meaning when translating a program, and make interacting computations produce the required result. The Preface's worked example changes from finding one optimal solution to enumerating all of them. It shows which earlier pruning and reconstruction choices must change. Numerical computation is one application of these methods.
 
 ### Engineering DPF Suite
 
@@ -144,6 +148,8 @@ fpf/
     FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md
     MATHEMATICAL-PRACTICE-DPF.md
     MATHEMATICAL-MODELING-PRACTICE-DPF.md
+    PHYSICAL-THINKING-DPF.md
+    COMPUTATIONAL-THINKING-DPF.md
   Engineering DPF Suite/
     README.md
     ENGINEERING-DPF-SUITE-REFERENCE.md
