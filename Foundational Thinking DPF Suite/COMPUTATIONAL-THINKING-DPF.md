@@ -8,7 +8,7 @@
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Computational Thinking here means algorithmics within computer science. Begin with a question about how to obtain an answer, maintain a required behavior, or change a procedure. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme gives selected starting points; the Preface explains the connections, prerequisites and limits.
+Computational Thinking here means algorithmics within computer science. Begin with a question about how to obtain an answer, maintain a required behavior, or change a procedure. Use the Table of Contents to find a relevant method, then open its Problem frame, Solution, worked cases and checklist. The Readme follows worked connections between methods; the Preface explains their rationale, prerequisites and limits.
 
 The reference code **CMP** names this DPF. Its numbers are stable pattern addresses; § shows position within a Part. Numerical algorithms are one application alongside symbolic, discrete, randomized and learning procedures. A computing device enters when its operations or physical limits matter to the algorithm or its realization.
 
@@ -22,7 +22,7 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecos
 
 | Unit | Title | Use |
 | --- | --- | --- |
-| Readme | [Computational Thinking - Readme](#computational-thinking---readme) | Find a first pattern for your question. |
+| Readme | [Computational Thinking - Readme](#computational-thinking---readme) | Follow worked connections between algorithmic methods. |
 | Preface | [Computational Thinking - Preface](#computational-thinking---preface) | Understand the connected methods, their rationale, sources and limits. |
 
 ## Part A - Construct an algorithm
@@ -58,101 +58,77 @@ To cite this edition: Anatoly Levenchuk, *Computational Thinking DPF*, [FPF ecos
 
 ## Practical entries
 
-Bring the algorithmic difficulty from your work. These are selected examples of where to start, not a catalogue or a boundary of the repertoire. The Table of Contents also leads directly to methods for search, relaxation, approximation and computational limits.
+Bring an algorithmic difficulty: how to construct a procedure, preserve its meaning, or make its operations affordable. Computational Thinking concerns the methods of computer science used to answer those questions. Numerical computation is one application alongside symbolic processing, search, program analysis and interacting procedures.
 
-You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.” Ask it to follow an input through the proposed operations and show what the result allows you to do. Open the relevant body for its assumptions and changed-condition cases.
+The examples below show how one method's result makes another method usable, including where to branch or return when a condition changes. They are selected uses of the pattern language, not a catalogue or a prescribed workflow. Use the Table of Contents and the patterns' own `Use this when` and `Problem frame` for other questions. Open only the contributions the question needs; a sufficient existing answer does not require a new analysis.
 
-### CP-REUSE - Use an available solver for a different problem
+For inexpensive direct help, [CMP.10 - Choose a Computational Representation for Its Access and Update Operations](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) can settle how to make one membership query in an existing unsorted list: a scan may suffice, with no new index to build. Many later queries or a different update workload can change that choice.
 
-- **Situation:** The available solver accepts different inputs or returns a different kind of answer.
-- **Question:** How can its answers solve the problem we actually have?
-- **First useful result or blocker:** An effective conversion and answer recovery, or the condition preventing that reduction.
-- **Start with:** [CMP.1](#cmp1---construct-a-computational-reduction-and-carry-its-consequence).
-- **Stop or return:** Use the solver directly when it already fits; revisit the conversion when its input or answer conditions change.
+You can ask an assisting agent: “Explain this and give me your comments in the language of my work, without framework jargon.” Ask it to follow an input through the proposed operations, retain the assumptions needed by the next method, and explain what the result permits.
 
-### CP-DECOMPOSE - Derive an algorithm from smaller problems
+### CP-TRANSLATION-SCOPE - A translation works on test inputs; which executions does it preserve?
 
-- **Situation:** A problem can be divided, but the partial answers may not contain enough information to construct the whole answer.
-- **Question:** What should each subproblem return, and why will recursion finish?
-- **First useful result or blocker:** A recursive procedure with sufficient returns, base cases and a progress argument.
-- **Start with:** [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition).
-- **Stop or return:** Keep a sufficient decomposition; strengthen its returns or change its smaller problems when recombination fails.
+- **Situation:** Expressions have been translated to a machine with different arithmetic, and a few successful tests do not settle the permitted input range.
+- **Question:** Under which input conditions does the translated program preserve the required result?
+- **First useful result or blocker:** A source-to-target correspondence with an established input condition, or a concrete mismatch or unresolved condition preventing that claim.
+- **Start with:** [CMP.12 - Construct an Interpreter and a Meaning-Preserving Translation](#cmp12---construct-an-interpreter-and-a-meaning-preserving-translation). If the correspondence depends on a property of possible executions, use [CMP.13 - Construct a Computational Abstraction for the Property Being Asked](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked) to obtain that premise.
+- **Stop or return:** Use a sufficient correspondence on its established scope. Changed inputs or machine operations reopen the affected premise. An abstract warning alone is not a demonstrated failing execution.
 
-### CP-REPEAT - Avoid repeating the same computation
+For example, the source computes `(x + 1) * (x - 2)` with unbounded integers. The target uses unsigned 8-bit arithmetic, wrapping modulo 256. CMP.12 specifies evaluation and translation: evaluate each operand in order, pop the right operand before the left, and append the expression's result without changing an existing stack prefix. At `x = 5`, both executions produce 18. That test does not establish correspondence for other inputs.
 
-- **Situation:** A procedure repeatedly solves related subproblems and spends too much time or storage.
-- **Question:** Which results can be shared, in what order, and with what retained information?
-- **First useful result or blocker:** A dependency schedule and reuse rule that preserve the requested answer.
-- **Start with:** [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations).
-- **Stop or return:** Use direct evaluation when sharing costs more; reopen identity or scheduling when context, effects or required outputs change.
+Suppose the allowed integers satisfy `2 <= x <= 16`. CMP.13 can compute ranges at the expression's intermediate steps: `x + 1` lies in `[3,17]`, `x - 2` in `[0,14]`, and their product in `[0,238]`. These ranges cover every source execution under the stated input condition. No arithmetic intermediate overflows the target range. This discharges the arithmetic premise of CMP.12's correspondence argument; it does not replace the argument about operand order and preservation of the stack.
 
-### CP-UPDATE - Construct a useful local update
+Now allow `x = 17`. The source returns 270 and the target 14. The changed range calculation warns that wrapping is possible; this concrete execution establishes an actual mismatch. Return to CMP.12 to choose wider arithmetic, retain a justified input restriction, or explicitly change the intended arithmetic. Do not “repair” the analyzer by removing a real input. For a different abstract warning, CMP.13 checks the proposed execution against the original computation. If reconstruction establishes that a lost distinction produced an impossible path, refine that distinction; failure to resolve a path is not proof that it is impossible.
 
-- **Situation:** You can inspect nearby candidates or obtain local feedback, but need a rule for changing the current candidate.
-- **Question:** Which update is admissible, and what progress does it support?
-- **First useful result or blocker:** An update and stopping rule with its applicable progress or quality argument.
-- **Start with:** [CMP.6](#cmp6---derive-an-iterative-update-from-local-information).
-- **Stop or return:** Stop at a sufficient result; revise the update when its local information or progress premise fails.
-
-### CP-LEARN - Construct a rule from examples and feedback
-
-- **Situation:** Several rules fit the examples but disagree on the cases where the result will be used.
-- **Question:** How should the learning procedure select or update a rule, and what supports its further use?
-- **First useful result or blocker:** A learner and learned rule, with the unresolved ambiguity or performance conditions exposed.
-- **Start with:** [CMP.7](#cmp7---construct-a-learner-from-examples-and-feedback).
-- **Stop or return:** Reuse an adequate rule; change data, inductive choice or learning procedure at the source of a consequential failure.
-
-### CP-RANDOM - Obtain a sample or estimate with the intended meaning
-
-- **Situation:** A randomized procedure is affordable, but its sampling law, dependence or stopping condition can change the answer.
-- **Question:** How should randomness be generated and used to obtain the required sample or estimate?
-- **First useful result or blocker:** A sampling or estimation procedure with its applicable distribution and error account.
-- **Start with:** [CMP.9](#cmp9---construct-a-randomized-estimator-or-sampling-procedure).
-- **Stop or return:** Use affordable direct computation when it settles the question; revisit the procedure when target, proposal or stopping changes.
-
-### CP-REPRESENT - Make the required operations cheaper
-
-- **Situation:** A compact or familiar data structure makes the needed queries or updates expensive.
-- **Question:** Which representation supports this mix of operations without losing a needed distinction?
-- **First useful result or blocker:** A representation, conversion and operation costs that support the intended use.
-- **Start with:** [CMP.10](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations).
-- **Stop or return:** Keep the simple representation when it suffices; compare again when the workload, identity or cost model changes.
-
-### CP-TRANSLATE - Turn expressions into an executable procedure
-
-- **Situation:** An expression or program must be evaluated, compiled or transferred to another execution setting.
-- **Question:** How can evaluation and translation preserve the observations on which the result depends?
-- **First useful result or blocker:** An evaluator or translation with a correspondence for the required results and behavior.
-- **Start with:** [CMP.12](#cmp12---construct-an-interpreter-and-a-meaning-preserving-translation).
-- **Stop or return:** Use an existing interpreter when its semantics fits; reopen binding, primitives or control when execution meaning changes.
-
-### CP-ABSTRACT - Compute with fewer distinctions
-
-- **Situation:** Direct exploration is too large, but a property might be decided using summaries of possible executions.
-- **Question:** Which summary operations support that conclusion, and how can an inconclusive answer be refined?
-- **First useful result or blocker:** A sound abstract computation, a reconstructed counterexample, or the particular lost distinction to restore.
-- **Start with:** [CMP.13](#cmp13---construct-a-computational-abstraction-for-the-property-being-asked).
-- **Stop or return:** Use a sufficient coarse result; refine only where the lost distinction changes the conclusion.
-
-### CP-COMPOSE - Make interacting computations work together
-
-- **Situation:** Procedures work alone but sharing, messages or scheduling changes their combined behavior.
-- **Question:** Which interaction rules preserve required observations and allow progress?
-- **First useful result or blocker:** A composed procedure and its conditions, or a failing interaction that identifies the repair.
-- **Start with:** [CMP.14](#cmp14---compose-interacting-computations-through-their-required-observations).
-- **Stop or return:** Use sequential composition when it suffices; revisit the shared-state, delivery or scheduling premise that changed.
+The same connection can supply a premise about control, binding, errors or effects, but it needs an abstraction for that property and the actual execution rules. A range argument establishes none of those other properties by itself. The direct patterns give those constructions beyond this arithmetic example.
 
 ### CP-ANSWER-UNDER-LIMITS - Obtain the answer the work needs within available resources
 
-- **Situation:** A finite choice problem is expensive, and a changed request can make an earlier shortcut discard required answers.
-- **Question:** How can construction, bounds, representation and the output requirement be kept consistent?
-- **First useful result or blocker:** A procedure returning the requested candidate, bound or set of answers, or a resource or information limit that changes the request.
-- **Start with:** [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) → [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations). When a bound can make search cheaper, [CMP.5](#cmp5---improve-a-candidate-through-a-relaxed-problem) supplies it to [CMP.4](#cmp4---construct-search-with-justified-exclusions). Use [CMP.10](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) for a changed representation, [CMP.8](#cmp8---construct-an-approximate-computation-with-controlled-error) for a permitted approximation, or [CMP.11](#cmp11---derive-a-computational-lower-bound-from-indistinguishable-inputs) when an algorithmic limit is the question.
-- **Stop or return:** Stop at the result sufficient for the receiving work. A changed completeness or error requirement reopens the shortcuts that depended on it.
+- **Situation:** A finite selection problem is expensive; changing from one best selection to every best selection can invalidate a shortcut.
+- **Question:** How can construction, sharing, bounds and retained information preserve the answer now required?
+- **First useful result or blocker:** An answer-producing procedure with justified exclusions and sufficient reconstruction information, or the specific resource limit it cannot meet.
+- **Start with:** [CMP.2](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition), then [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) when subproblems repeat. A useful bound from [CMP.5](#cmp5---improve-a-candidate-through-a-relaxed-problem) can justify exclusions in [CMP.4](#cmp4---construct-search-with-justified-exclusions).
+- **Stop or return:** Stop at the answer sufficient for the work. Changed data, completeness or permitted error reopen the choices that depended on them; a faster value computation need not retain every witness.
 
-Specify the required answer before constructing the recurrence. The answer determines which subanswers may be shared and which alternatives may be discarded. Retain enough intermediate information to recover it, and use a bound when the search work saved justifies its computation. Return the requested result and revisit these choices when the request changes.
+First specify whether the result is a value, one selection attaining it, all such selections, or an allowed approximation. [CMP.2 - Derive a Recursive Procedure from a Problem Decomposition](#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) constructs subproblems with enough returned information to assemble that answer. [CMP.3 - Share and Schedule Repeated Subcomputations](#cmp3---share-and-schedule-repeated-subcomputations) uses their identity and dependencies to decide what can be computed once, when it is needed, and what must remain available for reconstruction.
 
-CMP.Preface:4 works through a small selection problem. Recursion defines the answer, shared subproblems make it cheaper to compute, and a relaxed bound can finish the optimality question. Asking later for every optimal selection changes branch exclusion and witness storage. A summary adequate for the optimum value can have discarded an equally valuable selection. The example follows that loss back to its cause and constructs the required recovery.
+CMP.Preface:4 supplies a small connected case. Each distinct item may be selected at most once; costs and values add, and capacity is 5.
+
+| Item | Cost | Value |
+| --- | ---: | ---: |
+| A | 4 | 7 |
+| B | 3 | 5 |
+| C | 2 | 3 |
+
+Let `R(i,b)` be the best value using the first `i` items within capacity `b`. CMP.2 separates exclusion of the next item from its feasible inclusion. CMP.3 shares each resulting `(i,b)` subproblem. The final values for capacities 0 through 5 are `0, 0, 3, 5, 7, 8`; B+C attains 8. Keeping only two rows can save value-storage, but recovering a selection still needs choices or justified recomputation. CMP.10 chooses a representation for those actual accesses and retained distinctions. The table uses order `nW` updates for `n` items and integer capacity `W`; that is not a polynomial bound in the number of bits encoding `W`.
+
+If exploring alternatives remains expensive, [CMP.5 - Improve a Candidate through a Relaxed Problem](#cmp5---improve-a-candidate-through-a-relaxed-problem) permits fractional items to obtain an upper bound. A plus one third of B gives the fractional optimum `26/3`. Since original values are integers, they cannot exceed 8. B+C reaches 8, so the optimum is already settled. [CMP.4 - Construct Search with Justified Exclusions](#cmp4---construct-search-with-justified-exclusions) consumes such a bound to exclude alternatives; it does not treat an arbitrary relaxed candidate as an upper bound.
+
+Now add D with cost 4 and value 8, and request **every** optimal selection. Both D and B+C must survive. The old bound concerned a different item set: D plus one quarter of A gives the new fractional optimum `39/4`, so its integer upper bound is 9 and does not alone settle optimality. The updated recurrence gives optimum 8. At its final state both the exclude-D and include-D branches attain 8; following both recovers the two selections.
+
+The output change also changes pruning: for one optimum, an upper bound `U <= L`, where `L` is an attained value, excludes a branch that cannot improve it. For all optima, equality can hide another required selection, so this exclusion needs `U < L`. Storing only the cheapest selection for each value would keep D and discard B+C; following ties later cannot restore information already lost. Return to the recurrence and retain the required choices and item identities. Listing all answers can itself require much more work than computing their common value.
+
+If a near-optimal answer would actually suffice, [CMP.8 - Construct an Approximate Computation with Controlled Error](#cmp8---construct-an-approximate-computation-with-controlled-error) changes the permitted error and construction; it does not answer the request for all exact optima. If the disputed question is what *any* algorithm must spend, [CMP.11 - Derive a Computational Lower Bound from Indistinguishable Inputs](#cmp11---derive-a-computational-lower-bound-from-indistinguishable-inputs) requires a stated access and cost model. One slow implementation establishes no such limit. Other selection problems need their own sufficient subproblems and valid bounds; the item table is an example of the joins, not their scope.
+
+### CP-RETRY-AND-RECOVER - Share calculations without merging requests or repeating their effects
+
+- **Situation:** Requests repeat expensive calculations, replies can be lost, and a restart can erase some remembered results.
+- **Question:** Which work may be shared while each logical request still has its required effect and reply?
+- **First useful result or blocker:** Distinct reuse and request identities, a retention rule and a composed procedure, or the missing atomic operation or delivery condition.
+- **Start with:** [CMP.14](#cmp14---compose-interacting-computations-through-their-required-observations) for required observations; [CMP.3](#cmp3---share-and-schedule-repeated-subcomputations) for reusable calculations; [CMP.10](#cmp10---choose-a-computational-representation-for-its-access-and-update-operations) for retained records. Return their results to CMP.14's interaction argument.
+- **Stop or return:** Keep a sufficient existing procedure. Changed effects, record retention or failure conditions reopen the affected claim. At-most-once effects alone promise neither a reply nor a deadline.
+
+Suppose a request runs a deterministic calculation `f(x)` and adds its result to a shared counter and returns the counter value immediately after that addition. For the input in this example, `f(x) = 5`, and the counter starts at 0. [CMP.14 - Compose Interacting Computations through Their Required Observations](#cmp14---compose-interacting-computations-through-their-required-observations) first distinguishes the intended observations: two independently intended requests must add twice; a retransmission of one request must not add again. A lost reply does not show whether the first addition occurred.
+
+CMP.3 supplies a different distinction. A pure calculation of `f(x)` may be shared when its inputs and governing version make its returned result interchangeable. That reuse does not identify two independently intended additions. Give a logical request its own identifier `k`, reused only by its attempts, and keep its payload consistent. Two requests with the same `x` may reuse the calculated 5 while still adding 10 in total. If the calculation is cheap, there is no need to cache it.
+
+These two identities determine what CMP.10 must represent: a cache for calculation results, when worthwhile, and a separate map from completed request identifiers to their payloads and returned results. Discarding a pure calculation's cache entry only causes recomputation under the same conditions. Discarding a request's completion record while an old attempt can still arrive can repeat an effect. The records' retention rules cannot be borrowed from one another merely because both look like tables.
+
+CMP.14 uses those records in the actual interaction. After obtaining the amount, the receiver must atomically either find `k` completed and recover its original reply, or add the amount and record that reply as `k`'s completed result. Sending the reply may follow. For one request the counter becomes 5; loss of its reply followed by a retry returns the stored 5 without another addition. A genuinely new request adds another 5 and receives 10. A later retry of the first request still receives its original 5. An efficient lookup table by itself supplies no atomicity for this composite operation.
+
+Now let a restart preserve the counter but lose completed-request records. Retrying the first request can raise 5 to 10: calculation reuse may remain correct while the composed effect is wrong. Return to CMP.14's failure model and CMP.10's retention choice. Effect and completion result must survive together if that guarantee is required. Persisting an identifier in one place and performing an external service's effect elsewhere does not close the crash interval between them; the missing operation or external guarantee remains a blocker.
+
+Finally, keep the response question separate. Avoiding repeated effects does not require eventual message delivery. Eventual response does: it needs adequate retry, delivery, processing and retained-state conditions for both request and reply. Those conditions still provide no fixed deadline. Reopen only the affected assumption when it changes. The same separation applies to shared calculations, updates and message protocols beyond this counter example; the direct methods determine their actual identity, atomicity, storage and progress requirements.
 
 # Computational Thinking - Preface
 

@@ -12,7 +12,7 @@ Start with the [Readme](#operations-management-principles-framework-readme) for 
 
 # Table of Contents
 
-Use the Readme when you have a working difficulty but do not yet know the direct pattern. Use this Table of Contents when you know the problem family or PatternID. Pattern bodies contain the authoritative moves, cases, evidence limits, and stops.
+Use the Readme for worked connections across several operating questions. Use this Table of Contents to find an individual method by difficulty, needed result or PatternID. Pattern bodies contain the authoritative moves, cases, evidence limits, and stops.
 
 `OPS.*` is this framework's PatternID namespace. Numbers are stable addresses; the Parts give reader order and do not prescribe Work order.
 
@@ -20,7 +20,7 @@ Use the Readme when you have a working difficulty but do not yet know the direct
 
 | Unit | Reader use |
 | :--- | :--- |
-| [Operations Management Principles Framework Readme](#operations-management-principles-framework-readme) | Enter from a recognizable continuing-operation difficulty and choose one direct pattern. |
+| [Operations Management Principles Framework Readme](#operations-management-principles-framework-readme) | Connect readiness, capacity, commitments, service results and changes to operating practice; follow the consequences of a changed condition. |
 | [Preface](#preface) | Keep Work, actual structures, subjects, commitments and units distinct when interpreting views, records and accounts; identify when control relations change an operating decision. |
 | [Cross-Pattern Application](#cross-pattern-application) | Follow PumpWorks, public-hospital and AI-assisted cases through local coordination, human conditions, service commitments, operating consequences, accounts, Method improvement, quality responses, simultaneous Work and cultural continuation. |
 | [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check available packages, FPF dependency, sibling returns, source limits, representative cases, and edition boundary. |
@@ -94,173 +94,90 @@ Use the Readme when you have a working difficulty but do not yet know the direct
 
 ## Practical entries
 
-This complete first edition helps operations practitioners, service and production coordinators, project and case leads, managers with bounded operating authority, and assisting agents coordinate continuing Work and make supported service decisions. It provides authoritative bodies OPS.1–OPS.20. The entries below offer recognizable starting situations; use the Table of Contents for other questions.
+Operations Management connects decisions about continuing service: what may start, what a case needs next, what the available resources can support, what can be promised, and what must change when results fail. These decisions use different results. A capacity calculation can constrain admission; an incident can change priorities; a service promise can remain unresolved after a feasible schedule has been found.
 
-If none matches, use the Table of Contents and search the pattern questions. When an OPS body does not establish the needed result, return that exact gap or use a qualified direct source. When another practice owns the result, return to that practice rather than widening Operations Management.
+These selected examples show how to combine the methods around a current difficulty; they are not a catalogue or a boundary of the field. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.20. The [Preface](#preface), including its [conditions on a whole combination](#opspreface10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
 
-For one live decision, open its direct pattern and reuse the inputs you already have. The [Preface](#preface) explains why the Methods have different results, when to combine them, and how their shared conditions can change the decision. Its [Architectural Rationale](#opspreface12---architectural-rationale) compares serious alternatives to this arrangement. Read the [conditions on a whole combination](#opspreface10---conditions-on-a-whole-combination) when several otherwise useful operating moves compete for the same service, resources or authority; a single-pattern use needs no preliminary tour of the framework.
+You can ask an assisting agent to explain a pattern or comment on your case in ordinary language, without framework jargon.
 
-The worked [PumpWorks application](#app-ops-01--pumpworks-continuing-control-service-operation) shows a supported decision and the conditions that can reverse it. The hospital and software probes then change the subjects, acceptance evidence and professional inputs. Their numbers are constructed examples; use your operation's facts and conditions for an actual decision.
-
-### OPS-FOCUS — Find the operation, commitments, and truthful units before optimizing
-
-- **Situation:** A backlog, utilization target, board, bottleneck story, or service problem is visible, but the operating System, continuing result, commitments, subjects, and counted units are unclear.
-- **Question:** Which actual operation and commitments should orient this decision, and what exactly is being counted or tracked?
-- **First useful result or honest blocker:** A bounded OPS.1 operating focus with exact subjects and unit identity rules; otherwise the missing System, commitment, authority, evidence, or specialist return.
-- **Start with:** `OPS.1`. Continue to `OPS.2` only when the operation needs a view or coordination-Method decision.
-- **Stop or return:** Stop before admission, reprioritization, queue, constraint, capacity, quality, service, finance, or improvement policy. Return product, organization, asset, capability, finance, safety, legal, or other specialist results to their owners.
-
-### OPS-VIEWS — Combine project, process, case, queueing, and control views without retyping Work
-
-- **Situation:** Practitioners disagree whether Work is a project, process, case, queue, programme, or control loop, or one view repeatedly hides the next decision.
-- **Question:** Which views and coordination Methods answer the current questions, and which correspondences make their co-use safe?
-- **First useful result or honest blocker:** An OPS.2 question-to-view decision with subject/grain correspondence, commitments, coexistence rules, and stops; otherwise the missing selected structure, relation, evidence, or authority.
-- **Start with:** `OPS.2`, using the OPS.1 focus. Use the conditional FPF control branch only when observation, actuation, supervision, feedback, or unlike rates change the operating decision.
-- **Stop or return:** Do not classify Work into one natural kind, infer a Method from a view, or call a diagram an actual structure.
-
-### OPS-STATE — Recover subjects and maintain a usable current operating account
-
-- **Situation:** Tickets, cards, cases, queue positions, resources, records, events, and status claims are conflated, or participants cannot resume and decide from the maintained account.
-- **Question:** Which exact subjects and relations matter, which claims are current and supported, and what may each participant decide or do next?
-- **First useful result or honest blocker:** An OPS.3 operating-subject account and OPS.4 participant-usable current account; otherwise the exact identity, relation, provenance, permission, authority, currentness, or recovery gap.
-- **Start with:** `OPS.3` for identities and direct relations, then `OPS.4` for qualified claims, disagreements, views, next decisions, refresh, and handoff recovery.
-- **Stop or return:** A dashboard, event log, control-room display, case file, or shared screen is a representation. Displaying a claim does not by itself establish the represented state or relation, feedback closure, authority, or agreement among participants.
-
-### OPS-ADMISSION — Decide what may enter now without pretending that selection performed Work
-
-- **Situation:** Eligible demand exceeds what the operating System can honestly start, while rank, readiness, permission, authority, resource access, and commitments are being conflated.
-- **Question:** Which exact demand may be admitted now, under which conditions and explicit-start limit, and what happens to every residual item?
-- **First useful result or honest blocker:** An `OPS.5` admission account giving every considered item an admitted, deferred, rejected, or returned disposition, with authority, conditions, horizon, authorized starter where established, residual demand, and review; otherwise the exact missing evidence, permission, access, or specialist result.
-- **Start with:** `OPS.5` when matching current OPS.2–OPS.4 inputs already exist. Recover only an input that can change the admission decision.
-- **Stop or return:** Admission, priority, start permission, commitment, actual Work, and result remain distinct. Return queue, buffer, constraint, capacity, clinical, safety, legal, security, release, and other wider decisions to their owners.
-
-### OPS-CONTINUE — Choose and evidence the next permissible Work in an admitted case
-
-- **Situation:** Current facts or an exception make the standard next action uncertain in one admitted continuing case.
-- **Question:** What Work may occur next, by whom and under which permission, and what evidence would support a progressed case state?
-- **First useful result or honest blocker:** An `OPS.6` continuation contract followed by an evidenced progressed state, or an exact unmet-condition return with owner, safe fallback or stop, and retry condition.
-- **Start with:** `OPS.6` when a matching admission or permission exists for the same matter and conditions. Use the least elaborate adequate branch inside the applicable domain Method.
-- **Stop or return:** A selected action, plan, ticket move, model recommendation, tool call, trace, episode, record update, or generated artifact does not by itself establish that the required Work occurred or the case progressed.
-
-### OPS-AGING — Relate age and consequence to local priority or an existing commitment
-
-- **Situation:** Age, a promised horizon, dependency change, new risk or consequence evidence, a progressed state, or an unmet condition can reverse the current coordination decision.
-- **Question:** What current priority and bounded commitment disposition is supported, by which evidence and authority, for which horizon?
-- **First useful result or honest blocker:** An `OPS.7` priority-and-commitment disposition naming the reason, separate authorities, immediate coordination action or blocker, affected parties, evidence, horizon, and next review.
-- **Start with:** `OPS.7`. Qualify the temporal claim before interpreting it; use `C.27` only for intervention-sensitive rate, rhythm, recovery, inertia, or regime claims.
-- **Stop or return:** Age is not urgency; urgency is not queue rank; a local revision is not a queue, capacity, clinical-triage, release, or credible whole-service commitment result.
-
-### OPS-QUEUES — Separate ready waiting from incomplete inputs and choose protection
-
-- **Situation:** Local boards are full while a receiving service lacks usable inputs, or a queue/buffer rule needs to change.
-- **Question:** What is ready for which service, what waits elsewhere, and what disturbance should protection cover?
-- **First useful result or honest blocker:** An OPS.8 eligibility, ordering, release and replenishment policy with a justified protective amount or the exact missing sizing input.
-- **Start with:** OPS.8. Use OPS.10 when a service or protection amount depends on uncertain load and replenishment; use OPS.9 if the constraint itself is unresolved.
-- **Stop or return:** Keep upstream waiting visible. A commitment is not buffer membership; a mean or queue cap is not a deadline or starvation guarantee.
-
-### OPS-CONSTRAINT — Diagnose the lost result before choosing a bottleneck treatment
-
-- **Situation:** More starts, faster local processing or high utilization has not produced the required accepted operating result.
-- **Question:** Which limiting relation is supported, and what observation could defeat its serious rival?
-- **First useful result or honest blocker:** An OPS.9 constraint account with a supported treatment, hold or exact discriminating probe request.
-- **Start with:** OPS.9, reusing the current result definition and subject/evidence account. Use OPS.10 for the actual capacity/service comparison and OPS.11 for a consequential coupling.
-- **Stop or return:** A busy resource or long queue is an observation. Preserve acceptance criteria and the observation basis; return professional diagnosis and intervention authority to their owners.
-
-### OPS-CAPACITY — Compare usable capacity, required load and service under variability
-
-- **Situation:** A workload, promised horizon or resource proposal is being justified by average hours or utilization.
-- **Question:** What fits the actual resource windows, and what service claim do the variability and evidence support?
-- **First useful result or honest blocker:** An OPS.10 bound, feasible schedule, stress comparison or qualified forecast with a usable option and residual demand, or the missing capability, timing, model or professional input.
-- **Start with:** OPS.10. Distinguish known losses and required load before selecting a service model.
-- **Stop or return:** Nominal hours are not interchangeable service capacity; a scenario is not a probability or a promise. Return provision, clinical, labor, engineering and financial decisions to their owners.
-
-### OPS-STRUCTURES — Coordinate the relations that can defeat a local operating plan
-
-- **Situation:** A plan works in one view but conflicts with resource access, evidence, transactions, commitments or another decision.
-- **Question:** Which actual couplings change feasibility or consequence, and whose decisions must be compatible?
-- **First useful result or honest blocker:** An OPS.11 coordination decision with affected structures, operative relations, alternatives, owners and unresolved returns.
-- **Start with:** OPS.11 from one proposed change. Reuse adequate OPS.8–OPS.10 results; recover only a coupling that can change the choice.
-- **Stop or return:** A diagram is a description, not an obtaining relation or permission. Retain unlike units and the authority of each participating practice.
-
-### OPS-HUMAN — Change the operating arrangement when service consumes human conditions
-
-- **Situation:** Extra work, an urgent exception or automation changes people's workload, support, recovery or competing duties.
-- **Question:** Which feasible arrangement protects the affected people while supporting the needed service?
-- **First useful result or honest blocker:** An OPS.12 intervention or bounded proposal showing service effects, burden by affected group, authority and conditions; otherwise the specific protection, capability or staffing result needed.
-- **Start with:** OPS.12 and the actual work, affected people and supplied conditions. Reuse existing observations and ask where burden moves.
-- **Stop or return:** Use qualified professional results for health, capability, employment or organization-change questions. A known operating conflict can require a direct permitted correction.
-
-### OPS-SERVICE — Agree a promise that the operation can support
-
-- **Situation:** A recipient asks for a result by a deadline, or changed demand, resources or evidence puts an existing promise at risk.
-- **Question:** What service can the parties credibly agree under the actual resource windows and conditions?
-- **First useful result or honest blocker:** An OPS.13 supported commitment, explicit revision or refusal, or the missing resource, acceptance or authority decision.
-- **Start with:** OPS.13. Distinguish forecast, objective and commitment, then use the matching capacity, human-condition and acceptance basis.
-- **Stop or return:** Preserve existing obligations until the authorized parties revise them. A test-service promise leaves the separate field-release result and authority to their responsible practitioners.
-
-### OPS-CONSEQUENCES — Compare the service and financial effects of real alternatives
-
-- **Situation:** More output, lower unit cost, released time or an earlier receipt appears to justify an operating change.
-- **Question:** What accepted service, resource use, payments and receipts differ over the decision horizon?
-- **First useful result or honest blocker:** An OPS.14 comparison with both alternatives, timing, funding and material uncertainty; otherwise the missing financial or resource result.
-- **Start with:** OPS.14 and the actual choice, including current practice or deferral when relevant.
-- **Stop or return:** Obtain qualified investment, finance or accounting results when those questions determine the choice. Keep advance funding separate from eventual net cash and retain protected service and human conditions.
-
-### OPS-ACCOUNT — Make the observation answer the operating question
-
-- **Situation:** Figures disagree, open work disappears from a denominator, or records of requests, attempts, acceptance and payment are conflated.
-- **Question:** What does the receiving decision need to know, and which population and events establish that claim?
-- **First useful result or honest blocker:** An OPS.15 account with supported meaning, source, time, missingness and next observation; otherwise the exact evidence or definition gap.
-- **Start with:** OPS.15 and the observation that could change the choice. Reuse an adequate account directly.
-- **Stop or return:** End further collection for this decision when its possible answers cannot change the conclusion, while preserving necessary assurance and recovery uses.
-
-### OPS-IMPROVE — Improve one operating Method from bounded evidence
-
-- **Situation:** A current operating Method may need adoption, revision, branching, stopping, or further observation, but a proposal, trial plan, performed Work, and favorable result are being treated as the same evidence.
-- **Question:** What does bounded evidence support for this exact admitted Method or status-preserved candidate way under the current operating conditions?
-- **First useful result or honest blocker:** For an admitted Method, an OPS.16 `adopt`, `revise`, `branch`, `stop`, or `further observation` decision for the named operating use. For a pre-admission candidate, a retained or revised candidate account, a return to the separate Method-identity test in `A.3.1`, a stop, or further observation. Bind either result to its subject status, exact description, available grounds, protected service conditions, authority, scope and reopen condition; include actual Work and observations when claiming a trial. Otherwise name the exact missing identity, coexistence, evidence, permission or specialist result.
-- **Start with:** `OPS.16`. Preserve the admitted-Method or pre-admission candidate-account branch, and obtain actual coexistence conditions when improvement Work competes with continuing service.
-- **Stop or return:** A proposal, plan, tool change, performed trial, or favorable outcome does not establish Method identity, enactment, causal superiority, transfer, general reliability, or cultural continuation.
-
-### OPS-METHODS — Choose and refresh the operating moves that fit the problem
-
-- **Situation:** A current method fails under changed conditions, or a serious alternative could improve a live operating decision.
-- **Question:** Which reusable moves fit this Work family, result and horizon, at what burden and with what evidence?
-- **First useful result or honest blocker:** An OPS.17 repertoire with selected uses, conditional alternatives, evidence gaps and reasons to reconsider each consequential claim.
-- **Start with:** OPS.17. Compare actual operations with current practice and a simpler adequate response, using protected conditions before trade-offs.
-- **Stop or return:** Use ME.15 for a consequential Method-variant question. In the operating note, record the comparison supported by current evidence, or the proposed way of working, its origins and the operating effects that remain unverified. Select a further trial question or evidence acquisition only for an attainable contribution worth its whole burden. A tool update may change support while leaving the method unchanged.
-
-### OPS-QUALITY — Decide continuation, containment, acceptance or recovery from the right evidence
-
-- **Situation:** A process changes, a service misses its objective, a lot needs disposition or an incident requires restoration.
-- **Question:** What action does the applicable requirement, evidence and authority support?
-- **First useful result or honest blocker:** An OPS.18 operating decision with its affected scope, response and restart or next-observation conditions; otherwise the missing qualified result.
-- **Start with:** OPS.18 and the result at risk. Select process monitoring, event-based service control, acceptance or recovery for the question.
-- **Stop or return:** Keep their evidence questions distinct. Actual restoration evidence is required for restart; independent safety, clinical and acceptance conditions remain applicable.
-
-### OPS-SIMULTANEOUS — Reconcile operating results across cases and scales
-
-- **Situation:** Several locally valid operating results conflict across cases, queues, resources, commitments, service, cash, quality, human recovery, or improvement conditions.
-- **Question:** Which bounded reconfiguration, continuation, or exact unresolved conflict preserves the simultaneous results that matter?
-- **First useful result or honest blocker:** An OPS.19 cross-scale operating decision naming the affected subjects and relations, feasible alternatives, protected conditions, authority, consequences, action or hold, and reopen condition; otherwise the exact missing professional or authority-bearing return.
-- **Start with:** `OPS.19` from current OPS.1 and OPS.3 subjects and commitments. Add only the OPS.8–OPS.18 results and structures that can reverse the choice.
-- **Stop or return:** Utilization, sequence, a dashboard, or one score cannot replace unlike operating results. A feasible model supplies neither another practice's result nor authorization.
-
-### OPS-CULTURE — Test continuation or change of Operations practice in a bounded population
-
-- **Situation:** A Method, candidate way, card, training event, tool, or local success is being called adopted culture without evidence of later selection or enactment by a named practitioner population.
-- **Question:** Which population relation does the current basis support, what continuation is warranted, and would a new observation contribute enough to justify its obtainable work?
-- **First useful result or honest blocker:** An OPS.20 bounded cultural account and continuation decision, preserving subject status, value, predicate, current evidence, protected conditions, relevant rivals and `unknown` claims. A selected new inquiry needs a feasible, worthwhile contribution and its actual authority; a performed trial or later claim needs its own observations.
-- **Start with:** `OPS.20` only after preserving whether the value is an admitted Method, candidate account, or observed practice. Bound one population and one testable relation.
-- **Stop or return:** Publication, attendance, configured fields, tool use, local performance, and one successful result establish neither population enactment, retention, causal superiority, nor cultural effectiveness.
+The numbers in these applications are constructed. Their professional premises are supplied for the example; actual clinical, safety, financial and release decisions need the corresponding qualified inputs.
 
 ### OPS-PUMPWORKS — Find the next supported controller-service decision
 
-- **Situation:** PumpWorks must continue evidenced controller service while incidents, missing inputs, provider access, test-rig windows, human conditions, payments and release decisions interact.
-- **Question:** Which available OPS result changes the current decision, and what other result must accompany it?
-- **First useful result or honest blocker:** A bounded local, queue, constraint, capacity or coordination result; a human-condition intervention, supported service promise, financial comparison, operating account, operating-Method improvement, repertoire choice, quality response, cross-scale reconfiguration, or cultural-continuation decision; or the exact missing professional result.
-- **Start with:** The pattern whose Problem frame or Use This When condition matches. OPS.1–OPS.7 address the local focus and case decisions; OPS.8–OPS.11 address queues, constraints, capacity and couplings; OPS.12–OPS.18 address human conditions, service, consequences, accounts, Method improvement or selection, and quality; OPS.19 reconciles simultaneous operating results; OPS.20 tests bounded cultural continuation. Reuse current inputs and stop after a sufficient result.
-- **Stop or return:** Preserve waiting origins, acceptance criteria, protected conditions and the distinction between test permission and field-release authority. Return changed feasibility to the affected admission or commitment decision.
+- **Situation:** PumpWorks must continue controller test service and incident response while incomplete inputs, rig access, operator recovery and field-release decisions interact.
+
+- **Question:** What can start and finish within the available window, and which other decision must change if the plan changes?
+
+- **First useful result or blocker:** A readiness and capacity basis for a supported operating plan, with deferred demand and the permission, staffing or funding result still needed.
+
+- **Start with:** [OPS.8 - Coordinate Queues and Buffers](#ops-8) when the immediate difficulty is ready work and incomplete inputs. Reuse an adequate operating account; recover a missing subject or commitment only if it can change this decision.
+
+- **Stop or return:** Return changed feasibility to admission and affected commitments. A supported test-service plan does not supply field-release evidence or authority.
+
+1. **Keep the same subjects across the needed views.** [OPS.1 - Identify the Operating System, Commitments, and Flow Units](#ops-1) bounds the continuing control-service operation. [OPS.3 - Distinguish Operating Subjects, Cases, Queues, Resources, and Records](#ops-3) separates a release candidate, incident, rig request and test attempt. [OPS.2 - Select the Work-Management Mode](#ops-2) can use case, recurring-process and queueing views for their different questions. [OPS.4 - Maintain Shared Attention to Current Subject State](#ops-4) makes the relevant evidence, unresolved conditions and next decisions recoverable to the participants; they need not share one screen.
+2. **Establish readiness for the next action.** In the [PumpWorks application](#app-ops-01--pumpworks-continuing-control-service-operation), twelve matters appear on boards but only four are ready test packages. OPS.8 identifies what the test can use now. The test's future output is not its own prerequisite. If laboratory permission is current and the unresolved safety question concerns only field release, the test may proceed while release remains held. A safety condition that also governs testing changes that conclusion.
+3. **Distinguish missing inputs from insufficient usable time.** Across forty rig-access hours, the example records twenty testing, four setup, four unavailable and twelve without eligible work. [OPS.9 - Diagnose and Treat the Current Constraint](#ops-9) uses eligibility and service histories to distinguish late prerequisites from a resource deficit in the required window. The historical starvation does not settle the next window: [OPS.10 - Qualify Capacity Under Variability](#ops-10) finds six usable rig-hours and four packages needing two consecutive hours each. All four require eight hours and cannot fit.
+4. **Make the adverse case and other demands part of the plan.** Suppose one planned package requires an immediate two-hour repeat and then passes, while the other planned packages pass first time. Two completions plus that repeat use six hours; three plus the repeat need eight. [OPS.12 - Protect Human Conditions in Operating Decisions](#ops-12) preserves the operator's required recovery and incident coverage after hour six. Extra rig access needs qualified relief as well as the resource owner's decision. The full application also compares advance funding and a later slot; an extra window alone does not make the whole extension feasible.
+5. **Use the combined result to decide starts and returns.** [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](#ops-19) retains the feasible two-package plan, defers the third to its qualified later slot and keeps a competing trial closed in the same six-hour window. [OPS.5 - Admit Work and Limit Starts](#ops-5) gives each considered item its disposition. [OPS.7 - Manage Aging, Urgency, and Service Commitments](#ops-7) handles the affected local priority or existing promise under the appropriate authority. [OPS.11 - Coordinate Interacting Operating Structures](#ops-11) checks that access and evidence still concern the required interval and configuration.
+
+If an extra window, qualified relief and the other required conditions later become available, reopen the affected plan and offer. Keep the useful readiness rule and unchanged evidence. Within an already admitted incident, [OPS.6 - Continue Cases and Handle Exceptions](#ops-6) can instead apply a sufficient current rule directly; report progression only when the performed work and result support it.
+
+### OPS-SERVICE-WINDOW — Offer service that rooms, people and commitments can support together
+
+- **Situation:** A recipient requests additional service. Visible space appears sufficient, but qualified staff, existing commitments, support work and recovery share the same window.
+
+- **Question:** What can the parties credibly agree without moving the shortage or burden out of view?
+
+- **First useful result or blocker:** A supported smaller offer, another feasible resource or timing arrangement, a refusal, or the particular professional or authority result still missing.
+
+- **Start with:** [OPS.13 - Align Commitments, Resources, and Service Outcomes](#ops-13), distinguishing the requested target, forecast and actual undertaking.
+
+- **Stop or return:** Obtain the parties' decision on a changed promise. Internal replanning does not discharge an existing commitment; an unresolved professional condition remains with its responsible practitioner.
+
+1. **Use the resource that actually limits this service.** In the constructed [hospital application](#app-ops-02--public-hospital-emergency-flow-probe), two rooms each have four available hours, but one qualified team has four usable hours. Supplied clinical and operating assumptions require thirty minutes per routine visit, including turnover, and reserve one team-hour for the stated urgent-case scenario. OPS.10 therefore supports six routine visits in total, not sixteen from the room count.
+2. **Subtract what is already promised.** Two visits are committed and six additional visits are requested. The supported proposal is four additional routine visits under the stated reserve. Serving all six additional requests needs another qualified arrangement or an agreed later time. Eligibility, clinical priority and protected conditions remain supplied professional decisions.
+3. **Make the schedule usable for everyone who supplies it.** OPS.12 follows the support team's other duty and recovery. Where the supplied windows permit two groups of three visits, that arrangement can preserve both service and support duties. If the reserve changes from one to two team-hours, only four routine visits fit: after the two existing commitments, the additional offer falls to two. Return that changed resource result to OPS.13 before confirming the larger offer.
+4. **Use an account that retains unfinished obligations.** [OPS.15 - Build a Decision-Specific Operating Account](#ops-15) distinguishes the historical due-request cohort from completed visits. Twenty-seven timely, three late-completed and ten still-open requests give timely service of `27/40 = 67.5%`. The completed-only `27/30 = 90%` answers another question. Use the due-cohort result for overdue service, while the clinical evidence determines clinical action.
+
+[OPS.14 - Relate Throughput, Cash, and Operating Consequences](#ops-14) enters when paid cover, displaced service or funding changes the choice. It compares actual differing payments and receipts over the decision horizon. An allocated share of an unchanged room or salary cost is not an avoided payment, and a later receipt cannot fund an earlier expense without an available financing arrangement.
+
+### OPS-ACCEPTED-RESULT — Faster generation still leaves the promised result unavailable
+
+- **Situation:** An AI-assisted software operation produces more drafts at lower unit cost, but qualified review, acceptance and deployed-service conditions limit what the recipient can rely on.
+
+- **Question:** Which operating change improves the needed result, rather than merely increasing attempts or moving work to reviewers?
+
+- **First useful result or blocker:** A supported admission or service change, a comparison of feasible alternatives, or a quality response with the evidence needed for continuation.
+
+- **Start with:** OPS.15 to recover the requested result and its population, then OPS.10 when the actual acceptance-resource bound decides the immediate question.
+
+- **Stop or return:** Retain the distinction between drafts, review decisions, accepted changes and authorized deployments. A settled resource bound can answer the current request without an additional model or experiment.
+
+1. **Follow generation to acceptance.** In the constructed [software application](#app-ops-03--ai-assisted-software-operation-probe), sixty drafts can be generated per day but qualified staffing supports six individual review decisions. Each accepted output needs its own decision. Ten accepted outputs tomorrow are therefore excluded under the current arrangement. Recent days with four to six accepted outputs do not supply a probability for tomorrow, or a guarantee that all six reviews will accept.
+2. **Compare changes at the receiving result.** [OPS.17 - Compare and Refresh Operations Methods](#ops-17) compares limiting starts, obtaining qualified review capacity and changing preparation or acceptance. OPS.12 follows review, rework, interruptions and recovery; OPS.13 uses the resulting capacity and conditions to form a later or narrower offer. If the recipient accepts a review service instead of accepted output, make that changed result explicit.
+3. **Keep payment and service consequences together.** A separate constructed day in the application has four accepted outputs due. Both alternatives generate sixty charged drafts, use six reviews and pay the same salary of 240. The current alternative pays 60 for drafts and accepts four outputs: total payments 300. The cheaper-generation alternative pays 30 plus 10 for rework and accepts two: total 280. Its 20 payment reduction leaves two due outputs unaccepted. OPS.14 compares that service consequence before treating the lower generation price as an improvement.
+4. **Use deployed-service evidence for the deployed-service decision.** [OPS.18 - Control Operating Quality and Reliability](#ops-18) uses a separately defined population of one million eligible service requests with a 99.9% success objective. The permitted failure amount is 1,000; 1,500 unsuccessful requests consume 150% of it. Under the example's authorized response policy, discretionary feature releases pause while permitted urgent recovery and security work continue. Restart needs the agreed service evidence. Accepted code and a fresh reporting period do not establish restored service.
+
+When recovery, review and testing compete for the same people or environment, OPS.19 uses their separate results to change starts or allocations while preserving the required service. Software assurance, security and release authority remain inputs from their responsible practices.
+
+### OPS-PRACTICE-CHANGE — Change the way of working without treating publication as successful use
+
+- **Situation:** A new admission or handover method looks promising, but testing it competes with continuing service, and a local success is being used to justify wider adoption.
+
+- **Question:** What can be retained or changed now, and which later-use claim does the evidence actually support?
+
+- **First useful result or blocker:** A supported local method-use decision or revised candidate account, followed only when needed by a separate conclusion about the named practitioners' use.
+
+- **Start with:** OPS.17 when alternatives need comparison, or [OPS.16 - Improve the Operating Method from Evidence](#ops-16) when the question concerns one method or proposed way of working.
+
+- **Stop or return:** Keep a sufficient current result. Treat the proposed way as a candidate when its status as a reusable method is still unresolved; publication, attendance and tool use do not establish independent later application.
+
+1. **Select the changed operating contribution.** Compare the proposed action and result with current practice and a simpler sufficient correction. Readiness-based admission, protection of an established constraint and extra capacity solve different problems. Use the constraint diagnosis from OPS.9, retaining an unresolved rival explanation when it could change the treatment.
+2. **Establish that the trial can coexist with service.** OPS.19 can keep a trial closed when two package completions and a possible repeat already occupy all six rig-hours. OPS.16 uses an actual coexistence result, including incident coverage, support, permission, fallback and the return to continuing service, before relying on a later trial window. A plan to obtain those conditions is not their availability.
+3. **Limit the local conclusion to what was done.** In the later constructed PumpWorks interval, the already admitted method `PW-TestAdmission-v2` is tried on two packages. One is correctly admitted; the other is correctly held for missing permission, while service and recovery remain protected. OPS.16 retains that method for the specified package family and conditions, keeps the earlier method for the unaffected family and leaves provider-unavailability use unresolved. This does not establish general superiority or wider independent use.
+4. **Ask a different question when another group must use it.** [OPS.20 - Deliberately Continue and Change Operations Culture](#ops-20) bounds the practitioners, practice and interval. In the six-week example, two coordinators use the method correctly in familiar eligible cases; a third starts a case without required provider support. Preserve the supported familiar use and revise the failed branch. The other named shift and longer retention remain unknown. The current conclusion can finish without a new experiment; a later receiving use may justify a feasible protected replay of the unresolved branch.
+
+The long applications add case-specific conditions and returns. Use the common Operations methods whose results the current decision needs, together with the qualified contributions of the relevant professional practice.
 
 # Preface
 
@@ -426,8 +343,8 @@ The twenty patterns cover independently enterable questions about operating focu
 
 The complete edition still does not turn a plan or calculation into performed Work, accepted service, health effect, field release, Method identity, causal improvement, or population enactment. Those claims require their own evidence, conditions, authority, and specialist results. The package table keeps the Operations questions distinct.
 
-
 ## OPS.Preface:End
+
 
 # Part I — Bound the Operation and Select Coordination Views
 

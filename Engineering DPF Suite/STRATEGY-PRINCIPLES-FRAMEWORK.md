@@ -14,7 +14,7 @@ Search the Keywords & Search Queries column for the working difficulty or result
 
 | Unit | Reader use |
 | :--- | :--- |
-| [Strategy Principles Framework Readme](#strategy-principles-framework-readme) | Choose a direct or extended practical entry; bring unmatched questions to this index. |
+| [Strategy Principles Framework Readme](#strategy-principles-framework-readme) | Follow connected methods from a strategic question to a bounded answer. |
 | [Preface](#preface) | Understand the shared problem, Method connections, evidence boundaries, rationale and direct-use alternatives. |
 | [Cross-pattern applications](#cross-pattern-applications) | Follow SensorCo and two unlike cases through consequential choices, limits and sufficient stops. |
 | [Sources and refresh](#sources-and-refresh) | Recover the source contributions, qualified companion returns, current-use limits and citation. |
@@ -58,47 +58,55 @@ Search the Keywords & Search Queries column for the working difficulty or result
 
 ## Practical entries
 
-These are selected examples, not a catalogue or coverage boundary. Bring the actual working question. If no entry fits, search the Table of Contents and enter the direct pattern whose result you need. The fifteen patterns are a repertoire, not fifteen compulsory stages.
+These selected examples show how strategic work uses results from several methods. Enter with the question and results already available; follow a dependency only when its missing contribution can change the answer. The examples do not cover the repertoire or prescribe a project sequence. For a direct question, use the PatternID and title in the Table of Contents.
 
-### STR-ENTRY-01 - Decide what one changed premise affects
-
-- **Situation:** A relied-on price, capability or source claim changes.
-- **Question:** Which part of the current strategic answer depends on it?
-- **First useful result or honest blocker:** A named affected premise and a bounded continue, qualify, reconsider or no-impact conclusion; or the missing dependence or evidence.
-- **Start with:** [STR.2](#str-2).
-- **Stop or return:** Stop when this use has a sufficient disposition. Use A.10.1 if a source change requires discovering several actual receiving uses; it does not choose the strategy.
-
-### STR-ENTRY-02 - Find a contribution or a way to obtain it
-
-- **Situation:** A person or organization needs a change but has no settled contribution, knows the contribution but lacks a credible obtaining way, or has reusable material to develop into future options.
-- **Question:** Is the missing step qualifying a receiving result, explaining an obtaining way, or developing and examining usable material?
-- **First useful result or honest blocker:** A qualified or provisional problem/contribution account; explained candidates with gaps; or an examined variation with reusable material and a justified next question. These are different returns.
-- **Start with:** [STR.5](#str-5) for the receiving-problem question; [STR.6](#str-6) section 4.2 for an unknown obtaining way, section 4.4 for material development with or without a settled contribution, or section 4.5 when problems and ways must change together.
-- **Stop or return:** Reuse an adequate direction or Method. Stop at the result needed for the next decision, including a precise missing contribution. Use [STR.13](#str-13) if the strategy practitioner's search or comparison Method itself needs improvement.
+You can ask an assisting agent to explain or apply these methods in the language of your work, without framework jargon.
 
 ### STR-CARD-01 - Move from disrupted assumptions to a bounded commitment with invalidation signals
 
-- **Situation:** Changed assumptions make an existing direction doubtful.
-- **Question:** What can we responsibly pursue and commit to now?
-- **First useful result or honest blocker:** A bounded decision frame, or the missing subject, horizon, premise, authority or affected-System contribution.
-- **Start with:** [STR.1](#str-1), or [STR.2](#str-2) when the decision is already formed.
-- **Stop or return:** A frame, comparison or recommendation can finish. Commit only when needed and authorized. Return a missing permission or capability at the action it blocks.
+- **Situation:** A changed premise makes a direction doubtful, while current obligations and several proposed initiatives compete for the same resources.
+- **Question:** What can be recommended or committed now, and what would require reconsideration?
+- **First useful result or blocker:** A recommendation or authorized commitment for a stated scope, with its supporting comparison and remaining conditions, or the missing result that prevents it.
+- **Start with:** [STR.1](#str-1) for an unsettled decision; [STR.2](#str-2) for a changed premise in a decision already formed.
+- **Stop or return:** Finish at the result the receiving decision needs. A frame or comparison can finish without a commitment; a missing permission blocks its dependent action.
 
-Name the decision and changed premise. Compare plausible futures and feasible options. Use enough evidence; buy more only when it can change the choice. Keep advice separate from authority. Bound the commitment, preserve worthwhile alternatives, and name who will reconsider it when material assumptions fail.
+In [SensorCo's application](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection), falling generic-inspection prices challenge expansion but do not invalidate current service funded by existing contracts. STR.2 separates these uses of the old premise. It also leaves demand and cost for a proposed integrated service unresolved: the price fall does not establish either. STR.3 uses this distinction and the available uncertainty account to frame the twelve-month choice while preserving viable device-only continuation.
 
-[SensorCo's connected application](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) begins with a viable device-only business and a possible new service contribution. Framing does not choose the direction. Several futures help only because they change the comparison. The four-day preparation can provide enough costing to reject a trial; inquiry is not compulsory.
+STR.4 compares futures that could change that choice. A full-horizon purchasing freeze would make a paid trial unable to inform it in time. Under the case's initial conditions, two customers might instead discuss a trial, subject to agreement and permitted use. STR.5 distinguishes continuing devices, integrated service, licensing and exit. STR.6 explains whole ways of obtaining the service, including support and exceptions. Missing reuse rights exclude the dependent licensing option; an experiment cannot supply those rights.
 
-If a feasible, worthwhile trial remains, STR.7 bounds its question and exposure, STR.8 identifies the capability and permission dependencies, and STR.14 reconciles shared work. STR.9 and STR.10 compare the relevant options and commitments. STR.11 keeps the recommendation separate from the Board's four-day authorization and the still-open twelve-month direction. STR.12 identifies observations that can change a later decision in time.
+STR.7 compares using existing records and complete travel-and-support costing with additional inquiry. If complete costing rules out every relevant service configuration at the customers' acceptable price, the inquiry can finish with device-only continuation and no trial. Otherwise, four internal preparation days can improve the cost and trial-design answer, at the accepted sacrifice of a four-day device improvement. A later trial needs its own worthwhile question, participant conditions and authorization; local use by two customers would not establish general demand.
 
-Reuse adequate results and enter only the missing contribution. A data-use determination cannot be replaced by an experiment. Sufficient complete costing against the service option can finish the inquiry. A larger attractive configuration does not authorize work beyond the present commitment.
+The proposed service also needs people, platform work and learning support. STR.8 identifies those contributions; STR.14 compares their shared demand with current service. The later month's first proposal needs 52 service days + 8 reserve + 16 trial + 8 platform + 6 learning/support = 90 engineer-days against 80 available. A narrower proposal totals 78: 52 + 8 + 8 preparation/use + 6 platform + 4 learning/support. Two of the six platform days preserve the device fallback, postponing a service-diagnostic enhancement. They are already included, not added from the two unallocated days. This arithmetic leaves skills, critical-day collisions and delivery conditions to be established; it does not demonstrate a feasible service.
+
+STR.9 compares the options and the cost of preserving later choice; STR.10 carries the commitments, affected interests and displaced work into that comparison. STR.11 uses their result to bound the present decision. In the case, the team recommends and the Board separately authorizes four internal preparation days from the eight-day envelope. It does not authorize the whole eighteen-day development proposal, trial execution or the twelve-month service direction.
+
+STR.12 connects later observations to the affected decision in time. An overload identified during preparation returns an infeasible allocation; there is no trial yet to suspend. After a trial is separately authorized, an applicable suspension rule can support stopping it within that authority. Sufficient adverse costing can end the inquiry; a missing cost component leaves the comparison unresolved. Independent device commitments continue where their basis remains adequate.
+
+Different purposes change the comparison. In the [personal-practice case](#app-str-02---a-professional-considering-a-new-practice), six study hours plus six client-development hours exceed the person's eight available hours. A smaller exploration, substitution or deferral must be compared under that person's livelihood and other purposes. In the [public-service case](#app-str-03---a-public-service-under-deep-uncertainty), a protected access condition excludes an otherwise attractive pilot. Among two eligible options, minimizing worst waiting time favours A while minimizing maximum regret favours B. STR.9 needs the responsible body's criterion; more observations cannot choose that criterion or remove the protection.
+
+### STR-ENTRY-02 - Find a contribution or a way to obtain it
+
+- **Situation:** A course, technology or reusable piece of work looks promising, but the worthwhile contribution or a way to obtain it is still unclear.
+- **Question:** Which result is worth pursuing, how could it be obtained, and what can useful existing material reveal?
+- **First useful result or blocker:** A conditional direction, an explanation of how to obtain it, including unresolved dependencies, or an examined variation that supports the next problem question.
+- **Start with:** [STR.5](#str-5) for an unsettled contribution; [STR.6](#str-6) for an unclear way of obtaining that result or development of available material.
+- **Stop or return:** Reuse an adequate direction or method. Return a changed receiving problem to STR.5; stop at a useful explanation, examined difference or missing condition rather than requiring a complete new strategy.
+
+STR.5's personal case begins before the course is chosen. Existing clients need the professional's current analysis; a colleague reports trouble preparing a planning decision. The inquiry distinguishes unclear alternatives and constraints from an unavailable decision holder. A comparison could help with the first problem but cannot supply authority for the second. The first explanation can therefore support a direction: help this group prepare its decision while protecting current obligations. The course is one possible means. The resulting direction and time limit are inputs to option construction and commitment comparison, not evidence that the course is worthwhile.
+
+STR.6's diagnostic case begins with a different result: explain recurring inspection errors. A known service method detects exceptions but does not explain their recurrence. Following a neighboring investigation method exposes the need to compare error and non-error cases under comparable setups. Timestamps alone cannot establish those setups. The team explains two possible arrangements—its own specialist or a customer-local investigator—and identifies the missing link to equipment, shift and setup records. The return is a pair of explained candidates and that gap, not a diagnosis or available capability. STR.7 compares any proposed records inquiry with narrowing the question, another adequate way or stopping.
+
+Available material can instead be the starting point. In STR.6's separate synthetic-record example, a revised view retains two cases omitted by a matched-pair view and marks their missing setup references. The examined difference supports a record-completeness question. If that suggests a new operator-support contribution, it returns to STR.5 for the recipient and usefulness question; the view does not establish demand.
+
+A changed target can require another return. When comparable diagnostic cases must share both setup and temperature regime, the old setup-only grouping pairs one warm error case with a cool acceptable case. That pair cannot support the new comparison. Adding the temperature condition leaves one eligible pair for setup S2 and none for setup S1. The narrower S2 question may continue if useful; S1 needs suitable cases or a narrower requested result. Preserve the failed transfer and its condition without treating it as failure of the original use.
 
 ## How to use the language
 
 Each pattern starts with a recognizable working situation, the useful result and an ordinary non-use boundary. Its Solution explains the action; its case makes a consequential choice or stop visible. Conformance and evidence guidance help test the particular result without turning recognition into proof.
 
-Start with a known result when it is adequate for the same subject, configuration, horizon and receiving question. Follow a relation only when its missing contribution changes your answer. Read the Preface for the shared distinctions and architectural rationale; direct use does not require reading it first.
+Start with a known result when it is adequate for the same subject, configuration, horizon and receiving question. Follow a relation only when its missing contribution changes your answer. A source change that may affect several unknown receiving uses can call for A.10.1; one known strategic dependence can finish at STR.2. Use STR.13 when the practitioner's search or comparison method itself needs improvement. Read the Preface for shared distinctions and architectural rationale; direct use does not require reading it first.
 
-The framework offers strategic Methods and teaching cases. Constructed examples are not evidence of field validation.
+The framework offers strategic methods and teaching cases. Constructed examples are not evidence of field validation.
 
 # Preface
 

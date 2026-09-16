@@ -20,7 +20,7 @@ Find the question that needs an answer. PatternIDs are stable addresses within t
 
 | Unit | Reader use |
 | :--- | :--- |
-| [Readme — Development Opportunity Construction and Development-Direction Advising](#readme--development-opportunity-construction-and-development-direction-advising) | Enter a real question and find its first useful result or honest blocker. |
+| [Readme — Development Opportunity Construction and Development-Direction Advising](#readme--development-opportunity-construction-and-development-direction-advising) | Follow an opportunity inquiry or advice question through the results it needs. |
 | [Preface](#preface) | Understand the two branches, their common contributions, and the limits of an opportunity or advice result. |
 | [Cross-pattern applications](#cross-pattern-applications) | Follow a person's development question, an organization inquiry, and unlike uses with their exact external returns. |
 | [Framework boundary, sources and refresh](#framework-boundary-sources-and-refresh) | Recover field coverage, direct supplier results, source limits, and the smallest affected refresh. |
@@ -58,45 +58,59 @@ Find the question that needs an answer. PatternIDs are stable addresses within t
 
 ## Practical entries
 
-These are selected examples, not a catalogue or a coverage boundary. Bring the actual question. If none fits, use the Table of Contents, search the question and keywords, or enter a direct pattern. Start at the missing result; do not repeat an adequate inquiry, comparison, or service boundary.
+These selected examples show how several methods contribute to one development question. They are not a catalogue or coverage boundary. Bring the actual question and start from an adequate existing result; use the Table of Contents and the PatternID and title for direct help.
 
-### DOCA-BOUND-INQUIRY — Turn a broad development wish into a bounded question
-
-- **Situation:** The inquiry starts with “we should develop,” “I should learn this,” or a proposed tool, while its subject, receiving use, horizon or protections remain unclear.
-- **Question:** What can this inquiry usefully establish now, and within what effort?
-- **First useful result or honest blocker:** A bounded subject/use/horizon, reason to explore, protected conditions and inquiry budget, or the exact premise still missing.
-- **Start with:** [DOCA.1](#doca1---bound-the-development-opportunity-inquiry). Add [DOCA.1.CHR](#doca1chr---characterize-the-development-subject-and-intended-change) only when characterization is the missing result.
-- **Stop or return:** Stop with the usable inquiry. Reuse one that is already adequate. When a domain practice owns the whole question, or only comparison, recommendation or choice is missing, go directly to that result's owner.
+Opportunity construction needs no adviser. Advice from a distinct practitioner can begin with an already formed question or programme comparison, without reconstructing an earlier opportunity inquiry. You can ask an assisting agent to explain or apply the methods in the language of your work, without framework jargon.
 
 ### DOCA-CONSTRUCT-OPPORTUNITY — Find a contribution before choosing a course or tool
 
-- **Situation:** A person, team, or other identified subject has a promising lead, but its receiving problem, contribution, support, or reachability is unsettled.
-- **Question:** Which materially different direction could help, under what conditions, and what remains to be learned?
-- **First useful result or honest blocker:** A characterization, qualified or conditional opportunity, contribution-bearing direction, reachability account, retained possibility, exact request, or rejected use with its reason.
-- **Start with:** The first missing result: [DOCA.1](#doca1---bound-the-development-opportunity-inquiry) or [DOCA.1.CHR](#doca1chr---characterize-the-development-subject-and-intended-change) for the inquiry; [DOCA.2](#doca2---search-neighboring-uses-technologies-characteristics-and-supports) for search; [DOCA.3](#doca3---construct-a-worthwhile-problem-and-proposed-contribution) for problem/contribution; [DOCA.4](#doca4---construct-development-directions-with-their-support-configurations) for a direction; [DOCA.5](#doca5---qualify-dependencies-and-bound-joint-reachability) for joint conditions; or [DOCA.6](#doca6---maintain-an-opportunity-portfolio-and-preserve-stepping-stones) for retention.
-- **Stop or return:** Stop at the useful partial result. No adviser, programme, Guide, commitment, or implementation is required to construct an opportunity. A missing specialist premise limits the affected claim; use A.15.9 to select worthwhile acquisition; a changed relied-on premise reopens its affected use through DOCA.8.
+- **Situation:** An organization proposes a new platform, but the receiving problem, alternatives and conditions for combining them remain unsettled.
+- **Question:** Which development directions could improve the receiving result, and which combinations or later steps remain possible?
+- **First useful result or blocker:** Differentiated directions with their qualified or missing premises, a supported limit on their combination, and the next question that can change their use.
+- **Start with:** [DOCA.1](#doca1---bound-the-development-opportunity-inquiry) when the inquiry boundary is missing; otherwise use the first missing construction or qualification result.
+- **Stop or return:** A problem account, conditional direction or ruled-out combination can finish the inquiry. A direction commitment, realization or advice request has its own receiving question.
 
-### DOCA-BOUND-ADVICE — Establish who the requested advice can serve
+In [Larch Engineering's application](#app-doca-02--an-engineering-companys-next-development-opportunities), “replace the analytics platform” starts a two-week inquiry about improving an industrial monitoring service over nine months. DOCA.1 identifies the receiving service, available inquiry effort and protections for current customers. DOCA.1.CHR separates fault-detection usefulness, false alarms, response time, work burden and protected conditions. Engineering and operations supply the readings; an unknown reading remains unknown.
 
-- **Situation:** Someone asks a distinct adviser for help with a development direction, but recipient, sponsor, subject, competence, information use, conflict, or later choice is unclear.
-- **Question:** Can this service responsibly answer that question, and on what terms?
-- **First useful result or honest blocker:** An admissible bounded advising question, a narrower service, or an exact blocker or referral.
-- **Start with:** [DOCA.7](#doca7---bound-the-development-direction-advising-engagement), using PSD.1 (Problem Structuring and Decision Support) and the applicable professional conditions for their direct questions.
-- **Stop or return:** An adequate service boundary is not a recommendation. Reuse established terms; return the missing domain or decision-support contribution. A sponsor's payment does not establish disclosure permission, and self-directed construction needs no advising intake.
+DOCA.2 looks beyond platform vendors. DOCA.3 asks which receiving problem each lead would address. The resulting directions can concern a better detection component, operators' ability to interpret alarms, a revised escalation arrangement or a specialist provider. DOCA.4 explains the proposed contribution with the support that would make it usable. A course, purchase or change in responsibilities is a possible means, not evidence that the monitoring result improves. If comparing whole arrangements for one already specified result is the complete question, use the existing OCE.8 contribution directly.
+
+DOCA.5 then consumes the qualified local capacity results. In the case, the technology and provider transitions each need a distinct six-hour contribution from the same specialist every week; eight hours are available during their overlap. Each can fit alone, but their concurrent combination needs twelve hours and fails this condition. This conclusion does not select one direction or invalidate its individual basis.
+
+DOCA.6 can retain a sequential possibility without declaring it feasible. Its second step starts from the arrangement the first step would leave, including continuing work and support. If the first step has occurred, use the arrangement actually obtained; otherwise keep that starting point conditional. The missing transition comparison must show what the later step would deliver, its transition and continuing costs, its effects on customers, and whether protections still hold. Merely changing the order does not establish enablement or a preferred programme.
+
+The inquiry can therefore return the directions, the ruled-out overlap and the missing sequential-transition result. Through A.15.9, inspect an adequate existing specialist result first; request more only when its obtainable contribution warrants the acquisition effort and delay. The later commitment belongs to Strategy; implementation and operation use the relevant professional methods.
+
+Now suppose a provider notice removes access to one data class. DOCA.8 traces which direction relied on that access. The provider-supported route may need narrowing or retirement while an independently qualified operator-practice direction remains usable. Use the earlier result only where it still answers the narrower route's support and comparison questions. The notice does not itself switch the operating system. Any operating change needs its applicable authority, and PSD.14 receives affected advice when there is advice to reconsider.
 
 ### DOCA-ADVISE-DIRECTION — Return warranted advice without taking the choice
 
-- **Situation:** A recipient requests advice about development directions, or about programme alternatives whose HCD.2 (Human Capability Development) comparison already exists.
-- **Question:** What can responsibly be recommended now, and which uncertainty or service condition limits the return?
-- **First useful result or honest blocker:** A warranted recommendation, retained set, recommended probe, exact request, blocker, or abstention for the stated use.
-- **Start with:** [DOCA.7](#doca7---bound-the-development-direction-advising-engagement) only if the service boundary is missing; otherwise the actual missing PSD.8–PSD.13 contribution. Reuse qualified DOCA or HCD.2 inputs. [DOCA.8](#doca8---requalify-changed-development-opportunities) and PSD.14 apply when a relied-on premise or earlier advice is affected.
-- **Stop or return:** Return advice to the named recipient. Keep direction choice and programme choice separate and authorized. A programme-comparison account enters directly without an invented earlier direction inquiry; Guide realization follows an actual programme choice.
+- **Situation:** A person wants advice about improving their work; personal development and better external support are both plausible, with different evidence and resource needs.
+- **Question:** What advice can be supported now, and how does its result enter the person's later direction and programme choices?
+- **First useful result or blocker:** A supported recommendation or conditional set, with the missing contribution or service condition that limits stronger advice.
+- **Start with:** [DOCA.7](#doca7---bound-the-development-direction-advising-engagement) only when the advising boundary is missing; otherwise enter the needed PSD comparison or recommendation with the available DOCA or HCD result.
+- **Stop or return:** Return the supported advice. The recipient retains the relevant choice; a missing result can warrant a narrower answer, referral or abstention rather than another study.
+
+In [Mira's application](#app-doca-01--miras-development-direction-programme-comparison-and-guide), the engineer-manager initially wants to “learn more patterns.” A qualified HCD account instead identifies the work: decide when a specialist report can support a release-review question and when another contribution is needed. With the stated checklist and reference, three of five representative uses are adequately qualified; two changed-configuration uses rely on unsupported transfer. Those observations concern the named tasks and support, not a general ability score.
+
+DOCA.1 limits the inquiry to two short sessions and considers Mira's work over four months. Development must fit within the existing thirty-eight-hour week; up to three hours may be reassigned, with the displaced work and any burden on colleagues established. Using the problem and performance account, DOCA.4 contrasts supported practice of specialist-result use with changing the review service so a qualified reviewer supplies more of that contribution. The latter may improve the receiving result without developing Mira's personal capability. The personal-practice direction still needs the HCD transfer basis; both directions need their relevant support capacity. DOCA.5 qualifies these dependencies, and DOCA.6 can keep both conditional directions and a later unfamiliar-task possibility.
+
+The first direction gives Mira something to practise: given a release question and specialist reports, decide what can be reused and at what strength, retain its limitation, and seek a further result only when the attainable answer warrants the work. A request does not supply the requested result. The support direction instead needs the provider's qualified output, response time and capacity, including consequences for other teams. Comparing the directions must retain those different contributions and burdens.
+
+When Mira requests advice, DOCA.7 uses the established competence, participation and information-use conditions to bound the service. In this constructed scene, private feedback stays with Mira and the employer receives only agreed work implications. Employer payment does not authorize disclosure of the assessment. PSD can use the qualified inputs to return conditional directions while capacity and transfer remain unresolved; those gaps do not identify a winner. A conflict affecting who may advise can change the service while leaving an independently qualified technical result usable.
+
+The later scene supplies the missing capacity and comparison results, and Mira separately chooses the personal-development direction. HCD.2 then compares programme candidates for that stake, compatible later tasks and support: a coached sequence and a reference-supported sequence with scheduled expert checks. Both need three learner hours a week; their stated provider demands are one mentor hour and half an expert hour respectively. The case separately supplies availability, displacement and other comparison conditions. Lower expert time alone proves neither greater effectiveness nor preference.
+
+Programme advice, if wanted, uses that HCD.2 comparison. Mira's authorized programme choice is separate from her earlier direction choice. Learning Product practice then realizes the chosen programme's instructional part as a Guide. Its cases and exercises must make Mira perform and check the report-use decision; publishing the Guide establishes neither performed practice nor learning.
+
+After the scheduled attempts, the case supplies a qualified result for all five familiar tasks with the allowed reference, but an unfamiliar configuration still produces an unsupported transfer. DOCA.8 reopens the stronger unfamiliar-work claim and any dependent later step; HCD retains the transfer question, and PSD.14 receives affected advice. The familiar-task result remains within its supported conditions.
+
+An already adequate HCD.2 programme comparison can enter the programme-advice question directly, as the application's learning-product-author branch shows. No earlier personal inquiry or direction choice is invented. An audience description can support programme design without establishing fit for a named learner.
 
 ## Reading and citing a pattern
 
 Use the full framework name outside a context that already identifies it. `DOCA` is its short reference code; within this text a PatternID such as `DOCA.5` is enough. Name the edition when a particular published body matters. A Part or title change does not by itself change a PatternID.
 
-Read the direct body's working situation, Solution, case and assurance limit before making a stronger claim. Its position in this file does not make every preceding pattern a prerequisite. The applications show conditional uses of results, not a procedure everyone must complete.
+Read the direct body's working situation, Solution, case and assurance limit before making a stronger claim. Its position in this file does not make every preceding pattern a prerequisite. The applications show conditional uses of results, not a procedure everyone must complete. The [unlike-subject cases](#app-doca-03--unlike-subjects-exact-recipients-and-an-anti-case) explain where human development, engineering, cultural and research contributions differ. These constructed applications illustrate use; they do not establish field effectiveness.
 
 
 # Preface
@@ -185,8 +199,8 @@ The practical gain is a smaller usable return: a course label becomes a contribu
 
 Reopen the affected guidance when a source change or repeated practitioner difficulty defeats its working move, branch boundary, source use or affordable return. An accepted later Guide contribution can change the uses it actually supports; an unaccepted future contribution supplies no current instruction. The complete bodies and applications give the instructions and worked detail for the selected question; the source tail identifies its external contributions and sources.
 
-
 ## DOCA.Preface:End
+
 
 # Part I — Enter and characterize the inquiry
 

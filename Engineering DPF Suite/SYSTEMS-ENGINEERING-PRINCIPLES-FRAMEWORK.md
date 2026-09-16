@@ -12,7 +12,7 @@ Begin with the engineering question that blocks your project: the project System
 
 Use the Table of Contents below to search by a familiar term or working question and find the relevant PatternID. Open the pattern and apply its Problem frame, Solution, worked cases, and checklist to the actual System, configuration, or engineering decision. Follow dependencies when a needed result is missing; engineering Work may otherwise overlap or begin from an already available result.
 
-The Readme offers selected practical entries and Practical-Use Cards for connected use of several patterns. The Preface explains the recurring distinctions. The full Table of Contents also serves questions outside the examples, and the pattern bodies supply the working moves, conditions, and stops across kinds of engineered System.
+The Readme follows worked connections between patterns for larger engineering questions. The Preface explains the recurring distinctions. The full Table of Contents also serves questions outside the examples, and the pattern bodies supply the working moves, conditions, and stops across kinds of engineered System.
 
 
 # Table of Contents
@@ -23,7 +23,7 @@ Search the Keywords & Search Queries column for the engineering difficulty, subj
 
 | Unit | Reader use |
 | :--- | :--- |
-| [Systems Engineering Principles Framework Readme](#systems-engineering-principles-framework-readme) | Start from a recognizable engineering difficulty and choose one direct pattern or a small set of patterns. |
+| [Systems Engineering Principles Framework Readme](#systems-engineering-principles-framework-readme) | Follow connected methods from an engineering difficulty to a usable result and its changed conditions. |
 | [Citation](#citation) | Cite this framework or one pattern with its author, title, release date, and publication address. |
 | [Preface](#preface) | Understand how 41 patterns connect common Systems Engineering, Platform Engineering and the selected software profile. |
 | [Cross-Pattern Applications](#cross-pattern-applications) | Use two navigation walkthroughs and four worked applications in software, cyber-physical equipment and manufacturing. |
@@ -128,166 +128,60 @@ that combination, and [Check the combined engineering answer](#sysepreface10---c
 several contributions must support one decision. These explanations reuse the full patterns and the existing
 applications; the Table of Contents remains the direct route to any individual Method.
 
+You can ask an assisting agent to explain or apply these methods in the language of your work, without FPF jargon, while preserving the distinctions needed for the question.
+
 ## Practical entries
 
-The seven Parts help readers find patterns by recurring engineering problem family. These are selected
-examples, not a catalogue or a coverage boundary. Each ordinary entry starts with one pattern and stops at
-one first result or blocker. Follow its single stated continuation only when that condition holds. If none
-of these examples fits, use the Table of Contents and open the pattern whose working situation matches yours.
-Data change, alerting and failed-task diagnosis can start at `SYSE.34`, `SYSE.37` and `SYSE.38` respectively;
-the software-feedback entry is not their prerequisite.
+The following selected examples show how an engineering answer depends on results from several methods. Enter with what the project already knows; obtain the missing contribution and return it to the decision that needs it. A changed use, configuration or observation can reopen an earlier choice. The examples do not prescribe a project lifecycle. Use the Table of Contents and the PatternID and title for direct help with one method.
 
-### SYSE-ENTRY-PROJECT-USE — Recover the project system-of-interest and the use that matters now
+### SYSE-CARD-01 — Release a mixed physical-and-software change without losing service, configuration, or evidence
 
-- **Situation:** Participants use one project name for several Systems or uses, so different decisions silently
-  concern different subjects.
-- **Question:** Which actual System or intended-system designator has this project selected as the project
-  system-of-interest, and for which use is the next engineering decision being made?
-- **First useful result or blocker:** A project-system choice account that identifies the actual System or
-  intended-system designator selected as the project system-of-interest, the receiving use, and the decision
-  horizon; or the unresolved System or use ambiguity.
-- **Start with:** `SYSE.1`.
-- **Stop or return:** Stop when the receiving decision can refer to the same System and use. Use `SYSE.16` only
-  when an unresolved containing, using, neighbouring, or interacting System prevents that focus.
+- **Situation:** A pump-station change combines equipment, control software and operating limits while the district-heating service must continue.
+- **Question:** What connects local design and test results to a defensible decision about using the changed station?
+- **First useful result or blocker:** A recommendation for a named configuration and operating use, carrying what the available results support and what still prevents release.
+- **Start with:** SYSE.1 for the project system and SYSE.2 for its intended use, or the first missing result if these are already understood.
+- **Stop or return:** Return the recommendation to the release authority when it can decide. Reopen only the conclusions affected by a changed configuration, use, source or observation.
 
-### SYSE-ENTRY-ARCHITECTURE — Choose among available engineering alternatives
+In [APP-SYSE-01](#app-syse-01--navigation-walkthrough-release-a-vibration-control-change-for-a-district-heating-pump-station), the station's configuration PS17-C42 combines a pump-train modification and software changes. SYSE.16 identifies the surrounding heating arrangement; SYSE.17 finds the systems that may bear consequences, including connected users and maintainers. Their results let SYSE.2 describe the proposed operating use and the station arrangement that could support it.
 
-- **Situation:** Several functional, bearer, or interface alternatives exist, but the project has no explicit
-  architecture choice or condition for reopening it.
-- **Question:** Which alternative should the project select for the named use and comparison basis?
-- **First useful result or blocker:** One architecture decision with the selected structures, accepted
-  losses, supporting evidence, and reopen conditions; or the missing comparison basis.
-- **Start with:** `SYSE.6`.
-- **Stop or return:** Stop when the receiving Agent can act on that decision. Use `SYSE.5` only when the apparent
-  alternatives do not yet give different functions, bearers, or interfaces to compare.
+SYSE.5 uses that account to develop different functional allocations and physical or software bearers. SYSE.6 compares these alternatives and selects the structures on which realization will depend. If no complete way of obtaining an included result is available, SYSE.24 compares arrangements such as adapting existing equipment or obtaining a supplied contribution, including integration and continued support. SYSE.3 then develops the required realization work and its means. An unsupported branch can return the project to the architecture choice.
 
-### SYSE-ENTRY-OBTAINING — Compare complete ways of obtaining one needed engineering result
+SYSE.11 integrates the realized contributions and observes the increment in its named use. SYSE.13 identifies the resulting configuration and where it applies. These results give SYSE.4 a subject for interpreting the component, station and downstream observations. Component evidence supports only the claim and conditions for which it was qualified; it does not settle the station-use question. SYSE.14 consumes the configuration and qualified evidence to prepare the release decision, retaining the deciding authority and any separate permission.
 
-- **Situation:** The project has jumped to *build*, *buy*, *provider*, *reuse*, or *AI* before the alternatives
-  describe the same result and include their integration, assurance, support, capability, and exit burdens.
-- **Question:** Which whole arrangement should provide the result needed for the named use?
-- **First useful result or blocker:** Several comparable obtaining arrangements and one choice, retained
-  tie-set, worthwhile probe, rejected set, or a deferral until another named question is answered; or the missing result identity or acceptance
-  basis that prevents comparison.
-- **Start with:** `SYSE.24`.
-- **Stop or return:** Stop at its bounded `C.11` choice result. Use `SYSE.3` only after an arrangement survives and
-  its first unsupported realization branch becomes the next engineering question.
+The example's recommendation remains conditional on a restored-function check and unresolved safety permission. A new component version reopens the claims affected by that version; it need not invalidate unrelated evidence. If the trial also used a new AI-assisted analysis method, SYSE.15 addresses its further use for the supported claim classes. SYSE.21 becomes relevant only when the question concerns transmission and retention across practitioners. A local trial and a claim about later cultural continuation need different results.
 
-### SYSE-ENTRY-REALIZATION — Turn locally completed changes into one usable System increment
+The same connections apply to other engineered systems. [APP-SYSE-03](#app-syse-03--worked-application-choose-and-bound-an-authentication-service-migration) gives a software-only case with displayed alternatives and four limits: its one surviving architecture supports a specified canary, not unrestricted release. The specialist security result remains a premise supplied by that practice.
 
+### SYSE-CARD-02 — Develop a problem portfolio and System family without freezing either
 
-- **Situation:** Parts, software, or local changes are reported complete, but no actual System configuration has
-  been shown usable for the intended operating purpose.
-- **Question:** What is the smallest changed configuration that can be integrated and observed in that use?
-- **First useful result or blocker:** A bounded usable increment with its configuration, use, evidence,
-  fallback, and unresolved limits; or the missing integration or use evidence.
-- **Start with:** `SYSE.11`.
-- **Stop or return:** Stop when the release or operating decision can use that bounded result. Use `SYSE.3` only
-  when the realization arrangement needed to produce an included part or result is missing.
+- **Situation:** A prototype or operating observation changes which problem is worth solving, while an attractive system option may be difficult to realize with the available means.
+- **Question:** Should the next change concern the problem, the system option, its builder arrangement, or a combination?
+- **First useful result or blocker:** Comparable options and a choice, a worthwhile probe, rejection of the set, or the missing question or authority.
+- **Start with:** SYSE.22 when project focus and use are understood. Resolve an ambiguous system through SYSE.1 and incomparable configurations through SYSE.13.
+- **Stop or return:** Stop at a useful option decision if realization does not change it. Use SYSE.23 when the relation between the option and its builder changes the next investment or reconfiguration choice.
 
-### SYSE-ENTRY-CONFIGURATION — Identify what exists and where a claim applies
+[APP-SYSE-02](#app-syse-02--navigation-walkthrough-develop-a-district-heating-inspection-system-family-while-the-damage-detection-problem-changes) considers inspection systems whose relevant problems include early damage, false alarms, inaccessible locations and interruption of operation. SYSE.22 keeps the problem formulations connected to, but distinct from, the system-family options. SYSE.2 supplies their intended uses; SYSE.5 and SYSE.6 supply materially different arrangements; SYSE.7 and SYSE.13 keep descriptions and configurations comparable. SYSE.10 interprets what a prototype or trial actually supports.
 
-- **Situation:** Versions, baselines, installed units, description editions, and releases are mixed, so a change
-  or evidence claim has no recoverable subject or effectivity.
-- **Question:** Which System configuration does the claim concern, and where and when does it apply?
-- **First useful result or blocker:** A configuration-and-effectivity account fit for the receiving
-  decision; or the missing identity, configuration relation, or effectivity boundary.
-- **Start with:** `SYSE.13`.
-- **Stop or return:** Stop when the receiving decision can identify the same configuration and effectivity. Use
-  `SYSE.14` only when a proposed or performed change now requires a release decision.
+These contributions allow SYSE.22 to choose among surviving options, reject them, or select a feasible probe whose result could change the choice enough to justify its cost. For example, a trial revealing inaccessible locations can change the use question and the relevant sensing options. Repeating the old ranking with unchanged acceptance conditions would miss that change. The new question returns to the linked use and system concepts before their architectures are compared again.
 
-### SYSE-ENTRY-ASSURANCE-METHOD — Decide whether available evidence supports one engineering claim
+A surviving option can instead be blocked by the arrangement that builds or supports it. SYSE.3 makes that dependency explicit; SYSE.12 identifies the platform contribution. SYSE.23 then compares changing the option, changing the builder arrangement, changing both, and retaining the present arrangement. The next result is an investment or reconfiguration choice. SYSE.20 distinguishes work that can overlap from contributions that must be available first. Developing a problem, a system and its builder therefore need not become three consecutive project stages.
 
-- **Situation:** Tests or checks have passed, but no one can state which claim they support or which decision may
-  rely on them.
-- **Question:** What does the available evidence justify for the named claim, subject, conditions, and receiving
-  decision?
-- **First useful result or blocker:** A claim-specific evidence-use result with its limits; or the missing
-  observation, correspondence, configuration, or authority.
-- **Start with:** `SYSE.4`.
-- **Stop or return:** Stop when the receiving Agent can rely, refuse reliance, or request the missing evidence.
-  Use `SYSE.13` only when configuration or effectivity ambiguity prevents that judgement.
+A source change returns through SYSE.19 to the decisions that relied on it.
 
-### SYSE-ENTRY-PLATFORM — Choose the next platform improvement from practitioner work
+### SYSE-PLATFORM-PATH — Make an engineering task easier without losing its usable result
 
-- **Situation:** Practitioners repeatedly wait, rework or seek support to complete a task, but the next platform
-  change is unclear.
-- **Question:** Which bounded improvement would change that task's result or burden?
-- **First useful result or blocker:** One task-grounded improvement choice, worthwhile probe or precise
-  missing-premise return, with the user and provider burden retained.
-- **Start with:** `SYSE.25`.
-- **Stop or return:** Stop at that result. Use `SYSE.24` only when the whole obtaining arrangement must be compared.
+- **Situation:** Practitioners repeatedly reconstruct inputs, reconcile results or wait for help even though individual tools and providers work.
+- **Question:** Which supported way of working would remove that burden while preserving the result its user needs?
+- **First useful result or blocker:** A supported interaction for a named task, including its failure return and the professional results still needed to compare or qualify the production arrangements.
+- **Start with:** SYSE.25 for the practitioner's difficulty; SYSE.24 when the whole obtaining arrangement is undecided.
+- **Stop or return:** Use the improvement when its receiving task is supported. Pass the observed failure, uncertainty or missing professional result to the practitioner who can address it. Continue independently supported interface or planning work.
 
-### SYSE-ENTRY-SOFTWARE-PLATFORM — Obtain fast and trustworthy software feedback
+In [APP-SYSE-06](#app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation), planners cannot reliably connect returned coated parts with their drawing, lot, fixture and program. SYSE.25 selects the practitioner improvement; SYSE.24 compares internal production, external finished-part supply and a mixed arrangement. The comparison includes waiting, transport, rejected lots, support and exit as well as price.
 
-- **Situation:** Developers wait for software feedback or cannot trust the result they receive.
-- **Question:** What arrangement can return useful feedback on the named change under the required conditions?
-- **First useful result or blocker:** A usable feedback arrangement or the precise missing test, input or
-  environment condition that prevents it.
-- **Start with:** `SYSE.31`.
-- **Stop or return:** Stop at that result. Use `SYSE.30` only when unrecoverable build inputs prevent it.
+The example explores the mixed arrangement; choosing it for production still requires the missing professional results and comparison with the other arrangements. SYSE.26 constructs a request, clarified input, authorized operation and returned result that the practitioner can follow. SYSE.13 carries the configuration relations through it. The example request names fixture B but supplies a program qualified only for A: the receiving interaction exposes that mismatch before machining. Correcting the association permits interface qualification to continue; qualification of the B program's machining behavior remains a professional contribution. SYSE.18 handles the independently controlled coating provider, and SYSE.9 connects the dimensional and process results to the receiving engineering decision.
 
-### Practical-Use Cards
+[APP-SYSE-05](#app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path) works an analogous connection for software. Its constructed candidate B retains the unresolved comparison with candidate A. SYSE.31 constructs trustworthy shared-mainline feedback, SYSE.30 addresses build inputs when they prevent it, and the runtime, data and recovery methods supply their own contributions. Data change, alerting and failed-task diagnosis can also start directly at SYSE.34, SYSE.37 and SYSE.38. The manufacturing case does not acquire these software prerequisites; both cases use the common methods to connect a practitioner's task to supported results.
 
-These are selected examples of extended use across several patterns, not a catalogue or a prescribed workflow.
-The mantra helps retain the dependency among results; each pattern body still supplies the working method and
-its stop conditions.
-
-#### SYSE-CARD-01 — Release a mixed physical-and-software change without losing service, configuration, or evidence
-
-- **Situation:** A change crosses physical equipment, control software, operating service, configuration, and
-  assurance. Participants use different meanings of the System and release readiness, while some engineering
-  Work overlaps and some results have real dependencies.
-- **Question:** How can the engineering team reach one qualified release recommendation and preserve the
-  conditions under which the changed System, its evidence, and the trialled engineering Method may be used later?
-- **First useful result or blocker:** A decision-usable project-system choice account and bounded operational-
-  use account; or the missing System referent, project designation, boundary, use, consequence-bearing System,
-  configuration, or evidence that prevents a responsible release decision.
-- **Mantra:** Project-system choice and operational-use accounts expose affected Systems and support
-  linked use, functional, bearer, and architecture choices. Configuration and effectivity bound the selected change; claim-specific release evidence retains its limits and unresolved safety conditions. A trialled Method enters the repertoire only for evidence-supported claim classes. Repertoire or cultural change requires claim-specific evidence. A qualified current cultural account or supported continuation needs no additional replay; a claimed later enactment needs its observed Work and consequences. These are result
-  dependencies, not a calendar lifecycle: architecture, realization, configuration, assurance, platform, and
-  specialist Work may overlap.
-- **Start with:** `SYSE.1`. If the project focus already exists, start with the first unsupported result exposed
-  by `SYSE.16`, `SYSE.2`, `SYSE.13`, or `SYSE.4`; use the other patterns only when their result is needed.
-- **Stop or return:** Stop at a configuration- and effectivity-bounded release recommendation, its qualified
-  assurance basis, and a bounded Method-repertoire disposition usable by the separately identified release
-  authority. Return missing permission, functioning evidence, source claim, configuration fact, authority, or
-  long-horizon observation. Reopen when the System, use, configuration, evidence horizon, or relied-on Method
-  changes.
-
-##### Expansion for SYSE-CARD-01
-
-The cooperating patterns are `SYSE.1`, `SYSE.16`, `SYSE.17`, `SYSE.2`, `SYSE.5`, `SYSE.6`, `SYSE.13`,
-`SYSE.14`, `SYSE.4`, `SYSE.15`, and `SYSE.21`. `APP-SYSE-01` shows one bounded use; it is not a universal
-release sequence.
-
-#### SYSE-CARD-02 — Develop a problem portfolio and System family without freezing either
-
-- **Situation:** A project repeatedly optimizes one System option while the problem question, comparison
-  conditions, available options, or the arrangement that realizes them keeps changing.
-- **Question:** Which System-family option should survive the next decision, and does the obstacle call for a
-  change to the selected System-family option, its builder arrangement, or both?
-- **First useful result or blocker:** A bounded problem-and-option result from `SYSE.22`: one named problem
-  question, a reidentifiable set of comparable System-family options, current evidence and protected conditions,
-  and one decision to choose now, reject the set, run a worthwhile probe, or return a missing question or
-  authority.
-- **Mantra:** One problem question and the current System-family options remain distinct but linked by evidence.
-  A shared comparison basis supports one of four outcomes: choose now, reject the set, run a worthwhile probe, or
-  return the missing question or authority. When a valuable surviving option is blocked by its builder
-  arrangement, the next comparison includes changes to that option, the builder arrangement, both, and the
-  unchanged arrangement. The resulting choice remains current until a named input changes.
-- **Start with:** `SYSE.22`. If the project system-of-interest designation or use is still ambiguous, first use `SYSE.1`; if option
-  identities or configurations cannot be compared, return that blocker to `SYSE.13`.
-- **Stop or return:** Stop after the `SYSE.22` choice when no builder constraint changes it. Use `SYSE.23` only
-  when a surviving option is valuable and the relation between the selected System-family option and builder arrangement changes the next investment or
-  reconfiguration choice.
-
-##### Expansion for SYSE-CARD-02
-
-Apply `SYSE.22` to the problem-and-option comparison and `SYSE.23` to the choice, under the stated conditions,
-between changes to the System-family option, the builder arrangement, or both. Ask the Agent applying `SYSE.1`
-to resolve a focus blocker and the Agent applying `SYSE.13` to resolve a configuration blocker only when it
-prevents the corresponding Work. `APP-SYSE-02` shows how to navigate these result dependencies.
 
 ## Citation
 
@@ -625,8 +519,8 @@ Return there when those results change the engineering decision.
 The boundary prevents common language and a bounded software repertoire from replacing a specialist answer
 with a vague analogy.
 
-
 ## SYSE.Preface:End
+
 
 # Part I - Project Focus, Environment, Consequences, and Problem/System-Family Development
 
@@ -11911,7 +11805,7 @@ An omission blocks only the dependent claim or action, not every independent eng
 ## PatternID discipline
 
 `SYSE.*` provides addresses for the authoritative pattern bodies in this Systems Engineering Principles
-Framework. The seven Parts, eight ordinary practical entries, and two Practical-Use Cards group patterns for
+Framework. The seven Parts and three ordinary worked connections group patterns for
 reading. These groups do not establish semantic parentage, Method composition, or project order.
 
 ## Source use and epistemic status

@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 11 September 2026
+- **Version:** 16 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -694,7 +694,9 @@ Begin with the first missing contribution, using earlier results whose condition
 
 Use Method Engineering to examine the method, its descriptions and support. A pattern, a DPF and an instructional Guide can describe methods for different uses. An exact MethodDescription explains how one already identified Method is performed. Choose the representation for the work at hand: finding a method, understanding it, comparing alternatives or supporting performance. Use [ME.22](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me22---compare-method-descriptions-by-content-and-representation) when a revision changes the content or presentation and that distinction affects which version to retain. Actual performance supplies the results against which a method can be tested.
 
-For connected Method Engineering questions, [ME.20](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me20---use-pattern-language-knowledge-to-continue-situated-method-engineering) helps identify the result needed now, reuse an adequate earlier answer and revisit the claims affected by a new fact. The 24 patterns supply contributions to select as needed; their links and reading order do not establish Method parts or prescribe a sequence through all 24.
+For connected Method Engineering questions, [ME.20](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me20---use-pattern-language-knowledge-to-continue-situated-method-engineering) helps identify the result needed now, reuse an adequate earlier answer and revisit the claims affected by a new fact. These patterns supply contributions to select as needed; their links and reading order do not establish Method parts or prescribe a sequence through the whole language.
+
+When a mathematical property could change the way work is divided or ordered, use [ME.6.MC](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6mc---compare-method-arrangements-through-a-mathematical-model) to compare the arrangements and [ME.25](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me25---transform-a-method-using-a-mathematical-construction) to construct the changed procedure. The [distributed-calculation example](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me-model-and-change---use-a-mathematical-construction-to-change-how-work-is-divided) follows a preserved mathematical answer into a proposed division of work, compares its burden, then revises the summaries when the recipient needs another statistic. Mathematical equivalence alone does not establish practical improvement.
 
 ### When source material should change a pattern language
 

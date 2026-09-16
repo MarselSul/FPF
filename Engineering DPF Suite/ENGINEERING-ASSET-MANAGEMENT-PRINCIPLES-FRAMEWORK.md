@@ -19,7 +19,7 @@ Search for the asset decision or result you need. Dependencies identify useful r
 
 | Unit | Reader use |
 | :--- | :--- |
-| [Engineering Asset Management Principles Framework Readme](#engineering-asset-management-principles-framework-readme) | Choose a single-asset, combination, changed-condition or practice question. |
+| [Engineering Asset Management Principles Framework Readme](#engineering-asset-management-principles-framework-readme) | Follow connected asset decisions and their changed-condition returns. |
 | [Citation](#citation) | Cite the framework or a particular pattern contribution. |
 | [Preface](#preface) | Understand the asset-value problem, the related Methods and their limits. |
 | [Cross-Pattern Applications](#cross-pattern-applications) | Follow one asset and its different choice in a constrained programme. |
@@ -66,41 +66,67 @@ Search for the asset decision or result you need. Dependencies identify useful r
 
 ## Practical entries
 
-Bring the asset question you actually need to answer. These are selected examples, not a catalogue or coverage boundary. Use the Table of Contents or a direct pattern when none fits. Pattern numbers identify contributions; they do not prescribe a sixteen-stage procedure.
+The connections below follow an asset question through the methods whose results it needs. Start where the uncertainty lies: a supported option comparison can go straight to the decision, while a shared funding or outage constraint changes the question to a whole programme. Use the Table of Contents for a known PatternID or a question not illustrated here. When working with a colleague or assistant, describe the asset, the difficulty and the answer you need in ordinary work language.
+
+The CityWater amounts and conditions are constructed teaching inputs. The two full [Cross-Pattern Applications](#cross-pattern-applications) retain the engineering qualifications, service requirements and calculations behind the shorter uses below.
 
 ### EAM-ASSET - Compare continued use and change for one asset
 
-- **Situation:** An asset can continue under a supported policy, but renewal, replacement or withdrawal may offer better value.
-- **Question:** Which option should be recommended for the required service and comparison horizon?
-- **First useful result or honest blocker:** A supported comparison and recommendation, or the particular service, engineering or economic uncertainty that prevents one.
-- **Start with:** [EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives); use [EAM.1](#eam1---frame-the-engineered-assets-and-required-outcomes) if the requested result or asset boundary is unclear.
-- **Stop or return:** Delivering sufficient advice can complete the request. Use [EAM.12](#eam12---integrate-specialist-results-and-authorize-the-asset-decision) for the actual asset decision; return to [MNT.4](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt4---monitor-and-interpret-current-condition) or [MNT.6](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt6---diagnose-condition-and-select-an-intervention) when only condition or maintained functioning is in question.
+- **Situation:** CityWater can keep pump D functioning under a supported policy, but replacement may give better value.
+- **Question:** Which policy should the infrastructure committee choose for the required service and horizon?
+- **First useful result or blocker:** A supported recommendation, or the service, engineering or economic uncertainty preventing it.
+- **Start with:** [EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives) for the policies; [EAM.1](#eam1---frame-the-engineered-assets-and-required-outcomes) if the comparison is unclear.
+- **Stop or return:** Sufficient advice can finish the inquiry. A shared resource constraint sends the policies to the programme comparison.
+
+The committee's value question differs from the maintenance question of which intervention supports continued functioning.
+
+[EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives) uses the applicable condition and maintenance results to describe two complete policies: continued use with its initial intervention and recurring support, and replacement with integration and terminal value. [EAM.9](#eam9---reconcile-conflicting-asset-decisions-across-simultaneous-work) consumes those qualified alternatives and compares their consequences on the same basis.
+
+In [APP-EAM-01](#app-eam-01---one-asset-and-a-supported-value-comparison), at the example's 3% real rate, five-year present cost is about €5.080 million for continuation and €3.568 million for replacement. With the required service equal and resources available for either, the €1.512 million difference supports recommending replacement. The break-even annual cost of continued use is about €0.670 million: an applicable range of €0.95–1.05 million leaves the recommendation unchanged, whereas a credible €0.60 million could reverse it. Further costing is useful when its attainable answer can change the decision enough to warrant the inquiry.
+
+[EAM.12](#eam12---integrate-specialist-results-and-authorize-the-asset-decision) uses the comparison and its conditions to give the committee sufficient advice. The committee can then select a policy within its authority; maintenance and operating practitioners settle permissions for the work and return to service. If the request concerned only the maintenance response, the applicable MNT result could already finish it. If D competes with other assets for funding or an outage window, take its two policies into the combination below.
 
 ### EAM-COMBINATION - Choose asset work under shared constraints
 
-- **Situation:** Several worthwhile interventions compete for funding, a team, access or continuing service.
-- **Question:** Which complete combination can provide the required contribution within the actual conditions?
-- **First useful result or honest blocker:** An eligible programme recommendation with a supported calendar, or the precise conflict that requires another option or decision.
-- **Start with:** [EAM.10](#eam10---prioritize-the-asset-portfolio), using [EAM.9](#eam9---reconcile-conflicting-asset-decisions-across-simultaneous-work) for conflicting choices and [EAM.11](#eam11---time-interventions-and-manage-dependencies) for whole-work timing.
-- **Stop or return:** Stop at the requested supported programme answer. Reopen the affected comparison when an option, allocation, service condition or calendar changes.
+- **Situation:** CityWater's individually preferred asset options exceed the shared capital allocation.
+- **Question:** Which complete programme supplies the required service within the funding and work windows?
+- **First useful result or blocker:** A programme recommendation with a supported calendar, or the conflict preventing it.
+- **Start with:** [EAM.10](#eam10---prioritize-the-asset-portfolio) when alternatives and conditions are known; establish a missing service or option result where needed.
+- **Stop or return:** Finish with sufficient programme advice. A changed funding, service or work condition reopens the affected comparison.
+
+The demand and capability comparison in [EAM.4](#eam4---assess-demand-and-service-need) and [EAM.6](#eam6---assess-capacity-resilience-and-interdependence) identifies North's wet-season shortfall: 1,100 m³/h required against 1,000 available. [EAM.7](#eam7---generate-acquisition-and-modification-alternatives) supplies two qualified ways to add 200 m³/h at C, modification or leased service. Together with the supported A, B and D policies, these become the alternatives for [EAM.9](#eam9---reconcile-conflicting-asset-decisions-across-simultaneous-work) to reconcile and [EAM.10](#eam10---prioritize-the-asset-portfolio) to combine.
+
+Under the €8 million capital limit and the other supplied limits, [APP-EAM-02](#app-eam-02---the-same-asset-in-a-constrained-programme) finds the least-cost eligible programme: refurbish A and B, modify C, continue D. It uses €7 million capital, €0.50 million initial operating expenditure and €1.85 million annually; its present cost is €14.592 million. Replacing D as well would require €10 million capital. Leasing C instead makes D replacement affordable, but raises total present cost to €15.350 million. The individual D result therefore remains true under its own resource assumption, while the programme comparison favors continuation.
+
+[EAM.11](#eam11---time-interventions-and-manage-dependencies) consumes the selected interventions and their whole outage durations. A on days 1–2, B on 3–4, C on 5–7 and D on day 8 fits the twelve-day window and the single team, restoring each asset before the next outage. It avoids the A/C and B/D overlaps that would breach the dry-window service minimum. Use [EAM.12](#eam12---integrate-specialist-results-and-authorize-the-asset-decision) to send a programme recommendation with a supported calendar to the committee.
+
+A changed limit returns to the affected choice. If the funding board raises capital to €10 million, retaining the other premises, replacing D joins the preferred programme. If only seven days remain, the eight-day arrangement fails: the declared alternatives instead permit A refurbishment, B replacement, C leased service and D continuation. If D's engineering qualification fails, remove continuation before comparing programmes; cost savings cannot restore it. Each changed case is worked through in the full application.
 
 ### EAM-CHANGE - Reconsider a decision after a changed condition
 
-- **Situation:** Obtained service, an engineering finding, cost or demand differs from an asset plan's premise.
-- **Question:** What does this evidence change in the earlier decision?
-- **First useful result or honest blocker:** A qualified variance account and a supported retain or revise recommendation, or the applicability gap preventing that conclusion.
-- **Start with:** [EAM.13](#eam13---track-realized-outcomes-and-revise-asset-plans); use [EAM.3](#eam3---establish-the-asset-information-and-configuration-basis), [EAM.4](#eam4---assess-demand-and-service-need), [EAM.5](#eam5---assess-condition-and-performance) or [EAM.6](#eam6---assess-capacity-resilience-and-interdependence) for the particular changed premise.
-- **Stop or return:** An adequate current plan can be retained. Reopen the specific choice whose support changed; select further inquiry for the useful answer it can attain.
+- **Situation:** Observed service, condition or expenditure differs from a relied-on plan premise.
+- **Question:** Does the difference change the plan, its explanation or the next decision?
+- **First useful result or blocker:** A retained or revised plan, or the applicable observation needed to decide.
+- **Start with:** [EAM.13](#eam13---track-realized-outcomes-and-revise-asset-plans) for the outcome comparison; use [EAM.3](#eam3---establish-the-asset-information-and-configuration-basis) first if asset or configuration correspondence is unsettled.
+- **Stop or return:** Retain a sufficient plan; reopen the choice changed by the observation. Further inquiry needs an attainable answer worth its burden.
+
+Suppose annual expenditure for the selected CityWater policy is €1.95 million against €1.85 million planned. [EAM.13](#eam13---track-realized-outcomes-and-revise-asset-plans) compares the same scope and interval. Applicable bills explain a €0.12 million tariff effect and a €0.02 million reduction elsewhere: 1.85 + 0.12 − 0.02 = 1.95.
+
+That result updates the price premise for [EAM.9](#eam9---reconcile-conflicting-asset-decisions-across-simultaneous-work) or [EAM.10](#eam10---prioritize-the-asset-portfolio) where it can change the next choice. It does not establish an equipment defect. If the comparison instead joins different units or configurations, [EAM.3](#eam3---establish-the-asset-information-and-configuration-basis) first resolves that mismatch. If C's work is complete but usable service falls below the wet-season requirement, return the service deficiency to [EAM.5](#eam5---assess-condition-and-performance) and [EAM.6](#eam6---assess-capacity-resilience-and-interdependence) and the applicable operating or engineering response. The cause can remain under investigation while a supported response is taken.
 
 ### EAM-PRACTICE - Improve how asset decisions are made
 
-- **Situation:** The same decision difficulty recurs despite completing individual asset plans.
-- **Question:** Does the problem concern organizational provision, the reusable way of deciding, or continuation of practice among people?
-- **First useful result or honest blocker:** A supported retain or change decision about that subject, or the evidence needed to distinguish the competing explanations.
-- **Start with:** [EAM.14](#eam14---develop-and-refresh-the-asset-management-system) for roles, information flows and provision; [EAM.15](#eam15---develop-and-refresh-engineering-asset-management-methods) for the Method; [EAM.16](#eam16---deliberately-continue-and-change-engineering-asset-management-culture) for cultural continuation or change.
-- **Stop or return:** Answer the recipient's question about the recurring difficulty; revise another part of the practice only when the evidence shows that it contributes to the problem.
+- **Situation:** Appraisals repeatedly fail or consume avoidable effort despite usable individual asset plans.
+- **Question:** What should change in the way the decisions are produced?
+- **First useful result or blocker:** Supported advice about the arrangement, method or continued practice, or a result needed to decide.
+- **Start with:** [EAM.14](#eam14---develop-and-refresh-the-asset-management-system) for the working arrangement, [EAM.15](#eam15---develop-and-refresh-engineering-asset-management-methods) for the selection method, or [EAM.16](#eam16---deliberately-continue-and-change-engineering-asset-management-culture) for use and continuation among practitioners.
+- **Stop or return:** Answer the identified recurring difficulty; change another part of the practice when its contribution matters to that answer.
 
-CityWater makes the first two entries concrete. Replacing pump D is cheaper than its supported continued-use policy over the common five-year horizon. Under the utility's shared capital allocation, however, the least-cost eligible programme continues D and modifies C. The two recommendations answer different questions. The common applications show every option, the complete combination comparison and changed-condition returns.
+In [EAM.14](#eam14---develop-and-refresh-the-asset-management-system)'s appraisal office, mismatched station identifiers cause six hours of rework a week. A maintained correspondence and responsibility for returning mismatches would take twelve hours to establish and half an hour a week to maintain. Over ten comparable weeks, that is seventeen hours against sixty hours of continued rework, if the repair removes the mismatch. The comparison supports proposing the bounded repair; examine later appraisals to see whether it helps. Use [EAM.3](#eam3---establish-the-asset-information-and-configuration-basis) to establish the applicable unit correspondence. If the change requires several people to acquire a shared ability, [EAM.14](#eam14---develop-and-refresh-the-asset-management-system) uses [OCE.9](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce9---realize-a-bounded-organization-capability-increment) to exercise an appraisal from request to usable result, including an unmatched-unit return.
+
+If the information is adequate but the selection rule fails, [EAM.15](#eam15---develop-and-refresh-engineering-asset-management-methods) addresses the method instead. Funding D, C and A in condition-priority order exhausts CityWater's capital before B, whereas combination comparison supplies the required programme. That calculation supports changing the comparison for this case. A proposed reusable method can be tried on other relevant cases when the consequences for adoption justify the effort.
+
+[EAM.16](#eam16---deliberately-continue-and-change-engineering-asset-management-culture) takes that proposed instruction into a question about its transmission, use or continuation among practitioners. Distribution and teaching establish different facts from later appraisals using the method. Its existing branch example retains programme comparison for central planners with shared constraints and single-asset comparison for depot cases whose independence is established. A shared constraint returns a depot case to the programme comparison.
 
 ## How to read and apply the framework
 
@@ -182,8 +208,8 @@ Public ISO/TC 251 material locates the management-system relationship. NIST Hand
 
 General evidence, comparison, information and cultural distinctions remain with FPF. The references identify the specific contributions and receiving uses. Those source relations support reasoned use and refresh; a cited Method description still needs to yield a qualified result for an actual asset case.
 
-
 ## EAM.Preface:End
+
 
 # Part A - Outcomes and the Asset Information Basis
 

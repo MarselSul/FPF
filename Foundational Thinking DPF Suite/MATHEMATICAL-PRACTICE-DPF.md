@@ -3,20 +3,20 @@
 > A pattern language for constructing mathematical objects, operations and arguments, using their results, and developing the next useful question.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 15 September 2026
+- **Version:** 16 September 2026
 - **Status:** Eternal alpha: a growing repertoire of methods for mathematical work.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
 
-Begin with the working question. If you have not yet identified its mathematical contribution, use Readme entry MP-FRAME. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme gives selected entries; Preface explains how the methods connect and when to revise a construction.
+Begin with the working question. If you have not yet identified its mathematical contribution, use Readme entry MP-FRAME. Use the Table of Contents to find a relevant pattern, then open its Problem frame, Solution, worked cases and checklist. Readme follows connected mathematical work; Preface explains the methods and when to revise a construction.
 
-The reference code **MATH** names this DPF. Its numbers are stable pattern addresses; § shows position in this edition. References such as B.5.RA and C.29.1 name patterns in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) (September 2026). Use those patterns when the cited question arises.
+The reference code **MATH** names this DPF. Its numbers are stable pattern addresses; § shows position in this edition. References such as B.5.RA and C.29.1 name patterns in [FPF](https://github.com/ailev/FPF/blob/main/FPF-Spec.md). Use those patterns when the cited question arises.
 
-When a mathematical result changes a working method, [Method Engineering DPF](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) (11 September 2026) provides two further methods: ME.7 helps resolve a proposed composition of methods; ME.12 helps locate an inconsistency between a method, its descriptions, the work performed and its supporting means.
+When a mathematical result changes a working method, [Method Engineering DPF](https://github.com/ailev/FPF/blob/main/Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) provides two further methods: ME.7 helps resolve a proposed composition of methods; ME.12 helps locate an inconsistency between a method, its descriptions, the work performed and its supporting means.
 
 Open the cited publications for those pattern bodies. When using another edition, revisit your conclusion if a cited operation or condition has changed.
 
-To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, 15 September 2026, [FPF ecosystem repository](https://github.com/ailev/FPF).
+To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosystem repository](https://github.com/ailev/FPF). Include the version date shown above.
 
 # Table of Contents
 
@@ -24,7 +24,7 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, 15 Septemb
 
 | Unit | Title | Use |
 | --- | --- | --- |
-| Readme | [Mathematical Thinking - Readme](#mathematical-thinking---readme) | Find a first pattern for your question. |
+| Readme | [Mathematical Thinking - Readme](#mathematical-thinking---readme) | Follow connected mathematical work. |
 | Preface | [Mathematical Thinking - Preface](#mathematical-thinking---preface) | Understand the connected methods, their rationale, sources and limits. |
 
 ## Part A - Choose and relate constructions
@@ -66,11 +66,13 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, 15 Septemb
 
 ## Practical entries
 
-Begin with the question that prevents the next step in your work. It may concern an observed situation, an unfamiliar explanation, a calculation or a mathematical construction. If you do not yet know what mathematics is needed, start with MP-FRAME below. For an already formulated mathematical question, use the other entries and the Table of Contents to find the required construction.
+A mathematical result often becomes an input to further work: a construction supplies the objects for a proof, a failed implication changes the question, and a changed rule requires an argument that its useful properties survive. The patterns in this language help make and connect those contributions.
 
-The patterns state their mathematical prerequisites. Their constructions can be used in mathematics itself or to describe another subject. For an application, distinguish the mathematical result from what it says about that subject. FPF C.29 helps establish and use that correspondence.
+The two worked connections below start at different places. The first turns a working difficulty into a mathematical question and returns the answer to its subject. The second changes a rule so that independently obtained results can be combined, proves the new rule and revisits it when the requested answer changes. Enter with the results already available; a settled contribution need not be reconstructed.
 
-You can ask an assisting agent to explain an answer or give feedback in ordinary language, without FPF terminology. For example: “Explain this and comment on my proposal without FPF jargon; use the language of my work.”
+These examples do not enumerate the language. Use the Table of Contents to find other questions and the actual pattern titles. Each body states its prerequisites, method, examples and limits. A construction can serve mathematics itself or describe another subject; FPF C.29 helps establish what its result says about that subject.
+
+You can ask an assisting agent: “Explain this and comment on my proposal without FPF jargon; use the language of my work.”
 
 ### MP-FRAME - Find the mathematical contribution in an unfamiliar problem
 
@@ -79,158 +81,6 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 - **First useful result or blocker:** A mathematical task with a stated use. For example, a cart's travel log gives total distance, but that total cannot tell whether the cart returned to its start. Identify the position question first. With straight-line motion and known displacements, a sequence of signed displacements supplies an account that can answer it. MATH.1 constructs the sequences and their composition; MATH.5 derives the accumulated displacement from the elementary displacements. A sensor report must first be interpreted as the movement it measures.
 - **Start with:** FPF B.5.FM. State the working question, identify the participants and relations that may change its answer, and build a small account that yields a consequence. If an unfamiliar theory supplies the account, B.5.TU helps construct its application. B.5.MPC connects the physical, mathematical and computational contributions when the difficulty lies between them. Their bodies are in the FPF publication linked above. If the problem is deciding what an object must let you form or recover, use MATH.16. If it is deciding which distinctions can be forgotten, use MATH.2. If an implication is doubtful, use MATH.6. The question determines the construction; an available formula may settle only part of it. C.29 supplies the interpretation through which a mathematical result answers the original question. C.29.2/.3 develop a needed procedure and its execution.
 - **Stop or return:** After the question changes, test whether the summary still determines the answer. If two runs have the same final position but differ in a requested visit, recover the information that separates them. MATH.2 helps locate the failed identification; B.5.QD develops the next useful question. For a working method changed by the result, ME.7 helps describe the proposed operations and their relations; ME.12 checks the claims in that account and its description. The Preface's worked use follows these choices in detail.
-
-### MP-CONSTRUCT - Choose an object from what it must let you do
-
-- **Situation:** You can describe the operations you need, but several mathematical constructions seem plausible.
-- **Question:** What information should determine the new object, and which maps should let you form or use it?
-- **First useful result or blocker:** A requirement that separates the alternatives. Two remainder reports from separately chosen integers can form any pair. Reports about one shared integer must agree: a remainder of 1 modulo 4 is incompatible with a remainder of 0 modulo 2.
-- **Start with:** [MATH.16 - Choose a Construction from Its Required Maps](#math16---choose-a-construction-from-its-required-maps), :4.1–:4.3. Fix the given objects, vary the permitted ways to supply or process their data, and state the comparison map and agreements you need. Construct the object and establish that property. The pattern also shows how to construct a prepared function that can itself be applied.
-- **Stop or return:** Use the resulting object and maps, or return to a requirement whose construction remains unresolved. If the question asks which inputs may be identified, [MATH.2](#math2---form-a-quotient-that-preserves-operations) supplies the quotient construction; if it asks for a reversible representation change, use [MATH.7](#math7---transport-a-mathematical-structure-through-a-bijection).
-
-### MP-CHANGE-RULE - Construct a change to a rule
-
-- **Situation:** A rule is known, but you need to change how it works while retaining a useful property.
-- **Question:** What operation on the rule produces the required change, and which consequences does it preserve?
-- **First useful result or blocker:** A constructed rule and the argument for its required property. Given a real-valued function f on the real numbers and a chosen point c, the rule `g(x)=f(x)-f(c)+c` fixes c and preserves every increment `f(x)-f(y)`. Substituting y=c into those requirements determines g.
-- **Start with:** [MATH.17 - Construct Spaces of Operations and Operations on Them](#math17---construct-spaces-of-operations-and-operations-on-them), :4.1-:4.4. Specify allowable input rules and the desired output. Follow an arbitrary input through the change, construct the resulting rule, then derive the law its use needs. MATH.16 supplies function objects when that construction is needed.
-- **Stop or return:** Use the changed rule under the established conditions. If the next question asks about composition, cost or recoverability of the original rule, inspect that additional requirement. The body's repetition example constructs two valid changed rules with different answers and shows which one implements each requested change.
-
-### MP-COMPOSE - Find what a combination of steps can do
-
-- **Situation:** Several steps make sense individually, but the combined result depends on their order or on a state they share.
-- **Question:** Which sequences are permitted, and what does each return?
-- **First useful result or blocker:** A sequence with the state at each join, or a failed join that exposes a missing condition. Consider two updates to a counter: each reads its current value, keeps that reading, and later writes the reading plus one. Starting from zero, finishing one whole update before the other gives two. Both updates can instead read zero before either writes; the final counter is then one. Separating reading from writing exposes the interaction.
-- **Start with:** [MATH.1 - Build a Structure of Composable Paths](#math1---build-a-structure-of-composable-paths), especially :4.1-:4.3. Choose states that retain the counter, each saved reading and which steps remain. Form paths that perform each update's read before its write. Then calculate the result along each relevant path. If you propose to merge states or histories, use [MATH.2](#math2---form-a-quotient-that-preserves-operations) to test the operations and answers that the merged description must retain.
-- **Stop or return:** Stop when the paths answer the composition question. In the counter model, requiring one complete update to finish before the other preserves both increments. When changing an implemented method, use FPF C.29 to recover how its operations correspond to the model; Method Engineering ME.7 addresses the composition of the working method. The model's result can guide that change, while choosing an implementation also depends on how it handles waiting, interruption and failure.
-
-### MP-IDENTIFY - Simplify a description while keeping the answer
-
-- **Situation:** You want to treat different descriptions as interchangeable, then continue calculating or deciding with the resulting classes.
-- **Question:** What can be forgotten while preserving the operations and answer needed next?
-- **First useful result or blocker:** A usable operation on classes, or two supposedly interchangeable inputs that lead to different answers. Suppose a temperature-checking method receives values labelled Celsius or kelvin. It first converts them to kelvin, then tests whether they lie in the inclusive interval from 273.15 to 303.15 kelvin. Grouping inputs by the numeral alone loses the test's answer: 20 Celsius becomes 293.15 kelvin and passes; 20 kelvin stays 20 and fails.
-- **Start with:** [MATH.2 - Form a Quotient That Preserves Operations](#math2---form-a-quotient-that-preserves-operations), :4.1-:4.5. Name the retained operation and the requested answer before choosing the identification. In this example, convert with `n(v,C)=v+273.15` and `n(v,K)=v`, then apply the interval test. Identifying inputs with the same normalized kelvin value preserves both that normalization result and the test. The different input and output sets are handled in :4.1.
-- **Stop or return:** Use the classes for the questions they determine. A later question about the original unit needs the label again. If the problem instead concerns a working method whose description placed comparison before normalization, ME.12:4.4 shows how to locate and repair that contradiction.
-
-### MP-PROVE - Construct the missing argument
-
-- **Situation:** A mathematical claim is clear, but the premises do not yet connect to its conclusion.
-- **Question:** Which intermediate claim would make that connection, and how can it be obtained?
-- **First useful result or blocker:** A sufficient intermediate goal. To show that a function f with a left inverse g is injective, begin with `f(a)=f(b)`. Applying g turns this into `a=b` because `g(f(x))=x`. The needed step is now available.
-- **Start with:** [MATH.19 - Construct a Proof through Intermediate Claims](#math19---construct-a-proof-through-intermediate-claims), :4.1-:4.4. Work backward from the conclusion and forward from the premises, connect them by a lemma, and prove it under the assumptions actually available. A repeated construction may need an additional parameter or a stronger induction statement.
-- **Stop or return:** Return the connected proof, a specific open lemma or a counterexample. If the given inverse is on the other side, revisit the implication: a right inverse establishes surjectivity and can leave injectivity false. B.5.RA helps recover an argument already present in an unfamiliar description; MATH.19 constructs an argument that is missing.
-
-### MP-WITNESS - Produce the object whose existence you need
-
-- **Situation:** Every input should have a suitable result, but the available argument leaves you without a way to obtain it.
-- **Question:** How can the input's construction also construct the answer?
-- **First useful result or blocker:** A base answer and a rule for building the next one, or the missing operation in that rule. To color a finite binary tree using colors 0 and 1, with different colors at the ends of every edge, allow either requested root color `c`. A leaf receives `c`. Give each child subtree the requested color `1-c`. This supplies the choice that a construction always returning root color zero would lack.
-- **Start with:** [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction), :4.1-:4.4 and :5.2. State the input constructors, construct each base answer, and use the smaller answers in the next case. If the next case needs more, return that information or let the construction take another parameter.
-- **Stop or return:** Use the resulting object or recursive construction. Additional graph edges can invalidate the tree argument; a triangle gives an obstruction to this two-color requirement. If different constructions represent the same input object and the answer must depend only on that object, use [MATH.2](#math2---form-a-quotient-that-preserves-operations) to check independence of the construction.
-
-### MP-EXTEND - Calculate compounds from a few assigned values
-
-- **Situation:** You have assigned meanings or values to generating elements and need to calculate with everything built from them.
-- **Question:** How does the assignment determine a map that preserves the operations?
-- **First useful result or blocker:** A recursive evaluation rule, or a source equation that its values fail to preserve. For commands `I(x)=x+1` and `D(x)=2*x`, execution from left to right gives `I;D: x -> 2*x+2` and `D;I: x -> 2*x+1`. Counting both words as two commands retains their length but loses their different effects.
-- **Start with:** [MATH.5 - Extend a Generator Assignment to a Homomorphism](#math5---extend-a-generator-assignment-to-a-homomorphism), :4.1-:4.4 and :5.2. Assign the generator values and target operations, evaluate composites from their parts, and test any equations that identify source expressions.
-- **Stop or return:** Use the value or reusable map. If the source equates `I;D` with `D;I`, the effect map fails while the length map can remain useful. Keep the distinctions needed by the question. [MATH.6](#math6---construct-a-countermodel) helps construct a failing instance; [MATH.7](#math7---transport-a-mathematical-structure-through-a-bijection) addresses reversible changes of representation.
-
-### MP-REFUTE - Test whether the assumptions force the conclusion
-
-- **Situation:** A mathematical implication survives the examples tried so far, but its necessity remains unclear.
-- **Question:** Can its assumptions hold while its conclusion fails?
-- **First useful result or blocker:** A construction satisfying the assumptions and defeating the conclusion, or a result limited to the class actually searched. For example, `g(f(a))=a` can hold for every source element even when `f` misses a target element: take `A={u}`, `B={0,1}`, `f(u)=0` and `g(0)=g(1)=u`. Then `f(g(1))=0≠1`.
-- **Start with:** [MATH.6 - Construct a Countermodel](#math6---construct-a-countermodel), :4.1-:4.5. Retain the domains and assumptions, work out the negated conclusion, and construct the objects that satisfy both. If a search tool supplies a candidate, check it using the original mathematical definitions.
-- **Stop or return:** Use the countermodel to revise the affected claim. If `f` and `g` act on the same finite set, the left-inverse premise implies a right inverse, as :5.2 proves. An unsuccessful finite search alone cannot establish the unrestricted claim. FPF B.5.RR follows the change through an existing argument; B.5.QD helps develop a useful next question.
-
-### MP-TRANSPORT - Calculate in a reversible representation
-
-- **Situation:** Another representation may simplify the work, but familiar operations on its labels can give the wrong answer.
-- **Question:** Which operations and quantities must be carried so that the answer returns to the original problem?
-- **First useful result or blocker:** An operation in the new representation and a rule for converting its result back, or a failed correspondence. On the real numbers, let `h(x)=x+1`, with return `x=y-1`. Source addition becomes `u⊕v=u+v-1`. The equation `x+3=7` becomes `y⊕4=8`, giving `y=5` and then `x=4`.
-- **Start with:** [MATH.7 - Transport a Mathematical Structure Through a Bijection](#math7---transport-a-mathematical-structure-through-a-bijection), :4.1-:4.5. Establish both inverse equations; decode the inputs, perform the source operation and encode its output. Translate constants and any other quantity used by the requested result.
-- **Stop or return:** Use the transported structure and recover the answer. In the coordinate example in MATH.7:5.3, a new length question needs its own formula even when vector addition stays unchanged. If different source elements receive the same value, full recovery needs extra information or another map; use [MATH.2](#math2---form-a-quotient-that-preserves-operations) when retaining only the required operations and answers is enough. FPF C.29 addresses what a mathematical result means for another subject.
-
-### MP-INTERPRET - Compare descriptions with different primitives
-
-- **Situation:** Two mathematical descriptions seem interchangeable, but they start from different operations or admit different transformations.
-- **Question:** Which construction or conclusion can be carried between them, and what is needed to return?
-- **First useful result or blocker:** An interpretation with its supported scope. On the integers, a ternary operation `t(x,y,z)=x-y+z` and a marked zero recover addition as `t(x,0,y)` and negation as `t(0,x,0)`. These operations in turn recover t.
-- **Start with:** [MATH.18 - Compare Mathematical Accounts through Interpretations](#math18---compare-mathematical-accounts-through-interpretations), :4.1-:4.4. Select the consequence, construct each required primitive in the other account, and establish preservation and any needed return. Include the allowed maps and quantifier ranges when the consequence uses them. For a prepared reversible representation change, MATH.7 may already suffice.
-- **Stop or return:** Keep the transfer that has been established. Removing the marked zero leaves t-expressions usable, but the same t permits different choices of origin; recovering the former addition requires that choice again. Revisit the affected primitive or map class when the requested consequence changes.
-
-### MP-AXIOMS - Change an assumption and recover usable consequences
-
-- **Situation:** A mathematical theory excludes the objects or operations needed for a new question.
-- **Question:** What changes when an axiom is weakened, replaced or added, and which earlier consequences survive?
-- **First useful result or blocker:** A retained conclusion with a proof under the new assumptions. Dropping commutativity from a group leaves cancellation available: from `ax=ay`, multiply both sides on the left by the inverse of a. Associativity and the inverse laws supply `x=y`.
-- **Start with:** [MATH.22 - Change Axioms and Trace Their Consequences](#math22---change-axioms-and-trace-their-consequences), :4.1-:4.4. Identify the changed axiom, inspect the constructions and proof steps that use it, and obtain a proof, interpretation or model comparison answering the new question. MATH.18 helps compare interpretations and MATH.19 constructs a replacement argument.
-- **Stop or return:** Keep conclusions whose justification survives. A countermodel can refute a proposed consequence of the changed assumptions. Introducing a name for a desired operation leaves its existence or construction to be established; the body's join and inverse examples show how that question changes the next move.
-
-### MP-SYMMETRY - Generate related solutions and determine their reach
-
-- **Situation:** One solution is known, and a transformation may produce more solutions without solving every case again.
-- **Question:** Which answers does the transformation reach, and what remains outside that family?
-- **First useful result or blocker:** Another solution, a complete orbit, or a condition the transformation fails to preserve. For the real equation `x^4-5*x^2+4=0`, sign reversal turns the known root 1 into -1. It returns only that pair; the roots 2 and -2 belong to another orbit.
-- **Start with:** [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry), :4.1-:4.4. Give the transformations on the data and answers, establish preservation of the solution condition, and generate the required family. [MATH.13](#math13---derive-a-consequence-from-a-symmetry) develops the prior question of what consequence a proposed symmetry supports. For solutions of fixed data, use transformations that leave those data unchanged. Compare answers to remove repetitions.
-- **Stop or return:** A related answer or one orbit may meet the request. A claim to all solutions needs an additional coverage argument; the polynomial's factorization provides it in :5.1. If a representative problem changes the data, retain the transformation needed to return its answer. [MATH.9](#math9---construct-a-choice-rule-that-respects-symmetry) addresses selecting one answer consistently across transformed inputs.
-
-### MP-CHOOSE - Make a choice that respects relabeling or rotation
-
-- **Situation:** A rule must choose one answer, and transforming the input must transform the chosen answer correspondingly.
-- **Question:** Which permitted answer can the input's symmetries leave fixed, and how can it determine a rule for related inputs?
-- **First useful result or blocker:** A consistent choice, or an input on which the required choice is impossible. Four cyclic positions have costs (1,3,1,3). A half-turn leaves these costs unchanged but swaps the two cheapest positions. Neither possible cheapest answer stays fixed, so a deterministic choice satisfying the rotation rule cannot answer this unmarked input.
-- **Start with:** [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry), :4.1-:4.4. Retain the permitted outputs, find all input-preserving transformations, and obtain an answer they also preserve. The body shows how that answer extends along an input orbit and returns through a normalizing transformation.
-- **Stop or return:** Use the constructed rule or revise the requirement that causes the obstruction. Adding a meaningful mark permits choosing the first cheapest position clockwise from it, as :5.1 proves. Returning all minimizers is another output when the receiving task can use it. A calculation seeking a minimum under constraints can continue through [MATH.10](#math10---derive-a-condition-from-an-admissible-variation).
-
-### MP-VARY - Change a candidate while preserving its constraints
-
-- **Situation:** You need an improving change or a condition for an optimum, and changing one quantity independently may violate a retained constraint.
-- **Question:** Which changes are allowed, what do they do to the criterion, and how much does the calculation establish?
-- **First useful result or blocker:** An improving feasible candidate, a necessary condition or a justified optimum. For nonnegative real allocations with `x1+x2=10` and cost `J=x1^2+2*x2^2`, changing (6,4) to (7,3) preserves the total and lowers the cost from 68 to 67.
-- **Start with:** [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation), :4.1-:4.5. Construct the coupled change `(x1+h,x2-h)`, keep its allowed parameter range, and calculate the finite difference or a justified local approximation. The allocation example needs only algebra; the history example additionally uses differentiation and integration.
-- **Stop or return:** An improving candidate can be enough for the next move. A global optimum needs an argument covering every allowed candidate or an applicable sufficiency result. If `x1<=6` is added, the proposed move from (6,4) to (7,3) becomes unavailable. The same family now has `-6<=h<=0`; its difference `-4*h+3*h^2` establishes the constrained minimum at (6,4). For a physical action, the requested condition may be stationarity rather than a minimum; :5.2 works through that difference.
-
-### MP-INVARIANT - Find what the allowed steps preserve
-
-- **Situation:** Trying more sequences has not settled whether a result is possible, or a formula still needs a reason to hold after any number of steps.
-- **Question:** What function of the state stays unchanged under every allowed transformation?
-- **First useful result or blocker:** A preserved expression and its consequence, or an exhausted expression family. When steps add or subtract 2 from an integer, the remainder modulo 2 is preserved. Starting from zero, the construction cannot reach 1.
-- **Start with:** [MATH.11 - Construct an Invariant from Transformation Rules](#math11---construct-an-invariant-from-transformation-rules), :4.1-:4.5. Substitute each allowed change into a candidate expression, solve for preservation and use its value to answer the question. The body shows how to obtain weights and polynomial expressions and when changing the arithmetic reveals a useful invariant.
-- **Stop or return:** Stop with the required formula, exclusion or useful restriction. Equal values leave reachability to an additional construction. Adding a unit step destroys the parity obstruction; recalculate the affected preservation condition.
-
-### MP-EXTRACT - Turn a proof into an operation that returns its object
-
-- **Situation:** A proof establishes existence or connects two constructions, but the next calculation needs the object or transformation itself.
-- **Question:** Which values and operations in the proof produce the wanted output?
-- **First useful result or blocker:** An expression returning the object, or a step that lacks the required data or decision. Expanding `(a+b)^2-(a-b)^2` gives 4ab, so the quotient by four is obtained by multiplying a and b.
-- **Start with:** [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof), :4.1-:4.4. Find where the object is introduced, recover its inputs and compose the supplying operations. For induction, [MATH.4](#math4---construct-a-witness-by-induction) supplies the base and step constructions.
-- **Stop or return:** Return the object and its property, or the particular construction still needed. A proof of existence can justify an independently defined finite search. A changed representation can remove a branch decision, and an infinite input can invalidate a finite termination argument.
-
-### MP-BOUND - Obtain enough of an answer without solving the whole problem
-
-- **Situation:** Finding the best value or complete object is costly, but a justified bound could settle the question.
-- **Question:** What feasible construction or comparison would place the unknown on the useful side of a threshold?
-- **First useful result or blocker:** One side of the answer. A known path of length 7 proves that the shortest path is at most 7. A node potential satisfying the edge inequalities in MATH.20:5.1 supplies the lower bound; a feasible path meeting it establishes the optimum.
-- **Start with:** [MATH.20 - Bound an Unknown by Comparable Constructions](#math20---bound-an-unknown-by-comparable-constructions), :4.1-:4.4. Choose the unknown and comparison relation, construct a witness, enclosure or inequality, prove its direction, and carry it through the operations the answer needs.
-- **Stop or return:** Use the bound when it settles the receiving question. If it leaves a consequential gap, improve the part that introduced the slack. Adding a new edge may invalidate a shortest-path lower bound while leaving a previous feasible path usable. FPF's comparison and improvement methods help decide whether further work on the bound is worthwhile.
-
-### MP-APPROX - Construct a limit and retain the operation needed next
-
-- **Situation:** An object must be obtained through successively finer information or approximations.
-- **Question:** In which space and sense should the approximations converge, and what can be done with their limit?
-- **First useful result or blocker:** A construction with a known remaining uncertainty. To obtain the positive real root of `x²=2`, start with [1,2]. The midpoint 1.5 has square greater than 2, so [1,1.5] retains the root and halves the width. Repeating the construction gives arbitrarily narrow intervals.
-- **Start with:** [MATH.21 - Construct an Object through Convergent Approximations](#math21---construct-an-object-through-convergent-approximations), :4.1-:4.5. Specify the space and observations, construct compatible approximations, establish a limit in that space, then justify the operation that will use it. MATH.20 supplies bounds when the construction needs them.
-- **Stop or return:** Return enough finite information for the requested answer, or identify the missing existence, convergence or obtaining step. Rational interval endpoints can approximate the root, but no rational number has square 2. A changed next operation also needs attention: uniform convergence of function values can support integration on a fixed bounded interval while leaving convergence of derivatives unestablished.
-
-### MP-CONJECTURE - Turn a changed construction into a useful next problem
-
-- **Situation:** A construction works in one setting, but changing the input, rule or required result reveals an unresolved regularity or failure.
-- **Question:** What mathematical claim would explain the difference and make the next construction possible?
-- **First useful result or blocker:** A repaired construction and a conjecture to prove. Averaging the means of groups [0] and [2,4] gives 1.5, whereas the combined mean is 2. Retain each group's sum and count. The conjecture is: for every nonempty finite list of real numbers and every partition into nonempty groups, the sum of group sums divided by the sum of group counts equals the mean of the original list. This opens the question: which other summaries support combination for all allowed groupings?
-- **Start with:** [MATH.23 - Develop a Conjecture by Changing a Construction](#math23---develop-a-conjecture-by-changing-a-construction), :4.1-:4.5. Vary a stated part, formulate the claim with its domain and quantifiers, try a proving or refuting operation, and revise the assumption, construction or conclusion while keeping the needed use.
-- **Stop or return:** Return a proved or refuted claim, a repaired conjecture or the next attainable mathematical operation. MATH.19 supplies a missing proof, MATH.6 a separating case, and MATH.22 a theory change. B.5.QD and C.40.CD connect the mathematical question with the further work it could enable.
 
 ### MP-COMBINE-RESULTS - Change a rule so that separately obtained results can be combined
 
@@ -242,7 +92,6 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 #### Worked connection for MP-COMBINE-RESULTS
 
-**Connection to keep in view:** Name the answer to preserve → expose what combining loses → construct the retained information and combination → justify every allowed grouping → use the rule → reopen what changed work needs.
 
 **1. Recover the failure and intended result.** Averaging the means of [0] and [2,4] gives 1.5, while the mean of the combined list is 2. MATH.23 turns this difference into a question: which summary recovers the mean of every nonempty combined finite list, for every partition into nonempty groups? The result is a claim and its range of cases for the identification step.
 
@@ -856,6 +705,14 @@ which gives the required result. To establish the law generally, first expand tw
 
 The same method of working is used as in :5.2: construct the operator, identify the law needed for the proposed use, and establish that law. Here it enables transforming a product expression into its derivative.
 
+#### MATH.17:5.4 - Change a function while preserving its increments
+
+Given a function f from the real numbers to the real numbers and a chosen point c, construct a function g that fixes c and preserves every increment of f. The requirements are g(c)=c and g(x)-g(y)=f(x)-f(y) for every x,y.
+
+Set y=c in the second requirement. It forces g(x)=f(x)-f(c)+c. This defines a real-valued function; substituting c establishes the fixed point, and subtracting its values at x and y cancels the added constant and preserves the required increment. Thus the formula supplies the unique function under these requirements.
+
+The transformation takes f itself as an input and returns g. Fixing a point and preserving increments do not settle an additional question about composition or cost. The repetition case in :5.2 shows how different requested changes lead to different operations on the same input rules.
+
 ### MATH.17:6 - Bias-Annotation
 
 A familiar collection of “valid operations” can conceal an unproved closure claim. A familiar higher-order operation can conceal the choice of law used to combine its results. Work with the actual membership condition and proposed equation; the failing inputs in :5.1 and :5.2 locate those different errors.
@@ -1023,6 +880,14 @@ Adding a second loop `b` changes the situation. The paths `a;b` and `b;a` both h
 On integers let `f(x)=x+1` and `g(x)=2*x`. Both generators start and end in the integer type, so both orders are composable. Starting from 0, `f;g` returns 2, while `g;f` returns 1.
 
 The associativity argument allows regrouping a longer list. It does not authorize exchanging `f` and `g`. The differing results make that boundary consequential.
+
+#### MATH.1:5.4 - Keep the intermediate states of interacting updates
+
+Two updates to a counter each read its current value, retain that reading and later write the reading plus one. From zero, finishing one update before the other gives two. If both read zero before either writes, the final value is one.
+
+To represent the difference, a state retains the counter, each update's saved reading and whether its read and write have occurred. A read copies the counter into that update's saved value; its later write replaces the counter by that saved value plus one. Form paths in which each read precedes its own write. The paths read-A, write-A, read-B, write-B and read-A, read-B, write-A, write-B return two and one respectively.
+
+Treating each update as one indivisible arrow would lose the second path. If the work can require one complete update to finish before the other, the restricted paths preserve both increments. FPF C.29 establishes how these transitions describe the implemented work; Method Engineering ME.7 helps change its composition. Choosing an implementation also depends on how it handles waiting, interruption and failure.
 
 ### MATH.1:6 - Bias-Annotation
 
@@ -1215,6 +1080,14 @@ Take the one-generator paths `a^n` from MATH.1, with concatenation `a^m;a^n=a^(m
 Compatibility propagates this equation under concatenation. Adding one `a` gives `a^3~a`, and repeated deletion of a pair reduces every even-length word to the empty path and every odd-length word to `a`. These two groups remain distinct: parity itself is a compatible relation satisfying the imposed equation, as :5.1 shows, so the smallest such relation cannot identify opposite parities. This yields two classes and a composition table identical to the addition table above.
 
 The quotient can describe the parity of repeated toggling. It discards the number of toggles. If each use takes time, elapsed cost cannot be recovered from those two classes alone. Retain the length or accumulated cost for a question that consumes it.
+
+#### MATH.2:5.4 - Normalize labelled values before identifying them
+
+A temperature-checking method accepts values labelled Celsius or kelvin. It converts them to kelvin, then tests membership in the inclusive interval [273.15,303.15]. Grouping inputs by their numeral alone loses the answer: 20 Celsius becomes 293.15 kelvin and passes, while 20 kelvin fails.
+
+Let n(v,C)=v+273.15 and n(v,K)=v. Identify inputs when their n-values agree. Every input has a normalization result, and identified inputs have equal results; both the normalization and the following interval test therefore descend to these classes. This uses the separate input and output sorts of :4.1.
+
+A later question about the original unit cannot be answered from the class alone. Retain the label when that question matters. If the description of the working method places comparison before normalization, Method Engineering ME.12:4.4 helps locate and repair that contradiction. The mathematical compatibility test and the repair of the described work answer different parts of this example.
 
 ### MATH.2:6 - Bias-Annotation
 
@@ -1867,6 +1740,14 @@ The return takes n to `R^n` with its standard basis and a matrix to its linear m
 Now ask for lengths in Euclidean space. With basis `b1=(1,0)`, `b2=(0,2)`, coordinates `(0,1)` represent a vector of length 2; their ordinary coordinate length is 1. The linear comparison did not include the inner product. Carry it as a Gram matrix: here `G=diag(1,4)` and squared length is `c^T*G*c`. Retaining G lets us calculate the same vector's length after changing coordinates.
 
 A different question asks which linear maps preserve lengths. For a map from V to W represented by matrix M, with Gram matrices `G_V` and `G_W`, require `M^T*G_W*M=G_V`. This follows by comparing the squared length `c^T*G_V*c` of every input with `(M*c)^T*G_W*(M*c)` of its output. Use that condition to select the length-preserving maps. The earlier interpretation of arbitrary linear maps remains available when length preservation is not required.
+
+#### MATH.18:5.4 - Recover an operation using a chosen origin
+
+On the integers, one account supplies the ternary operation t(x,y,z)=x-y+z and a marked origin 0. It recovers addition as t(x,0,y) and negation as t(0,x,0). Conversely, addition and negation recover t. Substitution verifies both returns for every integer input.
+
+Now remove the marked origin. Choosing any integer c gives an addition x+_c y=t(x,c,y)=x-c+y, identity c and inverse 2c-x. Combining these operations again gives the same t(x,y,z). The ternary operation alone therefore permits several choices of origin and corresponding binary operations.
+
+For example, c=0 makes the sum of 2 and 3 equal 5; c=1 makes it equal 4 under +_1. Both choices recover the original ternary operation. A question using only t can continue without selecting an origin; recovering the former addition needs its marked origin again. This distinguishes a usable one-way interpretation from a return that silently supplies extra structure.
 
 ### MATH.18:6 - Bias-Annotation
 

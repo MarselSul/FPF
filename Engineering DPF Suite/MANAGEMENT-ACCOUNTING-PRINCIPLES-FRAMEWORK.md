@@ -12,7 +12,7 @@ Management Accounting helps a controller, accountant or manager explain how work
 
 | § | Publication unit | Use |
 | --- | --- | --- |
-| R | [Management Accounting Readme](#management-accounting-readme) | Select a first question and obtain a useful result. |
+| R | [Management Accounting Readme](#management-accounting-readme) | Follow connected resource, accounting, forecasting and decision questions. |
 | P | [Preface](#preface) | Understand the connected methods, alternatives and limits. |
 
 **Patterns**
@@ -33,33 +33,50 @@ Management Accounting helps a controller, accountant or manager explain how work
 
 ## Practical entries
 
-These are selected entry examples, not a catalogue or a coverage boundary. Bring the actual accounting question. Use the index or a direct pattern when no example fits, and use an adequate existing account when it already answers.
+Management Accounting connects work and resource use with the monetary accounts needed for a decision. One method can supply resource quantities, another explain capacity or an assignment convention, and another reconcile those results with reporting and payment time. The receiving operating or financial method uses those meanings to compare the available actions.
 
-**MA** is the reference code for this framework. In MA.4:5, 4 identifies the pattern and 5 its section. The index gives publication order, not a required order of work.
+These are selected connected examples, not a catalogue or a required sequence. Enter where the explanation is missing; reuse an adequate model or account. The [Table of Contents](#table-of-contents) gives direct access to the methods, and the [Preface](#preface) explains the repertoire. You can ask an assisting agent to explain a pattern or comment on your case in the language of your work, without framework jargon. In MA.4:5, 4 identifies the pattern and 5 its section.
+
+The calculations below are constructed cases under supplied operating, contractual and accounting premises. When applying them, obtain the applicable facts, reporting rules and decisions from the responsible practitioners.
 
 ### MA-E1 — An order is priced below reported average cost
 
-- **Situation:** A proposed order looks loss-making in the standard report, but its actual resource requirements and payment consequences are unclear.
-- **Question:** What resources and money would this work require under the available arrangement?
-- **First useful result or honest blocker:** A sufficient resource-consumption and cost model, or the specific dependency or capacity premise still missing.
-- **Start with:** [MA.1](#ma1---build-the-resource-consumption-and-cost-model).
-- **Stop or return:** Supply adequate quantities and conditions to OPS.14 for the comparison. Return an unresolved operating schedule, financial term or funding question to the practice that can settle it.
+- **Situation:** A proposed order looks loss-making in the standard report, but its resource demands, capacity conditions and payments may tell a different story.
+- **Question:** What does accepting the work change, and can its payments and operating demands be met when required?
+- **First useful result or blocker:** A usable resource and monetary model, then an operating comparison and the remaining capacity or funding question.
+- **Start with:** [MA.1 - Build the Resource-Consumption and Cost Model](#ma1---build-the-resource-consumption-and-cost-model) when the dependencies are missing. Use an adequate model directly; enter MA.2 or MA.3 for a disputed capacity or assignment meaning.
+- **Stop or return:** Supply the supported quantities and conditions to OPS.14 for the comparison. An unresolved schedule, financial term or funding question returns to the practice that can settle it.
+
+1. **Recover what the order consumes.** In MA.1's test-order case, an order for 100 accepted units would bring 1,200 of receipts while the report assigns 1,500 of cost. Under the supplied one-attempt premise, six to nine setup hours plus twenty processing hours require 26–29 rig-hours. The operating account establishes twenty uncommitted hours and one obtainable ten-hour block. The interval already settles the one-block question; a more precise setup measurement would not change it.
+2. **Attach payments through the actual supply arrangement.** [MA.2 - Explain the Cost and Use of Capacity](#ma2---explain-the-cost-and-use-of-capacity) keeps occupied hours, supplied blocks and payment changes distinct. The extra block costs 240; fourteen qualified staff-hours fit the supplied sixteen with unchanged pay. Materials cost 200 and the supplier 100, so the model returns 540 of additional payments. If the reported amount is instead disputed as a shared assignment, [MA.3 - Assign Shared Costs for the Stated Use](#ma3---assign-shared-costs-for-the-stated-use) recovers its tracing or convention. Changing that assignment does not establish a changed payment.
+3. **Use the model for the receiving comparison and funding question.** With no displaced contribution and all other flows unchanged, OPS.14 compares 1,200 with 540 and obtains 660. The whole cash position answers a different question. Without the order, 500 would remain available through day 28 after all other receipts and obligations. Paying the order's 440 now leaves sixty, but the supplier's 100 is due on day 7 and the customer pays on day 28. The funding gap of forty remains despite the favorable comparison. An additional receipt of fifty common to both options before day 7 would close that gap without changing the 660 difference.
+4. **Return a changed premise to the result it affects.** An eleven-hour setup makes demand 31 hours, beyond the supplied thirty. Reopen the resource model and operating feasibility; the earlier one-block result no longer applies. A later change in payment terms instead reopens the timed account. Neither requires rebuilding an unchanged part of the model.
 
 ### MA-E2 — Profit and cash movement disagree
 
-- **Situation:** A positive reported result appears alongside a cash shortfall.
-- **Question:** Which inventory, recognition and settlement differences explain the two accounts?
-- **First useful result or honest blocker:** A reconciled explanation retaining each account's meaning, or a located event or policy discrepancy.
-- **Start with:** [MA.4](#ma4---reconcile-operating-reporting-and-cash-accounts).
-- **Stop or return:** Use the account required by the receiving decision. An actual funding question needs the whole timed cash position.
+- **Situation:** A positive reported result coexists with falling cash, and a lower unit-cost figure may be encouraging additional production.
+- **Question:** Which differences belong to the accounts' meanings, and which actual action or use of the account may need to change?
+- **First useful result or blocker:** A reconciled explanation of the accounts; if their use is the problem, a supported change to that use or the unresolved behavioral explanation.
+- **Start with:** [MA.4 - Reconcile Operating, Reporting and Cash Accounts](#ma4---reconcile-operating-reporting-and-cash-accounts). Use [MA.9 - Examine the Behavioral Effects of an Account](#ma9---examine-the-behavioral-effects-of-an-account) directly when the monetary meanings are adequate and the unresolved question concerns behavior.
+- **Stop or return:** A sufficient reconciliation can finish the request. A funding decision needs the whole timed cash position; changing rewards or authority needs the responsible organizational decision.
+
+1. **Put the views on their actual event and policy bases.** MA.4's case starts with no opening balances or other transactions. Producing 100 units costs 200 in materials and 300 in resource supply, all paid; sixty units sell for 600, of which 400 is received and 200 remains receivable. Under the supplied full-production-cost policy, cost of sales is 300, closing inventory 200 and the reported result 300. Cash movement is −100.
+2. **Carry the reconciliation to its user.** The internal account values inventory at materials only and expenses the 300 resource-supply payment, giving a result of 180 and inventory of eighty. Thus 300 − 200 inventory − 200 receivables and 180 − 80 inventory − 200 receivables both give −100. The 120 difference between results is retained production-resource cost, not another receipt. Preserve each view for its warranted use. If an event or policy is unresolved, obtain that answer from OPS.15 or the responsible reporting practice.
+3. **Use the explanation to examine a consequential choice.** Suppose management considers producing 120 units with the same 300 resource payment and unchanged sales of sixty. MA.9 compares the account and the resulting resource use: unit cost falls from five to 4.5, but materials consume forty more in cash and unsold quantity rises from forty to sixty. This establishes the divergence the measure conceals. Whether an actual production increase followed that incentive, anticipated demand or another reason remains a separate question.
+4. **Repair only the supported problem and return changed conditions.** If the account's use is the established problem, the responsible manager can stop treating lower unit cost alone as improved performance and consider demand, inventory and resource consequences together. Preserve the legitimate reporting account. Evidence of a warranted future requirement could instead support the extra production. A changed measurement or allocation basis returns to MA.4 or MA.3 before a performance comparison; [MA.7 - Explain a Cost or Margin Difference](#ma7---explain-a-cost-or-margin-difference) uses comparable meanings to separate the consequential difference from its still-unresolved cause.
 
 ### MA-E3 — The forecast has become a resource negotiation
 
-- **Situation:** A team is expected to report one number as its demand outlook, target and request for resources.
-- **Question:** What does each number mean, and which decision would resolve the consequential gap?
-- **First useful result or honest blocker:** Distinguishable expectations, ambitions, requests and authorizations on an adequate comparison basis.
-- **Start with:** [MA.6](#ma6---separate-forecasts-targets-and-resource-requests).
-- **Stop or return:** Keep the expectation visible and obtain the relevant management or resource decision. A revised forecast does not itself grant resources.
+- **Situation:** One number is expected to serve as demand outlook, ambition, resource request and authorization, concealing the decision needed when they differ.
+- **Question:** Which expectation should remain visible, and which actual action or resource decision could change the outlook?
+- **First useful result or blocker:** Distinguishable expectations, ambitions, requests and authorizations, connected to the resource or management decision that matters.
+- **Start with:** [MA.6 - Separate Forecasts, Targets and Resource Requests](#ma6---separate-forecasts-targets-and-resource-requests) for mixed meanings; [MA.5 - Construct and Update an Operating Forecast](#ma5---construct-and-update-an-operating-forecast) when the meanings are settled and the outlook needs construction or revision.
+- **Stop or return:** Keep an adequate expectation visible. A resource request, its authorization and usable provision remain different results.
+
+1. **Recover the use of each number.** MA.6's case has demand expected at 100 units, an ambition of 120, a request for provision covering a possible surge to 130, and authorization covering 110 under the supplied mix and scheduling assumptions. The authorization neither changes expected demand to 110 nor makes the ambition feasible.
+2. **Connect the gap to the result that can resolve it.** MA.5 uses the warranted demand outlook and its uncertainty. Where conversion is missing, MA.1 and MA.2 relate demand to resource quantities and payments, using the adequate operating capacity account. The responsible manager can then decide about provision, scope or ambition. Keep a proposed addition in the scenario where it occurs; do not make it available by editing the forecast.
+3. **Propagate the actual change.** If a market action warrants a new expectation of 115, MA.5 updates that outlook and its assumptions. The gap against authorized capability is five units on the same basis; the target remains 120 and authorization 110 until their responsible participants change them. A fixed resource payment stays fixed under its terms even when demand changes.
+4. **Use the later result without rewriting the earlier prediction.** Retain the earlier forecast's premises when learning from outcomes. MA.7 can explain a comparable difference; action taken in response may account for part of it. If the reward or negotiation arrangement still suppresses unwelcome expectations, MA.9 examines that specific use and returns any wider organizational change to its responsible practice. The clarified accounts may already resolve the question.
 
 # Preface
 

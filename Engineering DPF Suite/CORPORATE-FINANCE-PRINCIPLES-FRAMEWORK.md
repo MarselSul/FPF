@@ -11,7 +11,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 
 | § | Publication unit | Use |
 | --- | --- | --- |
-| — | [Corporate Finance Readme](#corporate-finance-readme) | Enter through a financial question. |
+| — | [Corporate Finance Readme](#corporate-finance-readme) | Follow connected financial decisions and a direct value calculation. |
 | — | [Preface](#preface) | Understand the language and how its methods connect. |
 | — | [References](#references) | Find supplying editions, source guidance and citation information. |
 
@@ -66,14 +66,16 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 
 ## Practical entries
 
-These are selected examples, not a catalogue or a coverage boundary. Bring the actual financial question. If no example fits, use the Table of Contents or enter a direct pattern. The patterns are a repertoire: their numbering and Parts do not prescribe an execution sequence.
+The connected cases below follow a financial question through the results it needs: dated cash into funding and execution, the value of an acquired interest into a transaction comparison, and a changed receipt into a treasury response. Enter where the missing result lies and reuse adequate supplied accounts. The short project-value example at the end also shows where a direct calculation can finish.
+
+These are constructed examples, not market offers or a required sequence. Use the Table of Contents for a known PatternID or another financial question. When working with a colleague or assistant, describe the payment, investment or exposure and the answer you need in ordinary language.
 
 ### FIN-E1 - A profitable order leaves a day-7 cash gap
 
 - **Situation:** An operating account establishes that an order is feasible and brings 1,200 on day 28 against incremental payments of 440 on day 0 and 100 on day 7. The whole-business baseline, after all other flows, has cash of 500 at each relevant date.
 - **Question:** Which available arrangement funds the order while preserving the required cash?
 - **First useful result or blocker:** The liquidity calculation finds a day-7 gap of 40 before any positive reserve. A response is usable only if its money arrives in time and its later payments remain fundable.
-- **Start with:** FIN.2 for the dated cash account, then FIN.3 for the customer-advance alternative or FIN.10 for financing terms. Use FIN.15 for the selected permitted action.
+- **Start with:** [FIN.2](#fin2---recover-cash-liquidity-and-commitments) for the dated cash account, then [FIN.3](#fin3---manage-working-capital-and-cash-conversion) for the customer-advance alternative or [FIN.10](#fin10---design-financing-instruments-and-terms) for financing terms. Use [FIN.15](#fin15---execute-treasury-and-liquidity-decisions) for the selected permitted action.
 - **Stop or return:** Complete the comparison with a supported choice of an arrangement whose receipts are available in time and whose repayments are fundable, or identify the specific missing condition. Return when collection, reserve, fees, draw access or repayment changes.
 
 The order requires 26–29 rig-hours. The supplied operating plan has 20 usable hours plus an available ten-hour block costing 240. Materials cost 200 and supplier service costs 100. Materials and the block require 440 on day 0; the supplier's 100 is due on day 7. Those adequate operating and accounting results give the 540 of incremental payments and a favorable contribution of 660. Finance can use them directly.
@@ -87,6 +89,37 @@ After paying 440, cash is 60. The day-7 payment of 100 creates the gap of 40. A 
 
 On these conditions, the advance provides one more unit of gain and a larger buffer. Without the customer's agreement, the proposed advance is not available to pay the day-7 obligation. If a positive reserve is required, the zero-cash facility row must change. If collection moves to day 40 but the loan remains due on day 28, its 45 repayment becomes a new gap. A positive total contribution does not establish an extension.
 
+[FIN.16](#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) uses the funded alternatives and their operating conditions to return the advance recommendation, or conditional advice if agreement or draw access is missing. Treasury then uses [FIN.15](#fin15---execute-treasury-and-liquidity-decisions) under the existing authority to perform the selected action and reconcile what actually settled. If the collection expectation moves to day 40, [FIN.17](#fin17---refresh-financial-models-and-data) updates the liquidity projection and returns the unfunded day-28 repayment to [FIN.10](#fin10---design-financing-instruments-and-terms). The operating contribution can remain 660 on unchanged operating grounds, but the earlier net gain of 655 must be recalculated with a feasible repayment arrangement and its cost.
+
+### FIN-TRANSACTION - Compare an acquisition price with value and available funding
+
+- **Situation:** An operating business is valued at 100, and the buyer is considering paying 100 for its equity.
+- **Question:** What value would the buyer obtain at the proposed price, and can the purchase be funded on that basis?
+- **First useful result or blocker:** A transaction comparison that includes the acquired claims and buyer's incremental effects, with the funding condition still needed for action.
+- **Start with:** [FIN.7](#fin7---value-assets-and-the-corporation) if the value of the acquired interest is unresolved; [FIN.9](#fin9---compare-capital-investments-and-allocations) if that value is already supplied.
+- **Stop or return:** A supported conditional recommendation can finish the advice. Return to the affected value or funding calculation when price, included claims, benefits or payment conditions change.
+
+In FIN.7's constructed case, operating enterprise value is 100. Debt with market value 30 remains in the acquired company, and included excess cash of 10 is freely transferable after closing. With no other claim adjustment, standalone equity value is 100 − 30 + 10 = 80. That is the interest value FIN.9 uses to compare with the equity price.
+
+The buyer-specific benefits have present value 30, while integration and other incremental costs have present value 15, on the same date, currency and after-tax basis. At price 100, buyer value is 80 + 30 − 15 − 100 = −5. At price 90, it is +5.
+The +5 is a conditional financial result. [FIN.2](#fin2---recover-cash-liquidity-and-commitments) uses the purchase payments and their dates in the buyer's cash account. The acquired cash of 10 becomes available after closing and cannot fund a payment due before then. If the buyer needs external funds, [FIN.10](#fin10---design-financing-instruments-and-terms) compares obtainable terms by net proceeds, availability and later payments. A material change to debt and equity mix calls for [FIN.11](#fin11---select-capital-structure); a relied-on borrowing restriction calls for [FIN.12](#fin12---preserve-covenant-headroom-and-financing-flexibility). These results can change whether the purchase is available and what financing effects enter the valuation. Count any such effect once on a matching basis.
+
+[FIN.16](#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) combines the value comparison with those funding results for the buyer's decision. It can return a price-conditioned recommendation or the funding condition preventing action. If the expected benefits change, [FIN.17](#fin17---refresh-financial-models-and-data) returns their consequences to FIN.9; if the acquired debt or cash differs from the valued interest, return to FIN.7 before retaining the +5 conclusion. Using the recommendation for action still depends on the assumed consents and ability to realize benefits.
+
+### FIN-E3 - A currency hedge meets a partial customer payment
+
+- **Situation:** A customer owes 100 foreign units on day 30. A physical forward requires delivery of 100 foreign units for 90 home units that day, but the customer pays only 60.
+- **Question:** What does the hedge protect, and what must treasury now fund?
+- **First useful result or blocker:** At spot 0.95 home per foreign unit, buying the missing 40 costs 38 home units. If funded and settled, current net home cash is 52 and the unpaid customer claim of 40 foreign units remains.
+- **Start with:** [FIN.14](#fin14---design-hedges-and-financial-risk-transfer) for the combined receipt and hedge; [FIN.13](#fin13---identify-and-measure-financial-exposures) if the underlying exposure or remaining claim is unclear.
+- **Stop or return:** Settle through [FIN.15](#fin15---execute-treasury-and-liquidity-decisions) only with the required funding and authority. Reassess the remaining claim and future protection after actual performance.
+
+With the full customer receipt, the forward exchanges the 100 foreign units for 90 home units. FIN.14's partial-receipt case keeps the customer's outstanding claim separate from the forward's unchanged delivery obligation. The receipt supplies 60, so treasury must obtain the other 40. Buying them at 0.95 requires 38 home units; purchase and forward settlement together give 90 − 38 = 52 of net home cash.
+
+That net amount does not supply the money needed before the currency purchase. [FIN.2](#fin2---recover-cash-liquidity-and-commitments) checks usable funds at that time. In FIN.15's continuation, only 20 home units are usable, leaving a funding need of 18. Treasury needs a funded purchase or must return the execution problem through the provider's supported recovery and the relevant decision authority. Entering a purchase instruction does not establish delivery.
+
+After actual purchase and forward settlement, FIN.15 reconciles the amounts and dates. The unpaid customer claim of 40 remains unless a separate event changes it. [FIN.17](#fin17---refresh-financial-models-and-data) carries the partial payment into the cash and exposure accounts; FIN.13 and FIN.14 use the remaining claim, its expected collection and existing protection to decide whether future protection needs changing.
+
 ### FIN-E2 - Value a project before arranging its funding
 
 - **Situation:** A project pays 1,000 now and returns 600 at the end of each of two years. These are complete incremental after-tax operating cash flows, with no terminal value.
@@ -94,14 +127,6 @@ On these conditions, the advance provides one more unit of gain and a larger buf
 - **First useful result or blocker:** FIN.6 gives NPV 41.32 on these grounds. This completes the stated value calculation; it does not provide the initial 1,000.
 - **Start with:** FIN.6. Use FIN.5 if the required return is unresolved and FIN.2 if the next question is payment capacity.
 - **Stop or return:** Return when cash, timing, risk basis or a competing capital use changes the answer.
-
-### FIN-E3 - A currency hedge meets a partial customer payment
-
-- **Situation:** A customer owes 100 foreign units on day 30. A physical forward requires delivery of 100 foreign units for 90 home units that day, but the customer pays only 60.
-- **Question:** What does the hedge protect, and what must treasury now fund?
-- **First useful result or blocker:** At spot 0.95 home per foreign unit, buying the missing 40 costs 38 home units. If funded and settled, current net home cash is 52 and the unpaid customer claim of 40 foreign units remains. Unavailable purchase funding is an execution problem.
-- **Start with:** FIN.14 for combined exposure and protection, then FIN.15 for the permitted purchase and settlement.
-- **Stop or return:** Reassess the remaining claim and future protection after actual performance; a derivative settlement does not settle the customer's separate obligation.
 
 # Preface
 

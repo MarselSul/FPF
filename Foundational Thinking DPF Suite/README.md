@@ -4,7 +4,7 @@
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
 - **Date:** 16 September 2026
-- **Status:** Eternal alpha. All five member DPFs are available; further modeling methods and connections are being developed.
+- **Status:** Eternal alpha. All five member DPFs are available and evolve with their methods, sources and uses.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
 **Start with the [Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md)** when you need to choose among these contributions or connect them. Open a DPF directly when you already know the contribution you need.
@@ -17,6 +17,8 @@ You may know formulas or individual operations and still be unable to connect th
 | --- | --- |
 | Split or change a calculation while keeping its answer meaningful | [Change a combining rule](MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined): expose the lost distinction, construct a summary and operation, prove their compatibility, then use and revise them. |
 | Decide a question without reconstructing every hidden detail | [Obtain a sufficient answer](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail): expose what reduction loses, bound its effect, interpret the result and obtain more where it changes the answer. |
+| Decide whether another observation will improve an action | [Connect intervention, information and choice](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-intervention-and-information---decide-whether-an-observation-will-improve-the-next-action): derive the relevant consequences, compare the report's benefit with its burden, and make the subsequent choice depend only on timely information. |
+| Replace expensive component models and still obtain a usable joint answer | [Replace and couple models](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-replace-and-couple---use-cheaper-models-without-losing-the-combined-answer): retain the required responses, connect their meanings and error bounds, and refine only what prevents the answer. |
 | Develop a physical prediction and decide which observation matters | [Connect physical accounts and observations](PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs): constrain the law, derive a consequence, compare the observations that matter and revise the affected premise. |
 | Construct an algorithm and adapt it when the required answer changes | [Keep construction and output consistent](COMPUTATIONAL-THINKING-DPF.md#cp-answer-under-limits---obtain-the-answer-the-work-needs-within-available-resources): construct the recurrence, share results, use bounds where they reduce search, and revisit what may be discarded. |
 | Carry a changed instruction through several expressions | [Keep meaning and change connected](NOTATIONAL-ENGINEERING-DPF.md#nt-change-together---carry-a-changed-request-through-several-representations): recover references and interpretation, expose translation losses, and update the affected expressions. |
@@ -36,7 +38,7 @@ This is the public constitution and membership account for the Foundational Thin
 | Product series | Publication status | Useful contribution |
 | --- | --- | --- |
 | [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published - 20 patterns | Construct objects, operations and arguments; derive and use consequences. |
-| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 5 patterns | Formulate the subject question, recording, choice and change; retain what its answer needs. |
+| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 13 patterns | Formulate questions, infer unknowns and intervention effects, choose useful observations, construct continuing decisions, and change or combine models while retaining the needed answer. |
 | [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
 | [Computational Thinking DPF](COMPUTATIONAL-THINKING-DPF.md) | Published - 14 patterns | Construct and transform algorithms; connect their meaning, representations, resource requirements and interactions. |
 | [Notational Engineering DPF](NOTATIONAL-ENGINEERING-DPF.md) | Published - 8 patterns | Design, interpret, transform and coordinate expressions, including temporal and embodied notation. |
