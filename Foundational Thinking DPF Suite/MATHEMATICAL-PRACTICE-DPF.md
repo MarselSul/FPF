@@ -252,7 +252,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 **4. Connect the local calculation to all allowed combinations.** MATH.19 separates two claims: summarizing a concatenation equals combining its summaries, and extracting s/n at positive n returns the list's arithmetic mean. The first follows from addition of sums and lengths. Repeated combination follows by induction over the finite grouping, using [MATH.4](#math4---construct-a-witness-by-induction) if that induction needs construction. The argument thus covers every stated partition.
 
-**5. Use the result with its conditions.** Contributors can now return pairs to combine. FPF C.29.1 connects the mathematics to actual records: which values belong to the population and whether any are duplicated remain subject questions. Real addition supplies the laws above; floating-point regrouping needs its numerical account when rounding can change the use.
+**5. Use the result with its conditions.** Contributors can now return pairs to combine. FPF C.29 connects the mathematics to actual records: which values belong to the population and whether any are duplicated remain subject questions. Real addition supplies the laws above; floating-point regrouping needs its numerical account when rounding can change the use.
 
 **6. Develop the next question.** If the answer becomes a median, sum and count no longer suffice: [0,0,6] and [0,3,3] share both but have medians 0 and 3. Return to step 2 and use MATH.23 to construct the new question. A quantile method or a different summary can supply the next contribution.
 
@@ -460,6 +460,8 @@ For expressions, A.6.3.RT and A.6.3.RT.OE help make an operation performable in 
 For application, the C.29 family and B.5.MPC connect mathematical results, computational constructions and physical accounts. Method Engineering contributes when the result is used to design or revise a way of working. Other subject frameworks supply the physical, organizational or professional methods used with the mathematics.
 
 For evaluating alternatives, reuse FPF's characteristic, comparison and improvement methods. C.11 supports a consequential choice; C.11.DUA helps decide whether further calculation or inquiry can change that choice enough to justify its cost. Mathematical Thinking supplies the relevant construction or quantitative relation.
+
+## MATH.Preface:End
 
 # Part A - Choose and relate constructions
 

@@ -200,6 +200,8 @@ The worked cases below are constructed. They state the policy and facts needed t
 
 Revisit the affected result when the requested action, participant, rule, effective time, source meaning or evidence changes. Reuse unaffected results within their conditions. A corrected directory entry can justify a new account without creating another appointment; a valid policy change can alter later handling even if the old form remains unchanged.
 
+## ADM.Preface:End
+
 # Part A - Identify the Work and the Organizational Condition
 
 ## ADM.1 - Frame the Work Being Enabled

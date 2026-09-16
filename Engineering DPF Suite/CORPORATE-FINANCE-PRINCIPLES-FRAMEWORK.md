@@ -187,6 +187,8 @@ The language adopts these financial contributions and connects them through actu
 
 These are contribution relations, not a mandatory reading order. Reopen a dependency when its supplying result or the receiving use changes materially; unchanged adequate results remain usable.
 
+## FIN.Preface:End
+
 # Part A - Cash and decision accounts
 
 ## FIN.1 - Frame the Corporate Finance Decision, Corporation, Jurisdiction, and Time

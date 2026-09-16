@@ -120,6 +120,8 @@ For a connected use, establish that the parties, positions, terms and times agre
 
 The examples expose three consequential mistakes: an amount field substituted for its financial meaning, a group aggregate substituted for available resources and a service output substituted for the participant's outcome. Recover the missing relation rather than adding another label. When only one such question is unresolved, the other adequate accounts remain usable.
 
+## FDM.Preface:End
+
 ## FDM.1 - Recover the Financial Position Behind a Record
 
 **Type:** Architectural

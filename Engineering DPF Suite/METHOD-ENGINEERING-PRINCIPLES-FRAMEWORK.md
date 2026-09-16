@@ -450,6 +450,8 @@ FPF retains authority over Method and episteme identity, whole-forming relations
 Professional and local profiles may specialize conditions, select use-bounded claims or reuse a contribution. These are different relations; overlap is not automatically a lattice and reuse does not merge identities. A formal mathematical or structural claim uses its applicable FPF governor. No sibling DPF, Guide corpus expansion or particular software tool is a prerequisite to an independently supported direct Method Engineering result.
 
 
+## ME.Preface:End
+
 # Part I - Method Focus, Architecture History, Repertoire, Situational Criteria, and Recovery
 
 ## ME.1 - Choose and Reopen the Project Method-of-Interest

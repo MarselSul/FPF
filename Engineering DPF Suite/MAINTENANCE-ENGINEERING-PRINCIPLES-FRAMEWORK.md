@@ -220,6 +220,8 @@ The strongest common contributions are already available in FPF: [A.1.SCR](https
 The supporting DPF results have concrete receiving uses. [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-an-engineering-platform-for-practitioner-work) helps develop the enabling arrangement consumed by MNT.5. [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) supplies the identity and effectivity basis used by MNT.12. [OPS.10](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops10---qualify-capacity-under-variability) supplies qualified capacity used in MNT.7. [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts) supports a real cross-structure conflict in [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work), while [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-practical-worth-against-current-alternatives) and [ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me15---maintain-method-variants-provenance-and-reuse) support practical-worth and Method-variant questions in MNT.14. These result exchanges do not require reading every sibling edition first.
 
 
+## MNT.Preface:End
+
 # Part A - Maintained Use, Policy, Failure, and Condition
 
 ## MNT.1 - Identify the Maintained System, Use, and Permission Boundary

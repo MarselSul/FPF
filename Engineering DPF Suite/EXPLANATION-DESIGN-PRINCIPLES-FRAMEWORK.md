@@ -173,6 +173,8 @@ The examples favor explicit relations, short exchanges and inspectable outcomes.
 In practice the language changes where repair is directed and when work stops. It supplies a warranted connection, a worked correspondence, a coordinated expression, an adapted exchange, a supported retry or a justified comparison. It returns a missing subject basis, a changed decision or a stronger assurance question to the work that can answer it.
 
 
+## EXD.Preface:End
+
 # Patterns
 
 ## EXD.1 - Establish and Revise the Explanatory Question

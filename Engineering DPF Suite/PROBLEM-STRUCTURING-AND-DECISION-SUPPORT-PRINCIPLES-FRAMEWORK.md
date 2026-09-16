@@ -274,6 +274,8 @@ A different problem concerns how inquiry itself is conducted. Use [PSD.15](#psd-
 Contemporary source comparisons belong with the pattern claims they support. Earlier traditions remain valuable where their limits are understood. Neither a fashionable school nor an old success is enough to establish the present Method's fit. What changes in practice is the reader's ability to return a useful answer with visible limits—and to change that answer, or the way of obtaining it, when the actual basis changes.
 
 
+## PSD.Preface:End
+
 # Part I — Engagement, Participation, Formulation and Boundary
 
 <a id="psd-1"></a>

@@ -246,6 +246,8 @@ For example, missing out-of-hours incident cover in SensorCo's service proposal 
 
 A framework explains how to obtain or qualify a result. The strategic decision needs the applicable professional answer about its actual subject, conditions and horizon, with the limits of the supporting evidence. Check whether an existing answer supplies that contribution; if it does, reuse it. Otherwise ask the responsible practitioner for the missing answer, keeping any dependent commitment conditional.
 
+## STR.Preface:End
+
 # Part I - Locate the Strategic Concern and Uncertainty
 
 <a id="str-1"></a>

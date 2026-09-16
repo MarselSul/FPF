@@ -427,6 +427,8 @@ The twenty patterns cover independently enterable questions about operating focu
 The complete edition still does not turn a plan or calculation into performed Work, accepted service, health effect, field release, Method identity, causal improvement, or population enactment. Those claims require their own evidence, conditions, authority, and specialist results. The package table keeps the Operations questions distinct.
 
 
+## OPS.Preface:End
+
 # Part I — Bound the Operation and Select Coordination Views
 
 <a id="ops-1"></a>

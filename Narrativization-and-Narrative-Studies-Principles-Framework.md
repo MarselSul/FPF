@@ -119,6 +119,8 @@ The second discipline is owner routing. Engagement is not truth. Viewpoint is no
 
 The third discipline is evaluation before improvement. `NSTD.6` does not ask whether a narrative is beautiful in general. It evaluates one admitted narrative rendering version for one declared use under `NarrativeRenderingEpiplexity` as the narrative specialization of `C.2.8`, alongside ordering recoverability, source-return readiness, bounded engagement, owner-routed claims, values, evidence basis, missingness rules, repair actions, and reopen conditions.
 
+## NSTD.Preface:End
+
 ## Package Carrier Structure-Account Note
 
 This all-in-one package file is a DPF publication carrier: its readme, preface, pattern bodies, and support sections publish a sequential explanatory route through selected narrativization and narrative-studies problem-and-solution structures for FPF users who need to design, evaluate, repair, or govern narrative renderings. The carrier is not a narrative by type, not the domain itself, not the source pack, not a proof that every narrative will work, and not a replacement for the FPF Core patterns it depends on.

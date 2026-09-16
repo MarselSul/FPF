@@ -117,6 +117,8 @@ Bogsnes and the continuing Beyond Budgeting principles shape MA.5–6's separati
 
 Use the source qualifications in the relevant pattern when adapting its method. Reopen an affected account when actual resource behavior, contract terms, reporting rules, population or decision use changes.
 
+## MA.Preface:End
+
 ## MA.1 - Build the Resource-Consumption and Cost Model
 
 **Type:** Architectural

@@ -682,6 +682,8 @@ material result relation. [Source use and currentness](#source-use-and-currentne
 rule; each selected pattern supplies its local return.
 
 
+## MDPE.Preface:End
+
 # Part I - Engineering Subject and Style-Development Architecture
 
 ## MDPE.8 - Characterize the Music-or-Dance Work, Methods, and Change Question

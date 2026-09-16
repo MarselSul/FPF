@@ -317,6 +317,8 @@ For the current use, ask:
 Use the selected bodies' checklists for their specific questions. Recognition of an OCE difficulty needs less than assurance of an organization capability, authorized revision or causal effect; the claimed result determines the further evidence.
 
 
+## OCE.Preface:End
+
 # Part I - Frame the Change and Compare Organization Concepts
 
 ## OCE.1 - Identify the Changed Organization and Intended Contribution

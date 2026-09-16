@@ -1347,6 +1347,8 @@ Do not read the specification linearly unless that is your study goal. In projec
 
 The main practical habit is this: when a project sentence starts to matter, ask what kind of entity, relation, record, or claim it is talking about, what assertion it makes, what can responsibly be done with that assertion, and which pattern description contains the action- or judgement-guiding rule content needed next. Recover an exact Method, predicate, or `ClaimGraph` only when that distinction changes the truth, action, stop, or named reliance. That habit is small. The architecture behind it is the rest of FPF.
 
+## FPF.Preface:End
+
 # Part A - Kernel Architecture Cluster
 
 ## A.0 - Onboarding Glossary (NQD & E/E‑LOG)
@@ -87437,6 +87439,7 @@ The deterministic part of the form check handles recoverable syntax and projecti
 - the product-declared title and Readme H1, the compact opening, and absence of prohibited development or machine material from reader front matter;
 - the required H1 sequence plus the product-declared body and reference tail;
 - product-declared Readme and Preface entries in the established ToC grammar, before the logical pattern index, with no generic rival mini-menu;
+- one correctly addressed, content-free Preface end heading at the boundary of that unit;
 - authoritative index segments, aggregate row/body bijection, duplicates, and reserved support-index grammar;
 - the Readme's one practical-entry set; its explicit examples-not-coverage statement; the product's declaration of example keys and forms; exactly one H3 ordinary entry or H4 card per declared key; five ordered ordinary-entry fields; a non-empty card-group explanation; six ordered card fields; the shared reading-burden measure and mantra/card limits; and zero or one same-key H5 expansion with the declared boundary; and
 - equality and source agreement of every optional public cue that is actually projected.
@@ -87486,7 +87489,7 @@ A pattern can participate in several profiles, and a profile can draw on several
 
 ##### E.11.PFP:4.7.1 - Make a Preface section recognizable on its own
 
-A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading inside the Preface therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
+A reader entering through search, a quotation, a link or a retrieved excerpt may see a heading without its parents. Every heading that introduces Preface content therefore carries the framework's public reference code, the publication-unit key `Preface`, and its complete ordinal section path:
 
 ```text
 ## <FrameworkCode>.Preface:<n> - <Title>
@@ -87494,6 +87497,8 @@ A reader entering through search, a quotation, a link or a retrieved excerpt may
 ```
 
 For example, `## STR.Preface:1 - Problem frame - Direction and commitment under changing conditions` identifies the first section of the Strategy Preface. `### ME.Preface:7.3 - Production MethodDescription` identifies a nested section in the Method Engineering Preface. Use the framework's declared public code; name the framework as well when quoting outside a context that identifies it. The enclosing Preface H1 retains its product-declared title and established ToC entry.
+
+Close the complete Preface with one content-free H2 heading, `## <FrameworkCode>.Preface:End`, after its last paragraph, list or other content and before the next publication unit. For example, the Strategy Preface ends with `## STR.Preface:End`. This visible boundary shows where the Preface ends when it is copied or retrieved separately. It closes the whole Preface, not each numbered subsection; it adds neither a content section nor a pattern-index entry. A heading shown inside a fenced example does not close the unit.
 
 Number sibling sections in reading order, starting at 1, and carry the complete parent path into nested headings. Each nesting level adds one heading level and one ordinal. These ordinals locate sections in this Preface; their titles state the content functions. An account can combine several E.8 functions in one section or explain one function across several sections. Keep that useful arrangement instead of adding twelve empty sections to match numbers. The rule introduces no limit on useful conceptual scales; physical Markdown heading depth remains a carrier constraint.
 
@@ -87561,7 +87566,7 @@ The visible address and title use the ASCII ` - ` separator. Build each clickabl
 | CC-PFP.15 Navigation remains usable | The ToC represents Readme and Preface in its established product-native grammar before the singular pattern index; headings and labels describe their purpose, and the integrated rendered-structure summary plus intended-reader inspection exposes grouping defects without a second full read. |
 | CC-PFP.16 Whole account usable | Every substantive E.8 question has a public answer, an exact inherited answer, or an explicit use-changing gap at each selected scope. The account connects Methods and their results, retains their Architectural Rationale and shared source synthesis, and leaves direct pattern entry available. Headings or locators alone do not establish this content. |
 | CC-PFP.17 Scales and relations truthful | Further useful scales remain possible; the actual specialization, profile, composition, reuse, and publication-grouping relations are distinguished. A claimed mathematical order or lattice has the conditions required by C.29. |
-| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
+| CC-PFP.18 Whole-account sections addressable | Every Preface subsection exposes its framework code, Preface unit and complete ordinal path; nested paths and heading levels agree. The whole Preface ends with one correctly addressed, content-free H2 `:End` heading before the next unit. Addressed profile or support units identify their declared unit. Links resolve to the intended rendered headings, while the target content supplies the promised answer. Publication-unit addresses do not create pattern-index entries. |
 
 ### E.11.PFP:8 - Common Anti-Patterns and How to Avoid Them
 

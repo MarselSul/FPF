@@ -3,11 +3,11 @@
 > Mathematical, physical and computational methods for entering unfamiliar problems, using their results and developing better ways of working.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Date:** 15 September 2026
-- **Status:** Eternal alpha. Mathematical Thinking and Mathematical Modeling are available; the wider repertoire is being developed.
+- **Date:** 16 September 2026
+- **Status:** Eternal alpha. Mathematical Thinking, Mathematical Modeling and Physical Thinking are available; the wider repertoire is being developed.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
-**Start with the [Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md)** when you need to choose among these contributions or connect them. Open a DPF directly when you already know the mathematical or modeling operation you need.
+**Start with the [Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md)** when you need to choose among these contributions or connect them. Open a DPF directly when you already know the contribution you need.
 
 ## Start from a connected problem
 
@@ -17,6 +17,7 @@ You may know formulas or individual operations and still be unable to connect th
 | --- | --- |
 | Split or change a calculation while keeping its answer meaningful | [Change a combining rule](MATHEMATICAL-PRACTICE-DPF.md#mp-combine-results---change-a-rule-so-that-separately-obtained-results-can-be-combined): expose the lost distinction, construct a summary and operation, prove their compatibility, then use and revise them. |
 | Decide a question without reconstructing every hidden detail | [Obtain a sufficient answer](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp-sufficient-answer---answer-the-working-question-before-reconstructing-every-detail): expose what reduction loses, bound its effect, interpret the result and obtain more where it changes the answer. |
+| Develop a physical prediction and decide which observation matters | [Connect physical accounts and observations](PHYSICAL-THINKING-DPF.md#ph-predict-and-distinguish---develop-a-physical-prediction-and-the-test-it-needs): constrain the law, derive a consequence, compare the observations that matter and revise the affected premise. |
 | Connect mathematics to changes in working methods | [Understand and change a construction](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#32-understand-and-change-a-construction): retain the distinction a later operation uses and connect it to Method Engineering. |
 
 These examples use several patterns together. Their short sequences show dependencies; worked explanations give calculations and return points. Start at a later contribution when its inputs are available. Each DPF's Table of Contents also gives direct help for other questions.
@@ -31,13 +32,14 @@ This is the public constitution and membership account for the Foundational Thin
 
 | Product series | Publication status | Useful contribution |
 | --- | --- | --- |
-| [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published; 20 patterns | Construct objects, operations and arguments; derive and use consequences. |
-| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published; 5 patterns | Formulate the subject question, recording, choice and change; retain what its answer needs. |
+| [Mathematical Thinking DPF](MATHEMATICAL-PRACTICE-DPF.md) | Published - 20 patterns | Construct objects, operations and arguments; derive and use consequences. |
+| [Mathematical Modeling DPF](MATHEMATICAL-MODELING-PRACTICE-DPF.md) | Published - 5 patterns | Formulate the subject question, recording, choice and change; retain what its answer needs. |
+| [Physical Thinking DPF](PHYSICAL-THINKING-DPF.md) | Published - 10 patterns | Construct physical accounts, derive their consequences, build observations and revise physical assumptions. |
 | [Foundational Thinking DPF Suite Reference](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) | Published | Choose and connect available contributions, understand their organization and locate a missing contribution. |
 
-Physical Thinking, Computational Thinking and Notational Engineering are selected future DPF series. Their proposed contributions are explained in the Reference; they are not available member editions in this account. Current editions and this Reference are published together in this Suite folder.
+Computational Thinking and Notational Engineering are selected future DPF series. Their proposed contributions are explained in the Reference; they are not available member editions in this account. Current editions and this Reference are published together in this Suite folder.
 
-[FPF](../FPF-Spec.md) supplies the common reasoning methods. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/README.md) supplies collaborating domain methods, including Method Engineering and capability development. These publications can be used with this Suite without becoming its members.
+[FPF](../FPF-Spec.md) supplies the common reasoning methods. The [Engineering DPF Suite](../Engineering%20DPF%20Suite/) supplies collaborating domain methods, including Method Engineering and capability development. These publications can be used with this Suite without becoming its members.
 
 ## Purpose and continuity
 

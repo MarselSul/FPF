@@ -291,6 +291,8 @@ Use HCD.14 to test the smallest development assumption changed by an observation
 
 
 
+## HCD.Preface:End
+
 # Part I — Human Capability Demand, Programme, Practice, Evidence, Continuation, Repertoire, and Culture
 
 <a id="hcd-1"></a>

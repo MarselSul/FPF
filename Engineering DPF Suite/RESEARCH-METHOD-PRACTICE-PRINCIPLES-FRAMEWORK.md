@@ -310,6 +310,8 @@ The repertoire foregrounds the question/current-frame boundary, useful completio
 Generic source, evidence, inference, representation, comparison, uncertainty, value, decision, Method, monitoring, assurance, acceptance, and current-state mechanics retain their FPF, Method Engineering, domain, or institutional owners. The full nine-pattern repertoire still depends on the particular field's professional criteria, competence and obtainable results.
 
 
+## RMP.Preface:End
+
 # Part I - Qualify the Question and Choose a Design or Stop
 
 <a id="rmp-1"></a>

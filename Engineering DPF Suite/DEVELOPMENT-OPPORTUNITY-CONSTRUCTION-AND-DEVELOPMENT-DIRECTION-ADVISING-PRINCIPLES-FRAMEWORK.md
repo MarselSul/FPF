@@ -186,6 +186,8 @@ The practical gain is a smaller usable return: a course label becomes a contribu
 Reopen the affected guidance when a source change or repeated practitioner difficulty defeats its working move, branch boundary, source use or affordable return. An accepted later Guide contribution can change the uses it actually supports; an unaccepted future contribution supplies no current instruction. The complete bodies and applications give the instructions and worked detail for the selected question; the source tail identifies its external contributions and sources.
 
 
+## DOCA.Preface:End
+
 # Part I — Enter and characterize the inquiry
 
 ## DOCA.1 - Bound the Development-Opportunity Inquiry

@@ -48,7 +48,7 @@ You can ask an assisting agent: “Explain the result and give feedback in the l
 - **Situation:** You know relevant facts or formulas but cannot yet turn a working difficulty into a mathematical question.
 - **Question:** Which distinctions and relations would let the answer change what you understand or do?
 - **First useful result or blocker:** A small account that yields a consequence, or a named relation still needed. For a moving cart, total distance does not determine its final position. Given the starting position, signed displacements can answer that question under a straight-line motion account; a question about visits along the way needs more than the final sum.
-- **Start with:** FPF B.5.FM to choose the participants, propose their relations and work a consequence back to the question. B.5.TU helps when a theory supplies an unfamiliar account. C.29.1 connects the mathematical construction with what it represents. When the object and requirements are recognizable but their expression is missing, continue with MMP.10.
+- **Start with:** FPF B.5.FM to choose the participants, propose their relations and work a consequence back to the question. B.5.TU helps when a theory supplies an unfamiliar account. C.29 connects the mathematical construction with what it represents. When the object and requirements are recognizable but their expression is missing, continue with MMP.10.
 - **Stop or return:** Use a sufficient consequence. If a changed question separates cases that the model treats as one, recover that difference before adding computation. Return to the relevant practice for a missing physical law, observation relation or operation.
 
 ### MMP-REPRESENT - Express the intended possibilities
@@ -124,7 +124,7 @@ ME.7:4.1 helps examine the proposed composition: what each method contributes, h
 - **Situation:** A model omits internal distinctions, and reconstructing them may cost more than the requested answer needs.
 - **Question:** Which consequences are shared by the remaining possibilities, and do they already decide the question?
 - **First useful result or blocker:** A justified bound that settles a stated threshold, or the distinction whose unresolved value still changes the answer.
-- **Start with:** [MMP.9](#mmp9---derive-a-reduced-evolution-model) for lost evolution information; [MATH.20](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math20---bound-an-unknown-by-comparable-constructions) for bounds; FPF C.29.1 for subject interpretation and C.11.DUA when further inquiry is a live choice.
+- **Start with:** [MMP.9](#mmp9---derive-a-reduced-evolution-model) for lost evolution information; [MATH.20](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-PRACTICE-DPF.md#math20---bound-an-unknown-by-comparable-constructions) for bounds; FPF C.29 for subject interpretation and C.11.DUA when further inquiry is a live choice.
 - **Stop or return:** Use a settled answer under the supplied premises. A changed threshold, observation, law or time horizon returns to the affected comparison; unresolved detail matters through its effect on the intended use.
 
 #### Worked connection for MMP-SUFFICIENT-ANSWER
@@ -137,7 +137,7 @@ ME.7:4.1 helps examine the proposed composition: what each method contributes, h
 
 **3. Derive an answer shared by those alternatives.** Put x(0)=a and y(0)=1-a, with 0≤a≤1. The equations give `z(t)=a*exp(-t)+(1-a)*exp(-2t)`. MATH.20 uses this convex combination to derive exp(-2t)≤z(t)≤exp(-t) for t≥0. At time 3, exp(-3)<0.05<0.1. The upper bound settles the question for every initial split. No estimate of a is needed for this answer.
 
-**4. Return the consequence to the work.** C.29.1 asks what the populations, rates, total and threshold represent and which assumptions permit the interpretation. Under the supplied account, the condition is satisfied at time 3. Using that consequence in a real decision also uses the subject premises that made these equations applicable.
+**4. Return the consequence to the work.** C.29 asks what the populations, rates, total and threshold represent and which assumptions permit the interpretation. Under the supplied account, the condition is satisfied at time 3. Using that consequence in a real decision also uses the subject premises that made these equations applicable.
 
 **5. Reopen what changes the answer.** Suppose the next question is whether z(1)<0.2. The bounds straddle 0.2. The same formula reduces the decision to a<(0.2-exp(-2))/(exp(-1)-exp(-2)), approximately 0.278. An available bound on a may settle this. Obtaining more about a is useful when it can change the decision enough to justify its cost; C.11.DUA helps make that choice. Changed evolution laws instead return to step 2, since the old enclosure may fail.
 
@@ -311,6 +311,8 @@ B.5.QD helps turn a result, obstruction or unresolved difference into a further 
 When the difficulty is acquiring or transferring the ability to use such constructions, Human Capability Development (HCD), Explanation Design (EXD) and the relevant development methods address that learning and use. Their question differs from whether one displayed calculation is correct. Retain the preparation and support a participant needs when dividing work among people and AI agents.
 
 For evaluating alternatives and improving them, reuse FPF's characteristic, comparison and development methods. Define the consequences that matter for the question, including approximation, explanatory use, effort and ability to revise the model when relevant. Different models may supply different contributions. The next modeling operation follows the deficiency or opportunity that comparison identifies.
+
+## MMP.Preface:End
 
 # General model-forming methods
 
