@@ -3,7 +3,7 @@
 > Find the mathematical, physical, computational, modeling or notational contribution your question needs, and understand how the contributions work together.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Date:** 16 September 2026
+- **Date:** 19 September 2026
 - **Status:** Eternal alpha. This edition gives working entries through all five member DPFs and FPF, with their methods, conditions and connections.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 - **Suite:** [Purpose, membership and edition rules](./)
@@ -16,9 +16,9 @@ The linked patterns describe methods; their results still have to be obtained or
 
 | Section | What you can find there |
 | --- | --- |
-| [1. Start with a working question](#1-start-with-a-working-question) | Eight entries, including their available contributions and limits. |
+| [1. Start with a working question](#1-start-with-a-working-question) | Nine entries, including their available contributions and limits. |
 | [2. What this Suite connects](#2-what-this-suite-connects) | Mathematical, physical, computational, modeling, notational and methodological work. |
-| [3. Working combinations](#3-working-combinations) | Construction, changed methods, incomplete information, limits, continued inquiry, algorithmic development and coordinated expressions. |
+| [3. Working combinations](#3-working-combinations) | Construction, changed methods, incomplete information, limits, continued inquiry, algorithms, coordinated expressions and an operating-flow application. |
 | [4. Preparation and division of work](#4-preparation-and-division-of-work) | What a reader or collaborator needs to understand and supply. |
 | [5. Current repertoire and its limits](#5-current-repertoire-and-its-limits) | What the five DPFs provide and when another contribution is needed. |
 | [6. Architectural Rationale](#6-architectural-rationale) | Why these methods form separate languages, how they connect and when to change that arrangement. |
@@ -37,6 +37,7 @@ The linked patterns describe methods; their results still have to be obtained or
 | A procedure gives a value, but I need a witness, every answer or a different error guarantee. | Reconstruct the required output, retain enough intermediate information and revise only the shortcuts that relied on the old request. | [Construct and change an algorithm](#36-construct-and-change-an-algorithm). |
 | A formula, table or diagram is changed. What should its other expressions now say? | Recover the shared references, interpretation and intended edit; retain independent information and expose a loss or conflict. | [Carry meaning through different expressions](#37-carry-meaning-through-different-expressions). |
 | A person or AI supplied an answer. Can we use, alter and extend the way it was obtained? | Recover the needed construction and its conditions, try the changed use, and identify the next useful question or missing capability. | [Continue and distribute thinking](#35-continue-and-distribute-thinking). |
+| A local process is faster, but its recipient still waits. What should change? | Reconstruct resource occupancy, transfer and admission rules; compute the alternatives and retain the recipient's event boundary. | [Change an operating flow](#38-change-an-operating-flow-without-hiding-its-waiting). |
 
 ## 2. What this Suite connects
 
@@ -177,6 +178,41 @@ The [connected NOT example](NOTATIONAL-ENGINEERING-DPF.md#nt-change-together---c
 MATH.18 supplies mathematical interpretation and its preservation arguments. CMP.12 constructs an effective interpreter when the expressions must be executed computationally. C.29 and the physical or modeling method supply the correspondence to the measured subject. A human reading a diagram can obtain a consequence without running software; a formal meaning alone does not supply an algorithm for every consequence.
 
 When the expression is a score or gesture, NOT.8 adds the needed pulse, frame, segmentation and reading procedure. The direction a sign represents and the capability to perform that motion are different contributions. Method Engineering helps change the working method when the newly expressed or computed result makes another way of working possible.
+
+### 3.8. Change an operating flow without hiding its waiting
+
+A manager wants work to reach its recipient sooner. A local queue becomes shorter, yet the recipient waits just as long. Begin with the recipient's completion event and trace what a proposed change does to the work before, inside and after the measured operation. [Operations Management](../Engineering%20DPF%20Suite/OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) supplies the operating subjects, policies and consequences; this Suite helps construct and interpret the model.
+
+**Connect the question to the arrangement.** Use OPS.1/.3 to identify the requested result and participating work, then OPS.11 to recover consequential relations across resources and services. Distinguish a work route from the people or machines that perform it. Two stations in a diagram can need the same operator; one station can instead contain several interchangeable machines. Recover the intervals during which each resource is needed, including any unattended running time. B.5.MPC connects this account of the work with its mathematical description and computation. A changed physical arrangement can therefore change the answer even when the route diagram stays the same.
+
+A constructed case has four orders available from time zero. Each needs one hour at A, then two hours at B. Each station has its own continuously available resource, jobs use each station in order, and there are no setups, failures or returns. Completion at B makes an order ready for its recipient. Compare transferring all four orders together, transferring each as soon as A finishes, and adding an internal limit of two unfinished orders to that second policy. For each policy, use the earliest permitted starts. When an internal place becomes free, admit the next waiting order immediately.
+
+**Construct alternatives before selecting a sequence.** A.22.CGUS gives the ordinary operation: name the alternatives, their conditions and the facts that enable, block or leave them unresolved. For the unfolding work, ask whether A can start another admitted order and whether B can start a transferred order. E.18.3 gives the conditions for identifying a transformation-flow unfolding structure when the work needs that structural account. The ordinary continuation comparison is sufficient for this calculation.
+
+[MMP.10](MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp10---construct-and-revise-a-constraint-formulation) turns the scheduling question into time variables and conditions. Let a_i be order i's internal admission, s_Ai and f_Ai its A start and finish, and s_Bi and f_Bi its B start and finish. For the given station order:
+
+- s_Ai is at least a_i and the preceding A finish; f_Ai = s_Ai + 1.
+- s_Bi is at least f_Ai and the preceding B finish; f_Bi = s_Bi + 2.
+- Batch transfer additionally requires B to wait for every A finish.
+- With two internal places and single-order transfer, orders 1 and 2 can enter at zero; each later admission waits for the B completion that frees its place.
+
+Taking the maximum of the stated lower bounds constructs the earliest starts for each fixed policy. [CMP.2](COMPUTATIONAL-THINKING-DPF.md#cmp2---derive-a-recursive-procedure-from-a-problem-decomposition) and CMP.3 explain how to obtain these dependent results in order. A spreadsheet or a short program can execute the recurrence; four orders can also be calculated by hand. C.29.2 keeps the calculated schedule and the means of obtaining it distinguishable. If a resource is shared, its competing operations also need a chosen order. Construct feasible alternatives and compare their completion times; the order at each station alone may leave that resource conflict unresolved.
+
+**Compare what actually changes.** The resulting times, in hours, are:
+
+| Policy | B completions | Last completion | Mean from customer arrival | Mean from internal admission |
+| --- | --- | ---: | ---: | ---: |
+| All orders admitted at zero; batch transfer of four | 6, 8, 10, 12 | 12 | 9 | 9 |
+| All orders admitted at zero; single-order transfer | 3, 5, 7, 9 | 9 | 6 | 6 |
+| Single-order transfer; two internal places | 3, 5, 7, 9 | 9 | 6 | 4 |
+
+The third policy admits orders at 0, 0, 3 and 5. Its internal residence times are 3, 5, 4 and 4; the excluded waits total eight order-hours. OPS.15 keeps both event pairs available, so OPS.10 compares service from the recipient's waiting origin. Smaller transfer batches improve service in this case. The additional internal limit relocates waiting without further improving those completion times. In another operation, a limit can change interference, returns or service duration; those effects need their own account.
+
+The count-time relation makes the boundary visible. Over the nine-hour empty-to-empty interval, internal unfinished work occupies 16 order-hours. Its mean count is 16/9, equal to the completed-order rate 4/9 times mean internal residence 4. The customer-boundary area is 24 order-hours and mean residence 6. For an observation window that cuts through unfinished orders, count only each residence interval's overlap with that window; averaging the completed orders alone can omit the work occupying it. This finite-window reasoning follows the area construction in [Sigman's notes on Little's Law](https://www.columbia.edu/~ks20/stochastic-I/stochastic-I-LL.pdf), rather than assuming a steady regime or a delay distribution.
+
+**Return to the changed premise.** Suppose one operator must now perform all A and B work, with no overlap. Add that shared occupancy to the model. The work needs twelve operator-hours, so the previous nine-hour finish is impossible. Performing A and B for each order in turn attains twelve hours under these conditions. If a decision requires completion within ten hours, this bound already settles the proposed arrangement. Choosing a remedy returns to the available ways of changing access, work or the commitment; further queue statistics cannot make twelve required hours fit into ten.
+
+OPS.8 uses a chosen comparison to set release and protection, OPS.14 contributes the financial consequences when they matter, and ME.25 helps reconstruct a changed working method. Observation after implementation can reopen the resource occupancy, duration, transfer or completion premise. The example combines a subject account, mathematical constraints, an obtaining procedure, measurement and an operating decision; it is one application of foundational thinking. Its finite orders do not set the scope of the general methods.
 
 ## 4. Preparation and division of work
 

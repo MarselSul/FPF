@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 16 September 2026
+- **Version:** 19 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -238,13 +238,19 @@ Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.m
 | What work may happen next in this admitted case? | [OPS.6 - Continue Cases and Handle Exceptions](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-6) | A justified continuation or exception disposition. |
 | Does aging, urgency or consequence evidence revise current priority or a commitment? | [OPS.7 - Manage Aging, Urgency, and Service Commitments](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-7) | A bounded priority or commitment revision with authority and evidence. |
 | What is ready for which service, and what should release and protection policy control? | [OPS.8 - Coordinate Queues and Buffers](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-8) | A queue, release and buffer policy or the missing sizing input. |
+| Can new work start while an earlier job may return for correction? | [OPS.8.1 - Choose Releases When Work Can Return](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops81---choose-releases-when-work-can-return) | A release rule that accounts for remaining work and possible returns, with an executable response when feedback arrives. |
+| Can reserved capacity be used for other useful work and still return in time? | [OPS.8.2 - Use Protective Capacity While Keeping It Available](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops82---use-protective-capacity-while-keeping-it-available) | A choice of auxiliary work and an interruption, resource-release and restoration arrangement that preserves the required service. |
 | What currently limits completion, and which change is supported after comparing competing explanations? | [OPS.9 - Diagnose and Treat the Current Constraint](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-9) | A supported constraint treatment or a discriminating probe. |
 | What fits usable resource windows under variability? | [OPS.10 - Qualify Capacity Under Variability](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-10) | A feasible timetable, a demonstrated capacity shortfall, or a qualified service forecast. |
+| How would a change of service, arrivals or resource access affect completion and waiting? | [OPS.10.1 - Construct and Compare Capacity Models](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops101---construct-and-compare-capacity-models) | A calculation for particular jobs, average waiting or a service probability, with the assumptions needed to use its result. |
+| How can these jobs meet their deadline with shared resources and calendar gaps? | [OPS.10.2 - Construct and Revise a Feasible Deadline Schedule](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops102---construct-and-revise-a-feasible-deadline-schedule) | A feasible schedule or a reason the deadline cannot be met; feasible start times and a revised plan when conditions change. |
 | Which coupling can defeat a local plan, and which decisions must be coordinated? | [OPS.11 - Coordinate Interacting Operating Structures](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-11) | A dependency account and compatible decisions from the responsible participants. |
+| How do resource use, activity completion and order completion fit in one operating model? | [OPS.11.1 - Construct and Reconcile Operating Models Across Scales](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops111---construct-and-reconcile-operating-models-across-scales) | A model that retains shared resources, required joins and the conditions that can change the plan. |
 | Which feasible intervention protects affected people and still supports the service? | [OPS.12 - Protect Human Conditions in Operating Decisions](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-12) | A bounded operating intervention with protected human conditions and evidence needs. |
 | What service can authorized parties agree under actual resources and conditions? | [OPS.13 - Align Commitments, Resources, and Service Outcomes](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-13) | A credible service commitment or an exact hold. |
 | Which throughput, cash, payment and receipt differences change the choice? | [OPS.14 - Relate Throughput, Cash, and Operating Consequences](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-14) | A comparison of operating and financial consequences without collapsing them. |
 | Which observations and meanings support this operating decision? | [OPS.15 - Build a Decision-Specific Operating Account](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-15) | A decision-specific account with source and interpretation limits. |
+| How should events be counted and timed when cases overlap, return, cancel or remain unfinished? | [OPS.15.1 - Derive Operating Quantities from Events](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops151---derive-operating-quantities-from-events) | Waiting, occupancy and output quantities on compatible populations and observation windows. |
 | What evidence supports adopting, revising, branching or stopping this operating Method? | [OPS.16 - Improve the Operating Method from Evidence](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-16) | A bounded disposition of the admitted Method or a revised candidate account, with the supported use and evidence limits. |
 | Which operating moves fit this work family, and what change reopens their use? | [OPS.17 - Compare and Refresh Operations Methods](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-17) | A compared and current operations-method repertoire for the stated use. |
 | What continuation, acceptance, containment or recovery action does the evidence support? | [OPS.18 - Control Operating Quality and Reliability](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-18) | A quality or reliability response with exact evidence and stop conditions. |
@@ -722,7 +728,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-11 September 2026.
+19 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
