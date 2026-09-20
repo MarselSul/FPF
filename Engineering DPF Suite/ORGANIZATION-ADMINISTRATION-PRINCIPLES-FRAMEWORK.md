@@ -1,7 +1,7 @@
 # Organization Administration Principles Framework
 
 **Author:** Anatoly Levenchuk, with AI-assisted development and review\
-**Release date:** 11 September 2026\
+**Release date:** 20 September 2026\
 **Status:** Eternal alpha — an evolving framework, revised as methods and evidence improve.
 
 ADM helps administrators examine administrative requests, give justified refusals and provide usable results under the organization's rules. Its fifteen patterns also help improve the arrangements supporting this work by connecting organizational rules, participants, permissions, work and records. Establish any permission required for the action being taken; specialist decisions remain with the people authorized to make them.
@@ -166,6 +166,8 @@ Consider two projects whose researchers need archive access during the same morn
 Both requests are ready for mapping. The same qualified specialist has one two-hour window, and each mapping requires two hours of that specialist's work under the supplied method. Each request fits alone; together they require four hours. The responsible service parties must resolve priorities, timing or qualified additional provision under their actual commitments before promising both in that window. ADM.11 identifies the shared contribution and its receiving inputs. ADM.9 establishes the usable access after provision, and ADM.15 accounts for the recipients' waiting and any displaced work.
 
 The projects, requests, providers and grants therefore have different boundaries. The appointment and grant results can remain adequate while the combined provider promise is unsupported. A larger window or qualified additional capacity changes that promise question; reuse earlier results only within their scope and effective time. If the revised use exceeds those conditions, return to ADM.3 or ADM.8 for the relevant time or permission question. Use C.32.MWA when the decision needs a fuller comparison of such structures.
+
+There is also the question of what a handler is doing through an operation. Comparing the relevant dates can perform the temporal part of checking an appointment condition, which performs part of examining an access request. The applicable rule and the facts selected for it connect these descriptions of the work. ADM.3's worked case shows how this connection can fail despite correct date comparison. Use [B.1.5.EW][EW] when you need to recover that connection or identify an operation to learn, obtain or correct; use an already understood connection directly.
 
 ## ADM.Preface:4 - Correct use and its cost
 
@@ -582,6 +584,8 @@ This inquiry can finish with an established positive or negative result, or a pr
 
 #### ADM.3:4.6 - What changes in practice
 
+When a familiar operation does not give a usable temporal answer, recover how it performs the required check. [B.1.5.EW][EW] helps identify that connection, its conditions and a constituent operation to learn, obtain or correct. The worked case in §5.4 applies this question to choosing and comparing dates. An understood connection can be used directly.
+
 The handler can use a future appointment for the interval it actually covers, preserve a valid relation despite delayed recording, and distinguish a corrected report from a changed institutional condition. The next question concerns the missing rule, event or effective boundary instead of an undirected request for more documents.
 
 ### ADM.3:5 - Archetypal Grounding
@@ -614,6 +618,16 @@ The handler therefore asks what the actual rule makes effective. “The record i
 #### ADM.3:5.3 - The same participants after a gap
 
 A history query asks whether Mara was appointed continuously through November. The supplied rule and records establish an appointment ending on 31 October and a later appointment beginning on 1 December. The same person, organization and role do not fill the November gap. The handler retains the separate intervals needed for the historical decision and obtains any different claimed basis for November instead of inferring continuity from the matching name.
+
+#### ADM.3:5.4 - The date comparison within request examination
+
+While examining Mara's 25 September request, the handler compares that date with the appointment's 1 October effective date. This comparison performs the temporal part of checking the required appointment condition. Through that check, the handler performs part of examining the access request. The supplied rule, Mara's appointment and the time of intended use connect those operations.
+
+A handler might instead compare 25 September with the directory's 22 September entry. The calendar comparison can be correct while failing to answer whether the appointment condition holds. The repair is to recover which event and date the applicable rule makes decisive, then repeat the temporal check using that basis. Reuse the already adequate appointment decision. Someone who cannot make this rule-to-fact connection needs to learn that operation or obtain a qualified interpretation they can use in the check.
+
+The reservation case in §5.2 changes the connection: its supplied rule makes registration at 13:00 decisive. Copying the appointment case's treatment of registration would now produce the wrong condition. Being able to compare times does not supply the ability to identify their institutional meaning.
+
+These are connected descriptions of the handler's work; count that work once. A permission decision can subsequently use the temporal conclusion. The archive provider's configuration and the researcher's work with the document have their own relations to the handling; neither explains how the handler performs this check.
 
 ### ADM.3:6 - Bias-Annotation
 
@@ -662,7 +676,7 @@ The practice question is how to distinguish an effective organizational change f
 
 The serious default is “use the latest row as the current state”. Its advantage is low handling effort. Its defect appears when that row contains a future appointment, when recording lags, or when registration is itself constitutive. Sections 4.2–4.4 and the paired registration cases retain the rule that determines which interpretation applies. The practitioner can still use an adequate latest account directly; a timeline is added only when it resolves an action-changing difference.
 
-The May laboratory's relation/record discussion and the later ADM source pack's effective-condition distinctions supply failure reasoning and synthesis inputs. A.6.REL supplies the general method for relation change and optional occurrence identity. This is a selected practical comparison, not empirical proof that one temporal database design is best.
+The May laboratory's relation/record discussion and the later ADM source pack's effective-condition distinctions supply failure reasoning and synthesis inputs. A.6.REL supplies the general method for relation change and optional occurrence identity. [B.1.5.EW][EW] supplies the explanation of constituent and encompassing work applied in §5.4. This is a selected practical comparison, not empirical proof that one temporal database design is best.
 
 Reconsider the instruction when a governing relation uses an additional constitutive condition, when repeated episodes cannot be distinguished for the required history, or when a new record arrangement changes what evidence a handler can obtain.
 
@@ -2685,6 +2699,7 @@ The cited methods retain their own scope. Use the named contribution when it ans
 | [Organization Change Engineering][OCE], OCE.6 and OCE.13 | OCE.6 supplies an effective assignment for its organizational-change question. OCE.13 supplies bounded consequence comparison, population and evidence distinctions, and the limits of a descriptive or causal claim. Adequate results are reused within their actual scope. |
 | [Semantic Integration Engineering][SIE], SIE.4–6 | Supplies alignment, cross-source identity and claim composition when the administrative accounts cannot be combined directly. |
 | [FPF C.32.MWA — Practice-Architecture Synthesis from Several Structures][MWA] | Compares several structures when their differing boundaries or relations change the practice decision. |
+| [FPF B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work][EW] | Recovers how an operation performs encompassing work and which conditions connect them. ADM.3:5.4 applies it to temporal checking within request examination. |
 | [Systems Engineering][SYSE], SYSE.24 §§4.1–4.9 | Compares complete obtaining arrangements for a project result. Adequate administrative permissions, responsibilities and provider conditions are inputs; the choice does not itself perform the later provision. |
 | [Systems Engineering][SYSE], SYSE.26 §§4.1–4.5 and SYSE.28 §§4.1–4.5 | SYSE.26 supplies supported interaction, usable result and recovery of uncertain effects. SYSE.28 supplies check placement, condition-bound reuse and distinct outcomes. ADM.7 and ADM.9 use these results without requiring control or platform redesign for each case. |
 | [Systems Engineering][SYSE], SYSE.8–9 and SYSE.29 | SYSE.8 develops provider arrangements with distinct contributions and undertakings; SYSE.9 uses adequate expert results or qualifies worthwhile missing contributions. SYSE.29 supplies actual-use transition, coexistence, recovery and retirement. ADM.11, ADM.14 and ADM.16 connect these results to institutional conditions. |
@@ -2736,6 +2751,7 @@ For ADM.15, use the relevant receipts, payments, time and participant burdens on
 [REL]: ../FPF-Spec.md#a6rel---relation-obtaining-and-individuated-relation-occurrences
 [PER]: ../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition
 [MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
+[EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [OPS]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md
 [OCE]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 [SIE]: SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md
