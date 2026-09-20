@@ -28,6 +28,8 @@ You may know formulas or individual operations and still be unable to connect th
 
 These examples use several patterns together. Their short sequences show dependencies; worked explanations give calculations and return points. Start at a later contribution when its inputs are available. Each DPF's Table of Contents also gives direct help for other questions.
 
+The [vertical of ongoing work](FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md#39-keep-the-vertical-visible-while-doing-the-work) asks a complementary question: what larger work is being performed through this action now, and what constituent abilities and resources make it possible? It helps locate a missing intermediate Method or capability even when the elementary operations and the intended whole are familiar.
+
 ## Use the publications
 
 For use with an agent, follow [Using FPF](../USING-FPF.md). Copy this whole folder beside `FPF-Spec.md` in your project's reference folder. The root [ecosystem Readme](../Readme.md) gives the other files to copy and a paragraph for the agent's instructions. In GitHub, open an example above or a member link below.

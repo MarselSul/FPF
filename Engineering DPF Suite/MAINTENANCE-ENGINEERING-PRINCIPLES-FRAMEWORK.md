@@ -1,6 +1,6 @@
 # Maintenance Engineering and Management Principles Framework
 
-Anatoly Levenchuk · Release: 11 September 2026
+Anatoly Levenchuk · Release: 20 September 2026
 
 Original framework content © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 
@@ -115,7 +115,7 @@ Use a pattern's Problem frame and Solution for the first working move. Its worke
 
 ## Citation
 
-Cite: Anatoly Levenchuk, *Maintenance Engineering and Management Principles Framework*, release of 11 September 2026. For a particular contribution, add its PatternID and title. The framework was developed with AI-assisted authoring and review. The original text is reusable under the license above; cited third-party works are not relicensed by this publication.
+Cite: Anatoly Levenchuk, *Maintenance Engineering and Management Principles Framework*, version shown above. For a particular contribution, add its PatternID and title. The framework was developed with AI-assisted authoring and review. The original text is reusable under the license above; cited third-party works are not relicensed by this publication.
 
 # Preface
 
@@ -149,6 +149,8 @@ These are navigation groups. They do not assert four stages of every job or one 
 A typical condition-to-intervention route starts with an interpreted condition from [MNT.4](#mnt4---monitor-and-interpret-current-condition) and a choice from MNT.6. Readiness from [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) and operating coordination from [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation) qualify feasible performance. [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-intervention) establishes the protection and permission for the selected act. [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention) then supplies evidence of work and actual configuration; [MNT.10](#mnt10---verify-restored-functioning) supplies the functioning result; [MNT.11](#mnt11---certify-hand-back-and-authorize-resumed-use) supplies hand-back and resumed-use permission. The route is conditional: it stops earlier when the requested result is already adequate.
 
 Other questions use different connections. [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity)'s maintenance history supports [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) only where events and exposure are comparable. [MNT.14](#mnt14---compare-and-refresh-maintenance-methods) compares a Method's practical worth; [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) examines whether variants are transmitted and enacted in the practice population. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) handles common conditions that separate successful job decisions cannot establish.
+
+**Constituent actions in ongoing work.** During a repair, a diagnostic observation may constitute part of locating the fault, and fault location may be part of restoring the equipment's required functioning. The relevant skills lie at several grains: handling the instrument, interpreting the reading under the operating conditions and coordinating the intervention with the maintained service. If the service must remain available through standby equipment, a diagnostic action that would disable that standby changes the whole arrangement. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) compares the affected commitments; B.1.5.EW helps expose the connection. Completed diagnosis leaves the repair, functioning and hand-back questions with their own Methods.
 
 ## MNT.Preface:3 - What the principal objects mean in practice
 
@@ -1459,6 +1461,8 @@ The team compares deferring the lower-consequence job, obtaining another suitabl
 If an unplanned extension would leave the specialist unable to perform the later protected task adequately, the allocation or timing changes. “Use more care” does not close that capability question.
 
 For a broader conflict, suppose both jobs rely on the same standby equipment while each plan treats it as independent fallback. The decision now needs the System and operating-dependency structures as well as time. That is a reason to expand the comparison, not to derive an architecture from the schedule's page layout.
+
+The common standby can also affect an action inside a job while the job is under way. Suppose taking a diagnostic reading requires temporarily using the standby, while that reading is part of locating a fault during service restoration. The broader operating commitment requires the standby to remain available. The diagnostic action is therefore constrained through the restoration and service arrangement; assigning two labels to the same interval would not reveal this conflict. Recover the connection with B.1.5.EW, then compare an applicable alternative diagnostic Method, another supported window or a changed service arrangement. Instrument handling and diagnostic interpretation must both be available; the example supplies no equipment-specific procedure or permission.
 
 ### MNT.15:6 - Bias-Annotation
 

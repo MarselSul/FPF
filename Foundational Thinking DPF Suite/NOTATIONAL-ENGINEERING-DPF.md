@@ -3,7 +3,7 @@
 > A pattern language for designing expressions that people and computational agents can interpret, manipulate, translate and use together.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 16 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a repertoire open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
@@ -147,6 +147,12 @@ A notation's quality is relative to the work, reader and access conditions. C.2.
 [NOT.7](#not7---redesign-a-notation-around-the-readers-difficult-operations) locates an actual reading or editing burden, changes the expression or editing arrangement there, and compares both the intended improvement and effort moved elsewhere. [NOT.8](#not8---construct-temporal-or-embodied-notation-with-a-reading-procedure) adds the origins, frames, segmentation and available replay or enactment operations needed when signs unfold in time or bodily action. A temporal score can need the same formation, interpretation, translation and redesign methods as a static diagram.
 
 There is no compulsory eight-stage process. Enter where the difficulty occurs. A translation loss can return to the original design requirement. An inconsistent update can expose a reference problem. A reading difficulty can require teaching a missing operation rather than another symbol. The working reminder for a longer combination is: **Recover the operation; make references and interpretation usable; carry the intended change; retain useful differences; repair the remaining burden.** The relevant bodies supply the conditions under which each continuation is needed.
+
+### NOT.Preface:3.3 - Constituent actions in ongoing work
+
+Defining an operator's binding rule can be part of constructing an expression grammar while a notation for working calculations is being designed. If users must transform an expression without changing its meaning, visually convenient grouping is insufficient: the interpretation of the transformed expression must remain recoverable. Symbol recognition and subject knowledge can both be present while the intermediate ability to follow binding and transformation rules is absent. The notation design must provide those rules and support their use; a successful reading of one expression does not establish the whole notation's suitability.
+
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
 ## NOT.Preface:4 - Worked connection - A formula, graph and table must change together
 

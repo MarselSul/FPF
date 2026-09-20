@@ -3,7 +3,7 @@
 > A domain pattern language for bringing about and changing engineered Systems, from their intended use and architecture to realization, assurance, and continuing development.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 11 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -185,11 +185,10 @@ The example explores the mixed arrangement; choosing it for production still req
 
 ## Citation
 
-If you use this framework, please cite:
+If you use this framework, cite it as below and add the version date shown above:
 
 ```text
 Levenchuk, Anatoly. Systems Engineering Principles Framework.
-11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -387,6 +386,8 @@ decision: how an authorized Agent deliberately continues or changes the Systems 
 practitioner population. One team choice or one successful project does not prove transmission, retention, or
 cultural change.
 Claims of later enactment and engineering consequences need their appropriate observations. A qualified current account or supported continuation may instead finish on existing evidence; a new study is selected only when its attainable contribution warrants its whole burden. Keep the deciding and affected Systems explicit.
+
+**Constituent actions in ongoing work.** For example, while a technician acquires a measurement, an engineer may be conducting a requirement-verification trial through that measurement, within an ongoing system-acceptance exercise. Recover the constitutive connection rather than infer it from matching timestamps. If the requirement concerns a short transient, a setting adequate for a steady reading may no longer support verification. Instrument-operation skill and knowledge of the requirement can both be present while the intermediate skill of choosing a suitable acquisition arrangement is missing. Supply that capability or qualified assistance before relying on the trial. The obtained reading is still only a constituent result; it does not by itself authorize acceptance. FPF B.1.5.EW helps recover this vertical; SYSE.20 addresses a consequential conflict in its arrangement.
 
 ## SYSE.Preface:8 - How project Work contributes to engineering culture
 
@@ -8286,6 +8287,8 @@ the project's engineering Work occurs as eight consecutive stages.
    implementation Work. Later representative Work supplies observations about the changed arrangement and the
    engineered result. An authorized Agent uses those observations to preserve, narrow, or reopen the decision.
    A different choice outcome continues through its own named question or Work.
+
+For a claimed constituent connection, use B.1.5.EW to select a moment and recover what larger work is being performed through the action. In a constructed requirement-verification trial, acquiring a sample can be part of checking a response requirement, within an ongoing acceptance exercise. A transient-response requirement may rule out an acquisition setting adequate for a steady reading. If obtaining the needed samples monopolizes the shared instrument and defeats a second commitment, this pattern compares changed windows, support or trial arrangements. Keep instrument skill, measurement design and whole-trial coordination visible; satisfying one does not establish the other two. Use B.1.5.RS if the proposal instead replaces a constituent Method and must preserve several receiving uses.
 
 #### SYSE.20:4.2 - Record the Result
 

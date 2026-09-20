@@ -3,7 +3,7 @@
 > A domain pattern language for making separately governed meanings and representations usable together for a named receiving use.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 8 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: the complete twelve-pattern first edition, open to correction as methods, sources, and applications change. The Methods support use-qualified model reuse or construction, semantic interfaces, affected-use revalidation, and modular semantic commons.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -105,7 +105,7 @@ If you use this edition, cite:
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Semantic Integration Engineering Principles Framework.
-8 September 2026. First edition.
+20 September 2026. First edition.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -187,6 +187,8 @@ SIE.8 therefore cannot select that arrangement as supplying the complete result.
 SIE.10 tests the remaining required conditions before any bounded positive validation. If both providers are mandatory, return a stop and the exact missing result: for example, an access-owner decision changing the allowance or an implementation that demonstrably reduces calls while preserving meanings and trace. Omitting provenance is not an equivalent repair.
 
 The quantities are construction assumptions, not measurements of providers. Actual use needs evidence for the gateway condition, call demand, permissions, freshness, behavior under failure, and the receiver's interpretation. Passing source lookups or several pairwise tests cannot supply that evidence for the whole. A changed allowance reopens the affected realization and use validation; an unchanged correspondence can remain usable.
+
+**Constituent actions in ongoing work.** While processing an exchange, resolving a source identifier can constitute part of interpreting a correspondence, within an ongoing integration of the receiving information. If the receiving use changes from present eligibility to eligibility at an earlier date, a lookup that returns only the present subject state is no longer sufficient. The team may have parser and database skills but lack the intermediate meaning or temporal-identity account. Supply that contribution through the relevant SIE Method rather than treating a successful query as a successful integration. FPF B.1.5.EW helps recover the connection; SIE.8 and SIE.10 keep the whole arrangement and its warranted validation in view.
 
 ## SIE.Preface:7 - Architectural Rationale
 
@@ -2335,7 +2337,7 @@ The five applications are constructed method demonstrations, not evidence of a p
 
 ## Edition return
 
-**Semantic Integration Engineering Principles Framework — First Edition, 8 September 2026** designates the source, twelve authoritative pattern bodies, and deterministic carrier of the complete twelve-pattern first edition. The publication supplies practitioner guidance and constructed examples. An implemented service, maintained commons, or receiving decision needs the corresponding actual work and evidence.
+**Semantic Integration Engineering Principles Framework — First Edition, 20 September 2026** designates the source, twelve authoritative pattern bodies, and deterministic carrier of the complete twelve-pattern first edition. The publication supplies practitioner guidance and constructed examples. An implemented service, maintained commons, or receiving decision needs the corresponding actual work and evidence.
 
 ## Publication boundary
 

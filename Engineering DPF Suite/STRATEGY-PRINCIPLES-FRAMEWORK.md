@@ -2,7 +2,7 @@
 
 First edition (English) — working edition.
 
-Anatoly Levenchuk, with AI-assisted development and review. 10 September 2026.
+Anatoly Levenchuk, with AI-assisted development and review. 20 September 2026.
 
 Original framework content © Anatoly Levenchuk, licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party material retains its own terms.
 
@@ -76,7 +76,7 @@ STR.4 compares futures that could change that choice. A full-horizon purchasing 
 
 STR.7 compares using existing records and complete travel-and-support costing with additional inquiry. If complete costing rules out every relevant service configuration at the customers' acceptable price, the inquiry can finish with device-only continuation and no trial. Otherwise, four internal preparation days can improve the cost and trial-design answer, at the accepted sacrifice of a four-day device improvement. A later trial needs its own worthwhile question, participant conditions and authorization; local use by two customers would not establish general demand.
 
-The proposed service also needs people, platform work and learning support. STR.8 identifies those contributions; STR.14 compares their shared demand with current service. The later month's first proposal needs 52 service days + 8 reserve + 16 trial + 8 platform + 6 learning/support = 90 engineer-days against 80 available. A narrower proposal totals 78: 52 + 8 + 8 preparation/use + 6 platform + 4 learning/support. Two of the six platform days preserve the device fallback, postponing a service-diagnostic enhancement. They are already included, not added from the two unallocated days. This arithmetic leaves skills, critical-day collisions and delivery conditions to be established; it does not demonstrate a feasible service.
+The proposed service also needs people, platform work and learning support. STR.8 identifies those contributions; STR.14 compares their shared demand with current service. The first-month proposal needs 52 service days + 8 reserve + 16 preparation/use + 8 platform + 6 learning/support = 90 engineer-days against 80 available. A narrower proposal totals 78: 52 + 8 + 8 preparation/use + 6 platform + 4 learning/support. Two of the six platform days preserve the device fallback, postponing a service-diagnostic enhancement. They are already included, not added from the two unallocated days. This arithmetic leaves skills, critical-day collisions and delivery conditions to be established; it does not demonstrate a feasible service.
 
 STR.9 compares the options and the cost of preserving later choice; STR.10 carries the commitments, affected interests and displaced work into that comparison. STR.11 uses their result to bound the present decision. In the case, the team recommends and the Board separately authorizes four internal preparation days from the eight-day envelope. It does not authorize the whole eighteen-day development proposal, trial execution or the twelve-month service direction.
 
@@ -152,6 +152,8 @@ Results connect by the content needed for the next question. A lead about a new 
 
 An adequate PSD uncertainty or robustness result can likewise be reused without repeating its analysis. A missing data permission blocks the dependent use, not every option. A material joint-capacity conflict can reopen a commitment while leaving its framing and independent evidence intact.
 
+**Constituent actions in ongoing work.** During strategy work, interpreting one changed operating assumption can constitute part of evaluating an option, while that evaluation is part of forming a commitment. A changed resource horizon alters which interpretation and option remain usable. People may understand the strategic ambition and perform the component calculations yet lack the intermediate Method for constructing a realizable option. STR.6 and STR.8 address the obtaining way and capability connections; they do not supply missing capability merely by describing it. FPF B.1.5.EW helps recover this vertical. Work already devoted to exploring an option does not establish that its later realization is available.
+
 ## STR.Preface:5 - Recognition and assurance - Understand the move, then support the claim
 
 
@@ -162,7 +164,7 @@ Use the direct source and professional guidance for the claim that matters. Keep
 ## STR.Preface:6 - Archetypal grounding - Three unlike applications
 
 
-[SensorCo](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) follows one strategic question through the language. Its four-day preparation competes with a viable device improvement; the twelve-month direction remains open. The later ninety-versus-eighty-day conflict is a different question. A reduced seventy-eight-day proposal preserves reserve and a separately costed fallback but does not establish capability or authorize its whole scope.
+[SensorCo](#app-str-01---choose-sensorcos-response-to-commoditized-ai-inspection) follows one strategic question through the language. Its four-day preparation competes with a viable device improvement; the twelve-month direction remains open. The first-month ninety-versus-eighty-day conflict concerns the whole proposed arrangement, including those four days. A reduced seventy-eight-day proposal preserves reserve and a separately costed fallback but does not establish capability or authorize its whole scope.
 
 [The professional-practice case](#app-str-02---a-professional-considering-a-new-practice) tests personal choice, livelihood and eight available hours against a twelve-hour proposal. STR.5's personal example begins earlier, before the contribution has been selected; STR.6's diagnostic example follows a search for an unknown obtaining way and stops at its evidence gap. Its separate synthetic-record extension develops material for a selected contribution, explores it before a contribution is chosen, and tests a transfer under changed conditions. [The public-service case](#app-str-03---a-public-service-under-deep-uncertainty) tests a protected access condition that a favourable average cannot cancel. These constructed cases show use and limits, not empirical effectiveness.
 
@@ -972,6 +974,10 @@ Recover the strategic concern and the conditions that must be preserved. Use STR
 
 When the worthwhile contribution is unknown, start with the subject, available time, protected obligations and one bounded concern. Inspect an actual or prospective receiving situation: what result is missing or foregone, what difference would matter, and what present work or source supports that account? Compare a consequential contrast, such as another recipient, a different result or a neighboring practice that obtains a useful change. A course, technology or role name is a lead to investigate, not the result being sought.
 
+When those work accounts suggest no promising direction, try matching three provisional lists: work the person or group wants to pursue; contributions it could become good at; and possible ways to sustain that work. Describe activities or results and give the reason for each capability or resource conjecture. Include attainable development and partner contributions where they could change the possibilities. For a group, say whose aims each proposal serves and retain consequential disagreement.
+
+For each promising combination, propose a recipient and result, then explain how the capabilities and resources could support continued provision. If no useful combination appears, vary one component: for example, a different recipient, a narrower contribution or a partner who supplies a missing capability. Ask others who know the work for possibilities that the initial lists missed when that can help. A match gives a contribution hypothesis; use the receiving inquiry below to judge its worth. Reuse adequate directions instead of repeating this exercise.
+
 An adequate existing work account may answer those questions. Use DOCA.2 when contrasting leads still need to be found, and DOCA.3 when the worthwhile problem and proposed contribution need to be separated and qualified. DOCA.2 returns leads with their source limits and next question; DOCA.3 can return a supported problem, an attributed or contested concern, an unconfirmed hypothesis or rejection. Use that actual result. If the receiving problem remains uncertain, return the smallest question that could distinguish it from a materially different explanation; do not pass the lead to option comparison as an established need.
 
 State whose problem or opportunity the direction addresses and what result would matter to that recipient. Distinguish that result from the organization's means. A certified sensor platform is an asset; reliable inspection outcomes are a possible customer contribution. A platform change becomes strategically relevant through the contribution it enables, not because it is technologically interesting.
@@ -1047,6 +1053,8 @@ A fitting proposal becomes eligible for the next choice; it is not thereby funde
 
 This constructed extension starts earlier than the [eight-hour personal case](#app-str-02---a-professional-considering-a-new-practice). The professional knows that current income and obligations must be protected and that eight hours a week remain for development. An attractive course is available, but neither a new contribution nor a new client group has been selected.
 
+The professional enjoys explaining difficult choices, can already analyse alternatives, and earns a living through that analytical work. The eight available hours could support developing a related practice while the existing work continues. These starting inputs suggest looking for a contribution that uses analytical ability in explaining choices; they do not yet identify who needs it.
+
 The person first reuses two accounts of actual Work, stipulated as teaching inputs here. Existing clients still need the dependable analysis already supplied. A colleague in another group reports repeated difficulty preparing a planning decision. A bounded neighboring search contrasts continued analytical provision with helping that group make its alternatives and constraints inspectable. The proposed course is only one possible means; neither its availability nor the colleague's enthusiasm establishes a worthwhile new practice.
 
 The problem/contribution inquiry then asks whether the reported delay comes from unclear alternatives and constraints or from an unavailable decision holder. An inspectable comparison could address the first difficulty; it would not supply the missing authority in the second. The immediate return is the supported continuing contribution and a provisional new problem/contribution with that discriminating question. Missing evidence of usefulness is not evidence of no demand. If the second explanation is supported, the person revises or rejects this lead rather than selling a comparison as a remedy for absent authority.
@@ -1095,6 +1103,9 @@ A direction connects purpose to the logic of future contribution. It is broader 
 Conditional filters preserve both focus and revisability. They guide action under stated assumptions while allowing the assumptions and exclusions to be challenged by the responsible chooser. Proposal, comparison and commitment remain different results because they require different evidence and authority.
 
 ### STR.5:11 - SoTA-Echoing
+
+**Can interests, capabilities and resources suggest a direction?** [Collins's three-circle inquiry](https://www.jimcollins.com/concepts/the-hedgehog-concept.html) connects those questions; his [social-sector account](https://www.jimcollins.com/article_topics/articles/hedgehog-concept-social-sectors.html) includes sustaining resources beyond money. Section 4.1 adapts this historical heuristic for generating provisional contributions, as illustrated in section 5.3. It admits developing or obtaining capabilities and revising the combinations. The framework does not require world leadership or treat a present match as a lifelong calling. The heuristic is one search option; a sufficient receiving-work account can supply the direction without it.
+
 
 **Should direction begin from predicted demand or available means?** [Rapp, Olbrich and Packard's 2026 article, published online in 2025](https://doi.org/10.1007/s11846-025-00926-6), argues that effectual action still requires judgements about means, goals, partners and affordable loss. Adapt that contribution in sections 4.2–4.3: generate attainable means-led directions without treating partner interest or owned tools as sufficient support. Forecast-led direction remains a serious alternative when its evidence answers the choice. The source is a conceptual argument, not a comparative trial proving one logic superior.
 
@@ -1174,7 +1185,7 @@ Generate material variants within the family. For example, customer-local provis
 
 For each retained option, ask who could exercise it, under which permission and resource conditions, by when and with what preparation. State a material expiry, switching delay or foregone contribution. An option that cannot be exercised before its useful window closes has lost that use even if its description is still stored.
 
-Examine dependencies across options. Several variants may need the same scarce team, customer agreement or platform. They can be genuine alternatives without being feasible together. STR.8 supplies a missing capability or business-model relation; STR.14 resolves an actual conflict in simultaneous work.
+Examine dependencies across options. Several variants may need the same scarce team, customer agreement or platform. They can be genuine alternatives without being feasible together. Use STR.8 when the capabilities or business-model conditions an option needs are unclear. STR.14 resolves an actual conflict in simultaneous work.
 
 Separate retaining an explanation from retaining a capability to act. Keeping rejected-design notes may be inexpensive. Preserving a working interface, contracted capacity or trained support can impose continuing cost. Include the contribution sacrificed to carry that option.
 
@@ -2423,7 +2434,7 @@ Distinguish three things:
 
 A metric threshold alone supplies neither the third nor a sound interpretation of the first two. Recover the basis of a threshold and the authority of the rule separately.
 
-Allow for observation, interpretation and response delay. If the next allocation occurs on Monday, a Friday review of the following week cannot protect that allocation. Move the observation earlier, change the commitment, use a qualified proxy or state that the promised follow-up is infeasible.
+Allow for observation, interpretation and response delay. If an allocation is fixed on Monday morning, a report arriving that Friday is too late to inform it. Obtain the observation early enough for interpretation and response, change the commitment, use a qualified proxy or state that the promised follow-up is infeasible.
 
 Establish the necessary access, assignments and resources. State the effect of a missing observation and the arrangement's end or review condition. A proposed observer list is not an established service.
 
@@ -3239,9 +3250,9 @@ Participant agreement, permitted use, exposure, actual resources, interpretation
 
 ### Make the whole proposed arrangement visible
 
-STR.8 connects the service contribution to the actual service, platform, learning and support conditions. STR.10 and STR.14 compare the simultaneous configuration for the later shared month.
+STR.8 connects the service contribution to the actual service, platform, learning and support conditions. STR.10 and STR.14 compare the simultaneous configuration for the first shared month. That month includes the four preparation days now proposed for authorization.
 
-The team has eighty engineer-days. Current service needs fifty-two, with another eight protected for incident recovery. The initial proposal adds sixteen for the trial, eight for platform preparation and six for learning/support: ninety in total.
+The team has eighty engineer-days. Current service needs fifty-two, with another eight protected for incident recovery. The initial proposal adds sixteen for trial preparation and use, eight for platform preparation and six for learning/support: ninety in total.
 
 A smaller proposal uses eight days for bounded preparation and, only when separately permitted, initial use and interpretation; six for the platform subset; and four for targeted learning and support. With service and reserve, the total is seventy-eight. The remaining two days are unallocated, not additional guaranteed recovery capacity.
 
@@ -3351,6 +3362,6 @@ A current-looking file, intact link or completed rebuild establishes neither sou
 
 ## Citation and reuse
 
-Cite: Anatoly Levenchuk, *Strategy Principles Framework*, first edition, English working edition, 10 September 2026. For a specific pattern, add its STR identifier and title; retain the edition when the wording matters. Pattern identifiers are stable local addresses, not proof that all later editions preserve identical claims.
+Cite: Anatoly Levenchuk, *Strategy Principles Framework*, first edition, English working edition, version shown above. For a specific pattern, add its STR identifier and title; retain the edition when the wording matters. Pattern identifiers are stable local addresses, not proof that all later editions preserve identical claims.
 
 Original framework content is available under the CC BY 4.0 terms linked at the opening. Retain attribution and identify adaptations; third-party material remains under its own terms. The examples are constructed and make no claim of demonstrated organizational, financial or personal benefit.

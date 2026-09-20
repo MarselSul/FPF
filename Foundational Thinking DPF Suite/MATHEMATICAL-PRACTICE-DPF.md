@@ -3,7 +3,7 @@
 > A pattern language for constructing mathematical objects, operations and arguments, using their results, and developing the next useful question.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 16 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a growing repertoire of methods for mathematical work.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
@@ -113,7 +113,7 @@ You may know a formula, a programming technique or a useful physical law and sti
 
 Mathematical Thinking helps construct and develop the mathematics needed in such situations. Its starting repertoire forms objects and operations, tests identifications, builds arguments and witnesses, changes representations, and obtains consequences from transformations and constraints. Work can begin in mathematics itself, a physical investigation or the design of another working method.
 
-This edition contains twenty patterns. Mathematical Thinking and Mathematical Modeling are the currently published members of the Foundational Thinking DPF Suite, which connects mathematical, physical and computational inquiry with the development of methods of work. Physical Thinking, Computational Thinking and Notational Engineering are planned additions. Use the present Table of Contents to find an available method; a planned contribution still requires another source or collaborator. Pattern IDs remain stable across editions, including gaps left by withdrawn bodies; Parts group the available methods by the work they support.
+This edition contains twenty patterns. Mathematical Thinking belongs to the Foundational Thinking DPF Suite alongside Mathematical Modeling, Physical Thinking, Computational Thinking and Notational Engineering. Together they connect these inquiries with the development of methods of work. Use the present Table of Contents to find an available method; a planned contribution still requires another source or collaborator. Pattern IDs remain stable across editions, including gaps left by withdrawn bodies; Parts group the available methods by the work they support.
 
 Begin with the question that is blocked. If its mathematical form is still unclear, the Readme MP-FRAME entry uses FPF B.5.FM, B.5.TU and B.5.MPC to obtain the first account and locate the missing contribution. Once a mathematical operation is needed, a body here develops that operation. The worked use in :4 begins before a representation has been selected. Use the Table of Contents for other questions; each pattern states its prerequisites and conditions.
 
@@ -195,6 +195,12 @@ The twenty bodies connect formation and interpretation with proof, comparison an
 
 For example, changing the order of a read and an update can preserve the final stored value but change the reading used by a later decision. MATH.1/.5 supply sequences and their interpretation, and MATH.2 tests the proposed identification. Method Engineering uses that distinction when deciding how work may be rearranged. The mathematical construction and its use in the working method remain separately inspectable.
 
+
+### MATH.Preface:3.6 - Constituent actions in ongoing work
+
+A symbolic rewrite can be part of proving a lemma while that lemma's proof is part of proving a larger claim. The required domain constrains the rewrite at that same moment: cancelling a factor is permissible only under the relevant algebraic conditions, and excluding zero would change a claim that is meant to include it. Knowing the symbols and the theorem goal can leave the intermediate reasoning unavailable. Recover or obtain that reasoning rather than treat the smaller calculation as proof of the whole.
+
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
 ## MATH.Preface:4 - Worked use - Choose a representation after the question changes
 

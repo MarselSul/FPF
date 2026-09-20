@@ -14,6 +14,8 @@ Explain results and give feedback in the language of the project's work. Preserv
 
 When a question needs several methods, use a relevant connected example or Practical-Use Card. Follow the intermediate results: what each method returns, which operation uses it, and what changed condition sends the work back. A mantra helps retain that connection. Read the supplying patterns and start at the contribution whose inputs are available.
 
+Also recover the relevant Method vertical: what larger work is being performed through this action now, what constituent performances it needs, and which conditions must hold together. Use B.1.5.EW when this is unclear and B.1.5.RS for a proposed constituent replacement. A DPF can describe only part of the needed vertical. Retain already available capabilities, expose missing intermediate coordination or support, and check joint demands on shared resources. Use CGUS conditions when these facts change which continuation is available. Explain the connection in the language of the work; a formal stack diagram is optional.
+
 ## File structure
 
 A publication contains several patterns, located by their IDs. For example:

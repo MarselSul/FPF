@@ -3,7 +3,7 @@
 > A pattern language for forming physical accounts, deriving usable consequences, constructing observations and revising the physical assumptions.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 16 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a usable repertoire that remains open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
@@ -175,6 +175,12 @@ These choices can occur in theory construction as well as in an applied project.
 [PHY.3](#phy3---derive-a-physical-limit-from-permitted-transformations) derives a bound or impossibility from the complete transformation and an admissible comparison. That result may finish the question or show which physical premise a different construction would have to change.
 
 These connections form possible routes. They do not prescribe a ten-stage workflow. A known response can enter at measurement; an unknown interaction can enter at law construction; a useful impossibility can end work before a device or computation is built.
+
+### PHY.Preface:3.3 - Constituent actions in ongoing work
+
+Acquiring a reading can be part of testing a physical account while the discriminating investigation is already under way. If rival accounts agree at equilibrium but differ during a transition, a settled-value observation cannot answer the same question: its timing must change. Instrument use, the mathematical consequence and knowledge of the accounts can be available separately while the coordination of intervention and observation is missing. The domain's observation Method supplies that intermediate contribution and its equipment conditions.
+
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
 ## PHY.Preface:4 - Worked connection - From an unknown resistance to a useful comparison
 

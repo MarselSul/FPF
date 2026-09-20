@@ -3,7 +3,7 @@
 > Methods for constructing mathematical representations of a question, connecting unknown relations, observations and available actions, and revising the resulting models.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 16 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a growing language of general modeling methods.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
@@ -297,6 +297,12 @@ The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/ma
 A particularly useful boundary concerns an unknown relation. MMP.11 can construct a family respecting supported conditions without selecting one fitted member. MMP.7 supplies a probabilistic recording law when that is the question, while C.16.IR can expose what a supplied indication or bound resolves. The appropriate next step can therefore be inference, a discriminating observation, an already sufficient bound, or action under the remaining uncertainty.
 
 The Readme illustrates two further connections: carrying intervention consequences through a diagnostic report into a continuing instruction, and using cheaper components while retaining a sufficient combined answer. The needed intermediate result chooses the next method. General portfolio comparison and improvement remain with the existing FPF methods.
+
+### MMP.Preface:3.7 - Constituent actions in ongoing work
+
+While constructing a model of recorded observations, summing over unrecorded alternatives can be part of forming the observation law, within the modeling inquiry already under way. If the observing procedure changes from recording a below-threshold result to omitting the case entirely, that local operation must follow the changed selection rule. Mathematical calculation and knowledge of the subject may both be available while the intermediate description of observation is missing. MMP.7 helps construct the recorded-data law; obtaining the procedure's actual conditions still requires the appropriate source or contributor.
+
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
 ## MMP.Preface:4 - Archetypal Grounding - A report, an instruction and a changed question
 

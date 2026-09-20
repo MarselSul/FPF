@@ -23,6 +23,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | Practical entries | full text | Shows ordinary direct examples and selected cross-pattern cards as a non-exhaustive sample of how the pattern language helps; every example returns to its direct patterns. |
 | Decide Whether FPF Fits | full text | Distinguishes suitable FPF use from cases better served by a narrower method, domain source, or ordinary conversation. |
 | When Several Transformation Flows Form One Network | full text | Connects project, reasoning, evidence, and publication flows without collapsing their different results. |
+| Perform several levels of work through one action | full text | Connects constituent performance, encompassing work, capability and resources; shows when a changed whole requires a different action. |
 | Recover a lost path from outside use to recursive builders | full text | Restores the route from a reader's question through direct patterns to deeper builders only when needed. |
 | One-Minute Example | full text | Shows the ordinary question-to-pattern-to-result rhythm in a compact case. |
 | What FPF Is | full text | Defines FPF as a transdisciplinary pattern language and reasoning architecture. |
@@ -183,6 +184,8 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | B.1.3 | **Γ_epist — Knowledge-Specific Aggregation** | Stable | *Keywords:* knowledge aggregation, epistemic, provenance, trust, KD-CAL. *Queries:* "How to combine epistemes?", "How does trust propagate in FPF?" | **Builds on:** B.1, A.1, C.2. |
 | B.1.4 | **Contextual and Temporal Aggregation** | Stable | Aggregates already recovered relations over an exact set of ordered positions, phases, or a time window without treating order, phase, time, or process wording as parthood, work, or a generic interaction relation. | **Builds on:** B.1, A.1.1, A.14, C.27.TA. **Coordinates with:** A.15.1, A.3.4, C.29. |
 | B.1.5 | **Gamma_method - Order-Sensitive Method Composition and Work Enactment** | Stable | *Keywords:* method composition, `methodPartOf`, submethod, order-sensitive method, method relation structure, composite-Method boundary account, typed join, A.6.RCD claim disposition, capability continuity, work enactment, method/work granularity, assurance hooks. *Queries:* "How do I combine methods?", "When is a step a submethod rather than a work part, plan item, or description node?", "Which part Methods stand in `methodPartOf`, and how do other whole-forming claims stop at A.6.RCD's lightest sufficient disposition?", "How do the composite-Method boundary account, typed joins, Gamma_ctx, Gamma_work, and B.3 assurance hooks stay distinct?" | **Builds on:** B.1, B.1.4, A.3.1, A.6.RCD. **Coordinates with:** A.15.1, B.1.6, B.3. |
+| B.1.5.EW | **Recover How Constituent Actions Enact Encompassing Work** | Candidate | Recover the vertical of an action, its constituents and encompassing work; locate what changes when the whole's conditions change, including missing intermediate capability. | **Builds on:** B.1.5, A.15.1. **Coordinates with:** B.1.5.RS, A.22.CGUS, C.30.LCA, C.32.MWA. |
+| B.1.5.RS | **Replace a Constituent Method in Its Encompassing Uses** | Candidate | Compare a replacement with the results, interactions and resource conditions required by each encompassing use; accept, restrict, adapt or reject the substitution. | **Builds on:** A.3.1, B.1.5. **Coordinates with:** B.1.5.EW, C.11.DUA, C.29. |
 | B.1.6 | **Work-Resource Aggregation** | Stable | *Keywords:* work-resource aggregation, resource Characteristic, C.16 measurement work/result episteme, typed input, Scale/Unit, dated work set, work parthood/phase/overlap, edition-pinned aggregation policy, allocation/deduplication, aggregation work, typed aggregation result, uncertainty, provenance. *Queries:* "How do I aggregate measured resource use over an exact dated work set without double counting shared stocks, people, meters, tools, data, or time?", "Which measurement results, work/overlap relations, policy edition, actual aggregation work, typed result, result episteme, and provenance must remain separately recoverable?", "What supports the aggregation claim when only a planning or display artifact is presented?" | **Builds on:** A.15.1, A.6.1, C.2.1, C.16. **Coordinates with:** A.3.1, A.3.2, A.15.2, A.15.5, B.1.4, C.27, A.1, B.1, A.14, C.13, A.3.4, A.10, G.6, G.11, C.29, E.17, and the pattern that defines the current comparison, assurance, transformation, reidentification, or decision claim. |
 | B.2 | **Meta-Holon Transition — Whole Reidentification** | Stable | Decide whether the exact existing whole still carries the current subject claim or one exact new whole must be identified. Recover the trigger profile, direct facts that challenge the existing explanation, the proposed new whole, its already admitted public kind, complete A.1 and kind-specific basis, whole-reidentification claim, evidence, currentness, reliance, and blocked overread without treating a record, metric, transformation, or interaction as the new whole. *Queries:* "Which exact existing whole currently explains the claim?", "Which separately governed facts defeat that explanation?", "What exact new whole and admitted kind are proposed?", "Does the complete recognition and reidentification basis pass, fail, or remain unknown?" | **Builds on:** A.1, A.14, B.1, C.13. **Coordinates with:** B.1.2, B.2.P, B.2.2, B.2.3, B.2.4, B.2.5, A.12, A.3.4, A.15.1, C.16, C.29, C.30.ILC, C.2.1, and E.24.UK. |
 | B.2.P | **Emergence and MHT Precision Restoration** | Stable | Repairs emergence, synergy, higher-level property, MHT, MET, MFT, metric mirage, and collection words entangled with whole-reidentification by recovering the claim kind first. | **Builds on:** E.10, E.10.ARCH, B.2, A.14, C.13, B.3.5. **Coordinates with:** B.2.2, B.2.3, B.2.4, C.16, A.2.2, A.6.F, A.3.4, C.30.ILC. |
@@ -774,6 +777,14 @@ Inspect `E.18.NET` when the current question joins independently identified tran
 
 When the immediate question is whether dated Work actually occurred or whether an entity was actually produced, leave the network overview and apply the tests in a finite order. First A.13 recovers every actual performer System's core: exact admitted System, local agential kind and criterion, classification, obtaining assignment for the scope, working situation, and window, and adequate core evidence; add a characteristic profile only when conditionally consumed. Next `A.15.1` independently admits one `U.Work` occurrence from the exact performance history, at least one Method actually followed, temporal extent, and at least one obtaining locally declared containing-System relation. That admission neither assumes nor requires F.6. Only afterward, when the receiving use needs precise assignment-bound performer attribution, F.6 tests `performedUnderAssignment` through the same obtaining A.13 assignment, direct case fact, holder equality, declared species and participants, and coverage. If that relation is unresolved, retain the admitted Work and lower only the attribution. A compact attribution sentence may omit an assignment identifier that its receiving use does not need; the omission changes only the sentence, not those facts. A log, ticket, or record creates neither Work nor attribution. After that Work and the required participant facts are exact, `A.15.PROD` separately tests the Work's participation in producing the entity, the start of that entity's identity, and production completion. Missing agency basis, Work granularity, production-participation predicate, identity-specification or inception basis, completion criterion or applicability, boundary or composition facts, or required substrate is a branch-local blocker. Actual change, output or result, identifier allocation, evidence, delivery, and acceptance remain separate claims and none proves those three production claims by itself.
 
+## Perform several levels of work through one action
+
+While adding an amount to a customer's running total, an agent can be calculating that total and preparing the report that contains it. These are related descriptions of the work being performed through the action. The report can still be unfinished. Earlier data collection supplies an input; it need not be taking place during the addition.
+
+Use `B.1.5.EW` when you cannot explain this vertical: recover the constituent operations, the encompassing work and the conditions that connect them. Stop expanding where the practitioner can perform the needed contribution or obtain it from another agent. Check that the necessary capabilities and shared resources fit together. Knowing the final procedure does not supply an unlearned operation in the middle.
+
+If the report must now identify the first chronological crossing of a limit, preserving the final total is insufficient. Use `B.1.5.RS` to compare a proposed replacement with the requirements of each receiving use; restoring order or changing the procedure may be necessary. `A.22.CGUS` helps distinguish a continuation that can be performed now from one whose constituent capability or resource conditions are missing. A feasible practice or preparation step may remain available while the whole performance is not.
+
 ## Recover a lost path from outside use to recursive builders
 
 Use this guide when the team has recovered or is explicitly proposing one project system-of-interest but can no longer show how a local result supports the expected outside change, release or runtime use, architecture, Work and change of that system, creator systems, and recursive build-the-builder branches. Open `A.1.STM` to locate the first unsupported result, select the particular pattern contribution that answers that claim, and state one next question or action or an exact stop.
@@ -1175,6 +1186,10 @@ The architecture pattern descriptions make this distinction usable without creat
 This matters because architecture work is not only "draw the diagram". It is also "which structure matters", "what characteristic changes", "what tradeoff is visible", "what description is needed", "what interface claim is being made", "what evidence would make this architecture decision responsible", and "which move changes the architecture rather than merely changing a document about it".
 
 Assess how hard a holon is to understand, change, control, reuse or improve under the declared architectural characteristics and concerns. Keep the structural dependencies that contribute to this difficulty visible in descriptions, including simplified diagrams.
+
+A Method can be a constituent of another Method while having its own constituents. Performing an action can realize several levels of work at once. For example, updating a running total can be part of calculating a result and preparing a report. The report's purpose affects which updates are appropriate. A result that suffices for a final sum may fail a question about the first chronological limit crossing. Recover these connections with `B.1.5.EW`; compare a replacement across its encompassing uses with `B.1.5.RS`.
+
+The relevant vertical also reveals what the performers must be able to do or obtain, and which shared resources must fit their combined work. A practitioner may know a basic operation and understand the whole procedure while still lacking an intermediate operation needed to connect them. Practise or obtain that contribution and return to the whole task. `A.22.CGUS` keeps these capability and resource conditions visible when judging an available continuation. Earlier completed work can supply a needed result without being enacted again now.
 
 Extractable structural information is a reader-relative characteristic of a publication, assessed for the intended reader's preparation and available budget. It applies, for example, to a pattern's text, an explanation in a guide or an architecture description. Epiplexity formalizes structural information extractable from data by computationally bounded observers ([Finzi et al.](https://arxiv.org/html/2601.03220v2), §3); `C.29:4.2c` governs the use of that mathematical lens. `A.6.3.NAR` supplies the source-to-narrative relation for narrative publications. What counts as an improvement depends on the named object and intended use.
 
@@ -8532,6 +8547,8 @@ Start with the practical question, not a graph or the umbrella word *specializat
 Before claiming refinement or replacement, decide whether the changed account still identifies the same Method. If it does, state what was preserved and what changed; do not invent a relation between two Methods. If two Methods are identified, a refinement comparison states its direction and use, the semantics retained from the first Method, what the second narrows or strengthens, and the action or result that changes.
 
 A replacement comparison says which Method may replace which other Method, for what use, under which preconditions, with which intended result or preserved condition, and which bounds, interfaces, losses, and guards must remain visible. Do not infer the reverse direction. Shared kind criteria or similar descriptions do not prove replacement.
+
+When the replacement question concerns a constituent used by one or several encompassing Methods, **B.1.5.RS** supplies the comparison: follow the candidate through each relevant use and retain any adaptation or narrower applicability. For the distinct question of which Methods are being enacted together through a current action, use **B.1.5.EW**.
 
 A parameter change inside the Method's declared applicability and identity rule is variation of the same Method. A change to a participant meaning, result, bound, interface, or acceptance condition that matters to identity identifies another Method or leaves the identity question unresolved.
 
@@ -26460,6 +26477,8 @@ These relations are world-side facts, not fields stored in Work. For each A.15.1
 | `EpisodeOf_work(episode, whole)` with `<U.Work, U.Work>` | The first Work is an independently admitted event-bounded sub-occurrence of the second. Actual start and end events and the performed content must establish both the episode boundary and its inclusion in the whole. A named use selects which already grounded episode matters; it does not create the episode. | Identity is this relation kind plus the ordered episode–whole pair. Several episodes and several larger wholes are allowed when each predicate passes. If boundary facts permit more than one grouping, a cited continuity-policy episteme may support the assertion but is not a participant and does not make the relation obtain. |
 | `OperationalPartOf_work(part, whole)` with `<U.Work, U.Work>` | The first Work is an independently admitted performed sub-occurrence whose performed content is a constitutive part of the whole occurrence at the stated operational grain. Mere overlap, a Method factor, schedule row, interval, or result label does not establish it. | Identity is this relation kind plus the ordered part–whole pair. Several parts and several containing Work occurrences are allowed when each predicate passes. State any Method-factor relation separately. |
 
+To recover these connections in practice, **B.1.5.EW** starts with an action and asks what encompassing work is under way through it. Adding a value can be part of computing a total while report preparation is ongoing. This does not make the report complete, create a separate occurrence for every description, or count the same resource use several times. Independently claimed Work parts still satisfy the predicates above.
+
 **Containing Systems.** Current assertions do not use bare `executedWithin`. Declare a direct local predicate such as `workOccursWithinPlantBoundary(work, system)` with participant order `<U.Work, U.System>`. Its predicate must say which exact system delimitation and qualification window make the complete Work occurrence lie within that System for the stated use, and must route that delimitation to A.1, A.14, or the applicable domain pattern. Its ordinary occurrence identity is the exact local relation kind plus the ordered Work–System pair. The A.15.1 occurrence basis includes at least one such obtaining relation. The same Work may stand in several true containing-System relations at different valid boundaries; no universal uniqueness or automatic “immediate” System is assumed. A part relation between Systems, organizational accountability, colocation, or a diagram does not by itself create another Work-containment relation. If the use needs one and none is declared and grounded, return `missing-governor[work-containment]`. Historical `executedWithin` is only a route cue to recover this local relation; do not author a new current claim with it.
 
 **Retries and resumptions.** Bare `retryOf` and `resumptionOf` are likewise route cues, not complete universal relation names. A domain that needs either relation declares a local two-participant species over `<U.Work, U.Work>`. A retry predicate states which earlier Work ended without satisfying which independently named completion condition, which target remains current, and which facts make the later Work another attempt rather than mere repetition. A resumption predicate states the earlier unfinished Work, the interruption boundary, and the direct continuity facts that make the later Work continue it rather than start another attempt. For either species, the exact local relation kind plus its ordered later–earlier pair identifies the ordinary occurrence; the declaration states applicability and whether more than one predecessor is allowed. A repeated label, shared Method, or temporal adjacency establishes neither relation. A continuity-policy episteme may support an ambiguous judgment but is not a participant and cannot replace the local predicate.
@@ -37364,6 +37383,22 @@ For example, a design review has two alternatives: accept the design or repair i
 
 That corrected card is already useful. It keeps both potential alternatives visible and refuses to invent the missing relation. Continue only if a named later use needs formal structure identity or replayable results.
 
+##### A.22.CGUS:4.1.1 - Conditions through constituent and encompassing work
+
+When a continuation is a way of performing work, recover the part of its Method/Work vertical that can change availability. Ask what constituent actions must be performable and what encompassing work is being done through them. B.1.5.EW supplies that recovery; knowing a Method's description does not supply the capability or resources to perform it.
+
+Distinguish conditions needed at entry, conditions that must remain satisfied during combined performance, and the result required by the encompassing use. In particular:
+
+- a constituent may be individually performable but fail in the needed coordination;
+- adequate local resources may be insufficient when constituents share them;
+- a constituent result may satisfy its own postcondition while leaving the whole's result unresolved.
+
+For each relevant condition, state what it concerns and how it affects this continuation. Reuse an understood connection or adequate existing basis. A missing condition blocks or leaves unknown the dependent alternative; it need not block an independent way to learn, obtain support or change the arrangement. Capability belongs to its performer and conditions under A.2.2; prospective resources and support remain prospective until available.
+
+In the formal branch, express these dependencies with the existing constituents, selected relations, applied constraints and continuation judgements. A temporal edge alone cannot express that one action constitutes part of another ongoing work. Nor does a nested flow position establish Method or Work parthood. A diagram may show the relations together when their meanings remain recoverable.
+
+A constituent's postcondition supports the encompassing conclusion only through the relevant composition and result-use conditions. An expected postcondition is not an observed result. If the displayed account omits conditions needed to perform the whole, state the narrower question it answers. A constituent hierarchy without potential alternatives does not require CGUS qualification.
+
 #### A.22.CGUS:4.2 - Formal qualification branch
 
 Use the four A.22 discriminators to identify one `U.Structure`:
@@ -37570,6 +37605,19 @@ The structure has two potential continuations although this case enables only re
 If `RepairProposalTargetsCandidate@DR-27` or its participant binding is missing, the repair result becomes `unknown — proposal target not established`. If the structure's identity was established on another sufficient basis, only this case result is incomplete. If that occurrence belongs to the claimed identity basis, this structure claim also remains provisional.
 
 If a later thermal check passes while the service check still passes, acceptance becomes enabled and repair becomes disabled. If the constituents, selected occurrences, constraints, use frame, locus bindings, and potential topology have not changed, the CGUS keeps its identity and membership. A replacement result episteme or relation occurrence must first be compared under the A.22 discriminators.
+
+#### A.22.CGUS:5.1 - A missing intermediate capability changes the continuation
+
+In this constructed learning case, a dancer has the strength and static axis control needed by a figure and can recall its sequence. The known limitation is maintaining balance during its required rotation. The figure's continuation depends on that coordinated performance, not just on adequate strength and memory.
+
+| Alternative | Relevant conditions in this case | Present result |
+| --- | --- | --- |
+| Perform the complete figure under its intended conditions. | The required balance during rotation cannot yet be sustained. | Unavailable for the intended performance; naming the figure or its steps does not remove the gap. |
+| Practise the rotational coordination under a suitable reduced demand. | A domain-appropriate exercise, suitable space and the needed support are available in the stipulated case. | Available as practice of the intermediate performance. It does not establish ability to perform the full figure. |
+
+During the rotation, balance coordination would constitute part of turning; that turn would constitute part of the figure. These are connections through current performance, not three successive tasks. The practice alternative can exercise the first connection without already performing the intended figure.
+
+When the coordination can be sustained, return to the encompassing figure and vary the relevant conditions before drawing a broader capability conclusion. The case condition and its continuation judgement can change without changing the potential alternatives. The subject's training Method supplies the exercise and assessment; CGUS makes their effect on the available continuation explicit.
 
 ### A.22.CGUS:6 - Bias-Annotation
 
@@ -39052,6 +39100,8 @@ The composition link is not one-to-one. A Work occurrence may enact the whole me
 
 If any side is missing, lower only that side. Do not repair a missing submethod by inventing a work part, and do not repair a missing work part by inventing a submethod. Keep a method-description node, evidence segment, mechanism material, system-component behavior, or `A.15.4` appearance-based reliance repair request under its subject pattern.
 
+For an ordinary working question—what larger work is being done through this action now—use **B.1.5.EW**. It recovers the constitutive connections at the needed grain and shows how a changed encompassing condition changes the action. An ongoing whole need not be completed, and its constituents need not all act at once. When changing a constituent for use in one or several wholes, **B.1.5.RS** follows the change through their entry conditions, interactions and required results. The qualifications above still decide the corresponding Method and Work claims.
+
 #### B.1.5:4.5.1 - Planning And Performed-Work Obligations
 
 B.1.5 has three common use positions, but they are positions in use, not U-kinds:
@@ -39227,6 +39277,347 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 - Stops before any positive transformation-composition or transformation-part claim until a direct governor supplies exact participants, obtaining semantics, and occurrence identity.
 
 ### B.1.5:End
+
+## B.1.5.EW - Recover How Constituent Actions Enact Encompassing Work
+
+> **Type:** Method pattern
+> **Status:** Candidate
+
+### B.1.5.EW:1 - Problem frame
+
+Use this pattern when you need to understand, perform, teach, divide or change a way of working and cannot yet explain how its constituent actions perform the encompassing work. A person knows each movement but loses the partnered dance. A team improves a calculation but no longer obtains a usable engineering answer. A description lists stages, yet the reader cannot tell what larger work is being done through the present action.
+
+Start with one action and ask: **“What am I doing through this action now, and what makes it part of that work?”** Then recover the constituents needed to perform it and the conditions of the encompassing work that affect it.
+
+The first useful result is an explanation you can use: the selected action, its relevant constituents and encompassing work, the connections that make the whole possible, and any difference that requires changing the action or its organization. A short demonstration can supply this result. A retained diagram or record is useful only when someone needs it later.
+
+Use an already understood connection directly. This pattern does not require reanalysing every familiar act or finding the smallest possible action and largest conceivable whole. Stop where further detail would not change the present performance, learning, division of work or correction. Use B.1.5 when the separate question is whether identified Methods qualify as one composite Method; use C.32.MWA when several structures need to be synthesized into a practice architecture.
+
+### B.1.5.EW:2 - Problem
+
+A sequence answers “what happens after what?”. It can leave out “what is being done through what?”. While a person adjusts a step to a partner, they can already be performing a coordinated figure and the phrase containing it. They do not first finish adjusting and only later start dancing the figure.
+
+The relation matters for action. A step that is correct in a solo exercise may be wrong in this partnered phrase. Improving the isolated movement can reinforce the failure if the needed change concerns coordination or the encompassing intention.
+
+The reverse mistake is to call every concurrent or indispensable activity a constituent. Music reproduction can support a dance without being part of the dancer's Work as that Work is bounded. A planning decision made yesterday can still constrain today's action without being performed again now.
+
+### B.1.5.EW:3 - Forces
+
+- Familiar constituents make work possible, while their combination can introduce a difficulty absent from separate practice.
+- Encompassing requirements constrain the parts; the parts' actual capabilities limit what the whole can achieve.
+- One action can serve several wholes, whose conditions can differ or conflict.
+- A short account can guide action; unnecessary decomposition consumes the attention needed to act.
+- The whole may be ongoing while only some of its constituents are active.
+- A planned connection helps design work, but actual enactment needs the performed connection.
+
+### B.1.5.EW:4 - Solution
+
+Recover the connection in both directions: **what larger work is being performed through this action, and what constituent actions make it performable?** Keep genuine before-and-after dependencies alongside these connections.
+
+#### B.1.5.EW:4.1 - Choose an action and the work being explained
+
+Name an action in a recognizable situation and the moment or interval under consideration. State whether you are explaining observed Work or proposing how future work could be done. Identify what is being attempted and what a useful result would be.
+
+Use ordinary verbs first: adjusting a step, comparing a measurement, adding a value, questioning an assumption. If the description supplies only a noun such as “coordination”, recover what the participant actually does.
+
+#### B.1.5.EW:4.2 - Recover an encompassing performance
+
+Ask what larger action is being done through the selected action now. Explain the organizing connection: which part of that larger action this performs, how it combines with other contributions, and under which conditions.
+
+For an actual occurrence, this connection must concern the performed work. Merely intending to obtain a later benefit is insufficient. A contribution can constitute part of an ongoing attempt even when that attempt fails; successful completion is a further question.
+
+Distinguish three possibilities where they change your answer:
+
+- The same Work enacts several Methods.
+- An independently identifiable performed suboccurrence is an operational part of encompassing Work under A.15.1.
+- One Work supports, overlaps or supplies a later result to another without being its constituent.
+
+Choose the occurrence account that fits the work. Several descriptions do not require several Work occurrences. Identify a suboccurrence separately when its extent, performer, result, resource use or correction needs to be distinguished.
+
+A useful test is to explain the positive connection, not just what would fail if the action disappeared. Removing an external power supply can stop a calculation; that fact alone does not make power generation part of the analyst's Work.
+
+#### B.1.5.EW:4.3 - Follow the relevant vertical and recover its constituents
+
+Continue upward through another encompassing work only while its conditions change the selected action, its learning or its use. Explain each intervening connection. If an action serves two wholes, keep both uses and their different conditions visible.
+
+Then ask what you must be able to do, or obtain from another participant, to perform the selected action. If a described construction remains unclear, use B.5.RC to recover its inputs, operations, conditions and a small execution. If you lack the domain know-how, obtain an explanation or demonstration. If you understand the operation but cannot perform it in the combination, practise with the encompassing conditions, obtain support or use another qualified contributor. Stop a branch at an understood operation or an available contribution sufficient for this use.
+
+These moves need not end in one tree. Nor does following several connections establish an unrestricted transitive parthood rule. Carry the actual conditions through the intervening wholes. A move from an action to its enabling tool, or from a Method to a more general Method, changes the relation; describe it accordingly.
+
+#### B.1.5.EW:4.4 - Examine the combination at a revealing moment
+
+At the chosen moment, identify what must be coordinated and what can vary. Keep prior-result requirements: an operation can be a constituent of an ongoing whole and still have to wait for another constituent's output.
+
+Change one condition of the encompassing work in thought or in a suitable trial. Determine what must change in the constituent action. Then consider a limitation of that action and determine which encompassing performance it prevents or restricts. Use available knowledge when it answers these questions; a new experiment is not automatically required.
+
+Where control is involved, first check whether the feedback concerns the response and interval being judged. Delayed or misleading feedback can make adequate execution look wrong. Then distinguish failure to follow the reference from accurate execution of a reference that is no longer feasible or useful. A reference may remain in force between updates; generating or revising it is separate work. C.30.LCA helps recover the control relations when those are unclear. Claims about dynamics, feasible response or timing need their subject-specific basis; a conflict requiring architecture change can continue through C.30.ILC.
+
+#### B.1.5.EW:4.5 - Use the explanation to continue or correct the work
+
+Choose the correction that the recovered connection supports:
+
+| What prevents the encompassing performance? | Useful continuation |
+| --- | --- |
+| A needed operation is unknown or cannot be performed. | Recover, learn or obtain that contribution; retain the whole conditions while doing so. |
+| The operation is understood but this execution violates its conditions. | Correct the execution and inspect the affected encompassing result. |
+| Individually adequate operations do not fit together. | Change their coordination, order, shared conditions or allocation; examine the burden moved elsewhere. |
+| The reference or requested result cannot be met under current conditions. | Reconsider that reference, demand or available means with the participant who can change it. |
+| The description assigns a connection that the work does not support. | Repair the account; do not change the work merely to fit the diagram. |
+| A constituent could be replaced. | Use B.1.5.RS to preserve the requirements of its receiving wholes. |
+
+A diagnosis may remain conditional when two explanations fit. Obtain further information only if it can change the next useful action and warrants its burden under C.11.DUA. More encompassing work does not automatically confer authority to override a participant's constraints.
+
+Return the explanation, any selected correction and the conditions that matter for using them. Recognition of a plausible connection is not assurance of successful performance. Establish a stronger composition, causal or performance claim only when the receiving use requires it.
+
+### B.1.5.EW:5 - Archetypal Grounding
+
+#### B.1.5.EW:5.1 - A step within a partnered phrase
+
+During one beat, a dancer transfers weight while adjusting the direction and size of the step to the partner's movement. That adjustment is part of performing the coordinated turn; the turn is part of performing the phrase with its intended timing. The turn and phrase are ongoing through this action, although neither is yet complete.
+
+A solo drill established that the dancer can make a large turn. In the partnered phrase, that amplitude pulls the partner off the shared line. The correction is to reduce the step and preserve the connection, not to repeat the large turn more accurately. A slower musical phrase changes when weight transfer must finish and how long the connection must remain available.
+
+A different dancer has adequate strength and static axis control and knows the figure, but cannot maintain balance during its rotation. The missing performance lies between available muscular actions and the known figure. More strength practice or sequence recall need not repair this stipulated gap. Develop the rotational coordination in suitable practice, then return to the figure and vary the conditions that affect the combination. Keep already attained abilities; test the needed intermediate performance rather than assuming that mastery below and knowledge above fill it.
+
+The vertical here follows performed movement, coordinated figure and phrase. Playing the recording is external support under this boundary. Practising these movements may later contribute to cultural transmission, but one beat does not establish that a cultural variant persists in a population.
+
+#### B.1.5.EW:5.2 - An update within a running calculation
+
+An analyst is totaling accepted observations as part of preparing a report. The algorithm maintains a running sum. On reading the next value, adding it to the accumulator is a constituent of computing the total; computing that total is part of the report preparation currently under way. The addition, computation and report preparation do not incur three copies of that minute of work.
+
+The addition is correct over the supplied numbers. The report, however, requires excluding duplicate observations. If duplicate detection is missing, more precise addition cannot repair the report. Recover the accepted-observation rule and apply it before the affected update. The genuine order remains: the next update consumes the current accumulator, and the report cannot use the final total before the calculation finishes.
+
+A scheduler running on the same machine overlaps the calculation. That overlap alone makes it neither an arithmetic constituent nor report-preparation Work.
+
+#### B.1.5.EW:5.3 - Continuing operation between plan updates
+
+A delivery team is following a route. Each driving action is part of progressing along that route and performing the delivery. Route planning was done earlier. Its result still constrains driving; the team is not performing the planning Work at every instant.
+
+A newly closed road makes the old reference unusable. Better steering cannot restore feasibility. The team needs a revised route under the actual road and delivery constraints. If the road is open and the driver has merely missed a turn, execution correction may suffice. This distinction locates the useful intervention without imposing a fixed number of control levels.
+
+### B.1.5.EW:6 - Bias-Annotation
+
+An observer can recognize their own specialist operation while missing the connection needed by another participant. Ask the receiver what the encompassing work requires. Equally, do not presume that a manager's broad description supplies the constituent expertise. Actual constraints can invalidate the requested whole.
+
+### B.1.5.EW:7 - Conformance Checklist
+
+- Can the reader identify the action and actual or proposed work being explained?
+- Is each claimed encompassing connection explained through performed or proposed organization, rather than timing or importance alone?
+- Are the needed constituents recoverable without indefinite decomposition?
+- Does a consequential change in whole conditions produce an intelligible change in the action?
+- Are genuine result dependencies and relevant external support retained?
+- Does the result identify a useful continuation without claiming that recognition establishes success or assurance?
+
+### B.1.5.EW:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure | Repair |
+| --- | --- |
+| Three level names stand in for an explanation. | Show what the selected action does in each encompassing performance at the chosen moment. |
+| A stage list conceals current constitution. | Explain both what is done through the action now and which result must become available later. |
+| Every description creates another Work and another time charge. | Use the performed history and the receiving accounting question to identify occurrences and parts. |
+| All constituents must run at once. | Identify the active constituent and preserve the other constituents' timing conditions. |
+| Successful isolated practice is treated as mastery of the combination. | Practise the relevant whole and vary a condition that changes coordination. |
+
+### B.1.5.EW:9 - Consequences
+
+The practitioner can locate a missing ability, combination condition or unworkable demand instead of treating every failure as poor execution. The account also makes division of work more useful: a contributor receives the conditions of the whole, not only an isolated task name.
+
+Recovering these connections takes effort. Bound it by the action or explanation needed; reuse understood constituents and retain unresolved distinctions only when they affect that use.
+
+### B.1.5.EW:10 - Architectural Rationale
+
+Work can be described at several grains without becoming several successive activities. Constitution explains why doing a part is already participating in doing the whole. Temporal order explains a different dependence, including order among those parts.
+
+A practitioner can explain how one occurrence is performed without first establishing a reusable composite Method. Recovering that connection is enough when it answers the working question; synthesizing several practice structures is useful when their different organizations affect the decision.
+
+### B.1.5.EW:11 - SoTA-Echoing
+
+Craver and Bechtel's [mechanistic account](https://mechanism.ucsd.edu/bill/research/topdownfinal.pdf) is a historical anchor for distinguishing constitutive organization from causal interaction. [Weinberger's critique](https://philsci-archive.pitt.edu/13333/) shows why identifying intermediaries does not settle every explanatory question. This pattern adopts the need to explain organized participation; it imports no universal theory of causation or experimental test for parthood.
+
+[Matni, Ames and Doyle](https://arxiv.org/html/2401.15185v1) explain interacting control functions with different rates and recursively refinable organization. Their formal control constructions support the control example; they do not establish the constitution of every human practice. The practical recovery operation here is a methodological synthesis under FPF's Method and Work distinctions.
+
+For the practical question here—what larger work is being done through this action, and why must the action change—a lifecycle account is a serious but incomplete alternative. It usefully preserves preparation, delivery and other genuine precedence. It does not by itself explain why a smaller partnered step performs the figure better than a larger solo step at the same moment. Sections 4.2 and 4.4 therefore adopt organized-participation recovery and a changed-whole-condition comparison, retaining the lifecycle account where order matters. A short explanation can settle this question without building a full practice architecture.
+
+A fixed control-layer diagram is another useful alternative when the problem already has a justified controller/reference/plant interpretation. The Matni–Ames–Doyle account helps interpret such a case and its differing rates. Section 4.4 retains the distinction between inadequate execution and an infeasible reference; section 4.2 requires the particular constituent connection rather than inferring it from diagram depth. For non-control work, the source's formal constructions provide an analogy, not its ontology or a guarantee. Reopen this synthesis if a worked case requires causal influence to be mistaken for constitution, if its changed condition fails to discriminate the proposed connection, or if a simpler subject Method supplies the same useful correction. Where only an earlier-result dependency matters, keep that dependency account and stop.
+
+### B.1.5.EW:12 - Relations
+
+- B.1.5 supplies Method-composition conditions; A.3.1 supplies Method identity.
+- A.15.1 supplies Work enactment and operational parthood.
+- B.5.RC helps recover an unfamiliar construction from its description. Missing domain knowledge or performing capability retains the separate returns in section 4.3.
+- B.1.5.RS tests a proposed constituent replacement in its receiving wholes.
+- C.30.LCA and C.30.ILC address control-specific interpretation and cross-scope architecture conflict.
+- C.32.MWA handles synthesis when several practice structures must be considered together.
+- C.11.DUA bounds further investigation by what it can change.
+
+### B.1.5.EW:End
+
+## B.1.5.RS - Replace a Constituent Method in Its Encompassing Uses
+
+> **Type:** Method pattern
+> **Status:** Candidate
+
+### B.1.5.RS:1 - Problem frame
+
+Use this pattern when a constituent Method could be replaced, simplified or implemented differently and you need to know which encompassing uses remain possible. A faster check returns the same answer on familiar inputs but no longer exposes information another part needs. An approximation is adequate for ranking options but unsuitable for deciding whether a limit is exceeded.
+
+Start with the direction of replacement and the practical gain sought. Ask: **“What do the receiving wholes rely on, and does this candidate still supply it under their conditions?”**
+
+The first useful result is a bounded substitution decision: the uses preserved, uses needing adaptation or restriction, and uses for which the replacement is incompatible or unresolved. One decisive comparison may be enough. Do not perform a new trial when an available argument or known counterexample settles the decision.
+
+Use B.1.5.EW first if the constituent and its encompassing uses are unclear. If only the wording or diagram changes and the performed Method remains unchanged, check that representation's correspondence instead. If the replacement supplies an entire standalone Method, use the relevant fit and choice Methods; this pattern contributes only the constituent-in-whole question.
+
+### B.1.5.RS:2 - Problem
+
+Local adequacy does not establish substitutability. The whole can depend on output meaning, intermediate interactions, order, timing, recoverability or resource demand that a local comparison omitted. A shared constituent can satisfy one whole and fail another.
+
+The opposite failure is to demand that every internal detail remain identical. This prevents useful replacement even when the receiving work does not depend on that detail. The preservation question must come from the actual use.
+
+### B.1.5.RS:3 - Forces
+
+- A local gain can remove a contribution needed elsewhere.
+- Several uses may require different guarantees from the same constituent.
+- Simplification saves effort when its lost detail is irrelevant to the receiving action.
+- Strong evidence can be expensive; a bounded argument or counterexample may already settle the next move.
+- A common replacement reduces maintenance, while separate variants can preserve otherwise incompatible uses.
+- Method identity, description correspondence and performance evidence answer different questions.
+
+### B.1.5.RS:4 - Solution
+
+Compare the candidate against what the encompassing work needs, then carry the changed contribution through that work. State the direction and conditions of the result.
+
+#### B.1.5.RS:4.1 - Name the proposed change
+
+Identify the current constituent, its candidate replacement and the gain: for example, reduced delay, effort or dependence on a scarce specialist. State what changes in the operation, its inputs, outputs, interactions or realization.
+
+Keep a proposed replacement separate from one already performed. Use A.3.1 to settle any needed identity claim: exposing a hidden step, changing an implementation within an admitted variation and proposing another Method need not have the same answer.
+
+#### B.1.5.RS:4.2 - Recover the receiving wholes
+
+Identify the encompassing Methods or work arrangements whose use can change. Follow an indirect use through the intermediate whole while it affects the decision. Include a second receiving use when the constituent is shared; local success in the first use is not evidence for the second.
+
+This is a search bounded by the intended replacement. If the actual users cannot be recovered, restrict adoption to the known uses or return the missing use information that prevents a broader decision. Do not require an inventory of all imaginable uses.
+
+For each relevant whole, recover:
+
+- what it supplies or assumes at the constituent's entry;
+- what result or interaction it needs from the constituent;
+- timing, ordering, coordination and resource conditions that affect this use;
+- what variation or loss it can tolerate.
+
+Plain statements are sufficient when they make the comparison executable. Use an existing interface or formal contract when it already states these conditions.
+
+#### B.1.5.RS:4.3 - Compare the contribution under those conditions
+
+Apply the proposed constituent to the receiving conditions. Follow what it supplies through the affected part of the whole, including an interaction before final output when the whole relies on it.
+
+Choose an argument, available observations, calculation or trial that can discriminate the decision at proportionate cost. A known violation can reject a general replacement without testing every possible input. A successful example can reveal a usable construction but does not automatically support all inputs.
+
+When an approximation is proposed, state the property preserved for the receiving use: a bound, ordering, feasible action, specified error or other needed consequence. Equal rounded answers on one example do not establish preservation of a different property.
+
+If the same implementation must serve several wholes simultaneously, examine their joint demands. Separate success under incompatible settings is not one shared implementation. Compare retained variants or changed coordination where that is useful.
+
+#### B.1.5.RS:4.4 - Classify the replacement by use
+
+| Comparison result | What can follow |
+| --- | --- |
+| The needed contribution and conditions are preserved. | Adopt the replacement for that use at the supported scope. |
+| Preservation holds only under a narrower condition. | Restrict use to that condition and retain a suitable alternative elsewhere. |
+| An adapter or changed combination can restore the needed contribution. | Treat that adaptation as part of the candidate and check its full burden and behavior. |
+| A required contribution is lost. | Reject the replacement for that whole, change the requirement through the relevant decision, or choose another candidate. |
+| Information does not distinguish compatibility from failure. | Keep the uncertainty bounded and obtain more only if it can change a worthwhile next action. |
+
+This is a directed conclusion. Replacing A by B in one use does not show that A can replace B, that they are the same Method, or that B is preferable in all uses.
+
+#### B.1.5.RS:4.5 - Adopt or retain alternatives
+
+Choose at the supported scope, accounting for adaptation, learning, operation and maintenance costs. Retain separate variants when their different strengths justify the burden; a single universal replacement is not required.
+
+For an ongoing operation, use its ordinary rules for introducing change and retaining continuity. State the condition that would require reconsideration: changed inputs, another receiving whole, a tighter timing limit, lost support or a newly relevant result property. No separate certificate or trial is required merely to record that an existing basis was sufficient.
+
+Return the decision in the form its receiver needs. Where the conclusion is only recognition of a plausible substitute, say so. A claim of guaranteed preservation needs the argument or assurance appropriate to that claim under B.3; a local decision under uncertainty uses C.11 and C.11.DUA.
+
+### B.1.5.RS:5 - Archetypal Grounding
+
+#### B.1.5.RS:5.1 - Faster ordering in two encompassing uses
+
+A team proposes replacing a stable sorting Method with a faster one that need not preserve the input order of equal keys.
+
+One whole prepares a table showing how many records occur at each key. Internal order among equal keys does not affect those counts. Subject to the remaining input and performance conditions, the candidate can supply that contribution.
+
+Another whole schedules requests by priority while retaining arrival order among requests of equal priority. Its method first orders records by arrival and then stably orders them by priority. Replacing the second sort with the candidate can reverse equal-priority requests. The earlier arrival ordering no longer survives the composition.
+
+An allowed reversal of two equal-priority records with different arrival times exposes the incompatibility with the required guarantee. This is a counterexample to unrestricted replacement, not a prediction that this implementation reverses every such pair; repeated random benchmarks cannot restore the missing guarantee. Options include retaining the stable Method or sorting by an explicit compound key of priority and arrival. The compound-key candidate has changed the operation; compare its behavior and cost before using it. The same “sorted by priority” description concealed different requirements of the two wholes.
+
+#### B.1.5.RS:5.2 - A bounded estimate and a threshold decision
+
+A constituent estimates a quantity with absolute error at most 2. A receiving whole only needs to distinguish alternatives separated by more than 4; the bound can support their ordering when both estimates satisfy it.
+
+Another whole must decide whether the quantity exceeds 100. An estimate of 99 is insufficient: the admitted interval is 97 to 101 and crosses the threshold. A more accurate estimate or another decision rule is needed for that case. At an estimate of 95, the same error bound puts the whole interval below 100 and can settle that particular decision.
+
+The change from “estimate the quantity” to “support this decision” makes the scope of replacement explicit. The threshold is stipulated in this constructed example; the pattern does not supply a rule for choosing it.
+
+#### B.1.5.RS:5.3 - A quicker observation during coordinated work
+
+A group performs a movement sequence in response to a leader. A proposed observation Method uses occasional snapshots rather than continuous observation. It can suffice for an exercise in holding a static pose, but miss the cue that starts a coordinated transition.
+
+Recover the timing actually needed by the encompassing sequence. If the snapshot interval exceeds the available response window, better interpretation of each snapshot cannot restore the missed cue. Keep more frequent observation, redesign the cue so it remains available, or change the coordinated sequence. Each proposal has a different burden and requires its own bounded comparison.
+
+### B.1.5.RS:6 - Bias-Annotation
+
+The participant proposing a replacement often sees its local saving more clearly than the costs borne by other users. Recover the receiving requirements before choosing. A demand to preserve everything can conceal the opposite bias: treating familiar implementation detail as necessary even when no receiving use depends on it.
+
+### B.1.5.RS:7 - Conformance Checklist
+
+- Are the constituent, candidate, replacement direction and intended gain clear?
+- Have the relevant receiving wholes and their relied-on contributions been recovered?
+- Does the comparison carry the changed contribution through each affected use?
+- Are joint requirements examined when one realization must satisfy several uses together?
+- Does the conclusion preserve its conditions and evidence reach?
+- Are adaptation costs and a useful reconsideration condition included where they change adoption?
+
+### B.1.5.RS:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure | Repair |
+| --- | --- |
+| One matching output stands in for preserved behavior. | Recover the timing, interaction or property actually used by the whole and test that contribution. |
+| Compatibility in one whole is exported to every user. | Separate receiving uses and restrict the conclusion accordingly. |
+| Every implementation detail must remain unchanged. | Preserve what the declared use relies on; permit changes outside that dependence. |
+| An adapter is omitted from the candidate's cost or failure analysis. | Include the adapter in the candidate arrangement and follow the combined behavior. |
+| A successful trial becomes an unconditional guarantee. | State its supported scope and establish stronger claims only when required. |
+
+### B.1.5.RS:9 - Consequences
+
+Useful replacements can be adopted where they work without silently breaking other wholes. An incompatibility can also expose a better architecture: different variants, an explicit interface or a changed combination.
+
+The method requires knowledge of receiving uses. Its cost grows with meaningful differences among them, not necessarily with the number of documents or callers. Reuse one comparison across uses only when their relevant conditions and relied-on contribution match.
+
+### B.1.5.RS:10 - Architectural Rationale
+
+Substitution is a relation to a receiving use. A constituent's attractive property does not establish that relation. Recovering the whole's dependence avoids both unrestricted replacement and unnecessary preservation of detail.
+
+When the receiving uses are already understood, the practitioner can begin with their requirements and compare the replacement directly. The result is a directed substitution decision across one or several uses, including a candidate that changes the whole to accommodate the new constituent.
+
+### B.1.5.RS:11 - SoTA-Echoing
+
+[Mazo, Compton, Cohen and Ames](https://arxiv.org/html/2409.14902v1) formulate compositional contracts for layered control systems. Their contribution supports checking what adjacent functions assume and supply, including their different signal and timing models. This pattern uses that conditional-composition idea beyond the paper's system class; its formal guarantees are not generalized.
+
+The stable-sort case illustrates contextual preservation by an elementary algorithmic counterexample. The bounded-estimate case applies ordinary interval reasoning. These are constructed cases of the common Method, not evidence that every constituent requires a formal contract or a numerical error bound.
+
+For the practical question of substituting a constituent, a local performance benchmark is a serious alternative: it can reveal speed, cost and errors on its tested inputs. It does not establish that a replacement preserving totals also preserves arrival order, or that its error bound supports the required threshold decision. Sections 4.2–4.4 therefore select receiving-use conditions first, then derive or test only the preservation those uses need. The worked counterexample or an available bound can settle the stated question at less effort than an additional benchmark; an unresolved performance question can still justify a targeted trial.
+
+Formal compositional contracts offer a stronger alternative where the constituent, interfaces and encompassing system fit their mathematical assumptions. The cited control theory makes those assumptions and guarantees explicit. This Method adapts that conditional comparison into ordinary statements of inputs, interactions, results and permitted losses; it keeps the formal proof when its additional assurance is useful and attainable. It does not treat every professional practice as a control-system instance. Reopen the selected comparison when an unmodeled interaction, shared realization, changed receiver or unsupported adaptation defeats the preservation claim. If one constituent cannot satisfy the relevant uses together, retain different variants or change the encompassing arrangement instead of declaring one universally better Method.
+
+### B.1.5.RS:12 - Relations
+
+- B.1.5 and A.3.1 define Method composition, identity and replacement-claim distinctions.
+- B.1.5.EW recovers constituent and encompassing work when those connections are not yet understood.
+- B.5.RA and B.5.RR reconstruct and revise the argument on which preservation depends.
+- C.29 governs a mathematical correspondence used in the comparison.
+- C.30.LCA supplies control-specific conditions; C.30.ILC addresses resulting cross-scope architecture conflicts.
+- C.11 and C.11.DUA govern the local decision and whether further investigation is useful.
+
+### B.1.5.RS:End
 
 ## B.1.6 - Work-Resource Aggregation
 
@@ -55165,16 +55556,16 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 * **S — Scale Variables.** Minimal set of **monotone knobs** for the Context: `compute` (steps/tokens/FLOPs/time/energy), `data` (size/quality), `model capacity` (params/branches), `iteration budget`, **`freedom‑of‑action (FoA)`**/**environment richness**, etc. Declare **units** under **C.16** and bind `S` to a **ScaleWindow**. Keep planned budget values with **A.15.2**; bind dated resource-use accounts to **A.15.1**, **B.1.6**, and **A.10**. Where training/inference trade, **name the phase** the claim concerns.
 * **ScaleWindow.** Declared range of `S` values for which behaviour claims hold (editioned). This is **distinct from** **FreshnessWindow** used by parity.
 * **Scale‑Probe.** At least **two** (preferably **≥ 3**) **parity‑respecting** points in `S` within the ScaleWindow, recorded with **replicates/seeds** and **CI/error bars** to support elasticity classification. Pick points via a **small factorial or Latin‑hypercube** when multiple knobs vary.
-* **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class; numeric exponents/fits live in domain annexes, not Core.
+* **ElasticityClass** `χ ∈ {rising, knee, flat, declining}` — a **qualitative** class supported by the probe over the declared ScaleWindow. Leave `χ` unassigned when the observations and their uncertainty do not support a class, and state what remains unresolved. Numeric exponents/fits live in domain annexes, not Core.
 * **ParityNotes.** `iso‑scale parity?` flag and **loss notes** if not achieved, plus applicable **Bridge**, **Φ**, and **Ψ** IDs for actual crossings under **G.9**; penalties affect `R` only.
 
 #### C.18.1:4.3 - Norms (SLL).
 
 * **SLL‑1 (Declaration).** Any profile **claiming scale behaviour SHALL** declare `S` and a **ScaleWindow** for the Context.
-* **SLL‑2 (Probe).** Early investigation **SHALL** include a **scale‑probe** (≥ 2 points in `S`, with replicates/CI) and record **χ**. Multi‑knob probes **SHALL** hold unspecified knobs fixed or pinned, and disclose invariants.
+* **SLL‑2 (Probe).** Early investigation **SHALL** include a **scale‑probe** (≥ 2 points in `S`, with replicates/CI) and record the supported **χ**, or the unresolved classification. Multi‑knob probes **SHALL** hold unspecified knobs fixed or pinned, and disclose invariants.
 * **SLL‑3 (Parity).** Where `S` is declared, comparisons **SHALL** ensure **iso‑scale parity** and lawful **UNM/NormalizationMethod‑based mapping** across heterogeneous knobs (e.g., FLOPs↔tokens) **before** comparing outcomes; **FreshnessWindows/editions** must be equal/pinned per **G.9**. Record **seeds/replicates**, ComparatorSet, and policy‑ids in telemetry/SCR.
 * **SLL‑4 (Selection lens).** Within the **same Context and ScaleWindow**, if other heads (N/U/C) are tied, selectors **MAY** use illumination as a tie‑breaker, but it **SHALL NOT** change default dominance; illumination remains **report‑only telemetry** unless a CAL policy promotes it.
-* **SLL‑5 (Knee test).** A **knee** is **claimed** only where a monotone rise is followed by a **statistically significant** slope drop across adjacent probe points within the ScaleWindow; thresholds (e.g., Δslope & CI level) are **policy‑defined** (E/E‑LOG) and must be cited. Absent such evidence, classify as **rising**.
+* **SLL‑5 (Knee test).** A **knee** is **claimed** only where a monotone rise is followed by a **statistically significant** slope drop across adjacent probe points within the ScaleWindow; thresholds (e.g., Δslope & CI level) are **policy‑defined** (E/E‑LOG) and must be cited. Failure to establish a knee leaves that claim unsupported. Report **rising**, **flat** or **declining** only when the probe supports that class; otherwise leave **χ** unassigned. Absence of a confirmed knee is not evidence of rising performance.
 * **SLL‑6 (Telemetry invariants).** Probes **SHALL** export seeds/replicates, edition pins, policy‑ids, and resource-account units governed by **C.16** and **B.1.6**, with dated-work and provenance links under **A.15.1** and **A.10**, to **G.11**.
 
 #### C.18.1:4.4 - Method — minimal SoTA probe recipe (notation‑agnostic; informative).
@@ -55195,6 +55586,8 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 * **RL/Planning.** Model-based optimization & general agents vs hand-tuned controllers; slopes reported wrt budget/FoA under safety envelopes.
 * **QD/OEE.** MAP-Elites, **CMA-ME**, **DQD**, **QDax**; **POET/Enhanced-POET** families: coverage/illumination as telemetry metrics; parity uses fixed grids/spaces and edition pins.
 
+**Constructed classification case.** A matched-probe account supports unchanged performance across the declared resource window, with uncertainty small enough for the comparison's stated tolerance. Report `flat`; the absence of a knee does not turn it into `rising`. In a second account, the uncertainty still permits both an increase and a decrease that would matter to the choice. Leave `χ` unassigned and retain that limitation. A supported monotone increase without a confirmed slope drop can instead support `rising`. These supplied accounts illustrate classification and its limit; they are not empirical scaling results.
+
 ### C.18.1:7 - Bias-Annotation
 
 | Bias | Symptom | Correction |
@@ -55206,7 +55599,7 @@ Notation independence vs useful scaling heuristics; local context vs cross‑con
 ### C.18.1:6 - Conformance Checklist (CC-SLL)
 
 1. `S` declared **or** `S = N/A` with rationale.
-2. **Scale-probe** performed; **χ** recorded with **replicates and CI**; invariants disclosed.
+2. **Scale-probe** performed; the supported **χ** or unresolved classification recorded with **replicates and CI**; invariants disclosed.
 3. **iso-scale parity** or **loss notes**; any applicable penalties **→ R only**; editions/seeds pinned; ComparatorSet cited.
 4. If used as tie-breaker, the selector cites **χ** and **lens id** in **E/E-LOG** provenance.
 5. Knee claims cite the **policy threshold** and CI level used.
@@ -55218,10 +55611,12 @@ Hidden budget mismatches; averaging ordinals across families; **illumination in 
 ### C.18.1:10 - Payload — exports
 
 `SLL.Card@Context` (UTS row; editioned):
-`⟨S{knobs, units, phase}, ScaleWindow, Scale‑Probe{points≥2, design=one‑liner, seeds, CI}, ElasticityClass χ, ParityNotes{iso‑scale?|loss, invariants}, BridgeIds?/Φ/Ψ, PolicyIds? (E/E‑LOG), PathSliceId?⟩`.
+`⟨S{knobs, units, phase}, ScaleWindow, Scale‑Probe{points≥2, design=one‑liner, seeds, CI}, ElasticityClass χ?, ParityNotes{iso‑scale?|loss, invariants}, BridgeIds?/Φ/Ψ, PolicyIds? (E/E‑LOG), PathSliceId?⟩`.
 
 **UTS row template (conceptual; pencil‑ready).**
-`SLL.Card@Context := S=(COMPUTE|DATA|CAPACITY|FOA; units=…; phase=TRAIN|INFER), ScaleWindow=[LOW…HIGH], Probe=(points=…, design=factorial|LHD, seeds=…, CI=…), χ=rising|knee|flat|declining, ParityNotes=(iso=true|false; invariants=…), Bridge/Φ/Ψ=(…), PolicyIds=(…), PathSliceId=(…)`.
+`SLL.Card@Context := S=(COMPUTE|DATA|CAPACITY|FOA; units=…; phase=TRAIN|INFER), ScaleWindow=[LOW…HIGH], Probe=(points=…, design=factorial|LHD, seeds=…, CI=…), χ?=rising|knee|flat|declining, ParityNotes=(iso=true|false; invariants=…), Bridge/Φ/Ψ=(…), PolicyIds=(…), PathSliceId=(…)`.
+
+Here `χ?` means that the class is omitted when unresolved; uncertainty is not a fifth behavior class. Keep the probe account and its limitation available to the receiving comparison. An unassigned class cannot support a class-dependent preference.
 
 ### C.18.1:11 - Consequences
 
@@ -55229,7 +55624,7 @@ Hidden budget mismatches; averaging ordinals across families; **illumination in 
 
 **Trade-offs.** Early work must spend probes on at least two scale points and record invariants, phase, seeds, uncertainty, or policy thresholds. The gain is that selectors, parity harnesses, refresh telemetry, and mathematical-lens uses can cite one bounded scale claim instead of guessing whether the observed behavior transfers.
 
-**Stop condition.** Stop at C.18.1 when the scale variable, ScaleWindow, probe basis, elasticity class, and parity notes are enough for the current comparison. Move to `G.9`, `C.19`, `G.11`, `C.29`, or a domain annex when parity, selector policy, telemetry refresh, mathematical lens, or numeric fit becomes the live object.
+**Stop condition.** Stop at C.18.1 when the scale variable, ScaleWindow, probe basis, supported class or explicit classification limit, and parity notes suffice for the receiving question. An unresolved class can finish this inquiry while leaving a scale-dependent preference unsupported. Select further probing only when its attainable contribution to the decision warrants its burden; use C.11.DUA if that choice needs resolution. Move to `G.9`, `C.19`, `G.11`, `C.29`, or a domain annex when parity, selector policy, telemetry refresh, mathematical lens, or numeric fit becomes the live object.
 
 ### C.18.1:12 - Rationale
 
@@ -71821,6 +72216,8 @@ The primary working reader is an architect, methodologist, practice designer, or
 - Do not use this pattern for one clear Method decomposition, one procedure order, a carrier index, a universal level stack, a mandatory record schema, domain filling, product-roster generation, or lifecycle design.
 - A practitioner can use this Method to prepare evidence for a framework or project decision. Making that decision, establishing a product, publishing a description, or realizing a future practice remains separate work.
 
+For the smaller question of what encompassing work is being done through one current action, start with **B.1.5.EW**. It can expose a missing constituent or a changed condition without requiring this full synthesis. Use **B.1.5.RS** when the difficulty is preserving encompassing uses while replacing one constituent. Return here when the answer depends on several structures that do not correspond one-for-one.
+
 The result is a **practice-architecture synthesis** for the named use. That phrase names an ordinary working description, not a new root kind. The practice, its Methods and Work, participating Systems, and its description remain different things.
 
 ### C.32.MWA:2 - Problem
@@ -80716,6 +81113,8 @@ Use the twelve substantive functions in the canonical template as authoring ques
 
 The `Solution` explains the actual organization and use of the described Methods: their contributions, relations, and the results that make a next move possible. `Architectural Rationale` explains why that organization and those choices serve the declared use, which serious alternatives were considered, their trade-offs, and the conditions under which another choice becomes preferable. Preserve shared source explanations there when users need them to understand or adapt several patterns together.
 
+The same explanation must make recoverable how constituent actions perform encompassing work where that connection matters to learning, performance or change. Show what larger work is already being done through the selected action, what constituents make that action possible, and which conditions of the whole constrain it. Preserve genuine result-before-use dependencies alongside this vertical enactment. A representative case should let the reader change the action when a relevant condition of the whole changes. Use B.1.5.EW for recovery and B.1.5.RS for a constituent replacement; do not require a separate level diagram or exhaustive decomposition when the connection is already understood.
+
 The pattern heading, header block, section grammar, and footer apply to each individually declared pattern. The whole-framework account uses the publication form in `E.11.PFP`; its content questions do not turn every publication unit or intermediate group into another pattern. Its Preface subsection headings identify the framework, publication unit and ordinal path through `E.11.PFP:4.7.1`, so an isolated excerpt remains locatable without being classified as a pattern body. Keep generality, specialization, Method composition, reuse, bounded-use projection, and publication grouping explicit under `E.8:4.2.2`. There is no prescribed maximum depth or exclusive-parent rule.
 
 #### E.8:4.2 - Stylistic Principles (S-0 … S-19)
@@ -87478,6 +87877,8 @@ The whole account connects the answers that individual pattern bodies supply. Wr
 | Relations | Which specialization, bounded-use projection, composition, reuse, dependence, or publication-grouping relations actually hold, and where does each named contribution become useful? |
 
 When a condition governs a whole combination of Methods, give it one public statement at the scope where that combination is used. State the quantities, assumptions, or other conditions needed to apply it, and return to that statement from affected profiles and patterns. Pairwise relations remain useful, but a condition on the whole set may require a different decision. A change to that condition reopens the combinations that rely on it; unchanged local contributions remain available.
+
+Also explain the relevant vertical of Method composition and ongoing performance. A selected action can constitute part of a larger work that is being performed at that same moment. Give a representative example in which a condition of the whole changes the constituent action; show where a missing intermediate capability or incompatible resource demand prevents the combination. B.1.5.EW recovers that connection and B.1.5.RS examines a constituent replacement. A DPF can describe only part of the needed vertical: state the preparation, support and coordinating performance needed beyond its own descriptions. Reuse clear existing explanations and stop decomposition when further detail cannot change the use. Genuine earlier-result dependencies remain part of the account.
 
 Place the connected account in the product's existing Preface and declared reference or support units. Readme explains how to enter and use it. A large language may use a public Reference for explanations shared across many bodies; a small language may carry them in its Preface. Preserve enough rationale, source synthesis, alternatives, and worked detail for the intended reader to understand and adapt the language without its development intake or DRR. An exact inherited answer can satisfy a question; merely naming a pattern or listing source titles cannot supply missing explanation.
 
@@ -94740,6 +95141,8 @@ A source phrase or graph enters only through an exact source-to-use claim or rel
 E.18.3 recognizes one selected A.22.CGUS `U.Structure`; it is not a second transformation ontology or reciprocal narrower structure. That selected CGUS uses one independently identified E.18 substrate branch and its exact positions, bindings, and already-obtaining occurrences; the substrate is not the selected CGUS. The selected structure is not a workflow, Method, MethodDescription, WorkPlan, performed Work, actual Transformation, mathematical graph, publication, evidence relation, gate decision, architecture decision, or architecture description. It organizes independently identified constituents, already-obtaining relations, and constraints for one transformation-flow unfolding use.
 
 A graph, record, filled table, demonstration, imperative, selected continuation, recommendation, or intended realization is evidence of neither the A.22 identity nor the E.18.3 condition. It admits no MethodDescription or Work. A.3.2, A.15.1, A.3.4 and A.15.PROD supply the applicable membership or occurrence tests; every relation claim still needs its exact predicate definition, applicability conditions and current facts.
+
+When a continuation is intended to perform work, apply A.22.CGUS:4.1.1 to its relevant constituent and encompassing conditions. The arrangement may need capabilities and shared resources that no single flow position reveals. Recover Method and Work parthood independently through B.1.5.EW; nested transformation-flow positions and temporal arcs retain their own meanings. Local completion supports the whole result only under the required coordination and result-use conditions. A description that omits those conditions answers a narrower question than whether the whole can be performed.
 
 #### E.18.3:4.4 - Replay and change localization
 

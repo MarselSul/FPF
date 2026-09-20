@@ -3,7 +3,7 @@
 > A domain pattern language for making and revising value-oriented decisions about engineered assets over their lives, for one asset, an interacting asset System or a portfolio.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Release:** 10 September 2026
+- **Release:** 20 September 2026
 - **Status:** Eternal alpha: the current Methods can be used for their stated asset questions and conditions; the framework continues to develop as practice, sources and evidence change.
 - **License:** Original framework content © 2026 Anatoly Levenchuk, [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Third-party sources retain their own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -136,7 +136,7 @@ This edition proposes source-grounded Methods and constructed applications. It d
 
 ## Citation
 
-Cite: Anatoly Levenchuk, *Engineering Asset Management Principles Framework*, release of 10 September 2026. For a particular contribution, add its PatternID and title. The framework was developed with AI-assisted authoring and review. Original text is reusable under the license above; cited third-party works are not relicensed.
+Cite: Anatoly Levenchuk, *Engineering Asset Management Principles Framework*, version shown above. For a particular contribution, add its PatternID and title. The framework was developed with AI-assisted authoring and review. Original text is reusable under the license above; cited third-party works are not relicensed.
 
 # Preface
 
@@ -179,6 +179,8 @@ The asset's functional dependencies, the portfolio allocation, the team calendar
 Maintenance can fully answer a maintained-functioning question for one asset or a fleet. EAM adds the question of value among asset options, including for one asset. Operations Management supplies a qualified account of service, demand, operating capability or coordination where needed. Systems Engineering supplies an applicable functional alternative or configuration account. EAM uses those results for the asset choice rather than reproducing their full disciplines.
 
 This division avoids three losses. A portfolio-only language would exclude the D comparison. A maintenance-only language would leave its common-horizon value question unanswered. A universal financial score would conceal ineligible service, engineering or authority conditions. A complete enterprise application is one possible support, not the definition of the practice.
+
+**Constituent actions in ongoing work.** While assessing an asset's service capability, interpreting a condition reading can constitute part of that assessment, and the assessment can constitute part of an ongoing renewal comparison. A changed service requirement can make a formerly acceptable reading inadequate for the comparison. The team needs the measurement interpretation and service reasoning that connect the reading to the decision; an asset-management template supplies neither. [EAM.6](#eam6---assess-capacity-resilience-and-interdependence) develops the capability question, and [EAM.10](#eam10---prioritize-the-asset-portfolio) retains the shared operating, financial and specialist constraints on the combination. Use FPF B.1.5.EW when the relevant vertical is unclear. A good local condition result leaves the whole renewal choice open.
 
 ## EAM.Preface:4 - Recognition, assurance and ordinary stops
 

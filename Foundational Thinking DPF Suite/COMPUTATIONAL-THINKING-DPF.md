@@ -3,7 +3,7 @@
 > A pattern language for constructing, understanding, analyzing and transforming algorithms, including their interpretation and interaction.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 16 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a repertoire open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
@@ -182,6 +182,12 @@ These methods can change the construction in Part A. A prohibitive shared table 
 The returned operations can themselves become objects of further work: an algorithm can interpret another algorithm's description, a translator can transform it, and an abstract procedure can inspect its possible behavior. Mathematical Thinking supplies constructions of operations and interpretations. CMP adds effective execution and its consequences under the chosen computational model.
 
 There is no compulsory fourteen-stage process. A reader with an adequate formulation can enter at a missing bound or representation. A representation failure can return to the recurrence; a semantic failure can return to interpretation; a communication failure can return to composition. Keep the required result and the assumptions of these connections visible when different agents supply the contributions.
+
+### CMP.Preface:3.4 - Constituent actions in ongoing work
+
+Updating a visited set can be part of executing a graph-search algorithm while a route-finding task is under way. Changing the required answer from any route to a route with the fewest edges changes which frontier-selection discipline suffices; a successful visited-set update alone does not establish the stronger result. The practitioner needs to connect the local update, the algorithm's invariant and the route requirement, while retaining its representation and memory conditions. Knowing set operations and the desired route can leave that intermediate algorithmic reasoning missing.
+
+FPF B.1.5.EW helps recover these constituent–whole connections; B.1.5.RS examines a proposed replacement. Use the parts of the vertical that can change the present result. A Method described here can require additional capability, available support and compatible resources at other grains.
 
 ## CMP.Preface:4 - Worked connection - One best selection becomes every best selection
 

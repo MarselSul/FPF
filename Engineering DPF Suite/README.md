@@ -14,6 +14,8 @@ A **DPF**, or **Domain Principle Framework**, collects methods for a field as a 
 
 [FPF Core](https://github.com/ailev/FPF/blob/main/FPF-Spec.md) supplies the common concepts used across fields. The DPFs bring in the field's methods, competing approaches, examples and source evidence. This combination lets a team discuss technical choices, ways of working and organizational consequences in a shared language.
 
+Using a DPF also means finding its place in the work you must actually perform. Which constituent abilities and resources are needed, what larger work is being done through the selected action, and what changes if that whole's conditions change? The [Method-vertical examples](ENGINEERING-DPF-SUITE-REFERENCE.md#what-must-be-available-through-the-method-vertical) show how a missing intermediate capability or shared resource changes the next move. A described Method can cover only part of what successful performance requires.
+
 ## Start with the problem in front of you
 
 Describe the situation in ordinary words. For example:

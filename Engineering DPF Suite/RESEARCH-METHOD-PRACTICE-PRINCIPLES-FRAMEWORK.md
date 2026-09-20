@@ -3,7 +3,7 @@
 > A research repertoire for qualifying a question, choosing and conducting a defensible inquiry, examining and returning its knowledge contribution, and retaining or improving the Methods that serve it.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 11 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a working framework open to correction as methods, sources and uses change. This first edition supplies the complete RMP.1–RMP.9 repertoire, with direct entries, useful stops and research-specific Method improvement.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -119,7 +119,7 @@ The [historical application](#app-rmp-03--factory-closure-historical-transfer-pr
 
 # Preface
 
-**Edition:** First edition, version 11 September 2026. The source-use account states the qualification dates and limits of the methodological contributions.
+**Edition:** First edition, version 20 September 2026. The source-use account states the qualification dates and limits of the methodological contributions.
 
 Research Method Practice can begin before a study or with supplied material and a claim. A current source answer may already be enough. Otherwise the practitioner may need a research-allocation answer, a question-preserving operational choice, an inspectable trace, an analysis of what the material supports, a useful credibility examination, a corpus answer, a precise knowledge revision or a decision about retaining or improving a research Method.
 
@@ -235,6 +235,8 @@ Consider a constructed mixed inquiry into the stream anomaly. The same qualified
 If a capacity result remains necessary to select a useful strategy and its plausible values would change that choice, RMP.2 returns ResearchDesignHold. When the current allocation instead finishes with no new study, retain the unresolved capacity as a limitation rather than an awaited acquisition. When several owner results remain unresolved, apply [RMP.2's joint-input test in RMP.2:4.3](#rmp243---expose-selection-changing-inputs) before treating the remaining needs as PostSelectionNeed. The [RMP.2 result rule](#rmp247---return-exactly-one-researchdesigndisposition) supplies the required record and the action when a value arrives outside the admitted range.
 
 These conditions first qualify the selected design and then constrain its operationalization. RMP.3 applies the same joint-input condition to the proposed conduct; RMP.4 preserves the actual choices and changes. Neither a completed protocol nor an extensive trace rescues a lost comparison or unsupported measurement relation. Preserve the completed question/design and unaffected material, identify the failed dependency, and return it to its owner. Competent execution and actual analysis require their own Methods and results. RMP.5 and RMP.6 can use the supported material to return a bounded claim and credibility decision; RMP.7/RMP.8 supply synthesis and broader revision when needed; RMP.9 addresses a distinct Method difficulty and returns only its actual consequences.
+
+**Constituent actions in ongoing work.** During a study, classifying one observation can constitute part of constructing the analytical comparison, within an ongoing inquiry into a stated explanation. If the inquiry changes from describing recorded cases to explaining their occurrence, a classification that ignores how cases were selected may no longer support it. Recording skill and statistical calculation can both be available while the intermediate operationalization is inadequate. RMP.3 addresses that operationalization; the design and analysis Methods retain their own questions. Recover the vertical with B.1.5.EW and account for the access, specialist capability and shared observation burden needed by the combined work. Earlier collection is not assumed to continue during every later calculation.
 
 ## RMP.Preface:13 - Architectural Rationale
 
@@ -2973,7 +2975,7 @@ The complete accepted nine-pattern repertoire preserves direct entry and useful 
 
 ## Citation
 
-Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Version 11 September 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
+Levenchuk, Anatoly. *Research Method Practice Principles Framework — First Edition*. Version 20 September 2026. Developed and reviewed with AI assistance. [Publication](https://github.com/ailev/FPF).
 
 For a particular pattern, add its PatternID and title to this dated citation. The date identifies the cited version; the availability account identifies which bodies it supplies.
 

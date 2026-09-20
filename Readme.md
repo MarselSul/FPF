@@ -39,6 +39,8 @@ FPF and its DPFs are declarative pattern languages. Start from the **current wor
 
 Pattern numbers, file order, table-of-contents order, and the order in which examples are presented do not prescribe a project sequence. Several kinds of engineering Work may overlap. A real dependency still matters when one result cannot be used before another exists, but that dependency belongs to the concrete results and Work under consideration, not to a universal process imposed by the pattern language.
 
+A constituent action can also perform several levels of work at once: updating a running total can be part of calculating a result and preparing a report. The encompassing purpose changes what that action must preserve. FPF helps [recover these connections](./FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) and [compare a replacement in its encompassing uses](./FPF-Spec.md#b15rs---replace-a-constituent-method-in-its-encompassing-uses); the Suite References give domain examples. Using a DPF still requires the relevant capabilities, coordination and resources throughout the needed vertical, including any intermediate contribution that must be learned or obtained.
+
 An AI agent can therefore help choose the **next justified move** without pretending that the entire project follows one fixed sequence. The useful move may be a clarified question, an identified System, an architecture comparison, an evidence request, a decision record, a changed Method, a bounded Work plan, a source-grounded explanation, or an explicit stop because a necessary basis is missing.
 
 ## What is in this repository?

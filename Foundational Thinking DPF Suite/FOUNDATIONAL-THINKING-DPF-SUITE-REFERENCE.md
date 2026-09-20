@@ -214,6 +214,16 @@ The count-time relation makes the boundary visible. Over the nine-hour empty-to-
 
 OPS.8 uses a chosen comparison to set release and protection, OPS.14 contributes the financial consequences when they matter, and ME.25 helps reconstruct a changed working method. Observation after implementation can reopen the resource occupancy, duration, transfer or completion premise. The example combines a subject account, mathematical constraints, an obtaining procedure, measurement and an operating decision; it is one application of foundational thinking. Its finite orders do not set the scope of the general methods.
 
+### 3.9. Keep the vertical visible while doing the work
+
+Contributions also meet within the same ongoing work. While constructing a model, you may interpret a notation to carry out a calculation that is part of testing a physical account. Ask what the calculation is doing in that inquiry, which constituent operations it needs and which whole conditions constrain them. [B.1.5.EW](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) gives that recovery Method.
+
+For example, an engineer computes an average during the analysis of a response experiment. Adding samples constitutes part of computing the average, and that computation is part of the analysis currently under way. If the inquiry changes from average response to the first limit crossing, retaining only the sum and count no longer preserves the required answer. Mathematical Thinking helps identify the lost information and construction; Computational Thinking changes the calculation and its storage; Mathematical Modeling and Physical Thinking retain the observation conditions. Notational Engineering becomes relevant if the expressions hide which quantity or time each value denotes.
+
+Knowing addition and knowing the experiment's purpose can leave the intermediate calculation or interpretation beyond a contributor's present capability. Obtain that contribution, explain or practise it, or change the arrangement. The result can depend on several people or AI agents, but their available contributions and communication must fit together. Successful separate operations do not establish that compatibility. Earlier observations remain earlier work; an ongoing analysis does not imply that the instrument is still observing.
+
+A proposed faster constituent goes through [B.1.5.RS](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b15rs---replace-a-constituent-method-in-its-encompassing-uses): check what each relevant encompassing use needs, what survives and what adaptation is required. This vertical complements the longer result-to-use routes above. It does not prescribe a fixed number of levels or turn the five DPFs into five successive stages.
+
 ## 4. Preparation and division of work
 
 The required preparation follows the selected operation. A finite path or set construction may need elementary sets and functions. Deriving a recording law uses probability; varying a curve uses calculus. A reader interpreting the result may need less technical preparation than the contributor constructing its proof, but must still understand the conditions and the consequence used next.

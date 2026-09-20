@@ -3,7 +3,7 @@
 > A domain pattern language for creating, performing, transmitting, and deliberately developing music and dance practices and the environments that sustain them.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 11 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -136,11 +136,10 @@ When the school asks whether another teacher can continue the practice, [MDPE.18
 
 ## Citation
 
-If you use this framework, please cite:
+If you use this framework, cite it as below and add the version date shown above:
 
 ```text
 Levenchuk, Anatoly. Music and Dance Practice Engineering Principles Framework.
-11 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -214,6 +213,8 @@ A first–then account normally describes an unfolding or Work order. A vertical
 performance, or build-the-builder dependence does not establish a simultaneous holonic level. Use `MDPE.14`
 when a decision depends on a supported part–whole relation, stated scale order, overlap of simultaneous Work, a
 slower constraint, or a representation use whose local gain conflicts with another Music-or-Dance result.
+
+**Constituent actions in ongoing work.** A useful vertical must show what the performer can or cannot do through its constituent actions. In a stipulated dance case, strength and static axis control are adequate and the figure is remembered, but balance during rotation is not. The missing coordination lies between muscular actions and the figure. MDPE.10 develops and tests the required performing capability; MDPE.17's transmission question includes whether another performer can actually reproduce the Method. The needed teacher, practice conditions and variety of combinations must be available, with return to the complete figure after intermediate practice. Use B.1.5.EW to recover these connections. Use MDPE.14 only when an actual conflict between results remains. A remembered description can persist while the cultural practice becomes unreproducible; one successful performance, conversely, does not establish population-level retention.
 
 ## MDPE.Preface:3 - Performance, recognition, selection, and continuation are different results
 
@@ -7530,7 +7531,7 @@ dependency merely because the discovery began here.
 
 ## Edition return
 
-**5 September 2026** is the public designation of the framework episteme expressed by this Readme, the Table of
+**The version date shown above** is the public designation of the framework episteme expressed by this Readme, the Table of
 Contents, Preface, the twenty-two pattern bodies named in that table, the completed constructed cross-pattern
 application, and this boundary-and-refresh unit. The pattern bodies and these named support units are the
 claim-bearing source of the edition. The all-in-one Markdown publication is a presentation of the same selected
