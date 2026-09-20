@@ -192,7 +192,7 @@ At whole-language scale, ask whether the chosen Methods actually supply the requ
 
 The direct checklists ask questions about their own result. They are not sixteen mandatory forms. If a recommendation is the request, the supported advice and its action-changing limits complete it. If the selected result is an actual return to service, its applicable protection, functioning and permission conditions remain real.
 
-The main text-invited mistakes are reading the Parts as stages, treating a closed work order as restored service, taking a prediction score as maintenance value and mistaking a published Method for its adoption. The relevant corrections are embedded in [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention)–[MNT.11](#mnt11---certify-hand-back-and-authorize-resumed-use), [MNT.14](#mnt14---compare-and-refresh-maintenance-methods) and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) rather than delegated to a generic warning.
+The main text-invited mistakes are reading the Parts as stages, treating a closed work order as restored service, taking a prediction score as maintenance value and mistaking a published Method for its adoption. The relevant corrections are embedded in [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention)–[MNT.11](#mnt11---certify-hand-back-and-authorize-resumed-use), [MNT.14](#mnt14---compare-and-refresh-maintenance-methods) and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture).
 
 ## MNT.Preface:7 - Assumptions, costs and limits
 
@@ -292,7 +292,7 @@ Maintenance retains the function-in-use question. Broader investment, disposal a
 
 ### MNT.1:11 - SoTA-Echoing
 
-The practice question is which boundary makes maintenance advice useful. This pattern adapts the function-and-maintenance-regime relationship in IAM's 2024 *Anatomy of Asset Management*, §7.7.5, and uses [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) for configuration identity. Against a register-only starting point, its exact change is the required-use and control reasoning in the Solution and PS17 case. It accepts a small identification cost to avoid a wrong-subject or wrong-service answer. IAM's broader discipline does not become this pattern's scope. Reopen the boundary when a changed use, installed configuration or shared dependency changes the maintenance decision. See [IAM's account](https://theiam.org/media/5615/iam-anatomy-version-4-final.pdf).
+The practice question is which boundary makes maintenance advice useful. This pattern adapts the function-and-maintenance-regime relationship in IAM's 2024 *Anatomy of Asset Management*, §7.7.5, and uses [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) for configuration identity. Against a register-only starting point, it adds the required-use and control reasoning in the Solution and PS17 case. It accepts a small identification cost to avoid a wrong-subject or wrong-service answer. IAM's broader discipline does not become this pattern's scope. Reopen the boundary when a changed use, installed configuration or shared dependency changes the maintenance decision. See [IAM's account](https://theiam.org/media/5615/iam-anatomy-version-4-final.pdf).
 
 ### MNT.1:12 - Relations
 
@@ -442,7 +442,7 @@ The planner can therefore give the recommendation now. If the selected intervent
 
 The 48-pump example exposes a different error. Group A has four relevant failure events in 20,000 operating hours; group B has six in 56,000. The comparable crude event rates are 0.20 and approximately 0.107 per 1,000 hours. The first group has fewer events but a higher exposure-adjusted rate. Neither comparison proves a causal policy difference: operating conditions, component histories, event coding and selection may differ.
 
-If two of the six records are preventive removals, even that crude rate needs correction before use. The useful result is a qualified failure account and the exact coding contradiction, not an automatically fitted lifetime distribution.
+If two of the six records are preventive removals, even that crude rate needs correction before use. The useful result is a qualified failure account and the event-coding error, not an automatically fitted lifetime distribution.
 
 ### MNT.3:6 - Bias-Annotation
 
@@ -452,7 +452,7 @@ The part found damaged at dismantling can attract all causal attention even when
 
 Can the reader distinguish the required functioning, observed departure, diagnosis and consequence? Does each decision-bearing causal claim have usable evidence? Are unknown or competing explanations retained at their actual strength? For a population claim, do event definitions, exposures and observation limits support the comparison?
 
-The requested account is complete when it supports the receiving maintenance decision or identifies its exact evidential limit. It need not resolve every possible root cause.
+The requested account is complete when it supports the receiving maintenance decision or identifies its evidential limit. It need not resolve every possible root cause.
 
 ### MNT.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -470,7 +470,7 @@ Mechanism, observed condition and consequence are connected in one account becau
 
 ### MNT.3:11 - SoTA-Echoing
 
-The practice question is how much failure knowledge is sufficient for a maintenance choice. The selected line combines physical explanation with qualified observation and decision relevance. It adapts the failure-mechanism emphasis in the [2025 maintenance optimization account](https://orbilu.uni.lu/bitstream/10993/61558/1/1-s2.0-S0377221724005241-main.pdf) and uses FPF [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph) and [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) for evidential and measurement claims. Against fault-code counting or mandatory exhaustive root-cause analysis, the exact changes are the separated claims, observation limits and conditional inquiry in the Solution. The trade-off is an explicitly narrower causal answer in exchange for useful timely action. Reopen when new failure or exposure evidence can distinguish a consequential alternative.
+The practice question is how much failure knowledge is sufficient for a maintenance choice. The selected line combines physical explanation with qualified observation and decision relevance. It adapts the failure-mechanism emphasis in the [2025 maintenance optimization account](https://orbilu.uni.lu/bitstream/10993/61558/1/1-s2.0-S0377221724005241-main.pdf) and uses FPF [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph) and [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) for evidential and measurement claims. Against fault-code counting or mandatory exhaustive root-cause analysis, this Method uses the separated claims, observation limits and conditional inquiry in the Solution. The trade-off is an explicitly narrower causal answer in exchange for useful timely action. Reopen when new failure or exposure evidence can distinguish a consequential alternative.
 
 ### MNT.3:12 - Relations
 
@@ -539,7 +539,7 @@ Visible channels draw attention away from unmeasured mechanisms and missing inte
 
 ### MNT.4:7 - Conformance Checklist
 
-Is the condition question clear? Are measurand, operating context and comparison basis adequate for the inference? Are observations, inferred condition and forecasts distinguishable? Are missing data, uncertainty and future-duty assumptions retained where they change use? Can the intended recipient act on the account or identify its exact limit?
+Is the condition question clear? Are measurand, operating context and comparison basis adequate for the inference? Are observations, inferred condition and forecasts distinguishable? Are missing data, uncertainty and future-duty assumptions retained where they change use? Can the intended recipient act on the account or identify its limit?
 
 Further monitoring is not a universal completion condition. Its attainable decision contribution and whole burden need to justify it.
 
@@ -561,7 +561,7 @@ A new monitoring arrangement is selected by its contribution to that use. The Me
 
 ### MNT.4:11 - SoTA-Echoing
 
-For the question “Does this monitoring arrangement improve the maintenance decision?”, this pattern adapts the consequence-oriented evaluation line in Dadfarnia, Sharp and Herrmann's 2025 review. Against prediction-score-only comparison, the exact mutation is the alarm-to-action and full-burden reasoning in the Solution and programme example. This accepts the effort of connecting signals to actual maintenance outcomes while allowing an adequate existing interpretation to finish. The review's heterogeneous evidence does not establish a universal gain or mandatory evaluation study. Reopen when the failure, operating duty, observation process or feasible response changes. See [NIST's publication and source return](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial).
+For the question “Does this monitoring arrangement improve the maintenance decision?”, this pattern adapts the consequence-oriented evaluation line in Dadfarnia, Sharp and Herrmann's 2025 review. Against prediction-score-only comparison, the Method uses the alarm-to-action and full-burden reasoning in the Solution and programme example. This accepts the effort of connecting signals to actual maintenance outcomes while allowing an adequate existing interpretation to finish. The review's heterogeneous evidence does not establish a universal gain or mandatory evaluation study. Reopen when the failure, operating duty, observation process or feasible response changes. See [NIST's publication and source return](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial).
 
 ### MNT.4:12 - Relations
 
@@ -600,7 +600,7 @@ Check readiness at the point of use. For spares, establish applicability to the 
 
 For tools and information, determine whether the practitioner can perform and judge the task. This may require the applicable instruction, fit-for-purpose measurement capability, access to configuration information and suitable workspace. A calibration label alone does not settle whether the instrument's range and uncertainty suit the measurement.
 
-For providers, establish relevant competence, actual availability, access and action-specific authority. Include working conditions and likely task duration when these affect capability. If unexpected work would require relief, obtain a viable relief arrangement or preserve the resulting limit. An instruction to concentrate harder does not create another qualified person.
+For providers, establish relevant competence, actual availability, access and action-specific authority. Include working conditions and likely task duration when these affect capability. If unexpected work would require relief, obtain a viable relief arrangement or preserve the resulting limit.
 
 Relate obtaining lead times to the maintenance need. Distinguish what can be prepared during continuing operation from what requires shutdown or protected access. Include supplier uncertainty, transit, acceptance and replenishment where they change response feasibility. For a repairable pool, consider units already removed for repair and common demands on the same stock; nominal pool size is not available reserve.
 
@@ -644,7 +644,7 @@ Readiness belongs between maintenance intent and feasible performance because se
 
 ### MNT.5:11 - SoTA-Echoing
 
-The question is how to turn nominal resources into a feasible maintenance response. This pattern adapts the human/material-support emphasis in GFMAM's 2021 framework, §6.5, into task-specific readiness reasoning. Against stock-count-only planning, the exact additions are applicability, provider availability and obtaining lead time. It accepts some reservation and reconciliation effort to expose a real support limit before an outage begins. The source supplies breadth, not a universal documentation checklist. Reopen when task content, support lead time or available capability changes. See [GFMAM's maintenance framework](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf).
+The question is how to turn nominal resources into a feasible maintenance response. This pattern adapts the human/material-support emphasis in GFMAM's 2021 framework, §6.5, into task-specific readiness reasoning. Against stock-count-only planning, the Method adds applicability, provider availability and obtaining lead time. It accepts some reservation and reconciliation effort to expose a real support limit before an outage begins. The source supplies breadth, not a universal documentation checklist. Reopen when task content, support lead time or available capability changes. See [GFMAM's maintenance framework](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf).
 
 ### MNT.5:12 - Relations
 
@@ -781,7 +781,7 @@ Return the coordinated arrangement to the people who control operation and maint
 
 ### MNT.7:5 - Archetypal Grounding
 
-The following is the authoritative whole-outage calculation for the constructed PS17 application. It is a reasoning example, not an equipment procedure or a time standard. The qualified operating result allows four hours, or 240 minutes, of the stated reduced-capacity operation.
+The following is the whole-outage calculation for the constructed PS17 application. It is a reasoning example, not an equipment procedure or a time standard. The qualified operating result allows four hours, or 240 minutes, of the stated reduced-capacity operation.
 
 | Selected activity | Elapsed minutes inside the outage | Basis in this constructed plan |
 | --- | ---: | --- |
@@ -806,7 +806,7 @@ Repair estimates often reflect the technician's direct work and omit operator pr
 
 Does the arrangement consume a valid operating-capacity and service result? Are preparation, protected work, testing, restoration and material contingency accounted for without double counting? Are overlaps compatible with actual resources and protection? Is there a supported response when the plan no longer fits?
 
-A coordination result is complete when the responsible people can act on its bounded arrangement or know the exact unmet condition. Completing every maintenance Method is not its acceptance test.
+A coordination result is complete when the responsible people can act on its bounded arrangement or know the unmet condition. Completing every maintenance Method is not its acceptance test.
 
 ### MNT.7:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -826,7 +826,7 @@ Rate adjustment and more advanced scheduling remain options, not compulsory tool
 
 ### MNT.7:11 - SoTA-Echoing
 
-The practice question is whether maintenance can fit the real operating commitment. This pattern adapts preparation-before-intervention and flexible timing as candidate choices from the bounded scheduling work of Gan and colleagues and Kasuya and Jin. Against repair-duration-only planning, the exact mutation is the complete elapsed-demand comparison and conditional operating return above. Their models do not supply these constructed times, field effectiveness or permission to change duty. The selected arithmetic is preferable at comparable effort when it already settles fit; optimization becomes useful for a harder unresolved choice. Reopen when demand, preparation dependency or operating capacity changes. See [preparation-aware scheduling](https://journals.sagepub.com/doi/abs/10.1177/09544054251350538) and [flexible-timing research](https://www.sciencedirect.com/science/article/abs/pii/S095183202600342X).
+The practice question is whether maintenance can fit the real operating commitment. This pattern adapts preparation-before-intervention and flexible timing as candidate choices from the bounded scheduling work of Gan and colleagues and Kasuya and Jin. Against repair-duration-only planning, the Method uses the complete elapsed-demand comparison and conditional operating return above. Their models do not supply these constructed times, field effectiveness or permission to change duty. The selected arithmetic is preferable at comparable effort when it already settles fit; optimization becomes useful for a harder unresolved choice. Reopen when demand, preparation dependency or operating capacity changes. See [preparation-aware scheduling](https://journals.sagepub.com/doi/abs/10.1177/09544054251350538) and [flexible-timing research](https://www.sciencedirect.com/science/article/abs/pii/S095183202600342X).
 
 ### MNT.7:12 - Relations
 
@@ -843,7 +843,7 @@ The practice question is whether maintenance can fit the real operating commitme
 
 Use this pattern when a selected maintenance intervention will expose people, equipment or the environment to a hazard that requires controlled access, isolation or other protection. A work order is ready, but the actual protection and permission for the proposed act have not been established.
 
-Use the applicable equipment procedure and competent authorized people to establish, verify and maintain those conditions. Return a supported permission to begin the bounded work or the exact unmet condition. This framework gives maintenance reasoning, not a substitute isolation procedure. A diagnosis-only or recommendation-only answer is not forced through an intervention-permission task.
+Use the applicable equipment procedure and competent authorized people to establish, verify and maintain those conditions. Return a supported permission to begin the bounded work or the unmet condition. This framework gives maintenance reasoning, not a substitute isolation procedure. A diagnosis-only or recommendation-only answer is not forced through an intervention-permission task.
 
 ### MNT.8:2 - Problem
 
@@ -909,7 +909,7 @@ A generic framework cannot enumerate every equipment hazard or jurisdictional ex
 
 ### MNT.8:11 - SoTA-Echoing
 
-For the question “What supports beginning this protected intervention?”, this pattern adapts the actual-control and verification logic illustrated by [OSHA 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147). Against a stop-command or permit-only default, the exact additions are verified protection, bounded permission and controlled changes of state. The source is an operative US example within its scope, not a universal maintenance law; the local application needs its actual current requirements. FPF [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) and [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) distinguish permission from requirement merits. Reopen when work, configuration, exposure, personnel transition or the applicable rule changes.
+For the question “What supports beginning this protected intervention?”, this pattern adapts the actual-control and verification logic illustrated by [OSHA 1910.147](https://www.osha.gov/laws-regs/regulations/standardnumber/1910/1910.147). Against a stop-command or permit-only default, the Method adds verified protection, bounded permission and controlled changes of state. The source is an operative US example within its scope, not a universal maintenance law; the local application needs its actual current requirements. FPF [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) and [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) distinguish permission from requirement merits. Reopen when work, configuration, exposure, personnel transition or the applicable rule changes.
 
 ### MNT.8:12 - Relations
 
@@ -992,7 +992,7 @@ Performance and its account are joined because later maintenance decisions rely 
 
 ### MNT.9:11 - SoTA-Echoing
 
-The practice question is how to preserve reliable continuation when work differs from its plan. This pattern adapts the work-management concern in GFMAM's maintenance framework and the fatigue-reporting problem in CASA's 2026 maintenance risk account. Against task-closure-only management, its exact changes are the interruption, actual-state and relief decisions in the Solution. It accepts focused reporting and occasional replanning to avoid concealing incomplete or unsupported work. CASA's aviation account supplies a relevant failure mechanism, not a universal duty-time threshold. Reopen when a new work variant or observed interruption defeats the continuation arrangement. See [GFMAM](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf) and [CASA's fatigue account](https://www.casa.gov.au/operations-safety-and-travel/safety-management-systems/sector-safety-risk-profiles/maintenance-activities-sector-safety-risk-profile/fatigue).
+The practice question is how to preserve reliable continuation when work differs from its plan. This pattern adapts the work-management concern in GFMAM's maintenance framework and the fatigue-reporting problem in CASA's 2026 maintenance risk account. Against task-closure-only management, it adds the interruption, actual-state and relief decisions in the Solution. It accepts focused reporting and occasional replanning to avoid concealing incomplete or unsupported work. CASA's aviation account supplies a relevant failure mechanism, not a universal duty-time threshold. Reopen when a new work variant or observed interruption defeats the continuation arrangement. See [GFMAM](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf) and [CASA's fatigue account](https://www.casa.gov.au/operations-safety-and-travel/safety-management-systems/sector-safety-risk-profiles/maintenance-activities-sector-safety-risk-profile/fatigue).
 
 ### MNT.9:12 - Relations
 
@@ -1077,7 +1077,7 @@ Claim-specific checking permits adequate prior evidence to remain useful. It als
 
 ### MNT.10:11 - SoTA-Echoing
 
-The practice question is what evidence warrants a restored-functioning claim after maintenance. This pattern adapts FPF [B.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b3---trust-and-assurance-calculus)'s use-specific assurance and [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr)'s measurement discipline to intervention-induced failure and operating-envelope checks. Against task-sign-off or indiscriminate retesting, the exact mutation is the claim-to-check reasoning and the loaded PS17 comparison. The trade-off is retaining an explicitly limited immediate-use result instead of claiming lifetime restoration. Equipment procedures supply the concrete acceptance criteria; this synthesis does not establish universal test values. Reopen when configuration, required duty, consequence or the earlier evidence's applicability changes.
+The practice question is what evidence warrants a restored-functioning claim after maintenance. This pattern adapts FPF [B.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b3---trust-and-assurance-calculus)'s use-specific assurance and [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr)'s measurement discipline to intervention-induced failure and operating-envelope checks. Against task-sign-off or indiscriminate retesting, the Method selects checks for the functioning claims and reuses adequate evidence for unaffected claims. The PS17 comparison under load illustrates this reasoning. The trade-off is retaining an explicitly limited immediate-use result instead of claiming lifetime restoration. Equipment procedures supply the concrete acceptance criteria; this synthesis does not establish universal test values. Reopen when configuration, required duty, consequence or the earlier evidence's applicability changes.
 
 ### MNT.10:12 - Relations
 
@@ -1158,7 +1158,7 @@ Hand-back joins the evidence and control needed by operation without collapsing 
 
 ### MNT.11:11 - SoTA-Echoing
 
-The practice question is what a maintenance completion claim permits the receiver to infer. This pattern adapts the bounded certification distinction in [EASA's September 2025 Part-145 guidance, GM1 145.A.50(a)](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-continuing-airworthiness?erules-id=ERULES-1963177438-272). Against a single undifferentiated release status, the exact change is separate reconciliation of functioning, certification, control and permission. It accepts a small amount of explicit hand-back reasoning to prevent an unsupported whole-use claim. The [edition notice](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-continuing-airworthiness) identifies unincorporated later requirements; live aviation work needs its applicable current legal sources. Reopen when the receiving use, state or permission basis changes.
+The practice question is what a maintenance completion claim permits the receiver to infer. This pattern adapts the bounded certification distinction in [EASA's September 2025 Part-145 guidance, GM1 145.A.50(a)](https://www.easa.europa.eu/en/document-library/easy-access-rules/online-publications/easy-access-rules-continuing-airworthiness?erules-id=ERULES-1963177438-272). Against a single undifferentiated release status, the Method uses separate reconciliation of functioning, certification, control and permission. It accepts a small amount of explicit hand-back reasoning to prevent an unsupported whole-use claim. The [edition notice](https://www.easa.europa.eu/en/document-library/easy-access-rules/easy-access-rules-continuing-airworthiness) identifies unincorporated later requirements; live aviation work needs its applicable current legal sources. Reopen when the receiving use, state or permission basis changes.
 
 ### MNT.11:12 - Relations
 
@@ -1211,7 +1211,7 @@ In the extended constructed PS17 case, the pre-intervention configuration C41 co
 
 The work record describes those events. The condition account before the intervention concerns C41; the functioning test after it concerns C42. The change of record alone would not have established that installation, and the new bearing does not erase the older unit's useful failure history.
 
-Suppose the stock system also lists R607 as returned. The receiving question is whether the functioning evidence concerns the actually installed bearing. The team compares the material movement and intervention evidence and obtains the relevant physical or accountable return if the conflict remains. It does not average the two records into a “probably current” state.
+Suppose the stock system also lists R607 as returned. The receiving question is whether the functioning evidence concerns the actually installed bearing. The team compares the material movement and intervention evidence and obtains the relevant physical or accountable return if the conflict remains.
 
 In the fleet case, two preventive removals originally coded as failures are corrected as descriptions of those events, not counted as new maintenance occurrences. Exposure is assigned to the component intervals that actually existed. That smaller reconciliation can restore a usable comparison without migrating the whole fleet database.
 
@@ -1241,7 +1241,7 @@ General configuration identity belongs in SYSE.13. Maintenance adds event meanin
 
 ### MNT.12:11 - SoTA-Echoing
 
-The practice question is which information is sufficient for a maintenance decision across changing installed state. This pattern adopts [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity)'s distinction between actual configuration, descriptions and effectivity, and adapts GFMAM's maintenance-information concern to service events and exposure. Against a latest-record-only default, the exact change is the time-bound event/configuration correspondence in the Solution and C41-to-C42 case. It accepts focused provenance work while rejecting a complete information-platform replacement as an automatic prerequisite. Reopen when an event definition, installed state or receiving comparison changes. See [GFMAM's information-management account](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf).
+The practice question is which information is sufficient for a maintenance decision across changing installed state. This pattern adopts [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity)'s distinction between actual configuration, descriptions and effectivity, and adapts GFMAM's maintenance-information concern to service events and exposure. Against a latest-record-only default, the Method uses the time-bound event/configuration correspondence in the Solution and C41-to-C42 case. It accepts focused provenance work while rejecting a complete information-platform replacement as an automatic prerequisite. Reopen when an event definition, installed state or receiving comparison changes. See [GFMAM's information-management account](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf).
 
 ### MNT.12:12 - Relations
 
@@ -1324,7 +1324,7 @@ Programme coordination joins policies, support and population evidence because c
 
 ### MNT.13:11 - SoTA-Echoing
 
-The question is how fleet evidence should change a maintenance programme. This pattern adapts GFMAM's programme-management breadth and the consequence-oriented evaluation concern in the 2025 NIST review, with [E.23](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23---quality-improvement-loop-method) supplying conditional improvement. Against raw-count ranking or automatic technology expansion, the exact mutation is the qualified population comparison and separate support-deficiency decision. It accepts narrower conclusions when comparison is weak, preserving a useful current answer. Neither source proves that a particular policy will win in this fleet. Reopen with changed exposure, failure meaning, operating consequences or applicable evaluation evidence. See [GFMAM](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf) and [NIST's evaluation review](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial).
+The question is how fleet evidence should change a maintenance programme. This pattern adapts GFMAM's programme-management breadth and the consequence-oriented evaluation concern in the 2025 NIST review, with [E.23](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23---quality-improvement-loop-method) supplying conditional improvement. Against raw-count ranking or automatic technology expansion, the Method uses the qualified population comparison and separate support-deficiency decision. It accepts narrower conclusions when comparison is weak, preserving a useful current answer. Neither source proves that a particular policy will win in this fleet. Reopen with changed exposure, failure meaning, operating consequences or applicable evaluation evidence. See [GFMAM](https://www.gfmam.org/sites/default/files/2021-02/GFMAM%20Maintenance%20Framework%20-%202nd%20Edition%20Final.pdf) and [NIST's evaluation review](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial).
 
 ### MNT.13:12 - Relations
 
@@ -1405,7 +1405,7 @@ Method refresh is distinct from changing one policy parameter or executing one r
 
 ### MNT.14:11 - SoTA-Echoing
 
-The practice question is when a new maintenance approach is worth adopting. This pattern adapts [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-practical-worth-against-current-alternatives)/15 and the consequence-oriented line in the [2025 NIST review](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial). Against a predictive-to-autonomous maturity ladder, the exact mutation is a same-use, whole-burden comparison with retain and branch outcomes. Better prediction remains a possible contribution, not a sufficient adoption argument. The source evidence does not establish universal comparative effectiveness. Reopen with an attainable new capability, changed failure or operating need, or evidence that reverses the practical comparison.
+The practice question is when a new maintenance approach is worth adopting. This pattern adapts [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-practical-worth-against-current-alternatives)/15 and the consequence-oriented line in the [2025 NIST review](https://www.nist.gov/publications/comprehensive-evaluations-condition-monitoring-based-technologies-industrial). Against a predictive-to-autonomous maturity ladder, the Method uses a same-use, whole-burden comparison with retain and branch outcomes. Better prediction remains a possible contribution, not a sufficient adoption argument. The source evidence does not establish universal comparative effectiveness. Reopen with an attainable new capability, changed failure or operating need, or evidence that reverses the practical comparison.
 
 ### MNT.14:12 - Relations
 
@@ -1448,7 +1448,7 @@ Evaluate what each apparent repair moves elsewhere. A second provider may need a
 
 If the conflict requires a different organization of the practice, use [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures) or [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts) to compare the relevant Method, Work, System, provider and description structures. Preserve their actual relations rather than making one universal layer stack. If the simple bound already answers the question, stop there.
 
-Return the selected arrangement or the exact combined commitment that cannot be met. Identify the people with authority over the changed work and operation. Reopen when a shared resource, interruption, protection condition or service requirement changes.
+Return the selected arrangement or the combined commitment that cannot be met. Identify the people with authority over the changed work and operation. Reopen when a shared resource, interruption, protection condition or service requirement changes.
 
 ### MNT.15:5 - Archetypal Grounding
 
@@ -1458,11 +1458,11 @@ Preparatory work can overlap continuing production where its access and resource
 
 The team compares deferring the lower-consequence job, obtaining another suitable window, using a genuinely qualified additional provider or changing the supported operating arrangement. [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention) supplies the consequence of deferral; [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) establishes any added provider's readiness. The selected alternative changes a real constraint rather than the appearance of the schedule.
 
-If an unplanned extension would leave the specialist unable to perform the later protected task adequately, the allocation or timing changes. “Use more care” does not close that capability question.
+If an unplanned extension would leave the specialist unable to perform the later protected task adequately, the allocation or timing changes.
 
 For a broader conflict, suppose both jobs rely on the same standby equipment while each plan treats it as independent fallback. The decision now needs the System and operating-dependency structures as well as time. That is a reason to expand the comparison, not to derive an architecture from the schedule's page layout.
 
-The common standby can also affect an action inside a job while the job is under way. Suppose taking a diagnostic reading requires temporarily using the standby, while that reading is part of locating a fault during service restoration. The broader operating commitment requires the standby to remain available. The diagnostic action is therefore constrained through the restoration and service arrangement; assigning two labels to the same interval would not reveal this conflict. Recover the connection with B.1.5.EW, then compare an applicable alternative diagnostic Method, another supported window or a changed service arrangement. Instrument handling and diagnostic interpretation must both be available; the example supplies no equipment-specific procedure or permission.
+The common standby can also affect an action inside a job while the job is under way. Suppose taking a diagnostic reading requires temporarily taking the standby out of service, while that reading is part of locating a fault during service restoration. The broader operating commitment requires the standby to remain available. The diagnostic action is therefore constrained through the restoration and service arrangement; assigning two labels to the same interval would not reveal this conflict. Recover the connection with B.1.5.EW, then compare an applicable alternative diagnostic Method, another supported window or a changed service arrangement. Instrument handling and diagnostic interpretation must both be available; the example supplies no equipment-specific procedure or permission.
 
 ### MNT.15:6 - Bias-Annotation
 
@@ -1492,7 +1492,7 @@ The example's arithmetic is deliberately simple. A more elaborate optimizer is j
 
 ### MNT.15:11 - SoTA-Echoing
 
-The question is why individually feasible maintenance plans fail together. This pattern adapts [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures)'s conflict-and-moved-burden comparison to maintenance resources, fallback and protected work. Against copying a work-breakdown diagram as the practice architecture, the exact additions are actual-relation recovery and the whole-demand test. It accepts a bounded cross-team comparison to expose a shared constraint while retaining the simple-arithmetic stop. Preparation-aware scheduling research supplies an optional overlap alternative, not proof of independent resources or live effectiveness. Reopen when a new shared dependency or changed operating commitment alters the combination.
+The question is why individually feasible maintenance plans fail together. This pattern adapts [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures)'s conflict-and-moved-burden comparison to maintenance resources, fallback and protected work. Against copying a work-breakdown diagram as the practice architecture, the Method adds actual-relation recovery and the whole-demand test. It accepts a bounded cross-team comparison to expose a shared constraint while retaining the simple-arithmetic stop. Preparation-aware scheduling research supplies an optional overlap alternative, not proof of independent resources or live effectiveness. Reopen when a new shared dependency or changed operating commitment alters the combination.
 
 ### MNT.15:12 - Relations
 
@@ -1575,7 +1575,7 @@ The maintenance lead can act on a specific continuation problem without overstat
 
 ### MNT.16:11 - SoTA-Echoing
 
-The question is how to choose a useful maintenance-culture intervention from limited evidence. This pattern adapts [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering)'s relation-specific account and conditional inquiry, with CASA's 2026 fatigue-reporting concern as a domain counterexample to awareness-only responses. Against training-count or maturity-label reasoning, the exact mutation is the separate transmission/enactment/effect account and the second-shift access case. It accepts bounded observation and uncertainty while avoiding an unnecessary universal study. The aviation source does not prove the same incentive effect in every maintenance population. Reopen when actual-use evidence, provider conditions or consequences change the continuation decision. See [CASA's account](https://www.casa.gov.au/operations-safety-and-travel/safety-management-systems/sector-safety-risk-profiles/maintenance-activities-sector-safety-risk-profile/fatigue).
+The question is how to choose a useful maintenance-culture intervention from limited evidence. This pattern adapts [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering)'s relation-specific account and conditional inquiry, with CASA's 2026 fatigue-reporting concern as a domain counterexample to awareness-only responses. Against training-count or maturity-label reasoning, the Method distinguishes transmission of a description, enactment in work and maintenance effects. The second-shift access case illustrates how those distinctions guide an intervention. It accepts bounded observation and uncertainty while avoiding an unnecessary universal study. The aviation source does not prove the same incentive effect in every maintenance population. Reopen when actual-use evidence, provider conditions or consequences change the continuation decision. See [CASA's account](https://www.casa.gov.au/operations-safety-and-travel/safety-management-systems/sector-safety-risk-profiles/maintenance-activities-sector-safety-risk-profile/fatigue).
 
 ### MNT.16:12 - Relations
 
@@ -1593,7 +1593,7 @@ The requested first result is a replacement recommendation. [MNT.1](#mnt1---iden
 
 The replacement needs the case's specialist applicability/certification return for the spare. [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) identifies that unmet condition. The recommendation is complete, while actual replacement cannot start. The team may prepare compatible information, tools and available support without consuming the protected outage or pretending that the missing return exists.
 
-In the extended branch, the specialist return arrives and the intervention is selected. [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation)'s whole-outage calculation includes shutdown and isolation, the intervention, controlled testing, final restoration, return of control and explicit contingency. The resulting 225-minute plan fits the four-hour bound under the constructed estimates. Its authoritative calculation and delay branch are in [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); the plan is not a time promise for an unknown pump.
+In the extended branch, the specialist return arrives and the intervention is selected. [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation)'s whole-outage calculation includes shutdown and isolation, the intervention, controlled testing, final restoration, return of control and explicit contingency. The resulting 225-minute plan fits the four-hour bound under the constructed estimates. Its calculation and delay branch are in [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); the plan is not a time promise for an unknown pump.
 
 [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-intervention) establishes the applicable actual protection and permission. If an uncontrolled shared energy path is found, the protected work does not start and the arrangement returns for a competent revised decision. The earlier advice remains complete.
 
@@ -1605,7 +1605,7 @@ Long-horizon recurrence remains unresolved. [MNT.13](#mnt13---coordinate-the-mai
 
 ## APP-MNT-02 — A fleet comparison that reverses when exposure is counted
 
-The constructed fleet contains 48 pumps in two groups. One has fewer counted failures but also substantially less operating exposure. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) contains the numerical comparison and its decision: the crude rates do not establish a causal policy advantage, and the current policy can be retained.
+The constructed fleet contains 48 pumps in two groups. One has fewer counted failures but also substantially less operating exposure. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) contains the numerical comparison and its decision: the crude rates do not establish a causal policy advantage. Retaining the current policy rests on its existing failure-and-response basis remaining adequate for the stated duties; the rates do not establish that adequacy.
 
 [MNT.3](#mnt3---establish-degradation-and-failure-evidence) determines what counts as the relevant failure; [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity) connects events and exposure to actual components and configurations. If records mix preventive removals with failures, that discrepancy changes the rate before it changes any policy. A qualified current account is useful even when the data cannot support a strong causal comparison.
 

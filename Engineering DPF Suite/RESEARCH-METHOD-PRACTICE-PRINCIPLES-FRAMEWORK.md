@@ -156,7 +156,7 @@ The same activity can sit on either side. A seal test can be routine qualificati
 
 ## RMP.Preface:4 - Question, frame, design, Work, result, and decision remain distinct
 
-A receiving question names why knowledge may matter. A ResearchQuestionBrief states the intended episteme change, current frame, bounded question, criticism demand, constraints, and useful stop. A research design is a prospective strategy connecting that question to observations or sources and method-appropriate criticism. A protocol or operationalization map elaborates a design. Performed Work, records, analysis output, criticism, a warranted episteme change, publication, recognition, and actual downstream use are further distinct.
+A receiving question names why knowledge may matter. A ResearchQuestionBrief states the intended episteme change, current frame, bounded question, criticism demand and constraints. It distinguishes what the evidence must establish for an adequate answer from when the present work may finish with uncertainty, refusal or a missing-input return. A research design is a prospective strategy connecting that question to observations or sources and method-appropriate criticism. A protocol or operationalization map elaborates a design. Performed Work, records, analysis output, criticism, a warranted episteme change, publication, recognition, and actual downstream use are further distinct.
 
 RMP.1/RMP.2 supply the brief and current design disposition; RMP.3 supplies operational specification or an exact return; RMP.4 supplies the trace and its receiving limits; RMP.5 supplies the bounded claim and actual criticism; RMP.6 supplies the credibility choice and interprets an actual test return when one exists. RMP.7 supplies EvidenceSynthesis; RMP.8 supplies EpistemeChangeAndEvidenceReturn; RMP.9 supplies ResearchMethodPracticeRevision, including supported retention or a bounded correction. These names require the relevant content, not a new file for each result. A protocol remains an intention, and a trace represents only conduct supported by its records. Later conduct needs actual performance and its evidence. Domain claims need their qualified support, and the receiving practice retains study permission and its engineering, management, policy, regulatory or personal decision.
 
@@ -180,7 +180,7 @@ For an ambiguous request, begin with the [RMP.1 qualification procedure](#rmp141
 
 With that input, use the [RMP.2 design comparison](#rmp244---compose-serious-design-or-stop-options). Keep the receiving question fixed while alternatives change the evidence relation. The useful contrast might be between a mechanism experiment and field transfer evidence, between historical source criticism and corpus synthesis, or between new evidence and a sufficient current answer. The selected design must explain what error it can expose and which threats it leaves live. The [four disposition branches](#rmp247---return-exactly-one-researchdesigndisposition) then give the reader a usable conclusion.
 
-The source-answer and design-allocation questions remain distinct. RMP.1 can finish with an available answer before unused membership prompts. RMP.2 compares qualified evidence with the clarified useful stop without repeating adequate source work. EvidenceSufficientStop means the answer is adequate for that use; QualifiedNoNewStudy means no new study is selected while the remaining evidence limit stays visible.
+The source-answer and design-allocation questions remain distinct. RMP.1 can finish with an available answer before unused membership prompts. RMP.2 compares qualified evidence with the brief's answer condition without repeating adequate source work. Permission to finish with uncertainty does not satisfy that evidence condition. EvidenceSufficientStop means the answer is adequate for that use; QualifiedNoNewStudy means no new study is selected while the remaining evidence limit stays visible.
 
 If design comparison changes the question, receiving use, or useful stop, return that change to RMP.1. If it changes only an instrument, access, or other selection premise, reopen the affected RMP.2 comparison. A usable question can survive an infeasible preferred design. A supplied-answer stop or hold can likewise be the complete result of the present use. The Part that groups these bodies helps reading; it adds no third Method and requires no chronological research lifecycle.
 
@@ -291,8 +291,9 @@ Do not use RMP.1 to select a research design, prescribe an instrument, authorize
 | qualified current frame | An account of what the sources support for the receiving question, the conditions under which they apply, and which important alternatives or gaps remain. It may be supplied or prepared through §4.3. |
 | unresolved knowledge question | A question whose materially different answer or criticism could revise, retain, reject, narrow, or add an exact episteme for the named receiving use. Novelty to the performer alone is insufficient. |
 | criticism demand | The kind of error, rival explanation, invalid source use, dependence, bias, missing context, or unsupported transfer that a defensible answer must be able to expose. It states what has to be challenged; it does not preselect a design. |
-| useful stop | The smallest warranted episteme change that would answer the named use, plus the condition under which further inquiry has no current value or authority. A useful stop may be a supplied answer, a bounded research result, a refusal, or an exact return. |
-| ResearchQuestionBrief | The passing RMP.1 result: a bounded question, current frame, intended episteme change, criticism demand, constraints, useful stop, and return boundaries suitable for RMP.2. It is not a protocol or completed design. |
+| answer condition | What the evidence must establish to answer the bounded question for its intended use, with the uncertainty that use permits. |
+| useful stop | Completion with an adequate answer, or completion of the present work with a refusal, retained uncertainty or a missing-input return. In the latter case, state which answer condition remains unmet and what could reopen the work. |
+| ResearchQuestionBrief | The passing RMP.1 result: a bounded question, current frame, intended episteme change, criticism demand, constraints, answer condition, work-stop and return conditions suitable for RMP.2. It is not a protocol or completed design. |
 | exact supplied-result return | A current source, comparison, evidence-use, or retrieval result that already answers the receiving question within its stated scope and limits. It exits RMP.1 without asserting new research Work. |
 | exact non-research return | The question, available material, expected result kind, direct owner, and reopen condition for adjacent Work such as qualification, monitoring, troubleshooting, audit, evaluation, or ordinary Method application. |
 | research-boundary hold | A named missing or stale source/result, the question it prevents RMP.1 from deciding, its owner or supplier interface, and the condition for retry. “More research needed” is not a hold specification. |
@@ -338,7 +339,7 @@ Start with the receiving question and attempt a sufficient answer from existing 
 3. **Try the source-answer stop.** If the material resolves the receiving question within its intended scope, return the answer with the sources and limits needed to use it, and stop. Use the remaining steps when a research question survives.
 4. **Form the candidate episteme change.** State what exact claim or corpus contribution could be retained, narrowed, rejected, qualified, or added. Name the phenomenon, unit, case, population or corpus, relevant relation or contrast, constraints, and smallest useful answer. A topic, task label, desired conclusion, or data-collection plan is not yet a research question.
 5. **Apply the four conditions independently.** Establish unresolvedness, non-routine choice under genuine uncertainty, a systematic criticism-ready trace, and a bounded communicable episteme return. All four must pass. Record why the nearest plausible non-member does or does not fit.
-6. **Name the criticism demand and stop.** Identify the error or rival that a useful answer must be able to expose, without choosing a design family. State what bounded result would be enough for this use, which result would defeat or narrow the question, and what remains outside the inquiry.
+6. **Name the criticism demand, answer condition and work stops.** Identify the error or rival that a useful answer must be able to expose, without choosing a design family. State what the evidence must establish for this use, which result would defeat or narrow the proposed claim, and what remains outside the inquiry. Separately state when the present work can finish with uncertainty, refusal or a missing-input return, for example because further inquiry lacks value or authority. Such a stop preserves any unmet answer condition.
 7. **Return one exact disposition.**
    - return the already-sufficient source/result and stop;
    - return the adjacent non-research Work and its expected result to its direct owner;
@@ -406,7 +407,8 @@ A passing ResearchQuestionBrief contains these positions:
 | membership account | Separate pass reasons for all four conditions and the nearest non-member considered. |
 | criticism demand | Principal error, rival, invalid source use, dependence, bias, missing context, or unsupported transfer that a defensible answer must expose. |
 | constraints and owner results | Domain criteria, safety, ethics, rights, confidentiality, access, instrument, authority, resource, or other conditions already supplied or still external. |
-| useful stop | Smallest warranted answer, refusal, narrowing, or retained uncertainty sufficient for the use; conditions that end or reopen inquiry. |
+| answer condition | What the evidence must establish for an adequate answer to the bounded question, including applicable uncertainty and scope. |
+| work-stop and reopen conditions | When the present work can finish with that answer or with a refusal, retained uncertainty or missing-input return; which unmet answer condition remains and what could reopen inquiry. |
 | source and result limits | What the supplied source results establish, what they do not establish, and any source/result that must be returned rather than improvised. |
 | continuation | Compatible brief and frame for RMP.2. No selected design, protocol, authorization, or receiving decision is implied. |
 
@@ -447,7 +449,7 @@ Start with prompts 1–3, using the question and available material. If prompt 3
 5. Why is the question unresolved relative to the frame rather than merely unfamiliar?
 6. Which non-routine choice and genuine uncertainty prevent ordinary Method execution from being enough?
 7. How could a critic inspect and defeat or narrow the claim?
-8. What bounded communicable result would be useful, and what would stop or reopen the inquiry?
+8. What would make the answer adequate for this use? Separately, when should the present work finish with uncertainty or refusal, and what would reopen it?
 
 If an answer still needed to decide the current branch depends on an unavailable source or owner result, name that hold immediately. If a nearest non-member fits, return it immediately. An unused later prompt is neither a missing input nor a reason to reopen a completed answer.
 
@@ -476,7 +478,8 @@ Suppose instead that the qualified current frame exposes this unresolved issue: 
 | membership account | The relation is unresolved for the use; choosing how to distinguish mechanisms is non-routine; the intended Work can preserve sources, specimens, conditions, measurements, deviations, and limits; and the intended result is a bounded mechanism-to-evidence claim. |
 | criticism demand | A defensible answer must be able to expose a mechanism change caused by acceleration and distinguish it from the named field rivals. RMP.1 does not choose the comparison or instrument. |
 | constraints and returns | Domain engineering supplies admissible mechanism indicators and specimen identity; instrument owners supply feasibility and calibration; safety and access owners retain authority. Missing load-bearing results return to those owners. |
-| useful stop | Stop when the mechanism-to-evidence relation is retained, narrowed, rejected, or left unresolved with its decisive missing result named. Do not choose the maintenance interval. |
+| answer condition | Establish whether the selected acceleration condition preserves the mechanism relation needed for the bounded seal-life claim. Qualified evidence can support, narrow or reject that relation; identifying a still-missing decisive result leaves it unresolved. |
+| work-stop and reopen conditions | Finish with the supported answer or return the unresolved relation and its decisive missing result. RMP.2 distinguishes a still-needed selection from a completed allocation with no new study. A newly available result or worthwhile obtainable comparison can reopen that choice. The maintenance authority retains the interval decision. |
 
 This case enters RMP.2 only with that brief and frame. If current retrieval already establishes that the acceleration relation is invalid for the named use, return that exact result and stop; a new study is not required merely to make the answer look experimental.
 
@@ -550,7 +553,7 @@ Apply these questions to the branch actually taken. The episteme-change and memb
 - [ ] **RMP1-16:** From the available question and source texts, the practitioner can follow §4.3 to a supported answer, a useful comparison or a named remaining gap. Source search, interpretation and applicability failures lead to the corresponding repair.
 - [ ] **RMP1-17:** The application preserves the meanings and conditions of its FPF contributions. A comparison claimed as SoTA meets F.1:4.2.1 and E.8:11; ordinary source use follows its narrower question.
 - [ ] **RMP1-18:** The criticism demand names an error or rival to expose without selecting a design family.
-- [ ] **RMP1-19:** The useful stop states the smallest warranted result, refusal, or residual uncertainty and its reopen condition.
+- [ ] **RMP1-19:** The brief distinguishes the evidence needed for an adequate answer from conditions for finishing with refusal or uncertainty; any unmet answer condition and reopen condition remain visible.
 - [ ] **RMP1-20:** Domain truth, instruments, safety, ethics, rights, access, assurance, and authority remain with their direct owners.
 - [ ] **RMP1-21:** RMP.2 receives only a compatible brief and frame; no design, protocol, authorization, or receiving decision is implied.
 - [ ] **RMP1-22:** Corporate and citizen or independent cases receive the same membership test, with holder-specific constraints preserved.
@@ -622,7 +625,7 @@ These sources do not decide claim truth, supply domain instruments, authorize Wo
 
 ### RMP.2:0 - Use This When
 
-Use this pattern when a compatible `ResearchQuestionBrief` and qualified current frame already exist, but it is still unclear whether additional evidence-producing Work is useful and, if so, which design family can expose the error that matters. Begin by testing the current evidence against the brief's useful stop. If new Work could still be useful, compare the real design-or-stop options on question fit, feasible criticism, validity threats, constraints, expected information gain, and supplied owner results.
+Use this pattern when a compatible `ResearchQuestionBrief` and qualified current frame already exist, but it is still unclear whether additional evidence-producing Work is useful and, if so, which design family can expose the error that matters. Begin by testing the current evidence against the brief's answer condition: what it must establish for this use. If new Work could still be useful, compare the real design-or-stop options on question fit, feasible criticism, validity threats, constraints, expected information gain, and supplied owner results.
 
 Return one **ResearchDesignDisposition** for the present selection boundary: `EvidenceSufficientStop` when evidence already answers the use; `ResearchDesignDecision` when a useful feasible strategy is selected, with only genuinely invariant `PostSelectionNeed` items remaining; `ResearchDesignHold` when a named missing result prevents a particular selection still needed; or `QualifiedNoNewStudy` when the current allocation question is answered by selecting no new study while preserving an insufficient or bounded answer. A design is complete only when no missing construct relation, source admissibility, measurement, access, protection, authority or other load-bearing value can overturn its family, criticism or feasibility.
 
@@ -638,7 +641,7 @@ Do not use RMP.2 to qualify an ambiguous “research” request, repair a weak c
 | design family | A broad relation among question, evidence source, intervention or exposure, comparison, and criticism, such as experimental/quantitative, field/observational, qualitative/reflexive, historical/source-critical, computational/model, synthesis, or an explicit mixed composition. Family names do not erase domain variants. |
 | criticism logic | The design's account of which material error, rival explanation, source failure, dependence, bias, or unsupported transfer can be exposed, by which contrast or challenge, and what result would defeat or narrow the claim. |
 | serious design-or-stop option | An actual stop or feasible or conditionally feasible strategy for the same ResearchQuestionBrief that differs in an answer-changing evidence relation, criticism, validity trade-off, resource use, or refusal condition. A renamed method or more detailed version of the same relation is not another option. |
-| EvidenceSufficientStop | A disposition stating that qualified current evidence already reaches the brief's useful stop for the named use, with residual uncertainty and reopen conditions visible. It authorizes no downstream decision. |
+| EvidenceSufficientStop | A disposition stating that qualified current evidence already meets the brief's answer condition for the named use, with residual uncertainty and reopen conditions visible. It authorizes no downstream decision. |
 | ResearchDesignDecision | A disposition selecting a worthwhile feasible design family and criticism logic against the actual alternatives, including no new study, with justification, threats, constraints, external results, refusal conditions, and useful stop. It asserts no performed Work or obtaining result. |
 | PostSelectionNeed | A finite, explicit item still needed to instantiate, record, schedule, or support the selected design whose every admissible resolution leaves the selected family and core criticism logic unchanged. The set may be explicitly `none`. |
 | ResearchDesignHold | A disposition withholding a particular selection still needed because one named missing or unresolved external result can change the family, core contrast, observation/source admissibility, criticism logic, feasibility, or refusal. It does not commission obtaining that result. |
@@ -679,25 +682,25 @@ Indiscriminate holding wastes the other way. If a remaining need only assigns an
 
 ### RMP.2:4 - Solution
 
-Hold the ResearchQuestionBrief fixed and test whether current evidence already reaches its useful stop. For a question that remains open, compare what obtainable strategies can contribute with the whole burden they require. Separate a selected study, a selection that still needs a missing result, and a completed allocation answer choosing no new study. Return one disposition and preserve all external authority.
+Hold the ResearchQuestionBrief fixed and test whether current evidence already meets its answer condition. For a question that remains open, compare what obtainable strategies can contribute with the whole burden they require. Separate a selected study, a selection that still needs a missing result, and a completed allocation answer choosing no new study. Return one disposition and preserve all external authority.
 
 #### RMP.2:4.1 - Admit the Design Question
 
-1. **Load the exact brief and frame.** Recover the receiver and use, intended episteme change, bounded question, qualified current frame, serious rivals, criticism demand, constraints, source/currentness limits, and useful stop. Direct entry is allowed when these values are supplied compatibly; ritual passage through RMP.1 is not required.
+1. **Load the exact brief and frame.** Recover the receiver and use, intended episteme change, bounded question, qualified current frame, serious rivals, criticism demand, constraints, source/currentness limits, answer condition and work-stop conditions. Direct entry is allowed when these values are supplied compatibly; ritual passage through RMP.1 is not required.
 2. **Check stability.** If the receiving use, question, current frame, serious rival set, or useful stop has materially changed, return to RMP.1. Do not compare designs for a question that no longer obtains.
 3. **Keep authority outside.** Name domain truth owners, instrument and measurement owners, ethics and safety authorities, access and rights holders, providers, resource owners, and the final receiving decision. A proposed design cannot supply their missing results.
 4. **Define the design decision boundary.** State which family and criticism logic are being selected, which operational details are deliberately not selected here, and what would count as stop, refusal, or reopening.
 
 #### RMP.2:4.2 - Test the Evidence-Sufficient Stop
 
-Compare the exact qualified current evidence with every position in the ResearchQuestionBrief's useful stop:
+Compare the qualified current evidence with the ResearchQuestionBrief's answer condition. Use the condition concerning what the evidence must establish, not a condition that permits work to end with uncertainty or refusal:
 
 - Does it answer the bounded question for the named receiver and use?
 - Does its applicability cover the phenomenon, unit, case, population, corpus, contrast, and horizon?
 - Does it address the principal live rival or validity threat rather than merely agree with the favored answer?
 - Are its source, evidence-use, provenance, uncertainty, and currentness limits compatible with the reliance proposed?
 
-If the evidence reaches the useful stop, return the answer with the source and limits needed for its use. This is `EvidenceSufficientStop`; the existing answer may already be the complete result. Finish before constructing unused design comparisons or a separate justification for omitting a study. For a later receiving use, retain any uncertainty, scope limit or reason that can change that receiver's reliance.
+If the evidence meets the answer condition, return the answer with the source and limits needed for its use. This is `EvidenceSufficientStop`; the existing answer may already be the complete result. Finish before constructing unused design comparisons or a separate justification for omitting a study. For a later receiving use, retain any uncertainty, scope limit or reason that can change that receiver's reliance.
 
 If the evidence is insufficient, ask what a new obtainable study could change and whether that contribution warrants its complete burden under the supplied constraints. Count preparation, access, measurement, execution, interpretation, participants, delay and displaced Work, including joint resource limits. Research worth includes a defensible contribution to knowledge and later inquiry; it is not confined to an immediate operating or commercial decision.
 
@@ -777,7 +780,7 @@ Do not collapse the comparison into an unqualified score. A bounded decision rul
 
 #### RMP.2:4.7 - Return Exactly One ResearchDesignDisposition
 
-**Branch A — `EvidenceSufficientStop`.** Use only when current qualified evidence reaches the useful stop. Return the exact answer with the evidence, applicability and limitations needed for this use; keep a later receiver's decision-changing reason or uncertainty visible. The answer itself completes the branch. Select no design and create no unused option comparison or no-study form.
+**Branch A — `EvidenceSufficientStop`.** Use only when current qualified evidence meets the answer condition. Return the exact answer with the evidence, applicability and limitations needed for this use; keep a later receiver's decision-changing reason or uncertainty visible. The answer itself completes the branch. Select no design and create no unused option comparison or no-study form.
 
 **Branch B — `ResearchDesignDecision` plus `PostSelectionNeed`.** Use only when one feasible family and criticism logic are justified by comparison with actual alternative strategies and with the option of no new study, the expected contribution warrants the whole burden, and no missing value can overturn the selection. Record the selected strategy, candidate comparison, justification, core contrast/criticism, threats, supplied external results, resource and refusal conditions, expected information gain, useful stop, rejected alternatives, and later needs. Before returning Branch B, apply the [joint-input test in RMP.2:4.3](#rmp243---expose-selection-changing-inputs) to the complete set of remaining needs. For each PostSelectionNeed, show:
 
@@ -790,7 +793,7 @@ An explicitly empty set is written as `PostSelectionNeed: none`. A need is not p
 
 **Branch C — `ResearchDesignHold`.** Use when a particular selection is still needed and a named missing result prevents deciding it. Make the missing result and owner, exact question and affected candidates, at least two plausible result values and their different design/stop consequences, currently viable alternatives, what Work must not begin, and the reopen condition recoverable. Do not name a “provisional selected design.” The hold identifies the conditional dependency; deciding to obtain that result is separate and requires its own worth, feasibility and authority. The hold can be a useful complete answer about what prevents selection without asserting that an investigation is under way.
 
-**Branch D — `QualifiedNoNewStudy`.** Use when the present allocation question is settled by selecting no new study although the evidence does not reach the original useful stop. Return the strongest bounded answer or state the exact claim that remains unresolved, together with the reason no worthwhile obtainable study is selected under the current facts and constraints. An unavailable evidence opportunity or the whole burden of the obtainable options exceeding their expected contribution may settle this answer. Keep limitations and the condition that could reopen the choice visible for the receiving use. A material unknown need not become a pending task when no acquisition has been selected. Do not call the evidence sufficient, imply a selected design, waive a receiving authority's requirements or present obtaining the missing result as commissioned.
+**Branch D — `QualifiedNoNewStudy`.** Use when the present allocation question is settled by selecting no new study although the evidence does not meet the answer condition. Return the strongest bounded answer or state the exact claim that remains unresolved, together with the reason no worthwhile obtainable study is selected under the current facts and constraints. An unavailable evidence opportunity or the whole burden of the obtainable options exceeding their expected contribution may settle this answer. Keep limitations and the condition that could reopen the choice visible for the receiving use. A material unknown need not become a pending task when no acquisition has been selected. Do not call the evidence sufficient, imply a selected design, waive a receiving authority's requirements or present obtaining the missing result as commissioned.
 
 The four branches are mutually exclusive for one present selection boundary. Their names distinguish the results; they do not require a separate document or an empty declaration of an unused branch. New evidence or a changed receiving use can reopen the choice. Only Branch B, or a compatible supplied selected-design result, gives RMP.3 a ResearchDesignDecision; a sufficient answer, QualifiedNoNewStudy or a hold does not.
 
@@ -810,12 +813,12 @@ Compare the following relations when their supplied conditions make them serious
 
 | Option | Evidence and criticism relation | Principal loss or dependency |
 | --- | --- | --- |
-| stop on current evidence | Use a current qualified mechanism/transfer result if it already retains, narrows, or rejects the relation to the brief's useful stop. | Cannot support a stronger maintenance or universal-life claim. |
+| stop on current evidence | Use an applicable result that already answers whether this acceleration condition preserves the relevant mechanism relation. | Cannot support a stronger maintenance or universal-life claim. |
 | experimental/quantitative mechanism comparison | Compare degradation under the candidate accelerated and field-representative conditions using domain-admissible mechanism indicators; challenge acceleration-induced mechanism change and alternative material effects. | Requires qualified indicator relation, instrument feasibility, specimen/material comparability, safety, and authority. |
 | field/observational relation | Use obtaining field exposures, failures, material batches, installation histories, and operating contexts to challenge whether the laboratory relation transfers. | Confounding, selection, sparse failure, measurement, and access may limit discrimination. |
 | computational/model challenge | Test the proposed mechanism and acceleration relation through a domain-qualified model, sensitivity, calibration, and validation target. | Model-to-phenomenon relation, parameter identifiability, implementation, data, and validation can dominate. |
 
-**EvidenceSufficientStop scenario.** A newly supplied current result already shows, with compatible materials and operating envelope, that the proposed acceleration condition changes the dominant degradation mechanism. The useful stop is reached by rejecting relevance of that test condition. RMP.2 returns the exact result, limitations, and reopen condition; it does not run an experiment to confirm an answer already sufficient for this use.
+**EvidenceSufficientStop scenario.** A newly supplied current result already shows, with compatible materials and operating envelope, that the proposed acceleration condition changes the dominant degradation mechanism. The answer condition is met by the supported rejection of that test condition's relevance. RMP.2 returns the exact result, limitations, and reopen condition; it does not run an experiment to confirm an answer already sufficient for this use.
 
 **ResearchDesignDecision scenario.** Domain engineering supplies the mechanism-indicator relation, measurement feasibility, material identity, safe operating envelope, and authority needed for the experimental comparison. The field and model options remain useful secondary evidence but cannot expose acceleration-induced mechanism change as directly within the current constraints. RMP.2 selects the experimental/quantitative family with that core comparison and criticism. `PostSelectionNeed` contains only the repository locator and serialization of already-required specimen, condition, observation, and deviation fields. The admissible choices change neither family nor criticism; an inability to record any required field falls outside the admitted range and reopens selection.
 
@@ -859,7 +862,7 @@ The difference is not how late the team plans to resolve the item. It is whether
 | favorite-method bias | The practitioner's familiar design defines the question and rivals. | Hold the brief fixed and compare actual answer-changing relations with the relevant no-new-study outcome. |
 | hierarchy bias | One design family is presumed strongest regardless of claim and threat. | Compare the specific evidence relation and criticism each option enables. |
 | novelty-of-tool bias | A new sensor, model, AI workflow, or platform is treated as an informative design. | State the answer-changing contrast, threats, and validation relation independently of the tool. |
-| false-stop bias | Constraint, fatigue, low priority, or desired certainty is called evidence sufficiency. | Tie EvidenceSufficientStop to the brief's exact useful stop and qualified current evidence. |
+| false-stop bias | Constraint, fatigue, low priority, or desired certainty is called evidence sufficiency. | Tie EvidenceSufficientStop to the brief's answer condition and qualified current evidence; an allowed uncertainty return does not meet that condition. |
 | provisional-design bias | A selected label is retained while a load-bearing value is “TBD.” | Run the counterfactual; if the family or criticism can change, return ResearchDesignHold. |
 | hold-everything bias | Harmless record, naming, or schedule details prevent selection. | Bound admissible values and prove that the family and criticism remain invariant. |
 | reporting-as-design bias | A reporting guideline or protocol template is treated as design evidence. | Use it later for transparency where applicable; select the question-to-criticism relation here. |
@@ -872,7 +875,7 @@ The difference is not how late the team plans to resolve the item. It is whether
 Apply the questions to the actual disposition. A sufficient answer or QualifiedNoNewStudy does not fill unused selected-design or PostSelectionNeed positions; a hold states the missing dependency without asserting a commitment to acquire it.
 
 - [ ] **RMP2-01:** A compatible ResearchQuestionBrief and qualified current frame are supplied; a changed brief is returned to RMP.1.
-- [ ] **RMP2-02:** The receiver, evidence use, useful stop, and separate later-decision authority remain visible.
+- [ ] **RMP2-02:** The receiver, evidence use, answer condition, work-stop conditions and separate later-decision authority remain visible.
 - [ ] **RMP2-03:** EvidenceSufficientStop is tested before new evidence-producing Work is selected.
 - [ ] **RMP2-04:** Evidence sufficiency covers the brief's scope, serious rival, provenance/currentness, uncertainty, and bounded use.
 - [ ] **RMP2-05:** Constraint, cost, preference, or low priority is not mislabeled as evidence sufficiency.
@@ -2656,7 +2659,7 @@ RMP.1 recovers the receiving use and current frame before treating the laborator
 | The current frame leaves acceleration-induced mechanism change, installation damage, material variation, or field fluid exposure as serious rivals, and a non-routine criticism-bearing comparison is needed. | Return a ResearchQuestionBrief asking whether the accelerated condition preserves the field mechanism-to-evidence relation within the named envelope. |
 | A load-bearing current frame, source result, or domain relation is unavailable. | Return a research-boundary hold naming the missing result, the blocked decision, the responsible supplier, and the retry condition. |
 
-The passing brief states the receiver/use, exact mechanism-to-evidence episteme change, bounded materials and operating envelope, current sources and rivals, criticism demand, constraints, useful stop, and external owner results. It explicitly does not ask RMP to choose the maintenance interval.
+The brief states the receiving use, the proposed change to the mechanism-to-evidence claim, the materials and operating conditions covered, current sources and rivals, required criticism, constraints and results supplied by other practitioners. It distinguishes the answer condition from conditions for finishing work with uncertainty. The maintenance authority retains the interval decision.
 
 ### Second fork — answer the current research-allocation question
 
@@ -2664,7 +2667,7 @@ With the brief fixed, RMP.2 uses an adequate current answer or compares the real
 
 | Changed supplied value | RMP.2 disposition |
 | --- | --- |
-| Current evidence reaches the brief's useful stop by retaining, narrowing, or rejecting the acceleration relation with compatible provenance and limits. | `EvidenceSufficientStop`, including residual uncertainty and reopen condition. |
+| Applicable evidence meets the answer condition by supporting, narrowing or rejecting the proposed acceleration relation within the brief's scope. | `EvidenceSufficientStop`, including residual uncertainty and reopen condition. |
 | Domain engineering supplies the indicator relation, measurement feasibility, material identity, safe operating envelope, and authority; experimental comparison best exposes acceleration-induced mechanism change. | `ResearchDesignDecision` selecting that family and criticism. Only record locator/serialization items proven invariant across their admitted values remain as `PostSelectionNeed`. |
 | The indicator may or may not discriminate the rival mechanisms, and the two plausible measurement-owner results select different strategies. | `ResearchDesignHold` naming the indicator-feasibility result, owner, affected alternatives, forked consequences, prohibited next Work, and reopen condition; acquisition remains separate. |
 | The evidence remains insufficient and supplied material/access or burden conditions leave no worthwhile obtainable new study for this bounded case. | `QualifiedNoNewStudy`, preserving the unresolved relation or bounded answer, the allocation reason and any meaningful reopen condition. |

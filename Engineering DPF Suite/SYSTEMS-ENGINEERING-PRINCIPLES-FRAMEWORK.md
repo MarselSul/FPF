@@ -101,7 +101,7 @@ Search the Keywords & Search Queries column for the engineering difficulty, subj
 | 36 | [SYSE.36 - Measure User Tasks and Set Software-Service Reliability Objectives](#syse36---measure-user-tasks-and-set-software-service-reliability-objectives) |  | *Keywords:* user task, service level indicator, service level objective, SLI, SLO, eligibility, missing outcomes, error budget. *Queries:* "Does this measurement count successful user tasks or only healthy components?" "What denominator and objective should govern this service?" Define eligible attempts, timely correct results and observation gaps before choosing telemetry; agree the objective and response policy with the relevant users, providers and decision holders. The first result is a task measurement definition and exercised instrumentation, or an exact measurement gap. | SYSE.4; subject owner, task meaning and suitable instrumentation |
 | 37 | [SYSE.37 - Alert on Actionable Reliability Risk](#syse37---alert-on-actionable-reliability-risk) |  | *Keywords:* actionable alert, error budget, burn rate, multiple windows, sparse traffic, missing data, response capacity. *Queries:* "Does this reliability signal require action soon enough to justify an alert?" "Will the alert reach someone able to respond?" Derive budget-risk rules from the user task, objective and budget consumption; test evaluation, delivery, acknowledgement and the permitted response together. The first result is an exercised alert rule with its response and blind spots, or a precise observation or response gap. | SYSE.36; SYSE.38 for response; actual responder authority |
 | 38 | [SYSE.38 - Diagnose and Restore a Failed Platform Task](#syse38---diagnose-and-restore-a-failed-platform-task) |  | *Keywords:* failed platform task, diagnosis, incident response, safe mitigation, partial effects, competing causes, restoration, specialist request. *Queries:* "Which stage of this user attempt failed, and what can restore useful work now?" "What observation would distinguish the remaining causes?" Establish actual impact and state, compare causes, and test a permitted mitigation without repeating unknown effects. The first result is a restored task or usable limited result, or a narrowed cause question naming the result needed from a specialist. | SYSE.26, SYSE.34, SYSE.36, SYSE.40, SYSE.41; OPS.3/OPS.4 when needed |
-| 39 | [SYSE.39 - Reduce Repetitive Platform Work without Moving the Burden](#syse39---reduce-repetitive-platform-work-without-moving-the-burden) |  | *Keywords:* repetitive platform work, toil, automation, task simplification, transferred burden, maintenance, exceptions, horizon. *Queries:* "Will this change reduce total work or move it to users?" "When does automation repay its construction and operating cost?" Compare retaining the method, simplifying the task, removing its cause, improving the supported interaction and automation using user effort, provider effort, waiting and risk over a stated horizon. The first result is a bounded intervention with a way to compare total burden after use. | SYSE.25, SYSE.26, SYSE.36; SYSE.24 for whole obtaining |
+| 39 | [SYSE.39 - Reduce Repetitive Platform Work without Moving the Burden](#syse39---reduce-repetitive-platform-work-without-moving-the-burden) |  | *Keywords:* repetitive platform work, toil, automation, task simplification, transferred burden, maintenance, exceptions, horizon. *Queries:* "Will this change reduce total work or move it to users?" "When does automation repay its construction and operating cost?" Compare retaining the method, simplifying the task, removing its cause, improving the supported interaction and automation using user effort, provider effort, waiting and risk over a stated horizon. The first result is a justified choice about the recurring activity. For a selected intervention, state how total burden will be compared after use. | SYSE.25, SYSE.26, SYSE.36; SYSE.24 for whole obtaining |
 | 40 | [SYSE.40 - Protect Software Platform Capacity and Isolate Failure](#syse40---protect-software-platform-capacity-and-isolate-failure) |  | *Keywords:* platform capacity, workload classes, admission control, bounded queues, isolation, deadlines, retry budget, serialization, recovery capacity. *Queries:* "Which shared limit lets one workload delay or disable another?" "Can the platform recover while demand remains excessive?" Compare capacity and execution changes, then exercise admission, isolation, bounded waiting and retries across shared dependencies. The first result is a tested protection arrangement for a stated envelope, with observed admitted, delayed and refused work and recovery limits, or the conditions that remain unqualified. | SYSE.26, SYSE.33, SYSE.36; SYSE.34/SYSE.41 for stateful recovery |
 | 41 | [SYSE.41 - Deploy a Verified Software Configuration and Handle Partial Failure](#syse41---deploy-a-verified-software-configuration-and-handle-partial-failure) |  | *Keywords:* verified artifact, deployment, effective configuration, runtime readback, dependency test, partial failure, unknown effects, recovery. *Queries:* "Did the intended software and configuration become usable on each target?" "What may be retried after an interrupted deployment?" Prepare, install, configure and test the candidate against observed target state; reconcile partial outcomes before continuing. The first result is an observed runtime configuration with its test, interval and limits, or a precise failed or unknown partial state; exposure and release remain separate. | SYSE.13, SYSE.32, SYSE.33, SYSE.34; SYSE.11/SYSE.35 as receivers |
 
@@ -355,9 +355,10 @@ evidence, and unresolved conditions.
 
 Evidence supports a stated claim only for the receiving decision and conditions to which that evidence applies. A model, experiment,
 trial, test, certificate, review, or observation supports only the claims for which it is applicable. `SYSE.10` connects
-research and trial results to engineering claim assessments. Use `SYSE.4` first to reuse compatible current results,
-then to plan the smallest missing challenge, qualify evidence use, revise reliance, and return the result to
-the Agent responsible for the earliest answer that the result could change. Safety, security, legal, ethical, financial, certification,
+research and trial results to engineering claim assessments. Use `SYSE.4` to reuse compatible current results,
+qualify evidence use and revise reliance. Select further challenge Work when its attainable contribution justifies
+the burden or the selected use requires it. A narrower supported answer or a justified stop may already settle
+the question. Return the result to the Agent responsible for the earliest answer it could change. Safety, security, legal, ethical, financial, certification,
 acceptance, permission, and release decisions keep their specialist criteria and authority.
 
 A source change is not automatically a world-side System change. A changed model, standard, requirement,
@@ -2603,12 +2604,18 @@ Work—can confirm or reopen the choice.
    failure containment, realization and integration dependencies, supply and provider conditions, configuration
    continuity, operating and maintenance effects, affected Systems, evidence burden, or change consequences. Use `A.19.CPM`, `C.11`, or another direct
    comparison or choice pattern for the claim actually being made.
-6. **Challenge the preferred option.** Use challenge Work suited to the claim—for example, specialist criticism,
-   computation or simulation Work, prototype and bench tests, integration trials, or operating observation. For
-   each challenge, record the performed Work, the Agent that performed it, Method, configuration, conditions, and
-   claim limits. Ask which omitted structure or
-   affected System would reverse the preference. Use an AI-produced ranking or architecture description as one
-   input. The identified deciding Agent remains responsible for the choice; physical adequacy needs its own evidence.
+6. **Challenge the preferred option.** Ask which omitted structure or affected System could reverse the
+   preference. Examine the relevant existing analyses and observations under their configuration, conditions,
+   and claim limits. Before commissioning further Work, use `C.11.DUA` to compare it with proceeding on the
+   present basis, narrowing the commitment, or stopping. Include what the inquiry could change, its cost and delay.
+   Applicable evidence requirements govern that choice. The challenge may use specialist criticism,
+   computation, simulation, prototype or
+   bench tests, integration trials, or operating observation. For challenge Work whose result the decision uses,
+   keep its performer, Method, configuration, conditions, and claim limits recoverable from that result; reuse
+   the existing account where it is sufficient. Use an AI-produced ranking or architecture description as one
+   input. The identified deciding Agent remains responsible for the choice. A claim of physical adequacy needs
+   evidence about the physical System; selecting an option with stated residual uncertainty does not assert
+   that stronger claim.
 7. **Make the decision relation explicit.** Fill the current `ArchitectureDecisionRelation@Project` with the
    candidate basis, selected option, affected structures, criteria and trade-offs, accepted losses, rationale,
    consequences, effectivity and currentness claims, horizon, and rejected or retained alternatives. A bounded exception is a decision only
@@ -6084,7 +6091,7 @@ For a first pass, use one expected change family and one decision horizon:
    capabilities, change-Work results and resources, joint-arrangement claims, and causal or contribution claims.
 3. Recover three structures when they matter: genuine part–whole or membership levels with their scale and
    cross-level conflicts; non-holonic dependencies or service relations between the project system-of-interest and builder arrangement; and first–then or
-   overlapping Work. State why any omitted structure cannot change this decision.
+   overlapping Work.
 4. Keep obtaining architecture relations and current observations separate from specifications and expected
    characteristics of possible-future structures.
 5. Develop alternatives that change different selected structures of the project system-of-interest or builder arrangement. Show how each alternative
@@ -6211,7 +6218,7 @@ basis. A bounded choice is recorded; later Agents perform Work and supply observ
      provider, service, interface, or enabling relations used by this decision. Do not infer part–whole from dependence.
    - In the **Work view**, identify first–then, overlap, concurrency, and recurrence among Work occurrences. Do
      not infer a level from earlier Work.
-   If one view cannot change the decision, record why it is not needed for this decision.
+   Leave a view unused when it cannot affect this decision.
 5. **Separate current facts from possible-future specifications.** For every proposed change—for example, a
    module boundary, interface, product-family rule, fixture, test service, automation, Method change, or provider
    arrangement—write a possible-future architecture specification and the later Work and observation needed to establish it.
@@ -6251,13 +6258,13 @@ basis. A bounded choice is recorded; later Agents perform Work and supply observ
 
 Record the following content for the stated decision using linked descriptions. Keep architecture, capability,
 Work, arrangement, contribution, decision, and observation records distinct; each claim keeps its own subject
-and scope.
+and scope. Include view-specific content only for views used in this decision.
 
 | Account content | What to record |
 | --- | --- |
 | decision boundary | Project system-of-interest when it already exists, or the intended-system claim when it does not; any System family with its membership and effectivity basis; configurations, expected change family, use, environment, affected Systems, horizon, scale, protected characteristics, resources, `DecisionSubject`, chooser granularity, authority, and receiving decision. |
 | current claim inventory | Claim kind; identified subject; architecture bearer and selected structure, capability holder and target Work, change-Work occurrence and its result/resource coordinates, or joint-arrangement participants and relations; scale, window, evidence, uncertainty, and unsupported stronger claim. |
-| holonic or membership view | `EntityOfConcern`; obtaining part–whole or actual-member relations; decision-bearing levels; scale and horizon; simultaneous cross-level characteristic conflicts; reason for any bounded non-use. |
+| holonic or membership view | `EntityOfConcern`; obtaining part–whole or actual-member relations; decision-bearing levels; scale and horizon; simultaneous cross-level characteristic conflicts. |
 | system-of-interest–builder relation view | `EntityOfConcern`; selected structures of the project system-of-interest and builder arrangement; the direct dependency, correspondence, provider, service, interface, or enabling relations used by this decision; consequence, moved burden, evidence, uncertainty, and unsupported causal claim. |
 | Work view | `EntityOfConcern`; Work occurrences, performing Agents, enacted Methods, first–then, overlap, recurrence, required order, and separately obtaining assignment and authority. |
 | possible-future specifications | Proposed selected structures and mechanisms, expected characteristic changes, required realization and evaluation Work, assumptions, and failure conditions. |
@@ -6319,19 +6326,36 @@ time, comfort, energy, safety, and service error exposure. Resource coordinates 
 outage, supplier Work, review load, capital, and later maintenance. The team does not add these to one
 evolvability score.
 
-The architecture choice is replayable:
+The choice below is an illustrative design comparison. In addition to the observations above, assume the team
+has obtained these option estimates for the same two-year horizon. All three changes fit the architecture
+budget and have an identified way to meet the declared guardrails; actual release still requires its own
+qualification.
+
+| Option | Next supplier replacement and evidence reuse | Irreversible commitment relative to the other eligible changes |
+| --- | --- | --- |
+| Retain the incumbent | Neither improves. | No new investment, but it does not meet the present improvement objective. |
+| Redesign the controller | Replacement work becomes more local. The unchanged rig and release arrangement still prevent the required cross-variant evidence reuse. | A broad interface redesign commits more controller and verification work than the mixed option. |
+| Change the builder arrangement | Both improve. To reuse evidence while the four controller components remain coupled, this option parameterizes and qualifies their wider rig and evidence interactions. | The estimated committed adaptation and maintenance burden of that wider arrangement exceeds the mixed option's, including the latter's controller change. |
+| Mixed bounded change | Both improve for the next supplier. The compressor boundary confines the corresponding rig and evidence change to one slice. | Less committed adaptation and maintenance burden than the builder-only option; less controller redesign than the general redesign. Wider future variants remain outside this commitment. |
+
+These are comparison premises, not consequences of counting four coupled components. Without the estimated
+effect on evidence reuse and the comparative commitment burden, the earlier observations would not distinguish
+the mixed and builder-only options. Retain that unresolved comparison rather than claiming the same choice.
+
+The architecture choice follows from those observations and estimates:
 
 | `C.11` content | Filled result |
 | --- | --- |
 | `DecisionSubject` and granularity | The `ControllerFamily-F7` investment council at team level may allocate the approved two-year architecture budget. Safety and product-release authorities remain separately identified. |
 | current `OptionSet` | Retain the incumbent arrangement; redesign the controller; change the builder arrangement; or make the mixed bounded change. |
-| shared comparison basis | Safety, comfort, and rollback are hard guardrails. The `BeliefState` contains the observed four-component coupling, manual rig rewiring, service errors, current family/effectivity records, and bounded transfer uncertainty. The `OutcomeModel` relates each finite option to the declared result and resource vectors over the two-year horizon. |
+| shared comparison basis | Safety, comfort, and rollback are hard guardrails. The `BeliefState` contains the observed four-component coupling, manual rig rewiring, service errors, current family/effectivity records, and bounded transfer uncertainty. The `OutcomeModel` uses the option estimates above to relate each finite change to the result and resource vectors over the two-year horizon. They remain estimates until subsequent Work supplies observations. |
 | probe decision value | Feasible pre-choice probes are an additional supplier-interface simulation and a rig mock-up, bounded to four weeks and one rig outage. Neither can establish the coupled interface–rig–evidence result without constructing nearly the same slice as the mixed option; their expected information value does not justify their delay and cost. |
 | `ChoiceRule` | Reject any option that violates safety, comfort, effectivity, or rollback guardrails. Among survivors, retain the non-dominated set and choose a change within budget that improves at least the next supplier replacement and evidence-reuse case while minimizing irreversible burden. Request a probe only when it can change the survivor relation enough to justify its cost. Reject the set if no option survives; reroute when the decision subject, authority, or comparison basis is missing. |
-| `ChoiceResult` | `choose_now`: make the mixed bounded change. It survives the guardrails, addresses both controller coupling and rig/evidence burden within the approved horizon, and no smaller pre-choice probe is worth its cost. The implementation request for one interface and one rig/evidence slice is a later record, not implementation or improved evolvability. |
+| `ChoiceResult` | `choose_now`: make the mixed bounded change. Under the stated comparison premises, it meets the present supplier-change and evidence-reuse objective with less irreversible burden than the other qualifying change, the builder-only option. No smaller pre-choice probe is worth its cost. The implementation request for one interface and one rig/evidence slice is a later record, not implementation or improved evolvability. |
 
-The controller-redesign option would replace this result if evidence showed that the rig already supports the new
-supplier. The builder-arrangement option would replace it if controller coupling proved local and stable. A cheap probe that
+Reconsider controller redesign if evidence shows that the rig already supports the new supplier, or the
+builder-only change if controller coupling proves local and stable. Compare again under the changed premise;
+either finding can alter the relative burden without selecting a replacement by itself. A cheap probe that
 could reverse the survivor relation would change the result to `probe_again`; guardrail failure by every option
 would produce `reject_current_set`; missing authority would produce a reroute that ends the current decision pass without stopping unrelated Work. These are
 the conditions for reconsidering the choice.
@@ -7385,7 +7409,10 @@ reliance on that claim. Also use it when an engineering result—for example, a 
 acceptance record, certificate, or operating observation—is being treated as proof beyond the conditions it
 actually addresses.
 
-First useful move: write five lines.
+First useful move: identify what claim the decision uses and what the present basis supports. Reuse sufficient
+evidence and its account; narrow or stop reliance where that basis does not support the proposed use. A remaining
+gap calls for a choice about further inquiry, not automatically another test. When choosing or describing a
+challenge, five short entries make its contribution recoverable:
 
 1. **Claim:** the named claim episteme and the subject, conditions, configuration, and time for which it is used.
 2. **Decision question:** the current question or contemplated decision whose answer would change if reliance changes.
@@ -7397,14 +7424,16 @@ First useful move: write five lines.
    the practitioner must reassess if the result does not support present reliance.
 
 This five-line form is a learning and presentation unfolding, not a WorkPlan or a claim about the order of
-performed Work. It is enough for the engineering-assurance plan. When challenge Work remains future, use
+performed Work. It is enough for the engineering-assurance plan. When a future challenge has been selected, use
 `A.15.2` for a separate WorkPlan: its present EntityOfConcern, effective reference scheme, horizon, and the
 smallest PlanItem that coordinates the intended Method, performer or local role condition, window, capability,
 resource, dependency, and result target. The engineering-assurance plan references that WorkPlan; the five
 lines do not constitute it. Expand the assurance plan only when the decision question depends on several evidence
 kinds, configurations, conditions, scales, or uncertainty sources. When evidence already exists, add the dated
 Work, direct result, descriptive `A.10` evidence/provenance path, current validity limit, changed reliance, and
-affected earlier answer to obtain the engineering-assurance account.
+affected earlier answer to obtain the engineering-assurance account. Reuse an existing account where it already
+supplies this content; update it where the evidence use or reliance changes. If no new challenge is selected,
+the supported answer and its limits can complete the work without a new plan or a record of waived checks.
 
 If this move is missed, checks are often chosen after an architecture or implementation is already treated as
 settled. A passed component test can then stand in for System behaviour and outside benefit; a model confidence
@@ -7435,7 +7464,7 @@ Systems Engineering decisions rely on different claims. A project-system choice 
 account. A system concept relies on proposed participation and outside effects. Architecture relies on
 functioning, selected structures, characteristics, and feasibility. A realization branch relies on transformer
 Systems, capabilities, Methods, resources, interfaces, integration, and configuration. Each claim can fail for
-a different reason and needs a different challenge.
+a different reason and may need a different challenge.
 
 Engineering sources offer many useful checks, for example observation, measurement, calculation, review, analysis,
 simulation, prototype, component test, integration test, Hardware-in-the-Loop, inspection, operational
@@ -7478,7 +7507,7 @@ A claim is *load-bearing* when the decision depends on it. The same claim may be
 and incidental for another. Name the decision question
 before selecting a challenge; a generic wish to increase confidence does not yet select assurance Work.
 
-The decision may still be contemplated. Record in the plan what result is meant to inform it. Establish any
+The decision may still be contemplated. For a selected future challenge, record in the plan what result is meant to inform it. Establish any
 later decision occurrence, choice, gate passage, permission, acceptance, or release through its direct relation
 and evidence.
 
@@ -7496,13 +7525,19 @@ contain or cite evidence and relations the practitioner can use:
   evidence window.
 
 Use only the compatible claims and cited evidence, not a neighbouring decision or authority. If the needed
-evidence already exists, recover the direct result and its descriptive `A.10` evidence/provenance path, then write
-the engineering-assurance account without creating another WorkPlan. Without a compatible current result, use a qualified direct source. If that still leaves a gap, record the
-missing result and plan the smallest challenge that can close it. Availability or a familiar result name establishes no evidence use.
+evidence already exists, recover the direct result and its descriptive `A.10` evidence/provenance path, then reuse
+or update the engineering-assurance account without creating another WorkPlan. Without a compatible current
+result, use a qualified direct source. If that still leaves a gap, state how it limits the present answer.
+Availability or a familiar result name establishes no evidence use.
 
-For a remaining evidence gap, ask: **what observable or computed result would justify keeping, narrowing,
-replacing, or stopping reliance on this claim for the decision?** Choose the smallest challenge that can answer
-that question. Examples include:
+For a remaining evidence gap, ask: **what attainable result could change reliance or make a needed use
+admissible?** Use `C.11.DUA` to compare obtaining it with proceeding on the present basis, narrowing the claim,
+deferring, or stopping. Include cost, delay, displaced work, access and applicable evidence requirements. If the
+current basis already supports the bounded answer, give that answer. If no worthwhile attainable challenge is
+available, keep the unsupported claim unresolved and identify any continuation whose premises are supplied.
+Neither outcome requires a new WorkPlan.
+
+When further inquiry is selected, choose a challenge sufficient for its stated purpose. Examples include:
 
 - a `C.16` measurement of one declared Characteristic;
 - a `C.32.ACE` evaluation over existing architecture-characteristic criteria;
@@ -7518,13 +7553,15 @@ treatment, time window, intended result form, and intended evidence use. When Wo
 local system-role-kind condition, Method, window, capability needs, resources, dependencies, and result target
 in a separate `A.15.2` WorkPlan. The engineering-assurance plan cites that WorkPlan; it is not the WorkPlan.
 
-Choose an independent or specially authorized performer only when the specialist rule governing the decision
-requires one. Establish any required independence, authority, competence, or approval separately; a job title or
-organizational boundary is insufficient.
+Apply any independence or authorization requirement governing the decision. Even without such a requirement,
+independent criticism can be useful when it exposes a consequential blind spot or conflict of interest; choose
+it by its attainable contribution and burden. Establish the performer's needed competence, authority and any
+required approval separately. A job title or organizational boundary alone establishes none of these.
 
 #### SYSE.4:4.3 - Write the engineering-assurance plan
 
-Write the first result in the five-line form from the Problem frame. The result is usable when a practitioner can
+When a future challenge is selected, describe it using the five entries from the Problem frame. Reuse a sufficient
+existing plan. The plan is usable when a practitioner can
 recover:
 
 1. one named claim and its current use conditions;
@@ -7570,7 +7607,8 @@ not widen that use.
 
 #### SYSE.4:4.5 - Update the engineering-assurance account
 
-After evidence is available, write an engineering-assurance account that names:
+After evidence is available, reuse a sufficient engineering-assurance account. Otherwise update or write the
+account so that the practitioner can recover:
 
 1. the named target claim and decision question;
 2. the actual challenge Work and its direct result;
@@ -7589,9 +7627,10 @@ must replace or withdraw the claim for this use; or available evidence leaves th
 named assurance-result claim or no-assurance disposition. The engineering-assurance account cites that result;
 it does not replace it.
 
-When the result is unresolved, identify the missing input—for example, a configuration, comparator, observation
-window, calibration, causal link, specialist criterion, or independent challenge—then plan one next Work item.
-Do not turn missing information into a negative engineering claim.
+When the result is unresolved, identify the missing input that limits this answer—for example, a configuration,
+comparator, observation window, calibration, causal link, specialist criterion, or independent challenge. Return
+to the inquiry choice in §4.2 before planning further Work. A narrower supported answer or a justified stop can
+complete the current question. Missing information establishes neither the target claim nor its negation.
 
 #### SYSE.4:4.6 - Combine evidence only for the decision question
 
@@ -7674,11 +7713,13 @@ decision under the current data, integration, staffing, and configuration condit
 whether to continue the investment and wider rollout. Installation completion and user acceptance are available,
 but neither measures the claimed production effect.
 
-The first plan names the effect claim, planning and production observations that could change the investment
-decision, the comparison basis and time window, the deployed version and data configuration, and the `SYSE.2`,
+If observation Work is selected, the plan names the effect claim, planning and production observations that could
+change the investment decision, the comparison basis and time window, the deployed version and data configuration, and the `SYSE.2`,
 architecture, `SYSE.3`, or Organization Engineering answer to reassess according to the first failed relation. If only installation and acceptance records are available, the engineer records in the
-engineering-assurance account that the effect claim remains unresolved for the investment decision and plans
-the missing observation Work. The engineer does not report that the effect is false or treat the platform,
+engineering-assurance account that the effect claim remains unresolved for the investment decision. The engineer
+compares the attainable observation with its cost, delay and the available investment choices. A worthwhile
+observation earns a WorkPlan; otherwise the present result can support a narrower commitment, deferral or stop,
+without establishing the production effect. The engineer does not report that the effect is false or treat the platform,
 organization chart, or vendor label as evidence.
 
 #### Continuing building under occupied retrofit
@@ -7709,7 +7750,7 @@ smallest answer it can change.
 | ID | Requirement |
 | --- | --- |
 | `CC-SYSE4-1` | A conforming use SHALL name one load-bearing claim episteme, its subject, conditions, configuration or version, temporal stance, and decision question. |
-| `CC-SYSE4-2` | The first result SHALL name one challenge or evidence need, its validity boundary, and the smallest earlier answer to reopen. |
+| `CC-SYSE4-2` | The first result SHALL state what the present basis supports for the decision and its limits. A selected challenge SHALL name the question it can change, its validity boundary, and the smallest earlier answer affected. Further inquiry SHALL be chosen by its attainable contribution, burden and applicable requirements; an inactive inquiry SHALL create no empty plan or waiver record. |
 | `CC-SYSE4-3` | Intended challenge Work SHALL be coordinated through a separate `A.15.2` WorkPlan; the engineering-assurance plan SHALL NOT be treated as that WorkPlan or as performed Work. |
 | `CC-SYSE4-4` | Performed challenge Work and its performer SHALL be identified through the direct Work and assignment patterns, and every measurement, evaluation, model-use, causal, test, or specialist result SHALL satisfy its own pattern. |
 | `CC-SYSE4-5` | An evidence use SHALL name the target claim, result, conditions, provenance, currentness, and bounded use through `A.10`; its descriptive path SHALL represent only independently established relations, and a carrier, result record, or graph edge SHALL NOT establish the use by presence. |
@@ -7717,14 +7758,14 @@ smallest answer it can change.
 | `CC-SYSE4-7` | Model, simulation, test, and digital-twin results SHALL retain their applicability, error, uncertainty, extrapolation, configuration, and evidence limits. |
 | `CC-SYSE4-8` | Component behaviour, containing-System performance, outside effect, causality, benefit, harm, acceptance, permission, certification, release, and decision SHALL remain separately recoverable. |
 | `CC-SYSE4-9` | The updated account SHALL state the practical change in reliance and the smallest project-focus, concept, architecture, realization, or specialist answer that the practitioner must reassess. |
-| `CC-SYSE4-10` | When evidence is missing or inapplicable, the practitioner SHALL record a named gap or next challenge rather than a negative target claim. |
+| `CC-SYSE4-10` | When evidence is missing or inapplicable, the practitioner SHALL state the gap that limits the current answer rather than assert the target claim or its negation. A next challenge is conditional on the inquiry choice in §4.2. |
 | `CC-SYSE4-11` | A conforming use SHALL allow evidence-producing Work at any relevant time and SHALL let its results revise affected engineering answers without establishing a terminal assurance stage or lifecycle order. |
 
 ### SYSE.4:8 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Working symptom | Repair |
 | --- | --- | --- |
-| Test chosen after commitment | The implementation is treated as settled before anyone asks what result could change the decision. | Name the load-bearing claim and decision question, then select the smallest challenge that could change reliance. |
+| Test chosen after commitment | The implementation is treated as settled before anyone asks what result could change the decision. | Name the load-bearing claim and decision question, recover usable evidence, and select further inquiry when its attainable contribution justifies the burden. |
 | Component pass as outside benefit | A pump, deployed software System, or material passes a bounded test and the containing System's use claim is declared proven. | Keep component, containing-System, and outside-effect claims separate and obtain evidence for the claim the decision actually uses. |
 | Assurance plan as evidence | Planned checks, booked facilities, or named results are treated as if Work and results already exist. | Keep the DPF plan, `A.15.2` WorkPlan, actual Work, result, evidence use, and account separate. |
 | Model confidence as validity | Familiarity, model history, or a confidence score replaces applicability, uncertainty, extrapolation, and physical evidence. | Recover the model-use claim and its limits; obtain another evidence line when the decision requires it. |
@@ -7743,8 +7784,8 @@ currentness, or decision boundary.
 
 The cost is explicit separation. Engineers must keep the DPF account, WorkPlan, performed Work, result,
 descriptive evidence/provenance path, assurance result, specialist verdict, and decision question distinct. This
-takes more care than one pass/fail status, but shows which answer should change. The project's overall benefit
-requires its own evidence.
+takes more care than one pass/fail status, but shows which answer should change. A claim about the project's
+overall benefit needs a basis for that claim; obtaining further evidence remains a decision under §4.2.
 
 ### SYSE.4:10 - Rationale
 
@@ -7753,8 +7794,9 @@ the project from selecting familiar tests merely because tools, standards, or or
 available. Naming the decision question makes sufficiency and effort decision-relative: the same evidence can
 be enough for a reversible exploration and inadequate for safety, legal compliance, certification, or release.
 
-The plan–account distinction keeps expected and actual evidence separate. The engineer selects a challenge and
-intended Work and records them in the plan. The account records actual Work, direct results, their bounded
+The plan–account distinction keeps expected and actual evidence separate. When a new challenge is worthwhile or
+required for the selected use, the engineer records it and its intended Work in the plan. A sufficient present
+basis can instead finish the current question. The account records actual Work, direct results, their bounded
 evidence use, and changed reliance.
 Applying that change only to the affected earlier answer makes assurance part of continuing Systems
 Engineering rather than a final checkpoint.
@@ -8030,10 +8072,15 @@ bounded implementation generation, independent review, hardware-in-the-loop tria
 and release Methods. It retains an occupied-building trial only under the stated safety, plant-state, weather,
 and release conditions. The V diagram remains an overview. The phrase *AI workflow Method* remains unresolved.
 
-Scarce bench capacity is not repaired by changing the trial Method. It becomes a platform or obtaining-arrangement
-question for `SYSE.12` or `SYSE.24`. Simultaneous modeling, generation, review, trial, and assurance conflicts go
-to `SYSE.20`. Evidence of wider use, selection, retention, or loss can later inform `SYSE.21`; this project choice
-does not establish a cultural trend.
+Scarce bench time leaves several possible repairs. The team can use `OPS.11.1` to compare available time with
+already assigned work and revise allocation under the existing authority. It can also compare trial Methods
+that occupy the bench for less time while preserving the required integration result and evidence conditions.
+A shorter trial that misses the sensor-latency failure would not serve the present use. New bench provision or a
+different way of obtaining the result belongs to `SYSE.12` or `SYSE.24` when that contribution is needed. None of
+these options is selected merely by observing scarcity.
+
+Simultaneous modeling, generation, review, trial, and assurance conflicts go to `SYSE.20`. Evidence of wider use,
+selection, retention, or loss can later inform `SYSE.21`; this project choice does not establish a cultural trend.
 
 **When the full pattern is unnecessary.** If one identified Method already supplies a well-understood result for
 the same System and conditions, and no interaction, specialization, capability, provider, or currentness question
@@ -8858,11 +8905,11 @@ A disagreement about the whole obtaining arrangement—local provision, a shared
 
 #### SYSE.25:4.4 - Select the smallest action that can change the decision
 
-Choose a bounded repair when evidence already distinguishes it and its conditions can be met. Choose a probe when an unknown could reverse the choice. Specify what the probe will hold comparable, what it observes, and how either outcome changes the next action.
+Choose a bounded repair when evidence already distinguishes it and its conditions can be met. Choose a probe when its attainable result could change the choice enough to justify its cost and delay; use C.11.DUA when that comparison is unresolved. Specify what the probe will hold comparable, what it observes, and how its possible outcomes change the next action.
 
 Do not conceal a tie with an arbitrary score. A useful probe can be a representative attempt, a comparison of two repaired interactions, or an exercise of one costly failure. It does not need to be a deployment to every user. Keep the chosen next result and its permission with the actual decision holder.
 
-Stop with a missing-premise return when neither a justified action nor an informative permitted probe is available. Continue independent work whose premises are already supplied.
+Stop with a missing-premise return when neither a justified action nor a worthwhile permitted probe is available. Continue independent work whose premises are already supplied.
 
 #### SYSE.25:4.5 - Revisit the choice from actual use
 
@@ -10788,7 +10835,7 @@ SYSE.26 identifies the supported user result. SYSE.36 and SYSE.37 provide matchi
 
 Use this pattern when a recurring manual or interrupt-driven platform activity grows with demand but produces little enduring improvement. Start with one recognizable activity and the user result it supports, then recover who repeatedly spends effort and why.
 
-The first result is one bounded intervention and a way to compare total burden after use. It may remove a cause, simplify the task, change the product or automate a qualified operation. It is not necessarily a new script.
+The first result is a justified choice about the recurring activity. Retain the current method when a change does not earn its full cost. A selected intervention may remove a cause, simplify the task, change the product or automate a qualified operation; state how its total burden will be compared after use.
 
 Do not classify all disliked work as avoidable repetition. Novel engineering, necessary human judgment, a real learning need and unavoidable physical work may deserve different treatment. If a current failure is harming users, restore the affected task through SYSE.38 before treating the episode only as an improvement opportunity.
 
@@ -10829,13 +10876,13 @@ If the activity no longer serves an accepted need, consider ending it with the a
 
 Compare retaining the current method, simplifying the task, removing the cause, improving the supported interaction, and automating the qualified operation. Use SYSE.25 when this intervention competes with other platform improvements; use SYSE.24 only when the question concerns whole ways of obtaining the result.
 
-Keep the user result and conditions comparable. Include construction, maintenance, exceptions, support, failure handling and work transferred to users or other providers over a stated horizon. If the evidence does not discriminate the options, retain the tie and choose a useful bounded probe.
+Keep the user result and conditions comparable. Include construction, maintenance, exceptions, support, failure handling and work transferred to users or other providers over a stated horizon. If the evidence does not discriminate the options, retain the unresolved comparison. Choose a bounded probe when its attainable result can improve the choice enough to justify its full cost and delay; use C.11.DUA when that judgement is unresolved. Otherwise give the present bounded answer and continue only work whose conditions are already supplied.
 
 Use effort arithmetic where the units are comparable, but keep reliability, risk, waiting and lost opportunities visible rather than forcing every consequence into one score. A low-frequency task can reasonably remain manual when automation would add more total burden.
 
 #### SYSE.39:4.4 - Construct one bounded intervention
 
-Choose the smallest change that can test the proposed gain without losing the required result. For an interface change, SYSE.26 or SYSE.27 supplies the supported-use and compatibility work. For automation, define the actual input, permitted operation, result and failure/exception behavior.
+When an intervention is selected, construct the smallest change that can test the proposed gain without losing the required result. Retaining the current method or an unresolved comparison creates no intervention or trial requirement. For an interface change, SYSE.26 or SYSE.27 supplies the supported-use and compatibility work. For automation, define the actual input, permitted operation, result and failure/exception behavior.
 
 Retain necessary judgment and authority. Retrieving an already authorized result is different from granting new access or accepting a nonconforming product. An automated wrapper cannot supply a missing decision Method or appointment.
 
@@ -11919,6 +11966,10 @@ to obtain the bounded subject/account distinctions, and
 *OPS.4 - Maintain Shared Attention to Current Subject State*
 for a participant-usable current account with evidence, uncertainty, permissions and next decisions.
 A record or shared display does not establish the underlying subject or the truth of its visible state.
+
+For the resource comparison in SYSE.15, use OPS.11.1 to construct the relevant operating account, reconcile
+shared resources and existing assignments, and compare allocation alternatives. This can change the use of
+bench time without redesigning who may request, promise or accept the work.
 
 Use equivalent current local content when it already suffices; no repeated application of a neighbouring
 pattern is then required. Before relying on either return, check the supplying source's availability and
