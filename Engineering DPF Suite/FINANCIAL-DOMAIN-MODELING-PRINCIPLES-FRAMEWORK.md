@@ -85,6 +85,8 @@ FDM.3 uses adequate parties and terms to derive contractual events. A schedule d
 
 FDM.5 follows a service output through its use to the participant's intended financial result. It requests a position or effect model when that connection is unclear. Conversely, an accurately modeled financial change can raise the question of whose result it serves. These connections select the next needed result; they do not require all five methods for every use.
 
+There is also a connection within the modeler's present work. While interpreting a payment under contractual terms, the modeler can be deriving a remaining obligation and thereby constructing an account of the borrower's position. Use [B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work][EW] when it is unclear how the present operation performs the encompassing work or which capability is missing. FDM.4:5.2 shows why correct subtraction can leave that work undone. A banking transfer being modeled is a separate occurrence, even when the modeler observes it while working.
+
 ## FDM.Preface:3 - Connect models by the financial question
 
 Suppose a lending model stores “loan amount = 100” for the principal, while a payment model requires the amount payable at maturity. Equal-looking field names do not establish an adequate correspondence.
@@ -112,7 +114,7 @@ A founder-group account, legal-entity account and portfolio-risk account can all
 
 Keep each grouping's criterion and use explicit. Before summing balances, preserve the parties, dates, currencies, restrictions and any relation needed for the intended aggregate. A single organizational tree can be adequate for one report and inadequate for another question. [SIE.5–6][SIE] supply unresolved identity and composition work.
 
-The same discipline applies within a loan. The lender's right, the borrower's duty, a bank-account record, usable proceeds and equipment acquired with those proceeds are different subjects. Their relationships explain the financial service. Renaming them all “information” would lose the effect the practitioner is trying to understand.
+The same discipline applies within a loan. The lender's right, the borrower's duty, a bank-account record, usable proceeds and equipment acquired with those proceeds are different subjects. Their relationships explain the financial service.
 
 ## FDM.Preface:5 - Practical gain, cost and evidence
 
@@ -124,9 +126,7 @@ Recognition and assurance have different jobs. A score presented as a benefit or
 
 ## FDM.Preface:6 - Source choices and alternatives
 
-The finance seminar of 16 May 2026 supplies the score-and-loan difficulty at approximately 82–97 minutes, the client-admission discussion at 133–159 minutes and the differing fund boundaries at 160–167 minutes. Their useful contribution is to follow a description or tool toward the participant and financial relation it can affect.
-
-The source's emphasis on grounding needs qualification. A tool supplier can properly deliver information while another participant makes the decision. An authorized automated arrangement can act without a mandatory intermediate change in a human's expectation. A duty or permission is an actual institutional relation under its applicable conditions, distinguishable from descriptions of it. More client admissions are not by themselves a better outcome: suitability, legitimate refusal, participant objectives and the governing conditions can change that conclusion.
+The score-and-loan and group-funding cases join two questions: which financial relation a description concerns, and what using the description can change for a participant. A tool supplier can properly deliver information while another participant makes the decision. An authorized automated arrangement can act without a mandatory intermediate change in a human's expectation. A duty or permission is an actual institutional relation under its applicable conditions, distinguishable from descriptions of it. More client admissions are not by themselves a better outcome: suitability, legitimate refusal, participant objectives and the governing conditions can change that conclusion.
 
 [A.2.8][DUTY], [A.2.8.PER][PER] and [A.2.9][ACT] supply the respective duty, permission and communicative-work distinctions. ADM supplies the applied administrative questions. These sources retain results that a vocabulary-only financial model could erase.
 
@@ -248,7 +248,7 @@ A dictionary-only account is sufficient when the issue is a shared term and the 
 
 ### FDM.1:11 - SoTA-Echoing
 
-The practice question is how to give a financial record a warranted interpretation. The selected line adapts the seminar's loan and description examples through FPF's distinction between an actual institutional relation and claims about it. This changes §§4.2–4.3: establish the applicable relation and then connect the descriptions and resources.
+The practice question is how to give a financial record a warranted interpretation. The method uses FPF's distinction between an actual institutional relation and claims about it to interpret financial records. This changes §§4.2–4.3: establish the applicable relation and then connect the descriptions and resources.
 
 FIBO is useful for financial concepts and relations that a local label obscures. It supplies reusable meaning rather than evidence that this particular party has this particular right. At the effort of clarifying one disputed label, a position account can expose a missing formation or time premise that a field renaming would retain.
 
@@ -378,11 +378,11 @@ A single reporting tree is adequate when its rule and the receiving use match. S
 
 ### FDM.2:11 - SoTA-Echoing
 
-The practice question is which party and group account makes a financial consequence intelligible. The selected line adapts the seminar's two-fund case, around 160–167 minutes. For financial groupings, it adapts C.32.MWA's idea that several useful structures need not coincide. SIE.5–6 supply identity and composition methods.
+The practice question is which party and group account makes a financial consequence intelligible. For financial groupings, the method adapts C.32.MWA's idea that several useful structures need not coincide. SIE.5–6 supply identity and composition methods.
 
 This changes §§4.1–4.4: choose the boundary by the consequence, retain the members' positions and examine support separately. At the effort of naming the debtor and the support relation, it can expose a payment shortfall that a founder-group total hides. A larger organizational model is useful only when another material relation needs it.
 
-The seminar establishes the reported modeling difficulty; the X–Y arithmetic is a constructed application. Reopen the boundary when actual membership, support terms, restrictions or the receiving financial question changes.
+The X–Y example demonstrates the difference between grouping entities and establishing support under its supplied conditions. Reopen the boundary when actual membership, support terms, restrictions or the receiving financial question changes.
 
 ### FDM.2:12 - Relations
 
@@ -522,13 +522,13 @@ The practice question is how to turn financial terms into inspectable event beha
 
 At comparable first-case effort, deriving two qualified event rows is more useful than mapping an unexplained “loan amount” into a cash-flow field. An executable model is preferable when the relevant branching and repeated calculations justify its cost.
 
-FDM.4 and the seminar's loan discussion supply the separate actual-effect question. Reopen the event model when terms, initial state, event ordering or a material scenario assumption changes.
+FDM.4 supplies the separate actual-effect question. Reopen the event model when terms, initial state, event ordering or a material scenario assumption changes.
 
 ### FDM.3:12 - Relations
 
 FDM.1–2 supply adequate positions and party boundaries. FDM.4 establishes actual events and their effects; FDM.5 uses the flows relevant to a participant's service result.
 
-SIE.3–6 supply general model construction and connection. Management Accounting receives the flows needed for its accounts and forecasts. The responsible financial practice supplies any additional valuation or choice method.
+SIE.3–6 supply general model construction and connection. [Management Accounting, MA.4][MA4] reconciles operating, reporting and cash accounts; [MA.5][MA5] uses the relevant conditional flows in its forecast. The responsible financial practice supplies any additional valuation or choice method.
 
 ### FDM.3:End
 
@@ -588,6 +588,8 @@ If sources disagree, first compare their subjects, dates and meanings. Then inve
 
 Apply the recovered rule to the established occurrence. State what changed and when. For a partial payment, use the applicable allocation rule to determine which amounts are satisfied and what remains. Preserve other interest, fees or conditions only where the actual arrangement requires them.
 
+Keep the calculation answerable to that interpretation. If you can perform the arithmetic but cannot explain how it establishes the financial position, use [B.1.5.EW][EW] to locate the missing operation in the encompassing work. An unresolved contractual interpretation may need a qualified colleague's contribution; a computational correction addresses a different failure.
+
 When the evidence establishes that the required event did not occur, return the supported non-change for that effect. When the rule or occurrence is unresolved, return the exact missing premise. An unresolved result is not proof of either performance or failure.
 
 Relate the records to the resulting position. A necessary correction belongs in the appropriate account through its responsible process; do not silently rewrite history to make sources appear consistent. Use [ADM.4][ADM] when the participants' accounts require a broader comparison.
@@ -600,6 +602,8 @@ FDM.3 uses the resulting state for later events. FDM.5 uses the effect when exam
 
 ### FDM.4:5 - Archetypal Grounding
 
+#### FDM.4:5.1 - A payment, an instruction and a modification
+
 In the constructed loan, 105 is due on day 30. Adequate evidence establishes a payment of 60 by the borrower to the lender. The supplied application rule applies all 60 to that due amount; there are no additional fees or interest. The resulting unpaid amount is **45**.
 
 A servicing report still showing 105 unpaid disagrees with that established effect. The model returns the 45 position and the report discrepancy. It retains the original 105 contractual schedule and the actual 60 payment as distinct statements, rather than editing either into the other.
@@ -609,6 +613,14 @@ Now suppose the available evidence instead establishes only that the borrower se
 A separate pre-funding example has different effect conditions. A valid modification, made by the competent parties under supplied terms, changes a lender's conditional advance obligation before any money moves. The model follows that rule and its actual occurrence. It does not wait for disbursement to recognize every change.
 
 These examples demonstrate reasoning under their supplied premises. Another instrument's payment-allocation, formation or modification rule can produce a different result.
+
+#### FDM.4:5.2 - Deriving the position through an interpreted calculation
+
+Consider a variant in which receipt of 60 is established, but the supplied terms classify it as refundable cash collateral. The terms leave the borrower's loan obligation of 105 unchanged. Subtracting 60 from 105 still produces 45 arithmetically, but does not describe the remaining loan obligation under these terms. The account instead retains the obligation of **105** and the separate collateral position.
+
+While applying the contractual classification, the modeler is deriving the financial effect and constructing the position account. What the larger account must explain determines what the local calculation may claim. The earlier repayment example permits the subtraction; this collateral example does not. The banking receipt supplies an occurrence to interpret, rather than becoming part of the modeler's act of interpretation.
+
+Someone who can calculate but cannot interpret the collateral terms needs to learn to interpret them or obtain an adequate interpretation from an appropriate specialist. Once the interpretation is adequate, the account can proceed without a fresh investigation of the already established receipt. If the terms later provide that collateral is applied to the debt, establish the event and effect under that changed condition before updating the obligation.
 
 ### FDM.4:6 - Bias-Annotation
 
@@ -651,11 +663,11 @@ A transaction log is sufficient when it already supplies adequate evidence for a
 
 ### FDM.4:11 - SoTA-Echoing
 
-The practice question is how to distinguish an actual financial effect from a decision, message or record. The selected line applies FPF's duty, permission and communicative-work distinctions to the seminar's loan and client-admission cases, with ADM.3 and ADM.9–10 supplying effectivity, usable provision and fulfillment questions.
+The practice question is how to distinguish an actual financial effect from a decision, message or record. The method applies FPF's duty, permission and communicative-work distinctions to financial actions, with ADM.3 and ADM.9–10 supplying effectivity, usable provision and fulfillment questions.
 
 This changes §§4.2–4.4: recover the effect rule, establish the occurrence and derive the remaining position. At the effort of examining one completion claim, it can distinguish “60 instructed” from “60 paid”, which a status-only reading conflates. More extensive investigation is justified when the unresolved premise changes the receiving use.
 
-The source cases motivate the distinction; actual local rules and event evidence govern an actual result. Reopen the account when either changes or when a later use requires a broader effect claim.
+Actual local rules and event evidence govern an actual result. Reopen the account when either changes or when a later use requires a broader effect claim.
 
 ### FDM.4:12 - Relations
 
@@ -786,11 +798,11 @@ A technical output specification is sufficient for a settled supplier interface.
 
 ### FDM.5:11 - SoTA-Echoing
 
-The practice question is how to relate a financial tool or service to a participant's useful result. The selected line adapts the seminar's scoring and client-admission cases, especially 82–97 and 133–159 minutes. It retains their instruction to find the actual receiver and effect while rejecting a universal human-expectation stage and an automatic goal of maximizing admissions.
+The practice question is how to relate a financial tool or service to a participant's useful result. The method follows the actual receiver and effect of a service output. An automated arrangement can act on a score, and a warranted refusal can serve the participant's objective better than admission; the model therefore follows the particular decision and result.
 
 This changes §§4.1–4.4: distinguish the supplier's output, the receiving decision and the participant's financial consequence, then examine the alternative that could defeat the claimed contribution. At the effort of one connected use account, it can expose an unused score that an accuracy report misses. A wider outcome study becomes useful when the stronger benefit claim could change a decision.
 
-The seminar supplies conceptual cases and reported practice difficulties. FDM.1–4, ADM and the relevant decision practice supply the distinctions used to qualify them. Reopen the contribution account when the receiver, decision arrangement, financial terms or intended result changes.
+FDM.1–4, ADM and the relevant decision practice supply the distinctions used in this account. Reopen the contribution account when the receiver, decision arrangement, financial terms or intended result changes.
 
 ### FDM.5:12 - Relations
 
@@ -810,7 +822,7 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 
 ## Source locators
 
-- Finance seminar, 16 May 2026: the scoring discussion at approximately 82–97 minutes, client admission and tool/decision roles at 133–159 minutes, and entity/founder-group fund accounts at 160–167 minutes. The pattern and Preface explanations state the adopted distinctions and qualifications.
+
 - [FIBO, EDM Council][FIBO]: reusable financial concepts and their relations.
 - [ACTUS technical-specification entry][ACTUS]: the contribution of contractual event logic.
 - FPF A.2.8, A.2.8.PER and A.2.9: actual duty, permission and communicative-work distinctions.
@@ -818,10 +830,13 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 - [Organization Administration][ADM], ADM.2–4 and ADM.7–10: applied participant, effectivity, account, evidence, permission, provision and fulfillment questions.
 
 [SIE]: SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md
+[MA4]: MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma4---reconcile-operating-reporting-and-cash-accounts
+[MA5]: MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast
+[EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [ADM]: ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md
 [DUTY]: ../FPF-Spec.md#a28---ucommitment-deontic-commitment-relation
 [PER]: ../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition
-[ACT]: ../FPF-Spec.md#a29-uspeechact-communicative-work-kind-occurrences-and-records
+[ACT]: ../FPF-Spec.md#a29--uspeechact-communicative-work-kind-occurrences-and-records
 [MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
 [FIBO]: https://spec.edmcouncil.org/fibo/index.html
 [ACTUS]: https://www.actusfrf.org/techspecs

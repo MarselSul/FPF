@@ -60,7 +60,7 @@ The calculations below are constructed cases under supplied operating, contractu
 - **Start with:** [MA.4 - Reconcile Operating, Reporting and Cash Accounts](#ma4---reconcile-operating-reporting-and-cash-accounts). Use [MA.9 - Examine the Behavioral Effects of an Account](#ma9---examine-the-behavioral-effects-of-an-account) directly when the monetary meanings are adequate and the unresolved question concerns behavior.
 - **Stop or return:** A sufficient reconciliation can finish the request. A funding decision needs the whole timed cash position; changing rewards or authority needs the responsible organizational decision.
 
-1. **Put the views on their actual event and policy bases.** MA.4's case starts with no opening balances or other transactions. Producing 100 units costs 200 in materials and 300 in resource supply, all paid; sixty units sell for 600, of which 400 is received and 200 remains receivable. Under the supplied full-production-cost policy, cost of sales is 300, closing inventory 200 and the reported result 300. Cash movement is −100.
+1. **Put the views on their actual event and policy bases.** MA.4's case starts with zero inventory, receivables and payables and includes only the transactions described below. Producing 100 units costs 200 in materials and 300 in resource supply, all paid; sixty units sell for 600, of which 400 is received and 200 remains receivable. Under the supplied full-production-cost policy, cost of sales is 300, closing inventory 200 and the reported result 300. Cash movement is −100.
 2. **Carry the reconciliation to its user.** The internal account values inventory at materials only and expenses the 300 resource-supply payment, giving a result of 180 and inventory of eighty. Thus 300 − 200 inventory − 200 receivables and 180 − 80 inventory − 200 receivables both give −100. The 120 difference between results is retained production-resource cost, not another receipt. Preserve each view for its warranted use. If an event or policy is unresolved, obtain that answer from OPS.15 or the responsible reporting practice.
 3. **Use the explanation to examine a consequential choice.** Suppose management considers producing 120 units with the same 300 resource payment and unchanged sales of sixty. MA.9 compares the account and the resulting resource use: unit cost falls from five to 4.5, but materials consume forty more in cash and unsold quantity rises from forty to sixty. This establishes the divergence the measure conceals. Whether an actual production increase followed that incentive, anticipated demand or another reason remains a separate question.
 4. **Repair only the supported problem and return changed conditions.** If the account's use is the established problem, the responsible manager can stop treating lower unit cost alone as improved performance and consider demand, inventory and resource consequences together. Preserve the legitimate reporting account. Evidence of a warranted future requirement could instead support the extra production. A changed measurement or allocation basis returns to MA.4 or MA.3 before a performance comparison; [MA.7 - Explain a Cost or Margin Difference](#ma7---explain-a-cost-or-margin-difference) uses comparable meanings to separate the consequential difference from its still-unresolved cause.
@@ -97,6 +97,8 @@ MA.2 and MA.3 are independent entries when capacity or shared assignment is the 
 MA.5 uses adequate demand, resource and monetary relationships to forecast the relevant outlook. MA.6 preserves its distinction from targets and resource decisions. MA.7 explains a difference without treating arithmetic decomposition as causal evidence. MA.8 extends the account through customer or product time, and MA.9 examines what an account's actual use encourages people to do.
 
 These methods can be used in different combinations. An established model can feed a forecast directly. A surprising variance can lead to a revised dependency or reveal a changed allocation. A harmful unit-cost target can require changing its use while keeping the report needed for another purpose. Enter the unresolved question and stop when the receiving use has an adequate result.
+
+The accountant also performs work at several scopes at once. While calculating rig occupation, they can be deriving the order's resource demand and thereby constructing its resource account. The account's purpose determines what the calculation must include. Use [B.1.5.EW — Recover How Constituent Actions Enact Encompassing Work][EW] when you cannot yet explain such a connection or locate the capability needed to perform it. MA.1:5.3 shows how an error between those scopes survives correct arithmetic. Reuse a connection you already understand.
 
 ## MA.Preface:3 - A model that changes the next decision
 
@@ -188,6 +190,8 @@ Other resources can require a table, interval, threshold or conditional rule. A 
 
 Establish the reason for the relationship. Engineering knowledge, applicable terms and observations of the process can support different parts of it. Mark an estimate as an estimate and retain the assumption that makes it usable. An observed association between order value and staff expense may help prediction; it does not establish that an extra currency unit of sales consumes a particular staff quantity. When that distinction changes the decision, investigate the mechanism or return the missing dependency.
 
+If the calculation is familiar but you cannot relate its quantities to the account being constructed, use [B.1.5.EW][EW] to locate the missing modeling operation. Obtain that contribution or learn to perform it before relying on the calculation. Greater arithmetic precision does not recover an omitted resource dependency.
+
 #### MA.1:4.3 - Keep resource quantities and supplied capacity distinct
 
 A rig-hour, a qualified staff-hour and an elapsed hour measure different things. Recover what each resource must actually provide. Check that an estimate of machine occupation has not silently become an estimate of staff attendance.
@@ -261,6 +265,16 @@ The setup interval is sufficient for the one-block question: 26–29 hours alway
 A repair method reduces salaried technician attendance from six hours to four for one job. The two released hours become usable capability if the schedule and qualification allow their use. Pay this week remains unchanged.
 
 The model returns the two-hour reduction and the unchanged payment. If another valuable job can use the released time, OPS.14 can compare the resulting options. If no work is displaced and no payment changes, the model provides no current cash saving. For a later staffing question, construct the relevant demand and supply relationship over that later horizon.
+
+#### MA.1:5.3 - Correct arithmetic in an incomplete resource account
+
+Return to the test order with a nine-hour setup. Suppose obtaining 100 accepted units now requires 20 additional unsuccessful attempts. Each of the 120 attempts occupies the rig for 0.2 hours, and there is no extra setup. Counting only accepted units gives 9 + 100 × 0.2 = 29 hours; retaining every attempt gives **9 + 120 × 0.2 = 33 hours**. The supplied 30 hours are insufficient. The supplier's charge also rises from 100 to 120 under its per-attempt rule. A revised payment comparison must retain this change as well as the unresolved capacity.
+
+While doing that multiplication, the accountant is deriving rig demand and constructing the order's resource account. The accepted-output requirement governs which attempts must enter the calculation. A colleague may supply the process relationship when the accountant cannot establish it; the accountant still needs to understand how that contribution affects the model. Repeating multiplication exercises would not supply the missing relationship.
+
+The observed production attempts belong to the work being modeled. They are not constituent acts of the accountant's model construction. Likewise, using one calculation to construct an account does not create additional rig occupation or additional hours of accounting work for each description of it.
+
+Return the changed demand to the operating comparison. [OPS.11.1][OPS] can recover the routing, shared-resource and completion conditions when a different operating arrangement is needed. Recalculating existing assignments or changing an authorized allocation is an operating question. [OCE][OCE] becomes relevant if the proposed repair changes who may commit resources or other organizational arrangements.
 
 ### MA.1:6 - Bias-Annotation
 
@@ -429,7 +443,7 @@ The accounting method explains quantities and money while OPS decides the operat
 
 The selected line combines resource-based managerial costing with the distinction between productive, protective and excess capacity discussed in Tendon and Doiron's *Tame your Work Flow* (2020), chapter 7. It adapts the distinction to the actual operating account: the reason for reserve must be established, and elapsed flow time alone does not identify a constrained resource.
 
-In the historical fixture example in Caspari and Caspari's *Management Dynamics* (2004), shortening work at one station does not reduce wages; under high demand, the extra time at the constrained station reduces output. These contributions inform §§4.2–4.3 and the released-hours example.
+In the historical fixture example in Caspari and Caspari's *Management Dynamics* (2004), a fixture transfers work between stations: it saves five minutes per unit at one station but adds two at the station that limits production. Total processing time falls from 55 to 52 minutes, while wages remain unchanged. When demand uses the limiting station's capacity, increasing its work from 25 to 27 minutes per unit reduces possible output. These contributions inform §§4.2–4.3 and the released-hours example.
 
 At the effort of reconciling one resource pool, this account exposes distinctions a utilization percentage hides. More detailed tracking is worthwhile when a capability or time boundary changes the decision. Reopen the account when those conditions or the supply terms change.
 
@@ -609,7 +623,7 @@ Supply the required monetary basis to the receiving operating or financial metho
 
 ### MA.4:5 - Archetypal Grounding
 
-A constructed service-manufacturing account has no opening balances or other transactions. During the period it produces 100 units, spending 200 on materials and 300 on production-resource supply. All 500 is paid in the period. It sells 60 units at 10, recognizes revenue of 600 under the supplied policy and receives 400; the remaining 200 is receivable.
+A constructed service-manufacturing account starts with zero inventory, receivables and payables and includes only the transactions described below. During the period it produces 100 units, spending 200 on materials and 300 on production-resource supply. All 500 is paid in the period. It sells 60 units at 10, recognizes revenue of 600 under the supplied policy and receives 400; the remaining 200 is receivable.
 
 Under the example's supplied full-production-cost policy, eligible cost is 500, or 5 per unit. Cost of the 60 units sold is 300, closing inventory is 200 and the reported result is **600 − 300 = 300**. The cash movement is **400 − 500 = −100**.
 
@@ -1117,7 +1131,7 @@ Before month 2, the original acquisition payment is already spent. Count the ori
 
 Suppose a proposed new cohort costs 35 per customer to acquire, contributes only 6 per active customer per month and has a supplied 60% monthly renewal scenario. Its corresponding three-month service flow is **600 + 360 + 216 = 1,176** against **3,500** acquisition, leaving **−2,324** on the same limited basis. Copying the earlier cohort's ratio would conceal the changed expansion conditions.
 
-A product can require a different model. Suppose an already sold product carries a supplied obligation to provide a service module in year 2 at an expected resource cost of 400. Include that later requirement even if current unit margin omits it. Stopping new sales does not by itself cancel the supplied obligation; FDM establishes disputed terms or effects.
+A product can require a different model. Suppose an already sold product carries a supplied obligation to provide a service module in year 2 at an expected resource cost of 400. Include that later requirement even if current unit margin omits it. Stopping new sales does not by itself cancel the supplied obligation. Use [Financial Domain Modeling (FDM), FDM.1 and FDM.3][FDM] to recover an unclear obligation or its required events, and FDM.4 to establish what an actual change did to it.
 
 ### MA.8:6 - Bias-Annotation
 
@@ -1163,7 +1177,7 @@ At the effort of a three-period table, the pattern exposes unrecovered acquisiti
 
 ### MA.8:12 - Relations
 
-MA.1–4 supply resource and account meanings, MA.5 the conditional outlook and MA.7 explanations of observed differences. FDM supplies a missing financial position, obligation or flow model. OPS.14 and the relevant financial practice consume the future consequences for their comparisons and valuations.
+MA.1–4 supply resource and account meanings, MA.5 the conditional outlook and MA.7 explanations of observed differences. [Financial Domain Modeling (FDM)][FDM] supplies a missing financial position or obligation through FDM.1 and a contractual event or conditional-flow model through FDM.3; FDM.4 establishes the effect of an actual event. OPS.14 and the relevant financial practice consume the future consequences for their comparisons and valuations.
 
 ### MA.8:End
 
@@ -1302,9 +1316,11 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 - Peter S. Fader and Bruce G. S. Hardie, [What's Wrong With This CLV Formula?][CLV] (2014), and Fader, Hardie, Liu, Davin and Steenburgh, [How to Project Customer Retention Revisited: The Role of Duration Dependence][RETENTION] (preprint page updated 2018): the bounded population, horizon and retention qualifications in MA.8.
 
 [OPS]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md
+[FDM]: FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md
+[EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [IMA2019]: https://prodcm.imanet.org/-/media/IMA/Files/Home/Insights-and-Trends/Thought-Leadership/Strategic-Cost-Management/Developing-an-Effective-MC-Model_SMA.ashx
 [DUA]: ../FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands
-[MEAS]: ../FPF-Spec.md#c16---measurement-metrics-characterization-mmchr
+[MEAS]: ../FPF-Spec.md#c16---measurement--metrics-characterization-mmchr
 [IAS2]: https://www.ifrs.org/issued-standards/list-of-standards/ias-2-inventories/
 [BB]: https://bbrt.org/wp-content/uploads/bb_principles.pdf
 [OCE]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
