@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 19 September 2026
+- **Version:** 20 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -341,7 +341,7 @@ Choose the question you need to answer, then open the linked method and check it
 | How do we turn financial analysis into usable advice? | [FIN.16 - Prepare a Finance Recommendation and Return It for a Decision](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin16---prepare-a-finance-recommendation-and-return-it-for-a-decision) | A recommended financial move with its reasons, assumptions and conditions. |
 | What must be updated after a financial premise changes? | [FIN.17 - Refresh Financial Models and Data](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin17---refresh-financial-models-and-data) | The affected model, projection or conclusion updated for its use, or a supported decision to leave it unchanged. |
 | Should we retain or change the method used for this financial question? | [FIN.18 - Develop and Refresh Corporate-Finance Methods](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin18---develop-and-refresh-corporate-finance-methods) | A choice among method variants based on the financial result they can improve and the effort required. |
-| How do we reconcile conflicting investment, financing and treasury commitments? | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | A comparison of ways to organize the work and resolve the conflicting commitments. |
+| How do we reconcile conflicting investment, financing and treasury commitments? | [FIN.19 - Reconcile Simultaneous Corporate-Finance Work Across Claims and Horizons](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin19---reconcile-simultaneous-corporate-finance-work-across-claims-and-horizons) | A shared account of cash and commitments, or a comparison of needed changes to the work arrangement. |
 | How can useful financial practices continue or harmful routines change? | [FIN.20 - Deliberately Continue and Change Corporate-Finance Culture](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin20---deliberately-continue-and-change-corporate-finance-culture) | A continuation or change decision informed by how the practice is learned, selected and retained. |
 
 For questions about costs or operating accounts, use the [management-accounting questions](#explain-resource-use-costs-and-operating-accounts). For the parties, rights or contractual flows behind a financial result, use the [financial-modeling questions](#model-financial-positions-and-effects).
@@ -744,8 +744,7 @@ Finish the lookup when you have an answer usable for the current decision, or a 
 
 ```text
 Levenchuk, Anatoly. Engineering DPF Suite Reference.
-19 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
-Add the section title when citing a worked answer. For an applied method, also cite its DPF, PatternID, title and publication date. Retain a permanent link or copy when the exact wording matters.
+Add the version shown above and the section title when citing a worked answer. For an applied method, also cite its DPF, PatternID, title and publication date. Retain a permanent link or copy when the exact wording matters.
