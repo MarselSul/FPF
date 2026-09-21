@@ -494,7 +494,7 @@ Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, th
 
 The entries below are examples, not a catalogue or a boundary around FPF, a DPF, or an LPF. Bring the actual difficulty from your project. If no example fits, search the Table of Contents or ask an assisting agent to compare a small plausible set of direct patterns. These pattern languages can help with many more questions than a short Readme can show.
 
-The ordinary examples show difficulties that one direct pattern use can usually answer. They need no mantra. The Practical-Use Cards show another use: a difficult question whose answer normally draws on several pattern contributions. Their mantras show in compact form how that answer unfolds through those contributions, without turning the unfolding into a fixed workflow.
+The ordinary examples start with one direct pattern and retain any conditions for a later use. They can stop at the first useful result without a mantra. The Practical-Use Cards show another use: a difficult question whose answer normally draws on several pattern contributions. Their mantras show in compact form how that answer unfolds through those contributions, without turning the unfolding into a fixed workflow.
 
 ### LIVE-WORK-STEERING — Choose the next action while Work is changing
 
@@ -570,6 +570,52 @@ The ordinary examples show difficulties that one direct pattern use can usually 
 
 When the direct pattern is already known, open it rather than forcing the question into an example: `E.11.PFP` for framework publication, `E.11.DSG` for the DPF Suite Reference when a question spans several DPFs, `A.15.6` when *project*, *process*, or *case* hides the subject, `A.1.1` for model-use organization, `C.22.PFR` for an actual-problem claim, and `A.6.REL` for an obtaining relation. These are locators, not more selectable examples.
 
+### WORK-OPPORTUNITY — Find a useful continuation before proposing change
+
+- **Situation:** Work meets its present requirements, or you have useful material but no settled question about what to change.
+- **Question:** What result could matter here, and is finding or proposing another way worth the work it creates?
+- **First useful result or blocker:** A supported local possibility, a question worth resolving, an exact missing contribution, or continuation of the present work.
+- **Start with:** Use [C.40](#fpf-pattern-C.40) for material whose useful result is still open; [C.39](#fpf-pattern-C.39) when the result is known but its obtaining way is missing; [C.11.DUA](#fpf-pattern-C.11.DUA) when a proposed change needs a value-and-burden judgement. Use adequate domain reasoning directly.
+- **Stop or return:** Stop at that first result, including no worthwhile advice. Reopen only the conclusion whose conditions change; existing obligations remain in force.
+
+Start with a bounded piece of available work: for example, replay an order queue using its durations and delivery conditions, or compare how two recipients use the same result. Try a supported variation of an operation, order, contribution or use; say which consequence it could change. A different word or an unusual observation is a lead, not a diagnosis. If the needed way is absent, construct and explain a local operation or identify its exact missing basis.
+
+Before proposing that variation, distinguish the larger work performed through the action from later work that uses its result. Use [B.1.5.EW](#fpf-pattern-B.1.5.EW) to recover unclear connections between the action, its constituents and the larger work, and [B.1.5.RS](#fpf-pattern-B.1.5.RS) when replacing the action can affect another use. Follow a later result handover separately when it can change the proposal. Stop following the connections when further detail cannot change this continuation on the available basis.
+
+Compare with continuing as at present. Thinking, obtaining evidence, explaining the advice, deciding and making the change can burden different people and resources. Include already committed work and other proposed changes in the same interval: two worthwhile changes can exceed shared capacity together. DUA supplies this comparison and returns to [C.11.CRC](#fpf-pattern-C.11.CRC) when a finite comparison is missing. Offer only the result whose contribution warrants that burden; explain its decisive conditions in the recipient's working language. A useful local answer can end the inquiry without a pattern recommendation or a record of refusal.
+
+### COMMUNICATION-FOR-USE — Make communication useful, then learn from what happens
+
+- **Situation:** A report, model, message, or answer seems clear, but its intended use and evidence are unclear, including whether its producer can use it later.
+- **Question:** Who should understand or do what with it, what evidence is enough, and what should change if that use is not achieved?
+- **First useful result or blocker:** A supported decision to keep or repair it, change prerequisites or a future use, or stop, with evidence, causation, and permission limits.
+- **Start with:** Use `A.2.9` to judge the communication against what its recipient should understand or do. Distinguish the act from its wording and medium, and interpretation from response, later action, world change and causal contribution. For the repair question that arises, use `A.6.3.CR` for wording, `A.6.3.RT` for representation, or `A.6.3.NAR`/`E.17.EFP`/`E.24.PUB` for narrative, explanation or publication. Use `A.10` for evidence, `C.28` for causation and `C.11` to compare repair options only when needed. A repair may change prerequisites, medium, interaction or future use. Check authority, consent and admissibility separately.
+- **Stop or return:** Stop when the named use has enough support or a blocker is explicit. Preserve the earlier intended use when interpreting the response; revise a future use when warranted. Response or silence alone proves neither meaning, success, causation, authority, consent, nor permission.
+
+### RESULT-TO-NEXT-MOVE — Route an obtained result to the next probe or option
+
+- **Situation:** A DPF or project calls something information gain, learning progress, or novelty, or has articulated a result from an earlier cue, and wants to use it to choose the next probe or option.
+- **Question:** What result actually exists, and which downstream question, if any, is current?
+- **First useful result or blocker:** The direct result plus the first needed reliance disposition, characterization, possibility-space claim, configuration-relative comparison, `ChoiceResult`, or missing basis.
+- **Start with:** Name the obtained result and use its direct pattern. Use `E.10.LRN` when *learning* hides the result; separate ambiguous claims and return each to its direct pattern. Continue to `A.10` only for actual reliance, `C.17`/`C.18` only for characterization or space change, `C.11.CRC` only for a missing finite realizable-configuration comparison, and `C.11` only for a live choice.
+- **Stop or return:** Stop when the present question is answered and before every non-current question. Observations, objectives, and characterizations retain their identities. Route the result articulated from a cue through its direct pattern; if its `A.16.1` cue pack remains current as a source or provenance, retain it separately.
+
+### ACTUAL-TEMPORAL-STRUCTURE — Recover what actually obtains before testing coordination
+
+- **Situation:** A cycle, onset list, trace, notation, or geometry is called rhythm, but may be a prescription, representation, Method unfolding, or account rather than what obtains.
+- **Question:** Which subjects and relations support the selected structure, what grounds it, and is a coordination trial useful now?
+- **First useful result or blocker:** A.22-selected structure and grounded C.2.1 account—or missing bearer, relation, observation, or grounding. Keep future specifications and representations separate. For a selected coordination trial, add direct relations, conditions, observations, and next decision or stop.
+- **Start with:** Begin with actual changing subjects and their use. Recover changes, Work parts or a continuous carrier, plus obtaining relations; use A.3.4/A.15.1 for change or Work and C.27.TA for the temporal claim. Use A.22 to select one structure and C.2.1 to ground its account. Distinguish structure, account, future specification, representation, Method unfolding and Work; periodicity, onsets, notation or geometry alone establish no structure. For coordination, name bearers and direct relations. Only when a trial can change the decision and warrants its burden, compare feasible interventions, try one within bounds, observe, then decide or stop. Open specification, representation, decision, causal, trial or domain patterns as their questions arise.
+- **Stop or return:** Stop when answered. Return when bearer, relation, constraint, grounding, intervention, or use changes; domain Methods stay in DPF.
+
+### CONSEQUENCE-BEARERS — Find omitted Systems before closing a decision
+
+- **Situation:** A consequence account for a decision or investigation may omit physical or operational wholes beyond its candidate bearer.
+- **Question:** Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what next step follows for the decision or investigation?
+- **First useful result or blocker:** A bounded consequence account with its focus, bearers or intended referents, obtaining or modal paths, changed characteristics, support, uncertainty, and material limit. A useful constraint, alternative, or explicit unknown can complete the answer; further discovery needs a worthwhile obtainable contribution.
+- **Start with:** Use `A.1.CSD` for the focus and receiving decision or investigation. Trace obtaining relations separately from modal paths, challenge the boundary and recover the relevant wholes; use `A.1.SCR` only when a candidate's systemhood is load-bearing. Qualify each change and keep each bearer's changes and conditions distinct. Leave through the direct evidence, causality, comparison, domain or value pattern only when that stronger question is current. Select further inquiry by individual and combined contribution and burden.
+- **Stop or return:** Return the smallest useful account with its material limit; it may change or hold open the named decision or investigation. Reopen when the focus, configuration, horizon, whole, relation support, bearer, observation, or receiving use changes.
+
 ### Practical-Use Cards
 
 These cards offer a non-exhaustive set of optional routes for extended work with a pattern language, each selectable by its situation and intended result and composable only from contributions current in the actual case.
@@ -628,14 +674,6 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Start with:** `E.17.0` for one viewpoint; `E.17.1`/`E.17.2` for recurring use; `A.6.3.RT` for representation change; `C.33` for structural information; `E.17.ID.CR` for source comparison; `C.30.AD` for architecture-description use; otherwise use the direct pattern for the document result.
 - **Stop or return:** Stop when that result answers the use. One file may carry several results without merging them.
 
-#### COMMUNICATION-FOR-USE — Make communication useful, then learn from what happens
-
-- **Situation:** A report, model, message, or answer seems clear, but its intended use and evidence are unclear, including whether its producer can use it later.
-- **Question:** Who should understand or do what with it, what evidence is enough, and what should change if that use is not achieved?
-- **First useful result or blocker:** A supported decision to keep or repair it, change prerequisites or a future use, or stop, with evidence, causation, and permission limits.
-- **Mantra:** Name who should understand or do what. Judge the act of communicating against that use. Keep the act distinct from its wording and medium; separate interpretation, response, later action, world change, and causal contribution. Repair wording, representation, prerequisites, medium, interaction, or a future use—or stop. Check authority, consent, and admissibility separately. Do not rewrite the earlier use after seeing the response.
-- **Start with:** `A.2.9` for communicative Work; `A.6.3.CR` for wording; `A.6.3.RT` for representation; `A.6.3.NAR`, `E.17.EFP`, or `E.24.PUB` for narrative, explanation, or publication. `A.10` for evidence, `C.28` for causation, and `C.11` only to compare repair options.
-- **Stop or return:** Stop when the named use has enough support or a blocker is explicit. Response or silence alone proves neither meaning, success, causation, authority, consent, nor permission.
 
 #### OPTION-COMPARISON — Keep unlike option results distinct
 
@@ -647,23 +685,7 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Stop or return:** Stop at the present question's result. Option descriptions establish neither choice nor capability, authority, Work, provision, delivery, acceptance or use.
 
 
-#### RESULT-TO-NEXT-MOVE — Route an obtained result to the next probe or option
 
-- **Situation:** A DPF or project calls something information gain, learning progress, or novelty, or has articulated a result from an earlier cue, and wants to use it to choose the next probe or option.
-- **Question:** What result actually exists, and which downstream question, if any, is current?
-- **First useful result or blocker:** The direct result plus the first needed reliance disposition, characterization, possibility-space claim, configuration-relative comparison, `ChoiceResult`, or missing basis.
-- **Mantra:** Name the result; split ambiguous learning claims; keep each with its direct pattern. Move only to the current question: relied-on evidence, characterization or possibility space, realizable configuration comparison, or live choice. Stop when the present question is answered.
-- **Start with:** Use `E.10.LRN` only to recover a result hidden by *learning*; otherwise its direct pattern. Then use `A.10` only for actual reliance, `C.17`/`C.18` only for characterization/space change, `C.11.CRC` only for a missing finite configuration comparison, and `C.11` only for a live choice.
-- **Stop or return:** Stop before every non-current question. Observations, objectives, and characterizations retain their identities. Route the result articulated from a cue through its direct pattern; if its `A.16.1` cue pack remains current as a source or provenance, retain it separately.
-
-#### ACTUAL-TEMPORAL-STRUCTURE — Recover what actually obtains before testing coordination
-
-- **Situation:** A cycle, onset list, trace, notation, or geometry is called rhythm, but may be a prescription, representation, Method unfolding, or account rather than what obtains.
-- **Question:** Which subjects and relations support the selected structure, what grounds it, and is a coordination trial useful now?
-- **First useful result or blocker:** A.22-selected structure and grounded C.2.1 account—or missing bearer, relation, observation, or grounding. Keep future specifications and representations separate. For a selected coordination trial, add direct relations, conditions, observations, and next decision or stop.
-- **Mantra:** Start with actual changing subjects and use. Recover changes, Work parts or continuous carrier, plus obtaining relations. Select one structure; ground a supported account. Keep structure, account, future specification, representation, Method unfolding and Work distinct. For coordination, name bearers and direct relations. If a trial can change the decision and is worth its burden, compare feasible interventions, try one in bounds, observe, then decide or stop. Never infer structure from periodicity, onsets, notation or geometry.
-- **Start with:** A.3.4/A.15.1 for change/Work, C.27.TA/A.22 for claim/structure, C.2.1 for account; add specification, representation, decision, causal, trial, or domain patterns only when current.
-- **Stop or return:** Stop when answered. Return when bearer, relation, constraint, grounding, intervention, or use changes; domain Methods stay in DPF.
 
 #### PROBLEM-SHAPING — Stop at the earliest honest problem-side result
 
@@ -710,14 +732,6 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Start with:** `B.1.2`, `A.14`, and `C.13`; use `C.11`, `C.32.PAD`, the direct relation pattern, or `A.22` only when needed.
 - **Stop or return:** Stop at the smallest result answering the decision. If system recognition is unresolved, return to `A.1.SCR`.
 
-#### CONSEQUENCE-BEARERS — Find omitted Systems before closing a decision
-
-- **Situation:** A consequence account for a decision or investigation may omit physical or operational wholes beyond its candidate bearer.
-- **Question:** Which other Systems may undergo a relevant change, through what supported relation or still-modal path, and what next step follows for the decision or investigation?
-- **First useful result or blocker:** A bounded consequence account with its focus, bearers or intended referents, obtaining or modal paths, changed characteristics, support, uncertainty, and material limit. A useful constraint, alternative, or explicit unknown can complete the answer; further discovery needs a worthwhile obtainable contribution.
-- **Mantra:** Name the focus and receiving decision or investigation; trace obtaining relations and modal paths separately; challenge the boundary; recover real holons; qualify each change; keep each bearer's changes and conditions distinct; return the useful answer with its limit. Select further inquiry by individual and combined contribution and burden.
-- **Start with:** `A.1.CSD`; use `A.1.SCR` only when a candidate's systemhood is load-bearing, and leave through the direct evidence, causality, comparison, domain, or value pattern only when that stronger question is current.
-- **Stop or return:** Stop at the smallest account that changes or holds open the named decision or investigation. Return when the focus, configuration, horizon, whole, relation support, bearer, observation, or receiving use changes.
 
 ## Decide Whether FPF Fits
 
@@ -39278,6 +39292,8 @@ These rows answer the B.1.5 practice question: how to decide and expose order-se
 
 ### B.1.5:End
 
+<a id="fpf-pattern-B.1.5.EW"></a>
+
 ## B.1.5.EW - Recover How Constituent Actions Enact Encompassing Work
 
 > **Type:** Method pattern
@@ -39451,6 +39467,8 @@ A fixed control-layer diagram is another useful alternative when the problem alr
 - C.11.DUA bounds further investigation by what it can change.
 
 ### B.1.5.EW:End
+
+<a id="fpf-pattern-B.1.5.RS"></a>
 
 ## B.1.5.RS - Replace a Constituent Method in Its Encompassing Uses
 
@@ -51999,6 +52017,8 @@ C.11 may cite `C.26` as the common quantum-like modeling lens only for the resid
 
 ### C.11:End
 
+<a id="fpf-pattern-C.11.CRC"></a>
+
 ## C.11.CRC - Configuration-Relative Contribution Comparison
 
 > **Tech name:** `ConfigurationRelativeContributionComparison`
@@ -52202,6 +52222,8 @@ Refresh only the affected source-use row when a newer result changes one Solutio
 
 ### C.11.CRC:End
 
+<a id="fpf-pattern-C.11.DUA"></a>
+
 ## C.11.DUA - Decision-Useful Advice and Evidence Demands
 
 > **Tech name:** `DecisionUsefulAdvice`
@@ -52276,6 +52298,20 @@ Qualitative or ordinal judgement often suffices. A numerical value-of-informatio
 An inquiry can be useful even if the physical action stays the same. It may establish which claim is warranted, meet an applicable evidence condition or make a proposed use admissible. Conversely, inability to obtain evidence does not make the stronger claim true or admissible.
 
 For exploratory research, name the explanatory, model-building, hypothesis-discriminating or option-creating gain at the research horizon. A study can earn its cost through those gains before an operational intervention is selected. The direct research method must still connect its attainable observations to that gain.
+
+#### C.11.DUA:4.2.1 - Compare a proposed change with continuing the work
+
+For optional advice to change a way of working, include continuing without that change among the serious alternatives. A useful new contribution can be considered while the present work succeeds and its constraints remain unchanged. Recover what the recipient could gain, on which horizon, and what following the advice would require.
+
+When the gain depends on a constituent action, use B.1.5.EW to recover the encompassing work performed through it, the contributions needed below it and the conditions that change its use. Use B.1.5.RS for a proposed replacement in those wholes. Include a second receiving whole or an intermediate connection while it can reverse the advice. Use an already adequate account directly.
+
+Compare the full continuation: understanding and discussing the advice, obtaining support, learning, adaptation, coordination, execution and displaced work. Use C.11.CRC when the finite comparison or interactions are missing. If several changes compete for the same recipient capacity, compare their combined demand with ongoing commitments and changes already selected. Individually useful changes may require a smaller set, deferral or a different combination.
+
+Keep deciding to think further, presenting advice, deciding to change and performing the change separate. Cheap computation can justify frequent consideration while interruption and transition costs justify infrequent advice or intervention. Consider timing and a smaller change when those alternatives matter. A change in performer capability or adaptation cost can justify reconsidering the encompassing way of working.
+
+Use the available basis before asking the recipient for more work. Unclear benefit alone gives the recipient no obligation to prove an optional suggestion useless or fund an expensive evaluation. Obtain more information only when a plausible attainable answer can change a worthwhile continuation. If presenting the advice has no proportionate basis, continue without presenting it; no rejection record is required merely to finish. Preserve a reason or reconsideration condition only for a receiving use that needs it.
+
+An existing obligation still constrains the available continuations. Examine its merits and possible revision through section 4.3 when that question is live.
 
 #### C.11.DUA:4.3 - Appraise a disputed requirement and its current force
 
@@ -75052,6 +75088,8 @@ A source changes this pattern only when it exposes a defect in the current move 
 
 ### C.38:End
 
+<a id="fpf-pattern-C.39"></a>
+
 ## C.39 - Find and Develop a Way to Obtain a Result
 
 > **Type:** Method pattern
@@ -75432,6 +75470,8 @@ The source synthesis supports constructive reuse without requiring the whole aut
 - **C.11.DUA** selects worthwhile information work for the receiving use.
 
 ### C.39.RO:End
+
+<a id="fpf-pattern-C.40"></a>
 
 ## C.40 - Develop Branching Search from Reusable Material
 
@@ -78118,38 +78158,41 @@ The name comparison covers `FPFEditionRebuildabilityRecord`, `FPFEditionAssembly
 | `MATHEMATICAL-MODELING` | Ordinary practical entry |
 | `LIVE-WORK-STEERING` | Ordinary practical entry |
 | `METHOD-RECOVERY` | Ordinary practical entry |
+| `WORK-OPPORTUNITY` | Ordinary practical entry |
 | `PROFESSIONAL-RESULT` | Ordinary practical entry |
 | `UNFAMILIAR-THEORY` | Practical-Use Card |
 | `PHYSICAL-RESULT` | Practical-Use Card |
 | `ARCHITECTURE` | Practical-Use Card |
 | `PRACTICE-ARCHITECTURE` | Practical-Use Card |
 | `WORKING-DOCUMENTS` | Practical-Use Card |
-| `COMMUNICATION-FOR-USE` | Practical-Use Card |
+| `COMMUNICATION-FOR-USE` | Ordinary practical entry |
 | `OPTION-COMPARISON` | Practical-Use Card |
-| `RESULT-TO-NEXT-MOVE` | Practical-Use Card |
-| `ACTUAL-TEMPORAL-STRUCTURE` | Practical-Use Card |
-| `CONSEQUENCE-BEARERS` | Practical-Use Card |
+| `RESULT-TO-NEXT-MOVE` | Ordinary practical entry |
+| `ACTUAL-TEMPORAL-STRUCTURE` | Ordinary practical entry |
+| `CONSEQUENCE-BEARERS` | Ordinary practical entry |
 | `PROBLEM-SHAPING` | Practical-Use Card |
 | `IMPROVEMENT` | Practical-Use Card |
 | `WORDING` | Practical-Use Card |
 | `SOTA-PORTFOLIO` | Practical-Use Card |
 | `SYSTEM-DELIMITATION` | Practical-Use Card |
 
-This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. It declares nine ordinary examples and fifteen cross-pattern cards, not the scope or limit of FPF help. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
+This is the one FPF declaration consumed by Readme authoring, assembly, and validation; do not maintain another ordinary-entry or card list. The Readme must say that FPF and the applicable DPF or LPF can answer a much wider range of questions and must return a reader whose question fits no example to the Table of Contents, another finding aid, or the direct patterns.
 
-The selection answers the declared current reader-use questions and passes the no-mantra comparison; it does not claim observation of reader behaviour and does not reproduce the historical fifteen seminar cards or the predecessor twenty-key list. Distinct predecessor questions remain recoverable without keeping one selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`.
+Related questions remain recoverable without a separate selectable entry for each topic: `CAPABILITY-DEVELOPMENT` is carried by `PRACTICE-ARCHITECTURE` and `IMPROVEMENT`; `COSTLY-ACTION` is carried by `OPTION-COMPARISON`; `DESCRIPTION-USE` is carried by `WORKING-DOCUMENTS`; and `DPF-AUTHORING` is carried by `SOTA-PORTFOLIO`.
 
 `UNFAMILIAR-THEORY` connects recovering a construction and argument with transfer to the project's representation. `PHYSICAL-RESULT` connects physical modeling, mathematics, computation and realization, including returns when one contribution changes. Their mantras retain those dependencies while the direct patterns supply the operations.
 
+`WORK-OPPORTUNITY` starts at the first missing contribution and can end at a local result, an exact gap or continued work without advice. Its conditional returns do not prescribe a traversal through every linked pattern; its Readme explanation uses the ordinary-entry form.
+
 `TIME`, `CAUSAL-USE`, `MEASUREMENT`, and `MATHEMATICAL-MODELING` are ordinary examples because each starts with one direct pattern and can stop at its first useful result without a cross-pattern mantra; no `MODELING-FOR-ACTION` card joins them. `LIVE-WORK-STEERING` and `METHOD-RECOVERY` are ordinary examples for the same reason: each begins at one direct pattern and may stop at its first useful result or blocker. `PROFESSIONAL-RESULT` is also ordinary: it starts with `A.15.9`, tests an already-available result before any new request, and can stop at bounded reuse, the smallest missing-result request, or a blocker without a cross-pattern mantra.
 
-`COMMUNICATION-FOR-USE` is selected as a card because the same truthful five-field entry without a mantra still identifies the situation, first result, and direct patterns but reduces the cross-pattern dependency to a flat list. After interruption, that list no longer carries the sequence from receiving use through the communication that occurred, its wording or representation, use-relevant evidence, later effect, causal qualification, and repair or stop; the compact mantra restores that choice-changing sequence.
+`COMMUNICATION-FOR-USE` starts with the communication and its intended use. Its ordinary explanation distinguishes interpretation, response, later action and effect, then opens a wording, representation, evidence, causal or repair question only when that question is needed. The reader can stop at a supported use or an explicit blocker.
 
-`RESULT-TO-NEXT-MOVE` is a card because it keeps the conditional path from an obtained result through only the interpretation, reliance, characterization, comparison, or live-choice question that is current, with a stop at every other boundary; a flat locator list would not preserve those conditions.
+`RESULT-TO-NEXT-MOVE` starts with the obtained result and its direct pattern. Its ordinary explanation preserves the conditions for a later interpretation, reliance, characterization, comparison or live-choice question and stops before a question that is not current.
 
-`CONSEQUENCE-BEARERS` is a card because its compact mantra preserves the repeatable boundary challenge and return sequence needed to keep candidate Systems, obtaining relations, modal paths, holon recovery, uncertainty, and the receiving use distinct; a flat locator list would lose those choice-changing conditions.
+`CONSEQUENCE-BEARERS` starts with the bounded consequence account under `A.1.CSD`. Its ordinary explanation retains the boundary challenge, conditional systemhood check, separate obtaining and modal paths, each bearer's changes and uncertainty, and the return when the receiving use changes.
 
-`ACTUAL-TEMPORAL-STRUCTURE` is a card because its compact mantra preserves the conditional sequence from actual changing subjects and direct obtaining relations through one selected structure and grounded account to separately admitted future specifications and representations, then to a bounded coordination trial, observation, decision, or stop; a flat locator list would lose those choice-changing distinctions and cheap exits.
+`ACTUAL-TEMPORAL-STRUCTURE` starts with what the temporal claim concerns. Its ordinary explanation distinguishes actual subjects and obtaining relations, a selected structure and its account, and future specifications or representations. A coordination trial follows only when it can change the decision and warrants its burden; otherwise the reader stops at the supported answer or missing basis.
 
 `PUBLICATION-FORM` and `DPF-SUITE-REFERENCE` remain direct locators to `E.11.PFP` and `E.11.DSG`, not selected examples. Exact content stays in those direct patterns; the Readme carries only the recognition, cross-pattern dependency, and return needed for discoverability.
 
@@ -78218,24 +78261,36 @@ Show: A domain principle framework for any one practice depends on FPF Core and 
 
 Show: An FPF skill pack exposes pattern lookup, first-entry guidance, and short-use prompts. A versioned skill-pack bundle can be an access-facing `U.PresentationCarrier`; the service, endpoint, or assistant integration that returns it is an access route. Their descriptions name the FPF edition they expose and its refresh condition. Authority claims return to the named subject pattern and edition.
 
-Show: One FPF edition replaces two complete pattern sources and inserts a third while every other pattern body must carry forward from the predecessor. The rebuildability record names the predecessor, edition record, complete selected sources, publication units and forms, exact output carriers, and any access routes. Assembly gives each changed body an explicit replacement or insertion boundary, rebuilds the logical index from the same selection, checks source-to-body correspondence, and verifies that unselected predecessor spans are unchanged. Any mismatch stops construction. A successful construction reports the candidate and source correspondence; acceptance and publication require their separate decisions and relations.
+#### E.4.FPF:5.1 - Rebuild an edition and catch a boundary error
 
-Mini-map:
+A steward is preparing **Cedar 2**, a fictional FPF edition for engineers who start from a working question. **Cedar 1** is its frozen predecessor. The example follows three changed bodies inside the full edition; all other bodies must carry forward unchanged.
 
-| Field | Filled slice |
+The accepted complete sources are **DUA-2** for `C.11.DUA`, **PUR-2** for `E.11.PUR`, and **Ways-1** for `C.39`. DUA-2 replaces DUA-1 and includes continuing without optional advice; PUR-2 replaces PUR-1 and distinguishes applicability from recommendation. Ways-1 adds the method-development contribution between the existing `C.38` and `C.40` bodies. **Readme R2** adds their practical entry. **Preface P1** remains unchanged.
+
+The first useful result is rebuildability record **RC2**, which gives the assembler these particular inputs and boundaries:
+
+| Record content | Filled value |
 |---|---|
-| `firstPrinciplesFrameworkEditionRef` | `FPF 8`, resolved through its edition record |
-| `firstPrinciplesScopeRef` | transdisciplinary ontology, epistemology, decision, evidence, architecture, work, publication, and improvement distinctions |
-| `selectedCorePatternSetRefs` | exact complete-source refs for every Core pattern body selected for `FPF 8` |
-| `selectedFirstPrinciplesProblemSituationRefs` | cross-domain problem situations where meaning, evidence, description, architecture, work, decision, publication, or improvement claims collapse |
-| `selectedFirstPrinciplesSolutionMoveRefs` | reusable pattern-language moves that separate kinds, recover source, locate applicable patterns, compare options, publish views, and improve claims |
-| `publicationSelfRenderingRefs` | Readme and Preface statements of intended reader, selected first-principles route, deliberately coarsened, abstracted, omitted, or deferred structures, and return to subject pattern bodies |
-| `selectedPublicationUnitRefs` | public opening, Readme, Preface, ToC, logical index, and pattern-body collection for `FPF 8` |
-| `selectedPublicationFormRefs` | the selected all-in-one and split-publication arrangements used for the named reader uses |
-| `selectedPublicationCarrierRefs` | the exact versioned Markdown file, site snapshot, PDF volume, or split-file bundle that bears a selected public form |
-| `selectedAccessCarrierRefs` | an optional exact skill-pack bundle, retrieval-index file, or response document that bears an access-facing form |
-| `selectedAccessRouteRefs` | an optional MCP service, retrieval route, search function, or assistant integration, with the edition or named carrier it reaches |
-| `qualityAndImprovementRefs` | `E.2.DA` for whole-FPF adequacy, `E.21` for pattern bodies, `E.23` for improvement cycles |
+| Edition and scope | Cedar 2; transdisciplinary FPF Core for the same reader and use as Cedar 1 |
+| Predecessor | The complete Cedar 1 text, including Readme R1, Preface P1, index I1 and body collection K1 |
+| Selected complete sources | DUA-2 replaces the whole C.11.DUA body; PUR-2 replaces the whole E.11.PUR body; Ways-1 inserts the whole C.39 body after C.38 and before C.40 |
+| Publication units | Opening O2, Readme R2, unchanged Preface P1, derived index I2 and body collection K2 |
+| Publication forms | A book arrangement: compact opening, contents and index, Readme, Preface, then bodies; a standalone Readme arrangement using R2 |
+| Particular carriers | Cedar-2-book-a, one assembled Markdown file; Cedar-2-readme-a, one rendered HTML file |
+| Access carrier and route | None selected for this assembly |
+| Reader-facing scope account | O2 names engineers and their working questions; R2 offers starting examples and returns to the bodies; P1 explains the wider reasoning practice |
+| Source and adequacy results | Q-DUA-2, Q-PUR-2 and Q-Ways-1 cover the three accepted source editions. Cedar 1's whole-edition assessment A1 does not assess Cedar 2 |
+| Reconsideration condition | A selected source, predecessor span, declared form or receiving use changes |
+
+Each carrier bears a form of the named units; neither file is the edition itself. The standalone HTML carries R2 without becoming another independently authored Readme. No access service has been selected.
+
+Assembly replaces the two bounded bodies, inserts Ways-1, and derives I2 from that same membership. I2 must contain one row each for C.11.DUA, E.11.PUR and C.39, with no duplicate C.39 row. The full body inventory gains exactly C.39; all other membership and order stay as in Cedar 1.
+
+A first candidate has exact copies of DUA-2, PUR-2 and Ways-1 and the expected index. It still fails. The Readme replacement ended two sentences inside P1 instead of at its boundary. The lost predecessor text was: “Start from your working question. Stop when the answer is sufficient; the entry list is not a required sequence.” The candidate has lost useful stopping guidance although every selected body matches its source.
+
+The complete predecessor comparison exposes that unselected deletion. Stop the assembly at this failed preservation condition. Correct the Readme boundary and restore both sentences from frozen P1; do not rewrite the accepted pattern bodies. Rebuild and repeat source correspondence, the full inventory and the complete publication comparison.
+
+In the repaired candidate, DUA-2, PUR-2 and Ways-1 still match their selected sources, I2 and K2 agree, R2 appears in both selected carriers, and P1 and every other unselected predecessor span are unchanged. The remaining differences are the two declared body replacements, one insertion and index row, R2 and its opening references. That is a completed construction with a stated preservation result under `E.4.PFIP`. Acceptance, publication and whole-FPF adequacy still require their own conclusions.
 
 ### E.4.FPF:6 - Bias-Annotation
 
@@ -78265,7 +78320,7 @@ Mini-map:
 | CC-FPF.10 Common form reused | The selected public form satisfies `E.11.PFP` for the compact product-declared opening, distinct exact title and Readme H1, Readme and Preface entries in the established ToC grammar, one logical index, practical entries, and any choice-relevant cue. This pattern retains FPF-specific sources, units, body order, carrier and route selection, and builder regressions for the established compact-front line shape and native ToC grammar. |
 | CC-FPF.11 Existing rebuildability record sufficient | One `FPFEditionRebuildabilityRecord` carries the exact selected source, publication-unit, publication-form, presentation-carrier, access-route, relation, projection, and refresh references. Add another manifest, field, or record only after showing a genuinely missing FPF value. |
 | CC-FPF.12 Deterministic source assembly | The all-in-one edition candidate uses the exact predecessor, selected edition record, matching `FPFEditionRebuildabilityRecord`, selected complete pattern sources, and explicit replacement or insertion boundaries. One selection drives both index and bodies; source correspondence is reported; every unselected predecessor span is unchanged; any identity, source, index/body, boundary, or preservation mismatch stops construction before an acceptance or publication claim. Repository filenames, commands, helper options, and template syntax remain in maintainer documentation or tool help rather than this reusable rule. |
-| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme says that its nine ordinary examples and fifteen cross-pattern cards are non-exhaustive. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
+| CC-FPF.13 One practical-entry declaration | One current FPF declaration covers all selectable Readme examples, assigns each exactly one ordinary-entry or card form, and supplies the same calibrated 80-token mantra and 220-token compact-card whitespace guard to authoring, assembly, and validation. The Readme states that the ordinary entries and cross-pattern cards selected by the declaration in §4 are non-exhaustive. Every card passes `E.11`'s mnemonic-gain test, remains linked by key to its guidance and optional expansion, and returns to its direct patterns. Authoring, assembly, and validation consume this declaration as the sole source for key, card, and coverage assignments. |
 
 ### E.4.FPF:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -86465,6 +86520,8 @@ Apply the same compact entry shape each time: recognizable situation; practical 
 - **A claimed bounded context may be only a label, boundary picture, team, or subsystem.** Open `A.1.1` with the engineering decision, one exact model edition, and its exact use locus. Recover the smallest direct applicability, assigned-Work use, or fixed-content coherence relation first and stop there when it answers the decision. Select a `BoundedModelUseStructure` under `A.22` only when the joint organization itself changes the decision and all four discriminators are exact: independently identified constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame. The smallest result is therefore one direct relation or that optional selected structure; a missing constituent, occurrence, constraint, or use frame is an honest no-structure blocker. `Context Mapping` remains a `U.Method`; any cross-context structure needs its own A.22 selection; and a scheme, scope, viewpoint, conforming view, representation, or diagram remains a different object. Stop at the direct relation or selected organization. Use `E.17.0` only when the actual question is whether an exact episteme conforms to a viewpoint and is thereby a view. A bounded-context phrase creates no holon, subsystem, team, structure, relation, viewpoint, view, or representation.
 - **Problem-side material may describe a concern without identifying an actual Problem.** Open `C.22.PFR` only when the claim may concern one obtaining `ProblematicForRelation`: an exact actual-condition occurrence and exact problem-criterion-applicability occurrence whose selected input is actually adverse. Keep that occurrence distinct from the predicate, applicability occurrence, assessment or evaluation, assertion and reliance, `ProblemCard`, forecast or modal concern, and current-solvability or continuation claim. The smallest result is an ordinary actual-problem sentence naming condition and value, criterion, entity and use, and applicability window, or an honest non-PFR classification or blocker when the condition, applicability, adverse input, or required PFR rule is missing. Stop as soon as the later use can distinguish actuality from problem-side claim material. Use `C.22.2` when the useful object is a reviewable problem-side card or formulation rather than the world-side relation. One `ProblemCard` may describe no actual PFR; selecting or discovering a method changes only the current solvability or continuation claim, not PFR participants, obtaining, identity, or the adverse condition.
 
+- **The present work succeeds, but another useful continuation may be possible.** The framework Readme's `WORK-OPPORTUNITY` entry connects bounded exploration, needed method contributions and the worth of advice. Begin with the available material or action; a changed constraint is not required. Select `C.40`, `C.39` or `C.11.DUA` by the first missing result, then stop at that result or its exact blocker. Continuing the present work without a new recommendation is a normal outcome.
+
 #### E.11:4.2 - Public helper epistemes
 These helper epistemes are optional authoring or named-reliance support. Do not open them when the short public entry and direct pattern already make the result and boundary truthful. A pattern reference locates the FPF pattern episteme whose content is needed; classify it as a `U.MethodDescription` only when the A.3.2 criterion passes and the current use depends on that classification.
 
@@ -87382,7 +87439,7 @@ In this pattern, *next move* is Plain shorthand for the currently recommended pa
 
 ### E.11.PUR:2 - Problem
 
-Several different claims are often compressed into “use this pattern next.” A pattern can fit the Problem frame but fail its `Solution` conditions. It can be applicable yet not be the recommended use because another applicable pattern offers a more useful first result for the current concern. Several candidate uses can belong together without forming a sequence, and displaying a sequence creates no WorkPlan, performed work, Transformation, or transformation-flow structure.
+Several different claims are often compressed into “use this pattern next.” A pattern can fit the Problem frame but fail its `Solution` conditions. It can be applicable yet not be worth recommending: another use may offer a more useful first result, or continuing the present work may serve the concern better once the full burden of a new use is counted. Several candidate uses can belong together without forming a sequence, and displaying a sequence creates no WorkPlan, performed work, Transformation, or transformation-flow structure.
 
 When these distinctions are missing, familiar PatternIDs become proxies for value. Teams recommend the pattern they know, copy one result description into several order relations, and treat a diagram or teaching order as execution order.
 
@@ -87400,7 +87457,7 @@ When these distinctions are missing, familiar PatternIDs become proxies for valu
 
 ### E.11.PUR:4 - Solution
 
-Evaluate candidate uses against five distinct fit aspects. An ordinary reversible judgement may remain conversational: keep the aspects in one compact rationale, state the aggregate applicability, then compare the expected first results of the candidates that remain under consideration. Before repeating a recommended use, apply the result-reuse branch in `4.2.1`. Materialize separate findings or a recommendation episteme only when a named later use needs addressable support. Coordinate several candidates with an explicit local ordering mode and add pairwise precedence only where a real basis exists.
+Evaluate candidate uses against five distinct fit aspects. An ordinary reversible judgement may remain conversational: keep the aspects in one compact rationale, state the aggregate applicability when the current question needs it, then compare the expected receiving value and full burden of the serious continuations, including continuing without a new pattern use. Before repeating a recommended use, apply the result-reuse branch in `4.2.1`. Materialize separate findings or a recommendation episteme only when a named later use needs addressable support. Coordinate several candidates with an explicit local ordering mode and add pairwise precedence only where a real basis exists.
 
 #### E.11.PUR:4.1 - Fit and applicability
 
@@ -87430,13 +87487,17 @@ PatternUseApplicabilityFinding@Context <: U.Episteme:
   missingBasisBoundaryRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-The five criteria refer to one candidate. In ordinary conversation, inspect all five and state the aggregate result in the recommendation without materializing five findings. `PatternUseApplicabilityFinding@Context` is the reliance-bearing support episteme: when it exists, its five findings cover each criterion exactly once. `applicable` follows only when all five are `fit`; any `misfit` yields `inapplicable`; one or more `insufficientBasis` values yield `insufficientBasis` and a missing-basis boundary.
+The five criteria refer to one candidate. In ordinary conversation, inspect all five without materializing five findings. State the aggregate applicability when it answers the current question; if the later comparison supports a recommendation, carry that result into the recommendation. `PatternUseApplicabilityFinding@Context` is the reliance-bearing support episteme: when it exists, its five findings cover each criterion exactly once. Use mutually exclusive branches: any `misfit` yields `inapplicable`, including when another aspect has `insufficientBasis`; with no `misfit`, one or more `insufficientBasis` values yield `insufficientBasis` and a missing-basis boundary; otherwise all five are `fit` and the result is `applicable`.
+
+A known `misfit` settles this candidate's applicability under the inspected conditions. Do not obtain more information merely to fill the remaining aspects when it cannot change that answer. If changing the failed condition is a serious continuation, appraise that change separately and reconsider the affected fit under `4.6`. A different candidate may still be applicable and worth recommending.
 
 `problemFrame` compares the candidate pattern's Problem frame with the current concern; it does not assert that an actual Problem obtains. When an actual Problem is relied on, cite one current C.22.PFR `ProblematicForRelation` occurrence with its exact actual-condition and criterion-applicability participants and adverse-episode identity. A ProblemCard, fit finding, assessment, or recommendation may support a claim about that occurrence but neither creates nor splits it.
 
 #### E.11.PUR:4.2 - Recommendation
 
-State the ordinary recommendation first: which candidate is applicable, why its expected first result serves the current concern better than the other candidates still under consideration, and where to stop or return. If the judgement is local, reversible, and has no named later reliance, that readable statement is sufficient.
+Before recommending a new pattern use, compare its full receiving value and burden with the other serious continuations, including continuing the present work without it. Use C.11.DUA when the worth of the advice, its presentation or its interaction with other proposed changes is unclear. Applicability can coexist with no worthwhile recommendation now. In that case, finish without selecting a pattern use or materializing a positive recommendation; give a short reason only when the current question or later reliance needs it. Continuing without optional advice does not remove an existing obligation.
+
+When the comparison supports a recommendation, state which candidate is applicable, why its expected first result warrants its full burden for the current concern, and where to stop or return. If the judgement is local, reversible, and has no named later reliance, that readable statement is sufficient.
 
 When the recommendation must remain addressable, use the schema below. `ordinaryCompact` keeps one compact rationale and no five-finding dossier; `relianceBearing` adds the current applicability finding only because a named later use needs independent replay.
 
@@ -87458,7 +87519,7 @@ PatternUseRecommendation@Context <: U.Episteme:
   recommendationBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-Recommendation selects one applicable candidate for the current concern because its expected first result serves that concern better than the other candidates still under consideration and, when a receiving use is current, supports that use under the stated rationale. A conversational judgement needs no record. In an addressable `ordinaryCompact` recommendation, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent. In `relianceBearing`, the same recommendation also cites one current applicability finding whose five fit findings can be replayed independently. The profile changes support cardinality, not the recommendation kind or authority.
+Recommendation selects one applicable candidate because its expected receiving value warrants its full burden compared with the other serious continuations, including continuing without a new use, and, when a receiving use is current, supports that use under the stated rationale. A conversational judgement needs no record. In an addressable `ordinaryCompact` recommendation, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent. In `relianceBearing`, the same recommendation also cites one current applicability finding whose five fit findings can be replayed independently. The profile changes support cardinality, not the recommendation kind or authority.
 
 When an addressable recommendation is materialized, `expectedResultExpectationRef` points to its exact E.11.PUA expectation. It identifies the expected result and only the pattern, relative-object, or category-correct basis distinctions that expectation actually uses; it does not assert that the result exists or that any relation, A.6.1 binding, or local claim is current. A recommendation does not authorize work, establish a gate, prove evidence sufficiency, create the expected result, or supply its later closure.
 
@@ -87542,19 +87603,21 @@ Treat the dependent candidate as following only after its precedence basis is es
 1. Recover each candidate's current concern, direct pattern, Solution, expectation, and ordinary boundary.
 2. Keep a local reversible applicability, recommendation, or coordination judgement conversational when no named later reliance needs it. When a recommendation must remain addressable, choose `ordinaryCompact` unless that reliance needs the fit aspects separately addressable; use `relianceBearing` only for that reliance.
 3. Inspect all five fit aspects. In ordinary use, keep them in one compact rationale. Under `relianceBearing`, materialize five separate findings and one applicability finding.
-4. State the aggregate applicability result directly in the recommendation; when a reliance-bearing applicability finding exists, the two result values agree.
-5. Recommend an applicable candidate only when its expected result serves the current concern better than the other candidates still under consideration; include a receiving use only when one is current. The expectation is not an achieved result.
+4. Establish the aggregate applicability under `4.1`. A known `misfit` ends the applicability inquiry for that candidate under the inspected conditions. If the aggregate is `insufficientBasis`, obtain missing information only when an attainable answer can change a worthwhile continuation; otherwise return the missing-basis boundary. State the aggregate separately when the current question needs it. If step 5 supports a recommendation, include it there; when a reliance-bearing applicability finding exists, the two result values agree.
+5. Compare an applicable candidate with the other serious continuations, including continuing the present work without a new pattern use. Recommend it only when its expected receiving value warrants its full burden; use C.11.DUA when that judgement is unclear. Finish without a positive recommendation when no candidate warrants one. The expectation is not an achieved result.
 6. Before repeating a recommended use, compare any earlier result through `4.2.1`. Reuse a matching result or reopen only the affected result question.
 7. Coordinate several candidates as unordered, partially ordered, or totally ordered. Add a pairwise relation only when one declared precedence basis is current. For `prerequisiteResult`, require the prerequisite candidate's exact expectation and one current E.11.PUA result-closure finding with the complete direct basis.
-8. Stop at the recommendation, matching earlier result, or coordination result. A Plain *next move* names only the recommended pattern use or conditional continuation. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
+8. Stop at the applicability answer or missing-basis boundary, recommendation, matching earlier result, coordination result, or conclusion that no new use is worth recommending now. The last outcome selects no candidate and requires no refusal document; it leaves existing obligations in force. A Plain *next move*, when one is useful, names only the recommended pattern use or conditional continuation. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
 
 #### E.11.PUR:4.6 - Replay and currentness
 
-Replay an ordinary conversational or addressable compact recommendation from the current concern, inspected candidate pattern and `Solution`, aggregate applicability, compact rationale over all five aspects, other candidates considered, expected result, any current receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its inspected candidate uses, question, ordering mode, any pairwise precedence and bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation and current E.11.PUA closure finding.
+Replay an ordinary conversational or addressable compact recommendation from the current concern, inspected candidate pattern and `Solution`, aggregate applicability, compact rationale over all five aspects, serious continuations considered, expected result and full burden, any current receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its inspected candidate uses, question, ordering mode, any pairwise precedence and bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation and current E.11.PUA closure finding.
+
+When a later use needs to replay a conclusion without a recommendation, recover the concern, the serious continuations, the value and burden that mattered, and the condition for reconsideration. No selected-candidate reference or five-finding dossier is required for that conclusion.
 
 Replay a result-reuse stop from the earlier result episteme and edition, the question and declared use, relied source and dependency conditions, qualification and currentness boundary, and any separately current A.10 reliance or G.11 assertion.
 
-Recheck the smallest affected finding, result question, or relation when a candidate `Solution`, result expectation, result entity or edition, relative object, direct basis or defining `ClaimGraph`, relied source or dependency condition, qualification or currentness boundary, fit basis, alternative under consideration, dependent use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed earlier result condition reopens only the affected result question and later uses unless the candidate or present concern also changed. A changed prerequisite expectation or closure reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. Separate G.11 assertions state edition, telemetry, currentness-window, and decay facts; PUR supplies the judgement-specific values and change conditions.
+Recheck the smallest affected finding, result question, or relation when a candidate `Solution`, result expectation, result entity or edition, relative object, direct basis or defining `ClaimGraph`, relied source or dependency condition, qualification or currentness boundary, fit basis, value or burden, alternative under consideration, dependent use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed earlier result condition reopens only the affected result question and later uses unless the candidate or present concern also changed. A changed prerequisite expectation or closure reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. Separate G.11 assertions state edition, telemetry, currentness-window, and decay facts; PUR supplies the judgement-specific values and change conditions.
 
 ### E.11.PUR:5 - Archetypal Grounding
 
@@ -87571,6 +87634,12 @@ Because this local recommendation is reversible and no named later use relies on
 The same team already has a C.28 causal-use result for the same pump model, intervention question, declared use, sources, assumptions, and qualification window. The team uses C.28 to compare that result episteme and edition with the present concern. Every comparison value still matches, so the team cites the result and stops instead of performing the C.28 use again.
 
 If the team uses the result as a premise in a project discussion and the source-to-use account is still implicit, it uses A.10 to make the source → result → claim connection explicit for that bounded use. If the later gate Work relies on that result, its A.10 evidence-provenance path names the result and bounded use. If new operating conditions change the causal-use assumptions or qualification window, the team reopens that affected C.28 question rather than treating the old result as current or restarting every coordinated pattern use.
+
+#### E.11.PUR:5.1.2 - No new use is worth recommending
+
+A team considers an optional check that fits its concern and conditions. The most it could save is ten minutes; performing it takes an hour. The present work already meets the needed result, and no obligation requires this check. The team establishes applicability, compares the hour with the possible saving, and continues without selecting a new use. It needs neither a recommendation episteme with a fictitious candidate nor a refusal document. If asked why, it states the cost comparison in the conversation.
+
+If new information makes that check capable of preventing a consequential loss, the team reopens this comparison. If the check becomes obligatory, the earlier optional-advice conclusion does not discharge the obligation. A less burdensome check with a worthwhile expected result can support the ordinary positive recommendation instead.
 
 #### E.11.PUR:5.2 - Unordered complementary uses
 
@@ -87604,7 +87673,7 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 
 ### E.11.PUR:6 - Bias-Annotation
 
-- **Applicability-as-recommendation bias.** A fitting pattern is automatically selected. Compare its expected practical result with the other candidates still under consideration before recommending it.
+- **Applicability-as-recommendation bias.** A fitting pattern is automatically selected. Compare its expected receiving value and full burden with the serious continuations, including no new use; the best of several unhelpful candidates need not be recommended.
 - **Favorite-pattern proxy bias.** Familiar PatternID substitutes for current value. State the concern, expected result, and any current receiving use in the rationale.
 - **Five-form bias.** Every ordinary use creates five findings. Keep them in one compact rationale unless their separate identity is relied on.
 - **Sequence bias.** Presentation order becomes precedence. Repair by naming the pairwise basis.
@@ -87617,8 +87686,8 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 | --- | --- | --- |
 | `PUR-1` | Candidate basis | Every evaluated candidate has an inspected `Solution` and a recoverable expected first result or honest blocker; an exact PUA expectation is required only for an addressable recommendation or result-based precedence. |
 | `PUR-2` | Five aspects | Ordinary judgement considers all five fit aspects in one rationale; reliance-bearing applicability has exactly one finding for each aspect. |
-| `PUR-3` | Aggregate | A recommendation follows the aggregate applicability judgement. If an addressable applicability finding exists, its result agrees and carries a missing-basis boundary when needed. |
-| `PUR-4` | Recommendation | The recommended candidate is applicable and its expected result serves the current concern better than the other candidates still under consideration. An addressable `ordinaryCompact` recommendation has no applicability-finding ref; `relianceBearing` has one current applicability finding with five fit findings. |
+| `PUR-3` | Aggregate | A recommendation follows the aggregate applicability judgement under `4.1`. If an addressable applicability finding exists, its result agrees and carries a missing-basis boundary when needed. |
+| `PUR-4` | Recommendation | The recommended candidate is applicable and its expected receiving value warrants its full burden compared with the serious continuations, including continuing without a new use. If none warrants recommendation, no candidate is selected and existing obligations remain in force. An addressable `ordinaryCompact` recommendation has no applicability-finding ref; `relianceBearing` has one current applicability finding with five fit findings. |
 | `PUR-5` | Coordination | All members concern the same bounded coordination question and remain distinct candidate uses. |
 | `PUR-6` | Ordering mode | Unordered has no pairwise relations; partial and total order contain only justified pairwise relations. |
 | `PUR-7` | Exact precedence | `prerequisiteResult` reuses the prerequisite candidate's exact expectation and one current E.11.PUA closure whose result and category-correct basis satisfy the stated condition; other basis values leave both result positions absent. |
@@ -87631,7 +87700,7 @@ The score improved while first-result fit and receiving-use value worsened. Keep
 
 | Misuse | Why it fails | Repair |
 | --- | --- | --- |
-| Recommend before aggregating fit | A partial match is overread as selection. | Resolve all five aspects or return `insufficientBasis`. |
+| Recommend before aggregating fit | A partial match is overread as selection. | Apply the aggregate rule in `4.1`: a known `misfit` settles inapplicability even when another aspect is unresolved. Obtain missing information only when its answer can change a worthwhile continuation. |
 | Rank every candidate | A scalar order hides complements and incomparable results. | Use unordered or partial coordination when that matches the current relation. |
 | Use sequence as WorkPlan | Pattern-use relations acquire dates, resources, and work authority that no such relation establishes. | Create an A.15.2 WorkPlan only when intended work is current. |
 | Copy or merely expect the prerequisite result | Duplicated kind and signature can drift from the candidate expectation, while an expectation alone proves no result or basis. | Reference the exact expectation and one current E.11.PUA closure finding; if its result or direct basis is absent, keep the precedence relation non-obtaining. |
