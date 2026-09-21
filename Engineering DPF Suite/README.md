@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains nineteen published DPFs with 319 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty published DPFs with 333 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -44,6 +44,7 @@ The public folder contains nineteen published DPFs with 319 pattern bodies. Star
 | Work out what the problem is, compare possible directions, or prepare a recommendation. | [Problem Structuring and Decision Support](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md) - 17 patterns | Several useful problem formulations, decision alternatives, a comparison under uncertainty, or a recommendation with its grounds and limits. |
 | Find a worthwhile contribution or an obtaining way, and relate direction, options and bounded commitments under uncertainty. | [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md) - 15 patterns | A qualified or provisional problem/contribution account, conditional direction, explained options with their support and gaps, comparison, recommendation or authorized commitment; a decision about conflicting work, changed assumptions or strategic practice. A sufficient answer can finish without an experiment or a new commitment. |
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
+| Recognize, represent, vary, perform, teach or observe rhythmic relations. | [Embodied Rhythmics](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) - 14 patterns | A specific rhythmic correction, usable representation or variant, coordinated performance, representative exercise, bounded capability probe or observation. Its connected uses obtain cultural transmission and development contributions from the relevant MDPE methods. |
 | Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 26 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
 | Explain how work uses resources and how that use appears in money, forecasts and performance accounts. | [Management Accounting](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A resource and cost model, capacity account, cost allocation, reconciliation, forecast, margin explanation or assessment of accounting incentives. |
 | Establish whose financial position is described, what can change it and how a financial service contributes to a participant's result. | [Financial Domain Modeling](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model of parties, rights and obligations; conditional contractual flows; an established financial effect; or a connection between a service and its use. |
@@ -67,6 +68,8 @@ For preserving or restoring equipment functioning, use the [maintenance question
 For a cost model, operating forecast or reconciliation of profit and cash, use the [management-accounting questions](ENGINEERING-DPF-SUITE-REFERENCE.md#explain-resource-use-costs-and-operating-accounts). For parties, rights, contractual events or the effects of financial actions, use the [financial-modeling questions](ENGINEERING-DPF-SUITE-REFERENCE.md#model-financial-positions-and-effects). For valuation, funding, liquidity or treasury action, use the [corporate-finance questions](ENGINEERING-DPF-SUITE-REFERENCE.md#value-investments-arrange-finance-and-manage-liquidity).
 
 For corporate authority, rights, board and committee work, disclosure or a decision, use the [corporate-governance questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-corporate-decisions-and-sustain-governing-contributions). The [interested-party transaction](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov-conflicted-matter---bring-an-interested-party-transaction-to-a-corporate-decision) connects several contributions without treating an expert opinion as the corporate act.
+
+For a rhythmic difficulty, use the [rhythm questions](ENGINEERING-DPF-SUITE-REFERENCE.md#work-with-rhythmic-relations-in-performance-and-learning). The [partnered-variation example](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md#rhy-card-01--make-a-variation-work-with-a-partner) connects recognizing a difficulty, preserving continuing movement, arranging cues and returning to the whole performance.
 
 For an explanation that someone must understand and use, start with the [explanation questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-explanation-understandable-and-usable). They distinguish the grounds for an account, its expression, the help a recipient needs and whether further repair is worthwhile.
 
@@ -105,7 +108,7 @@ The README introduces the Suite. The Reference helps you find and combine method
 
 Engineering DPF Suite brings together domain pattern languages for developing engineered systems and the work, organizations and capabilities needed for them. It serves practitioners choosing and improving methods across these fields, using FPF's shared concepts.
 
-**Current scope.** Under this purpose, the Suite includes the DPF series named in [Published DPFs](#published-dpfs), together with the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) series. This section and the declared list are the current Suite identity and membership account. Each product keeps its own field boundary, readers, methods and dated editions. The list links available editions; the future-publication catalogue records planned additions.
+**Current scope.** Under this purpose, the Suite includes the DPF series named in [Published DPFs](#published-dpfs), together with the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md) series. This section and the declared list are the current Suite identity and membership account. Each product keeps its own field boundary, readers, methods and dated editions. The list links available editions; the ecosystem catalogue describes the same products alongside the other FPF publications.
 
 Include a DPF when its accepted product boundary and published pattern language supply a useful contribution to this common purpose, its relevant FPF dependencies are stated, and readers can reach its admitted edition and conditions of use. Record inclusion by updating this declared list when that product decision takes effect. A first accepted publication can implement the product and Suite-inclusion decisions together. Subsequent editions are admitted under the product's own rules; changing an edition or its availability leaves the product's Suite membership in place.
 
@@ -115,7 +118,7 @@ Adding, removing or revising products preserves this Suite while its common purp
 
 ## Publication scope
 
-The [FPF repository's Suite table](https://github.com/ailev/FPF#engineering-dpf-suite) also lists the DPFs selected for future publication. When an available pattern does not cover a result your project needs, obtain that result from the relevant practice. The date at the start of each DPF identifies the publication you are using.
+The [FPF repository's Suite table](https://github.com/ailev/FPF#engineering-dpf-suite) gives the ecosystem view of these publications. When an available pattern does not cover a result your project needs, obtain that result from the relevant practice. The date at the start of each DPF identifies the publication you are using.
 
 ## Sources, revisions and citation
 
