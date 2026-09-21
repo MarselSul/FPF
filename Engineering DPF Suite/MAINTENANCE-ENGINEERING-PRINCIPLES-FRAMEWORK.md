@@ -24,37 +24,37 @@ Search for the maintenance difficulty or result you need. Dependencies identify 
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MNT.1 - Identify the Maintained System, Use, and Permission Boundary](#mnt1---identify-the-maintained-system-use-and-permission-boundary) | Draft | *Keywords:* equipment identity, required function, configuration, control. *Query:* "Which System and use does this maintenance question concern?" Bound the question and its operating and permission conditions. | FPF [A.1.SCR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1scr---finding-the-acting-or-changed-system), [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition); [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) |
-| 2 | [MNT.2 - Select and Reopen the Maintenance Policy](#mnt2---select-and-reopen-the-maintenance-policy) | Draft | *Keywords:* maintenance policy, corrective, preventive, condition-based, failure-finding. *Query:* "Which task should be retained or changed for this failure?" Compare applicable tasks and response conditions without a technology ladder. | [MNT.3](#mnt3---establish-degradation-and-failure-evidence), [MNT.4](#mnt4---monitor-and-interpret-current-condition), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority); FPF [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) |
-| 3 | [MNT.3 - Establish Degradation and Failure Evidence](#mnt3---establish-degradation-and-failure-evidence) | Draft | *Keywords:* failure evidence, mechanism, cause, exposure, censoring. *Query:* "What does the failure history actually support?" Separate observation, diagnosis and consequence at the resolution needed by the decision. | [MNT.1](#mnt1---identify-the-maintained-system-use-and-permission-boundary), [MNT.4](#mnt4---monitor-and-interpret-current-condition), [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity); FPF [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph), [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
-| 4 | [MNT.4 - Monitor and Interpret Current Condition](#mnt4---monitor-and-interpret-current-condition) | Draft | *Keywords:* condition monitoring, alarm, baseline, forecast, remaining life. *Query:* "What does this signal mean under the actual operating conditions?" Return a qualified condition account or the precise interpretation limit. | [MNT.1](#mnt1---identify-the-maintained-system-use-and-permission-boundary), [MNT.3](#mnt3---establish-degradation-and-failure-evidence); FPF [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
+| 1 | [MNT.1 - Identify the Maintained System, Use, and Permission Boundary](#mnt1---identify-the-maintained-system-use-and-permission-boundary) | Stable | *Keywords:* equipment identity, required function, configuration, control. *Query:* "Which System and use does this maintenance question concern?" Bound the question and its operating and permission conditions. | FPF [A.1.SCR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a1scr---finding-the-acting-or-changed-system), [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition); [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) |
+| 2 | [MNT.2 - Select and Reopen the Maintenance Policy](#mnt2---select-and-reopen-the-maintenance-policy) | Stable | *Keywords:* maintenance policy, corrective, preventive, condition-based, failure-finding. *Query:* "Which task should be retained or changed for this failure?" Compare applicable tasks and response conditions without a technology ladder. | [MNT.3](#mnt3---establish-degradation-and-failure-evidence), [MNT.4](#mnt4---monitor-and-interpret-current-condition), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority); FPF [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) |
+| 3 | [MNT.3 - Establish Degradation and Failure Evidence](#mnt3---establish-degradation-and-failure-evidence) | Stable | *Keywords:* failure evidence, mechanism, cause, exposure, censoring. *Query:* "What does the failure history actually support?" Separate observation, diagnosis and consequence at the resolution needed by the decision. | [MNT.1](#mnt1---identify-the-maintained-system-use-and-permission-boundary), [MNT.4](#mnt4---monitor-and-interpret-current-condition), [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity); FPF [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph), [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
+| 4 | [MNT.4 - Monitor and Interpret Current Condition](#mnt4---monitor-and-interpret-current-condition) | Stable | *Keywords:* condition monitoring, alarm, baseline, forecast, remaining life. *Query:* "What does this signal mean under the actual operating conditions?" Return a qualified condition account or the precise interpretation limit. | [MNT.1](#mnt1---identify-the-maintained-system-use-and-permission-boundary), [MNT.3](#mnt3---establish-degradation-and-failure-evidence); FPF [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
 
 **Part B - Readiness, Intervention Choice, Coordination, and Protection**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 5 | [MNT.5 - Prepare Maintenance Service Capability, Spares, Tools, and Authority](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) | Draft | *Keywords:* spare applicability, tools, competence, readiness, lead time. *Query:* "Can the selected maintenance task obtain usable support in time?" Establish task-specific readiness or its action-changing deficiency. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention); [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-an-engineering-platform-for-practitioner-work); FPF [A.2.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22---ucapability---system-ability-envelope-and-measures) |
-| 6 | [MNT.6 - Diagnose Condition and Select an Intervention](#mnt6---diagnose-condition-and-select-an-intervention) | Draft | *Keywords:* diagnosis, repair, replace, defer, restriction, recommendation. *Query:* "What maintenance response is supported now?" Compare plausible interventions and finish sufficient advice without compulsory physical work. | [MNT.3](#mnt3---establish-degradation-and-failure-evidence), [MNT.4](#mnt4---monitor-and-interpret-current-condition), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); FPF [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) |
-| 7 | [MNT.7 - Coordinate Intervention and Continuing Operation](#mnt7---coordinate-intervention-and-continuing-operation) | Draft | *Keywords:* outage, service capacity, preparation, testing, restoration, contingency. *Query:* "Does the whole intervention fit the operating commitment?" Compare complete elapsed demand with the qualified service envelope. | [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention); [OPS.10](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops10---qualify-capacity-under-variability) |
-| 8 | [MNT.8 - Isolate, Make Safe, and Authorize the Intervention](#mnt8---isolate-make-safe-and-authorize-the-intervention) | Draft | *Keywords:* isolation, energy, protection, intervention permission, scope. *Query:* "What supports beginning this protected intervention?" Establish applicable actual protection and bounded authority, or return the unmet condition. | [MNT.1](#mnt1---identify-the-maintained-system-use-and-permission-boundary), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); FPF [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) |
+| 5 | [MNT.5 - Prepare Maintenance Service Capability, Spares, Tools, and Authority](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) | Stable | *Keywords:* spare applicability, tools, competence, readiness, lead time. *Query:* "Can the selected maintenance task obtain usable support in time?" Establish task-specific readiness or its action-changing deficiency. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention); [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-an-engineering-platform-for-practitioner-work); FPF [A.2.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a22---ucapability---system-ability-envelope-and-measures) |
+| 6 | [MNT.6 - Diagnose Condition and Select an Intervention](#mnt6---diagnose-condition-and-select-an-intervention) | Stable | *Keywords:* diagnosis, repair, replace, defer, restriction, recommendation. *Query:* "What maintenance response is supported now?" Compare plausible interventions and finish sufficient advice without compulsory physical work. | [MNT.3](#mnt3---establish-degradation-and-failure-evidence), [MNT.4](#mnt4---monitor-and-interpret-current-condition), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); FPF [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---decision-useful-advice-and-evidence-demands) |
+| 7 | [MNT.7 - Coordinate Intervention and Continuing Operation](#mnt7---coordinate-intervention-and-continuing-operation) | Stable | *Keywords:* outage, service capacity, preparation, testing, restoration, contingency. *Query:* "Does the whole intervention fit the operating commitment?" Compare complete elapsed demand with the qualified service envelope. | [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention); [OPS.10](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops10---qualify-capacity-under-variability) |
+| 8 | [MNT.8 - Isolate, Make Safe, and Authorize the Intervention](#mnt8---isolate-make-safe-and-authorize-the-intervention) | Stable | *Keywords:* isolation, energy, protection, intervention permission, scope. *Query:* "What supports beginning this protected intervention?" Establish applicable actual protection and bounded authority, or return the unmet condition. | [MNT.1](#mnt1---identify-the-maintained-system-use-and-permission-boundary), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); FPF [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) |
 
 **Part C - Performed Intervention, Functioning, and Return to Use**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 9 | [MNT.9 - Perform and Record the Maintenance Intervention](#mnt9---perform-and-record-the-maintenance-intervention) | Draft | *Keywords:* performed maintenance, deviation, interruption, actual parts, work record. *Query:* "What work actually occurred and in what resulting state?" Perform within operative conditions and preserve useful intervention evidence. | [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-intervention); FPF [A.13](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a13---the-agential-role--agency-spectrum), [A.15.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a151---uwork) |
-| 10 | [MNT.10 - Verify Restored Functioning](#mnt10---verify-restored-functioning) | Draft | *Keywords:* restored function, representative load, verification, test limits. *Query:* "What required functioning does the evidence support?" Check the actual resulting configuration and return qualified functioning evidence. | [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention); FPF [B.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b3---trust-and-assurance-calculus), [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph), [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
-| 11 | [MNT.11 - Certify, Hand Back, and Authorize Resumed Use](#mnt11---certify-hand-back-and-authorize-resumed-use) | Draft | *Keywords:* hand-back, release, certification, control, resumed use. *Query:* "Who can resume which use of the returned System?" Reconcile functioning, state and applicable release conditions while transferring control. | [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-intervention), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention), [MNT.10](#mnt10---verify-restored-functioning); FPF [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) |
+| 9 | [MNT.9 - Perform and Record the Maintenance Intervention](#mnt9---perform-and-record-the-maintenance-intervention) | Stable | *Keywords:* performed maintenance, deviation, interruption, actual parts, work record. *Query:* "What work actually occurred and in what resulting state?" Perform within operative conditions and preserve useful intervention evidence. | [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-intervention); FPF [A.13](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a13---the-agential-role--agency-spectrum), [A.15.1](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a151---uwork) |
+| 10 | [MNT.10 - Verify Restored Functioning](#mnt10---verify-restored-functioning) | Stable | *Keywords:* restored function, representative load, verification, test limits. *Query:* "What required functioning does the evidence support?" Check the actual resulting configuration and return qualified functioning evidence. | [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention); FPF [B.3](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b3---trust-and-assurance-calculus), [A.10](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a10---evidence-graph-referring-claim-bound-evidence-and-provenance-graph), [C.16](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c16---measurement--metrics-characterization-mmchr) |
+| 11 | [MNT.11 - Certify, Hand Back, and Authorize Resumed Use](#mnt11---certify-hand-back-and-authorize-resumed-use) | Stable | *Keywords:* hand-back, release, certification, control, resumed use. *Query:* "Who can resume which use of the returned System?" Reconcile functioning, state and applicable release conditions while transferring control. | [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-intervention), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention), [MNT.10](#mnt10---verify-restored-functioning); FPF [A.2.8.PER](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition) |
 
 **Part D - Information, Programme, Methods, Simultaneous Work, and Culture**
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 12 | [MNT.12 - Maintain Maintenance Information and Configuration Continuity](#mnt12---maintain-maintenance-information-and-configuration-continuity) | Draft | *Keywords:* maintenance history, serial unit, configuration, effectivity, event coding. *Query:* "Which history and description apply to this installed state?" Restore event and configuration continuity for the receiving decision. | [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity); [MNT.3](#mnt3---establish-degradation-and-failure-evidence), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention) |
-| 13 | [MNT.13 - Coordinate the Maintenance Programme and Fleet Learning](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) | Draft | *Keywords:* fleet, programme, failure rate, exposure, support, improvement. *Query:* "What does comparable fleet evidence warrant changing?" Return a qualified programme decision with its population and causal limits. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity); FPF [E.23](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23---quality-improvement-loop-method) |
-| 14 | [MNT.14 - Compare and Refresh Maintenance Methods](#mnt14---compare-and-refresh-maintenance-methods) | Draft | *Keywords:* Method comparison, predictive maintenance, practical worth, variant, refresh. *Query:* "Should this way of obtaining maintenance results be retained or replaced?" Compare the same use and whole burden, with conditional trials and useful retain decisions. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning); [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-practical-worth-against-current-alternatives), [ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me15---maintain-method-variants-provenance-and-reuse) |
-| 15 | [MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) | Draft | *Keywords:* simultaneous work, shared specialist, overload, fallback, coordination. *Query:* "Why do individually feasible jobs fail together?" Resolve shared demands and moved burden at the whole-combination scope. | [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); FPF [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures); [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts) |
-| 16 | [MNT.16 - Deliberately Continue and Change Maintenance Culture](#mnt16---deliberately-continue-and-change-maintenance-culture) | Draft | *Keywords:* maintenance culture, transmission, enactment, recognition, retention. *Query:* "Is the practice actually being continued or changed?" Separate availability, actual use and effects, and select a supported continuation. | [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning), [MNT.14](#mnt14---compare-and-refresh-maintenance-methods); FPF [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) |
+| 12 | [MNT.12 - Maintain Maintenance Information and Configuration Continuity](#mnt12---maintain-maintenance-information-and-configuration-continuity) | Stable | *Keywords:* maintenance history, serial unit, configuration, effectivity, event coding. *Query:* "Which history and description apply to this installed state?" Restore event and configuration continuity for the receiving decision. | [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity); [MNT.3](#mnt3---establish-degradation-and-failure-evidence), [MNT.9](#mnt9---perform-and-record-the-maintenance-intervention) |
+| 13 | [MNT.13 - Coordinate the Maintenance Programme and Fleet Learning](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) | Stable | *Keywords:* fleet, programme, failure rate, exposure, support, improvement. *Query:* "What does comparable fleet evidence warrant changing?" Return a qualified programme decision with its population and causal limits. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity); FPF [E.23](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#e23---quality-improvement-loop-method) |
+| 14 | [MNT.14 - Compare and Refresh Maintenance Methods](#mnt14---compare-and-refresh-maintenance-methods) | Stable | *Keywords:* Method comparison, predictive maintenance, practical worth, variant, refresh. *Query:* "Should this way of obtaining maintenance results be retained or replaced?" Compare the same use and whole burden, with conditional trials and useful retain decisions. | [MNT.2](#mnt2---select-and-reopen-the-maintenance-policy), [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning); [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-practical-worth-against-current-alternatives), [ME.15](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me15---maintain-method-variants-provenance-and-reuse) |
+| 15 | [MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) | Stable | *Keywords:* simultaneous work, shared specialist, overload, fallback, coordination. *Query:* "Why do individually feasible jobs fail together?" Resolve shared demands and moved burden at the whole-combination scope. | [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority), [MNT.6](#mnt6---diagnose-condition-and-select-an-intervention), [MNT.7](#mnt7---coordinate-intervention-and-continuing-operation); FPF [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures); [ME.6](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me6---compare-method-architecture-alternatives-and-simultaneous-enactment-conflicts) |
+| 16 | [MNT.16 - Deliberately Continue and Change Maintenance Culture](#mnt16---deliberately-continue-and-change-maintenance-culture) | Stable | *Keywords:* maintenance culture, transmission, enactment, recognition, retention. *Query:* "Is the practice actually being continued or changed?" Separate availability, actual use and effects, and select a supported continuation. | [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning), [MNT.14](#mnt14---compare-and-refresh-maintenance-methods); FPF [C.36](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering) |
 
 # Maintenance Engineering and Management Principles Framework Readme
 
@@ -220,7 +220,7 @@ The supporting DPF results have concrete receiving uses. [SYSE.12](SYSTEMS-ENGIN
 ## MNT.1 - Identify the Maintained System, Use, and Permission Boundary
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.1:1 - Problem frame
 
@@ -303,7 +303,7 @@ The practice question is which boundary makes maintenance advice useful. This pa
 ## MNT.2 - Select and Reopen the Maintenance Policy
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.2:1 - Problem frame
 
@@ -392,7 +392,7 @@ For the question “Which task is worth performing for this failure?”, this pa
 ## MNT.3 - Establish Degradation and Failure Evidence
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.3:1 - Problem frame
 
@@ -481,7 +481,7 @@ The practice question is how much failure knowledge is sufficient for a maintena
 ## MNT.4 - Monitor and Interpret Current Condition
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.4:1 - Problem frame
 
@@ -574,7 +574,7 @@ For the question “Does this monitoring arrangement improve the maintenance dec
 ## MNT.5 - Prepare Maintenance Service Capability, Spares, Tools, and Authority
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.5:1 - Problem frame
 
@@ -655,7 +655,7 @@ The question is how to turn nominal resources into a feasible maintenance respon
 ## MNT.6 - Diagnose Condition and Select an Intervention
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.6:1 - Problem frame
 
@@ -747,7 +747,7 @@ The practice question is how condition knowledge becomes an actionable maintenan
 ## MNT.7 - Coordinate Intervention and Continuing Operation
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.7:1 - Problem frame
 
@@ -837,7 +837,7 @@ The practice question is whether maintenance can fit the real operating commitme
 ## MNT.8 - Isolate, Make Safe, and Authorize the Intervention
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.8:1 - Problem frame
 
@@ -922,7 +922,7 @@ For the question “What supports beginning this protected intervention?”, thi
 ## MNT.9 - Perform and Record the Maintenance Intervention
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.9:1 - Problem frame
 
@@ -1003,7 +1003,7 @@ The practice question is how to preserve reliable continuation when work differs
 ## MNT.10 - Verify Restored Functioning
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.10:1 - Problem frame
 
@@ -1088,7 +1088,7 @@ The practice question is what evidence warrants a restored-functioning claim aft
 ## MNT.11 - Certify, Hand Back, and Authorize Resumed Use
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.11:1 - Problem frame
 
@@ -1171,7 +1171,7 @@ The practice question is what a maintenance completion claim permits the receive
 ## MNT.12 - Maintain Maintenance Information and Configuration Continuity
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.12:1 - Problem frame
 
@@ -1252,7 +1252,7 @@ The practice question is which information is sufficient for a maintenance decis
 ## MNT.13 - Coordinate the Maintenance Programme and Fleet Learning
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.13:1 - Problem frame
 
@@ -1335,7 +1335,7 @@ The question is how fleet evidence should change a maintenance programme. This p
 ## MNT.14 - Compare and Refresh Maintenance Methods
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.14:1 - Problem frame
 
@@ -1416,7 +1416,7 @@ The practice question is when a new maintenance approach is worth adopting. This
 ## MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.15:1 - Problem frame
 
@@ -1503,7 +1503,7 @@ The question is why individually feasible maintenance plans fail together. This 
 ## MNT.16 - Deliberately Continue and Change Maintenance Culture
 
 > **Type:** Method
-> **Status:** Draft
+> **Status:** Stable
 
 ### MNT.16:1 - Problem frame
 

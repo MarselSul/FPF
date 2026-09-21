@@ -49,7 +49,7 @@ An AI agent can therefore help choose the **next justified move** without preten
 | --- | --- | --- |
 | [**FPF Core Conceptual Specification**](./FPF-Spec.md) | A transdisciplinary language for entities and relations, Systems, Methods, Work, descriptions, claims, evidence, decisions, architecture, quality, improvement, cultural evolution, publication, and precise language. | What exactly are we discussing? What claim is being made? Which relation obtains? What may the evidence support? Which decision is current? What Work actually occurred? |
 | [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/) | Mathematical Thinking, Mathematical Modeling, Physical Thinking, Computational Thinking and Notational Engineering, with a Reference for their connected use. | How do we enter an unfamiliar problem, connect its different kinds of reasoning, use the result and change the way of working? |
-| [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published and planned FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
+| [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) | Published FPF-grounded domain pattern languages for engineering, operation, maintenance, organizational change, decision support, human development, and other practices, plus a Suite Reference for questions that draw on several DPFs. | Which System and use are current? Which architecture, interface, configuration, obtaining arrangement, Method, capability, verification result, or change is needed? |
 | [**Narrativization and Narrative Studies DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md) | Patterns for turning selected source structure into a followable narrative while preserving recoverability, evidence limits, agency boundaries, viewpoint choices, and source return. Includes human and automated narrativization. | What source structure must survive the rendering? What may be compressed or reordered? Did a fluent narrative invent causality, agency, certainty, permission, or authority? |
 
 ### Foundational Thinking DPF Suite
@@ -76,14 +76,14 @@ The [Computational Thinking publication](./Foundational%20Thinking%20DPF%20Suite
 
 #### Notational Engineering
 
-The [Notational Engineering publication](./Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) contains eight patterns for designing expressions and their use. Start with NT-CHOOSE when the notation's requirements are unclear, NT-READ when its signs leave the reading procedure tacit, or NT-COORDINATE when several forms must change together. The methods cover grouping and binding, interpretation, meaning-preserving transformation, translation losses, complementary representations, difficult reading operations, and temporal or embodied notation. The Preface follows a formula, graph and table through a changed request without overwriting independent observations.
+The [Notational Engineering publication](./Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md) contains eight patterns for designing expressions and their use. Use the [connected examples](./Foundational%20Thinking%20DPF%20Suite/NOTATIONAL-ENGINEERING-DPF.md#notational-engineering---readme) to follow a changed request through several representations, or keep a sequence usable when its reader or reference frame changes. The methods cover grouping and binding, interpretation, meaning-preserving transformation, translation losses, complementary representations, difficult reading operations, and temporal or embodied notation. The Preface follows a formula, graph and table through a changed request without overwriting independent observations.
 
 ### Engineering DPF Suite
 
 
-The table lists 20 DPFs in the current Suite plan. **Published - N patterns** gives the number of pattern bodies in the linked publication; **Planned publication** marks a selected DPF whose text is not yet available here. Each published DPF has a full pattern index.
+The table lists the 20 published DPFs in the Suite. **Published - N patterns** gives the number of pattern bodies in the linked publication. Each DPF has a full pattern index.
 
-| Domain pattern language | Publication status | What it covers or is planned to cover |
+| Domain pattern language | Publication status | What it covers |
 | --- | --- | --- |
 | [**Systems Engineering DPF**](./Engineering%20DPF%20Suite/SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published - 41 patterns | project System focus; intended use; affected Systems; problem and System-family options; functional organization; architecture and interfaces; specialist contributions; build, buy, provider, reuse, AI, or hybrid arrangements; recursive realization; integration; platforms; configuration and effectivity; release evidence; source change; evolvability; overlapping Work; and engineering culture. |
 | [**Method Engineering DPF**](./Engineering%20DPF%20Suite/METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published - 26 patterns | choosing and recovering Methods from sources and observed Work; using mathematical constructions to compare and change ways of working; designing Method architectures, descriptions, complementary representations and supporting arrangements; testing coherence, situational fit, transfer and practical worth; maintaining variants and improving practice and culture; and constructing and refreshing MethodDescriptions in pattern-language form. |
@@ -241,7 +241,7 @@ The framework is an **eternal alpha**: it is usable now and continuously revised
 
 ## License and reuse
 
-The original FPF and DPF content by Anatoly Levenchuk, including the Engineering DPF Suite and Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](./LICENSING.md) for the full notice and third-party and software boundaries.
+The original FPF and DPF content by Anatoly Levenchuk, including both DPF Suites and the Narrativization DPF, is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): you may share and adapt it, including commercially, with attribution, a license link and an indication of changes. See the [licensing scope](./LICENSING.md) for the full notice and third-party and software boundaries.
 
 You choose the license for your own original DPF or LPF. Using FPF methods or its publication form does not impose CC BY on your work. When sharing licensed FPF or DPF text under CC BY 4.0, preserve its attribution and comply with the license. Where your use needs no copyright permission, including under an applicable exception, these conditions do not apply. The license has no ShareAlike requirement.
 

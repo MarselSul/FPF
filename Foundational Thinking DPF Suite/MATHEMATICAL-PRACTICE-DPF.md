@@ -43,11 +43,11 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosy
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 1 | [MATH.19 - Construct a Proof through Intermediate Claims](#math19---construct-a-proof-through-intermediate-claims) | Draft | lemma; backward and forward reasoning; generalization; proof dependency. Which intermediate claim connects the available premises to the desired conclusion? | B.5.RA for recovery of a supplied argument; MATH.4 for induction; MATH.6 for a separating case; MATH.12 for obtaining an object from the proof. |
+| 1 | [MATH.19 - Construct a Proof through Intermediate Claims](#math19---construct-a-proof-through-intermediate-claims) | Stable | lemma; backward and forward reasoning; generalization; proof dependency. Which intermediate claim connects the available premises to the desired conclusion? | B.5.RA for recovery of a supplied argument; MATH.4 for induction; MATH.6 for a separating case; MATH.12 for obtaining an object from the proof. |
 | 2 | [MATH.4 - Construct a Witness by Induction](#math4---construct-a-witness-by-induction) | Usable, evolving | induction; recursive witness; base and step; representation. How can a proof supply an object for every finite input? Does the construction respect equivalent representations? | MATH.2 when a recursive construction must respect identification; MATH.12 for extracting constructions from other proof rules. |
 | 3 | [MATH.12 - Extract a Construction from a Proof](#math12---extract-a-construction-from-a-proof) | Usable, evolving | constructive proof; witness; function; pair; branch; finite search; computation. Which data-producing operation does a proof supply, and what is needed to execute it? | B.5.RA for an unfamiliar argument; MATH.4 for induction; C.29.2/.3 for formulation or execution questions. |
 | 4 | [MATH.6 - Construct a Countermodel](#math6---construct-a-countermodel) | Usable, evolving | counterexample; countermodel; quantifiers; finite scope; encoding. What concrete structure refutes the claim? What does an unsuccessful bounded search leave unresolved? | B.5.RA if the claim's argument needs recovery; MATH.2 when the counterexample defeats an identification. |
-| 5 | [MATH.20 - Bound an Unknown by Comparable Constructions](#math20---bound-an-unknown-by-comparable-constructions) | Draft | bound; inequality; enclosure; relaxation; attainability; residual and error. Which comparison can answer the question before the whole unknown is obtained? | MATH.19 for an intermediate inequality; MATH.6 for a failed bound; MATH.21 for convergent approximation; FPF for choosing further work. |
+| 5 | [MATH.20 - Bound an Unknown by Comparable Constructions](#math20---bound-an-unknown-by-comparable-constructions) | Stable | bound; inequality; enclosure; relaxation; attainability; residual and error. Which comparison can answer the question before the whole unknown is obtained? | MATH.19 for an intermediate inequality; MATH.6 for a failed bound; MATH.21 for convergent approximation; FPF for choosing further work. |
 
 ## Part C - Change a construction and develop its theory
 
@@ -58,9 +58,9 @@ To cite this edition: Anatoly Levenchuk, *Mathematical Thinking DPF*, [FPF ecosy
 | 3 | [MATH.8 - Generate a Solution Family by Symmetry](#math8---generate-a-solution-family-by-symmetry) | Usable, evolving | group action; solution orbit; stabilizer; repetitions; representatives. Which solutions can be generated from one solution, and how much of the solution set does this cover? | MATH.13 for an unresolved symmetry consequence; MATH.9 when one compatible representative is required. |
 | 4 | [MATH.9 - Construct a Choice Rule That Respects Symmetry](#math9---construct-a-choice-rule-that-respects-symmetry) | Usable, evolving | equivariant choice; stabilizer; symmetry obstruction; additional data. Can one allowed answer be chosen consistently with symmetry? What can replace an impossible choice? | MATH.8 for solution orbits; MATH.13 for an earlier consequence or uniqueness question. |
 | 5 | [MATH.10 - Derive a Condition from an Admissible Variation](#math10---derive-a-condition-from-an-admissible-variation) | Usable, evolving | admissible variation; stationary point; boundary minimum; constraint; first variation. Which change is allowed, what condition follows, and is it enough for a minimum? | B.5.RA if the variational argument needs recovery; C.29 when a mathematical variation represents a subject change. |
-| 6 | [MATH.21 - Construct an Object through Convergent Approximations](#math21---construct-an-object-through-convergent-approximations) | Draft | limit; completeness; compatible approximation; uniform convergence; error control. How can finite approximations construct an object while retaining the next operation? | MATH.20 for bounds; MATH.19 for convergence and interchange arguments; MATH.2 for classes of representations; computational methods for effective obtaining. |
-| 7 | [MATH.22 - Change Axioms and Trace Their Consequences](#math22---change-axioms-and-trace-their-consequences) | Draft | axiom change; theory; interpretation; model; independence; proof repair. Which constructions and consequences survive when assumptions change? | MATH.18 for interpretations; MATH.19 for replacement proofs; MATH.6 for countermodels; MATH.23 for a further conjecture. |
-| 8 | [MATH.23 - Develop a Conjecture by Changing a Construction](#math23---develop-a-conjecture-by-changing-a-construction) | Draft | conjecture; construction variation; proof and refutation; generalization; next problem. How can a change or obstruction yield a precise useful claim and an attainable next operation? | MATH.19 for proof construction; MATH.6 for refutation; MATH.22 for theory change; B.5.QD/C.40.CD for continued inquiry. |
+| 6 | [MATH.21 - Construct an Object through Convergent Approximations](#math21---construct-an-object-through-convergent-approximations) | Stable | limit; completeness; compatible approximation; uniform convergence; error control. How can finite approximations construct an object while retaining the next operation? | MATH.20 for bounds; MATH.19 for convergence and interchange arguments; MATH.2 for classes of representations; computational methods for effective obtaining. |
+| 7 | [MATH.22 - Change Axioms and Trace Their Consequences](#math22---change-axioms-and-trace-their-consequences) | Stable | axiom change; theory; interpretation; model; independence; proof repair. Which constructions and consequences survive when assumptions change? | MATH.18 for interpretations; MATH.19 for replacement proofs; MATH.6 for countermodels; MATH.23 for a further conjecture. |
+| 8 | [MATH.23 - Develop a Conjecture by Changing a Construction](#math23---develop-a-conjecture-by-changing-a-construction) | Stable | conjecture; construction variation; proof and refutation; generalization; next problem. How can a change or obstruction yield a precise useful claim and an attainable next operation? | MATH.19 for proof construction; MATH.6 for refutation; MATH.22 for theory change; B.5.QD/C.40.CD for continued inquiry. |
 
 # Mathematical Thinking - Readme
 
@@ -1820,7 +1820,7 @@ For a prepared change of coordinates, explicit inverse maps can be enough. A bro
 ## MATH.19 - Construct a Proof through Intermediate Claims
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.19:1 - Problem frame
@@ -2712,7 +2712,7 @@ Direct construction, a supplied counterexample and a proof are meaningful altern
 ## MATH.20 - Bound an Unknown by Comparable Constructions
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.20:1 - Problem frame
@@ -4085,7 +4085,7 @@ Revisit the construction when constraints, regularity, candidate class or the re
 ## MATH.21 - Construct an Object through Convergent Approximations
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.21:1 - Problem frame
@@ -4290,7 +4290,7 @@ Use the weakest established condition that supports the requested result. Reopen
 ## MATH.22 - Change Axioms and Trace Their Consequences
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.22:1 - Problem frame
@@ -4498,7 +4498,7 @@ Retain these approaches while their constructions answer the local question at a
 ## MATH.23 - Develop a Conjecture by Changing a Construction
 
 > **Type:** Method pattern
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 ### MATH.23:1 - Problem frame
