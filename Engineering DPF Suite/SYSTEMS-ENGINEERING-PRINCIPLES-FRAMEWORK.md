@@ -4422,13 +4422,18 @@ Use a specialist result only where it can change the comparison. Examples includ
 - Finance for funding, cash, valuation, and financial-risk claims;
 - commercial and legal practice for offers, duties, remedies, rights, licences, and contracting;
 - Governance or Administration for permission, accountability, tender, and public-procedure claims;
-- Organization Change Engineering for positions, assignments, authority, human–AI or provider Work allocation,
-  and internal capability arrangements;
-- Operations Management for continuing demand, capacity, queues, service, exceptions, and provider performance;
+- Organization Change Engineering when the arrangement requires changing organizational structure,
+  position responsibilities or decision rights;
+- Operations Management for continuing demand, capacity, queues, allocating Work within an existing authorized
+  arrangement, service, exceptions, and provider performance;
 - Enterprise Asset Management for portfolio-level acquire, retain, modify, share, or retire decisions;
 - Human Capability Development for a person's capability-development programme; and
 - safety, security, environmental, clinical, or other application practices for their acceptance and assurance
   results.
+
+Assigning a new case to an already qualified performer under existing authority is an operating allocation.
+Changing an analyst position's authority from preparing results to authorizing them changes the organizational
+arrangement. A needed capability-development result remains a separate contribution in either case.
 
 The Systems Engineering comparison cites the specialist result it uses and preserves that result's conditions.
 The responsible specialist practice and authorized Agent still supply such results as the contract form, spending

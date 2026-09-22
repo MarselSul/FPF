@@ -211,6 +211,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | B.5.TU | **Construct a Working Use of an Unfamiliar Theory** | Draft | Use when a theory seems useful but its objects and reasoning have not yet been connected to a usable answer. Recover the needed operations, work one application and interpret its consequence for the question. *Queries:* "What can this theory help me do?", "Which input or operation is missing?", "Why does a correct calculation fail to answer the working question?", "What must I understand to use or change this result?" | **Coordinates with:** B.5, B.5.RC, B.5.RA and B.5.RR for reasoning; C.29 and A.6.3.RT for mathematical correspondence and expression; A.15.9 for bounded help. |
 | B.5.TC | **Compare Theoretical Accounts for a Working Question** | Draft | Use when accounts appear to disagree or compete for a use. Construct their applications to the same case, locate the consequential difference and choose a sufficient account, complementary use or worthwhile inquiry. *Queries:* "Do these theories answer the same question?", "Does the disagreement come from a premise, a model or its computation?", "When is the simpler account enough?", "What observation or construction would resolve the difference that matters?" | **Coordinates with:** B.5.TU, B.5.RA and B.5.RR for applications and reasoning; C.29.1, C.29.2 and C.29.3 for transfer and computation; C.28 for causal use; F.0.2 for synthesis; C.11.DUA for worthwhile inquiry. |
 | B.5.QD | **Develop a New Question from a Result or Construction** | Draft | Use when a counterexample, result or newly available operation changes what could be investigated but the next question is unclear. Recover the changed dependency, construct the answer form and work a revealing case before choosing the inquiry. *Queries:* "What useful question follows from this failure?", "What can we now ask using this construction?", "Can a bound answer the need?", "Which next problem opens further work?" | **Coordinates with:** B.5.RA and B.5.RR for reasoning; B.5.MPC for joint contributions; C.39 and C.40 for methods and coupled development; E.10.INT and C.11.DUA for worthwhile inquiry. |
+| B.5.QD.CF | **Reformulate a Problem by Examining Its Conflicting Assumptions** | Stable | Use when needed outcomes appear incompatible and examining their premises could reveal another way. Recover the need, expose an assumed necessity or shared condition, construct a new question or candidate way, and return to the retained requirements. *Queries:* "Which assumption makes these requirements conflict?", "Is this means necessary?", "What remains impossible under the retained conditions?" | **Specializes:** B.5.QD. **Uses:** B.5.FM, B.5.RA and B.5.TC. **Coordinates with:** C.40.CD, C.11.DUA and B.1.5.EW. |
 | B.5.1 | **Explore → Shape → Evidence → Operate** | Stable | *Keywords:* development state cycle, open-ended progression, state machine, Explore, Shape, Evidence, Operate. *Queries:* "What states can project work and its records pass through in FPF?" | **Builds on:** B.5. |
 | B.5.2 | **Abductive Loop** | Stable | *Keywords:* abduction, explanatory prompt, candidate hypotheses, plausibility filters, origin trace, route-to-hypothesis. *Queries:* "How does FPF model abductive hypothesis generation?", "What is the abductive loop?" | **Builds on:** B.5, B.5.2.0, A.10, B.3.3. **Coordinates with:** B.4.1, A.16, A.6.P. |
 | B.5.2.0 | **`U.AbductivePrompt`** | Stable | *Keywords:* abductive prompt, prompt species, rival-set discipline, threshold crossing, explanation-ready cue. *Queries:* "When is a routed cue ready to enter abduction?", "What prompt species does FPF distinguish before hypothesis work begins?" | **Builds on:** B.4.1, A.16, C.2.2a. **Coordinates with:** A.6.P, A.6.A, C.16.Q. **Used by:** B.5.2. |
@@ -42879,6 +42880,8 @@ Separate the subject from its description, the intended result from a convenient
 
 If a participant senses that an account misses something but cannot yet express what, B.5.EA helps develop a correctable distinction from their experience. Use the resulting question or contrast here; a better expression does not by itself establish a claim about the world.
 
+An expressible account can still omit a consequential relation. B.5.FM:4.2.1 uses a small conceptual scheme to find a question through that relation, while distinguishing an unknown contribution from an inapplicable scheme. Use an already adequate answer directly.
+
 When the current formulation is inadequate, vary a consequential element. Useful operations include:
 
 - change the quantity or distinction that the answer must preserve;
@@ -44618,6 +44621,8 @@ Inspect a small instance or the available arrangement. Describe the supplied fac
 
 If the participant cannot yet express what differs or matters, B.5.EA helps articulate that contribution before model construction. Return here when the resulting distinction permits a question or contrast; do not require this preliminary work when the contrast is already usable.
 
+When the current account is clear but leaves you unsure which question matters, the scheme comparison in :4.2.1 can expose a useful distinction. A discovered question may already have an adequate answer; use it without requiring a larger model.
+
 An existing answer may already resolve the contrast. Use it under its conditions. C.11.DUA helps when obtaining more information or refining a model competes with acting on a sufficient answer.
 
 #### B.5.FM:4.2 - Choose the participants and distinctions
@@ -44627,6 +44632,28 @@ Follow what can be transformed, exchanged, combined, constrained or observed. Pr
 Try a consequential variation. If two situations receive the same description but permit different answers, recover the distinction that separates them. An object can need several quantities; several objects can sometimes be represented together. Choose the coarsening from the inference it must preserve.
 
 For a question about permitted continuations, A.3.3 helps construct a sufficient state description. For an observation, C.16 helps connect the quantity of interest to what the observation reports.
+
+#### B.5.FM:4.2.1 - Let a conceptual scheme expose a useful question
+
+Start from what the current account is meant to enable, even when the question is provisional: prepare a workshop, interpret an effect or improve a construction. Choose a small, understood conceptual scheme whose relations could reveal a consequential distinction. Here a scheme means related concepts and the inferences their relations permit. For example, connecting a learner's attempt, what an instructor can observe and the feedback required can expose a question that a seating plan leaves unanswered.
+
+State the possible contribution before expanding the account. Recover the selected relation's participants, conditions and a consequence; B.5.TU helps if that theoretical contribution is unfamiliar. Use B.5.4 to construct its tentative correspondence to the case. Keep what the source account says distinguishable from what the scheme suggests adding. A sketch or ordinary question can carry the correspondence.
+
+When a relation appears absent, distinguish the following outcomes:
+
+| What is available | Useful continuation |
+| --- | --- |
+| The account already supplies the relation and answer. | Use them. |
+| The relation applies, but a participant or condition is unknown. | Ask whether resolving it could change the work. |
+| The relation does not apply under the scheme's own conditions. | Drop that question or try an applicable scheme. |
+| The expression cannot represent the needed distinction. | Change the expression or scheme; A.6.3.RT helps when that change needs work. |
+| The scheme conflicts with a consequential part of the case. | Reconsider the correspondence or assumption before using its consequence. |
+
+An empty position in a diagram establishes none of these outcomes by itself. If adapting a scheme changes a relation's meaning, state that change and reconsider the conclusions that depend on it.
+
+Try two plausible answers when that cheaply reveals what is at stake. If both permit the same sufficient continuation, stop the additional inquiry. Otherwise formulate the question in the participant's working language and say what answer would help: a condition, construction, distinction or bound. The benefit can concern a later inquiry or a new method. C.11.DUA governs whether obtaining the answer is worth its burden; no record of declining an unnecessary inquiry is required.
+
+Use the resulting answer directly or continue constructing the model it needs. A subject specialist or AI can supply a relation, correspondence or calculation; the required knowledge and access depend on that contribution. Selecting a scheme creates no requirement to traverse a whole ontology or to learn every relation before making the useful move.
 
 #### B.5.FM:4.3 - Build relations that can produce a consequence
 
@@ -44718,6 +44745,16 @@ The inference works because each extension produces a distinct string, deleting 
 
 If the restriction changes to “no three consecutive 1s”, the same grouping loses a needed distinction. Separate prefixes with zero, one or two trailing 1s and reconstruct the permitted transitions. This change identifies what the state must retain; the subsequent recurrence or program is a further computational contribution.
 
+#### B.5.FM:5.4 - Find the limiting relation in a workshop plan
+
+Twelve people have accepted a 60-minute workshop. There are twelve seats and one instructor. The proposed arrangement gives each person a four-minute attempt observed by that instructor, then two minutes of the instructor's feedback before the next attempt begins. The initial plan lists attendance and materials.
+
+Use the relation between attempted action, observation and feedback to ask whether the intended practice can occur in the session. The sequential arrangement requires `12 * (4 + 2) = 72` minutes before any introduction. The next question is which arrangement can supply the intended practice and feedback within the available time. Reducing attendance, increasing duration or changing the learning arrangement have different consequences. Merely pairing learners supplies the required feedback only if they can provide that contribution.
+
+Now suppose twelve independent stations already provide the required task-specific feedback and can be used concurrently. The serial calculation no longer describes the work. Use the concurrent duration and the remaining session activities to decide whether the arrangement fits; this reasoning does not require another instructor. If the intended event is instead a demonstration with no individual practice, the individual-feedback relation does not impose that practice on it. Clarify the event's purpose before treating this scheme as applicable.
+
+The same question-forming move can use a measurement scheme: a shared column label, such as temperature, leaves the relevant quantity, observing conditions and aggregation to be recovered before combining records. If the existing documentation already establishes their suitability, use that answer. The scheme supplies a question, not a compulsory new measurement.
+
 ### B.5.FM:6 - Bias-Annotation
 
 The examples use small explicit accounts so that the reader can inspect the construction. Complex systems can require learned representations, instruments and multiple specialist contributions. Their suitability depends on the inference and available means.
@@ -44763,6 +44800,14 @@ B.5 coordinates the overall inquiry. This method develops its model-building con
 **Construction as a reasoning contribution.** Adapt Nersessian's [2025 account, §3](https://onlinelibrary.wiley.com/doi/10.1111/tops.12777): a useful analogy may have to be built, with its correspondence revised during use. The present method applies that contribution in :4.2–:4.4: select distinctions through a needed consequence, build compatible relations and use a small case to revise the correspondence. Reusing a calibrated domain model is cheaper when it already expresses the proposed change. Constructing another account becomes worthwhile when the available model cannot express a consequential interaction or operation; the vessel and prefix cases show those failures.
 
 **Qualitative consequences and application.** The [ISLE explanation by Etkina and Brookes](https://www.islephysics.net/why-isle.html) connects observation, proposed explanation, predicted consequence, testing and application, first qualitatively and then quantitatively. Use that progression in :4.4–:4.6 when a physical prediction needs examination and application. A formal construction can instead proceed from its formation rules and a derivation, as in :5.3.
+
+**Finding a question through a scheme.** Compare two practical starting points: follow a provisional question into a small model (:4.1–:4.5), or use an understood scheme to expose a question (:4.2.1). Give both routes the same workshop facts, knowledge of the attempt/feedback relation and a hand calculation. The first can begin with “Can this plan provide the intended practice?”, select the instructor's time, derive 72 minutes and revise the arrangement. With independent stations it changes the model and withdraws the serial restriction. Both routes can obtain these results.
+
+Use the scheme-based entry when an apparently adequate account, such as a seating plan, leaves the relevant question unclear. Its applicability table distinguishes an unknown relation from one that is inapplicable, inexpressible or in conflict with the case. In :5.4 the demonstration-only variant drops the individual-practice question instead of treating it as a missing provision. Recovering and trying a scheme has a cost: use the direct construction when the distinction and question are already clear. This comparison supports a choice between instructions under the stated conditions; it establishes neither faster learning nor better field performance.
+
+Gentner and Hoyos, [Analogy and Abstraction](https://doi.org/10.1111/tops.12278), 2017, §§1.2–2, provide a historical structural-alignment account. Adapt relational rather than name matching in :4.2.1; the reviewed transfer effects depend on their task and comparison conditions. Keet and Khan, [Discerning and Characterising Types of Competency Questions for Ontologies](https://arxiv.org/html/2412.13688v1), 2024, §§3–4, contribute purpose-sensitive questions and limits of a scheme's expressiveness. Adapt those distinctions in the applicability table without imposing their ontology-specific taxonomy. Vagnino and Walker, [Schema drift](https://doi.org/10.1016/j.cognition.2025.106418), 2026, supplies a limitation: repeated comparison can change relational judgments, with rival explanations unresolved. This motivates the explicit return to a changed relation; it does not establish this repair's efficacy.
+
+Reconsider the scheme-based entry when it repeatedly produces irrelevant questions or when the direct construction already supplies the needed distinction. Repair the correspondence or continue from the adequate question before broadening the inquiry.
 
 **Subject premises of the physical cases.** [OpenStax, University Physics 2, §1.6](https://openstax.org/books/university-physics-volume-2/pages/1-6-mechanisms-of-heat-transfer) supplies the conducting-layer and convection relations. [Volume 2, §2.1](https://openstax.org/books/university-physics-volume-2/pages/2-1-molecular-model-of-an-ideal-gas) supplies the isothermal fixed-amount gas relation; [Volume 1, §14.1](https://openstax.org/books/university-physics-volume-1/pages/14-1-fluids-density-and-pressure) supplies the hydrostatic pressure relation. The chosen arrangements, simplifications and receiving questions are the present constructions.
 
@@ -45243,6 +45288,8 @@ A variation can change the original task. Preserve that change explicitly: restr
 
 These variations can be combined or repeated. Their purpose is to expose a useful answer, not to fill a catalogue of question types.
 
+When requirements appear incompatible, B.5.QD.CF recovers the premises producing the conflict and asks what other construction could satisfy the retained need. It distinguishes changing an assumed means or representation from changing a requirement, and can return a useful impossibility when the conditions must remain.
+
 #### B.5.QD:4.3 - Give the new question an answer form
 
 Say what would answer the question: for example, a construction, an explanatory relation, a bound, a counterexample or a condition under which an operation works. State the objects, allowed changes and premises that can alter the answer.
@@ -45386,6 +45433,203 @@ For questions beyond a fixed objective, **adapt** Wang et al.'s *Enhanced POET* 
 - **C.36.RP** supports continuing a shared practice by recovering and changing its ways of inquiry. **A.15.9** helps obtain and use a bounded contribution from another practice when needed.
 
 ### B.5.QD:End
+
+## B.5.QD.CF - Reformulate a Problem by Examining Its Conflicting Assumptions
+
+> **Type:** Method pattern
+> **Status:** Stable
+> **Normativity:** Normative
+
+### B.5.QD.CF:1 - Problem frame
+
+**Use this when** an account makes needed outcomes appear incompatible and you need to find what could change without losing the purpose of the work. Two requirements may concern different operating conditions, yet the model gives them one setting. A familiar means of obtaining one result may obstruct another result, although that means has never been shown necessary.
+
+**First useful move.** Put the two demands beside the statement that makes them conflict. Ask what requires that statement. For example, “the setting must be at least 6 during work and at most 2 during quiet operation” conflicts with a fixed-setting design. It leaves open a question about changing the setting between those conditions.
+
+The result is a reformulated question or candidate construction whose retained requirements, changed premise and remaining obstacle are understood. Sometimes the useful result is an impossibility under the retained conditions, followed by a decision about which requirement can change.
+
+The reader needs enough knowledge to interpret the requirements and the inference connecting them, or access to someone who can supply that interpretation. Start with ordinary statements and a small case. Use an adequate existing solution directly. If the only unresolved question is choosing an accepted trade-off, compare the options; recovering premises is useful when it could reveal another option or change the grounds for that choice.
+
+### B.5.QD.CF:2 - Problem
+
+An incompatibility identifies a limit of the statements used together. It does not yet identify the repair. A requirement may have been mistaken for a particular means, two situations may have been collapsed into one, or the desired result may be impossible under conditions that must remain.
+
+Two shortcuts lose the useful question. Continuing with the same proposed means can make an avoidable conflict look inevitable. Relaxing a condition until the account has a solution can make a different task look like a solution of the original one.
+
+The work is to reconstruct why the conflict follows, find a consequential premise worth examining, and develop another construction or an honest limit while keeping the original need recoverable.
+
+### B.5.QD.CF:3 - Forces
+
+| Force | Working tension |
+| --- | --- |
+| Needed outcome and familiar means | A proven way is valuable, but familiarity can conceal an unsupported necessity claim. |
+| Clear conflict and hidden conditions | A small conflicting set is easier to inspect; other requirements can still defeat its proposed repair. |
+| Exploration and commitment | A temporary relaxation can reveal a possibility before anyone has the means or authority to realize it. |
+| Precision and effort | A formal construction can settle a consequential inference; ordinary reasoning may already locate the question. |
+| Continuity and change | A narrower question may produce useful work while leaving the original need partly unanswered. |
+
+### B.5.QD.CF:4 - Solution
+
+**Recover the need and the conflict → expose the premises producing it → examine an assumed necessity or shared condition → construct another question or way → return to the retained requirements.**
+
+Enter at the unresolved step. A short explanation beside the working model can carry the result; no separate conflict form is required.
+
+#### B.5.QD.CF:4.1 - State what must be obtained and where the conflict arises
+
+Say what result is needed, for whom or for what later operation, and under which conditions. Separate that result from the proposed means of obtaining it. Keep a requirement that the work cannot change visible throughout the attempt.
+
+Recover the incompatibility in its stated scope. Two propositions may contradict each other under one interpretation. Two physical operations may compete for the same resource at the same time. Two people may disagree about a premise or about which outcome matters. A trade-off may permit both outcomes to some degree. These situations require different reasoning; use this method where examining the asserted incompatibility can change the construction question.
+
+Identify the participants and conditions shared by the conflicting statements. Does “the setting” mean the same setting in the same operating condition? Does “available” refer to immediate access or access after a permitted delay? B.5.FM helps construct a missing distinction; B.5.TC compares different accounts when their questions or output meanings are unsettled.
+
+#### B.5.QD.CF:4.2 - Recover the inference and the status of its premises
+
+Work backward from the conflict to the statements that produce it. Use B.5.RA if the argument needs reconstruction. Keep their different roles understandable: what the work requests, what was observed, what the model assumes, and which proposed operation is supposed to supply a result.
+
+Pay attention to necessity. “To obtain A, D is necessary” means A implies D. “Doing D under conditions K obtains A” is a sufficiency claim. Success with D alone supplies no argument that every way of obtaining A requires D. The question may be whether another operation E obtains A while avoiding the condition that obstructs the other requirement.
+
+A small set of jointly conflicting statements is often sufficient. For a finite constraint account, one can hold the requirements fixed and examine what happens when one assumption is omitted. A remaining solution identifies a candidate assumption to examine; it does not establish that the assumption is false or dispensable in the intended work.
+
+Find a minimal conflicting set only when the smaller explanation changes the task. “Subset-minimal” means that removing any member of that set removes its inconsistency. It does not mean that the set is the smallest possible, that repairing it is cheapest, or that no other conflict remains outside it.
+
+#### B.5.QD.CF:4.3 - Turn the consequential premise into a constructive question
+
+Choose a premise whose change could matter and whose status is open to examination. Work the corresponding question:
+
+- **An assumed necessary means creates the conflict.** What operation could obtain the needed outcome without that means? Follow the result that the means supplied; use C.39 to find or develop a replacement operation.
+- **One value is imposed across different conditions.** Do the requirements concern distinguishable participants, times or situations? If so, what construction permits the required values in those conditions? If they concern the same participant and condition, a second name supplies no new possibility.
+- **A restriction belongs to the present representation or construction.** What relation must a different representation or construction preserve, and how could it satisfy the retained requirements? B.5.FM constructs the relation; B.5.RR carries its change through the affected reasoning.
+
+These are common entries, not an exhaustive set of creative moves. State what would answer the selected question: an alternative operation, a condition-dependent construction, a counterexample to necessity, or a derivation of impossibility.
+
+A tentative assumption change lets you explore that question. Keep the conclusion conditional until the replacement premise or operation has the support its use needs. Reconsider a requirement explicitly when that is the selected change; a convenient answer to the changed requirement leaves the original one open.
+
+#### B.5.QD.CF:4.4 - Construct a small answer and return it to the whole need
+
+Perform the relevant reasoning or operation on a case that includes the changed condition. Show how the candidate obtains the needed result, or locate the contribution still unavailable. A formal witness answers a question about its model. A physical or organizational proposal also needs the means to produce the corresponding result in its intended setting.
+
+Reapply every retained requirement that the proposed change can affect, including those outside the small set used to locate the conflict. A separate operating setting may require a transition that is too slow. An archived input may reproduce a calculation while violating a retained deletion requirement. Either consequence changes what the candidate can answer.
+
+Keep three facts distinguishable: the revised statements are compatible; an operation is proposed that would supply their values; that operation has produced or otherwise established the result required for this use. Use the strongest available fact the current question needs. An inquiry about what to design next may be answered by a conditional construction; deploying it can require further work.
+
+If the conditions remain incompatible, state that result under the premises that support it. The next question can ask which requirement may change, whether another model is warranted, or whether the work should stop. A proof of impossibility can settle a construction request without finding a replacement.
+
+#### B.5.QD.CF:4.5 - Continue at the missing contribution, or use the answer
+
+Use a sufficient answer. Otherwise say which part of the original need remains and what the next attainable result would change. B.5.QD develops that question; C.40.CD connects it with development of a way to answer it. A theoretical result can be worth pursuing because it makes further constructions or explanations possible, even before a particular application is known.
+
+Compare the likely contribution of further work with its burden, including obtaining a capability or resource and the work displaced. Start with available arguments, results and specialist contributions. C.11.DUA applies when the worth of another information-gathering step is unsettled. The pattern requires no experiment merely to acknowledge that a proposal remains conditional.
+
+Several contributors can divide this work by the result needed next: one recovers the disputed necessity, another constructs a replacement, and another interprets its consequences for the original work. They need the retained requirements and the meaning of each returned result. When this reasoning is a constituent of design or research, its local success must support the encompassing method's result; compatibility alone may be insufficient for that result. Constituent and encompassing methods can be enacted during the same work under B.1.5.
+
+#### B.5.QD.CF:4.6 - Separate recognition from assurance
+
+An asserted conflict and a premise worth examining can be enough to start. Recognition does not require an exhaustive diagnosis or a proof that a repair exists.
+
+Judge each resulting claim by what it says. An implication needs valid reasoning under its premises. A replacement operation needs the mathematical, physical or professional basis appropriate to its intended use. A requirement change needs the decision that permits it. The method supplies a way to find and formulate these questions; their answers come from the corresponding subject methods.
+
+Reopen the result when a retained requirement, affected premise, available operation or intended use changes. Preserve independently usable parts while revising the affected inference.
+
+### B.5.QD.CF:5 - Archetypal Grounding
+
+The following constructed cases supply the conditions needed for their reasoning. They demonstrate different reformulations and a case in which the original demand remains impossible.
+
+#### B.5.QD.CF:5.1 - Distinguish operating conditions without inventing a machine
+
+A proposed device has one fixed setting p. The task requires p to be at least 6 during work and at most 2 during quiet operation. In the proposed design, both requirements constrain the same fixed value; no such value exists.
+
+Recover the extra premise: the setting is fixed across those operating conditions. Let p_work and p_quiet describe the two values. The account is:
+
+- p_work ≥ 6;
+- p_quiet ≤ 2;
+- p_work = p_quiet.
+
+Keeping the two requirements and reconsidering the equality produces a construction question: **Can the device select different settings in the two distinguishable conditions?** The values (6,2) satisfy the revised inequalities. They identify what a switching construction would have to supply.
+
+That answer is conditional. The device must be able to recognize the condition and reach the required setting in time, using the resources permitted by the task. If a transition takes three seconds while the retained requirement allows one second, this proposed transition fails. A faster operation, another construction or an authorized requirement change is still needed.
+
+If instead both inequalities concern the same operation at the same time, separating their names would misrepresent the task. The inequality 6 ≤ p ≤ 2 remains impossible. The useful result then identifies the requirements that cannot both be retained.
+
+#### B.5.QD.CF:5.2 - Replace an assumed means while retaining two outcomes
+
+A team must reproduce an earlier calculation and use new prices for new calculations. A current file stores the quantity 3 and the price 10, so the earlier result is 30. Tomorrow the price becomes 12 and the new result must be 36.
+
+The proposed practice keeps only one mutable price value. Reproducing the earlier result is taken to require keeping that value at 10; obtaining the new result requires changing it to 12. The conflict depends on that proposed means of recovering the earlier input.
+
+Ask instead: **What information and operation reproduce the earlier calculation without freezing the current price?** For this case, the calculation is quantity times price. Retaining the input pair (3,10), the multiplication rule and the identity of the earlier calculation supplies its result 30. The current pair (3,12) supplies 36. A versioned input or a retained calculation record can therefore replace the supposed need for one unchanged current value.
+
+The scope matters. This construction suffices for the supplied arithmetic question. If the earlier result used a rounding rule, exchange rate or other input, that contribution must also remain recoverable. A claim about who approved the transaction asks another question and is not established by recomputing 30.
+
+Now change the retained requirements: every copy of the earlier price must be destroyed, and no equivalent information may remain, but the system must later recover that price uniquely. The retained-input proposal violates the deletion requirement. The conflict has not been repaired under these new conditions. The next case isolates why this stronger combination can be impossible.
+
+#### B.5.QD.CF:5.3 - Return an impossibility instead of hiding retained information
+
+A device receives one bit x, either 0 or 1. Complete erasure in this formal task means that, afterward, its entire accessible state is the same s for both inputs; there is no external record or later input revealing x. A deterministic operation g must then recover the original bit for either input.
+
+For the input 0, recovery requires g(s)=0. For the input 1, it requires g(s)=1. The same operation on the same state cannot satisfy both. The required erasure and universal recovery are incompatible under the supplied model.
+
+An external copy or a different final state would allow other constructions, but each changes the complete-erasure condition. Renaming an external copy as a pointer preserves information rather than meeting that condition. Returning a default value changes the recovery requirement. Neither is a solution to the original task.
+
+The result can already end the construction search under these premises. If the work instead permits a retained distinction, develop that changed question explicitly. A later physical implementation also has a physical model and its own scope; the argument here establishes the finite information constraint stated above.
+
+### B.5.QD.CF:6 - Bias-Annotation
+
+The familiar means can dominate the description of a need. Recovering the result it supplies helps make a replacement thinkable. Conversely, a wish for a harmonious answer can lead the practitioner to relax the very condition that mattered. Returning to all retained requirements exposes that loss.
+
+The easiest premise to remove may be the one with the strongest physical or practical basis. Diagnose its role without treating mathematical removability as permission to discard it. People and AI agents can both produce a coherent reformulation that solves a different problem.
+
+### B.5.QD.CF:7 - Conformance Checklist
+
+- The needed result and the scope of the incompatibility are recoverable.
+- The inference distinguishes requirements, observations, modeling assumptions and proposed means where their different roles change the answer.
+- A claimed necessity has its direction and basis; a proposed replacement supplies the result previously attributed to that means.
+- A changed participant or condition corresponds to the intended situation, rather than merely changing a name.
+- The candidate returns to the retained requirements, including affected conditions outside the diagnosed conflict.
+- A compatible account, conditional construction, obtained result and authorized requirement change retain their different meanings.
+- The next question serves the unresolved need or states how that need was changed; a sufficient answer or impossibility can stop the work.
+
+### B.5.QD.CF:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure invited by conflict repair | Better move |
+| --- | --- |
+| “This way has always worked, so the result requires it.” | Recover what the way supplies and ask whether another operation supplies that contribution. |
+| A solver returns a solution after a hard requirement is removed. | State the changed requirement and return to the original need; the witness answers the relaxed problem. |
+| Two names are introduced for one quantity in one condition. | Establish the actual distinction or retain the incompatibility, as in :5.1. |
+| The small conflicting set is repaired while another affected requirement is ignored. | Reapply the retained requirements; inspect the transition time or lost information that the change can affect. |
+| A consistent description is presented as an implemented repair. | State the operation and support still needed to obtain the result. |
+| Every conflict is promised a solution that preserves every demand. | Return the supported limit or requirement-change question when no warranted repair exists. |
+
+### B.5.QD.CF:9 - Consequences
+
+The method can turn a conflict into a more useful construction question while preserving the purpose of the work. It also makes an impossibility usable: contributors can stop an unproductive search or decide which demand is open to change.
+
+Recovering premises and returning a proposal to the full need costs effort. Concentrating on the inference that changes the next action keeps this effort bounded. Some conflicts remain unresolved because the replacement operation, relevant knowledge or authority is unavailable.
+
+### B.5.QD.CF:10 - Architectural Rationale
+
+An incompatibility is relational: it depends on statements used together. That is why inspecting one requirement in isolation often misses the constructive opening. Separating a needed outcome from an assumed necessary means exposes a question about how else the outcome could be obtained.
+
+The return to the original need prevents successful reformulation from becoming accidental goal substitution. A conditional construction, an achieved result and an impossibility make different contributions to the encompassing work. Keeping those contributions distinct allows division of work between people and AI without requiring each contributor to solve the whole problem.
+
+Conflict-driven reformulation is a constituent of question development with its own recurring difficulty and operation. B.5.QD supplies the broader development of a question from either failure or success. This pattern unfolds the move from conflicting premises to an alternative construction or a useful limit, leaving subject construction and validation with their own methods.
+
+### B.5.QD.CF:11 - SoTA-Echoing
+
+For the question **“How can incompatible demands reveal an alternative means?”**, **adapt** the Theory of Constraints move from a required outcome to its assumed necessary means. Against choosing a side before examining that necessity, the selected method asks for a replacement that supplies the retained outcome. Sections :4.2–:4.4 and :5.2 carry this difference. Goldratt's [Letter #5](https://www.toc-goldratt.com/index.php?cont=787) gives the original method argument; the current [ProConCloud account](https://www.goldrattresearchlabs.com/proconcloud-method) includes conditional and alternative changes. They are method proposals, not independent evidence of this pattern's effectiveness. **Reject** a guarantee of preserving every demand and a mandatory experiment for every case. The selected return to retained requirements can cost more than simply choosing a side, but is warranted when another construction could change that choice. Reopen this comparison if a stronger method finds such constructions with less burden or reveals a missing class of consequential assumptions.
+
+For **“What does a diagnosed formal conflict establish?”**, **adopt** the distinction between an inconsistent subset and a correction subset from Gamba, Bogaerts and Guns, [*Efficiently Explaining CSPs with Unsatisfiable Subset Optimization*](https://arxiv.org/html/2303.11712v2), Definitions 1–3. Against treating a returned correction as the practical repair, :4.2 and :4.4 preserve its narrower meaning: removing those constraints permits consistency in that formal problem. **Adapt** the distinction to optional diagnosis here; subset minimality and optimization are required only when their extra result matters. The source's algorithms concern constraint problems, and their performance does not transfer to arbitrary disagreements. Reopen when a different constraint semantics changes what the diagnostic result means or a cheaper explanation suffices.
+
+For **“How should attempted construction change the problem?”**, **adapt** the problem–solution co-evolution account in Parsons and Shukla, [*Beyond Problem Solving: Framing and Problem–Solution Co-Evolution in Data Visualization Design*](https://arxiv.org/html/2508.07058v1), §§4–5 and 6.4. Against fixing the problem once and testing only proposed solutions, :4.3–:4.5 return a failed construction to the consequential premise and then to the original need. Their study of eleven selected experts supplies practice-specific observations, not a universal creative mechanism or a test of this method. The extra return is useful when the attempted construction changes the question; an adequate existing formulation needs no such work. Reopen when evidence or another practice reveals that the return loses a needed distinction or obstructs a better continuation.
+
+### B.5.QD.CF:12 - Relations
+
+- **B.5.QD** develops a useful question from a result or construction; this pattern specializes the conflict-to-question contribution.
+- **B.5.RA** recovers the argument; **B.5.RR** revises the reasoning affected by a premise change. **B.5.TC** compares accounts whose meanings or conditions may differ.
+- **B.5.FM** constructs a distinction and its relations. **C.39** develops a way to obtain the needed result; **C.40.CD** develops that way and the problem together.
+- **B.1.5** supplies the Method-parthood relation when this reasoning contributes to an encompassing method while its constituent operations are enacted.
+- **C.11.DUA** helps decide whether further information work can change a useful continuation enough to warrant its burden. **A.15.9** helps obtain a needed contribution from another practice.
+
+### B.5.QD.CF:End
 
 ## B.5.1 - Explore → Shape → Evidence → Operate
 
@@ -63073,7 +63317,7 @@ Name the modeled variable or mechanism, the proposed replacement and the result 
 
 For a constant intervention, use `do(X=x)` to mean replacing the equation for X by the constant x. For a changed rule, state that rule and the information it may use: for example, a controller's command as a function of the readings available before the command. C.28:4.10 distinguishes the relevant action-policy families when that choice matters.
 
-Specify a comparison only when one is wanted. A value under one intervention, a difference between two interventions and a difference from natural behavior have different required inputs. A question about the same historical case under another action also needs the factual observations and the resulting information about that case's underlying inputs. Recover that counterfactual basis through C.28 before treating a population intervention answer as an answer about the observed case.
+Specify a comparison only when one is wanted. A value under one intervention, a difference between two interventions and a difference from natural behavior have different required inputs. A question about the same historical case under another action also needs the factual observations and the resulting information about that case's underlying inputs. Infer those inputs using the factual mechanisms and observing procedure before replacing the mechanism. Carry the inferred distribution or compatible possibilities into the alternative calculation, preserving the dependence that makes it the same modeled case. C.28 governs what supports that counterfactual use; a population intervention average can answer a different question.
 
 #### C.28.MR:4.2 - Recover the model that gives the replacement meaning
 
@@ -74719,6 +74963,8 @@ The table records term use and any actual bridge. F.17 supplies durable term row
 
 For music and dance, a label such as `prog`, `post-prog`, `contemporary`, `hip-hop`, `battle`, `TikTok dance`, `canon`, `school`, or `technique` may point to different FPF values in different contexts. The bridge row says which one is current before the project relies on the label.
 
+When the claim concerns a retained style, name what varies and what the comparison retains. Depicting a new scene in a retained visual style changes the represented content; depicting the same scene in different styles changes the style. These are different preservation relations. Say which works or variants are compared, by what relevant features, and for which use. A stylistic similarity alone does not establish that an audience recognizes or likes the work, that a performer can reproduce it, or that its method has been transmitted; those conclusions need the corresponding recognition, response, performance or transmission relation.
+
 #### C.36:4.2 - Intervention Card
 
 Use an intervention card when a project must retain the identity of a proposed or performed intervention. First write the ordinary claim: what relation will change, by what proposed action, what effect is expected, how it will be measured, and what would stop or redirect the attempt. For example: `The festival will change jury feedback timing; adoption in the next teaching cycle is the measured effect; use A.15.2 for the plan and A.3.4 only if an actual change later obtains.`
@@ -76065,6 +76311,8 @@ Locate a consequential change and carry it through the question:
 
 Use B.5.QD to form and examine the new question. Change a named condition, demanded result, available means or composition of operations. Explain how that change affects what an answer would need to establish.
 
+If the opening is an incompatibility, B.5.QD.CF examines the premise that makes the demands conflict and constructs a question about another means or a legitimate distinction. Return its candidate to the retained requirements here; changing an assumption for exploration leaves the corresponding realization question open.
+
 Check the formulation before investing in solving it. Its objects and operations must have meanings, its conditions must be interpretable together, and the proposed answer must be assessable. A question asking whether a configuration is possible can legitimately return an impossibility result. When a task generator promises a solvable challenge, support that promise with a feasible case. Otherwise keep feasibility open.
 
 Select a revealing attainable case. Its result may expose a counterexample, a useful intermediate construction or a missing operation. Leave difficulty relative to the available means and method where it has not been established more generally.
@@ -77155,15 +77403,15 @@ Side rows make the conflict inspectable because they preserve which claim affect
 
 > **Type:** D-family ethical mediation and decision-use pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern contains the defining content for the ethical use of an already mapped conflict: mediation, refusal, evidence demand, bounded decision use, and residual handling.
+> **Pattern role:** Develop and compare ways to act when an ethical conflict has already been described; return a recommendation, conditional continuation, refusal or impasse.
 
 **Use this when.** Use this pattern when an `InterlevelEthicalConflictDescription` from `D.3` must support mediation, refusal, a decision, an evidence demand, or a return to causal, assurance, or architecture work.
 
 **Not this pattern when.** If the conflict has not yet been described, use `D.3`. If the issue is only value plurality, use `D.1`. If the issue is only entry recognition, use `D.2`. If the current work is bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance, use `D.5`.
 
-**What goes wrong if missed.** A mapped ethical conflict is treated as solved, blocked, or decision-ready without naming mediation, refusal, evidence demand, return, accepted residual, or bounded decision use.
+**What goes wrong if missed.** Naming the conflict or filling in a decision record replaces the work of developing options and judging what each would require or change.
 
-**What this buys.** The practitioner can use one exact `D.3` conflict-description episteme for an admissible mediation action or bounded decision use while keeping evidence, causality, assurance, architecture, and bias-audit claims with their subject patterns.
+**What this buys.** The practitioner can compare available ways to act, recognize a useful change to the proposed means, and explain a recommendation or why the choice remains unresolved. Evidence, causal, assurance, architecture and bias-audit claims keep their own subject methods.
 
 ### D.4:1 - Problem Frame
 
@@ -77182,12 +77430,26 @@ A described ethical conflict can still be used badly. The failure is to treat it
 | Described conflict vs. premature closure | A conflict description makes action discussable, but does not by itself decide compromise, refusal, or permission. |
 | Evidence demand vs. decision pressure | Work may need a decision, while the ethical claim still needs stronger evidence, causal analysis, assurance, or architecture return. |
 | Mediation vs. universal authority | D.4 can guide one bounded use of a described conflict, but cannot become a general decision theory. |
-| Residual acceptance vs. hidden harm | Proceeding under residual harm can be admissible only when residuals, the admitted Systems involved, prospective plans or assignment requirements, direct responsibility relations or exact missing governors, and return conditions are explicit. If performance has occurred, its complete Work chain is mandatory. |
+| Residual acceptance vs. hidden harm | Proceeding under residual harm can be admissible only when residuals, the admitted Systems involved, prospective plans or assignment requirements, direct responsibility relations or exact missing governors, and return conditions are explicit. When the account asserts performed work, identify that occurrence and its performer; add assignment attribution when that claim is made. |
 | Mathematical allocation vs. ethical decision | A formula or optimization can inform a decision, but it is not the ethical decision by itself. |
 
 ### D.4:2 - Solution
 
-Record an `EthicalMediationDecisionUse`:
+Recover the conflict, develop feasible alternatives, compare their consequences and constraints under the stated value premises, and give a warranted recommendation or decision. Keep the concerns that remain unresolved visible in that result. A short answer can complete this work.
+
+#### D.4:2.1 - Develop and compare a continuation
+
+1. **Recover the decision and the affected concerns.** Use the D.3 account to identify who or what may gain or lose, over which horizon, and why those consequences matter. Check whether the proposed chooser can make the decision in question. Paying for a project, being represented in a survey, being affected by its result and having authority to decide are different relations. Return a consequential missing party to A.1.CSD; return an unresolved value premise to D.1.
+2. **Separate the end from the proposed means.** A valued result can be pursued through means that create another objection. Ask which feature, condition or operation produces that objection and what could supply the valued result without it. B.5.QD.CF develops that question when an assumed necessary means creates the conflict; C.39 supplies construction of another way. Consider continuing the present work, narrowing the change, changing its conditions or refusing it when those are feasible alternatives. A proposed alternative remains a proposal until its required contributions are available.
+3. **Compare the same alternatives under the live value premises.** Preserve each side's affected participants, consequences, constraints and uncertainty. An encompassing system's gain does not by itself establish priority over a constituent's loss. Where different value frames give different orderings, keep those orderings distinct. An alternative that is no worse under every retained ordering and better under at least one can remove a need to trade those values for this choice. This conclusion is limited to the alternatives, premises and affected concerns actually compared. If a trade-off remains, state the priority, compromise or other reason proposed for making it. Authority to choose does not make that reason correct or establish others' agreement.
+4. **Resolve only the uncertainty that changes this use.** Separate disagreement about consequences from disagreement about which consequences or duties should govern. A causal inquiry can improve the former; it does not by itself settle the latter. Use available support and qualified uncertainty. Where an intended use requires a stronger claim, C.28 or the corresponding subject method supplies its basis; C.11.DUA compares an attainable inquiry with a narrower recommendation, a different option or a stop. Include delay, burden shifted to other parties and displaced work. Preserve a binding requirement's current force while examining its merits or a feasible revision.
+5. **Return the supported recommendation or decision.** If the comparison basis and available options are settled, C.11 supplies the local choice. If the value conflict remains unresolved, give the conditional alternatives, the missing agreement or authority, or an explicit refusal or impasse. Do not manufacture a common scalar to force a winner. State a residual consequence and a reconsideration condition when they matter to this use. A recommendation does not establish consent, permission or performed work.
+
+Use the same reasoning when the option is advice, publication, a technical change or a change to a method. Identify how its possible use can affect other participants; describing one's contribution as analysis leaves that question open. The relevant causal and responsibility relations still need their own basis.
+
+#### D.4:2.2 - Retain the decision basis when the work needs it
+
+Use an `EthicalMediationDecisionUse` account when another participant needs to inspect, compare, authorize or later revise the result. The necessary content can remain in the existing answer or decision record. The following form groups that content; use only the optional detail needed for this decision:
 
 ```text
 EthicalMediationDecisionUse:
@@ -77217,10 +77479,10 @@ EthicalMediationDecisionUse:
   performedWorkRows?:
     - performerSystemRef: exact U.System
       workOccurrenceRef: exact dated U.Work
-      assignmentSpeciesRef: exact directly declared species under U.SystemRoleAssignment
-      assignmentOccurrenceRef: obtaining occurrence of assignmentSpeciesRef with actual participant values, applicability, and extent covering the Work
-      f6AttributionRef: exact performedUnderAssignment occurrence
-      holderEquality: performerSystemRef = assignmentOccurrenceRef.HolderSystemSlot
+      assignmentSpeciesRef?: exact directly declared species under U.SystemRoleAssignment, when assignment-bound attribution is claimed
+      assignmentOccurrenceRef?: obtaining occurrence of that species with actual participant values, applicability, and extent covering the Work
+      f6AttributionRef?: exact performedUnderAssignment occurrence, for that attribution
+      holderEquality?: performerSystemRef = assignmentOccurrenceRef.HolderSystemSlot, for that attribution
       methodRef:
       workExtentRef:
       containingSystemRef:
@@ -77233,8 +77495,8 @@ EthicalMediationDecisionUse:
   commitmentRelationRefs?: exact direct relation refs
   commitmentMissingGovernorRefs?: exact A.6.RCD results
   admissibleUse
-  inadmissibleOverread
-  strongerSourceReturnCondition
+  inadmissibleOverread?
+  strongerSourceReturnCondition?
 ```
 
 The record names the current ethical use of the conflict: mediate, refuse, continue under explicit residual, demand evidence, ask a causal question, ask for assurance, return to architecture, or make a bounded decision.
@@ -77246,25 +77508,50 @@ Name the affected EntityOfConcern and any affected Systems, the value-frame edit
 | Current situation | Admissible D.4 move | Neighboring subject pattern |
 | --- | --- | --- |
 | A compromise is proposed but the D.3 description omits a side, affected entity, scope, value frame, consequence, or horizon. | Return to `D.3` and complete the affected side or tension. | `D.3` |
-| Harm claim depends on causal effect. | Demand the C.28 causal-use evidence value and verdict before ethical decision use. | `C.28` |
+| A causal claim can change the recommendation or decision. | Use its C.28 support and retain the uncertainty that changes this use. If stronger support is needed, use C.11.DUA to compare a feasible inquiry with a narrower use, another option or stopping. | `C.28`, `C.11.DUA` |
 | Evidence is too weak or outdated for the proposed use. | Name the affected claim and use. Use `C.11.DUA` to compare a feasible evidence request with a narrower use, explicit residual acceptance or refusal; obtain stronger or fresher evidence when the selected use needs it. | `C.11.DUA`; `A.10` and `C.27` for the evidence and its currentness |
 | Assurance claim is being used as ethical permission. | Keep assurance as an assurance or evidence relation, not moral authorization. | `B.3`, `D.5` |
 | Architecture move reduces one residual but creates ethical conflict elsewhere. | Return the architecture residual and keep the ethical conflict distinct. | `C.30.ILC`, `D.3` |
 | A decision must proceed with residual harm. | Record the accepted residual, admitted decision or repair Systems, prospective plan, commitment, permission, authority, or assignment requirements, direct responsibility relations or exact missing governors, evidence limits, and return condition. If Work has actually occurred, recover each precise performer's A.13 core and independently admit the Work under A.15.1; add F.6 only when the decision account also needs exact assignment-bound attribution. | `C.11`, `B.3`, `D.5`, A.2.1, A.13, A.15.1, and F.6 as applicable |
 
-When required evidence cannot be obtained, the attempted use remains unsupported. A different bounded use must satisfy its own evidence, ethical and authority conditions. Record accepted residuals under the residual-harm row.
+When the basis required for a particular claim cannot be obtained, that claim remains unsupported. A narrower recommendation or decision must satisfy its own evidence, ethical and authority conditions. Preserve an accepted residual where it changes the use; an inactive inquiry creates no separate omission account.
 
 ### D.4:4 - Archetypal Grounding (Worked Slices)
 
-**Fair-share case.** A service outage plan can protect hospitals, households, or industrial customers, but not all at once. The `D.3` conflict description connects each affected scope and value concern to its consequence and horizon. `D.4` records the mediation use: options, accepted residuals, evidence demand, admitted decision Systems, prospective assignment requirements or commitments, direct decision-responsibility relations or exact missing governors, and return conditions. No assignment or Work is asserted merely because the plan names intended action. If execution occurs, the record adds the complete Work row. A mathematical allocation Method may have a separate C.29 representation or lens-use assertion, but the allocation formula is not the ethical decision, assignment, or responsibility relation.
+**Fair-share case.** A service outage plan can protect hospitals, households, or industrial customers, but not all at once. The `D.3` conflict description connects each affected scope and value concern to its consequence and horizon. `D.4` records the mediation use: options, accepted residuals, evidence demand, admitted decision Systems, prospective assignment requirements or commitments, direct decision-responsibility relations or exact missing governors, and return conditions. No assignment or Work is asserted merely because the plan names intended action. If the account reports execution, add the actual Work occurrence and its performer; add assignment-bound attribution when that further claim is made. A mathematical allocation Method may have a separate C.29 representation or lens-use assertion, but the allocation formula is not the ethical decision, assignment, or responsibility relation.
 
 **Override case.** An assurance review says a release has the required technical assurance relation, but the `D.3` description shows unresolved harm for a subgroup. `D.4` does not let assurance override that conflict. It records whether release is refused, conditioned, delayed for evidence, handled under C.28 causal-use analysis, or allowed with an explicit residual and an independently obtaining responsibility relation or exact missing governor.
+
+#### D.4:4.1 - Change the means, then reconsider when another constraint changes
+
+A team wants colleagues to find an available specialist, while staff want private calendar details to remain private. The initially proposed means publishes every calendar detail to the whole organization. Turning the service off protects those details but loses the intended availability information.
+
+The D.3 tension concerns staff information and the team's coordination, not two interchangeable scores. Recover the needed contribution: finding somebody available for a question requires neither an appointment title nor its other participants. Suppose an existing feature lets each member publish an availability window without exposing the underlying events; the team has permission and support to offer this voluntary feature. This supplies a third available option.
+
+For this constructed decision, the participants' stated orderings are:
+
+| Value concern and supplied judgement | First | Second | Third |
+| --- | --- | --- | --- |
+| Useful access to a willing specialist | Voluntary availability windows | Full calendar publication | Service off |
+| Staff control of private event details | Voluntary availability windows | Service off | Full calendar publication |
+
+Both orderings prefer the voluntary option to either original alternative. The team can recommend it on this basis without adding the ordinal ranks or deciding how much privacy one unit of access is worth. The judgement concerns these supplied preferences and feature conditions; it does not establish universal approval or a measured productivity gain. The technical feature, the permitted voluntary arrangement and each participant's choice are separate contributions to its use.
+
+Now suppose the team instead needs guaranteed coverage of a required shift. Voluntary windows do not guarantee that contribution. The previous recommendation remains an answer to finding a willing specialist, but does not answer the changed staffing question. Return to the staffing arrangement and its affected commitments. A new assignment, another resource or a changed service promise may be needed; relabelling participation as voluntary cannot supply guaranteed coverage.
+
+#### D.4:4.2 - Keep a useful decision when a stronger claim is unavailable
+
+A comparison has two feasible options under an agreed value frame: retain the current arrangement or make a reversible change. The available basis bounds the change's net benefit between 2 and 4 units for every scenario retained in the comparison; all relevant constraints and affected concerns are already included in this stipulated example. The present question is which option is preferable under that basis, not what its precise effect will be.
+
+The change is preferred throughout the supplied range. A study costing 5 of the same units solely to select between these options cannot improve their choice: its possible refinements within that range leave the selected option unchanged and impose that cost. C.11.DUA therefore supports the bounded recommendation without the study. The conclusion retains its conditional range and makes no precise-effect claim.
+
+If a newly identified consequence can reverse that preference, or the intended use now needs a supported precise effect, the question changes. Examine that missing contribution and the feasible investigation that could supply it. The earlier decision does not authorize a stronger claim or ignore a newly affected party.
 
 ### D.4:5 - Boundaries
 
 `D.4` does not define the conflict description, bias audit, ethical assurance, architecture residual, causal identification, evidence provenance, or decision theory in general. It defines one ethical use of a conflict already described by D.3.
 
-Do not name a mediation move "calculus" unless a mathematical lens is selected and the lens is actually doing work. Do not name a mediation move "operator" unless the current pattern explicitly governs an operation. Most D.4 use is a bounded decision-use record, not a mathematical object.
+Do not name a mediation move "calculus" unless a mathematical lens is selected and the lens is actually doing work. Do not name a mediation move "operator" unless the current pattern explicitly governs an operation. Most D.4 use concerns a practical recommendation or decision. A mathematical representation can support that comparison; its premises and result still need their ethical interpretation.
 
 ### D.4:5.1 - Bias-Annotation
 
@@ -77273,14 +77560,14 @@ Do not name a mediation move "calculus" unless a mathematical lens is selected a
 | Conflict description becomes decision | A D.3 description is treated as if it already selected an action. | Name the D.4 move and its admissible use. |
 | Assurance becomes permission | Technical assurance is read as ethical authorization. | Keep assurance as an assurance or evidence relation and record the ethical use separately. |
 | Formula becomes ethics | Allocation, optimization, or scoring is treated as the ethical decision. | Use `C.29` for the mathematical lens; use D.4 to record the bounded ethical use without making the pattern an agent or responsible party. |
-| Residual harm disappears | Action proceeds while residuals, admitted decision or repair Systems, and direct responsibility relations stay unnamed. | Name accepted residuals, prospective plans, commitments, permissions, authority and assignment requirements, the admitted direct responsibility predicates or exact missing governors, evidence limits, and return condition. Add the complete Work-attribution basis only when performance has occurred. |
+| Residual harm disappears | Action proceeds while residuals, admitted decision or repair Systems, and direct responsibility relations stay unnamed. | Name accepted residuals, prospective plans, commitments, permissions, authority and assignment requirements, the admitted direct responsibility predicates or exact missing governors, evidence limits, and return condition. Identify actual Work and its performer when performance is claimed; add assignment-bound attribution when that further claim is made. |
 
 ### D.4:6 - Conformance Checklist
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D4-1 | An exact `conflictDescriptionRef` identifies one C.2.1 episteme through D.3, or the use returns to D.3. | Prevents mediation without a reidentifiable conflict description. |
-| CC-D4-2 | The record names the affected EntityOfConcern, any affected Systems, value-frame editions, decision question and options, intended decision or Work use, and the current admissible move. ClaimScope and qualification window are explicit when they delimit that use. | Keeps ethical use explicit without relying on a generic context premise. |
+| CC-D4-1 | The conflict and its sides are recoverable through D.3; add a stable conflict-description reference when the receiving use needs to cite or revise it. | Keeps the decision connected to the actual tension without requiring a separate record for a short answer. |
+| CC-D4-2 | The recommendation or decision connects the affected concerns, value premises, feasible alternatives and comparison to its intended use. Retain differing orderings and residuals when they change the conclusion; add scope, qualification window and reference detail when that use needs them. | Makes the chosen continuation follow from its basis instead of merely listing decision fields. |
 | CC-D4-3 | Evidence, causality, assurance, architecture, and decision claims use their subject patterns. | Prevents D.4 from becoming universal decision authority. |
 | CC-D4-4 | When proceeding under residual harm, name accepted residuals and admitted Systems; keep any local kind, C.2.1 System-classification assertion episteme, prospective plan or assignment requirement, and actual relation distinct. Every responsibility, authority, permission, or commitment claim has its independently obtaining direct relation or exact A.6.RCD missing governor. Every actual Work row first recovers each precise performer's A.13 core and independently admits the Work under A.15.1; it adds F.6 only when precise assignment-bound attribution is also current. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
 
@@ -77289,8 +77576,8 @@ Do not name a mediation move "calculus" unless a mathematical lens is selected a
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Decision-ready by map | The mapped conflict is treated as solved. | Choose a D.4 move: mediate, refuse, demand evidence, return, decide with residual, or stop. |
-| Trump-card level | One level's value automatically overrides all others. | Use D.3 if the level relation or value frame is incomplete; otherwise record the explicit D.4 use. |
-| Evidence postponement | The team proceeds while saying evidence can be checked after the decision. | Demand evidence, causal analysis, assurance, or architecture return before the decision use, unless residual acceptance is explicit. |
+| Trump-card level | One level's value automatically overrides all others. | Recover the affected sides through D.3 and compare their consequences and value premises through :2.1; a larger scale alone supplies no priority. |
+| Unsupported stronger use | A decision or recommendation relies on a claim whose needed support is missing. | Qualify that claim and obtain the required basis for its use, or select a supported narrower continuation through C.11.DUA. An accepted residual does not make the missing claim true. |
 | Permission by assurance | A passed assurance relation is treated as moral authorization. | Keep B.3 assurance and D.4 ethical use distinct. |
 
 ### D.4:7 - Consequences
@@ -77305,19 +77592,19 @@ The pattern keeps refusal, evidence demand, and residual acceptance visible as o
 
 ### D.4:10 - SoTA-Echoing
 
-| Source line | Practical implication for this pattern |
-| --- | --- |
-| Decision analysis and applied ethics | Mediation and decision use need options, refusal, condition, evidence-demand choices, accepted residuals, responsibility, and return conditions, not only a value slogan. |
-| Safety and assurance practice | Assurance can inform bounded ethical decision use, but does not authorize action under unresolved harm or replace the D.3 conflict description. |
-| Causal and evidence governance | Harm, benefit, and fairness claims depending on causal effect or weak evidence must use `C.28`, `A.10`, or `B.3` before ethical decision use. |
-| FPF mathematical-lens discipline | Optimization, allocation, scoring, Pareto, and threshold reasoning are selected lenses or measurement claims; they do not replace the D.4 ethical-use record or create a universal optimizer. |
+For **turning a value conflict into a different design**, **adapt** Value Sensitive Design's joint examination of technical and social arrangements. Against choosing only between the initial proposal and abandoning its aim, :2.1 and :4.1 follow the needed contribution to another means. The [VSD Lab's current account](https://vsdesign.org/vsd/) distinguishes designer and stakeholder values, direct and indirect stakeholders, and several levels of analysis. Miller, Friedman, Jancke and Gill's [*Value Tensions in Design*](https://www.cs.washington.edu/research/projects/aiweb/media/papers/tmp3oRDl8.pdf) (2007), §§6.1–6.2, supplies a concrete design comparison: useful usage information need not disclose who searched. Its local survey thresholds are not ethical constants or a voting rule for every project. The retained contribution is changing the means while keeping the affected values visible. Developing another design costs work; select it when it could improve the available choice. Reopen when the new arrangement fails a retained value or excludes an affected party.
+
+For **reasoning with several value frames**, **adopt** the comparison problem made explicit by MacAskill, Bykvist and Ord in [*Moral Uncertainty*](https://academic.oup.com/book/31934/chapter/267645761) (2020), Chapter 3, Introduction and §I: ordinal orderings do not supply comparable numerical differences. Against adding arbitrary ranks, :2.1 preserves separate orderings and uses agreement where it suffices, as in :4.1. **Adapt** this limited contribution without making the book's Borda rule or expected-choiceworthiness proposal a universal FPF rule. C.11 already supports a partial ordering; D.4 keeps unresolved ethical aggregation visible rather than duplicating a decision calculus. Reopen when the present choice needs a trade-off or comparison across frames that the available basis cannot justify.
+
+For **deciding how much investigation this mediation needs**, **adopt** C.11.DUA's comparison of attainable information work with its receiving contribution and full burden. Against either an automatic demand for causal certification or ignoring a missing basis, :2.1, :3 and :4.2 distinguish a supported bounded continuation from a stronger unsupported claim. C.28, A.10 and B.3 retain their own causal, evidence and assurance meanings; they do not supply moral permission. This comparison can end with required inquiry, a narrower result or refusal. Reopen when a changed consequence, intended claim, requirement or available inquiry can change that continuation. C.29 supplies a mathematical representation only when its operations improve the comparison; a calculated ranking remains conditional on its ethical premises.
 
 ### D.4:11 - Relations
 
 - Builds on `D.3` for the exact conflict-description episteme used by this mediation or decision.
 - Coordinates with `D.1` and `D.2` when value frame or multilevel entry is incomplete.
 - Coordinates with `D.5` when bias, fairness, impact audit, causal-fairness audit consumption, or ethical assurance is current.
-- Coordinates with `A.10`, `B.3`, `C.11`, `C.28`, `C.29`, and `C.30.ILC` when evidence, assurance, decision, causal, mathematical-lens, or architecture-residual claims are current.
+- Coordinates with `A.10`, `B.3`, `C.11`, `C.11.DUA`, `C.28`, `C.29`, and `C.30.ILC` when evidence, assurance, choice, inquiry value, causal, mathematical-lens, or architecture-residual questions are current.
+- Uses `B.5.QD.CF` and `C.39` when a conflict over the proposed means calls for another construction; `A.1.CSD` supplies inquiry into a consequential missing party.
 
 ### D.4:End
 

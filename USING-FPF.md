@@ -16,6 +16,12 @@ When a question needs several methods, use a relevant connected example or Pract
 
 Also recover the relevant Method vertical: what larger work is being performed through this action now, what constituent performances it needs, and which conditions must hold together. Use B.1.5.EW when this is unclear and B.1.5.RS for a proposed constituent replacement. A DPF can describe only part of the needed vertical. Retain already available capabilities, expose missing intermediate coordination or support, and check joint demands on shared resources. Use CGUS conditions when these facts change which continuation is available. Explain the connection in the language of the work; a formal stack diagram is optional.
 
+## Learn the contribution the work needs
+
+Using a method to obtain a result and learning to perform it are different purposes. Decide which contribution you need to make yourself and which can be supplied by a source, tool, specialist or AI assistant. For example, interpreting a model's limits may be necessary even when another contributor constructs and computes it. An available answer can be enough for the current work; it does not establish that you can produce or adapt it in a different situation.
+
+When learning is the purpose, use the [Human Capability Development DPF](Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md). HCD.1–.3 connect later work, current preparation and the choice of development or support. HCD.9 guides practice with feedback and correction; HCD.10 helps vary it for the missing operation. HCD.12 distinguishes evidence of applying an already learned method under a changed condition from evidence of learning a new method with a source. HCD.15 reopens development when the work or its support changes. Read only the contributions needed for your question; the order of publications is not a requirement to learn every method first.
+
 ## File structure
 
 A publication contains several patterns, located by their IDs. For example:
