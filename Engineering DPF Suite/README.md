@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 21 September 2026
+- **Version:** 22 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty published DPFs with 333 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-one published DPFs with 343 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -49,6 +49,7 @@ The public folder contains twenty published DPFs with 333 pattern bodies. Start 
 | Explain how work uses resources and how that use appears in money, forecasts and performance accounts. | [Management Accounting](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A resource and cost model, capacity account, cost allocation, reconciliation, forecast, margin explanation or assessment of accounting incentives. |
 | Establish whose financial position is described, what can change it and how a financial service contributes to a participant's result. | [Financial Domain Modeling](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model of parties, rights and obligations; conditional contractual flows; an established financial effect; or a connection between a service and its use. |
 | Value investments, arrange finance, preserve liquidity or manage financial exposure. | [Corporate Finance](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) - 22 patterns | An investment valuation, financing comparison, liquidity response, hedge, treasury action or financial recommendation. |
+| Connect economic plans, form feasible exchanges and commitments, or change resource-use and institutional arrangements. | [Economic Reasoning and Coordination](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md) - 10 patterns | A grounded calculation, price response, exchange proposal, commitment or adaptation arrangement, shared-resource rule, institutional change or total-use comparison after an efficiency gain. |
 | Establish corporate rights and powers, make a governing decision, protect a right or improve governance practice. | [Corporate Governance](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md) - 17 patterns | An authority answer, usable disclosure or review, a corporate act, a rights-protection result, an effective arrangement or a supported change to governance methods and culture. |
 | Handle an administrative request, resolve a difficult case, or improve the arrangement providing the service. | [Organization Administration](ORGANIZATION-ADMINISTRATION-PRINCIPLES-FRAMEWORK.md) - 15 patterns | Usable provision, a resolved exception, reconciled obligations and records, or a choice about controls, provider contributions and administrative burden. |
 | Preserve or restore required equipment functioning, and manage the policies, support and programme that make maintenance useful. | [Maintenance Engineering and Management](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 16 patterns | A qualified condition account, supported policy or intervention recommendation, feasible protected work and return to use, or a justified information, programme, Method or practice decision. Advice can be complete before repair. |
@@ -66,6 +67,8 @@ When your question crosses fields, open the [Suite Reference](ENGINEERING-DPF-SU
 For preserving or restoring equipment functioning, use the [maintenance question index](ENGINEERING-DPF-SUITE-REFERENCE.md#maintain-equipment-and-manage-maintenance) or the [PS17 advice-to-selected-work example](ENGINEERING-DPF-SUITE-REFERENCE.md#can-we-recommend-a-repair-before-it-is-ready-to-begin). To compare continued use, renewal, replacement or withdrawal by value, cost, risk and service, use the [asset-management question index](ENGINEERING-DPF-SUITE-REFERENCE.md#choose-how-to-use-and-change-engineered-assets). EAM provides both a [single-asset comparison](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#eam-asset---compare-continued-use-and-change-for-one-asset) and a [programme choice under shared constraints](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#eam-combination---choose-asset-work-under-shared-constraints). Choose by the result your question needs; either practice can concern one asset or many.
 
 For a cost model, operating forecast or reconciliation of profit and cash, use the [management-accounting questions](ENGINEERING-DPF-SUITE-REFERENCE.md#explain-resource-use-costs-and-operating-accounts). For parties, rights, contractual events or the effects of financial actions, use the [financial-modeling questions](ENGINEERING-DPF-SUITE-REFERENCE.md#model-financial-positions-and-effects). For valuation, funding, liquidity or treasury action, use the [corporate-finance questions](ENGINEERING-DPF-SUITE-REFERENCE.md#value-investments-arrange-finance-and-manage-liquidity).
+
+For economic plans that need to work together, use the [economic-coordination questions](ENGINEERING-DPF-SUITE-REFERENCE.md#coordinate-economic-plans-exchanges-and-shared-resources). The [venture example](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco-venture---turn-a-useful-idea-into-a-feasible-service-arrangement) connects exchange discovery, calculation, commitments and adaptation; the shared-resource and efficiency examples show different combinations and stopping points.
 
 For corporate authority, rights, board and committee work, disclosure or a decision, use the [corporate-governance questions](ENGINEERING-DPF-SUITE-REFERENCE.md#make-corporate-decisions-and-sustain-governing-contributions). The [interested-party transaction](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov-conflicted-matter---bring-an-interested-party-transaction-to-a-corporate-decision) connects several contributions without treating an expert opinion as the corporate act.
 
