@@ -32,6 +32,8 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Model financial positions and effects](#model-financial-positions-and-effects) | Parties and groups, rights and duties, contractual events, conditional flows, actual effects and financial-service use. |
 | [Value investments, arrange finance and manage liquidity](#value-investments-arrange-finance-and-manage-liquidity) | Cash and working capital, cost of capital, investments, valuation, options, financing, covenants, payouts, restructuring, exposure, treasury action and financial advice. |
 | [Coordinate economic plans, exchanges and shared resources](#coordinate-economic-plans-exchanges-and-shared-resources) | Calculation, price response, discovery, commitments, private information, dependence, shared resources, local and wider orders, institutional change and rebound. |
+| [Model dependence, spread and protective action](#model-dependence-spread-and-protective-action) | Continuation and usefulness, exposure and uptake, reconstruction, interacting variants, selection, diversion, protective targets and response feedback. |
+| [Continue and change a shared practice](#continue-and-change-a-shared-practice) | Acquisition, reconstruction, onward transmission, support, method development and a warranted no-change result. |
 | [Make corporate decisions and sustain governing contributions](#make-corporate-decisions-and-sustain-governing-contributions) | Rights, powers, governing roles, committees, conflicts, information, control, assurance, corporate acts, minority protection, accountability and governance practice. |
 | [Fulfil an administrative request](#fulfil-an-administrative-request-and-improve-its-handling) | Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden. |
 | [Maintain equipment and manage maintenance](#maintain-equipment-and-manage-maintenance) | Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture. |
@@ -51,6 +53,8 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Connect AP242 and QIF for one configuration-bound inspection question](#how-can-ap242-and-qif-answer-one-configuration-bound-inspection-question) | Semantic integration, source editions, correspondence, identity, provenance, transformation, interface, validation. |
 | [Connect movement learning and its teaching](#when-does-learning-a-movement-also-require-developing-its-teaching) | Bodily contribution, practice, available help, learning to teach, related development projects and concurrent enactment. |
 | [Move attention while continuing the whole action](#how-can-attention-move-while-the-whole-action-continues) | Timely observation, concurrent methods, missed events, bodily coordination, teacher support and independent use. |
+| [Can protective review work with our capacity?](#can-protective-review-work-with-the-capacity-we-have) | Expected errors, interception, usable review time, other commitments and a feasible combined response. |
+| [Share a method and retain the means to develop it?](#how-can-we-share-a-method-without-losing-the-means-to-develop-it) | An AI-assisted practice, different receiving capabilities, limited specialist time, continued development and changed selection conditions. |
 | [Combine results and handle a missing input](#combine-results-and-handle-a-missing-input) | Specialist requests, several views of the same work, evidence limits, changed circumstances, when to revisit a decision. |
 | [Citation](#citation) | Cite this Reference or a particular pattern application. |
 
@@ -407,6 +411,32 @@ Economic Reasoning and Coordination connects calculation, exchange construction,
 | Will lower resource use per result reduce total use? | [ECO.10 - Trace Resource Savings through Changes in Demand](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco10---trace-resource-savings-through-changes-in-demand) | A comparison with and without induced responses, or a useful threshold with its scope and limits. |
 
 For a new service, the [connected venture example](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco-venture---turn-a-useful-idea-into-a-feasible-service-arrangement) joins discovering an exchange, recovering its economic grounds, forming commitments and arranging adaptation. If tooling becomes reusable and another supplier is available, the dependence changes; ordinary purchasing can then suffice. A supplier's separately performed work is linked by an agreement, while interpreting that agreement can be a constituent operation in the buyer's venture work.
+
+### Model dependence, spread and protective action
+
+Use Defense and Transmission Modeling when a practice or variant keeps spreading, changes the conditions of its own continuation, or provokes a response whose consequences are unclear. Begin with the affected work and participants. A biological analogy does not establish the mechanism of an engineering or cultural case.
+
+| Working question | Open | Result |
+| --- | --- | --- |
+| Does continued use help the work, and what would be lost if the support disappeared? | [DTM.1 - Distinguish Dependence, Cooperation and Parasitic Use](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm1---distinguish-dependence-cooperation-and-parasitic-use) | A comparison of continuation, dependence and consequences for the named participants, with unresolved effects retained. |
+| Why does a practice spread, stall or return after suppression? | [DTM.2](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm2---build-a-transmission-law-from-exposure-and-uptake), [DTM.3](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm3---couple-change-within-carriers-to-spread-between-them) and [DTM.4](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm4---find-conditions-for-invasion-persistence-and-return) | A law distinguishing exposure, uptake and reconstruction, connected to participant change and the conditions for continuation or return. |
+| Does a changing aggregate reflect selection, interaction or diversion of a shared mechanism? | [DTM.5](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm5---separate-selection-within-and-among-collectives), [DTM.6](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm6---model-competition-and-facilitation-between-variants) or [DTM.7](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm7---locate-diversion-of-a-shared-control-or-cooperation-mechanism) | The applicable decomposition or causal construction; a statistical contribution is kept separate from its explanation. |
+| Which protective action changes the needed result, including harm or lost capability caused by the response? | [DTM.8](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm8---distinguish-and-combine-the-targets-of-protective-action) and [DTM.9](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm9---model-damage-and-feedback-from-a-protective-response) | A comparison of action targets and response feedback, preserving residual activity, capacity, memory and effects on other participants. |
+
+Use the [connected DTM entries](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#defense-and-transmission-modeling-dpf-readme) when several of these results are needed together. The [review-capacity example](#can-protective-review-work-with-the-capacity-we-have) shows why a modeled protective effect still needs an operating contribution.
+
+### Continue and change a shared practice
+
+A working method may become easier to copy while the ability to explain, alter or teach it becomes harder to obtain. Or a capable group may reasonably decline a proposed change. Begin with the work and the contribution that could make a difference.
+
+**Find what the next work needs → compare learning and support → trace wider use → choose a feasible continuation → observe use → keep methods available for further development.**
+
+[C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) locates the unavailable contribution and compares learning, help, tools and changed arrangements. [HCD.13](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-13) distinguishes human retention from support dependence when that question matters. [DTM.2](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm2---build-a-transmission-law-from-exposure-and-uptake) and [DTM.3](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm3---couple-change-within-carriers-to-spread-between-them) connect what another participant obtains with subsequent transmission; reconstruction can produce a useful variant.
+
+Use [ME.16](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-observe-and-revise-a-method-in-practice) to separate a changed method from a changed way of introducing it, and [ECO.7](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) when different participants must sustain a constrained support contribution. Return changed results to the method, learning, support or selection decision they affect. A supported decision to keep the current practice is a complete result.
+
+The [shared-method example](#how-can-we-share-a-method-without-losing-the-means-to-develop-it) follows these dependencies.
+
 
 ### Make corporate decisions and sustain governing contributions
 
@@ -774,6 +804,54 @@ Build only the semantic premises and returns the query consumes:
 The bounded positive return is a validated row set for `R`, `F` and `E`, plus explicit unmatched or incompatible results. If an unresolved local AP242 extension affects one feature class, stop that row and return to its owner while independent rows may continue. Stop the dependent answer if configuration/effectivity or feature identity is unresolved, a load-bearing source edition cannot be qualified, a conflict is hidden, or the representative query fails.
 
 Pass the resulting semantic premise to the applicable Systems Engineering and quality decisions. It does not choose the released revision, decide plan applicability, accept an inspection result, prove the integration is deployed, or show that a pipeline is reliable. Real work must substitute the actual source assets, local extensions, configurations, inspection records, authority and tests; this case demonstrates the method and its stopping boundaries.
+
+## Can protective review work with the capacity we have?
+
+A service uses an automated method whose outputs can contain errors. In this constructed case, its operators are considering fewer automated runs and a review of the remaining results. The question is whether the combined action can reduce erroneous deliveries without consuming capacity needed for other work. All rates and times below are stipulated for the example, not measured performance.
+
+[DTM.1](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm1---distinguish-dependence-cooperation-and-parasitic-use) separates dependence on automation from its useful and harmful consequences. Reducing its use must preserve the required service; an error count alone cannot establish that. [DTM.8](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm8---distinguish-and-combine-the-targets-of-protective-action) then separates reducing established activity from intercepting its consequences.
+
+After halving the original 200 runs, 100 remain per week. With a 0.25 error probability, they generate 25 expected errors. Assume that each detected error is kept out of delivery; any needed replacement result must be supplied separately. Reviewing all 100 results with 80% detection would leave 5 expected erroneous deliveries. This conclusion requires that capacity and detection performance be available together.
+
+Suppose each review requires two minutes and the reviewers have only 100 usable minutes after their other commitments. [OPS.10 - Qualify Capacity Under Variability](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops10---qualify-capacity-under-variability) exposes a necessary capacity bound: at most 50 reviews fit, even before variability, rework or additional constraints. Even if all 50 reviews can be completed, uniform selection and the same conditional detection rate would remove 50 × 0.25 × 0.8 = 10 expected errors, leaving 15. The five-error result is therefore unavailable under this capacity limit.
+
+The next move depends on what can change. [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) compares obtaining more usable capacity, changing admission or retaining another arrangement while preserving other commitments. The service's responsible practice supplies the required output and acceptable consequence; neither DTM nor this arithmetic chooses them. If reviews create delay, consume learning opportunities or change subsequent behavior, [DTM.9](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm9---model-damage-and-feedback-from-a-protective-response) adds those effects when they can change the choice.
+
+Reading an output, detecting a fault and protecting the service can be constituent contributions to the same review work. Operating coordination also considers other work that competes for those minutes. This distinguishes a Method vertical from concurrent resource use. A plan to add reviews establishes neither the needed capability nor the later effect; evidence about the error and detection mechanisms can require returning to the subject model.
+
+## How can we share a method without losing the means to develop it?
+
+Six engineering teams use an analysis assistant. Existing review makes its routine outputs usable. A new assignment requires changing a model assumption and explaining the resulting construction; only two shared specialists can currently supply that contribution. Should the practice developer promote the assistant to more teams? The following facts are stipulated for this example, not measured effects of an intervention.
+
+**Recover what the next work needs.** [C.36.RP](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c36rp---sustain-and-renew-shared-ways-of-working) separates obtaining a checked answer from being able to alter its method. The specialists are a valid current supplier; the teams need not all become specialists. Determine who must recognize an unsuitable answer, who must reconstruct the changed model and which contributions can be obtained elsewhere. There is no evidence here that the teams previously had and then lost this ability. If a retention or tool-dependence claim would change the decision, use [HCD.13](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-13) with its required comparison. A new demand alone does not establish decline.
+
+**Follow uptake into the next contribution.** A demonstration, an attempted procedure, a checked result and an ability to help another team are different events. [DTM.2](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm2---build-a-transmission-law-from-exposure-and-uptake) recovers what the recipient obtains, including a changed construction; [DTM.3](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm3---couple-change-within-carriers-to-spread-between-them) connects that change to subsequent transmission. Use a quantitative model only if its result can change the choice. Counting demonstrations would miss both the receiving work and the demand on specialists.
+
+**Protect the work that supplies the next method.** The two specialists can jointly provide nine hours of specialist work per week for this service, after their other commitments. Current work consumes seven of those hours. Expansion is estimated to need two additional hours of receiving support and two of method development: eleven hours would not fit. The support and development estimates may still be wrong, but accepting them cannot make this plan feasible.
+
+[ECO.7](ECONOMIC-REASONING-AND-COORDINATION-PRINCIPLES-FRAMEWORK.md#eco7---coordinate-use-and-renewal-of-a-shared-resource) distinguishes freely copying a description from consuming a constrained service. [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops19---reconcile-simultaneous-operating-work-across-cases-and-scales) helps compare the work competing for those hours while preserving commitments. The service owner can retain the current arrangement, obtain qualified help, change support or defer expansion.
+
+Suppose no additional provider has been secured. One specialist can provide the remaining two hours for a reconstruction probe, including preparation and review; a receiving participant also has time to take part. The question is whether the existing explanation supports a consequential change of assumption or leaves a missing operation. Its answer will inform the choice between improving that explanation, developing a different learning arrangement and continuing to obtain specialist help. The owner judges that this bounded answer warrants the time of both participants and defers expansion. If the answer would not change that choice enough to justify the work, retaining the supported service without the probe would be sufficient.
+
+**Keep an introduction attempt separate from its result.** [ME.16](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-observe-and-revise-a-method-in-practice) keeps the target method, explanation, support and way of introducing the change distinct. Record what the participant can reconstruct and use, with the assistance actually provided. Use [HCD.16](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-16) for any conclusion about the human-development method. Two allocated hours demonstrate neither mastery nor that another team can later do the same work.
+
+If the probe yields a useful construction, retain the assumption, operations, explanation and conditions needed to vary it again. C.36.RP returns the next consequential variation to the appropriate development method. The means of improvement can themselves need development: another person may need to learn how to teach the construction or assess a proposed variant. Arrange this further contribution when its absence matters.
+
+Reading the model, interpreting its quantities and judging its use can be constituent methods enacted together in one review. Teaching another reviewer, maintaining the assistant and operating the shared service have their own work and support relations. A method vertical, a provider arrangement and a population of users need not have the same structure.
+
+### When the conditions change
+
+| Changed condition | Consequence for the next move |
+| --- | --- |
+| Another accessible provider already supplies the required construction. | Repair access or allocation before prescribing learning to every team. Keep any independently required human judgement explicit. |
+| Teams can reconstruct the method but the proposed tool's adoption cost exceeds its useful contribution. | Keeping their current practice is a valid result. Rejection alone is not proof of resistance or incapability. |
+| Recognition rewards polished outputs while errors in unfamiliar cases remain hidden. | Use [DTM.7](DEFENSE-AND-TRANSMISSION-MODELING-DPF.md#dtm7---locate-diversion-of-a-shared-control-or-cooperation-mechanism) to trace how the visible output earns further use and whether that support sustains the mismatch. ME.16 introduces a justified change. More instruction alone may leave the reward rule unchanged. |
+| The new procedure succeeds only in a course or demonstration. | Compare the receiving task and support with the course conditions. In music and dance, [MDPE.21](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe21---design-how-a-music-or-dance-style-is-produced-and-reproduced) and [MDPE.22](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mdpe22---test-a-support-environment-change-for-a-music-or-dance-practice) address the performance and environment relations; their musical and bodily conditions remain specific to that practice. |
+
+The same distinction matters for a shared technical reference: its descriptions can be copied without exhausting them, while question answering and revision work can exhaust the maintainers' time. Arrange the question-answering and revision work needed for continued use. A support agreement is one result; continuing production of useful methods is another.
+
+Finish with the supported continuation or change, the contributions it needs and the uncertainty it leaves. A local successful attempt establishes neither wider uptake nor a lasting cultural improvement. If that stronger conclusion matters, obtain the corresponding observations; otherwise use the present result.
+
 
 ## Combine results and handle a missing input
 
