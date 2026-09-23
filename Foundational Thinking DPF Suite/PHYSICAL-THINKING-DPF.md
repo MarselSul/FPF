@@ -3,7 +3,7 @@
 > A pattern language for forming physical accounts, deriving usable consequences, constructing observations and revising the physical assumptions.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 September 2026
+- **Version:** 22 September 2026
 - **Status:** Eternal alpha: a usable repertoire that remains open to correction and extension.
 - **License:** © 2026 Anatoly Levenchuk. Original framework text: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). Cited sources retain their own terms.
 - **Publication:** [FPF ecosystem repository](https://github.com/ailev/FPF)
@@ -2025,7 +2025,7 @@ A nondestructive or non-demolition measurement protects a specified property und
 
 #### PHY.9:4.5 - Determine the distinctions the readout supports
 
-Compose the physical response with the actual recording procedure through C.16.MR and MMP.7. Retain common influences, saturation, timing and finite resolution when they affect the conclusion.
+Compose the physical response with the actual recording procedure through C.16.MR. Use MMP.7 when the conclusion requires a probability law for those records. Retain common influences, saturation, timing and finite resolution when they affect the conclusion.
 
 Determine whether different target values remain compatible with the same possible records. If they do, identify which interaction, preparation or readout could separate the relevant alternatives. A local slope measures a local response; it does not resolve a periodic ambiguity or a shared unknown parameter.
 

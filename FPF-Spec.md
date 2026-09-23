@@ -113,6 +113,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.6.3.NAR | **Structure-to-Narrative Rendering** | Stable | Turn selected source structure into a reader-useful sequence: choose the reader and use, select and order source structure, draft the shortest useful narrative, compare it with the source, and state preservation, loss, unsupported additions, bounded use, and return. Open exact `X`, `Y`, and `n : X -> Y` only when a named receiving use makes claim identity material; publicness alone does not. *Queries:* "How do I explain tangled structure as a sequence without replacing the source?", "What did this narrative preserve, omit, or add, and when must a reader return?", "When does a narrative need exact source and receiving episteme identity?" | **Specializes:** A.6.3. **Coordinates with:** A.6.3.CR, A.6.3.RT, A.6.3.CSC, A.6.4, E.17.EFP, C.33, C.34, C.35, G.2, E.24.PUB, E.17.0, G.11. |
 | A.6.4 | **EntityOfConcern retargeting** | Stable | Use when exact source and receiving epistemes concern different exact entities. Identify their exact arrow `r`; state a separate C.2.1 bounded-use assertion `q` whose ClaimGraph contains the invariant, visible loss, named receiving use, conditions, and affirmative or negative polarity; then compare exact facts with `q` in a separate current-case judgement returning `satisfies`, `fails`, or `cannot decide`. For `cannot decide`, name the missing fact and reopen condition. Neighboring claims stay with the owners listed at right. *Queries:* "Do the endpoint epistemes concern different exact entities?", "What identifies `r`?", "What invariant, loss, use, conditions, and polarity does `q` state?", "Which exact facts determine the judgement?" | **Builds on:** A.6.0, A.6.2, A.6.3, C.2.1, C.29, A.6.3.RT, A.6.5, A.7, E.10.D2. **Coordinates with:** C.2, C.3, the direct domain pattern for the invariant, and F.9 only for a separately claimed local-sense Bridge; A.6.1, A.15, A.10, B.3, A.20, E.17, and E.24.PUB keep their neighboring claims. |
 | A.6.P | **Relational Precision Restoration — Recovering Direct Relations from Under-Specified Claims** | Stable | Recover the concrete subject, participants, obtaining condition, and receiving use from under-specified relation wording. For service/access language, first distinguish service provision, Method, promise, bare role wording, system-role kind or assignment, permission, bearer or proposed arrangement, Work, capability, status, evidence, fulfilment, acceptance, and missing governor; the word selects none. *Queries:* "What exact referent or relation does this phrase assert?", "Which E.10.ROLE branch does bare role wording select?", "Did service wording name Work, a Method, promise content, a bearer, an arrangement, status, or another direct claim?", "Does the repaired bearer claim really require A.1 evaluation?" | **Builds on:** A.6.REL, A.6.RCD, A.6.0, A.6.5, C.2.1, E.10, E.10.ARCH. **Coordinates with:** E.10.ROLE, A.1.SCR, A.1.STM, A.6.P.WMR, A.6.RSIR, A.6.B, A.3.4, A.10, C.29, E.17.0, E.24.PUB, F.9, F.18. |
+| A.6.P.RI | **Recover Agent-Relative References for Action** | Stable | Use when passing an account to another participant leaves a reference unclear—for example, whose left side or project is meant. Recover the source reference, what the receiving use must preserve and who will act; derive an interpretation or instruction, or name the missing condition. | **Builds on:** A.6.P. **Coordinates with:** C.2.1, A.6.3.RT, A.6.4, B.5.EA. |
 | A.6.P.WMR | **Exact Relation Recovery for Method and Work Claims** | Stable | Start with one boundary-word sentence about an input, raw material, source data, source material, output, result, outcome, deliverable, or handoff. Name the exact thing, what it is related to, and the direct verb that can safely be said now—or return `factually unsupported`, `missing-information`, or `missing-governor`. Use formal claim dimensions only when they change or check that answer; keep planning, Work, production, delivery, acceptance, transfer, and receiving use separate. | **Specializes:** A.6.P. **Coordinates with:** A.3.1, A.3.2, A.6.1, A.15.1-A.15.3, A.3.4, A.15.PROD, A.6.RCD, C.2.P, E.10, E.10.ARCH, E.18.1, F.18. |
 | A.6.RCD | **Needed Relation Claim Derivation and Relation-Kind Admission** | Stable | Starts from one blocked relation-bearing claim with exact participants and selects the lightest truthful result: an existing direct claim, a local compound claim, reusable predicate-definition content, a derived relation-kind candidate only when occurrence semantics are needed, or an irreducible primitive candidate. Unknown facts remain an information, support, or reliance question rather than a third direct-claim polarity. | **Entered from:** A.6.P after direct-relation recovery. **Builds on:** A.6.REL, A.6.5, C.2.1. **Coordinates with:** A.6.0, A.11, E.24, E.24.UK, C.29, F.18. |
 | A.6.RSIR | **Relation, Signature, Interface, Role, and Slot Precision Restoration** | Stable | *Keywords:* relation-signature-interface-role-slot recovery, ambiguous role wording, direct relation participant, participant meaning, RelationSignature, SlotSpec, operation declaration and binding, representation position, system-role kind, system-role assignment, interface, port, API, reduced-use source label. *Queries:* "What does E.10.ROLE recover from this role wording?", "Does this slot, field, parameter, argument, or endpoint name an actual participant, a declaration place, an operation binding, or a representation position?", "When does interface wording mean a module relation, functional port, signature, API publication, service-access claim, or representation?" | **Builds on:** E.10, E.10.ARCH, E.10.ROLE, A.6.P, A.6.REL, A.6.0, A.6.1, A.6.5, C.2.1, A.2, A.2.1, A.15, C.29. **Coordinates with:** A.6.M, A.6.F, A.6.A, A.3.4.P, C.2.P, C.2.P.DR, E.17, A.10, F.10, G.6, F.18, F.19. |
@@ -150,6 +151,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | A.15.8 | **Work-Performance Configuration and Recovery Testing** | Stable | Use when interruption, handoff, delay, degradation, or reconfiguration may change continuation or recovery for either one exact actual Work occurrence with actual performers and relied-on obtaining support relations, or one exact present WorkPlan whose declaration-local content names intended performers and a proposed configuration. Returns the exact focus, supported or proposed configuration, representative probe observation, direct relation result or exact blocker, and next repair or stop without creating an extended-performer, attention, memory, or Work-state kind. | **Builds on:** A.1, A.15.1, A.15.2, A.6.RCD, F.6, C.2.1. **Coordinates with:** A.15.5, A.15.7, A.2.2, A.22, C.30, A.10, and direct domain Methods. |
 | A.15.9 | **Request and Use a Bounded Result from Another Practice** | Stable | Use when one decision or piece of Work needs a legal, safety, tax, privacy, engineering, scientific, or other result governed by another practice. Inspect an already-available result and return the supported answer with its material limit or exact blocker. A further request is selected only when its obtainable contribution warrants the whole acquisition burden. The supplier keeps its Method and professional authority, while the receiver keeps the receiving decision. | **Builds on:** A.15, A.10, A.13, A.15.1, C.2.1. **Coordinates with:** C.11.DUA, A.2.2, A.2.1, F.6, A.2.9, E.18.1, `RESULT-TO-NEXT-MOVE`, C.38, and applicable domain Methods. |
 | A.15.10 | **Resume Interrupted Work** | Stable | Use when an interruption or handoff has left the next item visible but the purpose, operative method or usable prior result uncertain. Recover only what a useful continuation needs; prepare a return cue when its benefit warrants the effort. Continue directly when the working basis is already available. | **Builds on:** A.15. **Coordinates with:** A.15.5, A.15.7, A.15.8, A.15.9, B.5.RA, B.5.RC, B.5.RR, C.11.DUA, E.23.CAE, B.1.5. |
+| A.15.11 | **Make Applicable Methods Noticeable in Work** | Stable | Use when a useful method goes unconsidered during work, including successful work that could benefit from another way. Arrange an encounter that makes its contribution understandable and its next operation accessible; retain, change or remove the arrangement according to its value and cost. | **Builds on:** A.15. **Coordinates with:** A.15.7, B.1.5.EW, C.40, C.40.CD, C.11.CRC, C.11.DUA, E.11, E.23.CAE, E.23.CDI. |
 | A.15.PROD | **Production Work, Entity-Identity Inception, and Production Completion Recovery** | Stable | Recovers three separate receiver-selected answers: whether exact dated Work is the whole production Work or its proper part; when governed effects of exact Work first made the applicable identity rule hold so one exact entity began to exist; and whether the exact completion subject satisfied its criterion at a historical boundary and a separate closure governor closed the exact production Work. Work, actual change, entity identity, state satisfaction, Work completion, delivery, acceptance, release, publication, and availability remain separate. | **Builds on:** A.13, A.15.1, conditional F.6, A.3.1, A.3.4, C.2.1, A.6.RCD. **Coordinates with:** A.1, A.6.1, C.2.P, A.15.2, A.15.6, A.10, B.3, E.24.PUB, G.11, A.6.P.WMR, E.18.1, F.18, and the direct identity, work-to-change, completion, delivery, acceptance, release, and availability patterns. |
 | A.16 | **Language-State Move Coordination** | Stable | *Keywords:* language-state, move, admissible language-state move, reopen, sketch-backoff, respecify, retire, responsibility transfer. *Queries:* "How do governed epistemes move across the language-state chart?", "What are the admissible language-state move kinds in FPF?" | **Builds on:** C.2.2a, C.2.LS, A.19. **Coordinates with:** A.16.0-A.16.2, B.4.1, E.18, and E.10.MOVE when move-like wording leaves the local language-state object. |
 | A.16.0 | **`U.LanguageStateMoveTrajectory` - Optional trajectory-account normal form over the language-state `U.CharacteristicSpace`** | Stable | *Keywords:* trajectory account, lineage, fork, merge, supersedes, responsibility transfer, heavy history. *Queries:* "When do I publish a language-state trajectory account?", "How does FPF record lineage and branch history?" | **Builds on:** A.16, C.2.2a, E.17, E.18. **Used by:** A.16.1, A.16.2, B.4.1, B.5.2.0. **Coordinates with:** E.10.MOVE when move-like wording is not a language-state trajectory-account claim. |
@@ -17462,6 +17464,8 @@ Start from the claim as written and ground each load-bearing head:
 
 The result of this step is an ordinary sentence containing identifiable objects. It is not a newly minted object kind. When several candidates remain live, use the small working note in A.6.P:4.9.
 
+Copying an expression such as “my left” or “our project” into another participant's instruction can change its referent. Use `A.6.P.RI` when the receiving use still needs to establish whose reference is intended, what must remain the same, or which performer is to act. The result is a usable interpretation or instruction, or a specific missing condition. When those references and the task are already clear, use ordinary clarification or the relevant domain transformation; A.6.3.RT governs a needed change of representation scheme while the EntityOfConcern stays the same.
+
 If the material is still a cue and no relation-bearing claim can yet be stated, stay with `A.16.1` or `B.4.1` instead of forcing relation publication. If the cue has stabilized into an open explanatory question but still has no selected relation answer, use `B.5.2.0`.
 
 If counter-evidence or a failed use shows that a published relation statement overstates its articulation, closure, or framing, use `A.16.2` to reopen, back off, or respecify that publication. `A.16.2` records the retreat; A.6.P repairs the relation again only after the engineer can name a grounded candidate relation, its participants, and a discriminating check. Use `A.16.0` only when readers must see lineage, branching, loss, or responsibility-transfer history; a local return needs no trajectory account.
@@ -17941,6 +17945,202 @@ Use `C.29` for a declared mathematical-lens-use account or representation only w
 When a sentence claims cross-context meaning, export, correspondence, or substitution, first name what each endpoint means locally, then use `F.9` to state and test the direct Bridge predicate. F.9 supplies the obtaining condition and occurrence-identity rule when the two exact local-sense endpoints resolve, their interpretation bases differ, and the declared profile applies. `C.2.1` separately identifies an assertion, occurrence description, or Bridge Card and the bounded-use claim; `A.10` and `B.3` separately govern evidence reliance and assurance, `E.24.PUB` governs publication, and the receiving object's pattern governs any use that actually occurs. A changed claim, Card, evidence item, reliance result, or publication is not a changed Bridge occurrence. Use `C.29` only when the reader relies on a representation or mathematical-lens account; a representation does not establish the Bridge or the represented world-side relation. If the sentence needs no cross-context correspondence or substitution claim, add no Bridge. If it needs another relation for which no current pattern supplies a defining or testing rule after the participants and needed sentence are explicit, record the established A.6.RCD `missing-governor` result.
 
 ### A.6.P:End
+
+## A.6.P.RI - Recover Agent-Relative References for Action
+
+> **Type:** Method pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+### A.6.P.RI:1 - Problem frame
+
+Use this pattern when an instruction or account depends on who says, reads or acts on it, and copying its words could change the intended object or action. “My left”, “our account”, “here”, “now” and an omitted actor can remain understandable to their originator while becoming ambiguous or misleading for another participant.
+
+The subject is the interpretation and use of such an expression. Recover what it refers to at its source, decide what the receiving use must preserve, and connect the recipient to the relevant participant or position before deriving an action.
+
+The first useful result is an interpretable account or instruction for the receiving work, or a specific missing reference or transfer condition. Sometimes it is enough to preserve an attributed report; sometimes another performer needs a different instruction to obtain the same result.
+
+If the participants, relative expressions and intended action are already clear, proceed directly. Use this method where a difference of speaker, recipient, position, time or other reference condition could change what happens next.
+
+### A.6.P.RI:2 - Problem
+
+Two people can understand “left” and still move an object in opposite directions. Two systems can share the same description of a workplace while lacking the link that identifies which described participant each system is. A teacher can repeat a learner's first-person report while unintentionally presenting it as an observation the teacher made.
+
+Making an account explicit helps, but does not settle how to use it after transfer. The recipient may be asked to preserve the same external destination, repeat a rule relative to their own body, or merely understand what the original speaker meant. These purposes can require different results even when everyone agrees on the participants and their orientations.
+
+The difficulty is to preserve the relevant meaning without assuming that a copied expression retains its reference or that understanding an instruction supplies the means to perform it.
+
+### A.6.P.RI:3 - Forces
+
+| Need | Difficulty |
+| --- | --- |
+| Preserve the source meaning | A relative expression can acquire a new referent when copied. |
+| Make the result usable by another participant | The recipient may occupy a different position or have different means of action. |
+| Keep ordinary language useful | Expanding every pronoun creates work without resolving a live ambiguity. |
+| Change an instruction deliberately | Preserving a result and repeating a relative rule are different tasks. |
+| Relate experience and observation | The person experiencing a sensation and the person describing it have different access. |
+
+### A.6.P.RI:4 - Solution
+
+Recover the source reference, establish the receiving purpose, then derive only the interpretation or instruction that those conditions support.
+
+#### A.6.P.RI:4.1 - Find the expression whose reference matters
+
+Start with the actual statement and the work it is meant to support. Identify a word or omitted participant whose interpretation changes the result: for example, whose account, whose left side, which location or which time.
+
+Use A.6.P to recover the relevant participants and relation. Read a quotation relative to its attributed speaker until the use calls for another interpretation. An imperative may leave the intended actor implicit; distinguish that actor from the person relaying the message.
+
+Choose the smallest explicit account that removes the consequential ambiguity. A sentence such as “Dana means the cabinet to Dana's left” may suffice. If the source participant is unknown and the choice matters, retain that missing fact.
+
+#### A.6.P.RI:4.2 - Recover the source conditions
+
+Establish the source participant and only the conditions needed to interpret the expression. Direction can depend on orientation; “here” can depend on location; “now” on the time of utterance; “our account” on the organization and account relation.
+
+C.2.1 supplies the distinction between the content and the rules used to designate its objects and interpret its expressions. Use the available records, communication setting or the participant's clarification to recover those values. A timestamp or sender field helps only if it identifies the relevant occurrence or speaker.
+
+Keep unknown conditions visible. Where several interpretations permit the same safe continuation, that continuation may proceed without settling every detail. Where they lead to materially different actions, obtain the missing condition or give the conditional alternatives instead of silently selecting one.
+
+#### A.6.P.RI:4.3 - Establish what the receiving use must preserve
+
+Ask what the recipient is being asked to do with the source. For example:
+
+
+- understand or report the original statement with its original referents;
+- obtain the same external result through the recipient's own action; or
+- apply the same relative rule afresh to the recipient.
+
+Recover the actual purpose from the assignment or working agreement.
+
+For example, “move the crate one metre to my left” can identify a direction from the speaker's orientation. A second performer preserving that displacement may need to move to their own right. “Repeat the movement to your own left” instead applies the relative rule to the second performer and can produce a different displacement.
+
+Knowing both orientations does not choose between those tasks. If the transfer purpose is missing, state that missing condition before deriving an unconditional instruction.
+
+#### A.6.P.RI:4.4 - Express the relation for the receiving use
+
+Make the participants and preserved result recoverable in the form the recipient can use. This may be an ordinary sentence, a diagram or an instruction using an established coordinate convention. The relevant subject method supplies a spatial transformation, financial classification or other domain operation when one is needed.
+
+Use A.6.3.RT for a change of representation scheme that keeps the EntityOfConcern. Extra information needed for the new expression remains an additional input. If C.2.1 identifies different EntitiesOfConcern, use A.6.4 for the invariant, visible loss and bounded receiving use. Changing the performer, notation or coordinates alone does not establish such a change.
+
+For a report of experience, retain who experienced and expressed it. B.5.EA supports articulation and correction by that participant. Translating the report into an observer's vocabulary cannot by itself establish a bodily cause or give the observer the same experience.
+
+#### A.6.P.RI:4.5 - Connect the recipient to the account and derive the action
+
+Establish which described participant or position the receiving agent occupies for this use. A common description of all participants does not supply that link by itself. A person may recognize their part in the working situation. An artificial agent uses the identifying information and, where needed, sensed conditions supplied by its configuration.
+
+Then interpret the account or derive the instruction under the purpose selected in §4.3. Recompute relative descriptions when necessary. When a message is only being quoted, preserve its original attribution rather than making the quoting recipient its speaker.
+
+Before acting, retain the receiving work's requirements for authority, capability and resources. This method repairs the reference and transfer; the recipient performs the action using the relevant domain method.
+
+#### A.6.P.RI:4.6 - Check the difference that could defeat the transfer
+
+When a wrong reference could change the action, vary the relevant condition in a small safe case: another receiver, a changed orientation, a later time or a different organization. Derive the result from the recovered relation and compare it with the selected receiving purpose.
+
+If the words stay the same but the result changes incorrectly, return to the source conditions or transfer purpose. If the instruction is correctly understood but cannot be performed, obtain the missing capability or support instead of continuing to repair its wording.
+
+Stop when the account is sufficient for the intended use, or when a named unresolved condition prevents it. Retain a written reference or conversion rule only when later use needs it; an ordinary clarification can finish in the conversation.
+
+### A.6.P.RI:5 - Archetypal Grounding
+
+The following constructed cases show different things a transfer can preserve.
+
+#### A.6.P.RI:5.1 - Preserve a displacement across orientations
+
+A faces north and asks B to displace a crate one metre in the direction A calls left. B faces south. The assignment is to preserve the external displacement, and both headings are known.
+
+The source direction is west. For B, facing south, west is right. The receiving instruction is therefore to move the crate one metre to B's right. If B turns east before acting, west becomes backward. Copying “left” would now send the crate north.
+
+Change the assignment to “move the crate one metre toward your own left”. With B facing east, the correct displacement is now north. The known headings did not settle the instruction; the preservation condition did.
+
+If B's heading is unavailable, “one metre west” can still be a complete instruction for a performer who can act in that frame. Otherwise the body-relative instruction remains unresolved. The method asks for the information needed by the chosen means, not for every possible position description.
+
+A mobile robot receiving the same external displacement needs a usable relation between the shared frame and its action representation. Obtaining that relation and the capability to perform the movement is a separate technical task. The example does not prescribe its learning or control architecture.
+
+#### A.6.P.RI:5.2 - Preserve the speaker when relaying a request
+
+Dana writes to an assistant: “Put the comparison in my project folder.” The assistant sends the request to another worker. Replacing “my” with the new worker's own project folder would change the destination.
+
+The receiving purpose preserves Dana's destination. The assistant identifies Dana's project folder through the available project information and relays: “Put the comparison in Dana's project folder,” with a usable reference to it. The worker uses its own authorized means of access; Dana's request does not grant access that the worker lacks.
+
+If the next assignment is instead “each worker puts a copy in its own project folder”, the rule is applied relative to each worker. That is a changed distribution task, not another wording of the original destination.
+
+Where the workspace contains several Dana projects and the intended one cannot be recovered, the useful result is a question selecting the project. Producing another fluent paraphrase leaves the same action unresolved.
+
+#### A.6.P.RI:5.3 - Relate a dancer's report to an observer's account
+
+A dancer facing the teacher says, “I feel a pull along my left side when I turn in this figure.” The teacher sees movement on the teacher's right. Both accounts can concern the dancer's left side even though the spatial words differ.
+
+The first receiving task is to understand the report. Recover the dancer as the experiencing participant, the dancer's orientation and the turn being described. The teacher can say, “You report a pull along your left side during that turn,” and ask the dancer to correct the expression if needed.
+
+A second task is to decide how to change the movement. The report and external observation can inform that inquiry, but do not themselves identify the tissue, force, cause or suitable exercise. The relevant bodily practice must supply the further operation.
+
+In this figure, maintaining balance during the turn contributes to performing the figure; regulating bodily effort helps enact that balance, while the steps keep their required rhythm. Changing whose account is used can make another question accessible; it does not by itself identify which constituent needs development. B.1.5.EW supplies that vertical inquiry, and B.5.EA helps articulate a distinction the dancer cannot yet express.
+
+### A.6.P.RI:6 - Bias-Annotation
+
+A translator can assume that the recipient occupies the same position as the source. A shared diagram or vocabulary makes this especially easy. Test the particular changed condition on which the action depends.
+
+An observer can also replace the performer's report with an interpretation that is easier to describe externally. Keep the report open to correction by its source and give the additional interpretation its own basis.
+
+### A.6.P.RI:7 - Conformance Checklist
+
+For a consequential interpretation or transfer, ask:
+
+- Which expression depends on its speaker, user or situation?
+- Are the source participant and action-changing reference conditions recoverable?
+- What does the receiving use preserve?
+- Can the recipient identify its own relevant position in the account?
+- Does the derived action still satisfy that purpose when the consequential condition changes?
+- Are missing information, authority, capability and support distinguished?
+- Does any actual change of EntityOfConcern use A.6.4 rather than being assumed from new notation?
+
+Use the questions needed for the receiving decision. An already clear instruction needs no additional record.
+
+### A.6.P.RI:8 - Common Anti-Patterns and How to Avoid Them
+
+**Copying a relative direction.** The source and recipient face different ways, but both act on the same word. Recover the source direction and the intended receiving result before deriving the recipient's instruction.
+
+**Replacing every “I” with the recipient.** A quotation or relayed instruction loses its original speaker. Preserve the source attribution unless the new task deliberately applies a rule to another participant.
+
+**Treating shared facts as self-identification.** Several systems receive the same participant description, but none has been linked to its own entry. Obtain that link from the actual working configuration.
+
+**Turning a felt report into a bodily cause.** “The dancer reports tension here” becomes “this tissue causes the failure”. Preserve the report and use the appropriate subject method to examine the causal claim.
+
+### A.6.P.RI:9 - Consequences
+
+The same source account can support a usable receiving instruction without losing who or what it concerned. A changed position or participant becomes a condition to handle explicitly where it matters.
+
+The method can expose missing information and thereby postpone an action that previously appeared clear. It does not create the unavailable information, movement capability or authority. Where ordinary shared understanding already settles the reference, further formalization would add cost without improving the action.
+
+### A.6.P.RI:10 - Architectural Rationale
+
+Relational precision restoration recovers missing participants. Agent-relative use additionally requires a link between the receiving agent and the described participants, together with a decision about what the transfer preserves. Neither a complete participant list nor a change of notation supplies these by itself.
+
+The construction therefore combines the source interpretation, receiving purpose and recipient's position. Representation change and EntityOfConcern retargeting retain their existing conditions. Domain operations compute the actual conversion or classification; this method exposes the premises they need and returns their result to the receiving action.
+
+The method applies when the receiving performer can be identified in the account and the relevant reference conditions can be recovered. Human first-person experience remains available through the experiencing person's account and correction. An artificial agent uses the identification, representations and signals its configuration supplies.
+
+### A.6.P.RI:11 - SoTA-Echoing
+
+The practice question is how an explicit shared account becomes usable by an agent whose position differs from its source. The method recovers the source reference, chooses what the receiving use preserves and connects the recipient to the account. Its serious alternative is to make all participants explicit and assume that this alone determines the receiving instruction.
+
+**Adapt the distinction between common descriptions and agent-relative use.** [Partridge and colleagues, Ontology then Agentology (2018)](https://biblio.ugent.be/publication/8547739), §§2–4 and Figure 2, distinguish the reusable form of an account from its agent-dependent content and add a link identifying the system itself. This supports the self-identification required in §§4.2 and 4.5. It is a conceptual source, not evidence about human learning or current robot performance.
+
+The crate case shows why this pattern also states the preservation condition in §4.3. Even correct source interpretation and self-identification leave two different possible tasks: preserve the displacement or repeat the relative movement. This is the pattern's methodological synthesis, rather than a result attributed to that paper.
+
+**Reuse representation and retargeting methods under their own conditions.** A.6.3.RT is sufficient when the receiving use needs only a representation change under already available bindings. A.6.4 is needed when the independently identified EntitiesOfConcern differ.
+
+Use the simpler direct clarification when it already settles the action. Reopen the construction when it cannot determine which reference changed, when the recipient cannot bind itself to the supplied account, or when the intended preservation condition fails under changed use. Technical conversion and learning methods require their own current subject evidence.
+
+### A.6.P.RI:12 - Relations
+
+- **A.6.P** restores the participants and relations hidden by an underspecified claim.
+- **C.2.1** supplies designation, interpretation and EntityOfConcern distinctions.
+- **A.6.3.RT** changes representation while preserving the EntityOfConcern; **A.6.4** governs bounded use across a real change of that object.
+- **B.5.EA** articulates a distinction from experience while preserving the source participant's correction.
+- **B.1.5.EW** recovers how constituent actions enact the encompassing work; a change of reference position is not itself a change of Method level.
+- **A.15.10** recovers a transferred or interrupted continuation. Use this method when an unresolved agent-relative expression prevents that continuation.
+
+### A.6.P.RI:End
 
 ## A.6.P.WMR - Exact Relation Recovery for Method and Work Claims
 
@@ -28815,6 +29015,8 @@ Reading this pattern, consulting a MethodDescription, following a plan, or recei
 | A changed condition or missing required support defeats an action-guiding claim | Keep the other qualified information; compare feasible, worthwhile refresh with a supported narrower action, the named safe fallback or stopping under §4.2. | Qualified information supports the selected continuation, with the affected limit stated. Age or a missing administrative time field alone does not invalidate an applicable claim. |
 | Safety, authority, capability, applicability, or current Work is unresolved | Use the pattern that defines or tests the missing claim—for example, `A.2.2` for capability, `A.15.1` for performed Work, and `A.15.5` only for work-entry readiness; keep safety, authority, and applicability with the pattern that defines them. | The missing claim grounded under its own rule, or a named unresolved claim with return or stop; no action, permission, capability, Work, or Method change is inferred from the unresolved claim. |
 
+When an available method repeatedly goes unconsidered at a relevant moment, use `A.15.11` to connect it with an occasion in the work. This can make a useful candidate available to step 4; the current constraints still determine which actions are admissible.
+
 #### A.15.7:4.4 - Keep the first result light
 
 For a reversible local use, speak plainly: “Choose track B because the room response changed and it still satisfies the promised genre constraint; the DJ performs the transition; abandon it if the next cue shows the transition is failing.”
@@ -29514,6 +29716,212 @@ The synthesis here joins selective external support with reconstruction of the g
 - B.1.5 supplies Method parthood when the constituent and encompassing methods must be stated.
 
 ### A.15.10:End
+
+## A.15.11 - Make Applicable Methods Noticeable in Work
+
+> **Type:** Method pattern
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
+
+### A.15.11:1 - Problem frame
+
+Use this pattern when a useful way of working repeatedly goes unused because the practitioner or agent does not recognize an occasion for it. Use it also to introduce a promising possibility into successful work: a failure need not occur before a better way becomes worth considering.
+
+A colleague can know how to compare alternatives yet estimate a proposed addition without asking whether it is worth making. An assistant can retrieve an applicable method when asked while never offering it at the moment it would help. A learner can recognize a difficulty after a teacher points it out but overlook it during the whole task.
+
+The subject is the arrangement that brings a potentially useful method into consideration during work. It connects an occasion, a recognizable relation to the work, and access to the needed operation. A cue is something encountered that makes that relation available: a question in a working document, a contrasting case, a colleague's agreed intervention or an event in a tool.
+
+The first useful result is a method considered at the point where it could help, followed by use, a named unresolved condition or dismissal. Someone arranging the opportunity needs a method that may help, or a specific question about a missed opportunity. The recipient need not already have diagnosed the omission.
+
+If the useful method is already being considered, continue with selection or application directly. If its description cannot be obtained, repair access. If the performer recognizes the need but cannot perform the operation, obtain that contribution or develop the capability. More reminders alone do not supply it.
+
+### A.15.11:2 - Problem
+
+A searchable library helps someone who has begun to search. A well-written description helps someone who reaches and understands it. Neither ensures that a familiar, apparently adequate way of working will make room for a relevant alternative.
+
+The missed relation may be between levels of work. A component can function correctly while its contribution no longer serves the larger task. Conversely, improving a constituent capability can be more useful than replacing the whole method. Unless that relation is noticed, the practitioner may keep optimizing the wrong contribution.
+
+Prompting creates its own problem. Frequent recommendations interrupt work, consume interpretation time and can turn an adequate direct answer into an unnecessary procedure. The practical question is where and how to make a useful possibility apparent, while preserving the option to continue without it.
+
+### A.15.11:3 - Forces
+
+| Need | Difficulty |
+| --- | --- |
+| Reach the work before a query exists | The person who would benefit may not see a reason to search. |
+| Show applicability | A shared word or resemblance can hide different conditions. |
+| Preserve the encompassing task | A locally attractive improvement can displace more valuable work. |
+| Support learning | Giving the answer can help this attempt without developing later use. |
+| Keep attention available | Recognizing and dismissing advice also costs effort. |
+| Respect different performers | A human, an organization and an AI system need different arrangements and learning methods. |
+
+### A.15.11:4 - Solution
+
+Connect a possible contribution with an occasion already present in the work. Make the relation understandable and the operation reachable; then see whether that arrangement helps enough to keep it.
+
+Use what is already known before spending effort on the arrangement. Stop when the available information already settles that it would not be worthwhile. Construct a countercase or run a trial only when its result could change whether or how to use the arrangement.
+
+#### A.15.11:4.1 - Choose the work and the possible contribution
+
+Start from work someone actually does. State what could improve: a choice, a result, the range of situations the performer can handle, or the effort required. Identify who can arrange the opportunity and who would encounter it. The same person can prepare a cue for their own future work.
+
+Identify the larger method being performed through the selected action and the constituent methods that make that action possible. These methods can be performed together in the same action. Use B.1.5.EW when this connection is unclear. Judge a proposed improvement under the conditions of that encompassing work, including any missing capabilities or resources on which it depends.
+
+When the useful contribution is uncertain, examine a small, permitted sample of the work with a relevant practitioner or source. Ask what an available alternative could make possible. C.40 and C.40.CD supply constructive inquiry where the question or method itself needs development. Do not install a standing prompt merely because a topic sounds relevant.
+
+#### A.15.11:4.2 - Make the relevance relation explicit
+
+Read the candidate method's operative instructions. Recover the result it can obtain, the inputs and capabilities it needs, and the conditions that limit its use. Connect that result to the receiving task.
+
+A useful cue can take this form:
+
+> This feature of the work makes this question worth considering. This method could obtain this contribution, provided these conditions hold.
+
+Use the language of the work. For example: “Before estimating the extra report, compare what decision it would improve with the report we already have.” Naming a pattern can provide access after this relation has become clear.
+
+Try a nearby case in which the method should not be suggested. If the same cue recommends it there, refine the relation or leave the recommendation tentative. Shared terminology is a lead for investigation; applicability depends on what the operation would do under the actual conditions.
+
+#### A.15.11:4.3 - Place the cue where it can be encountered
+
+Choose an existing occasion: preparing a plan, receiving a result, changing a tool, estimating an addition or revisiting a commitment. Put the cue in material used at that occasion, or arrange an intervention by a participant who already attends to it.
+
+Select the means according to the performer. A visible comparison can help a human notice a relation. An organization's existing review meeting can bring a specialist into the choice. A tool can provide relevant instructions to an AI agent when an existing software event occurs. These arrangements share a functional purpose without requiring the same internal mechanism.
+
+Choose timing that preserves the work. An explanation during a difficult movement can disrupt the action it is intended to help; an agreed pause may be the useful occasion. A quiet pointer may suffice where interruption would cost more. Use only observation and access already authorized for this purpose.
+
+#### A.15.11:4.4 - Make the next operation attainable
+
+Ensure that the recipient can interpret the cue and reach enough instruction to begin. A familiar pattern name may be sufficient for an experienced practitioner; another recipient may need a small contrast showing why the method fits.
+
+When the relation is not yet discernible to a person, obtain a suitable learning method and practice. When the relation is understood but execution is unavailable, identify the missing capability, resource or supporting participant. E.23.CDI frames capability development; obtain a teaching or training method suitable for the practice being learned.
+
+Keep the action proportionate to the present need. Sometimes a colleague's direct answer is enough. Sometimes the recipient needs a reusable method or practice across changed conditions. Introducing a method does not by itself choose between those purposes.
+
+#### A.15.11:4.5 - Try the intended arrangement
+
+Use a safe instance of the receiving work. Establish whether the cue is actually encountered, whether its relevance can be recovered, and what the participant then does. Include a condition that defeats the proposed match when a plausible false recommendation could change the outcome.
+
+Keep the intended aids available. If a coach adds an explanation during the trial, that explanation becomes part of what enabled the result. If an AI assistant receives additional context, its success applies to that context. To claim use without those aids, examine that different configuration separately.
+
+Use E.23.CAE when distinguishing recognition, access, adaptation and capability change would alter the remedy. A bounded practical repair can proceed without a complete causal diagnosis. If the arrangement fails, locate the failure: no encounter, unclear relation, unavailable instruction, missing capability, inappropriate method or excessive burden.
+
+#### A.15.11:4.6 - Compare with continuing without the suggestion
+
+Ask what changed in the receiving work and what the arrangement cost. Include preparing and maintaining the cue, interpreting false matches, acquiring any missing capability, performing the method and displacing other work.
+
+C.11.CRC compares a finite change with the current configuration. C.11.DUA examines the work that following the suggestion would impose on its recipient and whether that work helps their decision. Use them when the choice needs that examination. An ordinary reversible decision can remain a brief judgement.
+
+Compare at the level where the gain is needed. A better component result may leave the whole task unchanged. A small preparatory improvement may enable several larger methods at once. Recognition, correct application and worthwhile use are separate outcomes.
+
+Keep, revise or remove the arrangement accordingly. A recipient can dismiss an inapplicable or unprofitable suggestion without producing a refusal record. Where a real accountability requirement applies, use its existing record rather than inventing one for every cue.
+
+#### A.15.11:4.7 - Adjust after use
+
+Repeated false matches can reveal a poor occasion, an overbroad relevance relation or a different recipient need. Repeated recognition followed by inability calls for a capability or support change. Advice that has become familiar and adds no value can be shortened or removed.
+
+Retain aids that remain useful in the intended configuration. If independent performance is the goal, arrange a separate transition and assess it under the relevant learning method. Removing every aid is not a universal measure of mastery.
+
+### A.15.11:5 - Archetypal Grounding
+
+The cases below are constructed examples of the method, not measurements of its effectiveness.
+
+#### A.15.11:5.1 - An optional report enters a portfolio decision
+
+A team estimates six hours to add a chart to a weekly report. The existing report already supports the current staffing decision. Their planning sheet asks only how long the addition will take, so that estimate is taken as a reason to start implementation.
+
+A planner adds one question beside the estimate: “Which decision becomes better with this addition, compared with the report we already use?” The linked instruction explains how to compare an attainable addition with the current arrangement. For this example, adding and using the question takes ten minutes.
+
+For this staffing use, the team finds no improved decision and keeps the current report. Under the stated estimates, preparing and using the cue leaves five hours and fifty minutes available for other work compared with adding the chart. A different benefit of the chart would reopen the comparison.
+
+For a different, one-off cue whose only possible benefit is saving at most two minutes, while preparation and explanation would take twenty minutes, the planner stops before creating or testing it. The known benefit does not justify that work.
+
+Now change the report case: the new report is needed for an already accepted contractual obligation. The same optional-improvement question no longer settles whether to provide it. The team retains the obligation and compares ways to satisfy it. This contrast narrows the cue to optional additions and prevents an attractive cost comparison from silently changing the commitment.
+
+#### A.15.11:5.2 - A model-review question reaches an assistant
+
+An organization has an instruction for examining how data were recorded. Its assistant usually starts fitting a model as soon as a table arrives. The column label “measurement” does not reveal that some entries are selected or censored.
+
+At the existing model-review step, the organization makes a question available: “What procedure produced each kind of record, including values omitted or reported only as bounds?” In this example the data documentation says that an entry “below 5” records any value under the instrument's reporting threshold. The assistant obtains the relevant modeling instruction. For that record, it evaluates the proposed model's probability of a value below 5 instead of treating 5 as an observed value.
+
+If the documentation instead says that values below 5 are absent from the dataset, the receiving calculation changes. The cue has exposed a condition to investigate; the modeling method determines the calculation. If documentation is unavailable, the result is a specific missing fact, not a guessed observation procedure.
+
+The assistant's access to this question is part of the configured work. This case establishes neither parameter learning nor recognition without the provided question.
+
+#### A.15.11:5.3 - A teacher distinguishes noticing from movement capability
+
+During a familiar dance figure, a learner remembers the sequence and follows the rhythm in a simpler version, but loses balance during a turn. At an agreed pause, the teacher asks the learner to compare the two versions and identify where continuing the figure becomes difficult.
+
+The cue makes a coordination question available. It does not establish the cause of the loss or supply the bodily method that would repair it. The teacher now needs a movement-practice method for examining the loss of balance and choosing a suitable exercise within the learner's limits. After practice, the relevant return is to the figure with its rhythm, balance and partner relations occurring together.
+
+Repeating “notice your balance” is unhelpful once the learner already recognizes the difficulty. The next contribution lies in acquisition or execution, not in making the question more prominent. For an artificial performer, the corresponding next contribution must be selected from its own sensing, control and learning methods; a human first-person instruction is not automatically an executable robot instruction.
+
+### A.15.11:6 - Bias-Annotation
+
+The person arranging a cue has a candidate method in mind and can mistake its uptake for success. Retain cases where the appropriate outcome is to dismiss the method or continue with a simpler answer.
+
+Institutional authority and repeated prompting can make an optional suggestion feel compulsory. State optionality where it affects the recipient's choice. A method supplier's wish for adoption does not establish value for the work.
+
+
+### A.15.11:7 - Conformance Checklist
+
+For a consequential use, inspect the arrangement and the resulting work:
+
+- Is there a recognizable occasion and a reason the candidate could change the receiving work?
+- Can the recipient recover the applicability relation and a condition that would defeat it?
+- Is the cue encountered through the intended means, with the needed access and authority?
+- Does the next operation have its necessary capabilities and supports, or does the result identify what is missing?
+- Were any extra explanations or aids retained in the claim about what worked?
+- Does the comparison include the cue's burden and its effect on the encompassing task?
+- Can a useful dismissal, revision or removal count as success?
+
+Use the questions that can change the judgement about this arrangement.
+
+### A.15.11:8 - Common Anti-Patterns and How to Avoid Them
+
+**Publishing without arranging an encounter.** An unused method receives a clearer title and another index entry, but the intended practitioner still never reaches either. Improve the occasion and route into the work.
+
+**Matching a topic while missing a condition.** A cue for comparing optional additions is shown when the task is to fulfil a binding reporting obligation. Retain the obligation and compare permissible ways to meet it.
+
+**Repeating a cue after recognition succeeds.** A learner or agent can identify the need but lacks a constituent capability. Obtain the missing contribution; repetition does not resolve that failure.
+
+**Counting uptake as value.** Counting more opened patterns or applications can conceal delay or displaced work. Examine what improved, including cases where no intervention was preferable.
+
+### A.15.11:9 - Consequences
+
+A useful method can enter work before the recipient formulates a search query. Its relation to the task becomes available for examination, including rejection. The arrangement can be as small as a question beside an existing estimate.
+
+This adds preparation and maintenance costs and can create distraction. It also depends on someone finding a method worth introducing. It does not guarantee discovery of every unknown possibility. Repeated use can justify improving a shared arrangement; a one-off direct answer can remain the better choice.
+
+### A.15.11:10 - Architectural Rationale
+
+Publishing a method, recognizing its relevance, obtaining its instructions, learning it and performing it require different contributions. Connecting them at a real work occasion addresses the gap left when a capable recipient never begins to search. It also makes a failed connection repairable without assuming that every omission is a memory defect.
+
+The method keeps the constituent and encompassing work visible because the value of advice can change between them. A local improvement earns its place through what it enables or preserves in the whole, with the necessary constituents still available. B.1.5.EW helps identify which constituent actions perform the larger work; this pattern uses that relation to choose and assess the suggestion.
+
+The general contribution is the construction of an encounter and a usable relevance relation. Domain methods still determine whether the proposed operation is sound, and capability-development methods determine how a performer learns it. A configurable assistant, a human teacher and a revised working document are alternative implementations; none is prescribed for every use.
+
+### A.15.11:11 - SoTA-Echoing
+
+The practice question is how to make a useful method available before a recipient asks for it, without imposing more burden than the contribution warrants. The selected answer is a methodological synthesis: arrange an encounter, expose the relation, preserve access and prerequisites, and compare use with non-intervention. No single cited experiment validates this complete method across domains.
+
+**Adapt relational comparison; reject a hint as proof of spontaneous use.** Gick and Holyoak's [Schema Induction and Analogical Transfer](https://doi.org/10.1016/0010-0285(83)90002-6) (1983) remains a historical experimental anchor for this distinction. Their comparison of example structures informs §4.2; their prompted and unprompted conditions inform §4.5. A principle or diagram added to one story did not reliably produce the same benefit as their richer comparisons. These bounded tasks do not prescribe an example quota or establish transfer to all work. Relational comparison is worth its added effort when a simple pointer leaves applicability unclear.
+
+**Adapt cue placement and cost comparison.** Tsai and Gilbert's [Strategic reminder setting for time-based intentions](https://doi.org/10.3758/s13421-025-01708-x) (2025) examines short laboratory intentions, reminder effort and cue visibility. It informs §§4.3 and 4.6: an external cue changes both the remembering task and the ongoing work. The serious alternative is using the support already available. These experiments concern known intentions and cannot establish discovery of an unnoticed method. Use their contribution after identifying a candidate occasion; do not generalize their brief delays or participant exclusions into everyday guarantees.
+
+**Adopt separate questions about immediate assistance and later use.** Teo and colleagues' [AI Assistants Overassist](https://arxiv.org/html/2607.21306v1) (2026 preprint), §§3.1–3.5, separates intervention timing, immediate results and performance on a related problem under different retained contexts. It informs §4.5 and the comparison with no intervention in §4.6. A supplied answer may be the right immediate contribution, while development requires a different comparison. The simulated students and context manipulations do not establish parameter learning or human acquisition; the arrangement still needs examination in its receiving work.
+
+Reopen the choice when a simpler entry works just as well, a cue repeatedly misfires, changing work defeats its relevance, or a stronger subject method offers the same gain with less disruption. Human learning and automatic recommendation require their own more specific evidence when those are the intended claims.
+
+### A.15.11:12 - Relations
+
+- **A.15.7** chooses an action from the available situation and applicable methods. This pattern constructs an encounter when a relevant possibility repeatedly fails to enter that choice.
+- **A.15.8** examines performer and support dependencies. **A.15.10** retains or reconstructs an interrupted continuation; this pattern can introduce a method that has never belonged to the present work.
+- **B.1.5.EW** recovers the concurrent vertical of methods and work needed to judge the contribution.
+- **C.40** and **C.40.CD** develop problems and useful possibilities where the candidate relation is still missing.
+- **C.11.CRC** compares the finite change with the current configuration. **C.11.DUA** examines and repairs the demands imposed by advice. **C.11** supplies the resulting choice when it needs explicit treatment.
+- **E.23.CAE** distinguishes explanations of changed performance when that distinction matters; **E.23.CDI** frames development of the required capability.
+- **E.11** governs publication entries that can carry part of the encounter. A publication entry remains one possible means.
+
+### A.15.11:End
 
 ## A.15.PROD - Production Work, Entity-Identity Inception, and Production Completion Recovery
 
@@ -87082,6 +87490,8 @@ Pattern count is only a diagnostic. A one-pattern edition asks whether the resul
 When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
 For an FPF-grounded domain or local practice framework, README, Preface, ToC, practical entries, an all-in-one carrier, a skill pack, retrieval, or a callable access service may expose the entry. That publication or access use neither decides framework architecture nor supplies authority, and the carrier is not the pattern body merely because a reader reaches it first. Use `E.4` to identify the framework family and member. Only when a downstream-used framework-architecture question is live, record its selected answer in one `E.9` DRR using the `E.4.PFAD` profile; use `E.4.PFR` separately when a named relation or edition maintenance use needs its representation.
+
+A readable, searchable entry can still go unused because it is not encountered when its method would help. Use `A.15.11` to arrange that encounter and make the relation to the work apparent. Once the method is under consideration, continue with selection or application; the publication entry remains governed here.
 
 #### E.11:4.1 - Public first-entry scenario and optional expansion
 

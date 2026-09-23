@@ -1962,7 +1962,7 @@ Cha's [Takadimi reconsideration](https://doi.org/10.1177/0305735614528063) propo
 
 ### RHY.11:12 - Relations
 
-RHY.2 and RHY.5 describe and represent the relevant layers; RHY.3 constructs carrier and articulation together. RHY.9 resolves allocation and cue access, and RHY.10 establishes reference and adjustment. C.32.MWA distinguishes the several structures that one performance can instantiate. RHY.12 develops a missing capability; RHY.13 tests its transfer or support dependence, and RHY.14 evaluates the result relevant to the receiving task.
+RHY.2 and RHY.5 describe and represent the relevant layers; RHY.3 constructs carrier and articulation together. RHY.9 resolves allocation and cue access, and RHY.10 establishes reference and adjustment. C.32.MWA distinguishes the several structures that one performance can instantiate. RHY.12 supplies practice for a human performer's missing rhythmic capability; RHY.13 tests its transfer or support dependence, and RHY.14 evaluates the result relevant to the receiving task.
 
 ### RHY.11:End
 
@@ -2082,7 +2082,7 @@ A dancer remembers a figure and has sufficient strength for its movements, but l
 
 A qualified dance teacher chooses a familiar, supported rotational exercise that preserves the relevant preparation and continuing transfer, and gives technique-specific feedback. In the stipulated attempt the dancer completes the smaller rotation and continuation; the original unsupported turn still fails. The next programme step therefore remains development of that coordination, followed by rejoining the original figure. It is not another memory drill, nor a claim that the whole figure is now available.
 
-The rhythmic Method identifies the needed contribution and preserves its place in the figure. The teacher supplies the bodily technique. Both are needed while the figure is performed, even though their development activities can occur in succession.
+The rhythmic Method identifies the needed contribution and preserves its place in the figure. The teacher supplies the bodily technique. Balance control and the required rhythmic weight transfer must occur together in the figure, although their practice activities can occur in succession.
 
 ### RHY.12:6 - Bias-Annotation
 
