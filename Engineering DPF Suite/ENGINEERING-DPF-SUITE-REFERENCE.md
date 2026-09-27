@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 27 September 2026
+- **Version:** 28 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -281,10 +281,19 @@ When constituent actions are possible but the whole action fails, examine [what 
 | How should development continue when later work or evidence changes? | [HCD.15 - Sustain Continuing Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-15) | A holder-specific continuing-development arrangement with triggers and returns. |
 | What does the evidence support for this HCD Method, and should its use change? | [HCD.16 - Keep Human Capability-Development Method Claims Current](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-16) | A supported limited use, a narrowed claim, an unresolved comparison or a protection stop for the named HCD use. A justified change can adopt, revise, branch or retire a use; further inquiry is selected only for a worthwhile obtainable contribution. |
 | Which HCD cultural relation should a bounded population continue or change? | [HCD.17 - Deliberately Continue and Change Human Capability-Development Culture](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-17) | A supported decision about continuing or changing the practice, with the limits of the available evidence; later observation when the selected inquiry or a claimed later result requires it. |
+| Which individual or group arrangement fits the intended learning actions and actual resources? | [HCD.20 - Compose and Compare Arrangements for Individual and Group Learning](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-20) | Comparable arrangements with complete participant and provider burdens, available help and personal learning actions retained. |
+| Who can form a workable learning group, and how should membership change? | [HCD.21 - Form and Change Learning Work Groups](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-21) | A compatible grouping with contact, preparation, participation and recovery conditions. |
+| What must each learner contribute to a shared task? | [HCD.22 - Design Shared Learning Tasks with Necessary Individual Contributions](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-22) | A shared task linking personal actions, mutual dependencies, feedback and material transfers. |
+| How can explaining and comparing solutions develop personal reasoning? | [HCD.23 - Learn through Explanation and Comparison of Solutions](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-23) | An explanation and comparison task followed by a personal application, with supplied help visible. |
+| How can peer review teach judgement and revision? | [HCD.24 - Learn Evaluation and Revision through Peer Review](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-24) | An arrangement in which reviewers apply criteria and authors judge feedback and revise, with qualified help for unresolved disagreement. |
+| How can comparing projects develop transfer? | [HCD.25 - Learn Transfer through Comparison of Projects](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-25) | A supported relation across projects, a condition that breaks it, and a learner's application to a new case. |
+| How should a group respond when its shared learning stalls? | [HCD.26 - Regulate Shared Learning](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-26) | A process change or prompt fitted to the difficulty, and a check of how participants use it and what changes. |
+| How can personal learning routes fit shared meetings and material transfers? | [HCD.27 - Coordinate Personal Learning Routes with a Shared Rhythm](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-27) | Feasible connections between individual work, shared occasions, help and personal return windows. |
+| How can we construct a whole learning product before its learners are known? | [HCD.28 - Construct and Revise a Whole Learning Product for a Future Audience](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-28) | Whole-product alternatives for a future audience, with missing subject, teaching or supply contributions identified. |
 
 Use HCD.16 to complete the appraisal with the conclusion supported by the available evidence. Undertake a further inquiry when its attainable contribution warrants the full burden for learners and providers. If a comparison is unavailable, leave the claim that requires it unresolved.
 
-The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains 20 patterns: HCD.1-HCD.17 and nested HCD.6.1 address human development, and HCD.18-HCD.19 address instructional-material evaluation. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
+The [Human Capability Development DPF](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) contains 29 patterns: HCD.1–HCD.17 and nested HCD.6.1 address personal development; HCD.18–HCD.19 address instructional-material evaluation; HCD.20–HCD.27 construct and support individual and shared learning arrangements; and HCD.28 connects these contributions into a whole learning product for a future audience. A pattern supplies guidance and a result form; it does not establish that development work occurred, capability changed, a provider operated, or an authorized person made a programme, employment or release decision.
 
 ### Evaluate instructional material for its intended use
 
@@ -805,7 +814,7 @@ The recommendation goes to the person or organization making the choice. Missing
 
 ### Recommend a programme before the learners are known
 
-Start with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1): the present recipient is the programme author, and the decision concerns a learning product for a future audience.
+Start with [PSD.1](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-1): the present recipient is the programme author, and the decision concerns a learning product for a future audience. Use [HCD.28](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-28) when whole-product variants need construction or revision. It connects subject content, practice, material and support under the audience and resource conditions.
 
 In this planning example, two modules aim to help future engineers and managers first analyse an unfamiliar work problem, then also deliver and verify a bounded engineering or organizational change. The design allows 34 weeks and 340 participant hours, including assessment, feedback and retries. Teaching capacity is a separate 240 hours for twelve participants; producing the materials requires its own resources.
 
@@ -820,7 +829,7 @@ Use [PSD.9](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd
 
 If participant time falls to six hours a week, the limit becomes 204 hours. All three original 340-hour designs need revision before launch under that limit. Retain useful parts and request a revised programme that explains which 136 hours are removed or replaced and how the two outcomes remain attainable. Continue searching for a design that fits; the three over-budget designs do not settle whether any suitable 204-hour programme is possible.
 
-The author can receive advice about further design now. Because future learners are not yet identified, HCD.2 returns a learning-product design request rather than a personal programme recommendation. Once a particular participant's later Work, starting performance or profile, support conditions, feasible programme candidates, and finite resources are known, HCD.2 can compare those candidates for that person; an authorized chooser still makes the programme choice. PSD remains available for the author's present A/B/C comparison and advice. Launch, actual learning, retention and transfer need their respective decisions and evidence.
+The author can receive advice about further design now. Because future learners are not yet identified, HCD.2 returns a learning-product design request. HCD.28 guides that design work for the audience. Once a particular participant's later Work, starting performance or profile, support conditions, feasible programme candidates, and finite resources are known, HCD.2 can compare those candidates for that person; an authorized chooser still makes the programme choice. PSD remains available for the author's present A/B/C comparison and advice. Launch, actual learning, retention and transfer need their respective decisions and evidence.
 
 ## Should we scale a partner dance event after one successful showcase?
 
