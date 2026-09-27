@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 26 September 2026
+- **Version:** 27 September 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-four published DPFs with 375 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-five published DPFs with 391 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -57,6 +57,7 @@ The public folder contains twenty-four published DPFs with 375 pattern bodies. S
 | Preserve or restore required equipment functioning, and manage the policies, support and programme that make maintenance useful. | [Maintenance Engineering and Management](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 16 patterns | A qualified condition account, supported policy or intervention recommendation, feasible protected work and return to use, or a justified information, programme, Method or practice decision. Advice can be complete before repair. |
 | Compare continued use, renewal, replacement or other changes for one asset, an interacting system or a portfolio. | [Engineering Asset Management](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 16 patterns | An applicable asset account, supported alternatives or programme recommendation, feasible timing, an asset decision, or a choice about improving asset-management arrangements, methods or culture. |
 | Derive and develop one person's capability for representative later work. | [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) - 20 patterns | A supported demand, target or profile; a compared development programme; representative practice and support; performance, transfer or retention evidence; a continuing-development decision, or an instructional-material evaluation through its separate profile. |
+| Develop a useful cultural or community contribution, with participation suited to its purpose. | [Community Building](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md) - 16 patterns | A useful offer or exchange, workable participation and organising, an agreed continuation with the work it needs, a usable mandate for shared decisions, maintained repertoire, connection between practices or represented position. Independent carriers of a practice remain a possible route. |
 | Construct a useful development opportunity, or advise a person, organization or other developing subject. | [Development Opportunity Construction and Development-Direction Advising](DEVELOPMENT-OPPORTUNITY-CONSTRUCTION-AND-DEVELOPMENT-DIRECTION-ADVISING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A bounded inquiry, characterized change, candidate direction with its supports, joint-reachability result, retained opportunity, or qualified advising engagement. PSD supplies the actual comparison and recommendation when those are needed. |
 | Decide whether research is needed, conduct it, examine its conclusions or improve its methods. | [Research Method Practice](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md) - 9 patterns | An answer from existing evidence or a justified research plan; a protocol and record of research performed; an analysis, credibility judgement or corpus synthesis with its limits; a revised claim or question for another practice; or a choice to retain or improve the research method. |
 | Connect separately governed meanings for a receiving use, qualify a model, handle semantic change or maintain shared modules. | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 12 patterns | A bounded integration result, adequate model reuse or construction, affected-use repair or revalidation, or a sufficient interface agreement or modular-commons arrangement. |

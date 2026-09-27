@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 26 September 2026
+- **Version:** 27 September 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -37,6 +37,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Coordinate economic plans, exchanges and shared resources](#coordinate-economic-plans-exchanges-and-shared-resources) | Calculation, price response, discovery, commitments, private information, dependence, shared resources, local and wider orders, institutional change and rebound. |
 | [Model dependence, spread and protective action](#model-dependence-spread-and-protective-action) | Continuation and usefulness, exposure and uptake, reconstruction, interacting variants, selection, diversion, protective targets and response feedback. |
 | [Continue and change a shared practice](#continue-and-change-a-shared-practice) | Acquisition, reconstruction, onward transmission, support, method development and a warranted no-change result. |
+| [Build a useful cultural or community contribution](#build-a-useful-cultural-or-community-contribution) | Useful offer, first exchange, voluntary participation, organising, rules, provision, value, continuation, shared decisions, repertoire and collective voice. |
 | [Make corporate decisions and sustain governing contributions](#make-corporate-decisions-and-sustain-governing-contributions) | Rights, powers, governing roles, committees, conflicts, information, control, assurance, corporate acts, minority protection, accountability and governance practice. |
 | [Fulfil an administrative request](#fulfil-an-administrative-request-and-improve-its-handling) | Participants, permissions, effective dates, provision, exceptions, obligations, records, controls, provider contributions and administrative burden. |
 | [Maintain equipment and manage maintenance](#maintain-equipment-and-manage-maintenance) | Maintenance policy, failure and condition, diagnosis, spares, outage, protection, work, restored functioning, hand-back, history, fleet, Methods, simultaneous work and culture. |
@@ -476,6 +477,31 @@ Use [ME.16](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me16---introduce-a-method
 
 The [shared-method example](#how-can-we-share-a-method-without-losing-the-means-to-develop-it) follows these dependencies.
 
+
+### Build a useful cultural or community contribution
+
+Start with the change people need. A discussion group, a useful resource, learning and a dependable service can call for different contributions. The [Community Building Readme](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#community-building-readme) offers three practical entries; its [Preface](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#preface) explains how to connect the methods. People may also develop and use a practice independently.
+
+| Your question | Open | What you can obtain |
+| --- | --- | --- |
+| Would a community help, or would a resource, learning or a dependable service serve people better? | [CB.1 - Choose a Useful Cultural or Community Contribution](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb1---choose-a-useful-cultural-or-community-contribution) | An understandable proposal for who could benefit, what each participant would contribute and which first action could test it; an adequate existing route may be sufficient. |
+| How can one request lead to useful help? | [CB.2 - Arrange the First Useful Exchanges](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb2---arrange-the-first-useful-exchanges) | A completed exchange, a known use or remaining gap, and a feasible continuation. |
+| How can someone join, change their involvement or leave? | [CB.3 - Make Entry and Changes of Participation Workable](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb3---make-entry-and-changes-of-participation-workable) | An understandable next action with access to a response or help, and a workable way to reduce or decline involvement. |
+| Which space and shared activity fit the purpose? | [CB.4 - Design a Space and Shared Activity for Its Purpose](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb4---design-a-space-and-shared-activity-for-its-purpose) | A feasible activity whose result or unresolved question reaches its next use. |
+| How can participants provide a contribution that someone can use? | [CB.5 - Obtain and Return Useful Contributions from Participants](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb5---obtain-and-return-useful-contributions-from-participants) | An agreed contribution, receiving use or limitation, and a return to the contributor. |
+| How should we recognise a contribution? | [CB.6 - Recognise a Contribution and Choose a Meaningful Response](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb6---recognise-a-contribution-and-choose-a-meaningful-response) | A truthful response the contributor can accept, with any offered benefit actually obtainable. |
+| How can organising work continue beyond one person, or attention be shared during an activity? | [CB.7 - Prepare and Sustain Distributed Organising](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb7---prepare-and-sustain-distributed-organising) | A willing, prepared person or temporary participant group with the time, support and mandate for its next contribution; a feasible successor or a reduced promise when continuity matters. |
+| How should participation rules work when an incident or disagreement occurs? | [CB.8 - Make Participation Rules Usable and Resolve Incidents](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb8---make-participation-rules-usable-and-resolve-incidents) | An applicable expectation, an authorised next action and a reachable correction or review route. |
+| Who can provide the work and resources, and on what terms? | [CB.9 - Provide for Community Work and Agree Its Terms](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb9---provide-for-community-work-and-agree-its-terms) | An offer deliverable for a stated period, with actual contributions and a response to lost support; reducing or ending the promise may be appropriate. |
+| What value did participation or cultural work produce? | [CB.10 - Understand the Value of Participation and Cultural Work](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb10---understand-the-value-of-participation-and-cultural-work) | An account of what happened, what the evidence supports, what remains uncertain and what to continue or change. |
+| Should the arrangement continue, change hands, split, pause or end? | [CB.11 - Continue, Change, Transfer or End a Community Arrangement](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb11---continue-change-transfer-or-end-a-community-arrangement) | An agreed continuation or ending with receiving work, provision and settlement of remaining commitments. |
+| How can someone carry out a useful repeated action of participation? | [CB.12 - Support a Useful Repeated Action of Participation](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb12---support-a-useful-repeated-action-of-participation) | A feasible arrangement for one wanted action and a way to examine later opportunities, obstacles or a reason to discontinue it. |
+| Who may make a shared decision, and how can it be challenged? | [CB.13 - Establish a Workable Mandate for Shared Decisions](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb13---establish-a-workable-mandate-for-shared-decisions) | An effective mandate with understood limits and a challenge route, or the unresolved authority or agreement question. |
+| How can a recurring practice difficulty lead to reusable help? | [CB.14 - Develop and Maintain a Shared Repertoire of Practice](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb14---develop-and-maintain-a-shared-repertoire-of-practice) | A selected repertoire contribution, a willing and equipped provider and an intended receiving use. |
+| How can people from different practices contribute to one useful result? | [CB.15 - Connect Practices through a Useful Joint Contribution](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb15---connect-practices-through-a-useful-joint-contribution) | An agreed joint question, each side's contribution, permitted material and access, and a worthwhile return. |
+| How can a shared position enter someone else's decision? | [CB.16 - Form and Carry a Collective Voice into a Decision](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#cb16---form-and-carry-a-collective-voice-into-a-decision) | The receiving decision, relevant positions and uncertainties, and who may present each position on whose behalf. |
+
+The [common applications](COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md#applications) connect these methods for professional repairers, a voluntary garden, independent carriers of a practice and a customer community, with the specialist contributions each case needs.
 
 ### Make corporate decisions and sustain governing contributions
 
