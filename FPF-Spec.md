@@ -10,7 +10,7 @@
 
 Begin with the working question in your project; FPF helps make the reasoning explicit enough to review and improve.
 
-Use the Table of Contents below to find pattern ids that match the project question. For any substantive answer, open the relevant pattern and apply its Problem frame, Solution, worked slices, and checklist to the project claim or object.
+Before selecting framework guidance, read and apply [Using FPF and its DPF Suites](https://github.com/ailev/FPF/blob/main/USING-FPF.md). It explains how to search the Table of Contents and available publications, then read and apply the relevant pattern to your project question. If a reading test explicitly limits its reader to an isolated excerpt, use only the materials supplied for that test; do not add USING-FPF.md unless the test includes it.
 
 The public FPF readme section after the Table of Contents provides one non-exhaustive `Practical entries` set: ordinary examples show direct one-pattern help, while selected Practical-Use Cards show extended reasoning through several pattern contributions. The examples do not bound FPF, DPF, or LPF use; the Table of Contents and direct patterns cover questions outside them. The Preface explains the cross-cutting ideas and the ordinary pattern-use rhythm. **Big FPF Storylines** connects a worked question to the framework's Architectural Rationale, shared sources, profile choices and whole-combination conditions. Pattern bodies carry the normative Solutions, boundaries, worked slices, and checks. Pattern form is governed by E.8; concrete pattern application and pattern-use coordination are governed by E.11.PUA and E.11.PUR when those relations are current.
 
@@ -20,6 +20,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 
 | ID & Title | Status | Concise content reminder |
 | --- | --- | --- |
+| Start here | full text | Directs project users, framework developers, reviewers and coordinators to USING-FPF.md before selecting framework guidance. |
 | Practical entries | full text | Shows ordinary direct examples and selected cross-pattern cards as a non-exhaustive sample of how the pattern language helps; every example returns to its direct patterns. |
 | Decide Whether FPF Fits | full text | Distinguishes suitable FPF use from cases better served by a narrower method, domain source, or ordinary conversation. |
 | When Several Transformation Flows Form One Network | full text | Connects project, reasoning, evidence, and publication flows without collapsing their different results. |
@@ -489,6 +490,12 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 
 FPF helps when a project has outgrown one clever conversation. It is useful when meanings, claims, options, evidence, architecture, work decisions, publication forms, and improvement criteria need to stay coherent across people, teams, tools, time, or AI agents.
 
+## Start here
+
+Before selecting framework guidance, read and apply [Using FPF and its DPF Suites](https://github.com/ailev/FPF/blob/main/USING-FPF.md). This instruction applies to project work, framework development, review and coordination. It explains how to find and read relevant content in the publications available to you, including when an interface cannot retrieve a large file.
+
+When an AI agent assists you, put this requirement and the instruction's location in your project's `AGENTS.md` or equivalent instructions. If a reading test explicitly limits its reader to an isolated excerpt, use only the materials supplied for that test; do not add USING-FPF.md unless the test includes it.
+
 Use FPF as a reference model and pattern language, not as a linear textbook. Start from the working question you bring from your project. Bring in internal FPF terms only after they help you keep the work precise.
 
 You can ask an assisting agent to explain an answer or give feedback in ordinary language, without FPF terminology. For example: “Explain this and comment on my proposal without FPF jargon; use the language of my work.” The patterns can guide the reasoning while the answer uses familiar words.
@@ -501,7 +508,7 @@ Bare claim-bearing *role* has no single FPF referent. Start with `E.10.ROLE`, th
 
 ## Practical entries
 
-The entries below are examples, not a catalogue or a boundary around FPF, a DPF, or an LPF. Bring the actual difficulty from your project. If no example fits, follow [Using FPF and its DPF Suites](https://github.com/ailev/FPF/blob/main/USING-FPF.md#choose-what-to-read) to search the available publications for an individual method or a connected application. Use the full Table of Contents for technical terms and direct pattern lookup, or ask an assisting agent to compare plausible candidates. These pattern languages can help with many more questions than a short Readme can show.
+The entries below illustrate questions that FPF can help answer; they do not exhaust its uses. Bring the actual difficulty from your project and use the search guidance in USING-FPF.md to find an individual method or a connected application. Search the Table of Contents for relevant entries, or ask an assisting agent to compare plausible candidates.
 
 The ordinary examples start with one direct pattern and retain any conditions for a later use. They can stop at the first useful result without a mantra. The Practical-Use Cards show another use: a difficult question whose answer normally draws on several pattern contributions. Their mantras show in compact form how that answer unfolds through those contributions, without turning the unfolding into a fixed workflow.
 
@@ -728,9 +735,9 @@ Use `A.3.3` to construct a missing state account and `C.16` for a needed measure
 - **Situation:** A project needs the modern field of approaches rather than one popular answer and may later need maintained domain guidance.
 - **Question:** What plural view is adequate now, and does the remaining problem call for reuse, a contribution, another product, a DPF or LPF, or no maintained result?
 - **First useful result or blocker:** One source-linked SoTA view, live option set, reuse route, framework decision, or exact missing scope or maintenance basis.
-- **Mantra:** Name the practical question, scope, freshness need, and rival traditions. Build a source-linked plural view; preserve disagreement and source-use limits; compare useful approaches; try cheaper reuse or contribution first; open a framework decision only for a recurring unmet problem; author and test the needed patterns; refresh when the field or use changes.
+- **Mantra:** Name the practical question, scope, freshness need, and rival traditions. Build a source-linked plural view; preserve disagreement, source-use limits and constructions; compare useful approaches; try cheaper reuse or contribution first; open a framework decision only for a recurring unmet problem; author and test the needed patterns; refresh when the field or use changes.
 - **Start with:** `G.2`; add `C.18`, `C.19`, or `G.5` for the set and the E.4/E.9 authoring route only if a framework is selected.
-- **Stop or return:** Stop at the first adequate maintained or one-off result. A source pack or proposal is not a framework by appearance.
+- **Stop or return:** Stop at the first adequate maintained or one-off result. If allocation to familiar patterns loses a source’s construction, use `FPF.Preface:16.5` to identify the missing result, obtain it through the appropriate subject method and return to the original use. A source pack or proposal is not a framework by appearance.
 
 #### SYSTEM-DELIMITATION — Separate parts, selected boundary, and crossings
 
@@ -967,7 +974,23 @@ Public and project epistemes can guide that line without becoming the acting sys
 
 A quick three-way test is: **same TFS, different valuation; one parent-relative internal portion, subflow; independently identified TFSs, network**. A valuation gives different state, path, or run values over the same exact `TransformationFlowStructure`. A subflow keeps every selected position and already obtaining internal `U.Transfer` occurrence inside one exact parent TFS. A `TransformationFlowStructureNetwork` selects independently identified TFS or nested-network members together with exact obtaining relation occurrences whose participants are bound across their positions. `DesignRunTag` stays local to one exact position binding in one TFS; it is never a network-wide phase label. Use E.18 for a valuation or subflow, and E.18.NET for a network.
 
-FPF can repeat this use as the project changes: ask the current question, compare when needed, inspect a direct pattern description, use its action- or judgement-guiding content, retain the exact subject result and direct basis—or a truthful stop when that basis is missing—and reconsider when a stronger claim, changed basis, or unresolved relation becomes current. Recover a separate Method identity only when the `Solution` actually describes one and the current claim depends on it. A `mantra` is Plain didactic wording for a repeatable attention aid. A **local mantra** keeps one bounded result, often one pattern's Solution, in attention; a **long mantra** keeps the dependency from a recognizable difficulty to a distant intended result, its checking, and its later use across direct pattern descriptions. For example, A.6.P's bounded reminder to restore the exact relation, its participants, and its defining `ClaimGraph` locator is a local mantra, while A.1.STM's outside-use-to-recursive-builder attention map is a long mantra. Phrase length does not decide the scope. Choose a long mantra by its intended final result; in ongoing work, place supported results on its readable attention map and enter at the first absent, stale, disputed, or unsupported result. Keep didactic order, logical dependency, planned or actual Work order, and the subject relations that obtain distinct. A.22.CGUS enters only when separately recovered positions, conditions, branches, reconsideration conditions, and stops warrant an admitted `ConstraintGovernedUnfoldingStructure@Context`; a shown traversal may then be a `DemonstrativeUnfoldingSlice@Context`. Ordinary long and local mantras need no kind, F.17 row, registration, plan, authority, or performed Work. Use `A.1.STM` when the current problem is loss of the system-thinking long-map connection.
+FPF can repeat this use as the project changes: ask the current question, compare when needed, inspect a direct pattern description, use its action- or judgement-guiding content, retain the exact subject result and direct basis—or a truthful stop when that basis is missing—and reconsider when a stronger claim, changed basis, or unresolved relation becomes current. Recover a separate Method identity only when the `Solution` actually describes one and the current claim depends on it.
+
+A **mantra** is Plain didactic wording for a repeatable working reminder. It helps the reader recognize a relevant difficulty, recall a useful contribution and find the pattern that supplies it. A **local mantra** keeps one bounded result, often one pattern's contribution, in attention. A **long mantra** keeps the dependencies from a recognizable difficulty to a more distant intended result, its checking and later use across several patterns. A.6.P's reminder to recover a relation, its participants and its defining `ClaimGraph` is local; A.1.STM's map from outside use to recursive builders is long. Phrase length does not decide the scope.
+
+For a group of jointly used patterns, a mantra works like a table of contents that also reminds the reader how their contributions connect. Its phrases may address the patterns through their `Problem frame` or `Problem`, or through their `Solution`. A question can recall what remains unresolved; an action phrase can recall how to obtain the needed result. Both can point to the same pattern use. For example, these two formulations recall the same contributions to the report-review inquiry developed in §16.1:
+
+| Difficulty or question recalled | Contribution recalled | Pattern |
+| --- | --- | --- |
+| What does this reported review time measure? | Make the time estimate interpretable for the stated workload, review operation and conditions. | `C.16` |
+| What claim does this trial support? | Establish the claim's support and the limits of warranted reliance. | `B.3` |
+| Is another comparison worth doing? | Compare the attainable contribution of a further probe with its cost. | `C.11` |
+
+Use whichever formulation the intended reader can recognize and apply. A pattern whose title names a difficulty can still be recalled through its Solution. Wording such as “find what the trial establishes” can state both the difficulty and the action intended to resolve it; clarify the difference only when it changes the next useful action. There is no need to give both formulations every time.
+
+A long mantra may arrange these contributions as a happy path for teaching: a deliberately simplified unfolding that makes their connections easy to follow. The order teaches those connections, not a required sequence of performed work. Enter where the needed result is absent, stale, disputed or unsupported. Reuse an adequate result, return when its conditions change, and stop when the intended result is available. On a diagram, name the teaching use and the omitted branches or returns that matter to its intended use; return to the fuller account when those omissions can change the choice. A customer-journey mantra, for example, may show one route to useful product use while omitting a return from an agreed purchase to securing missing operating support.
+
+Keep this reminder, the possible continuations it describes, a work plan and the observed work history distinct. A.22.CGUS applies when the underlying structure has the required constituents, relations, constraints, local loci and potential continuations; a shown traversal of a qualified structure may then be a `DemonstrativeUnfoldingSlice@Context`. Qualification concerns that structure, not whether its labels are questions or solution phrases. Ordinary local and long mantras require no formal CGUS qualification. Use `A.1.STM` when the difficulty concerns the system-thinking long map; use `E.10.MOVE` only when wording about a mantra move still hides the intended contribution or claim.
 
 This Preface explains why these practical uses belong to one framework. The Table of Contents supports search when the reader already knows the pattern family. A pattern body is a pattern episteme containing its exact Solution, boundaries, checks, action- or judgement-guiding content, and the definitions or constraints it actually asserts. It is a `U.MethodDescription` only when that membership is established and the distinction is current. The actual project claim remains a separate subject assertion. README and ToC references point to those rule-content loci and published term rows; they do not become alternate schema or finding stores.
 
@@ -1258,6 +1281,9 @@ FPF connects ways of asking a question, developing an answer, testing its suppor
 
 ### FPF.Preface:16.1 - Follow one question through several contributions
 
+When a question, surprising result or promising construction leaves the next useful reasoning contribution unclear, use `B.5`. State what an answer should let its recipient understand or do. If an available result already suffices for that use, return it and stop. Otherwise, identify and obtain the missing contribution, explain what it establishes for that use, and return the result with its conditions and limits. Continue with a further question only when its possible answers could change understanding or action and investigating it is worth the cost. If no question has yet been recognized, use `B.5.PI` on an ordinary work occasion, such as a handover, demonstration or explanation.
+
+
 Consider a constructed example. A team is deciding how to help engineers review technical reports. A purchased assistant and a locally operated assistant remain candidates. The local candidate appears faster on the small set tried so far. The current question is whether that is enough to begin relying on the proposed review arrangement.
 
 Use `C.16` to make the reported speed interpretable: which reports, which part of review, which assistance, which result, and which uncertainty does it cover? A time for extracting passages leaves open the time for checking their relevance and correcting errors. Use `B.3` when the next decision needs an assurance answer: what exact claim does that trial support, what could defeat it, and which reports or operating conditions remain outside its basis? If the trial omitted reports containing tables, retain its result for the tested class and identify the table-handling limitation. That missing comparison becomes a probe proposal only when the receiving choice and attainable contribution warrant the inquiry.
@@ -1303,6 +1329,143 @@ For a combined use, ask whether the outputs still answer the receiving questions
 The examples here assume readers who can supply subject expertise and recognize relevant evidence. A fluent assistant or an experienced engineer can conceal missing explanatory support that a new learner needs. The reader can use a bounded walkthrough to test recoverability of an answer; claims about learning, retention or transfer require observations suited to those claims. Likewise, engineering and software source examples indicate particular contributions; applicability in a laboratory, organization or other setting depends on its own mechanisms and evidence.
 
 Using the arrangement costs attention and, when later reliance needs them, addressable source and result records. Its practical gain is that a new participant can find why a result was used, what it enables and what would change the answer. Stop when the current question has that useful answer or an explicit missing premise. Keep unresolved questions available for later inquiry rather than adding a pattern use merely to complete a familiar sequence.
+
+### FPF.Preface:16.5 - Construct a usable whole with existing methods
+
+Use this account when useful contributions are available but the intended whole cannot yet be obtained or used. This occurs in practical design and when an author allocates a source's construction to familiar patterns but loses the instructions that connect their contributions. Identify the next missing result, obtain it through the relevant subject method and return it to the use that required it.
+
+The account assumes enough subject knowledge to recognize the required result and judge whether a proposed contribution fits. Obtain subject assistance when that knowledge is missing. If one known method already answers the question, use it directly. The explanations below help select and combine contributions; they do not supply every engineering method or domain ontology.
+
+The two worked cases use stipulated facts and numbers. One obtains a proposed night-service arrangement; the other derives an assessment from measurement inputs. They show conditional reasoning, including what changes when a consequential input changes. A real project requires its own inputs and evidence.
+
+#### FPF.Preface:16.5.1 - Start outside the proposed boundary
+
+State the use for which the whole is needed and the result that would make a difference there. Identify the relevant recipient and affected parties. Ask what must remain true when the result is used. This helps determine what belongs to the proposed whole and which outside contributions it requires. A missing contribution may require a new provision or a changed boundary.
+
+The outside question need not identify a containing system. A pump belongs to an installation; a claim about that pump concerns it; a decision uses the claim. These are different relations. First looking outside is an order of justification, not a rule that every project starts its work in that order. When an available invention initiates the inquiry, look for a useful occasion, then test the invention against the conditions of that occasion.
+
+Choose what must be obtained now. A usable assessment, a proposed service arrangement and an operating service have different completion conditions. A proposed arrangement can be the complete answer to a design question while leaving the original service need unmet. Keep that larger need visible when returning the smaller result.
+
+#### FPF.Preface:16.5.2 - Recover the construction and select the next operation
+
+Recover the source's whole before allocating its components: what it tries to achieve, what is connected, how the connections work, and where it returns when a premise fails. Retain distinctions that change the operation even when all the component ideas have familiar names. When sources give different accounts of the same objects or relations, state the difference and determine whether it changes the receiving operation, its assumptions or permitted use. Keep consequential alternatives separate until an applicable subject comparison justifies their combination or selection. Shared terminology alone does not settle that question.
+
+Attempt the intended use with the contributions available. Locate a required result that the next operation cannot yet use. State that operation, who performs it, what it needs and what is supplied instead. For night response, diagnosis needs an available qualified operator; the explanation describes a conditional response calculation. For pressure assessment, comparison needs absolute pressure values with their uncertainty; the record supplies a gauge reading. These failures select different work.
+
+Ask which change would make the supplied contribution usable. If a clear explanation would still leave the operator absent, explanation is not the missing contribution. If an applicable measurement record already exists but its indication has not been interpreted, taking another measurement may add work without settling the comparison. This test distinguishes an unavailable contribution from an unavailable description or interpretation of one.
+
+Select an available pattern that teaches how to obtain the required result. Read its working situation and operation, rather than choosing from a shared word such as “connection”. In the two applications:
+
+- C.16 recovers the measurement subject, reference, model and uncertainty. Use the measurement model to determine which values fit the indication and whether they settle the receiving question. The pressure example below performs the necessary interval calculation and threshold comparison in full.
+- C.38 develops comparable ways to obtain the same result; C.11 governs the subsequent choice when the comparison is ready. Their results are a comparison and a choice, not an available service.
+- A.15.9 helps use or request one bounded result from another practice, such as a qualified assessment of a proposed response time. It does not govern obtaining continuing provision. The night-service case specifies what the service owner must obtain before selecting and relying on a service; it does not supply the required procurement and operating methods.
+- C.2.1 identifies the resulting episteme through its claim content, entity of concern and reference scheme. Its constitution distinguishes that result from the measurement Work and the pump about which the claims are made.
+
+These patterns supply parts of the two applications; the night-service case also exposes a missing way to obtain and operate the service. Another subject requires its own selection. For a missing physical connection, identify the required behavior and physical participants, then use the relevant engineering method or obtain that contribution from a capable provider. A.1.STM can help reconsider the system boundary and outside use, but does not supply every physical design. When the missing result is itself a reproducible way of doing several connected operations, E.4.CM develops their composition. Do not replace the immediate question of obtaining provision with the larger task of describing every provider Method.
+
+Perform the selected operation and return its result to the operation that needed it. A proposed contract can settle a terms question while leaving service provision absent. A resolved pressure comparison can inform a release decision while leaving its other requirements open. If the result still cannot be used, locate the remaining condition and repeat only the affected work.
+
+If a source disagreement still changes which construction would be usable, return that unresolved comparison question. The two applications below do not supply a general method for reconciling source ontologies. If no existing method or competent provider supplies the needed operation, retain that precise gap for E.4.PFAD. A recurring operation absent from the available suppliers can justify a new contribution; an unfamiliar combination of already sufficient methods does not establish that absence.
+
+The table distinguishes several results a practitioner can seek and the completion conditions that change their use.
+
+| Result sought | What must be developed | Completion for the stated use |
+| --- | --- | --- |
+| A composite Method | How one operation's result satisfies another's conditions; how constituent performance contributes to the encompassing action | A reproducible way of obtaining the whole result, with applicable conditions and returns; enactment requires capable performers and available resources |
+| A System | Constituents organized to produce the required behavior in the surrounding use | Its constituents and relations obtain; its required behavior is examined under the use conditions |
+| A service arrangement | Providers and their Work, available capability, access, agreed provision and authority to act | A proposed arrangement can answer a comparison question; obtaining its service requires the agreed provision to be available and the required Work to be performed |
+| An episteme | Claims about an identified entity made interpretable through a reference scheme; the inference and grounding required by the receiving use | A coherent answer at its supported scope, including a reasoned unresolved conclusion when warranted |
+
+A design description is knowledge about a proposed System, whereas realizing that System requires its constituents and relations to obtain. An ontic description states the distinctions between objects and the relations required by its modeling question. Naming several concepts is insufficient when their relations carry the explanation. For a larger ontic description, use the definitions and relation rules of its subject; this pressure example supplies only the distinctions required for its assessment.
+
+The activity of constructing an episteme can itself employ several Methods. That fact does not make the resulting episteme a composite Method. Likewise, describing a service arrangement produces knowledge about it; the description does not supply its staff or perform its service.
+
+#### FPF.Preface:16.5.3 - Compare constructions and return to use
+
+When several ways of obtaining the same result need comparison, use C.38 to develop complete-enough alternatives on the same basis. A familiar label such as internal provision or automation does not yet describe such a way. Preserve unknowns that could change the comparison; return a missing alternative when no second way can be developed. Use C.11 for the resulting choice when its comparison basis is ready. A narrower result is an alternative only if the receiving need can be changed with its consequences made explicit.
+
+For each required contribution, check that its result, meaning and conditions fit the operation that uses it. Return the resulting whole to the outside question. If it cannot yet serve that use, say what is available and which precise dependency still blocks the remainder. Retain useful partial results without calling the larger need fulfilled.
+
+Then change one consequential condition of the whole. Determine which constituent, relation or boundary must change; preserve the contributions whose premises still hold. This is reciprocal reasoning between the whole and its constituents. It neither assumes mathematically reversible operations nor turns every change of level into a Meta-Holon Transition.
+
+#### FPF.Preface:16.5.4 - Explanation and night coverage
+
+
+##### FPF.Preface:16.5.4.1 - Recover the receiving result
+
+An engineer explains a reduction in response time from eight to five minutes, conditional on an operator being present. A colleague asks about night coverage, when no operator is present. Preserve the conditional explanation. The next useful contribution is a way to obtain the required night response, rather than another explanation of the same calculation.
+
+For this worked example, define the operational requirement as follows: a qualified, authorized operator must start the applicable mitigation within five minutes of alarm detection during the seven nightly eight-hour windows. The requirement concerns the start of appropriate mitigation, not resolution of every incident. It applies to the declared incident class and at most one incident at a time. These added conditions make comparison possible; a real practitioner must obtain their actual counterparts from the service need.
+
+##### FPF.Preface:16.5.4.2 - Compare proposed ways to meet the need
+
+The nightly windows require 56 hours of coverage per week. Qualified members of the internal team can cover 12 of those 56 hours without conflicting with their other assignments. It therefore leaves 44 hours uncovered. Rewording the request cannot fill those hours.
+
+Assume an external provider offers all 56 hours for 600 units per week, within a budget of 800. The proposed service includes a qualified operator and replacement coverage. For the declared incident class, its proposed serial bounds are 0.5 minutes for alarm delivery, 1 minute for the operator to take responsibility for the incident, 1.5 minutes for diagnosis and 1 minute to start mitigation. Their sum is 4 minutes. These are offer terms to verify, not observed performance; the one-minute margin does not establish reliability or cover simultaneous incidents.
+
+The existing automation can route an alarm but cannot select and start the required mitigation within its current authorized function. A day-only promise would be cheaper, but the stated receiving use requires night coverage. These are consequential reasons for rejecting those alternatives in this case, rather than preferences for a provider.
+
+| Alternative under the stipulated facts | Result of comparison | What could change that result |
+| --- | --- | --- |
+| Extend the current internal roster | Incomplete: 12 of 56 required hours are available; obtaining the other 44 hours is unexplained | Availability, assignments, replacement, response capability and full cost of the additional coverage |
+| Obtain the offered external provision | Offered price is within the budget and the proposed response bound meets the target; total cost and operating conditions remain to qualify | Setup and continuing owner work, unavailable replacement, failed access, a failed bound or unacceptable contractual conditions |
+| Use the present automation alone | Missing the required diagnosis and mitigation capability | A separately developed and authorized capability with suitable assurance |
+| Restrict the promise to daytime | Does not meet the stated receiving use | An authorized revision of that need and its accepted consequences |
+
+The comparison is unfinished. C.38 exposes the missing internal way: who could cover the other 44 hours, with what replacement, response capability, assignments and full cost? The external offer also leaves setup, verification and continuing owner work to qualify. Those contributions could change the comparison. The service owner must obtain a sufficient basis before C.11 can settle a service choice. The following paragraphs develop the external candidate conditionally; they do not report that choice or an acquired service.
+
+##### FPF.Preface:16.5.4.3 - Specify the missing procurement and operating results
+
+Before choosing, the service owner needs an adequately supported external proposal. It must identify the covered hours, response obligations, full cost, replacement and withdrawal conditions, the provider's required access, and who can authorize and make the proposed commitments. These details must support comparison with the internal way under C.38 and the subsequent choice under C.11.
+
+That proposal is still missing. No procurement method or qualified provider result that establishes it is supplied here. A.15.9 can help request a bounded specialist result, such as an assessment of the proposed response time; it cannot supply the missing procurement operation.
+
+After a supported choice and agreement, the service owner needs qualified staffing and replacement throughout the covered hours. Alarms must reach the responsible operator in an interpretable form, the current configuration must be accessible, and the operators must have authority for the permitted mitigation. Verification must provide evidence that the connected response meets the stated requirement. No service-operations method or qualified provider result supplying this provision is given in the case. The connections below specify requirements for that missing contribution. A technical operator who explains the mitigation may lack authority to purchase the service or permit operational access.
+
+Connect alarm detection to delivery, delivery to the operator taking responsibility, diagnosis to the applicable mitigation, and the provider's report to the service owner's verification of the response. Preserve the time origin and incident identity through those connections. A receipt alone proves only receipt. The verification exercise must test receipt, configuration access and use of the replacement operator as well as the nominal serial path. Its coverage of actual incident conditions must be stated; a single successful exercise does not demonstrate every future occurrence.
+
+Before authorizing the arrangement, examine a relevant consequence outside the immediate service team. Suppose the original night alarm would wake residents who cannot participate in the purchase discussion. Their exclusion from that discussion does not remove the consequence. The candidate uses silent delivery to the responsible operator instead, provided that the changed channel can deliver and be noticed within the required conditions. If it cannot, the arrangement needs another change.
+
+##### FPF.Preface:16.5.4.4 - Return the result and its remaining conditions
+
+The worked result is a partial comparison and requirements for a conditional external arrangement. Before a choice can be supported, the service owner still needs an adequate proposal and a complete enough internal alternative. The first subject-domain gap is a way to obtain and qualify that proposal. After a supported choice and agreement, staffing, working access, authority and operating evidence would still have to be established before anyone could claim night coverage. For framework development, carry these two missing operations and their required results into E.4.PFAD's decision about an existing or new subject-domain contribution. The original conditional daytime calculation remains valid.
+
+Once the comparison has supported a choice and the selected arrangement has the required commitments and operating evidence, the owner can decide whether to rely on the night service at the stated scope. Communication then conveys the qualified result and its remaining limits. Understanding, commitment, acquired capability and observed response remain different outcomes along this construction.
+
+Change the whole condition to two simultaneous incidents. The offered bounds apply only to one. Do not keep the five-minute claim by adding another explanation: compare parallel provision, a second authorized responder, a justified prioritization with a changed service promise, or an unmet requirement. Retain the verified meaning of the alarm and each applicable diagnosis; reopen concurrent capacity and its implications for time, cost and authority.
+
+#### FPF.Preface:16.5.5 - An interpretable pressure assessment
+
+
+##### FPF.Preface:16.5.5.1 - Recover the pressure question and its inputs
+
+An engineer needs a pressure assessment for a decision about pump P17: does the available information establish that its pressure, in the stated configuration and operating regime, is at or below a 300 kPa absolute limit at the measurement occasion? Other conditions and authority for releasing the installation remain separate.
+
+Assume three source contributions. A model manual states the absolute pressure limit. A configuration record establishes that this limit applies to P17 in the regime being considered. A measurement record reports 195 kPa above the local atmospheric pressure, with an error bound of 5 kPa; local atmospheric pressure is 100 kPa absolute with an error bound of 2 kPa. For this illustration the bounds are enclosing intervals under the stated conditions, not confidence intervals. The records are assumed applicable to the same regime and measurement occasion.
+
+Use C.16 to recover the measurement subject, reference and uncertainty. Here the addition relation is available, so an interval calculation can determine what comparison the supplied bounds resolve.
+
+Extracting two numbers called “pressure” would lose the difference between gauge and absolute reference. Retaining all three documents as a bibliography would leave the comparison unperformed. The construction needs the applicability connection, the pressure reference and the calculation consumed by the decision.
+
+##### FPF.Preface:16.5.5.2 - Form and interpret the pressure assessment
+
+Keep P17 as the entity the resulting assessment concerns. State the regime and measurement occasion as conditions of its claims. The reference scheme uses kPa, an absolute pressure datum, the relation between gauge and absolute pressure, and the meaning of the stated bounds. The claim content includes the applicable limit, the converted pressure interval and what follows for this comparison. The manual states the limit; the configuration record states its applicability to P17; the measurement record supplies the indication and uncertainty assumptions; the calculation derives the comparison from those premises.
+
+For these readings, absolute pressure equals gauge pressure plus local atmospheric pressure: `p_absolute = p_gauge + p_atmosphere`. Apply that relation to the stated intervals:
+
+- gauge pressure lies in [190, 200] kPa;
+- atmospheric pressure lies in [98, 102] kPa absolute;
+- absolute pump pressure therefore lies in [288, 302] kPa.
+
+For a conservative enclosing interval, adding lower endpoints and upper endpoints requires no independence assumption. It does require the stated intervals and addition relation to apply together. The stipulated relation admits the central values, which give 295 kPa absolute. The enclosure's upper endpoint exceeds the limit while its lower endpoint does not. This enclosure therefore establishes neither compliance nor a violation. Distinguish an enclosure spanning a threshold from two feasible cases with different answers: the enclosure alone leaves the threshold question unresolved, without proving that both outcomes are possible. Comparing only the central value of 295 kPa with 300 kPa would lose the reason the uncertainty matters.
+
+The resulting episteme is a coherent answer: under these inputs, compliance is unresolved. It tells the decision-maker what cannot be concluded and why. It is useful even though it does not authorize operation. A measurement that narrows the pressure interval enough to resolve the comparison, a changed operating regime, or a governing decision that permits reliance under residual uncertainty are different next possibilities. Such a decision must identify the uncertainty it permits and the scope of that permission; this example supplies no authority to make it.
+
+##### FPF.Preface:16.5.5.3 - Change the input and retain the applicable reasoning
+
+Suppose a later applicable measurement keeps the same central readings but bounds gauge error by 2 kPa and atmospheric error by 1 kPa. The new absolute interval is [292, 298] kPa. Its upper endpoint is below 300 kPa, so the stipulated information now supports the pressure-limit comparison for this regime at the later measurement occasion. Actual release can still require other conditions that this assessment never claimed to decide.
+
+The assessment still concerns P17 under the stated regime. Its unit, pressure reference and applicability rule remain, while the later measurement changes the input, derived interval and threshold conclusion. The engineer reuses the conversion relation and comparison rule and updates the affected claims. C.2.1 distinguishes the assessment's claim content and reference scheme from the pump those claims concern. To ground the assessment in an installation, the records must refer to applicable measurements of P17, and the calculation must warrant its claims from those measurements. The stipulated inputs here illustrate the inference without establishing that measurement relation or installation-side grounding. The assessment informs the release decision; its other conditions and authority remain separate.
 
 ## FPF.Preface:17 - Transdisciplinarity As A Meta-Theory Of Thinking
 
@@ -38079,6 +38242,8 @@ Potential branches and joins remain part of the structure even when the present 
 Before qualification, an ordinary explanation is about the domain question or proposed alternatives. If persistence is needed, its C.2.1 `EntityOfConcern` remains that question or proposed set, not a CGUS that has not yet qualified.
 
 After qualification, a whole-structure description may describe loci, bindings, relations, constraints, potential branches, case results, and relevant omissions. A separate demonstrative slice may show one traversal for a declared teaching or comparison use. That slice is a C.2.1 episteme: its exact claim content, the qualified CGUS as `EntityOfConcern`, and its effective `U.ReferenceScheme` jointly recover its identity. `DemonstrativeUnfoldingSlice@Context` is readable lineage for this possibility, not a `U.Kind` or an exact slice by itself. The slice neither creates nor reidentifies the structure. Use C.33 only when hidden or lost structure in its carrier matters to a declared architecture use within C.33's scope.
+
+Where a slice shows one selected pattern use, it may recall the difficulty through the pattern's `Problem frame` or `Problem`, or recall the way of addressing it through the `Solution`. To show that same use in either form, preserve the selected pattern, working subject and question or proposed use, current conditions, expected result, stop or continuation, and relevant locus bindings. Changing between those formulations changes only the description when the selected pattern use and the qualified structure remain the same. A.22 structure identity still depends on its constituents, selected obtaining relations, applied constraints and named selection-use frame; CGUS membership additionally depends on its locus bindings and at least two potential continuations. Question or action labels establish neither.
 
 Displayed words such as *move*, *next*, and *path* remain ordinary language unless a stronger claim requires another kind. A proposed action, a plan item, a `U.WorkPlan`, dated `U.Work`, and an actual `U.Transformation` are different values. Use `E.10.MOVE`, A.15, and A.3 only when that distinction changes the claim; a display performs and authorizes nothing.
 
@@ -87085,6 +87250,8 @@ Without this restoration:
 ### E.10.MOVE:4 - Solution
 
 **Cheap ordinary use.** When the governed value and its direct pattern are already evident, apply `F.19`, name the value, rewrite the phrase without changing the claim, confirm the remaining admissible reader use, and stop. Do not materialize the repair note or traverse the disposition table. Open the fuller procedure only when the wording remains ambiguous, carries several governed values, imports a source term, or must be replayed later.
+
+For a mantra, recover the pattern use before deciding that two phrases mean different moves. A question about a difficulty can refer to the `Problem frame` or `Problem`; a reminder of what to do can refer to the same use through the `Solution`. “Find what the trial establishes” can state the difficulty and the action intended to resolve it. When the subject, intended result and conditions are clear, retain the useful wording. Clarify a missing participant or relation where the reader would otherwise choose a different pattern or action. This wording choice decides neither whether a mantra is local or long nor whether a surrounding presentation is a demonstrative slice of an independently qualified CGUS.
 
 Restore the governed target before choosing replacement wording:
 

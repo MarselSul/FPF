@@ -14,6 +14,12 @@
 
 This repository publishes the transdisciplinary **FPF Core** and domain pattern languages, available individually or in the **Foundational Thinking** and **Engineering DPF Suites**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Engineering Suite Readme](./Engineering%20DPF%20Suite/) helps you choose and combine its DPFs. The [Foundational Thinking Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) connects mathematical, physical, computational, modeling and notational contributions and explains their uses and limits.
 
+## Start here
+
+Before selecting framework guidance, read and apply [Using FPF and its DPF Suites](./USING-FPF.md). This instruction applies to project work, framework development, review and coordination. It explains how to find and read relevant content in the publications available to you, including when an interface cannot retrieve a large file.
+
+When an AI agent assists you, put this requirement and the instruction's location in your project's `AGENTS.md` or equivalent instructions. If a reading test explicitly limits its reader to an isolated excerpt, use only the materials supplied for that test; do not add USING-FPF.md unless the test includes it.
+
 FPF is designed for two complementary uses:
 
 1. **AI-native, FPF-driven engineering work.** An AI agent can retrieve relevant patterns, compare their declared situations and questions, explain them in plain technical language, expose missing evidence or authority, and help produce the next useful result.
