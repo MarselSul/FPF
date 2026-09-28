@@ -1,18 +1,28 @@
 # Using FPF and its DPF Suites
 
-Use the publications in this folder to help with the project's work. Paths below are relative to the folder containing this file.
+This is the common working instruction for people and AI agents using FPF or its DPFs, including work that develops or reviews the frameworks themselves. Apply it whenever the work relies on their methods, not only when processing an intake. Paths below are relative to the folder containing this file.
+
+For an assisting agent, make this instruction part of the project's ordinary instructions: attach the file or link it from `AGENTS.md` or the environment's equivalent. A link in a past conversation does not establish that the current performer can retrieve and apply it. Reuse a current reading while the instruction and access conditions remain unchanged; return to the relevant section when they change or the instruction is no longer available in working context.
 
 When a referenced publication is present in this folder, resolve its pattern references in that copy, including references written as GitHub links. Use another edition when the task calls for an update or a comparison.
+
+## Make the publications available
+
+Check what the present environment can actually read and search. A GitHub link, a listed filename or a truncated preview is not access to the publication's full text. Some interfaces cannot retrieve a large publication through an attachment or connector. Do not assume that one interface's access limits apply to another.
+
+Where the environment supports local files, obtain the publication files through an available download or repository checkout and use content search on those files. Keep this instruction with them. Where only excerpts can be supplied, obtain the complete relevant patterns or sections, including the conditions and dependencies needed for the question, and retain their publication names and pattern IDs. Use an accessible README, contents entry or search result to locate the needed material; the locator does not replace it. If the necessary passage cannot be obtained, state the missing access and keep the dependent conclusion open. You can continue work whose basis is available.
+
+Establish the available publication set once, and update it when files or access change. The full distribution includes FPF, both DPF Suites and their References, and the independent Narrativization DPF; a downloaded subset or one attached document offers less. The public `Readme.md` and Suite `README.md` files identify the publications. Search the available set together when the question might need contributions from more than one practice. A missing search result means that this search has not found an answer in those sources, not that the ecosystem lacks the method.
+
+For development or review, use the edition and candidate selected by the assignment. Distinguish a proposed contribution from published guidance when reporting what the framework already supplies.
 
 ## Choose what to read
 
 Start with the actual situation, the object being worked on, and the result the answer needs to support. If a pattern is already named, find its body directly. Otherwise search the available publications together, using terms for the difficulty and needed result. Include English technical terms when the user's language differs from the sources. You can find an individual method or a connected application without first choosing a Suite, Reference or pattern file.
 
-Establish which publications are available for this search. The full distribution includes FPF, both DPF Suites and their References, and the independent Narrativization DPF; a downloaded subset or one attached document offers less. The public `Readme.md` and Suite `README.md` files identify the publications. A missing search result means that this search has not found an answer in its available sources. Broaden the terms or obtain the relevant publication when the present question remains unanswered.
+Inspect a promising passage with its enclosing heading. A pattern body supplies its method; a Reference answer can explain how several contributions work together; a README or contents row helps locate that explanation. Open the substantive source and the conditions needed for the present use. When exploring the repertoire without a useful search phrase, start with FPF Part headings or the corresponding Suite overview, then retrieve selected entries. Search a large Table of Contents as text and read the matching rows; do not load it in full merely to begin a lookup. Its technical terms, practical questions and dependencies can help reformulate the search.
 
-Inspect a promising passage with its enclosing heading. A pattern body supplies its method; a Reference answer can explain how several contributions work together; a README or contents row helps locate that explanation. Open the substantive source and the conditions needed for the present use. When exploring the repertoire without a useful search phrase, browse the existing contents and FPF Part headings, then read selected full entries. The full ToC retains technical terms and dependencies for more precise searches.
-
-To perform a selected method, read its description, applicability conditions, and the related patterns needed for that use. To use a particular technique, read its section together with the conditions it depends on. Apply it to the facts and constraints of the task.
+To perform a selected method, read its description, applicability conditions, and the related patterns needed for that use. To use a particular technique, read its section together with the conditions it depends on. Apply it to the facts and constraints of the task. If a candidate method presupposes a result you still need to obtain, search for that earlier result or operation rather than silently treating it as given. For example, resolving a known conflict does not by itself explain how to notice a difficulty in ordinary work. A later method's scope limit is not evidence that the earlier contribution is absent from the framework.
 
 Explain results and give feedback in the language of the project's work. Preserve the source distinctions that affect the answer. Cite the patterns and locations used. State assumptions, missing evidence, use limits, and the need for human judgement where they affect the decision. Let the current question determine the next step.
 
@@ -43,13 +53,13 @@ IDs also occur in contents tables and cross-references. Match a heading at the s
 
 Use `rg` (ripgrep), or the environment's equivalent search tool with regular expressions. Run these commands with the public distribution folder as the working directory, or prepend its actual path to the file arguments. In a source repository, limit the search to the selected public publications; campaign notes and historical drafts are not the public corpus.
 
-Inspect the available Markdown files once to establish the search scope:
+Inspect the available Markdown files once to establish the search scope. This lists filenames; it does not search their contents:
 
 ```sh
 rg --files --no-ignore -g '*.md' .
 ```
 
-For the illustrative question “obtain a needed engineering result: build or buy”, search across that scope:
+For the illustrative question “obtain a needed engineering result: build or buy”, search the text across that scope:
 
 ```sh
 rg -n -i -C 2 --no-ignore -g '*.md' -- 'build or buy|obtain a needed engineering result|obtain climate control' .
