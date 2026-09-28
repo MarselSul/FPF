@@ -6,7 +6,7 @@
 
 **External links:** [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/) (third-party resources).
 
-**Author:** Anatoly Levenchuk, with AI-agent assistance  
+**Author:** Anatoly Levenchuk, with AI-agent assistance
 
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
@@ -39,7 +39,7 @@ FPF and its DPFs are declarative pattern languages. Start from the **current wor
 
 Pattern numbers, file order, table-of-contents order, and the order in which examples are presented do not prescribe a project sequence. Several kinds of engineering Work may overlap. A real dependency still matters when one result cannot be used before another exists, but that dependency belongs to the concrete results and Work under consideration, not to a universal process imposed by the pattern language.
 
-A constituent action can also perform several levels of work at once: updating a running total can be part of calculating a result and preparing a report. The encompassing purpose changes what that action must preserve. FPF helps [recover these connections](./FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) and [compare a replacement in its encompassing uses](./FPF-Spec.md#b15rs---replace-a-constituent-method-in-its-encompassing-uses); the Suite References give domain examples. Using a DPF still requires the relevant capabilities, coordination and resources throughout the needed vertical, including any intermediate contribution that must be learned or obtained.
+A constituent action can also perform several levels of work at once: updating a running total can be part of calculating a result and preparing a report. The encompassing purpose changes what that action must preserve. FPF helps [recover these connections](./FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work) and [compare a replacement in its encompassing uses](./FPF-Spec.md#fpf-pattern-B.1.5.RS); the Suite References give domain examples. Using a DPF still requires the relevant capabilities, coordination and resources throughout the needed vertical, including any intermediate contribution that must be learned or obtained.
 
 An AI agent can therefore help choose the **next justified move** without pretending that the entire project follows one fixed sequence. The useful move may be a clarified question, an identified System, an architecture comparison, an evidence request, a decision record, a changed Method, a bounded Work plan, a source-grounded explanation, or an explicit stop because a necessary basis is missing.
 
@@ -81,7 +81,7 @@ The [Notational Engineering publication](./Foundational%20Thinking%20DPF%20Suite
 ### Engineering DPF Suite
 
 
-The table lists the 25 published DPFs in the Suite. **Published - N patterns** gives the number of pattern bodies in the linked publication. Each DPF has a full pattern index.
+The table lists the 26 published DPFs in the Suite. **Published - N patterns** gives the number of pattern bodies in the linked publication. Each DPF has a full pattern index.
 
 | Domain pattern language | Publication status | What it covers |
 | --- | --- | --- |
@@ -95,6 +95,7 @@ The table lists the 25 published DPFs in the Suite. **Published - N patterns** g
 | [**Maintenance Engineering and Management DPF**](./Engineering%20DPF%20Suite/MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) | Published - 16 patterns | maintenance policy; condition evidence and diagnosis; support readiness; intervention recommendations and protected work; verification and return to use; maintenance information; programme coordination; Method improvement; simultaneous Work; and maintenance culture. |
 | [**Human Capability Development DPF**](./Engineering%20DPF%20Suite/HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) | Published - 29 patterns | human capability needed for later Work; demand and capability profiles; personal programmes and whole learning products for future audiences; individual and shared practice; learning through explanation, peer review and project comparison; group formation, regulation and shared rhythm; assessment, transfer and retention; providers and support; development portfolios and qualification; and characterization and evaluation of instructional material. |
 | [**Community Building DPF**](./Engineering%20DPF%20Suite/COMMUNITY-BUILDING-PRINCIPLES-FRAMEWORK.md) | Published - 16 patterns | useful cultural or community contributions; first exchanges and participation; shared activities, recognition and organising; rules, provision and value; continuation and shared decisions; repertoire, connections between practices and collective voice. Independent practice is included. |
+| [**Marketing DPF**](./Engineering%20DPF%20Suite/MARKETING-PRINCIPLES-FRAMEWORK.md) | Published - 14 patterns | customer and market inquiry; offers, positioning and reach; feasible choice; customer experience and journey design; help and relationships; intervention value and cost; promises and provision; repeatability; and programmes for selected customer organisations. |
 | [**Strategy DPF**](./Engineering%20DPF%20Suite/STRATEGY-PRINCIPLES-FRAMEWORK.md) | Published - 15 patterns | finding worthwhile contributions and ways to obtain them; direction under uncertainty; options and scenarios; capabilities, dependencies and initiatives; investments and business models; commitments; and decisions to revise, pivot, pause or stop. |
 | [**Management Accounting DPF**](./Engineering%20DPF%20Suite/MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) | Published - 9 patterns | cost models for resource use and capacity; allocation of shared costs; reconciliation of operating results, financial reports and cash; forecasts, targets and resource requests; explanation of margin changes; customer and product economics; and behavioral effects of accounting measures. |
 | [**Financial Domain Modeling DPF**](./Engineering%20DPF%20Suite/FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) | Published - 5 patterns | financial positions, rights and obligations; boundaries of parties and groups; contractual events and payment flows; effects of approvals, postings and payments; and the contribution of a financial service to a participant's result. |
