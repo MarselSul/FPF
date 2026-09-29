@@ -454,6 +454,8 @@ Claims of later enactment and engineering consequences need their appropriate ob
 
 **Constituent actions in ongoing work.** For example, while a technician acquires a measurement, an engineer may be conducting a requirement-verification trial through that measurement, within an ongoing system-acceptance exercise. Recover the constitutive connection rather than infer it from matching timestamps. If the requirement concerns a short transient, a setting adequate for a steady reading may no longer support verification. Instrument-operation skill and knowledge of the requirement can both be present while the intermediate skill of choosing a suitable acquisition arrangement is missing. Supply that capability or qualified assistance before relying on the trial. The obtained reading is still only a constituent result; it does not by itself authorize acceptance. FPF B.1.5.EW helps recover this vertical; SYSE.20 addresses a consequential conflict in its arrangement.
 
+For a connected application, [Connect contributions, concerns and consequences across a whole project](ENGINEERING-DPF-SUITE-REFERENCE.md#connect-contributions-concerns-and-consequences-across-a-whole-project) follows two module teams, independent acceptance and a shared laboratory into a project that changes the supplying organization. It shows which general engineering questions transfer, which specialist results are needed, and how lost provision, authority or capability changes the next work.
+
 ## SYSE.Preface:8 - How project Work contributes to engineering culture
 
 A gadget release, a subsystem architecture decision, a platform improvement, or an assurance account is a
