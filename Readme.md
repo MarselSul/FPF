@@ -4,7 +4,6 @@
 
 [**FPF Core Specification**](./FPF-Spec.md) · [**Foundational Thinking DPF Suite**](./Foundational%20Thinking%20DPF%20Suite/) · [**Engineering DPF Suite**](./Engineering%20DPF%20Suite/) · [**Narrativization DPF**](./Narrativization-and-Narrative-Studies-Principles-Framework.md)
 
-**External links:** [**Browsable FPF Core Reference**](https://fpf.sh/) · [**Connect an AI agent to FPF Core through MCP**](https://mcp.fpf.sh/) (third-party resources).
 
 **Author:** Anatoly Levenchuk, with AI-agent assistance
 
