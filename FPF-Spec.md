@@ -6,7 +6,7 @@
 - **Version:** September 2026
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
-- **Status:** Normative kernel, eternal alpha: already used in working projects and development programs, while still evolving.
+- **Status:** Normative Core, eternal alpha: already used in working projects and development programs, while still evolving.
 
 Begin with the working question in your project; FPF helps make the reasoning explicit enough to review and improve.
 
@@ -37,8 +37,8 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 
 | ID & Title | Status | Concise content reminder |
 | --- | --- | --- |
-| FPF.Preface:1 - What This Specification Is And How To Use It | full text | Distinguishes non-exhaustive direct examples, selected cross-pattern cards, Preface, ToC, direct pattern bodies, ordinary use, reliance-bearing support, exact first results, and three coupled flows. |
-| FPF.Preface:2 - FPF As A Project, Not Only A Pattern List | full text | Places the evolving Core beside companion explanations, domain frameworks, local practice frameworks, publication carriers, and tools without merging their authority. |
+| FPF.Preface:1 - What This Specification Is And How To Use It | full text | Explains Core, Kernel, framework editions, and direct use of adequate methods; distinguishes the Preface, lookup maps and supplying pattern bodies. |
+| FPF.Preface:2 - FPF As A Project, Not Only A Pattern List | full text | Explains how domain and local frameworks, optional DPF Suite References, companions and shared carriers relate to Core while preserving their content and edition boundaries. |
 | FPF.Preface:3 - Why FPF Exists | full text | Explains why difficult multi-participant work needs explicit distinctions, options, evidence, decisions, and return paths. |
 | FPF.Preface:4 - Creativity And Assurance Mature Together | full text | Connects plural option generation, evidence, assurance, currentness, and bounded decisions without making them one lifecycle. |
 | FPF.Preface:5 - Local Closure Inside An Open World | full text | Shows how a decision gains local closure by naming the actual source, scope, model-use organization, situation, comparison basis, or other subject-defined boundary it uses, together with its reopen condition. |
@@ -47,7 +47,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | FPF.Preface:8 - Beyond Bias Hunting | full text | Replaces negative error catalogues with constructive reasoning objects and direct solution moves. |
 | FPF.Preface:9 - Thinking Through Writing | full text | Explains when cards, records, tables, characteristic spaces, term sheets, patterns, and DRRs become useful thinking instruments rather than paperwork. |
 | FPF.Preface:10 - Thinking-Oriented Architecture, Not A Descriptive Upper Ontology | full text | Distinguishes FPF's work of improving reasoning from cataloguing every entity that may exist. |
-| FPF.Preface:11 - The Bitter Lesson Stance | full text | Prefers general scalable search and learning while retaining explicit constraints, evidence, and bounded use. |
+| FPF.Preface:11 - When A Scale Claim Calls For Comparison | full text | Explains when a scale or generalization claim activates the Bitter-Lesson Preference, what nondominance means, and how ordinary procedures, autonomy and adaptation retain their own grounds. |
 | FPF.Preface:12 - From Flat Documents To Multi-View Truth | full text | Separates EntityOfConcern, descriptions, views, publication carriers, and reader uses while preserving return to source structure. |
 | FPF.Preface:13 - Architecture As Structure Of Holons | full text | Explains architecture as selected structures of a holon in context rather than the diagram or document that describes them. |
 | FPF.Preface:14 - Boundary Statements | full text | Shows where language carries commitments, admissibility, evidence, gates, and other boundary claims. |
@@ -58,6 +58,8 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | FPF.Preface:19 - The Intellect Stack As A Pedagogical Map | full text | Gives a teaching map for locating capabilities without turning the map into the ontology or work order. |
 | FPF.Preface:20 - Purpose, Scope, And Non-Goals | full text | States FPF's intended use, tool independence, and boundaries against domain encyclopedia or one prescribed methodology. |
 | FPF.Preface:21 - How To Continue After The readme | full text | Sends the reader from a practical-use card to the direct pattern, then to exact result, receiving use, stop, or return. |
+
+Use Part and cluster headings to locate content. E.4 explains how Kernel, broader Core content and framework editions relate; those distinctions apply across the Parts.
 
 **Part A - Kernel Architecture Cluster**
 
@@ -348,11 +350,11 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | **Cluster E.I — The FPF Constitution** | | | | |
-| E.1 | **Vision & Mission** | Stable | *Keywords:* vision, mission, operating system for thought, purpose, scope, goals, non-goals. *Queries:* "What is FPF?", "What is the purpose of the First Principles Framework?", "What problem does FPF solve?". | **Prerequisite for:** All other patterns, especially E.2. |
+| E.1 | **Vision & Mission** | Stable | *Keywords:* vision, mission, first principles, shared grounds, reusable methods, purpose, scope, goals, non-goals. *Queries:* "What is FPF?", "What is the purpose of the First Principles Framework?", "What problem does FPF solve?". | **Prerequisite for:** All other patterns, especially E.2. |
 | E.2 | **FPF's Eleven Pillars and Bitter-Lesson Preference (BLP)** | Stable | *Keywords:* principles, constitution, eleven pillars, invariants, P-1 to P-11, Bitter-Lesson Preference, BLP, scalable methods, scale audit. *Queries:* "What are the governing principles of FPF?", "What is the Bitter-Lesson Preference and when does it apply?", "What must a BLP scale audit establish?" | **Builds on:** E.1. **Prerequisite for:** E.3 and all normative patterns. |
 | E.2.DA | **Evaluate How FPF Realizes Its Pillars (Pillar-Adequacy CharacteristicSpace)** | Stable | Evaluate one declared FPF edition, corpus slice, family or publication/access change against all eleven E.2 Pillars. Return justified ordinal values, affected-use findings, a local stop or first repair, and a reopen condition. E.2 defines the Pillars; E.21 evaluates one pattern, and E.9.DA one DRR. | **Builds on:** E.2, A.19.ECS. **Coordinates with:** E.21, E.9.DA, E.22, E.23, E.11, E.10, F.18, F.19. |
 | E.3 | **Principle Taxonomy, Precedence and Agent Autonomy Profiles (ABL)** | Stable | *Keywords:* principle taxonomy, precedence, conflict resolution, Gov, Arch, Epist, Prag, Did, autonomy budget, oversight, ABL, profile change, BLP waiver. *Queries:* "Which rule takes precedence in this conflict?", "Which autonomy and oversight profile is declared for these agent calls?", "What must a profile change or policy exception retain?" | **Builds on:** E.2. **Constrains:** All patterns and DRRs. |
-| E.4 | **FPF Ecosystem Architecture: Framework Families, Products and DPF Suites** | Stable | Choose the next pattern for an FPF ecosystem question, distinguish a framework edition and its support units from an independently used product, or constitute a DPF product series and Suite. Use the direct answer or an honest stop first; record the architecture when later work needs it. Use E.4.CM when the missing contribution is a composite Method whose useful connections need development and a public owner. Publication, access, maintenance and Suite membership keep their separate meanings. | **Builds on:** E.1, E.2/P-5, E.5.3. **Coordinates with:** E.4.CM, E.4.FPF, E.4.PFAD, E.4.DPF, E.4.DPF.DA, E.4.PFR, E.11, E.17, G.2, G.5, G.11, C.33, C.34, C.35, F.18, E.21, E.23, E.19. |
+| E.4 | **FPF Ecosystem Architecture: Framework Families, Products and DPF Suites** | Stable | Choose the next pattern for an FPF ecosystem question, distinguish FPF Core content from an FPF edition, separate support units from independently used products, or constitute a DPF product series and Suite. When available methods cannot supply the needed result, use C.39. Use E.4.CM to explain methods and their connections for framework reuse. Publication, access, maintenance and Suite membership keep their separate meanings. | **Builds on:** E.1, E.2/P-5, E.5.3. **Coordinates with:** C.39, E.4.CM, E.4.FPF, E.4.PFAD, E.4.DPF, E.4.DPF.DA, E.4.PFR, E.11, E.17, G.2, G.5, G.11, C.33, C.34, C.35, F.18, E.21, E.23, E.19. |
 | E.4.CM | **Develop Connected Methods as Framework Contributions** | Stable | Use as an FPF or DPF author when relevant patterns leave readers to invent connections within one composite Method or among independent Methods. Apply C.39's general construction, explanation and change; compare the available framework supply, choose a public owner, apply the pattern content functions and form, and preserve direct uses before deriving a short entry. | **Builds on:** E.4, E.8. **Uses:** C.39/C.39.RO, A.3.1, B.1.5, B.1.5.EW, B.1.5.RS and direct subject Methods. **Coordinates with:** C.32.MWA, E.11, E.11.PFP, E.19, E.21, F.0.2, F.19. |
 | E.4.FPF | **FPF Edition Assembly: Publication Forms, Carriers and Access Routes** | Stable | Rebuild and expose one First Principles Framework edition from its selected Core sources. Keep publication units, forms, presentation carriers and access routes distinct; derive the index and bodies from one selection and stop on a source, boundary or preservation mismatch. E.11.PFP supplies the common reader-facing form; E.4.PFIP checks integration and predecessor preservation; E.2.DA owns whole-FPF adequacy. | **Builds on:** E.4, E.2.DA, E.11, E.17, E.21. **Coordinates with:** E.4.PFAD, E.4.PFR, E.4.DPF, E.4.DPF.DA, G.11, F.18, F.19. |
 | E.4.PFAD | **Principle-Framework Architecture Decision** | Stable | Practitioner-facing profile for choosing among a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner route, and no new maintained product now when later work uses the boundary. The compact answer states first use and stop or return. When audience, support or shared change affects the choice, compare attainable benefit and the whole cost of learning, recurring application and change for human, human–AI and AI use. For professional Method coverage, the same compact answer projects five connected groups with claim-scoped obtaining or possible-future status, explicit question bindings, and bounded gaps, using a representation suited to the case. One ordinary E.9 DRR records the answer, while the accepting decision remains separate. | **Builds on:** E.4, E.9. **Coordinates with:** E.4.DPF, E.4.PFR, C.32.MWA, C.32.PAD, C.32.ADR, E.17, E.24.PUB, F.18, G.2, G.11, E.21, E.19, F.19. |
@@ -379,7 +381,7 @@ The public FPF readme section after the Table of Contents provides one non-exhau
 | E.10.MOVE | **Move, Readiness and Trajectory Wording Precision Restoration** | Stable | After F.19 and compact E.10 routing, restores the governed value hidden by move, movement, step, action, readiness, route, path, or trajectory wording. Separates practice-continuation description, coordination and ordering, recommendation, transformation, readiness, gate, publication, representation, and Work claims; returns each to its direct owner without creating a generic Move or Trajectory head. Its mantra branch distinguishes an E.11.PUA practice-continuation description shown in a post-qualification A.22.CGUS slice, a Plain local mantra, and a Plain long-mantra map. Evaluation-movement wording returns to E.23 for a separate prediction about a later evaluation result. | **Builds on:** F.19, E.10, E.10.ARCH, A.3.4.P, A.22.CGUS, E.11.PUA, E.11.PUR, E.23, A.15.5. **Coordinates with:** E.10.DEV for an independent development or evolution ambiguity, E.18.1, A.15, A.21, C.24, C.30, F.17, G.11. |
 | E.10.ARCH | **Wording-Use Ontological Precision Restoration Architecture** | Stable | Authoring architecture for the ontology question that remains after F.19 and compact E.10 routing. Bound the exact use, recover the exact subject and claim, bypass to the direct owner when clear, and add declaration/designation/reference/publication/representation apparatus only for a named receiver. Keeps an obtaining relation and actual participants, reusable `RelationSignature`/A.6.5 `SlotSpec` declaration, claim-bearing episteme and participant designations, C.29 representation and correspondence, separately governed method/work/result/structure/architecture objects, and the four A.6.P.WMR exits distinct. Select E.10.DEV or another realization only while stable recovery fields remain hidden; return the shortest usable sentence, ordinary non-use, exact gap, or blocker. Subject patterns keep thin pointers. | **Builds on:** E.10, E.10.DEV, A.6.P, A.6.5, A.6.P.WMR, A.6.RCD, A.6.F, C.2.P, C.2.P.DR, C.30.STRAT, A.19.SPR, A.6.3.CSC, A.3.1, A.3.2, A.6.0, A.6.1, E.20, A.15.PROD, E.24, E.24.CD, E.24.PUB, F.18, F.19, E.8, E.19, E.2. **Coordinates with:** E.10.MOVE, C.2.1, A.22, C.30, C.30.P, C.30.ASV, C.16, A.17, A.18, A.19, C.25, C.27.TA, C.27, C.29, A.3.3, A.3.4, A.15.1, A.15.2, A.10, E.21, E.11, I.2. |
 | E.10.ROLE | **Recovering What “Role” Means in the Current Claim** | Stable | *Keywords:* ambiguous role wording, system-role kind, assignment, relation participant, declaration slot, interface place, representation position, responsibility, ordinary wording. *Queries:* "What does role mean in this exact claim?", "Is this a system classification, assignment, participation, slot or position, another direct relation, or ordinary language?", "Which direct pattern should receive the recovered claim?" | **Builds on:** E.10, E.10.ARCH. **Routes to:** A.2, A.2.1, A.6.RSIR, A.6.5, and the direct pattern for the recovered object or relation. **Coordinates with:** F.18, F.19. |
-| E.10.P | **Conceptual Prefixes (policy & registry)** | Stable | *Keywords:* conceptual prefixes, U., Γ_, ut:, tv:, namespace, registry, minting, collisions. *Queries:* "What do the prefixes like 'U.' mean in FPF?", "When may I introduce a new conceptual prefix, and how do I avoid collisions?". | **Depends on:** E.9. **Constrains:** E.5.1, E.5.2. |
+| E.10.P | **Conceptual Prefixes (policy & registry)** | Stable | *Keywords:* conceptual prefixes, U., Γ_, ut:, tv:, namespace, registry, minting, collisions. *Queries:* "What do the prefixes like 'U.' mean in FPF?", "When may I introduce a new conceptual prefix, and how do I avoid collisions?". | **Builds on:** E.10:8.3, E.24.UK:4.1, B.1.3:4.2, B.1.4:3. **Coordinates with:** B.1.2:4 for system aggregation and delimitation decisions. **Depends on:** E.9. **Constrains:** E.5.1, E.5.2. |
 | E.10.D1 | **Recovering What “Context” Means in Use** | Stable | *Keywords:* context wording, source-local meaning, claim scope, model use, working situation, architecture, viewpoint, environment, positive wording repair. *Queries:* "What does context mean in this sentence?", "Which exact value or relation changes the claim or next action?", "Can the sentence stay ordinary wording, or does it need a subject-pattern value?" | **Builds on:** E.10, E.10.ARCH. **Coordinates with:** A.1.1, A.2.6, C.30, E.17.0, F.0.1, F.17, F.9, F.19. |
 | E.10.D2 | **EntityOfConcern, Description Episteme, and Specification-Use Discipline** | Stable | *Keywords:* EntityOfConcern, description episteme, specification use, checkable claims, harness, viewpoint, publication, representation, DescriptionContext (legacy cue). *Queries:* "Which entity does this description concern?", "When can I rely on it as a specification?", "Which additional viewpoint, evidence or publication relation does this use actually need?". | **Builds on:** A.7, E.10.D1, C.2.1, C.2.3. **Constrains:** F.4, F.5, F.8, F.9, F.15. |
 | E.11 | **First-Practical Entry and Pattern-Use Discoverability Discipline** | Stable | Gives each public entry unit one job and compares titles, complete ToC rows and retrieved fragments under the information actually shown. A reader starts from a recognizable situation, practical question, first useful result or blocker, opens one direct pattern or small plausible set, and may stop without filling a card. Continue with E.11.PUA after selecting one pattern and with E.11.PUR when applicability, recommendation, coordination, ordering, or reuse of an earlier result is current. Use E.11.PFP when one public FPF, DPF, or LPF edition needs the common publication form; form conformance and pattern count do not establish framework adequacy. | **Builds on:** E.8, E.17.AUD, F.17, F.18. **Leads to:** E.11.PUA, E.11.PUR, and E.11.PFP. **Coordinates with:** A.22.CGUS, E.18, G.11. |
@@ -931,9 +933,13 @@ GitHub repository: https://github.com/ailev/FPF
 
 ## FPF.Preface:1 - What This Specification Is And How To Use It
 
-This document is the Core Conceptual Specification of the First Principles Framework (FPF). It defines a standards-style pattern language for explicit, reviewable, improvable conceptual work in engineering, research, management, governance, and mixed human and AI projects.
+This Core Conceptual Specification publishes the general pattern content of an edition of the First Principles Framework (FPF), together with this Preface and navigation. Its pattern language supports explicit, reviewable and improvable conceptual work in engineering, research, management, governance, and mixed human and AI projects.
 
 The reader should not need FPF vocabulary before this Preface becomes useful. Here an FPF term should first name an ordinary engineering distinction, then point to the pattern that gives the stricter form.
+
+FPF's Core brings together shared concepts, constitutional principles and reusable methods for reasoning. The Kernel is the defining content of universal meta-concepts within that Core; all eleven constitutional first principles in E.2 govern the Kernel and other contributions. Domain and local frameworks explain work in their own settings and state which Core content and editions they rely on. This Preface explains the overall arrangement. Pattern bodies give the definitions, methods and conditions needed for an exact use; files and websites make those publications available.
+
+For an ordinary problem, use a known adequate domain method directly. Consult a supplying pattern when a missing distinction or operation prevents the needed result. Read the detailed distinctions below when their claim or action is your current question.
 
 FPF is not a domain encyclopedia and not a project-management method. It is a framework for making hard project reasoning coherent when many project entities and relations are easy to mix: systems, bodies of knowledge and models, architecture, descriptions, publications, concern-specific views, local system-role kinds and assignments, methods, plans, performed work, evidence, decisions, options, commitments, and improvement criteria.
 
@@ -1004,15 +1010,15 @@ Keep this reminder, the possible continuations it describes, a work plan and the
 
 This Preface explains why these practical uses belong to one framework. The Table of Contents supports search when the reader already knows the pattern family. A pattern body is a pattern episteme containing its exact Solution, boundaries, checks, action- or judgement-guiding content, and the definitions or constraints it actually asserts. It is a `U.MethodDescription` only when that membership is established and the distinction is current. The actual project claim remains a separate subject assertion. README and ToC references point to those rule-content loci and published term rows; they do not become alternate schema or finding stores.
 
-This Preface is also a reader-facing rendering of FPF's first-principles architecture. It is written for people who need the whole-framework picture before entering exact patterns. It foregrounds holons, descriptions, architecture, evidence, publication, choice, improvement, source-publication and source-use currentness, and domain or local framework growth; it deliberately coarsens, omits, or defers individual pattern detail, source publications, source-use history, and many relation records. When a Preface claim becomes load-bearing, check it against the exact ClaimGraph or assertion in the subject pattern body.
+This Preface gives a reader-facing explanation of FPF's first-principles architecture. It deliberately coarsens, omits or defers individual pattern detail, source publications, source-use history and many relation records. When a Preface claim becomes necessary for a decision, return to the relevant pattern for the exact claim, its conditions and the detail omitted here.
 
 Use the `readme` when a current project question needs a practical-use card and a direct pattern locator. Use this Preface when you need the whole-FPF picture. Use the Table of Contents when you already know the pattern family or need a search-oriented overview. Use the pattern body for its exact Problem frame and Solution; recover an exact predicate, `ClaimGraph`, or Method only when the current claim, action, or named reliance needs that distinction, and state the current project claim separately.
 
-The large areas of the specification can be read as one conceptual architecture. You do not need every name in this list yet; it is a map for later lookup:
+The following Parts organize the published material for lookup. Kernel membership follows the defining content of universal meta-concepts wherever their patterns supply it. Other content can develop a method or state a constitutional requirement. You do not need every name in this map before using a relevant pattern.
 
-- Part A gives the kernel: holons, contexts, system-role kinds and assignments, capabilities, methods, work, time, scope, signatures, architecture, characteristics, measurement, comparison, and foundations for choosing from candidate sets.
+- Part A introduces foundational distinctions and their uses: holons, contexts, system-role kinds and assignments, capabilities, methods, work, time, scope, signatures, architecture, characteristics, measurement, comparison, and foundations for choosing from candidate sets.
 - Part B gives transdisciplinary reasoning, emergence, evidence, assurance, trust, canonical reasoning, creativity, problem-side records and cues, and bridge discipline.
-- Part C gives major extension patterns: characterization, measurement, mathematical modeling, architecture, temporality, causality, option portfolios, quality, problem shaping, and precision restoration in specialized domains.
+- Part C develops general patterns for characterization, measurement, mathematical modeling, architecture, temporality, causality, option portfolios, quality, problem shaping and precision restoration.
 - Part D keeps ethics, conflict, and multi-scale value questions visible where they are live.
 - Part E gives the FPF constitution: pillars, guard rails, pattern form, lexical discipline, description and publication discipline, transformation-flow structures for carrying results through work, admission, review, and design-rationale discipline.
 - Part F gives unification and naming: local meaning units, concept sets, bridges, term sheets, local-first naming, and technical prose repair.
@@ -1027,17 +1033,13 @@ FPF is a project for improving how difficult reasoning is written, checked, taug
 
 The Core Specification gives the pattern language: the named concepts, distinctions, pattern bodies, conformance checks, and relations that make FPF usable across domains. It says what the reasoning objects are and how exact claims are constituted and checked. When a project needs to know whether a diagram is architecture, whether a dashboard is evidence, whether a model output may be used for a decision, or whether a term is hiding several kinds, the Core pattern bodies provide the relevant action- or judgement-guiding content and the definitions or constraints the claim actually needs. A separate `U.MethodDescription`, admitted Method, or exact `ClaimGraph` locator is recovered only when that distinction is current. Evidence use depends on the relation between an exact episteme and a target claim (`A.2.4`), with reliance checked under `A.10`; publication alone does not establish that relation. Actor, ownership, and external-authority claims need their own direct basis.
 
-Other publication families may sit around the Core:
+Domain principle frameworks explain the methods and evidence practices of their fields and identify the FPF content and editions on which they rely. A local practice framework supplies guidance for a bounded local setting and may also rely on a domain framework. A local guide that simply applies existing guidance needs no new framework boundary. E.4 explains when a separate framework or adjacent product is useful and how its dependencies differ from its publication.
 
-- companion explanations that teach the ideas more slowly;
-- worked cases that show FPF on real engineering, research, management, AI, or safety problems;
-- tooling guides that explain how to implement FPF written forms, including publication forms, in files, databases, editors, assistants, or review systems;
-- project-local adaptations that apply FPF to one organization, product line, discipline, or regulatory environment;
-- research notes that discuss adjacent ideas without governing FPF use.
+Other publications can teach, demonstrate or support this content: companion explanations, worked cases, tooling guides and research notes have different purposes. A companion may teach a method more slowly, and a tool may implement a publication form; the method, its explanation and the implementation retain their own identities. A useful explanation can be brought back into the supplying pattern when ordinary framework use needs it.
 
-Those companion explanations, tools, project-local adaptations, and examples can be valuable, but they have different jobs. They may teach, demonstrate, implement, translate, or specialize. They do not replace the Core pattern that defines or constrains the claim. If a companion says something more clearly than the Core, the useful explanation can be brought back into a pattern. If a tool makes an FPF form easier to use, the tool still implements the conceptual form; it does not become the conceptual form.
+The Preface belongs to the framework edition it explains. A DPF Suite instead brings together separately constituted DPF product series. An optional, separately constituted DPF Suite Reference can explain how to use their contributions together and return readers to the supplying editions. It is a non-framework publication, not a required stage before using a known sufficient DPF result. E.4:4.2 and E.11.DSG give the full Suite and Reference rules.
 
-This separation protects both sides. The Core can stay tool-agnostic and pattern-centered. Companions and tools can be vivid, practical, and domain-rich without turning every example into a new norm. The Preface therefore speaks about FPF as a whole project while keeping the boundary clear: patterns define or constrain, companions teach, tools implement, project-local adaptations apply, and examples show.
+One file or website can expose several such publications. Their shared carrier provides access; each framework, Reference or companion keeps the content, edition and change conditions established for it. Core meanings remain defined in Core. Authors can revise domain and local methods while preserving those dependencies. The Core can therefore remain tool-agnostic while companions, tools and domain explanations change for their intended uses.
 
 ## FPF.Preface:3 - Why FPF Exists
 
@@ -1189,23 +1191,15 @@ This is the difference between a catalogue and an instrument. A catalogue can te
 
 The ontology therefore serves action guidance. FPF does not replace domain ontologies, mathematics, standards, or evidence. It gives them a place in project reasoning so they can be used without collapsing local meanings or publication forms.
 
-## FPF.Preface:11 - The Bitter Lesson Stance
+## FPF.Preface:11 - When A Scale Claim Calls For Comparison
 
-FPF also carries a Bitter-Lesson-compatible stance. In AI, software, and open-ended engineering, systems that can use more search, more data, more compute, and more general learning often outperform brittle hand-coded procedure scripts when the domain changes or scale grows.
+FPF's Bitter-Lesson Preference in E.2:6 uses the empirical Bitter Lesson to motivate examination of claimed advantages from more compute, data or search capacity in computational work. When that scale or generalization claim is current, or a separately declared local generality policy applies, begin with C.19.1's cheap scale-claim probe. State the receiving task, usable budget range, conditions and evidence needed for the claim.
 
-FPF does not turn that observation into blind automation. It translates it into an architectural preference:
+Compare admissible options by their usable performance and uncertainty over that range. A steeper improvement curve can still stay below the required performance. When neither option dominates under the applicable comparison, there is no scale-based preference; a separate local policy must state its own basis and cost if it chooses greater generality.
 
-- state goals, constraints, budgets, and checks more clearly;
-- give agents and teams freedom to search within those declared bounds;
-- keep safety, evidence, assurance, and gate conditions explicit;
-- measure outcomes and refresh policies when the environment or model changes;
-- avoid hiding brittle procedure scripts inside prose that looks like general guidance.
+An ordinary bounded procedure can be used on its task-specific grounds. For example, a fixed procedure for summing a known finite list needs correct arithmetic and an adequate task budget; the existence of a general learner does not require a scale audit or an adaptation waiver. Independently applicable assurance and oversight still apply.
 
-The important separation is between design-time constraints and run-time action. A designer may declare inadmissible actions, risk budgets, cost ceilings, admitted tools, escalation conditions, evidence minima, or acceptance criteria. That differs from prescribing the acting system's complete action sequence.
-
-Some uses need a specified procedure: safety, regulation, legal compliance, reproducibility, and training can make a method description or work instruction current. FPF does not forbid that. It keeps the claim kind explicit. A procedure script is a method description or work instruction; a constraint set is a different object; a monitor is not evidence of success; a gate is not the work itself.
-
-This stance helps with human and AI work alike. A team can use general agents, search, simulation, model refresh, or state-of-the-art harvesting without surrendering safety. The freedom lives inside constraints, budgets, evidence, and typed checks.
+Positive procedures, prohibitions and autonomous sequencing follow the actual task, control requirements and authorized policy. Minimal prescription and autonomy do not follow from a scale comparison. Adaptation likewise needs its own objective, evidence, permission, change authority and safeguards. Use E.2:6–7 for the exact activation, comparison, heuristic-debt and precedence conditions.
 
 ## FPF.Preface:12 - From Flat Documents To Multi-View Truth
 
@@ -1350,7 +1344,7 @@ Semantic synthesis develops claims and distinctions: what the relevant objects a
 
 One account can explain composition within a Method and relationships among independently usable Methods. C.39:4.3–4.6 develops their connections for an ordinary practitioner: distinguish composition from enactment, reuse from generality or refinement, and cross-domain use from those relations; explain result uses, independent branches and what a changed condition reopens. E.4.CM applies this general foundation to framework authorship and public pattern form. C.32.MWA supplies an architecture account of Methods together with their performance, support and development. Neither a single “stack” nor FPF→DPF→LPF supplies all these relations.
 
-The two worked cases use stipulated facts and numbers. One obtains a proposed night-service arrangement; the other derives an assessment from measurement inputs. They show conditional reasoning, including what changes when a consequential input changes. A real project requires its own inputs and evidence.
+The two worked cases use stipulated facts and numbers. One presents a partial comparison of night-service options and requirements for a conditional external arrangement; the other derives an assessment from measurement inputs. They show conditional reasoning, including what changes when a consequential input changes. A real project requires its own inputs and evidence.
 
 #### FPF.Preface:16.5.1 - Start outside the proposed boundary
 
@@ -11240,8 +11234,8 @@ Reopen the chosen rule if the uncertainty or condition-translation basis changes
 
 ### A.5:1 - Problem frame
 
-FPF’s ambition is to act as an *“operating system for thought.”*
-That ambition can only be realised if the framework:
+FPF helps practitioners combine shared conceptual grounds and reusable methods with suitable domain methods.
+FPF can support that use across changing disciplines only if it:
 
 * **(i)** remains *stable* and *self‑consistent* over multi‑decade timespans;
 * **(ii)** *invites*, rather than resists, the continual influx of new disciplinary knowledge; and
@@ -23175,7 +23169,7 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 #### A.7:5.3 - MethodDescription vs Method vs Capability vs Work (description vs way-of-doing vs ability envelope vs occurrence)
 
 * **MethodDescription** — one already identified claim-bearing `U.Episteme` whose exact C.2.1 `EntityOfConcern` is one admitted `U.Method` and whose claims, under its effective `U.ReferenceScheme`, say something substantive about that Method as a way of doing. A transformation or enactment concern, generic participant meanings, applicability, precondition, intended effect or preserved condition, bound, or internal method composition can satisfy the positive threshold. The labels *algorithm*, *SOP*, *recipe*, *script*, *procedure*, code, diagram, or design-time artifact are cues only. Authoring, revision, citation, publication, approval, or use time establishes neither episteme identity nor `U.MethodDescription` membership. Its publication cites A.10 carrier/source-currentness refs when the carrier is used as evidence or source.
-* **Method** — the **abstract order-sensitive way-of-doing** composed with **Γ\_method** (B.1.5). A Method is not an occurrence, description episteme, or system ability. Actual participants and operation values remain occurrence-side facts of separately admitted `U.Work` and its direct bindings.
+* **Method** — the **abstract order-sensitive way of doing**, whose composition is governed by B.1.5. A Method is not an occurrence, description episteme, or system ability. Actual participants and operation values remain occurrence-side facts of separately admitted `U.Work` and its direct bindings.
 * **Capability** — a named holder System's **bounded ability or envelope** for a Work family or result class, stated with its operating and resource conditions, measures, qualification window, and currentness condition. Name a Method or system-role assignment only when that exact condition or fit input is current. It is not the MethodDescription and not the performed Work.
 * **Work** — the **dated run-time occurrence** (what actually happened), with resource spend (Γ\_work) and temporal coverage (Γ\_time).
 
@@ -23221,14 +23215,14 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 
 **Normative guard:** Formal inclusion establishes no world-side belonging. Collection belonging establishes neither constructive parthood nor holonhood and does not make either impossible. If a grouping is claimed to act, test it against all six `A.1` matters. Add a local system-role kind, assignment, Method, Work, or constructive part relation only when that separate claim obtains.
 
-#### A.7:5.7 - Operator alignment (required names)
+#### A.7:5.7 - Match composition to its subject
 
-* **Γ\_sys** — composition of **system** properties (physical/systemic).
-* **Γ\_method** — composition of **Method** (order, branching).
-* **Γ\_time** — composition of **Work** histories and temporal parts.
-* **Γ\_work** — composition of **resource spend** and yields tied to Work. Do not track costs with Γ\_method; costs (resources/yield) belong to Γ\_work.
+* **System aggregation and delimitation** — use B.1.2:4 to coordinate the independently established parts, crossings and whole-characteristic claims needed by the engineering decision. Each characteristic keeps its own aggregation or inference rule.
+* **Method composition** — use B.1.5 to determine whether constituent Methods and their relations construct one reusable way of doing, including its order and branching.
+* **Temporal aggregation** — first establish Work occurrences and temporal parts under A.15.1, or the identities and temporal relations of other subjects under their own rules. B.1.4 combines those recovered relations for a stated window and use.
+* **Work-resource aggregation** — use B.1.6 for resource spend and yields tied to admitted Work, with the required measurements, accounting boundary and aggregation policy.
 
-**Normative guard:** Use the four exact operator names for their respective composition claims. For domain “process” or “behaviour”, recover the object and predicate under its direct rule; it may concern a Method, Work, A.3.4 transformation, A.6.F functional behaviour, mechanism, or another domain object. Add an explicit distinction only when the intended value is not cheaply recoverable.
+**Normative guard:** Select the rule for the actual composition claim. For domain “process” or “behaviour”, recover the object and predicate under its direct rule; it may concern a Method, Work, A.3.4 transformation, A.6.F functional behaviour, mechanism, or another domain object. Add an explicit distinction only when the intended value is not cheaply recoverable.
 
 #### A.7:5.8 - EntityOfConcern and Description-episteme boundary vs publication face, form, unit, and carrier boundary (orthogonal, normative)
 * **EntityOfConcern-to-description boundary.** A.7 keeps the EntityOfConcern and an episteme that describes it distinct; E.10.D2 supplies the Description and specification-use repair. What the `EntityOfConcern` value is and how it is described are different questions. A Description is a `U.Episteme` about that exact entity under its effective scheme. A named describing use may separately select one viewpoint when the selection changes what is read or checked. Specification is a checkable use or refinement of the independently constituted Description episteme and requires checkable claims plus a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use. Formality, acceptance, a C.16 measurement criterion, or verification practice may contribute to that test but does not substitute for it. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its exact selected viewpoint. EntityOfConcern, Description, selected viewpoint, and specification use remain distinct.
@@ -23275,7 +23269,7 @@ If the EntityOfConcern is itself an episteme, the new Description does not autom
 
 A Description episteme becomes usable as a specification when its C.2.1 constitution, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking them for the stated use are recoverable under E.10.D2 and the applicable direct pattern. When viewpoint selection affects reliance, preserve or explicitly update the named describing use and its selected viewpoint. Formality, acceptance conditions, measurement criteria, and verification practice contribute under their own rules; formal notation alone is insufficient. Specification use remains separate from the EntityOfConcern, Description identity, publication expression, and Work.
 
-A Description episteme, its specification-use status, and a publication result are distinct from the dated activity that produces them. An actual describing, formalizing, specifying, or publishing activity may be admitted separately as Work. Use `Gamma_method` for the composition of its Method, `Gamma_time` for Work histories and temporal parts, and `Gamma_work` for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
+A Description episteme, its specification-use status, and a publication result are distinct from the dated activity that produces them. An actual describing, formalizing, specifying, or publishing activity may be admitted separately as Work. Use B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of already established temporal relations, and B.1.6 for resource spend and yields tied to that Work. An ordinary statement about authoring needs those relations only when its claim uses them.
 
 #### A.7:5.10 - Outcome specification strict distinction
 
@@ -23315,10 +23309,10 @@ Evidence supports assertions about the selected Work facts, affected referent, p
 | **CC‑A7.2 (Transformer-system-role assignment domain)** | A suffixed source designation such as `TransformerSystemRole@ValveSelectionContext` is only a locator. The exact kind must first be recovered through its C.3 candidate domain, membership distinction, boundary probes, and continuity rule; the suffix identifies none of them. A direct `U.SystemRoleAssignment` species must then admit that kind in its declaration-local kind slot and systems in its holder slot. | Type-check the exact species, holder, kind domain, predicate, applicability, and occurrence identity; do not filter a permissive family value by a role label. |
 | **CC-A7.3 (Episteme non-agency)** | An episteme does not act or hold a work-facing assignment. A System may author, revise, use, or publish it. | The ordinary sentence names the acting System; add exact Work, carrier, publication, evidence, source, or assignment relations only when the receiving claim uses them. |
 | **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** is the same independently identified C.2.1 episteme only when its exact EntityOfConcern is one admitted Method and at least one substantive way-of-doing claim obtains; **Method**, **Capability**, and **Work** retain their separate meanings. Form, label, design-time status, authoring, revision, citation, publication, approval, or use time grants no membership. | Identify the episteme triple and apply the A.3.2 threshold; then name each current Method, Capability claim and dated Work occurrence separately. |
-| **CC‑A7.5 (Operator fit)**               | Use **Γ\_method** only for composing **Method**; **Γ\_time** only for **Work** histories; **Γ\_work** only for resource spend/yields; **Γ\_sys** for systemic properties of systems.                                                                                                           | No sentence should use a single generic “process operator” for all four.                                                                 |
+| **CC-A7.5 (Composition fits its subject)** | Use B.1.2 for a system-aggregation decision, B.1.5 for Method composition, A.15.1 for Work occurrences and temporal parts, B.1.4 for aggregation of recovered order or temporal relations, and B.1.6 for Work-resource aggregation. | The claimed result and its required inputs determine the applicable rule; a generic “process” label supplies none of them. |
 | **CC-A7.6 (Carrier/source-currentness reference)** | An evidence-use claim **SHALL** identify the exact episteme and the claim for which it is used. Cite A.10 carrier/source-currentness refs when the particular evidence, source, or reliance use depends on them. | Recover the episteme and target claim, then the carrier or source-currentness facts required by that use; ordinary citation does not itself assert an evidence-use relation. |
 | **CC-A7.7 (Formal inclusion, collection, and collective)** | Mathematical set, tuple, coordinate, and other formal inclusion stays with its defining mathematical rule and creates no world-side relation. Use `C.29` for an actual mathematical lens and `A.19` for the relevant characteristic scale or coordinate. A world-side collection uses its own identity and belongs-to rule. A grouping claimed to act must separately pass all six `A.1` matters. | Check the distinct formal, collection, and collective-System claims. Infer neither belonging from formal inclusion nor parthood or holonhood from belonging; do not prohibit a separately grounded constructive part claim. |
-| **CC‑A7.8 (Diagram legend)** | Domain “process” or “behaviour” keeps its recovered meaning under the direct rule for that claim. Use the exact Γ operator for a composition claim, and disambiguate an unclear domain use explicitly. | A clear domain sentence may stand; an ambiguous one identifies its actual object and predicate without forcing a Method/Work binary. |
+| **CC‑A7.8 (Diagram legend)** | Domain “process” or “behaviour” keeps its recovered meaning under the direct rule for that claim. For composition, select the subject's rule under :5.7; disambiguate an unclear domain use explicitly. | A clear domain sentence may stand; an ambiguous one identifies its actual object and predicate without forcing a Method/Work binary. |
 | **CC-A7.9 (Progressive actor wording)** | A contribution noun may stand for a recoverable System in ordinary prose. An assignment, local system-role kind, Capability, Method, or Work is added only when that exact distinction changes a receiving inference. | `The engineer designed the pump` may stand. For a precise Work claim, recover the A.13 core and A.15.1 admission basis stated in :2, including the core assignment and at least one Method actually followed. Add F.6 only if the receiving use must also identify the assignment under which that Work was performed. |
 | **CC-A7.10 (Work-facing chain clarity)** | A diagram shows only the positions used by its claim. MethodDescription membership, Capability, assignment, Work, and evidence are not inferred from a complete-looking chain. | Begin with the acting System and direct claim; expand the chain only for a named design, attribution, or reliance use. |
 | **CC-A7.11 (Terminology hygiene)** | Avoid bare `actor` when the acting subject is known. Name the System directly or use a recognizable contribution noun. | Assignment identity is required only when a work-facing assignment claim is current; ordinary actor wording does not create one. |
@@ -23326,7 +23320,7 @@ Evidence supports assertions about the selected Work facts, affected referent, p
 | **CC-A7.13 (EntityOfConcern and Description visibility)** | Each Description episteme is independently identified by complete claim content, exact EntityOfConcern, and effective ReferenceScheme. A.7 supplies no universal describing constructor. | Text or diagram keeps the EntityOfConcern and Description episteme visible and states any current authoring, measurement, observation, model, source-use, representation, or refinement relation separately. |
 | **CC-A7.14 (Description-source discipline)** | A Description about an episteme does not automatically copy or preserve its claims; a Description about a non-episteme does not extract claims from the subject. | Name the exact source-use, representation, refinement, measurement, observation, model, authoring, or other relation that warrants the claim when that explanation is current. |
 | **CC-A7.15 (Specification-use boundary)** | When text claims specification force for a specification, formal specification, requirement, acceptance item, harnessed invariant, or measurement-criterion object, it retains the independently constituted Description episteme, checkable claims, and a named harness, validation, conformance, measurement, or evaluation relation capable of checking those claims for the stated use. Preserve or explicitly update the named describing use and selected viewpoint when they affect reliance. C.2.3 formality, A.21 gate or acceptance discipline, C.16 measurement criteria, A.6.2 refinement, and other direct patterns may contribute under their own conditions. E.17 expresses an already admitted specification use; E.10 governs its suffix. Neither publication, suffix, nor formal notation substitutes for the admission conjunction. | Recover the episteme, claims and capable checking relation for the stated use, plus any reliance-relevant viewpoint selection. Specification remains a use of the Description episteme, not a peer ontology class. |
-| **CC-A7.16 (Gamma separation)** | A Description episteme, its specification-use status, and a publication result do not carry the cost or time actuals of the activity producing them. | Recover any separately admitted describing, formalizing, specifying, or publishing Work; keep Method composition, Work histories and temporal parts, and Work resource relations distinct. |
+| **CC-A7.16 (Method and Work separation)** | A Description episteme, its specification-use status, and a publication result do not carry the cost or time actuals of the activity producing them. | Recover any separately admitted describing, formalizing, specifying, or publishing Work; keep Method composition, Work histories and temporal parts, and Work resource relations distinct. |
 | **CC‑A7.17 (Publication face and form discipline)**     | Publication names use the current publication face, form, unit, carrier, and rendering vocabulary. `PlainView`, `TechCard`, `InteropCard`, and `AssuranceLane` are faces over epistemes or views; new `...PublicationFace` or `...PublicationForm` heads are not introduced as A.7 kinds in this ontology.                                                 | Token scan shows no ad‑hoc `...PublicationFace` or `...PublicationForm` kinds.                                                       |
 | **CC‑A7.18 (Semantic and plane crossings).** | A face relying on an obtaining F.9 Bridge cites its two exact F.17 local senses, that Bridge, and a separate bounded-use claim; `CL` is optional. Other semantic relations use their own predicates and participants. Cross-plane content cites the applicable plane relation. Context or plane difference alone creates no Bridge, `CL`, or penalty; any trust penalty cites the named current policy and its applicability to this use. | Audit resolves the exact semantic or plane relation and any current policy application without inferring one from labels, contexts, planes, cards, or `CL`. |
 | **CC-A7.19 (UTS row reference)** | When a selected durable naming settlement and the receiving use require an F.17 term row, public names shown on faces **SHALL** point to that UTS row with twin labels (Tech/Plain), edition pins, and carrier/source-currentness refs when the source or evidence use depends on them. | If the row is needed, recover its identifier, labels, edition pins, and applicable source/evidence refs. Otherwise keep the sufficiently defined local designation; publication alone requires no row. |
@@ -23343,7 +23337,7 @@ The middle column stipulates facts for each teaching case, including its named S
 | “Our role is pump; the role circulates coolant.” | `Pump P-12 circulates coolant in loop L.` | The local system-role kind for a classification claim; the assignment occurrence only for assignment or attribution; Capability, Method, and Work only for their respective claims. |
 | “We followed the blueprint, so it is done.” | `Team T used Method M; completion still requires evidence of the performed Work.` | The blueprint label identifies neither a Method nor a MethodDescription. Cite a MethodDescription only after A.3.2 membership is established and its exact claims are used; keep the blueprint carrier, Work and evidence relations separate. |
 | “Team = set of members; it repaired the pump.” | `Team T repaired pump P-12` only after T is recoverable as a collective System under all six `A.1` matters. | State any world-side belongs-to rule separately; add coordination Method, Work, local kind, assignment, or constructive part relation only when that stronger claim is current. |
-| “Process cost is tracked by Gamma_method.” | `Work cost is tracked through the applicable work-cost relation; Gamma_method composes the Method.` | Add the actual resource and time relations for the Work occurrence. |
+| “Method composition establishes the cost of the work.” | `Method composition follows B.1.5; Work cost requires the actual resource and time relations used by B.1.6.` | Admit the Work under A.15.1 and recover the resource measurements, accounting boundary and aggregation policy required for that cost claim. |
 | “Holon has TransformerRole.” | `System S counts under the kind currently named TransformerSystemRole for the ValveSelection use.` | Recover the C.3 kind independently. Add the exact assignment occurrence and species only when an assignment claim is current; the use label is not part of kind identity. |
 | “Publication is a special mechanism.” | `Publication makes Description episteme E available through form F on carrier C.` | State the publication occurrence, view or conformance, carrier, and publishing Work under their direct patterns; no universal describing operation is introduced. |
 
@@ -23358,8 +23352,8 @@ The middle column stipulates facts for each teaching case, including its named S
 3. **Triad everywhere** — omitting **Work** entirely.
    **Fix:** Add a Work occurrence only when performed action is claimed; a design-time distinction diagram need not pretend that Work occurred.
 
-4. **Operator blur** — using one “process operator” for everything.
-   **Fix:** Choose among **Γ\_method**, **Γ\_time**, **Γ\_work**, **Γ\_sys**.
+4. **Composition blur** — using one “process operator” for unlike claims.
+   **Fix:** Recover the subject and intended result, then use :5.7 to select the system, Method, temporal or Work-resource rule and its prerequisites.
 
 5. **Formal set, world-side collection, and collective collapse** — mathematical inclusion or collection belonging is used to make a grouping act or to infer constructive parthood.
    **Fix:** Keep formal inclusion with its mathematical or representation rule; state world-side belonging under the collection's own rule; require all six `A.1` matters for a collective System; state any constructive part relation separately.
@@ -23426,7 +23420,7 @@ The middle column stipulates facts for each teaching case, including its named S
 ### A.7:13 - Relations
 
  **Builds on:** A.1 (Holon), A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance, carrier, and source-currentness relations), A.14 (Advanced Mereology), A.15/A.15.1/A.15.2 (System-Role–Method–Work, Work, and WorkPlan Alignment).
-* **Constrains:** A.13 (Agency sits on systems only; epistemes non‑behavioural), Part B operators (**Γ_method**/**Γ_time**/**Γ_work**/**Γ_sys**) and their choice points; **publication is not a Γ‑operator**.
+* **Constrains:** A.13 (Agency sits on systems only; epistemes non-behavioural), B.1.2:4 system-aggregation and delimitation decisions, B.1.5 Method composition, B.1.4 temporal aggregation, and B.1.6 Work-resource aggregation. These uses preserve the System, Method, Work, and Episteme distinctions; publication follows its own availability conditions in E.24.PUB.
 * **Extends:** E.8, E.10, Part F and Part G, B.3, and the C-cluster by enforcing the EntityOfConcern/Description boundary, specification-use and publication orthogonality, System/Episteme separation, same or near-same EntityOfConcern discipline across views, and progressive actor wording. Publication remains the separately governed availability of an exact episteme through a form and carrier.
 * **Coordinates with:** E.18 for crossing visibility, A.21 for gate checks, E.17 for publication, and E.10 for lexical checks. F.17 identifies exact local senses and F.9 governs an obtaining Bridge between two such senses; a ReferencePlane crossing follows its applicable plane relation. The bounded-use claim, reliance, optional `CL`, and any named policy penalty remain separate.
 
@@ -23447,7 +23441,7 @@ Keep the sentence this short when the receiving use needs no stronger distinctio
 1. **Acting subject:** Is the acting System recoverable? If assignment identity is not used, do not invent it.
 2. **Current distinctions:** Are Method, Capability, Work, assignment, local kind, and MethodDescription named only for claims that actually use them?
 3. **Description boundary:** Is each Description episteme independently identified by claim content, EntityOfConcern, and effective scheme, with any authoring, measurement, source-use, representation, or refinement relation stated separately?
-4. **Right operator:** `Gamma_method` composes Method; time and resource actuals belong to Work or their direct relations.
+4. **Method and Work:** Use B.1.5 to judge Method composition; use A.15.1 and B.1.6 for the Work occurrence and its resource actuals, and B.1.4 when already established temporal relations need aggregation.
 5. **Episteme and carrier:** Does the episteme remain non-acting and distinct from its publication form and carrier?
 6. **Grouping:** If a group acts, is it recoverable as a collective System rather than merely a set?
 
@@ -25934,11 +25928,11 @@ Four recurring questions then matter:
 
 If we only have “generic partOf” plus Component/Constituent, five classes of errors appear:
 
-1. **Conservation errors.** Counting “20 L of fuel from Tank A” as a component supplies no measure, additivity or conservation account for additions and removals. Γ_sys proofs still require Σ-balance.
+1. **Conservation errors.** Counting “20 L of fuel from Tank A” as a component supplies no measure, additivity or conservation account for additions and removals. Establish the common measure and boundary under :5.1, then reconcile the remaining fuel with the actual additions and removals under the applicable conservation law.
 
 2. **Aspect creation by wording.** A selected Characteristic, view, projection, partition rule, dashboard slice, or concern label is turned into a world-side part without identifying the aspect, bearer, facet rule, or identity condition.
 
-3. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Γ_time and Γ_method cannot repair either mistake after the fact.
+3. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Resolve those identities and Work relations before temporal aggregation (B.1.4) or Method composition (B.1.5).
 
 4. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, first compare the C.2.1 identity triple and then test edition continuity separately; for another enduring holon, apply its direct identity rule to determine whether the same individual persists or a reidentification question opens.
 
@@ -26099,7 +26093,7 @@ It also corrects analysis and representation bias. A Characteristic, viewpoint, 
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | **CC‑POR‑1 (Domain)**              | `PortionOf(x,y)` is valid only if the modelling scope declares at least one **extensive measure** μ for y (mass, volume, token count, byte size, wall‑time budget, etc.). | Prevents “portion” without a measure.   |
 | **CC‑POR‑2 (Kind)**                | x and y **SHALL** share the same μ‑kind and compatible units (or an explicit conversion).                                                                                 | Prevents apples‑to‑oranges addition.    |
-| **CC‑POR‑3 (Monotone additivity)** | For disjoint portions `x ⟂ z` with `PortionOf(-,y)`, whose join is admitted under the same measure and boundary rule: μ(x ⊔ z) = μ(x)+μ(z). | Secures Σ‑reasoning and Γ\_sys proofs. |
+| **CC-POR-3 (Monotone additivity)** | For disjoint portions `x ⟂ z` with `PortionOf(-,y)`, whose join is admitted under the same measure and boundary rule: μ(x ⊔ z) = μ(x)+μ(z). | Justifies the additive measure of that admitted join; additions, removals and boundary flows still need their applicable conservation account. |
 | **CC‑POR‑4 (Boundary)**            | For physical systems, the whole’s boundary encloses the union of portions; cross‑boundary flows are **not** portions.                                                     | Distinguishes stock vs flow.            |
 | **CC‑POR‑5 (Non‑replacement)** | When replacing a measured portion of y, state the removed and inserted amounts under their applicable measure and boundary rules, and test y's identity under its governing rule. Add **ComponentOf** or **ConstituentOf** only when that separate structural or content relation obtains. | Avoids inferring another relation from a measured replacement. |
 
@@ -26172,11 +26166,11 @@ It also corrects analysis and representation bias. A Characteristic, viewpoint, 
 | “Spec v2 overlaps v1.” | A version label is asked to decide identity and phase. | Compare C.2.1 identities and test edition continuity; use PhaseOf only for one unchanged episteme over a proper interval. |
 | “Team is part of the project.” | Collection belonging is confused with constructive parthood. | State the affiliation rule. If an integrated whole is also claimed, apply all six A.1 matters and state the part relation separately. |
 
-#### A.14:9.9 - Interplay with Γ‑flavours (how these relations behave under aggregation)
+#### A.14:9.9 - Mereology in composition and aggregation
 
-| Γ‑flavour                    | Mereological hooks (what A.14 supplies)                                                                                                                | Key effect                                                                                    |
+| Receiving use | Mereological hooks (what A.14 supplies) | Key effect |
 | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------- |
-| **Γ\_sys (B.1.2)** | Treat PortionOf as additive stocks; ComponentOf respects boundary integration; AspectOf remains facet-local structural parthood and is not a separate aggregation operator; PhaseOf is not aggregated here. | Conserves extensive measures and prevents facets from becoming system decompositions. |
+| **System aggregation decision (B.1.2:4)** | Add measures of disjoint portions only under :5.1 and the selected whole-characteristic rule in B.1.2:4.4. Establish ComponentOf and boundary integration separately. AspectOf remains facet-local structural parthood; PhaseOf requires its own carrier identity and temporal restriction. | Supports justified quantitative roll-up while preserving the distinct component, aspect and phase claims. |
 | **Γ\_epist (B.1.3)** | PortionOf of text or data uses a declared measure; ConstituentOf composes arguments or sections; AspectOf is available only for an independently admitted episteme-dependent structural aspect under a declared facet rule. A viewpoint, view, heading, or projection remains with E.17 or C.29. PhaseOf may restrict one unchanged episteme to a proper interval. | Preserves provenance and prevents description choices from creating episteme parts. |
 | **Γ\_ctx / Γ\_time (B.1.4)** | **PhaseOf** supplies proper temporal restrictions, including nested or overlapping windows. A separately selected partition supplies non-overlap and coverage only for its own cells. Order/dependencies live in **Γ\_ctx** and method graphs (A.15/B.1.5). **PortionOf** is orthogonal (quantities inside steps/runs). | Ensures chronological consistency without turning every temporal restriction into one partition. |
 | **Γ\_method (B.1.5)** | Γ\_method composes Methods rather than A.14 structural parts. A recipe-labelled claim-bearing episteme is a **MethodDescription** only when its `EntityOfConcern` is one admitted `U.Method` and at least one substantive way-of-doing claim obtains under A.3.2; any graph form is a representation handled by C.29. When a recipe refers to stuff-like inputs, those are **PortionOf** statements on resources. | Separates recipe composition from structure. |
@@ -38956,7 +38950,7 @@ Keep five frequently collapsed objects distinct:
 4. **The project system-of-interest.** Project designation or selection is a separate claim from `U.System` identity, environment, parthood, system-role kind or assignment, and architecture. B.1.2 does not derive it from a box or aggregation decision.
 5. **Use qualification and neighboring relations.** `Context` is not one world-side container supplied by B.1.2. When claim scope, effective reference scheme, or a bounded model-use structure qualifies a use, recover that exact qualifier under its subject pattern. Recover any system-role assignment or other neighboring relation separately. None delimits the system, identifies its environment, or establishes containment by itself.
 
-B.1.2 does not make `Gamma_sys` the pattern head, create generic boundary or interaction U-kinds, or infer a part-whole relation from transformation, coordination, responsibility, or representation.
+For a system-aggregation decision, use :4.1 to recover the system, parthood, delimitation, crossing, and whole-characteristic results or their blockers. Use :4.2 only when their joint organization changes that decision.
 
 ### B.1.2:2 - Problem
 
@@ -39036,6 +39030,10 @@ Use A.6.F only to resolve an unclear function expression and A.6.M only to resol
 A pump skid may be one exact entity proposed for recognition under the already admitted `U.System` kind. Pumps, frame, valves, controller, and connectors become its components only when their exact A.14 part-relation occurrences obtain and C.13 grounds the assembly; the proposal, drawing, and component list establish none of those facts.
 
 The power grid, maintenance crew, telemetry dashboard, and supplier are not skid components merely because the skid depends on them. Recover the exact systems or epistemes and their supply, work, telemetry, publication, source-use, or other direct relations. If a maintenance-isolation decision needs their joint organization, an A.22 selected structure may include the exact obtaining crossings without turning them into parts.
+
+**Concrete coordination result.** In an illustrative component-inventory case, skid S is already recognized under A.1. Inspection and assembly evidence have established the A.14 component relations of pump P, frame F, valve V and controller C to S, with the C.13 assembly basis. The inventory is complete for this example. A documented electrical-supply relation has grid G as source and S as receiver; dashboard D is an episteme describing S. These independently supplied facts are the inputs to the decision, not conclusions inferred from the drawing.
+
+For the question “Which of these objects belongs in S's component inventory?”, B.1.2 returns P, F, V and C, retaining each part relation's basis. G remains an external supply participant and D remains a description. The inventory establishes no total mass, reliability or safe-isolation conclusion: each would need its own characteristic rule or decision basis. If inspection instead leaves V's part relation unresolved, return the three established components and that specific gap; do not present the inventory as complete. Changed assembly or supply facts reopen the affected result.
 
 #### B.1.2:5.2 - Resistor In A Circuit
 
@@ -39157,7 +39155,7 @@ Naive aggregation of knowledge holons causes recurring failures:
 3. **Semantic drift.** Folding across mismatched concepts without explicit **mappings** (and their **CL**) yields incoherent composites that look formal but mean nothing.
 4. **Order blindness.** Arguments with essential **dependency order** (premise ⇒ lemma ⇒ conclusion) are treated as sets; non‑commutativity is lost and results become non‑reproducible.
 5. **Semantic-context chimeras.** Combining claims whose local senses or reference schemes differ, without exact mappings and—when meanings cross—an F.9 Bridge plus a separately warranted bounded-use claim, silently corrupts claims and inflates **R**.
-6. **Category errors.** Importing **Γ\_sys** rules (e.g., “sum truth,” “avg formality”) into knowledge composition produces physically sounding but epistemically nonsensical models.
+6. **Category errors.** Applying a physical quantity’s addition rule to truth, or averaging ordinal formality, ignores the value’s meaning and scale. Use C.16 for admissible scale operations and B.3 for the warranted support inference.
 
 ### B.1.3:3 - Forces
 
@@ -39264,8 +39262,8 @@ When computing **Γ_epist^synth(D_know)**:
 * **Constructive derivations.** State the chosen proof basis and the correspondence needed by the conclusion. An induction proof may use its stated non-UF foundation. A UF-based equivalence claim supplies the required equivalence or isomorphism witness and the structure that the receiving theorem needs preserved. A lossy mapping cannot transport a theorem that depends on an erased distinction. If the required proof basis or correspondence is unavailable, leave that inference unresolved while retaining independently supported conclusions. A CL summary describes mapping evidence; it establishes neither equivalence nor theorem transport.
 
 **8. Order-aware arguments (optional).**
-   If the argument requires premise ordering, embed a **Γ\_ctx** fold inside Γ\_epist; record the **OrderSpec** for reproducibility (NC‑1..3).
-   **Condition:** state the `OrderSpec` whenever the conclusion depends on premise or derivation order; use B.1.4 for the bounded aggregation of those recovered order relations. No unspecified maturity level determines this requirement.
+   If the conclusion depends on premise or derivation order, identify the ordered relations and positions, declare the **OrderSpec**, and retain the branch, join and independence conditions needed by the argument. Use B.1.4:4 to check the bounded aggregation and its determinacy under those conditions.
+
 
 **9. No costs here.**
    Any compute/collection effort is **Γ\_work**; attach references but do not mix costs into epistemic aggregation.
@@ -39274,14 +39272,14 @@ When computing **Γ_epist^synth(D_know)**:
 
 When computing **Γ_epist^compile(E_synth, TargetScheme)**:
 
-**1. Reference-scheme bindings.** # [M-1+]
+**1. Reference-scheme bindings.**
    Map every operative concept, unit, and claim into **TargetScheme** and record the exact mapping and its **CL** evidence summary. For a meaning that crosses semantic contexts, name the source and receiving `SchemeSenseCell` values, the obtaining F.9 Bridge, the proposed use, direction, use-specific rule, and permitted loss; establish reliance separately. C.2.1 identifies the compiled episteme from its resulting claims, exact EntityOfConcern, and target scheme. A changed identity discriminator identifies another episteme; it does not by itself open a whole-reidentification question.
 
 **2. Re-express the assurance basis.**
    Re-express F, G, and the support account in **TargetScheme**. Preserve the formal conclusion and empirical limitations separately. Recalculate R or a mapping loss only if the target use has the required meanings, scales, and model under B.3/C.2.2; a change of vocabulary or increased formality is not additional warrant. Without a justified aggregate, carry the separate support and bounded synthesis. A quantitative or formal application proves the calculations or derivations it actually claims, not a fictitious tuple imposed by its mode.
 
 **3. Compilation trace.**
-   Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application; at **L2** require independent re-hash verification. This trace establishes neither publication nor release. # [M-1/L2]
+   Produce the compiled episteme's SCR and the carrier hashes needed to reconstruct this application. Require independent re-hash verification when the receiving claim needs independent carrier-integrity evidence under B.3 or an applicable B.3.3 assurance profile. A level label alone does not select that check. The trace establishes neither publication nor release.
 **4. Order/time hooks.**
    If the compiled episteme includes an internal derivation, carry the **OrderSpec**. If it selects knowledge for a time-bounded use, name the exact C.2.1 episteme identity and link to the already recovered proper temporal restriction, edition relation order, applicability window, or B.1.4/**Γ_time** aggregation actually used.
 
@@ -39299,6 +39297,10 @@ This is a didactic evidence-composition case, not a clinical recommendation. The
 * **Contrary-result case:** a credible `E₂` result conflicts with `E₁` in an overlapping subgroup. Keep the disagreement. Different baseline severity is a possible explanation only to the extent supported by the sources. Narrow or qualify the guidance claim; do not silently average the conflict away or call it an uninformative study.
 * **Completion:** return the bounded guidance statement with its distinct supporting contributions, contrary result, scope, and unresolved interpretation. No common quantitative model has been supplied, so no aggregate R is returned. Whether another study is feasible and worth its total burden is a separate C.11/C.19.2 decision, not a condition for completing this synthesis.
 
+**Concrete completion of the case.** Use the following invented findings only to illustrate the synthesis. `P` is the trial's enrolled acute low-back-pain cohort; `S` is its identified high-baseline-severity subgroup. `E₁` reports lower pain at six weeks with intervention X than with its comparator, both in P and in S. `E₂` reports no such benefit in a separately observed cohort matching S; the sources have not resolved whether confounding or another difference explains the disagreement. `E₃` supplies a mechanism compatible with benefit but no clinical effect estimate. No common quantitative support model is available.
+
+The resulting guidance statement is: “The trial supports lower recorded pain at six weeks for X versus its comparator in P. The finding for S conflicts with the observational result and remains unresolved. The mechanism explains how benefit could occur but does not resolve that conflict or establish its magnitude. These sources support neither extrapolation beyond P and six weeks nor a combined reliability score.” The SCR retains all three contributions. A supported explanation of the disagreement or a corrected source result reopens the affected claim. A request for another population opens a separate question and synthesis. Identify the new claim, its subject and scope (C.2.1; A.2.6), and establish the evidence or warranted transport needed for that use. The request alone leaves the result for P unchanged. This is a completed bounded synthesis of the fictional findings, not advice to use X.
+
 For **Γ_epist^compile**, map the retained claims into the journal's scheme, carry the same limitations and any justified recalculation, and produce the compilation SCR and required hashes. C.2.1 identifies the target-scheme episteme “Guidance Statement v1.0”; later journal publication remains a separate occurrence.
 
 #### B.1.3:5.2 - Episteme — **Controller proof and a real protective function**
@@ -39313,13 +39315,13 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 
 #### B.1.3:5.3 - Contrast (didactic)
 
-| Aspect          | **Γ\_epist (Knowledge)**                                         | **Γ\_sys (Physical)**                       |
+| Aspect | Knowledge composition (B.1.3:4) | System aggregation decisions (B.1.2:4) |
 | --------------- | ---------------------------------------------------------------- | -------------------------------------------- |
-| What is folded? | Claims, models, datasets, arguments                              | Components, materials, assemblies            |
+| What is combined? | Claims, models, datasets and arguments, with their provenance and semantic relations | Established component, material-portion and assembly facts for one engineering decision; each whole-characteristic claim uses its applicable aggregation rule |
 | Conservatism | Support roles, dependence, and mapping limits under the named B.3 model; no invented aggregate | WLNK for a quantity whose physical model justifies a weakest-part bound |
-| Fit             | **Mappings** with declared **CL**                                | **Interfaces/BIC** compatibility             |
-| Order/time | Optional **Γ\_ctx** for argument order; C.2.1 for distinct episteme identities and edition relations; A.14 for a proper restriction of one unchanged episteme; B.1.4/**Γ\_time** for bounded aggregation of recovered temporal relations | Γ\_ctx for workflows; Γ\_time for phases of directly governed enduring carriers |
-| Work/cost       | External in **Γ\_work** (compute, curation)                      | External in **Γ\_work** (energy, labour)     |
+| Fit | Semantic mappings and their calibration evidence, with a separately warranted receiving use | Interfaces, crossings and compatibility choices under B.1.2:4.3 and their direct relation rules |
+| Order/time | Argument order; C.2.1 episteme identities and edition relations; A.14 proper temporal restrictions; B.1.4 aggregation of recovered order or temporal relations | A.15.1 for assembly Work and its temporal parts; A.14 for proper phases of enduring carriers; B.1.4 for aggregation of recovered order or temporal relations |
+| Work/cost | Resources spent in synthesis, compilation or validation Work, aggregated under B.1.6 | Resources spent in assembly or operation Work, aggregated under B.1.6 |
 
 ### B.1.3:6 - Proof obligations (normative)
 
@@ -39330,7 +39332,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 3. **PO-SYN-CL.** Every mapping used in the support account **MUST** retain its CL evidence summary and actual use limitation. A numerical loss **MUST** have a receiving model establishing its meaning, scale, derivation or calibration, and assumptions; ordinal ranks and monotonicity alone are insufficient. The summary neither establishes an F.9 Bridge nor grants use.
 4. **PO‑SYN‑R.** The result **MUST** distinguish indispensable premises, sufficient alternatives, complementary support, scope slices, and counterevidence where present. An aggregate R **MUST** have warranted input meanings, scales, dependencies, and an operation under B.3/C.2.2. Otherwise retain separate support and a reasoned bounded synthesis. Neither F nor a mode tag supplies an R conversion.
 5. **PO-SYN-CONFLICT.** The result **MUST** retain credible contrary evidence and distinguish an established scope or interpretation difference from an unresolved conflict. Narrow, qualify, or withhold the affected conclusion accordingly. B.2 applies only to a separately grounded whole-reidentification question.
-6. **PO‑SYN‑ORDER.** If order matters, the **OrderSpec** MUST be recorded and Γ\_ctx **NC‑1..3** (determinism, context hash, partial‑order soundness) MUST hold.
+6. **PO-SYN-ORDER.** If the conclusion depends on order, the ordered relations, positions and **OrderSpec** MUST be recorded. The aggregation MUST satisfy B.1.4:4 for its declared use, including applicable branch, join and independence conditions; determinacy is relative to those conditions.
 7. **PO‑SYN‑NOWORK.** Resource spending, yields, and dissipation MUST NOT be computed here; instead, attach references to the aligned **Γ\_work** composition.
 
 **At compilation (Γ\_epist^compile):**
@@ -39351,7 +39353,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 | **CC-B1.3.4** | Contrary evidence MUST remain visible. An established scope or interpretation difference may separate claims; an unresolved conflict must qualify, narrow, or defeat the affected conclusion. Use B.2 only for a separately grounded whole-reidentification question. | Keep the practical effect of disagreement visible. |
 | **CC‑B1.3.5** | Every `U.Episteme` serving as an input to `Γ_epist` **MUST** declare its `mode` (`axiomatic` or `postulative`). An aggregate holon's mode **MUST** be `postulative` if any of its constituents is `postulative`. | Prevent category errors in reliability calculation. |
 | **CC-B1.3.6** | A cross-context meaning use names explicit mappings, exact source and receiving F.17 cells, an obtaining F.9 Bridge, a separate bounded-use claim and permitted loss, and any reliance result the fold consumes. **CL** alone never grants the use. | Make semantic crossing inspectable. |
-| **CC‑B1.3.7** | If order matters, Γ\_ctx **NC‑1..3** MUST hold. If an episteme history matters, exact C.2.1 endpoint identities and any obtaining `EpistemeEditionRelation` MUST be named; any proper restriction or B.1.4/**Γ\_time** aggregation MUST cite only already recovered temporal relations. | Preserve order, identity, continuity, and temporal integrity. |
+| **CC-B1.3.7** | An order-dependent conclusion MUST meet PO-SYN-ORDER and B.1.4:4. If an episteme history matters, exact C.2.1 endpoint identities and any obtaining `EpistemeEditionRelation` MUST be named; any proper restriction or B.1.4/**Γ_time** aggregation MUST cite only already recovered temporal relations. | Preserve order, identity, continuity, and temporal integrity. |
 | **CC-B1.3.8** | Keep design-time synthesis, target-scheme compilation, one actual operation application and its returned value, dated Work, performer and any relied-on assignment, production or first existence, publication, carrier, release, and acceptance separately governed. | Preserve semantic and practical boundaries. |
 
 ### B.1.3:8 - Anti‑patterns & repairs
@@ -39359,7 +39361,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 | Anti‑pattern             | Symptom                                           | Repair                                                                                     |
 | ------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | **Unsupported folding** | Incomparable scores are averaged, minimized, maximized, or converted from F | Identify support roles, scales, dependencies, and the receiving model. If none warrants aggregation, retain separate support and a bounded synthesis; do not hide counterevidence. |
-| **Provenance amnesia**   | Sources/methods disappear in the aggregate        | Rebuild **SCR**; re‑run Γ\_epist with provenance union.                               |
+| **Provenance amnesia** | Sources, methods or SCR links disappear | Restore the provenance and reconsider affected reliance. Repeat the affected synthesis when its claims, mappings or support calculation depended on what was lost. |
 | **Homonym merge** | Different concepts with the same name are silently merged | Declare the exact mapping. For cross-context meanings, identify and test the F.9 Bridge, state the bounded use and permitted loss, and keep low-CL or unresolved uses separate or **provisional**. |
 | **Silent semantic crossing** | Local senses or schemes are mixed without a tested correspondence and use boundary | Declare the exact mappings; for cross-context meanings identify the F.9 Bridge, separate bounded-use claim, permitted loss, and any relied-on A.10 or B.3 result. |
 | **Version soup** | Labels or time slices mix unchanged epistemes, distinct epistemes, edition continuity, publication, and Work history | Apply the C.2.1 identity triple first; test `EpistemeEditionRelation` separately; use A.14 only for a proper restriction of one unchanged episteme and A.15.1 for Work. Then aggregate only the exact recovered temporal relations the current use needs. |
@@ -39384,7 +39386,7 @@ For **Γ_epist^compile**, map the retained claims to the certification scheme. W
 ### B.1.3:10 - Rationale (informative)
 
 * **Epistemic composition is not physical addition.** A missing necessary premise, a complementary study, and a contrary result do different work. The receiving claim and dependency model determine their combination; minimum is not universally conservative.
-* **Provenance is part of meaning.** Dropping sources/methods changes what the episteme **is**; Γ\_epist treats provenance and **SCR** as first‑class.
+* **Provenance supports reliance.** Losing a source or SCR link can defeat reconstruction or warranted use while the episteme keeps the same C.2.1 identity. Restore the missing provenance and reconsider the affected reliance. Identify another episteme only when claim content, EntityOfConcern or effective ReferenceScheme changes; source or method claims that form part of the claim content are subject to that same rule.
 * **Interpretation matters.** Exact reference schemes and local senses prevent quiet reinterpretation. F.9 governs any cross-context Bridge; C.2.1 governs the resulting episteme identity.
 * **Parsimony with power.** Provenance, support roles and dependencies, exact mappings, and order/time hooks suffice for a useful synthesis without imposing a common score. [Gutierrez, Glymour and Davey Smith, *Evidence triangulation in health research* (2025)](https://link.springer.com/article/10.1007/s10654-024-01194-6) supports comparing design assumptions and shared biases, checking target-question comparability, and using qualitative comparison when quantitative pooling is unwarranted. This methodological contribution does not supply a universal R formula or make a further study mandatory.
 
@@ -79292,7 +79294,7 @@ Audit depth follows what a particular claim or decision needs from the result. A
 
 # Part E - The FPF Constitution and Authoring Guides
 
-## E.1 - Vision & Mission: “Operating System for Thought”
+## E.1 - Vision & Mission
 
 
 ### E.1:1 - Problem frame
@@ -79310,7 +79312,7 @@ When a claim crosses domains without its meaning, basis or conditions, the recei
 | ------------------------------- | ----------------------------------------------------------------------- |
 | **Conceptual Unity**            | Freedom to evolve ↔ invariant principles that prevent vocabulary drift. |
 | **Rigor vs Agility**            | Formal verifiability ↔ rapid, iterative exploration.                    |
-| **Universality vs Specificity** | Domain‑agnostic kernel ↔ problem‑specific leverage.                     |
+| **Universality vs Specificity** | Shared conceptual grounds ↔ methods suited to a particular problem. |
 | **Didactic Clarity**            | Human comprehension ↔ abstract purity and density.                      |
 | **Physical Grounding** | Proposed material realization or physical intervention ↔ a feasibility basis for that action under its resource and physical constraints. |
 
@@ -79320,13 +79322,17 @@ When a claim crosses domains without its meaning, basis or conditions, the recei
 
 **Vision Statement**
 
-> *Reliable reasoning should be as accessible as version control: clone the conceptual kernel, extend it with domain patterns, and commit decisions that remain traceable across time, scale, and discipline.*
+> *Make reliable reasoning accessible across disciplines: combine the relevant shared grounds and reusable methods of FPF Core with suitable domain methods, and keep decisions traceable to their premises, evidence and revisions.*
 
-### E.1:4 - Solution — *FPF as an Operating System for Thought*
-FPF delivers a **generative scaffold** realised as:
+### E.1:4 - Solution — Shared Grounds and Reusable Methods
+FPF helps practitioners construct and revise ways of doing from explicit shared grounds. Its first principles are cross-domain starting commitments that govern the framework's architecture, use, evaluation and development, including the distinctions, inferences and grounds for claims used in reasoning. The constitutional and defining patterns explain these commitments and their scope. A premise introduced in one task model has the scope justified for that model; using it does not establish a framework-wide commitment. All eleven pillars in E.2 retain their role as FPF's constitutional first principles. For example, P-2 gives human comprehension priority over theoretical or tooling purity, and P-7 directs proofs, metrics and models towards real-world objectives.
 
-1. a **Kernel** of non‑derivable, cross‑domain **first principles**;
-2. pluggable **patterns**—Systemic Calculus, Knowledge Dynamics, etc.—that instantiate those principles;
+The Kernel is the subset of Core content that defines admitted universal meta-concepts and their relations. The eleven pillars are constitutional requirements outside that subset; they govern the Kernel and other Core content. P-2 and P-7 therefore remain first principles without becoming Kernel definitions. Broader Core content also explains reusable methods. Describing a method does not establish that someone can perform it or has performed it. Practitioners use domain methods to perform the subject work; domain evidence supports bounded claims about the suitability of a method or its result for the intended use. These grounds and methods remain open to justified revision under the invariants below and E.2.
+
+FPF expresses these shared grounds and reusable contributions through:
+
+1. a **Kernel** of admitted universal meta-concepts and the rules that define their meanings and relations;
+2. **patterns** that explain reusable methods, state their conditions and grounds, and apply or extend shared distinctions without replacing their governing meanings;
 3. a **pattern language** (*Architectural* ► why/ how; *Definitional* ► what) with embedded **Conformance Checklist (CC)**;
 4. **Design Rationale Records (DRRs)** that govern safe, auditable evolution;
 5. three **core invariants** that every artefact must honour
@@ -79404,7 +79410,7 @@ Pattern E.1 governs **E.2 Eleven Pillars** and the Guard‑Rail set **E.5**; any
 ### E.2:1 - Problem frame
 Use the Eleven Pillars in §4 to assess whether an FPF rule or artifact meets its constitutional obligations. Use the separate BLP policy in §6 when a computational choice claims a scale/generalization advantage or invokes a declared local generality policy: start with C.19.1's cheap scale-claim probe. An ordinary bounded fixed procedure can stop with its task-specific justification; specialization alone creates no scale audit, heuristic-debt entry or waiver. Independently applicable assurance or oversight requirements retain their own checks.
 
-Pattern E.1 set the FPF mission as an **operating system for thought**. To turn that mission into a durable architecture, FPF needs a small, explicit constitution - principles that remain stable while everything built on top of them can evolve. Without such invariants, domain silos, vocabulary drift, and tool-centric shortcuts quickly erode coherence and reproducibility across disciplines.
+E.1 sets the aim of making reliable reasoning accessible across disciplines through shared grounds, reusable Core methods and suitable domain methods. To turn that aim into a durable architecture, FPF needs a small, explicit constitution - principles that remain stable while everything built on top of them can evolve. Without such invariants, domain silos, vocabulary drift, and tool-centric shortcuts quickly erode coherence and reproducibility across disciplines.
 
 The pillars are also the first-principles basis of FPF. They are the minimal commitments from which pattern-level work derives: decisive structure, teachability, maturing formality, open kernel, layering, register discipline, practical payoff, cross-scale consistency, explicit state, open-ended evolution, and SoTA renewal. Later patterns can support this basis by making a concrete argument about pillar support more inspectable; they do not replace pillar authority.
 
@@ -79819,7 +79825,7 @@ Pattern E.2 supplies eleven immutable pillars, yet experience shows that a **fla
 
 ### E.3:2 - Problem
 
-When two pillars or derived principles pull in opposite directions, architectural decisions stall—or worse, drift toward the loudest voice. Without an explicit **taxonomy and precedence cascade**, FPF risks devolving into subjective debate, breaking its claim to be a rigorously *auditable* “operating system for thought.”
+When two pillars or derived principles pull in opposite directions, architectural decisions stall—or worse, drift toward the loudest voice. Without an explicit **taxonomy and precedence cascade**, participants lack an agreed basis for identifying the governing principle and explaining the decision.
 
 ### E.3:3 - Forces
 | Force                                 | Tension                                                            |
@@ -80032,7 +80038,7 @@ Start with the smallest route that answers the current question:
 
 This route is ordinary guidance, not a new record or package. A direct pattern or honest stop is a complete first result when no durable ecosystem-architecture record is needed.
 
-When the difficulty is that individually available patterns do not yet give practitioners a usable whole, use E.4.CM to develop the composite Method contribution. It connects recurring composition difficulties, exact supplied remedies, public placement and a short entry. A new primitive operation or a new framework is not a prerequisite for that useful contribution.
+When the available methods are insufficient for the needed result under the relevant conditions, use C.39 to find or develop a missing operation or connection. When a method and its connections need a reusable explanation in a framework, use E.4.CM to develop that explanation, choose its placement and provide a reader entry. An adequate available method can be used directly.
 
 Create an ecosystem-architecture record only when that durable architecture or later reliance is current. Use these fields:
 ```text
@@ -80067,7 +80073,13 @@ This record answers the declared ecosystem question for its intended use. Includ
 
 Classify the family members as follows:
 
-`Conceptual Core` is the legacy authority and publication-family partition. `First Principles Framework edition` is the whole scoped FPF framework edition as a transdisciplinary first-principles framework. `FPF Core pattern set` is the framework-edition view of the general FPF Core used for dependency, relation, and edition reasoning. Use these compatible views and scopes for their respective questions.
+Conceptual Core names FPF's general conceptual content within the existing Core, Tooling Reference and Pedagogical Companion family partition. An FPF edition is an identified body of framework content. Its publication units present that content, and readers obtain them through available access routes. The FPF Core pattern set consists of the selected Core subject patterns in that FPF edition. A framework-edition dependency names the relied-on FPF edition and the particular Core claims required for its use.
+
+The Kernel is the subset of Core content that defines admitted universal meta-concepts and the rules for their meanings and relations. Membership follows that defining content, wherever it occurs in the patterns. Other Core content explains reusable methods, states their conditions and grounds, or governs the framework. All eleven E.2 pillars remain constitutional first principles outside the Kernel subset; they govern both Kernel and other Core content.
+
+Readers obtain the relevant content from an FPF publication and use the supplying patterns for the question at hand. A pattern can contain both a definition and an explanation of its application. A Part heading, file boundary or selected rendering therefore does not define the Kernel's membership or constitute a separate Kernel edition. The Preface explains the framework as a whole; the pattern bodies retain the definitions, conditions and methods on which a use relies.
+
+A domain or local framework identifies the Core content and edition on which it relies. That content may include a Kernel definition, a general method or a constitutional authoring requirement. The dependent framework supplies its own domain or local problems, methods, sources and use conditions. Authors can revise those contributions while preserving the relied-on meanings and obligations; a change to a supplying claim reopens the uses that depend on it. A shared publication carrier supplies access to these frameworks without merging their content or edition boundaries.
 
 | Family member | Architecture contribution | Authoritative content loci |
 | --- | --- | --- |
@@ -80076,7 +80088,7 @@ Classify the family members as follows:
 | Pedagogical Companion | Tutorials, playbooks, worked examples, and learning material that teach FPF without changing Core meaning. | `E.17`, didactic patterns |
 | Foundational principle pattern set | Foundational threshold material or principle patterns that may support FPF-grounded use but need settled names and dependency boundaries. | `F.18`, `E.4.PFR` |
 | First Principles Framework edition | The scoped FPF framework edition as a transdisciplinary first-principles framework with Core pattern set, publication and access-facing presentation carriers, access routes, relation records, and whole-FPF adequacy route. | `E.4.FPF`, `E.2.DA`, `E.4.PFR`, `E.11`, `E.17`, `G.11` |
-| FPF Core pattern set | The current general FPF pattern core as a framework edition. | `E.4`, `E.5.3`, and the current Core subject-pattern descriptions and defining ClaimGraphs |
+| FPF Core pattern set | The selected Core subject patterns in a named FPF edition. Framework dependencies identify that FPF edition and the relied-on Core claims. | `E.4.FPF:4`, `E.4.PFR:3.4`, `E.5.3`, and the cited Core subject-pattern claims |
 | Domain principle framework | A domain-bounded framework grounded in FPF and in domain SoTA. | `E.4.DPF`, `G.2`, `E.4.PFAD`, `E.4.PFR` |
 | Local practice framework | A framework for one bounded local practice setting—for example a project, organization, workflow, tool, practitioner position, or audience—grounded in FPF and often in a domain framework. Add a local system-role kind, a separate System-classification judgment, or an exact assignment occurrence only when the framework claim independently uses it; recover ambiguous *role* wording through `E.10.ROLE`. | `E.4.DPF`, `E.4.PFAD`, `E.4.PFR`, `G.11` |
 
@@ -80183,7 +80195,9 @@ This pattern should leave the reader able to state the architecture directly. Na
 
 ### E.4:5 - Archetypal Grounding
 
-Tell: A team creating a hydroponic-cucumber domain principle framework creates a domain framework edition grounded in FPF Core and horticulture SoTA. It declares its dependency on an FPF Core edition and records its source packs. The team drafts domain patterns under `E.8` and publishes an all-in-one publication carrier for growers or agronomists.
+A team developing a hydroponic-cucumber domain framework uses FPF's distinction between a method, its description and performed work, together with E.8's framework-authoring requirements. Horticultural sources supply the crop-specific methods and conditions. The team identifies the relied-on Core content and edition, develops its domain patterns and publishes the framework for growers or agronomists. A changed crop-specific threshold reopens the affected domain explanation and its uses; it does not by itself change the meanings of Method or Work.
+
+The edition labels in this example are illustrative. `FPF@C1` names one stipulated FPF edition containing the Core claims cited here. `HydroponicCucumberPF@2026Q3` uses A.3.1:4.3 from that edition to distinguish the nutrient-monitoring method, its description and performed monitoring work. Its revision guidance also applies E.8:4.1.2, item 6, from the same FPF edition: authors repair examples and direct consumers made stale by a changed pattern interface in the same authoring increment. Removing or materially changing either relied-on claim reopens the corresponding domain explanation or revision guidance.
 
 Mini-example:
 
@@ -80197,12 +80211,12 @@ Mini-example:
 | `publicationRelationRefs?` | the publication relations from `HydroponicCucumberPF@2026Q3` to `GrowerCarrier@2026Q3` and `GrowerReadme@2026Q3` |
 | `frameworkFamilyMembers` | domain principle framework; local grower practice framework as a later dependent edition |
 | `selectedPatternSetRefs` | crop-growth problem framing, nutrient-solution monitoring, climate-control interpretation, harvest-quality feedback patterns |
-| `selectedRelationRecordRefs` | source or decision reuse from horticulture source pack; specialization from general FPF authoring patterns; publication relation to all-in-one carrier |
-| `selectedDependencyAndEditionRefs` | depends on `FPFCorePatternSet@Edition`; no reverse dependency from FPF Core |
+| `selectedRelationRecordRefs` | reuse of named horticultural source claims; dependence on selected FPF Core content for the described concepts and framework authorship; publication relation to the all-in-one carrier |
+| `selectedDependencyAndEditionRefs` | `HydroponicCucumberPF@2026Q3` depends on `FPF@C1`: the Method/MethodDescription/Work distinction in A.3.1:4.3 for the monitoring explanation, and the direct-consumer repair requirement in E.8:4.1.2, item 6, for pattern revision, as stated above. No reverse dependency from the FPF edition. |
 | `selectedPublicationOrAccessCarrierRefs` | domain all-in-one publication carrier plus readme as first-entry carrier |
 | `selectedSourcePackRefs` | greenhouse-control and crop-production `G.2` source packs |
 | `qualityAndImprovementRefs` | `E.21` pattern-quality evaluation and `E.23` improvement loop for drafted domain patterns |
-| `currentnessAndRefreshRefs` | `G.11` refresh condition when source pack, Core edition, or crop-production practice changes |
+| `currentnessAndRefreshRefs` | `G.11` refresh when cited source packs, the relied-on `FPF@C1` claims or edition, or crop-production practice change |
 
 Show: A Codex-process local practice framework may depend on FPF Core and selected architecture-domain patterns. Its handoff patterns, prelanding patterns, and process runbooks are local framework material. A Core-amendment decision under `E.9` remains the route for changing FPF Core.
 
@@ -80902,7 +80916,7 @@ When the architecture question is live, use `E.4.PFAD` to state the framework-sp
 
 ### E.4.PFAD:2 - Problem
 
-Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another product such as a programme, service, or evidence package, a thinner access result, or no new maintained product now. When a framework is selected, later work needs its public field promise, first-edition boundary, FPF Core dependency, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. Generic decision prose can hide those choices.
+Framework authors repeatedly need to decide whether a recurring practitioner problem calls for a new framework, an existing framework contribution, another product such as a programme, service, or evidence package, a thinner access result, or no new maintained product now. When a framework is selected, later work needs its public field promise, first-edition boundary, problem-family coverage, first patterns and their material relations, representative use, important omissions, and publication or access consequence. They also need the selected FPF edition, the Core claims required for each receiving use, and any other framework-edition dependencies. Generic decision prose can hide those choices.
 
 
 A small coherent authoring slice creates a common false positive: its few current patterns and neat structure are mistaken for a field-scale pattern language. Source diagrams create another: one list or hierarchy is copied into the DPF although Methods, Work, subjects, descriptions, capabilities, providers, and cultural change may have different structures. A large framework-specific form creates the opposite problem by making proposal, acceptance, DRR, edition, authoring, quality review, and publication look like one extra decision object.
@@ -80934,7 +80948,7 @@ Ask whether choosing a framework, a non-framework product, a thinner route, an e
 
 - the public field promise, a first use that does not depend on unpublished authoring context, or the problem-family coverage of a proposed DPF;
 - an intended or existing framework edition;
-- an FPF Core or other current edition dependency;
+- a dependency on a selected FPF edition for named Core claims and a receiving use, or on another identified framework edition;
 - initial pattern placement or a material relation among those patterns that changes the architecture;
 - the direct subjects and identity or change rules for a continuing programme, an admitted service, or a separate editioned result, plus any maintenance relation when later work separately claims or uses it;
 
@@ -80997,9 +81011,9 @@ When the architecture question is open, the framework-specific part of the DRR s
 
 4. the selected problem-family pattern sets, first patterns and their material relations, representative cross-problem application, and important omissions;
 5. which structures of Methods, their use, support and development change the answer, and how the identified Methods, descriptions, patterns, direct subjects and managed result boundaries fit together. When those structures do not line up one-for-one, use a completed `C.32.MWA` synthesis; use `E.23.CDI` only when capability development for a named Work family changes the answer;
-6. the existing or intended-edition boundary, selected FPF Core dependency, and only the other exact edition dependencies required by this answer;
+6. the existing or intended framework-edition boundary; the selected FPF edition, the Core claims this framework relies on and the receiving use that requires each claim; and any other framework-edition dependencies required by this answer, under `E.4.PFR`;
 7. the sources to revisit for each important claim, whether the evidence supports, suggests, or only motivates it, the limits of that evidence, and the publication or access consequence; and
-8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition.
+8. material alternatives, accepted costs or losses, practical consequences, the first authoring action or stop, and the reopen condition. For each framework-edition dependency, distinguish a change of the relied-on edition from a material change to a relied-on claim, and identify the dependent use that each reopens.
 
 For any opened question, record only candidate contributions that can change the outcome. For each, state whether an exact current FPF or admitted-DPF owner carries its action, first result, return, and source or refresh duty; an exact external result supplies it; an action-bearing remainder survives; or ownership remains unresolved. A shared topic or broad framework name can locate candidates; assign a disposition only after exact contribution comparison.
 
@@ -81069,7 +81083,7 @@ Use `C.32.PAD` only when the question is an exact project architecture decision 
 A systems-management group considers a public DPF for recurring problems in service launch, cross-team coordination, incident response, and feedback-based improvement. A broad FPF route covers several shared distinctions, and an admitted neighboring DPF covers one specialist branch, but neither gives this practitioner group a coherent first use across the four problem families. The field-boundary assessment compares a new DPF with direct FPF-and-source use, a guide, contribution to the neighboring DPF, two existing DPF edition series, and no new maintained product now. It favors one DPF because a representative service-launch case needs patterns from several problem-family sets together and has an independent edition, change, and refresh boundary, including its later-review rule.
 
 
-The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable; the selected problem families and relations supply the DPF structure. The `E.9` DRR records the public promise, selected problem-family sets and material relations, representative case, Core and other exact dependencies, omitted procurement and certification questions, the sources to revisit, which claims the evidence supports, suggests, or only motivates, the publication consequence, first authoring action, and reopen condition. Capability development does not change this case, so `E.23.CDI` is absent. PFR rows and proposal locators serve their conditional representation and discovery uses.
+The source accounts organize Methods, dated Work, service and equipment subjects, descriptions, provider capabilities, and cultural change differently. A completed `C.32.MWA` result makes those correspondences and conflicts readable; the selected problem families and relations supply the DPF structure. The `E.9` DRR records the public promise, selected problem-family sets and material relations, representative case, omitted procurement and certification questions, the sources to revisit, which claims the evidence supports, suggests, or only motivates, the publication consequence, first authoring action, and reopen condition. It also identifies the selected FPF edition and any other relied-on framework editions, their required claims and receiving uses. Capability development does not change this case, so `E.23.CDI` is absent. PFR rows and proposal locators serve their conditional representation and discovery uses.
 
 #### Exploratory access result
 
@@ -81093,7 +81107,7 @@ Three separately constituted DPF product series already cover one recurring prac
 
 #### Existing framework
 
-A local practice framework already has an accepted architecture answer and a source record. Reopen when its selected edition boundary, dependencies, initial pattern architecture, or publication or access consequence changes; otherwise, an example or publication-carrier edit follows the existing answer.
+A local practice framework already has an accepted architecture answer and a source record. Reopen that answer when its selected edition boundary, dependencies, initial pattern architecture, or publication or access consequence changes. A change of a relied-on edition or a material change to a relied-on claim first reopens the affected use; reconsider the architecture answer when that affects one of those architectural choices. An example or publication-carrier edit that leaves those choices intact follows the existing answer.
 
 #### Candidate recognition before product form
 
@@ -81165,11 +81179,11 @@ The fifth drift is relation-by-representation: a table row or reference list is 
 | CC-PFAD.3c Professional-practice projection and several structures | When professional Method coverage changes the answer, the same compact answer projects five connected groups by value: claim-scoped practice truth and first use; project and Method positions; selected structures and correspondences; pressures and evidence; and contribution, subtraction, gaps, and reopen. One answer may carry several bounded practice claims with different obtaining or possible-future status, and every selected question names the claim or claims it consumes. The answer, one ordinary E.9 DRR that records it, and the separately identified accepting decision remain distinct. A missing required group or claim-to-question binding returns a bounded PFAD gap before DPF authoring. `C.32.MWA` is used only when several selected structures do not line up one-for-one and `E.23.CDI` only when capability development changes the answer. `B.1.5`'s complete predicate supplies Method parthood. Realize the five claim groups by value in the one answer and ordinary DRR even when the source begins as a fixed view list, layout, or Method hierarchy. |
 | CC-PFAD.3d Direct-subject account | *Product* remains Plain management wording. A selected product names every direct subject and the identity, current-state, provision, publication, availability, or other relation used by the answer. It names a maintenance relation only when that claim separately obtains and changes the answer. A programme case also distinguishes any provider System, maintenance relation, accepted commitment, or admitted service state that independently obtains, together with bounded Work and evidence-package epistemes. An unresolved kind remains an explicit question, not `U.Product`. |
 | CC-PFAD.3e Exact subtraction and composition | Every outcome-changing candidate contribution is classified as carried by an exact current owner, supplied by an exact external result, an action-bearing remainder, or unresolved through same-situation action, first-result, return, and source-or-refresh comparison. A broad owner counts only when it carries those values. An existing-framework answer distinguishes one DPF receiving a contribution from cross-DPF composition. Record composition under one of the five outcomes and submit Suite membership to the Suite decision. |
-| CC-PFAD.4 Compact payload | The DRR carries only the applicable content groups in `E.4.PFAD:4.2` and ordinary E.9 grounds and rationale; the selected outcome determines the applicable fields for a non-framework product, thinner route, or stop. |
+| CC-PFAD.4 Compact payload | The DRR carries the applicable content groups in `E.4.PFAD:4.2` and ordinary E.9 grounds and rationale. A framework answer names its selected FPF edition, the relied-on Core claims and receiving uses, and separately any other required framework-edition dependencies. The selected outcome determines the applicable content for a non-framework product, thinner route, or stop. |
 | CC-PFAD.5 Direct relation assertions | Relations among initial patterns are stated directly under their actual relation functions; an optional PFR row represents them for a named maintenance use. |
 | CC-PFAD.6 Object boundaries | Answer, acceptance, DRR, authoring Work, Method results, edition, and publication remain distinct; proposal locators serve discovery. For a programme answer, the exact persisting subjects, any provider System, maintenance relation, accepted commitment, or admitted service state that independently obtains, each bounded inquiry Work occurrence, and each evidence-package edition remain distinct. |
 | CC-PFAD.7 Conditional apparatus | Naming, quality, admission, currentness, and package details appear only when they change the answer or serve a named use. |
-| CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. |
+| CC-PFAD.8 Reopen condition | The DRR states what change in field boundary, framework architecture, evidence, or receiving use requires reconsideration. For each framework-edition dependency, it distinguishes a change of the relied-on edition from a material change to a relied-on claim and names the dependent use to reopen. |
 | CC-PFAD.9 DPF Suite decision | A selected Suite answer states the ecosystem use, which product series may belong, Suite constitution, inclusion and removal rules, identity when product series change, source return, later-review and retirement conditions, exposure choice, alternatives, consequences, and reopen condition. It separately states edition-to-product belonging and whether a DPF Suite Reference product series has been constituted and included. A maintained-Suite or maintained-Reference claim separately states its supporting maintenance relation, refresh response, and evidence. Record belonging as collection membership; assert holonhood, constructive parthood, dependency, or compatibility only through its own complete predicate. |
 
 
@@ -81231,7 +81245,7 @@ The external comparisons above supply bounded grounds for the selected construct
 - **Uses:** `C.32.MWA` when several practice structures need one readable synthesis; uses `E.23.CDI` only when capability development for a named Work family changes the answer.
 - **Uses:** `A.6.RCD`, `A.6.REL`, and the exact relation patterns for material relation assertions among initial patterns.
 - **Coordinates with:** `A.22`, `C.30.STRAT`, `B.1.5`, `A.15.1`, `C.30.AD`, and `C.36` for selected structures and exact architecture distinctions.
-- **Coordinates with:** `E.4.PFR` for optional relation and edition maintenance representations.
+- **Coordinates with:** `E.4.PFR` for framework-edition dependency predicates and optional relation and edition maintenance representations.
 - **Coordinates with:** `C.32.PAD` for an exact project architecture decision, `C.32.ADR` for its ADR-like projection, and `E.17` with `E.24.PUB` for publication of an ordinary framework answer.
 - **Coordinates with:** `F.18`, `G.2`, `G.11`, `E.21`, `E.23`, and `E.19` only when naming, source synthesis, refresh, improvement, or admission is current for the selected answer.
 
@@ -81268,7 +81282,7 @@ A DPF gives an intended practitioner or assisting agent a source-grounded patter
 | Problem-solving primacy | A DPF may need terms and ontology, but those are supports for recognizing recurring domain problems and choosing SoTA solution moves, not the framework's payoff by themselves. |
 | FPF reuse | FPF Core gives strong authoring, relation, and quality patterns, but direct copying can mask domain-specific concerns. |
 | Publication need | A framework publication carrier helps readers, but it can hide relation, dependency, and currentness records. |
-| Evolution | Domain and local frameworks change and improve as sources, uses, and Core editions change. |
+| Evolution | Domain and local frameworks change and improve as sources, uses, relied-on framework editions, and the required Core claims change. |
 
 ### E.4.DPF:4 - Solution
 
@@ -81435,10 +81449,10 @@ Destination or source return for every contribution not selected into the framew
 Candidate relation functions among the patterns:
 Current first result and selection condition: cheap route or stop with no DRR | one open architecture question answered by a new or revised framework, a contribution to an existing framework, a non-framework product, a thinner publication or access route, or no new maintained product now in an E.9 DRR | optional organization-design proposal | post-existence architecture-description use | optional authoring-dependency description
 
-State a framework-edition dependency under `E.4.PFR:3.4` only when the dependent edition's current content or result for the named use requires the relied-on content: removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. Identify the dependent edition, relied-on FPF Core or domain framework edition, direction, reason and refresh condition, referring to the relied-on content identified above. For an optional authoring-dependency description, use `E.4.DPF:4.5`:
+State a framework-edition dependency under `E.4.PFR:3.4` only when the dependent edition's current content or result for the named use requires the relied-on content: removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. Identify the dependent edition, relied-on FPF or domain-framework edition, direction, reason and refresh condition, referring to the relied-on content identified above. For an optional authoring-dependency description, use `E.4.DPF:4.5`:
 Publication form and exact presentation carrier for first use; access route if one is needed:
 Quality route: which first drafts should be evaluated and improved:
-Refresh triggers: source change, Core edition change, local-use telemetry, or policy change:
+Refresh triggers: source change, relied-on FPF or domain-framework edition change, material change to relied-on Core claims, local-use telemetry, or policy change:
 
 Return the current result and only the adjacent source, naming, pattern-draft, relation, publication or access, quality, and currentness notes that its receiving use needs. If the result is a cheap route or stop, create no framework-decision record. If the requester wants a ready DPF rather than a seed, keep the E.9 DRR or decision carrier separate from the user DPF publication form, exact presentation carrier, and any access route, then name which `E.21`, `E.4.DPF.DA`, and currentness checks remain before reliance.
 Do not present generated text as authoritative. Before relying on it, name the unresolved claims and the contribution still needed: direct source return; a relevance-based source cut through `F.1`; a bounded semantic-synthesis result through `F.0.2`; general construction, connection, explanation or change of Methods through `C.39`; their framework-authoring application through `E.4.CM`; an optional broad `G.2` pack; authoritative return and partial-failure handling for a derived lookup; truthful identification and admission of an exact generated or discovered result for its intended architecture use through `C.35`; framework-decision profiling from `E.4.PFAD`; an optional relation or edition representation from `E.4.PFR`; local wording restoration through `E.10.ARCH`; naming from `F.18`; quality evaluation from `E.21`; or a currentness check from `G.11`.
@@ -81457,7 +81471,7 @@ Do not present generated text as authoritative. Before relying on it, name the u
 11. **Framework publication-carrier assembly and access-route check.** Expose the selected framework episteme edition through exact publication and access relations. An exact form-bearing artifact is a publication- or access-facing `U.PresentationCarrier`; identify the service or route through which readers reach it separately and name any returned carrier. When a Markdown carrier bears a publication containing the full `E.8` pattern bodies, use `E.11.PFP` for the common reader-facing title and edition cue, one logical index, and one practical-entry set with five-field ordinary entries and six-field selected cards. Show authorship, date, dependency, language, access, or a product-declared maintenance status, support window, or currentness window in the opening only when a product-specific publication rule names the reader decision or action they change. Keep the FPF heading hierarchy in that publication: the framework title and major publication units or Parts are H1, each PatternID and pattern title is H2, each canonical `E.8` section is H3, and each nested section is exactly one level deeper. Navigation may surround a body, but it must not demote the body or merge two source heading levels. Keep the E.11 first-entry publication functions recognizable: in English use `Table of Contents`, `<framework name> Readme`, and `Preface`, and translate them consistently in another publication language. Do not create a parallel `Pattern Index` for the same ToC function or rename the Readme `Reader Guide`. Generated-source comments, source paths, source-set digests, machine identity blocks, build commands, and `do not edit` markers remain builder, package, manifest, or maintainer evidence rather than reader front matter. A compact card or summary remains entry guidance, while a genuinely distinct index remains a finding aid. Each returns to the ToC or Readme that locates its full pattern body, or directly to that body; do not present it as that body. After assembly and before calling the carrier released, current, or ready for its declared use, inspect the assembled carrier rather than only its sources: use the `E.11` practical-use carry-through check for the public entries and `E.4.DPF.DA` for package form, preservation of the published pattern bodies, and declared use. A successful build run shows that generation succeeded; it does not show that the published hierarchy, entry route, or pattern content survived. When the assembled publication claims accepted-source integration or continuity with its predecessor, use `E.4.PFIP` for that comparison. Under E.24.PUB keep publication occurrence, selected episteme edition, audience declaration, bounded-use declaration, publication form, and presentation carrier distinct; use the direct access pattern for actual access or use. Framework identity, package membership, truth, Work authority, and landing use their direct predicates and evidence. Domain or local frameworks publish through their own selected carriers.
 12. **Currentness route.** Use `G.11` for refresh plans, edition pins, source decay, deprecation, and supersession conditions.
 
-Localize each repair before returning to wider framework architecture. A changed source payload first reopens the direct source use, F.1 source cut, F.0.2 comparison, or G.2 pack actually used, and then only the dependent assertions, examples, or relations. A changed Core or depended-on framework edition first updates the affected `E.4.PFR` dependency, compatibility, and migration relations. Repeated misuse of one pattern first reopens that pattern's `E.21` result and its `E.23` improvement loop; a repeated domain wording failure may also reopen its local `E.10.ARCH` entry. A failed publication or access route first requires `E.11`, `E.17`, or the carrier relation that exposed it. A local mantra that no longer preserves its pattern Solution requires comparison with the exact Solution in that pattern body; `A.22.CGUS` becomes current only if the repaired aid must present a wider conditional unfolding. Use `E.4.PFAD` only when the evidence changes selected framework-family, pattern-split, relation-structure, publication-form, presentation-carrier or access-route architecture, or dependency-boundary decisions. Use `G.11` when edition currentness, source decay, telemetry, deprecation, or supersession must be orchestrated across those local repairs.
+Localize each repair before returning to wider framework architecture. A changed source payload first reopens the direct source use, F.1 source cut, F.0.2 comparison, or G.2 pack actually used, and then only the dependent assertions, examples, or relations. A change to a relied-on FPF or domain-framework edition, or a material change to the Core claims used, first reopens the affected `E.4.PFR` dependency, compatibility, and migration relations. Repeated misuse of one pattern first reopens that pattern's `E.21` result and its `E.23` improvement loop; a repeated domain wording failure may also reopen its local `E.10.ARCH` entry. A failed publication or access route first requires `E.11`, `E.17`, or the carrier relation that exposed it. A local mantra that no longer preserves its pattern Solution requires comparison with the exact Solution in that pattern body; `A.22.CGUS` becomes current only if the repaired aid must present a wider conditional unfolding. Use `E.4.PFAD` only when the evidence changes selected framework-family, pattern-split, relation-structure, publication-form, presentation-carrier or access-route architecture, or dependency-boundary decisions. Use `G.11` when edition currentness, source decay, telemetry, deprecation, or supersession must be orchestrated across those local repairs.
 
 For an all-in-one DPF publication carrier, assemble the content in a reproducible order. This order is a publication shape, not a new framework kind. In an all-in-one Markdown publication that contains the full pattern bodies, the framework title and major publication units or Parts use H1, pattern bodies begin at H2, and their canonical sections begin at H3. The framework name and publication language may vary with the domain and readers; `E.11.PFP`'s reader-facing sequence, pattern-row profile, publication-unit jobs, and the heading hierarchy do not. In English label those functions `Table of Contents`, `<framework name> Readme`, and `Preface`; use one consistent translation in another language:
 
@@ -81473,7 +81487,7 @@ For an all-in-one DPF publication carrier, assemble the content in a reproducibl
 10. Support maps or appendices: architecture bridge, source-use map, precision map, package-name route, or other reference material placed after pattern bodies unless a short first-entry trigger table is needed.
 11. Source use and refresh map: source rows with adopted payload, rejected or bounded readings, the conditions that reopen a direct source use, F.1 source cut, F.0.2 comparison, or optional G.2 pack, and the conditions under which source currentness or refresh must be reconsidered with `G.11`.
 12. Conditional relation and edition records: add `E.4.PFR` rows only when a named maintenance use needs a stable representation of dependency, specialization, publication, source reuse, evaluation, generated-carrier, teaching publication-carrier, ethics, deprecation, supersession, or edition effects. Otherwise keep the direct assertion.
-13. Refresh dependencies: which source-use, pattern-quality, package-adequacy, edition-dependency, or publication-carrier claim must be reopened when source, Core edition, local use, telemetry, or evaluation changes.
+13. Refresh dependencies: which source-use, pattern-quality, package-adequacy, edition-dependency, or publication-carrier claim must be reopened when sources, relied-on framework editions or Core claims, local use, telemetry, or evaluation change.
 Every DPF publication or access-facing `U.PresentationCarrier` named here bears a selected form; an access route may help a reader or System reach the edition or a named carrier, but it does not bear the form or establish availability or actual access by itself. In an all-in-one publication carrier, the Readme and Preface usually carry the first explanatory route, and sometimes a narrative rendering, through the domain. Their representation relation remains inspectable when they say what they are telling, for whom, which structures they foreground, which structures are deliberately coarsened, abstracted, omitted, or left to source return, and where a reader returns for fuller pattern, source, evidence, or relation detail. This is not only text-to-text summarization: the source-bearing side may be actual or possible holon structure, an architecture description, a view, a source pack, a model, a graph, or a pattern set. In architecture-mediated narrative-rendering use, read the return chain as `narrative rendering borne by an exact presentation carrier -> architecture description or view -> architecture as selected structures under its exact use frame -> wider source structures`. When no narrative rendering is present, read the first step as `selected publication form borne by an exact presentation carrier -> selected source structures`. If entry begins at an access route, name the first form-bearing carrier or response reached and follow the same chain. Each step states selected structure, captured structure, coarsening, abstraction, omission, loss, and return conditions. An architecture description is often already a coarsened representation of selected real, expected, candidate, or actual structures, so the DPF carrier keeps that second-step loss visible. This does not make every DPF a literary narrative or every carrier a narrative. When a sequential narrative rendering is load-bearing, use `A.6.3.NAR`; when the publication expression deliberately keeps only a narrower-use coarsened rendering, use `A.6.3.CSC`; for structure capture and loss, use `C.33`; for same-enough or preservation claims, use `C.34`; for practical-use publication and access, use `E.11`, `E.17`, and the direct publication or access pattern; for package adequacy, use `E.4.DPF.DA`.
 
 Keep process and build state out of the carrier. DRR text about the current version's development, handoff notes, ledger rows, review status, helper state, admission blockers, landing evidence, generated-source comments, source paths, source-set digests, and build instructions may shape or identify the package, but the publication carrier should contain only durable user-facing package content, source-use boundaries, relation records, quality routes, and refresh conditions. A short source-use or relation record may appear in the user carrier when it helps readers and maintainers use the DPF; a DRR argument about the current version's development, review transcript, quality proof, or build manifest does not. Publish durable architectural reasons that help readers understand, select, combine, or adapt the Methods and profiles, with the necessary explanation and source return, under `E.8:4.2.3`; retain the dated decision and its evidence in the development record.
@@ -81488,7 +81502,7 @@ Starter evaluation characteristics for a principle-framework improvement loop:
 | Source fidelity | Are adopted and rejected source payloads recoverable in source packs, solutions, boundaries, and examples? Use `G.2`, `C.33`, `C.34`, and pattern-quality evaluation. |
 | Ontology clarity | Are Core, domain, local, publication, source, decision, relation, quality, and refresh claims kept as different kinds? Use `E.10`, `F.18`, `F.19`, and the pattern that defines or constrains the claim. |
 | Relation typedness | Are pattern-use, specialization, dependency, publication, preservation, quality, and source-use relations separated? Use `E.4.PFR`. |
-| Compatibility impact | Can maintainers see which structures or claims break and which migrations become current when Core, domain, or local editions change? Use `E.4.PFR`, `E.5.3`, and `G.11`. |
+| Compatibility impact | Can maintainers see which structures or claims break and which migrations become current when FPF, domain, or local editions, or the Core claims used, change? Use `E.4.PFR`, `E.5.3`, and `G.11`. |
 | Refreshability | Are source decay, edition pins, local-use telemetry, and supersession conditions actionable? Use `G.11`. |
 | Package navigability | Can the selected pattern set, direct relation assertions, any current relation or edition records, source packs, decision records, quality evidence, and practical-use publication or access-facing carrier and any access route be found without treating the package as runtime machinery? Use `G.5`, `E.4.PFR`, and `E.11`. |
 | Adoption telemetry | Are repeated reader errors, skipped records, stale sources, and local-use failures made an explicit refresh or improvement trigger? Use `G.11` and `E.23`. |
@@ -81665,9 +81679,9 @@ FrameworkAuthoringDependencyPosition:
 
 `FrameworkAuthoringDependencyDescription` is a local use label for one C.2.1 episteme, and each `FrameworkAuthoringDependencyPosition` is a local ClaimGraph node form. Only the enclosing description is the episteme; each position is part of its ClaimGraph. The current authoring WorkPlan, one ClaimGraph, and effective ReferenceScheme supply the description's identity. ClaimScope, reader and use descriptions, optional model-use structure, empirical grounding, provenance, assessment status, publication, and edition continuity remain separate. `dependencyPatternLocator` is an ordinary non-semantic PatternID that identifies the pattern whose content defines, constrains, or tests the dependency. A dependency that is also a MethodDescription identifies its episteme and the admitted Method it describes separately and applies the full A.3.2 test.
 
-`FrameworkAuthoringDependencyKindValue` is `fpfCoreEdition | sourceBasis | frameworkArchitectureAnswer | nameRoute | patternDraftSet | relationAndEditionRecords | publicationOrAccess | packageQuality | improvement | currentness`. `FrameworkAuthoringDependencyAvailabilityValue` is `available | missing`. `FrameworkAuthoringDependencyUseRelevanceValue` is `currentForNextAuthoringUse | retainedForLaterUse | relevanceUnsettled`.
+`FrameworkAuthoringDependencyKindValue` is `fpfEdition | sourceBasis | frameworkArchitectureAnswer | nameRoute | patternDraftSet | relationAndEditionRecords | publicationOrAccess | packageQuality | improvement | currentness`. `FrameworkAuthoringDependencyAvailabilityValue` is `available | missing`. `FrameworkAuthoringDependencyUseRelevanceValue` is `currentForNextAuthoringUse | retainedForLaterUse | relevanceUnsettled`.
 
-The minimum positions are one `fpfCoreEdition` and one `sourceBasis`. Add another dependency kind only when the declared next authoring use relies on it or deliberately retains it for a named later use. A `frameworkArchitectureAnswer` position is optional: include it only when that use needs the accepted answer or its rationale, and point to the accepted answer and `E.9` DRR rather than to a PFAD relation or record.
+The minimum positions are one `fpfEdition` and one `sourceBasis`. For an available `fpfEdition` position, `dependencyValueRef` identifies the selected FPF edition; the next-use boundary names the Core claims required for the declared authoring use. A change to that edition or a material change to those claims reopens the affected use. Add another dependency kind only when the declared next authoring use relies on it or deliberately retains it for a named later use. A `frameworkArchitectureAnswer` position is optional: include it only when that use needs the accepted answer or its rationale, and point to the accepted answer and `E.9` DRR rather than to a PFAD relation or record.
 
 When `dependencyAvailability=available`, the exact dependency value and kind refs are present and the acquisition-condition description is absent. When `dependencyAvailability=missing`, those refs are absent and the acquisition-condition description is present. Relevance remains independent: `missing + currentForNextAuthoringUse` blocks the next use and opens the stated return, while `missing + retainedForLaterUse` does not block current work. Record a condition on using an available dependency in the pattern that defines the dependency or in the next-use boundary, not in the acquisition position.
 
@@ -81676,13 +81690,13 @@ As authoring proceeds, a dependency description may refer to an accepted framewo
 ### E.4.DPF:5 - Archetypal Grounding
 
 
-Tell: A hydroponic-cucumber framework begins with crop-production concerns, horticulture and greenhouse-control sources, local examples, and FPF Core dependency. Its first all-in-one publication carrier is for domain users, while relation records, source packs, and quality evaluations remain separately recoverable.
+Tell: A hydroponic-cucumber framework begins with crop-production concerns, horticulture and greenhouse-control sources, local examples, and a dependency on a selected FPF edition for named Core claims used in its explanations and revision guidance. Its first all-in-one publication carrier is for domain users, while relation records, source packs, and quality evaluations remain separately recoverable.
 
 Show: A neural-network architecture framework may draw on dataflow architecture, model components, training and inference concerns, evaluation practice, and recent architecture-analysis work. The framework can describe layers, blocks, flows, optimization constraints, and interpretability concerns. For each resulting pattern, choose the smallest source route that preserves the relied claims and limits; use `G.2` only when the framework needs a broad, refreshable SoTA pack and downstream Part G handoffs. Draft the pattern with `E.8`, and record material relations with `E.4.PFR` when a named use needs them.
 
-Show: A workspace-specific Codex process framework can contain prelanding and baton-handoff patterns. It should state its local context, dependency on FPF Core, process sources, local carriers, and refresh route. A useful local checklist stays a local checklist until it has source grounding, pattern bodies, direct assertions of material relations, and quality evaluation. Add a relation or edition record only when a named maintenance use needs it.
+Show: A workspace-specific Codex process framework can contain prelanding and baton-handoff patterns. It should state its local context, the selected FPF edition and the Core claims required for its named process uses, process sources, local carriers, and refresh route. A useful local checklist stays a local checklist until it has source grounding, pattern bodies, direct assertions of material relations, and quality evaluation. Add a relation or edition record only when a named maintenance use needs it.
 
-Show: An enterprise local practice framework for architecture review starts from the organization's review setting, internal policies, proprietary examples, and approval path. It can depend on FPF Core and on a domain principle framework, but its confidential evidence, any local records about exact system-role classifications or assignment occurrences, training plan, and rollout telemetry stay local. Access, custody, maintenance, responsibility, authority, and approval remain separate direct claims.
+Show: An enterprise local practice framework for architecture review starts from the organization's review setting, internal policies, proprietary examples, and approval path. It can depend on a selected FPF edition for required Core claims and on a domain-framework edition for its required content, but its confidential evidence, any local records about exact system-role classifications or assignment occurrences, training plan, and rollout telemetry stay local. Access, custody, maintenance, responsibility, authority, and approval remain separate direct claims.
 
 Enterprise local-practice slice:
 
@@ -81694,8 +81708,8 @@ Enterprise local-practice slice:
 | Stewardship and maintenance | Which Systems perform any framework-authoring, source-pack maintenance, relation-record maintenance, publication or access, or refresh occurrence that this account actually claims as `U.Work`? For each such claim, recover every precise performer's A.13 core and independently admit the Work under A.15.1. Add F.6 only when this account also needs precise assignment-bound attribution. Which separate local system-role classification, maintenance, responsibility, authority, access, or source-custody relation obtains, and which direct-rule result or applicable `A.6.RCD` blocker applies when a required relation cannot be established? |
 | Approval route | Which management, engineering, safety, legal, or assurance reviews are needed before local use? |
 | Rollout and training | Which intended practitioners or audience groups need first-use examples, training material, or migration support? Identify any separately claimed training Work, system-role classification, assignment, responsibility, or authority through its direct pattern. |
-| Dependency | Which FPF Core and domain-framework editions does this framework depend on? For each dependency, name the content relied on, direction, receiving use, material availability or compatibility condition, and reopen fact. |
-| Migration | What changes after FPF Core edition change, domain-framework edition change, policy change, or repeated local misuse? |
+| Dependency | Which FPF and domain-framework editions does this framework depend on? For each dependency, name the content relied on, direction, receiving use, material availability or compatibility condition, and reopen fact. Identify the required Core claims within the selected FPF edition. |
+| Migration | What changes after a relied-on FPF or domain-framework edition changes, a relied-on Core claim changes materially, a policy changes, or local misuse recurs? |
 | Adoption telemetry | Which reader errors, skipped relation records, stale source packs, or quality regressions trigger `G.11` refresh? |
 
 Replayable authoring slice:
@@ -81704,17 +81718,17 @@ Replayable authoring slice:
 | --- | --- |
 | Domain or local use-frame declaration | `GreenhouseCropDomain`; effective scheme and ClaimScope named; intended reader: crop-system architect and senior grower; first use: decide the first pattern set for cucumber-production guidance; stop or wrong-turn return and qualification window explicit |
 | Selected source basis and synthesis route | `G.2` pack selected because the four-pattern framework needs a broad, refreshable source basis: greenhouse climate-control sources, crop nutrition sources, and local production logs; rejected source: generic gardening advice without controlled-environment evidence |
-| Architecture answer | One `E.9` DRR guided by `E.4.PFAD` records the field promised by the public name, the connected problem families and selected problem-family pattern sets, four candidate first patterns and their material relations, one representative application, honest omissions and source returns, and a one-way dependency on FPF Core; no PFAD relation or mandatory PFR row is created. |
+| Architecture answer | One `E.9` DRR guided by `E.4.PFAD` records the field promised by the public name, the connected problem families and selected problem-family pattern sets, four candidate first patterns and their material relations, one representative application, honest omissions and source returns, and the one-way dependency on `FPF@C1` for the two claims and uses named in the relation-and-edition row below; no PFAD relation or mandatory PFR row is created. |
 | Framework-scale boundary | The four patterns count as a candidate first-edition language only if their coverage map, material relations, representative application, and edition, change, and refresh boundary make a new DPF edition more useful than contributing them to an existing framework, using FPF and the sources directly, publishing a guide, or adding no new maintained product now. One useful pattern would trigger the same test and would usually remain a seed or contribution. |
 | Several-structure synthesis | Greenhouse Work, control Methods, crop and equipment subjects, descriptions and models, provider capabilities, and production-practice change do not line up one-for-one. `C.32.MWA` therefore supplies one architecture synthesis for those Methods and their use without choosing whether to create a DPF or another result. `E.23.CDI` is used only if the selected architecture includes capability development for a named Work family. |
-| First-use closure | Every selected Hydroponic Cucumber pattern and same-framework prerequisite needed for the grower's first use is included. The exact FPF Core edition and relied-on content remain external and are named with their use, direction, reason, refresh condition, and any required availability or compatibility result. A missing required result blocks first use. |
+| First-use closure | Every selected Hydroponic Cucumber pattern and same-framework prerequisite needed for the grower's first use is included. The selected FPF edition and relied-on Core content remain external and are named with their use, direction, reason, refresh condition, and any required availability or compatibility result. A missing required result blocks first use. |
 | Contribution destinations and claim strength | Each adopted or rejected source contribution has one stated outcome: it enters a DPF pattern, returns to an existing FPF or DPF, stays in a maintained guide or source result, is used directly from its source, or is deliberately not maintained together with an observation that would reopen the choice. Semantic synthesis can support a proposed architecture claim; methodological synthesis develops the proposed ways and their connections. Neither is reported as demonstrated effectiveness or transfer. |
 | Naming route | provisional `HydroponicCucumberPrincipleFramework`; the public abbreviation remains provisional until an `F.18` NameCard is current |
 | First pattern draft | `HC.NutrientMonitoring` drafted with `E.8`: problem frame, solution, worked greenhouse slice, SoTA row, conformance checks |
-| Relation and edition record | `PFR-HC-source-reuse` links nutrient pattern to source pack; dependency record points to `FPFCorePatternSet@current` |
+| Relation and edition record | `PFR-HC-source-reuse` links the nutrient pattern to the source pack. Using E.4:5's illustrative editions, `HydroponicCucumberPF@2026Q3` depends on `FPF@C1`: A.3.1:4.3 supplies the Method/MethodDescription/Work distinction for the monitoring explanation; E.8:4.1.2, item 6, supplies the direct-consumer repair requirement for pattern revision. The dependency record names `FPF@C1` as `reliedOnEditionRef` and those two claims as `reliedOnContentRefs`. |
 | Quality cycle | `E.22` frames evaluation purpose; `E.21` scores first draft; `E.23` records the next improvement loop |
 | Local publication or access | one exact form-bearing publication or access-facing carrier exposes the framework after source-return notes are present; any access route is named separately |
-| Refresh route | `G.11` refresh when source pack, Core edition, or greenhouse-control practice changes |
+| Refresh route | `G.11` refresh when the source pack, selected `FPF@C1` edition, either relied-on Core claim, or greenhouse-control practice changes; reopen the explanations and uses affected by the change. |
 
 #### Pattern-address and reorder slice
 
@@ -81740,7 +81754,7 @@ The intended-result description has a separately obtaining `EpistemeEmpiricalGro
 
 #### Optional authoring-dependency slice
 
-A named next authoring use needs a stable dependency account. The Core edition is available and relevant now, so its dependency position has exact value and kind refs and no acquisition condition. The accepted architecture answer is cited through its E.9 DRR because this use needs that rationale; it is not a mandatory PFAD dependency position. A publication carrier is missing but retained for later use, so its position has no value refs, has an acquisition-condition description, and does not block current pattern drafting. A missing source pack marked `currentForNextAuthoringUse` blocks the next use and opens the stated return. Availability never stands for relevance.
+A named next authoring use needs a stable dependency account. The selected FPF edition is available and relevant now, so its `fpfEdition` position has exact value and kind refs and no acquisition condition. The next-use boundary names the Core claims needed for that authoring use. The accepted architecture answer is cited through its E.9 DRR because this use needs that rationale; it is not a mandatory PFAD dependency position. A publication carrier is missing but retained for later use, so its position has no value refs, has an acquisition-condition description, and does not block current pattern drafting. A missing source pack marked `currentForNextAuthoringUse` blocks the next use and opens the stated return. Availability never stands for relevance.
 
 #### Framework-evolution slice
 
@@ -81787,7 +81801,7 @@ The second recurring drift is publication-carrier-first authoring. Publish after
 | CC-DPF.12 Subject organization | Candidate organization is recoverable from typed claim nodes and proposed subject relations; no future entity, episteme-per-claim wrapper, or proposal-document meta-structure substitutes for it. |
 | CC-DPF.13 Coverage distinction | A coverage constraint node has family ref-kind pairs, one admitted use, and one criterion; any WorkPlan acceptance target remains separate. |
 | CC-DPF.14 Architecture and project-use boundary | C.33 compares with a declared present comparator; C.30.AD starts only after the framework entity, exact architecture relation, and selected structures exist. `ArchitectureDescriptionUseCard@Project` is retrieval-only. Actual project locality names one composite project `U.Work` under `A.15.6` only when that Work is claimed. Every precise performer has an A.13 core; `A.15.1` independently supplies Work identity; `F.6` supplies a later relation only when precise assignment-bound attribution is current; and the description-use relation obtains separately. |
-| CC-DPF.15 Dependency description and branches | The description exists only for a named next authoring use. Its identity is the dependency ClaimGraph, current authoring WorkPlan EntityOfConcern, and effective ReferenceScheme; ClaimScope and optional model-use or grounding relations remain separate. Its minimum positions are Core edition and source basis. An optional framework-architecture-answer position cites the accepted answer and E.9 DRR only when that use needs them; no PFAD relation or record is required. Availability, acquisition condition, and next-use relevance follow the independent branches in 4.5. |
+| CC-DPF.15 Dependency description and branches | The description exists only for a named next authoring use. Its identity is the dependency ClaimGraph, current authoring WorkPlan EntityOfConcern, and effective ReferenceScheme; ClaimScope and optional model-use or grounding relations remain separate. Its minimum positions are FPF edition and source basis. The FPF position identifies the edition, and the next-use boundary identifies the Core claims required for the named authoring use. An optional framework-architecture-answer position cites the accepted answer and E.9 DRR only when that use needs them; no PFAD relation or record is required. Availability, acquisition condition, and next-use relevance follow the independent branches in 4.5. |
 | CC-DPF.16 Method, Work, result, edition, and publication separation | The authoring Method and this independently qualified MethodDescription, WorkPlan, each separately claimed dated authoring `U.Work`, every precise performer's A.13 core, independent A.15.1 admission, any current later F.6 attribution, any A.6.1 application, every result entity or direct relation and receiving use, framework episteme editions, EpistemeEditionRelation, package architecture, publication occurrence, form, carrier, and access use are independently recoverable through their defining predicates and evidence. |
 | CC-DPF.17 CGUS restraint | The numbered routes remain Plain guidance. Any claimed A.22.CGUS has independently recovered identity, constituents, obtaining relations, constraints, multiple admissible continuations, stops/returns, and a separate demonstrative episteme; imperative prose or a mantra is insufficient. |
 | CC-DPF.18 Assembled carrier checked | Before a carrier is called released, current, or ready for its declared use, the assembled publication itself follows the common framework publication form defined by `E.11.PFP`, agrees with the product's declaration of practical-example keys, forms, reading-burden measure and two limits, states that the examples do not bound product coverage, passes the `E.11` practical-use carry-through check, and passes the applicable `E.4.DPF.DA` package checks. An all-in-one Markdown publication exposes no build metadata as reader front matter, keeps major units or Parts at H1, pattern titles with PatternIDs at H2, canonical `E.8` sections at H3, and every deeper source distinction at a distinct deeper level. Source-body conformance and a successful build run do not substitute for checking the assembled carrier. |
@@ -81947,7 +81961,7 @@ DPFPackageAdequacyEvaluationConfiguration:
   FrameworkEpistemeEditionOfConcernRef: <one exact authored U.Episteme>
   DeclaredVisiblePackageFormOrUse: <plain description of the exact visible form or use being evaluated; not a U-kind>
   PackageArchitectureRefs:
-  FPFCoreEditionRef:
+  FPFEditionRef: <the selected FPF edition; required Core claims are identified in DependencyAndEditionRefs>
   DependencyAndEditionRefs:
   SourceBasisRefs:
   PFADDecisionRefs:
@@ -82119,7 +82133,7 @@ When a coordinate is below floor, return a finding or repair proposal. When a co
 | `seedOnly` | The package is useful as a seed or prompt output but not for reliance-bearing use. |
 | `holdForPFADDecision` | The package architecture, pattern set, dependency, or publication unit needs a framework architecture decision. |
 | `holdForCoreAmendmentDecision` | A package claim may belong in FPF Core and must not be hidden inside a DPF. |
-| `refreshNeeded` | The package was adequate before, but source, Core edition, local use, telemetry, or dependency state has changed. |
+| `refreshNeeded` | The package was adequate before, but a source, relied-on framework edition, local use, telemetry, or dependency state has changed, or a relied-on Core claim has changed materially. |
 
 ### E.4.DPF.DA:5 - Archetypal Grounding
 
@@ -82288,7 +82302,7 @@ Currentness checks remain separate from adequacy values. `G.11` reopens only the
 
 ### E.4.PFR:1 - Problem frame
 
-Pattern frameworks need several relation functions. One pattern may specialize another. A local framework edition may depend on a domain framework or FPF Core edition. A publication occurrence may expose a selected set through a carrier. A skill pack or MCP-backed service may provide access to that set. A generated graph may suggest candidates. A quality result may evaluate a pattern version. Those claims differ in subject, predicate, identity, use, evidence, and change behavior.
+Pattern frameworks need several relation functions. One pattern may specialize another. A local framework edition may depend on a domain-framework edition or selected Core content in an FPF edition. A publication occurrence may expose a selected set through a carrier. A skill pack or MCP-backed service may provide access to that set. A generated graph may suggest candidates. A quality result may evaluate a pattern version. Those claims differ in subject, predicate, identity, use, evidence, and change behavior.
 
 ### E.4.PFR:1.1 - Problem
 
@@ -82403,17 +82417,17 @@ There is no `Subject-pattern relation`. When earlier prose says that one pattern
 
 #### E.4.PFR:3.4 - Edition and package discipline
 
-Domain and local frameworks depend toward more stable editions. A local practice framework may depend on a domain principle framework and FPF Core. A domain principle framework may depend on FPF Core. FPF as a First Principles Framework edition is handled through E.4.FPF. Core does not depend on domain or local frameworks; incorporate an accepted transdisciplinary contribution through a deliberate Core amendment whose content no longer depends on those frameworks.
+Domain and local frameworks depend toward more stable editions. A local practice framework may depend on a domain principle framework and on Core content in an FPF edition. A domain principle framework may depend on Core content in an FPF edition. Identify that FPF edition and its required Core claims separately, as E.4 specifies; E.4.FPF governs the FPF edition. Core does not depend on domain or local frameworks; incorporate an accepted transdisciplinary contribution through a deliberate Core amendment whose content no longer depends on those frameworks.
 
 Framework-edition dependency obtains for one dependent edition, one relied-on edition, exact content in the relied-on edition, and one named use only when the dependent edition's current content or result for that use requires the relied-on content: removing it or changing it in a way relevant to the use would invalidate the dependent content/result or require that use to be reopened. State that case fact and why the content is required. Edition labels, joint publication, joint-use membership, and an allowed direction do not establish dependency.
 
-> `Domain@D` uses `Core@C` relation semantics as required constraints on framework review. Without those semantics, or after a relevant change to them, the affected review guidance cannot remain current without recheck. `Domain@D` therefore depends on that exact `Core@C` content for framework review.
+> `Domain@D` uses selected Core relation semantics in `FPF@C` as required constraints on framework review. Without those semantics, or after a relevant change to them, the affected review guidance cannot remain current without recheck. `Domain@D` therefore depends on `FPF@C` for that content and use. The edition labels are illustrative; an actual assertion identifies the particular claims used, as in §4.2.
 
 E.5.3 constrains the allowed dependency direction and Core acyclicity after the relation has been identified. G.11 governs the edition pin, currentness, and refresh condition. Neither supplies the dependency predicate or makes the case fact obtain.
 
 Compatibility answers whether one exact pair can support an overlapping use despite a stated difference or interface. State it separately and only when current:
 
-> `Domain@D` and `Core@C` are compatible for framework review across relation-semantics interface I. Difference X changes no admitted review operation within boundary B; reopen when I, X, B, or either edition changes.
+> `Domain@D` and `FPF@C` are compatible for framework review across relation-semantics interface I. Difference X changes no admitted review operation within boundary B; reopen when I, X, B, or either edition changes.
 
 If that basis is insufficient, state the unresolved pair, overlap, or impact and make no positive compatibility claim. A dependency record may cite the independently stated compatibility claim only when a named maintenance consumer needs the link. Both claims may obtain for the same pair; neither is shorthand for the other. Deprecation and supersession are also separate claims and are indexed only when current.
 
@@ -82469,9 +82483,9 @@ If a later Core relation-function maintenance replay must enumerate every CGUS p
 
 #### E.4.PFR:4.2 - Framework edition dependency
 
-Start with the readable dependency assertion:
+Start with the readable dependency assertion. The edition labels below are illustrative; `FPF@C1` contains the cited Core claims:
 
-> `CodexProcessFramework@current` uses the selected `FPFCorePatternSet@current` authoring and quality rules as required constraints on local process authoring. Without those rules, or after a relevant change to them, the affected local guidance cannot remain current without recheck. `CodexProcessFramework@current` therefore depends on that exact Core content for local process authoring.
+> `CodexProcessFramework@L1` depends on `FPF@C1` for local process authoring: its revision guidance applies E.8:4.1.2, item 6, which requires repair of stale direct consumers in the same authoring increment; its evaluation guidance applies E.21:4.3's rule for an adjacent-value rationale in each coordinate result. Removing or materially changing either claim reopens the corresponding local guidance. Changing the selected FPF edition also requires checking these dependencies.
 
 Choose the representation from the receiver's job. A cross-relation comparison may use one generic PFR row. An edition-impact or refresh receiver may use one dependency-specific record. This receiver needs the relied-on content and refresh fields, so it uses only the dependency record:
 
@@ -82480,13 +82494,13 @@ FrameworkEditionDependencyRecord@CodexProcessFramework:
   subjectAssertionRef: CodexProcessFramework-CoreDependencyAssertion
   dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
   directionConstraintClaimRef: E.5.3-local-to-Core-direction-and-Core-acyclicity
-  dependentEditionRef: CodexProcessFramework@current
-  reliedOnEditionRef: FPFCorePatternSet@current
-  reliedOnContentRefs: [selected_Core_authoring_and_quality_rules]
+  dependentEditionRef: CodexProcessFramework@L1
+  reliedOnEditionRef: FPF@C1
+  reliedOnContentRefs: ["FPF@C1 E.8:4.1.2 item 6", "FPF@C1 E.21:4.3 adjacent-value rationale rule"]
   namedUse: local_process_authoring
-  dependencyDirection: local_to_Core
+  dependencyDirection: CodexProcessFramework@L1 -> FPF@C1
   dependencyReason: the selected Core rules are required constraints on the affected local guidance; removing or relevantly changing them invalidates or reopens that guidance
-  refreshConditionRefs: [G.11-Core_pin_or_selected_rule_change]
+  refreshConditionRefs: [FPF_edition_change_or_material_change_to_either_relied_on_claim_as_stated_above]
 ```
 
 If one named cross-relation receiver also needs the generic view, add one `PatternFrameworkRelationRecord`, give both forms the same `subjectAssertionRef`, and set the dependency record's `genericRelationRecordRef` to that row. In the generic row, `relationFunctionClaimRef` points to the E.4.PFR:3.4 dependency predicate, `dependencyOrEditionEffect` states the E.5.3-constrained direction, and `refreshOrSupersessionCondition` cites the G.11 refresh condition. Derive their shared endpoints, use, direction/effect, and refresh condition from the subject assertion. A change to that assertion refreshes both views together; neither carries an independently maintained copy of the dependency fact.
@@ -82509,7 +82523,7 @@ PatternFrameworkRelationRecord@HydroponicCucumberDomain:
   sourceReturnCondition: reconsider when including an omitted rival horticulture tradition could change the selected source answer or bounded nutrient-monitoring use
 ```
 
-A hydroponic framework may separately carry a Core-edition dependency, publication relation to its all-in-one carrier, access relation to a grower-assistant skill pack, specialization relation for a narrowed authoring pattern, and quality relations for evaluated drafts. Each remains a different assertion and optional row.
+A hydroponic framework may separately carry a dependency on Core content in an FPF edition, publication relation to its all-in-one carrier, access relation to a grower-assistant skill pack, specialization relation for a narrowed authoring pattern, and quality relations for evaluated drafts. Each remains a different assertion and optional row.
 
 #### E.4.PFR:4.4 - Genuine overlap conflict
 
@@ -83371,7 +83385,7 @@ This publication order does not require readers to traverse every Part. Practica
 |-----------------|---------------------------|-----------------------------|
 | Preface | Coffee‑machine story (pump as system). | Meta‑analysis story (study bundle as episteme). |
 | Part A | Formal definition states the System criterion and applicable boundary conditions. | Formal definition states the Episteme criterion; F‑G‑R coordinates characterize a claim under the C.2.2 profile. |
-| Part B Tell‑Show‑Show | Γ\_sys example: assemble pump. | Γ_epist example: merge study bundle. |
+| Part B Tell-Show-Show | B.1.2:5.1: identify pump-skid parts and external relations for an aggregation decision. | B.1.3:5.1: synthesize a study bundle into a bounded guidance statement. |
 
 ### E.6:6 - Conformance Checklist
 
@@ -88478,7 +88492,7 @@ Within FPF, E.10 and E.10.ARCH define trigger recognition and recovery distribut
 
  **Policy (normative).**
 1. **Purpose.** A conceptual prefix exists **to aid reasoning**, not to name files, serialisations, or APIs. It labels a **role in thought** (e.g., meta‑type, calculus operator, relation family).
- 2. **Anchoring.** Every prefix **MUST** be anchored to a **Core extension patterns**  (CAL/LOG/CHR) or Kernel construct and documented in its *Relations*.
+ 2. **Anchoring.** Every prefix **MUST** name the Core patterns that define its constructs, operators or vocabulary, or govern admission to its namespace. List these anchors in the registry and cite them in *Relations*. For a family with several definitions, name the supplying patterns for the relevant members.
  3. **No tool lock‑in.** A prefix **MUST NOT** imply a particular notation or machine binding (see E.5.1–E.5.2).
  4. **Minting rule.** New prefixes are introduced by a **DRR** (E.9) that demonstrates
     (a) cross‑pattern need,
@@ -88487,8 +88501,8 @@ Within FPF, E.10 and E.10.ARCH define trigger recognition and recovery distribut
  5. **Scope.** Prefixes are **globally reserved** within the Core; domain patterns  **MAY** mint local shorthands only inside their Contexts and **MUST NOT** collide with this registry.
 
  **Registered conceptual prefixes (Core).**
-* `U.` — namespace for admitted U-kinds and governed FPF values; spelling alone does not prove kindhood. *Anchor:* Kernel Part A.
-* `Γ_` — **Calculus operator family** (by flavour: `Γ_sys`, `Γ_epist`, …). *Anchor:* Part B umbrella on Γ.
+* `U.` — namespace for admitted U-kinds and dependent `U.*` forms; spelling alone does not prove kindhood. *Anchors:* E.10:8.3, M-P1, reserves the namespace; E.24.UK:4.1 supplies the U-kind admission test. Each named value retains the identity or membership rule in its defining subject pattern.
+* `Γ_` — **calculus-operator notation**, for example `Γ_epist`, `Γ_ctx` and `Γ_time`. *Anchors:* E.10:8.3, M-P1, reserves the prefix; B.1.3:4.2 defines the synthesis and compilation operators; B.1.4:3 defines the optional notation for contextual and temporal aggregation. Other flavours cite their own operator definitions. For a system aggregation or delimitation decision, use B.1.2:4 to recover the separately governed results and any missing basis.
 * `ut:` — **Universal relation family** (e.g., `PartOf` sub‑relations). *Anchor:* A.14 (Mereology) — informative alias vocabulary.
 * `tv:` — **Trace & Validation vocabulary** (CT2R‑LOG): `tv:AliasOf`, `tv:groundedBy`. *Anchor:* B.3 (Trust & Assurance, LOG‑use).
 * `ev:` — **Evidence-account vocabulary**, used for source and support labels in a descriptive account. Each support or assurance claim retains its direct governing rule. *Anchor:* A.10 / B.3.
@@ -88496,10 +88510,10 @@ Within FPF, E.10 and E.10.ARCH define trigger recognition and recovery distribut
 
 **Conformance Checklist (E.10.P).**
 * **CC‑LEX‑P.1** New Core text **SHALL NOT** introduce an unregistered conceptual prefix.
-* **CC‑LEX‑P.2** Each occurrence of a registered prefix **SHALL** cite its anchor pattern on first use in a section.
+* **CC‑LEX‑P.2** Each occurrence of a registered prefix **SHALL** cite the applicable defining anchor on first use in a section.
 * **CC‑LEX‑P.3** Examples that expand a prefix into a concrete URI or syntax **MUST** mark the expansion *informative* and locate it in Tooling/Pedagogy.
 
-**Relations.** Constrains E.5.1 (Lexical Firewall) & E.5.2 (Notational Independence); Depends on E.9 (DRR).
+**Relations.** Uses E.10:8.3 for namespace reservation, E.24.UK:4.1 for U-kind admission, B.1.3:4.2 and B.1.4:3 for the listed Γ operators, B.1.2:4 for system aggregation and delimitation decisions, and A.14, A.10, B.3 and B.1 for the remaining registered vocabularies. Constrains E.5.1 (Lexical Firewall) & E.5.2 (Notational Independence); depends on E.9 (DRR).
 
 ### E.10.P:End
 
@@ -91100,7 +91114,7 @@ The first route asks why formal assurance helps. The second investigates a concr
 If the framework's design prioritizes theoretical purity or formal completeness over cognitive ergonomics, it becomes vulnerable to two critical failure modes:
 
 1.  **Goodhart's Law:** When a measure, such as an `AssuranceLevel` within a declared `B.3.3` profile, becomes the primary target, it can cease to indicate the understanding sought. Teams may start "gaming the metrics," producing assurance-bearing epistemes or publications that satisfy the visible criteria but remain conceptually shallow or pragmatically useless.
-2.  **Cognitive Overload & Rejection:** The framework becomes so dense, jargon-laden, and procedurally complex that its users—the very agents it is meant to serve—either burn out or abandon it in favor of simpler, albeit less rigorous, methods. The "Operating System for Thought" devolves into a bureaucratic machine for certification.
+2.  **Cognitive Overload & Rejection:** The framework becomes so dense, jargon-laden, and procedurally complex that its users—the very agents it is meant to serve—either burn out or abandon it in favor of simpler, albeit less rigorous, methods. Certification procedures can consume effort without helping users understand or decide the matter at hand.
 
 ### E.12:3 - **Forces**
 
@@ -91176,7 +91190,7 @@ An expert walkthrough can recover all four comparison duties from the actual pas
 
 This pattern operationalizes **Didactic Primacy (P-2)**, transforming it from a philosophical statement into an enforceable architectural Standard. The `Rationale Mandate` requires a clear explanation of the cognitive purpose of each key assurance episteme or publication. The bounded Human-Factor inquiry examines an actual reader obstruction or work demand while retaining the method's prerequisites and assurance. It does not require a speculative threshold or a refinement proposal when none is supported.
 
-A purely conceptual workload warning would leave the reader without a next action; a stronger psychometric or causal method would require separately justified observations and design. The bounded inquiry supplies an attainable examination and honest stop. It complements formal rigor with the unchanged Rationale Mandate and preserves independently justified controls. Together they support FPF's aim of serving meaningful, human-relevant goals as an "Operating System for Thought."
+A purely conceptual workload warning would leave the reader without a next action; a stronger psychometric or causal method would require separately justified observations and design. The bounded inquiry supplies an attainable examination and honest stop. It complements formal rigor with the Rationale Mandate and preserves independently justified controls. Together they connect formal assurance with what practitioners need to understand or decide for their work.
 
 #### E.12:8.1 - SoTA-Echoing — investigate the obstruction before prescribing simplification
 
@@ -114756,7 +114770,7 @@ SelectorOutcome(
   setResultFamily = JointUseSet,
   namedUse = cohort_review,
   memberEntries = [
-    { memberRef = Core@C },
+    { memberRef = FPF@C },
     { memberRef = Domain@D },
     { memberRef = Local@L }
   ],
@@ -114818,7 +114832,7 @@ When the source is `TraditionFront` or `TraditionArchive`, keep its base `SoTAPa
 | --- | --- |
 | The two pump Methods in §0.5 survive, with no admitted ordering. | Emit its unordered `Shortlist`; the receiver still has a choice to make. |
 | A declared comparator orders family_B before family_A for the specialist handoff. | Emit a `RankedShortlist` with `[family_B, family_A]`, the comparator and supporting basis pins, and the handoff use. A request for an order alone supplies no comparator. |
-| The cohort decision includes `Core@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
+| The cohort decision includes `FPF@C`, `Domain@D` and `Local@L` together. | Emit the §4.4b `JointUseSet`; the receiver uses all three exact editions under the inclusion conditions. |
 | No candidate clears the applicable admissibility/evidence gates. | Emit `AbstainOutcome` or `EscalationOutcome`, naming the blocking pins, basis and next use; an empty shortlist leaves the stop unexplained. |
 
 The following extensions apply only when their corresponding mode is active. Their declared `Uses` and pins cite the governing semantics.
@@ -114967,7 +114981,7 @@ In this frame, one admissibility gate and one minimal-evidence gate fail at the 
 The truthful `G.5` result is one abstain or escalation result that names the blocking pins and the next downstream use boundary, not one empty shortlist that leaves downstream users unsure whether selection silently failed or admissibly stopped.
 
 **Show 4 (complementary framework editions; unordered joint use).**
-A training cohort needs `Core@C`, `Domain@D`, and `Local@L` together. The editions are already identified under their own edition rules; they are not Method candidates or registry rows. An accepted cohort decision supplies the exact members and basis. `G.5-6 DeclareSetResult` emits one unordered `JointUseSet` with one keyed entry per edition, the named cohort-review use, inclusion conditions, and sufficient top-level basis pins. Direct dependencies and pairwise compatibility claims remain with E.4.PFR; publication and access remain with E.17/E.24.PUB and the applicable access-carrier pattern. The G.5 result declares membership but does not perform the choice, make those neighboring claims obtain, or create a contribution relation.
+A training cohort needs `FPF@C`, `Domain@D`, and `Local@L` together. The editions are already identified under their own edition rules; they are not Method candidates or registry rows. An accepted cohort decision supplies the exact members and basis. `G.5-6 DeclareSetResult` emits one unordered `JointUseSet` with one keyed entry per edition, the named cohort-review use, inclusion conditions, and sufficient top-level basis pins. Direct dependencies and pairwise compatibility claims remain with E.4.PFR; publication and access remain with E.17/E.24.PUB and the applicable access-carrier pattern. The G.5 result declares membership but does not perform the choice, make those neighboring claims obtain, or create a contribution relation.
 
 **Show 5 (support-sensitive Method eligibility).**
 
@@ -115794,10 +115808,10 @@ In C.3.3 §9.3's AdultPatient/AdultPerson_Y case, the age-boundary loss and `CL^
 
 ### G.7:5 - Archetypal Grounding (System / Episteme)
 
-**System (Γ_sys):** *Cross‑standard safety assurance comparison (bridge‑first).*
+**System case:** *Cross-standard comparison of safety claims about one physical system (bridge-first).*
 A team must compare a safety assurance claim across two regulatory Traditions (e.g., a “functional safety case” tradition and a “ML system testing” tradition) for the *same physical system scope*. `G.7` forces explicit SenseCell‑level bridges (what exactly is the “hazard”, what is the “evidence carrier”, what is the “pass criterion”), records losses, pins planes, and provides sentinels so that changes in the safety evidence protocol editions trigger path‑local RSCR rather than re‑authoring the entire safety case.
 
-**Episteme (Γ_epist):** *Benchmark protocol pluralism (post‑2015 evaluation practice).*
+**Episteme case:** *Benchmark protocol pluralism (post-2015 evaluation practice).*
 A research group wants to compare “state‑of‑the‑art” across multiple evaluation Traditions (IID performance, shift robustness, preference‑based evaluation). `G.7` turns “these are comparable” into explicit BridgeCards with declared row scope, pins the evaluation protocol editions, and registers sentinels so that when a benchmark protocol or policy pin changes, downstream selector decisions can be re‑audited by replaying the affected PathSlice‑scoped evidence.
 
 ### G.7:6 - Bias‑Annotation
