@@ -18,7 +18,7 @@ Within Checklist Principles Framework, the reference code is **CHK** and numeric
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [CHK.1 - Select Checklist Questions for a Work Result](#chk1---select-checklist-questions-for-a-work-result) |  | consequential omission; subject; description; useful characteristics. “Which questions deserve attention?” “What does this list leave uncovered?” | ME.3; FPF B.1.5, E.10.D2; CHK.6 when criteria are uncertain |
 | 2 | [CHK.2 - Construct a Checklist Template That Preserves Its Questions](#chk2---construct-a-checklist-template-that-preserves-its-questions) |  | template; instance; table; local view; answer meanings. “Can I transpose or split this list without losing its meaning?” | CHK.1 or an existing question set; ME.8; EXD.1, EXD.6 |
-| 3 | [CHK.3 - Fit a Checklist to Its Occasion of Use](#chk3---fit-a-checklist-to-its-occasion-of-use) |  | pause; read-do; do-confirm; assistance; tools; adoption. “Why is this list skipped or prefilled?” | CHK.2 or an existing template; ME.10, ME.11, ME.16 |
+| 3 | [CHK.3 - Fit a Checklist to Its Occasion of Use](#chk3---fit-a-checklist-to-its-occasion-of-use) | Stable | pause; read-do; do-confirm; assistance; tools; adoption. “Why is this list skipped or prefilled?” | CHK.2 or an existing template; ME.10, ME.11, ME.16 |
 | 4 | [CHK.4 - Use a Checklist to Answer Questions and Act on the Results](#chk4---use-a-checklist-to-answer-questions-and-act-on-the-results) |  | observation; reuse; no; unknown; action; changed description. “What can I answer now, and what follows?” | ADM.7; OPS.6, OPS.18; CHK.5 for shared reliance |
 | 5 | [CHK.5 - Reconcile Checklist Results Across Shared Work](#chk5---reconcile-checklist-results-across-shared-work) |  | partial result; whole; conflict; changed premise; resumption. “Do these local answers support our shared result?” | CHK.4; OPS.3, OPS.4; ADM.13; FPF B.1.5, A.15.10 |
 | 6 | [CHK.6 - Qualify Checklist Criteria and Checking Means](#chk6---qualify-checklist-criteria-and-checking-means) |  | counterexample; discrimination; false pass; AI; test; evidence. “Could this check miss the very difference we care about?” | ME.3, ME.11, ME.14; ADM.7; CHK.1 for coverage |
@@ -427,6 +427,7 @@ CHK.1 supplies questions and bounded coverage. CHK.3 consumes the usable templat
 
 ## CHK.3 - Fit a Checklist to Its Occasion of Use
 
+> **Status:** Stable
 
 ### CHK.3:1 - Problem frame
 
@@ -471,6 +472,8 @@ Put the current question, help and response mechanism in the working environment
 Recover the specific capability needed to answer. Counting supplied items may be easy; interpreting a specialist defect can call for another person. [HCD.3][HCD3] helps identify the capability demanded by the work. Nearby explanation can help a capable user apply a distinction; it does not create all missing competence.
 
 For human participants, inspect whether time pressure, hierarchy, mistrust or incentives discourage a truthful response. Explain the practical purpose, involve people who bear the burden, and change the arrangement that prevents use. An instruction to “be more diligent” does not diagnose the obstacle. Where introduction changes established organizational practice, [OCE.6][OCE6] and [OCE.10][OCE10] supply that work beyond this fitting Method.
+
+When the proposed change still needs examination and agreement, [OCE.12:4.3.3][OCE12PREP] connects preparation with relevant advisers, the organizational decision and a shared understanding of the agreed start. Return its accepted contributions and conditions to this work occasion: who supplies the observation, who has time to check, what help is available and who receives an unresolved answer. Confirming those arrangements can support first use; the trial below must still show whether the aid contributes to a useful handover. A new consequential objection or an unavailable resource returns to the affected decision before dependent use.
 
 For an AI agent, provide the applicable description and criteria, usable tools, relevant retained observations and a way to express uncertainty. Mixed human/AI work needs a clear handover of unresolved judgement.
 
@@ -1040,7 +1043,7 @@ These sources inform the Methods in different ways. The historical and conceptua
 | Source and return | Contribution used here | Limit and reconsideration condition |
 | --- | --- | --- |
 | R7, Methodology, connected checklist passages in chapter 6 and their Method, qualification and change context | Questions about work subjects; reusable templates and filled instances; local adaptation; timing, assistance, skill, motivation and worth. | Translate the ideas under current FPF rather than importing meta-level or alpha terminology. Revisit the affected Method if a source distinction lost in translation changes use. |
-| R10, Systems Management, connected operational model, shared-state and administration passages | Local interpretation, shared views, coordination and change in work involving several participants. | A shared representation does not establish performed work or the state of every subject. Revisit CHK.5 when the work arrangement changes. |
+| R10, Systems Management, connected operational model, shared-state and administration passages; 10:2 and 10:5 on introducing a practice | Local interpretation, shared views and coordination; preparing an organizational decision and fitting the aid to its first working use. | CHK.3 develops the use occasion and returns organizational preparation to OCE.12:4.3.3; CHK.5 reconciles shared results. A publicly confirmed start or completed representation leaves performed work and the receiving result to establish. |
 | Atul Gawande, *The Checklist Manifesto* (2009; 2010 UK edition), especially the professional-reminder, team-interaction and design/trial cases | Historical practitioner account of selecting attention and arranging real use. | Domain cases and suggested design heuristics do not establish universal list length, timing or causal effect. |
 | [Urbach et al., 2014][URBACH] | A population-level implementation result constraining easy effectiveness claims. | Its before/after setting does not show that every checklist is ineffective. Seek domain-specific evidence when making an outcome claim. |
 | [Facey et al., 2024][FACEY] | Mechanisms by which documentation can diverge from observed checklist practice. | One institutional setting does not establish prevalence elsewhere. Inspect the actual local arrangement. |
@@ -1131,3 +1134,5 @@ Copyright (c) Anatoly Levenchuk. The original text and worked examples in this C
 [AUTOCHECKLIST]: https://arxiv.org/html/2603.07019v1
 [ANTHROPIC1]: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
 [ANTHROPIC2]: https://www.anthropic.com/engineering/harness-design-long-running-apps
+
+[OCE12PREP]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce12433---prepare-a-proposal-for-decision-and-first-use
