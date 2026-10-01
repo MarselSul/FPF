@@ -17,6 +17,16 @@ This repository publishes the transdisciplinary **FPF Core** and domain pattern 
 
 The wider **FPF ecosystem** also includes other authors' DPFs and LPFs, tools, and services for using FPF.
 
+## Read online or connect your agent
+
+[**fpf.tools**](https://fpf.tools/) provides browser and read-only MCP access to the published FPF Library:
+
+- [**Browse publications and patterns**](https://fpf.tools/publications) to read their contents and source passages.
+- [**Search publication texts**](https://fpf.tools/search) by words, quoted phrases or pattern IDs.
+- [**Connect through the MCP server**](https://fpf.tools/connect) to let an AI agent search and read the publications. The remote endpoint is `https://mcp.fpf.tools/mcp` (Streamable HTTP); public reading requires no API key.
+
+See [source editions and update status](https://fpf.tools/status) for the revision currently available through the website and MCP.
+
 ## Start here
 
 Before selecting framework guidance, read and apply [Using FPF and its DPF Suites](./USING-FPF.md). This instruction applies to project work, framework development, review and coordination. It explains how to find and read relevant content in the publications available to you, including when an interface cannot retrieve a large file.
