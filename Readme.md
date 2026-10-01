@@ -27,6 +27,8 @@ The wider **FPF ecosystem** also includes other authors' DPFs and LPFs, tools, a
 
 See [source editions and update status](https://fpf.tools/status) for the revision currently available through the website and MCP.
 
+[Uses and community projects](https://fpf.tools/in-use) is an editorial page on the website, separate from this Library distribution.
+
 ## Start here
 
 Before selecting framework guidance, read and apply [Using FPF and its DPF Suites](./USING-FPF.md). This instruction applies to project work, framework development, review and coordination. It explains how to find and read relevant content in the publications available to you, including when an interface cannot retrieve a large file.
@@ -39,12 +41,6 @@ FPF is designed for two complementary uses:
 2. **Description and engineering of mixed human–AI work.** People can use the same language to describe which System is being changed, which Method is proposed, which Work is actually performed, which capabilities are available, what is assigned or permitted, who has decision authority, what evidence supports a claim, and what would reopen a decision.
 
 FPF is not an agent framework, an agent runtime, or a software-coding methodology. It is a knowledge and reasoning framework that can guide work in manufacturing, construction, mechanical and electrical engineering, energy, robotics, laboratories, healthcare technology, education, embodied practice, software-intensive Systems, and other fields.
-
-## Uses and community projects
-
-People also use and adapt FPF outside this Library. Explore a [reported legacy-monolith decision](./docs/community-uses.md#legacy-monolith), [VibeVM’s versioned distribution](./docs/community-uses.md#vibevm), the [FPF-agent integration](./docs/community-uses.md#fpf-agent), and a [third-party Backend DPF prototype](./docs/community-uses.md#backend-dpf).
-
-The [full selection of uses and community projects](./docs/community-uses.md) links to primary materials and distinguishes reported use, published implementation and prototype work. These independent projects are separate from the project’s own FPF Library publications; inclusion does not imply endorsement or certification.
 
 ## Why an AI-native pattern language?
 
