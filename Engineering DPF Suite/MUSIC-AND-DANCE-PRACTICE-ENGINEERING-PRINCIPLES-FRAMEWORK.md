@@ -7460,6 +7460,188 @@ whether a new cultural whole has formed, the team opens the corresponding patter
 evidence supports and what a stronger claim still needs. Further observation follows that pattern's actual
 conditions for inquiry. Unused patterns are not incomplete stages.
 
+## Investigate movement through physics, bodily experience and composition
+
+Use this application when a dance-and-science session produces formulas, sensations and interesting movement, but participants cannot yet use them to explain, change or compose anything. It connects several independently useful activities: investigating a familiar movement, obtaining a physical explanation, developing an available action, generating material and making a composition. Choose the connection needed by the question; doing every activity is not a condition of success.
+
+The starting question might be “Why does the support force change while I continue downward?”, “Which condition should the stage technician change?”, “What movement does this image let me discover?” or “What does another person perceive in this arrangement?” These questions need different results. A correct calculation can answer the first without teaching a technique. An exploratory score can generate material without establishing a physical law. A composition can be complete without making its scientific origin recognizable to the audience.
+
+Coates and Demers' *Physics and Dance* (2019) develops these connections through mechanics, movement explorations, artistic examples and its workbook. Its principal artistic setting is Western concert, modern and postmodern dance. The account below develops usable connections to PHY, SOM, RHY, HCD and MDPE; it does not reproduce the complete teaching practices of the artists discussed in the book. Familiar, suitable movement and competent instruction are inputs when bodily performance is required. A recording, diagram or tabletop representation can support some inquiries when those inputs are unavailable, but cannot establish the corresponding bodily capability.
+
+Use the complete supplying explanations in [Physical Thinking](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/PHYSICAL-THINKING-DPF.md), [Somatic Practice](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md), [Embodied Rhythmics](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) and [Human Capability Development](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md) at the particular returns named below.
+
+### Choose what the movement is doing in the inquiry
+
+Begin with a consequential question and an encounter participants can actually attend to. A dancer may supply a familiar movement; a learner may bring a puzzling sensation; a maker may select an image. Preserve the participants' own description before translating it into technical terms. “Heavy”, for example, may name a sensation, a movement quality, a mass or a viewer's interpretation. Ask what changed and how it was noticed before selecting a measurement or an explanation.
+
+| Intended result | What the movement contributes | What makes the next action possible |
+| --- | --- | --- |
+| A physical explanation or prediction | An observed event with selected system, phases, contacts and conditions | Relate the observation to a model and a quantity that can distinguish explanations. PHY.5–.6 supplies physical modeling; PHY.9 supplies the measurement construction; PHY.10 supplies a discriminating experiment. |
+| A more available bodily action | A familiar task in which a difference can be felt and used | SOM.1–.5 develops the perceptible contrast, regulation and return to the whole; HCD.6 and HCD.9 organize an attainable attempt and informative feedback. |
+| New movement material | A bounded task, question or image that directs attention while moving | Keep the generative constraint long enough to find alternatives, then recover material worth developing. An existing phrase is optional at this entry. |
+| A composition | Material whose relations, transitions and presentation can be changed | Develop and compare whole candidates with MDPE.9; specify prepared and live choices with MDPE.11. The following application develops two complete fixed scores. |
+| A changed understanding of perception or representation | A performance, encounter or trace seen from a stated position | Compare what performers and observers can notice, interpret or recover; change the arrangement or representation in response. MDPE.5 and MDPE.18 supply presentation and memory questions. |
+
+These are useful alternatives and connections, not levels of one compulsory lesson. For example, an observation can motivate a calculation, whose surprising implication motivates another movement exploration. A scientific idea can instead begin as an image for making material. In that case, checking the source idea prevents misdescription, but does not require the dance to serve as a physics demonstration.
+
+### From an encountered difference to a physical explanation
+
+Choose a short interval whose beginning, changes and end can be recovered. Before giving the explanation, ask the participant to describe, sketch or enact the difference they noticed. This gives the teacher something to work with: the learner may distinguish the event through gesture while not yet possessing its disciplinary vocabulary. HCD.6.1 supplies development of a needed perceptual distinction; it does not require treating a guessed term as understanding.
+
+Next formulate a physical question about that interval. Identify the body or collection being modeled, the reference frame, relevant phase and contacts. Draw only the forces acting **on** that system in a free-body diagram. Put interactions with the floor, a partner or a support into the model when they matter. A drawing of one instant does not determine the body's velocity. PHY.6 connects the chosen physical relations, constitutive assumptions and preparation to the result being sought.
+
+Make a discriminating prediction. If two accounts predict the same observation, that observation cannot choose between them. Connect the predicted quantity to what the instrument or recording actually supplies. A force plate reports contact force; a video supplies image positions at recorded times, from which suitably qualified kinematics may be estimated. Neither measures the performer's experience. Compare alternative ways of obtaining the needed quantity by their assumptions, resolution, accessibility and effect on the movement. Use PHY.9 for measurement construction and PHY.10 for a discriminating experiment, rather than treating a sketch of an apparatus as a completed observation.
+
+Return the result in the form needed by the participant. Explain which account survives, under what conditions, what remains unresolved and which change would matter. A technician may need to change a particular contact material; a choreographer may need to alter a timing demand; a learner may need a contrasting instance that separates speed from acceleration. If the observation disagrees with the prediction, inspect the phase, contacts, recorded quantity and assumptions before attributing the difference to poor movement. A bodily report that differs from the prediction can reveal a different question rather than a failed law.
+
+**Constructed teaching case: downward motion and support force.** A class examines a prepared, idealized vertical center-of-mass trace for a 60 kg person, initially at rest. The feet remain in contact with a horizontal force plate; there is no other support. Up is positive, g = 9.8 m/s², and air resistance is neglected. The trace is a mathematical teaching object, not measured data or a requested bodily maneuver. Its three consecutive phases are:
+
+| Phase | Duration | Vertical acceleration | Velocity, beginning → end | Vertical displacement | Predicted upward plate force N |
+| --- | --- | --- | --- | --- | --- |
+| Begin descent | 0.25 s | −0.4 m/s² | 0 → −0.1 m/s | −0.0125 m | 564 N |
+| Continue descent | 0.25 s | 0 | −0.1 → −0.1 m/s | −0.025 m | 588 N |
+| Finish descent | 0.25 s | +0.4 m/s² | −0.1 → 0 m/s | −0.0125 m | 612 N |
+
+The balance N − mg = ma_y gives each force. Integrating each constant acceleration over its phase gives the velocities and displacements; the trace descends 0.05 m in 0.75 s and ends at rest. Idealized changes of acceleration at the phase boundaries stand for transitions that a real observation must resolve. The table makes a particular distinction available: downward velocity occurs with negative, zero and positive acceleration. “Moving down” alone cannot select a plate force.
+
+Ask learners to predict which phase has N greater than body weight, then let them explain by arrows, the trace, gestures or equations. A claim that all three forces are smaller because all three phases descend identifies the distinction to work on. Compare the middle and last phases: both are downward, but one maintains speed and the other loses downward speed. Revisit the learner's explanation after that contrast. Correctly labeling this table supports recognition in this prepared case; ask for a differently ordered or upward-moving case before claiming a wider distinction. Reproducing a phrase remains a separate capability question.
+
+Now add an upward handrail force R during the last phase while retaining the same center-of-mass trace. The relation becomes N + R − mg = ma_y. If R = 30 N, the model predicts an upward plate force of 582 N, although acceleration is still upward. A learner who equates N below mg with downward acceleration would now fail. Retain the force balance and change the contact account. If R is not known, the plate alone cannot establish acceleration; obtain the missing force or qualified kinematics, or keep the result conditional. Removing the rail to rescue the simpler explanation would change the support arrangement and is not required by this inquiry.
+
+This example returns a usable explanation and a discriminating changed condition. It does not establish an effective teaching intervention, a person's balance or safe technique. For actual movement learning, use a teacher-supplied suitable task, SOM's contrasts and HCD's observation and feedback. Keep scientific understanding, bodily regulation and the resulting performance separately observable.
+
+### Discover material before there is a phrase
+
+When the result sought is exploration, do not demand a finished phrase first. Set a limited task that leaves meaningful choices open: follow a contact sensation, let a selected image change movement quality, or translate visible geometry into motion. Specify the space, available movement, attention and an attainable duration. The duration keeps the inquiry from ending at its first familiar answer; it is adjustable, not a universal dose. Participants may pause or change an unsuitable arrangement. The investigator needs enough continuity to notice alternatives, not maximal effort or an imposed dangerous action.
+
+Keep the difference between an open exploration and a controlled comparison. During exploration, several features may change together as an unexpected continuation becomes available. It can generate useful material without isolating a cause. To learn whether one changed condition matters, recover a short instance and compare it with a suitable contrast while preserving the relevant conditions. SOM.2 supplies that bodily contrast; a physical causal claim requires its own adequate observation or experiment.
+
+For example, borrow the book's room-writing construction: notice a geometric feature in the room and translate it into familiar movement. The performer may trace an edge with a hand, punctuate its corners or let the torso suggest its outline. Keep attending to the chosen geometry while moving; do not require an observer to guess the object. Then change the imagined volume within which the translation occurs. A smaller volume may change the path, timing and perceived intimacy. It is an artistic manipulation, not literal relativistic contraction. Select and recover one resulting sequence only when there is material worth retaining: identify how it begins, continues and ends, and which relation made it useful.
+
+An image can similarly organize attention without prescribing an exact shape. Ask what actions “floating” or “condensing” makes available, then examine the resulting movement. Do not infer microscopic physiology or mechanical energy from the words. If the image closes down movement or produces only a repeated cliché, change the question, scale, moving part or environment. If it yields useful variation, retain the image as a performance instruction or turn one discovered instance into fixed material. These are different choices under MDPE.11. The book's descriptions of Gaga, Hay and Forsythe illustrate such possibilities; they do not supply complete training in those practices.
+
+### Change quality and relationships, not only positions
+
+Once material exists, select what must remain identifiable while it changes. The same phrase can retain its order and temporal landmarks while varying attack, continuity or scale. Marking can preserve chosen spatial and temporal organization at reduced execution demand; it is not specified by halving physical joules. When a reduced version omits something needed by the later performance, restore and test that contribution before relying on it. HCD.6 constructs the practice task, HCD.9 uses the response, and HCD.12 tests the relevant later use. Marking may also be the final artistic choice rather than a temporary rehearsal aid.
+
+For a group, construct the relationships that make the whole possible. Ask where another person's location, response or support is required, which cues make that requirement available, and what happens while someone waits. Equal durations do not establish compatible paths or support. Repeating a velocity score does not guarantee return to the same place: moving forward at v for one second and backward at v for three seconds yields a −2v s displacement per cycle. Change the score or available space when that drift conflicts with the composition; do not hide a reset between cycles. RHY supplies the temporal relationship and MDPE.3 the coordinated performing whole. Any actual shared weight or contact requires its own competent technique and suitable conditions.
+
+**Constructed response duet.** Two seated performers have separate, non-overlapping comfortable hand areas and no bodily contact. They already know a small four-second hand motif that starts and ends at home. They select two available qualities, one continuous and one interrupted, without changing its four-second duration. The artistic question is whether a contrast can read as one participant answering another.
+
+In each eight-second exchange, A performs one chosen quality during seconds 0–4; B watches, then performs the other quality during seconds 4–8 while A rests. A may choose either quality at the beginning of each exchange. After three exchanges, both return to home and end. The prepared rule fixes turn order, duration, the contrasting response and ending; the choice of A's quality remains live. This is a twenty-four-second responsive score, unlike the fixed duet below.
+
+First compare it with a same-quality response under the same timing and seating. Ask observers what relation they noticed and where it became apparent; do not announce the intended contrast before collecting that account. Ask performers separately whether the cue was recognizable in time and whether the response was available. MDPE.9 can retain the contrasting version for the brief while recording an unclear audience effect or an unavailable response as different findings.
+
+Suppose B recognizes the quality only after the fourth second and consistently enters late. More forceful execution does not directly solve that timing problem. One option adds an agreed visible cue early in A's motif; another adds a two-second observation interval, producing ten-second exchanges and a thirty-second whole. Compare what each changes: the early cue may make the exchange conspicuously signaled, whereas the gap may weaken immediacy but permit the response. If twenty-four seconds is a firm requirement, the second option is unavailable without changing the brief. RHY.10 helps establish usable shared landmarks; HCD.6.1 addresses recognition if B cannot distinguish the qualities even without time pressure. When recognition is adequate but performance fails, return to HCD/SOM practice or select another available response. Do not silently replace the live choice with a memorized sequence and keep claiming that the same response capability was demonstrated.
+
+### Investigate what is perceived and what a trace preserves
+
+MDPE.12 supplies the observation and comparison method for this inquiry. A maker can investigate perception before deciding on a finished composition. Choose a recoverable arrangement: a familiar gesture followed by stillness, or the same material seen from two positions. Keep the compared change clear. Collect the performer's account of attention and duration separately from the observer's account of what appeared to change, matter or remain ambiguous. Differences are material for an artistic decision; they need not be errors to eliminate. Change ordering, duration, viewing position or context, then return to the whole encounter.
+
+For example, a short hand gesture followed by a long quiet interval may be experienced as sustained activity by the performer and as waiting by one observer. Compare an otherwise identical version that repeats the gesture halfway through. It changes expectation and possible attention without proving a universal meaning of stillness. If the work seeks ambiguity, preserve supported differing interpretations rather than treating agreement as the success criterion. If a demonstration is intended to communicate a scientific distinction, ask participants how they relate its features to that distinction; an evocative performance alone does not establish their understanding.
+
+Ask the analogous question of a recording or notation: what must the receiving person be able to recover? A point trajectory may preserve timing and path while losing contact, effort, gaze, sound or social context. MDPE.18 helps select and qualify memory; MDPE.17 tests receiving enactment when that is the intended use. Add another view, account or demonstration only for what the receiver needs. Conversely, a transformed trace may be material for a new work rather than a failed archive. State that use, and judge the new composition accordingly.
+
+### Keep the useful result when the next question changes
+
+Return selectively. An impossible physical requirement reopens the model, means or brief; an unnoticed cue reopens recognition and presentation; recognized but unavailable action reopens practice or selection; an unclear artistic relation reopens composition or its intended effect. Preserve a valid calculation when changing the choreography, and preserve useful movement material when abandoning an inaccurate analogy. A single rating of “successful workshop” would erase these different results.
+
+For an actual teaching design, select the learners, accessible encounters, support and evidence with HCD, and use MDPE.17 when the claim concerns transmission of a dance method. Later work on [embodied physics learning](https://doi.org/10.1080/10508406.2021.2023543) and [formative assessment](https://doi.org/10.1080/10508406.2025.2569583) treats learners' movement, language and cultural experience as resources for expressing and revising ideas. This reinforces asking participants to explain their meaning rather than assigning it from a gesture. It does not make this application an evaluated curriculum or guarantee transfer from artistic activity to scientific understanding. The constructive source here remains Coates and Demers' book; the following fixed-score cases develop one of its composition branches in greater detail.
+
+## Compose movement from a physical relation or a scientific image
+
+Use this application when a physical idea has produced an interesting gesture but not yet a phrase or composition. It develops a technique used in Western concert, contemporary and postmodern choreography: make movement material under a constraint, investigate transformations, then compose the resulting material through transitions, development and viewer placement. It does not prescribe how every dance tradition creates material.
+
+Coates and Demers' *Physics and Dance* (Yale University Press, 2019, ISBN 9780300195835), particularly its choreographic studies on printed pages 177–180, supplies this construction. The cases below are new, fully specified teaching examples. Their conditions and choices are stipulated; they report no dancers, learning experiment or safe-performance qualification. They can first be inspected as scores or animated traces. Any embodied realization uses familiar, individually suitable movement and appropriate instruction; no jump, fall, lift or maximal movement is prescribed.
+
+### Make the source useful to a composition
+
+First decide what the source contributes. A mechanical relation can exclude a movement under named conditions. A scientific image can suggest a movement without explaining its physical mechanism. Keep that decision visible when making the phrase.
+
+Choose a short, recoverable movement seed. Specify its beginning, changes and ending, including what happens between positions. Select a relation worth retaining: an arrival, order of changes, continuing path, response between performers or contrast visible to a viewer. Then change one feature that matters to the intended composition. The same seed can acquire another spatial path, duration distribution or quality. Compare the whole variants, including how each leaves the next action possible.
+
+Use MDPE.9 to make a retain, revise, branch or reject decision for these variants. It supplies the comparison; the phrase construction here supplies the domain generation method. Use MDPE.11 to state what is fixed beforehand and what may be interpreted or generated while performing. Compose a beginning that establishes the relation, a development that changes something consequential and an ending that resolves or deliberately suspends it. Return to movement technique or learning only for a contribution the selected composition actually needs.
+
+### Case A — Keep an apex in the music without demanding a longer flight
+
+**Situation and physical decision.** A maker has a four-second motif: rise and return during its first second, wait during its second, extend sideways during its third and return during its fourth. The intended effect is a brief visible summit at 0.5 seconds followed by a longer low interval. The initial idea assigns the entire first second to a dancer's airborne center of mass. Its idealization neglects air resistance and uses equal takeoff and landing COM heights.
+
+For flight duration T, v_y = gT/2 and the rise is h = gT²/8. At T = 1 s, these are 4.9 m/s and 1.225 m. The supplied capability basis for this fictional brief permits only the already familiar 0.2-second flight variant, not one second. Its idealized rise is 0.049 m. The timing change therefore increases the modeled height twenty-fivefold; slowing the music does not merely slow the same jump. Neither number is a training prescription.
+
+Compare three candidates:
+
+| Candidate | What it retains | What changes the decision |
+| --- | --- | --- |
+| Stretch the airborne interval to one second | The proposed flight and midpoint apex | Reject for the supplied capability basis; the required movement is unsupported. |
+| Place the familiar 0.2-second flight from 0.4 to 0.6 s | The 0.5 s apex and available flight duration | Keep as a separate branch if actual flight matters. It changes the full-second rise-and-return contour. |
+| Keep the body supported and assign the contour to a small hand path | The full-second contour, midpoint summit and following low interval | Select for this brief, which values the visible contour rather than flight itself. |
+
+The selected variant is a changed choreography, not proof that supported hand motion is physically equivalent to an airborne body. If the brief requires actual flight, this selection is unavailable; return to timing, means or the brief.
+
+**Selected phrase.** Use a comfortable supported position with no partner contact and no required weight transfer. For the score, let H be an individually chosen familiar hand-height change and W a familiar sideways reach. Coordinates are relative to the hand's low home position, not prescribed anatomical dimensions. The other hand remains at home.
+
+| Time in the four-second motif | Right-hand path |
+| --- | --- |
+| 0–0.5 s | Rise from (0,0) to (0,H). |
+| 0.5–1 s | Descend to (0,0). |
+| 1–2 s | Remain at home. |
+| 2–3 s | Travel horizontally to (W,0). |
+| 3–4 s | Return to home. |
+
+Join each moving interval with a smooth start and finish; for a drawing or animation, q(u) = 3u² − 2u³, 0 ≤ u ≤ 1, specifies the interpolation between its two endpoints. It is a controlled trajectory with zero endpoint speed, not a ballistic path. The hold is an intentional interruption between the vertical and horizontal gestures. At four seconds the phrase is ready to recur. Repeat the motif with the left hand and the opposite sideways direction to obtain an eight-second phrase A.
+
+Now make phrase B by changing the vertical path into a diagonal: during each rise travel from (0,0) to (W/2,H), then return along that diagonal. Retain every duration, the summit at 0.5 s of each motif and the later horizontal out-and-back. B develops spatial reach without requiring a higher summit or faster sequence. Reject an alternative that moves the summit to one second: it removes the brief's midpoint arrival.
+
+**Composition and continuation.** The selected twenty-four-second score is A, then B, then A with half the hand-path dimensions. The last eight seconds retain timing while contracting visible scale. Each four-second motif ends at home with zero prescribed hand velocity, so the next hand can begin without an unspecified reset. The last return at 24 s is the ending; do not add an unscored retreat. The viewer sits in front with both hands visible. The form establishes a vertical gesture, opens it diagonally and recalls it at reduced scale. Those are chosen compositional relations; whether viewers find the effect compelling remains a receiving-use question.
+
+**Specific practice need.** Suppose a later realization can produce the rise and the horizontal reach separately but rushes the 1–2 s hold. RHY.12 can keep one complete four-second motif, including that hold and the following reach, while making its durations recoverable through a timed demonstration. HCD.9 supplies feedback on the premature reach and a retry; additional strength work does not answer that timing error. If the hand contour instead causes unwanted whole-body bracing, SOM.2–.4 supplies a small perceptible contrast and reintegration under a qualified teacher, while the chosen support stays unchanged. Keep the needed support in the final arrangement. A correct animation settles the score's times and joins, not the performer's ability.
+
+### Case B — Use relativity to generate a spatial duet, not to explain the dancers' bodies
+
+**Situation and source choice.** A maker wants a duet whose spatial organization becomes unfamiliar while its phrasing remains recognizable. The source is the distinction between proper length and a moving frame's simultaneous length measurement. In the ideal relativistic calculation L = L_0 sqrt(1 − v²/c²); a half-length corresponds to v/c = sqrt(3)/2, approximately 0.866. This is a mathematical source relation. No dancer approaches that speed, and a viewer walking to another seat does not perform that Lorentz measurement.
+
+Take only an artistic operation from it: halve one chosen spatial dimension while preserving the other dimension and the times of arrival. The choice is explicit, so the scientific source can be explained accurately even if the finished dance no longer resembles a textbook diagram.
+
+**Generate the phrase.** Work first with a hand trace in a plane in front of a comfortably supported performer. Choose familiar half-width W and height H. All coordinates below are scaled to that person's chosen range. Make an eight-second closed phrase S through five positions:
+
+| Time | Position (x,y) |
+| --- | --- |
+| 0 s | (−W,0), left-low |
+| 2 s | (+W,0), right-low |
+| 4 s | (+W,H), right-high |
+| 6 s | (−W,H), left-high |
+| 8 s | (−W,0), left-low |
+
+Use the same smooth interpolation q(u) = 3u² − 2u³ on each two-second segment. The selected phrase therefore draws a rectangle with brief zero-speed arrivals, then is ready to repeat. This is one deliberately chosen organization, not a claim that all phrases consist of poses.
+
+Produce C by replacing every x coordinate with x/2. Keep the y coordinates and all five arrival times. Its width becomes W instead of 2W; horizontal path speed and acceleration scale by one half for the same interpolation, while the vertical segments remain unchanged. This construction retains ordering, closure and the two-second arrivals. It is not uniform shrinking.
+
+Compare C with U, which halves both x and y, and F, which traverses S in four seconds. Select C for the brief: it changes only the chosen spatial dimension while retaining the phrase's timing and height. U loses the retained height; F loses the eight-second duration and increases movement-rate demands. They remain possible material for other briefs, not errors in all choreography.
+
+**Compose the duet.** Place two performers in separate non-overlapping hand-reach areas, visible side by side from the front. They share eight-second beginnings but do not touch or exchange weight. Use this thirty-two-second fixed score:
+
+| Interval | Performer A | Performer B | Compositional consequence |
+| --- | --- | --- | --- |
+| 0–8 s | S | S | Establish the common rectangle and arrival times. |
+| 8–16 s | S | S-to-C transition phrase | One width changes while height and shared arrivals persist. |
+| 16–24 s | S | C | Sustain the difference so it can be compared. |
+| 24–32 s | S-to-C transition phrase | C | Resolve into the same compressed phrase; end at its left-low point. |
+
+Define the transition phrase rather than asking performers to jump from one left-low starting point to another. It starts at (−W,0), arrives at (+W/2,0) after two seconds, then (+W/2,H), (−W/2,H), and ends at (−W/2,0), each after another two seconds. This first horizontal segment changes the width and starting offset together; it is not a pure scaled copy of S. Its explicit purpose is to join S's ending to C's starting position. Every segment again has zero prescribed endpoint speed. At the boundary between 16 and 24 s, B's compressed ending already equals C's beginning; A's final transition ends at the same normalized position at 32 s. No hidden repositioning remains.
+
+The maker has chosen establishment, divergence, sustained comparison and convergence, with an exact ending. MDPE.11 keeps this fixed score separate from interpretation: performers may select familiar small ranges before beginning, but they do not improvise new arrival times or path order during this version. Changing ranges independently does not promise equal absolute widths; the retained comparison is within each performer's earlier and later phrase. If equal absolute geometry matters to the brief, select compatible ranges and a common spatial reference before rehearsal.
+
+**Specific practice and observation need.** A useful first reading is an animation or plotted trace of both parts, checking the boundary positions and timing. It can expose an incorrect transition without asking a person to perform it. In bodily practice, suppose a performer makes C by rushing its shorter horizontal segments and waiting early at the corners. The path endpoints are right, but its two-second moving intervals are lost. RHY.3 helps preserve the continuing path; RHY.10 supplies shared landmarks without requiring continuous mutual imitation. HCD.6 constructs one eight-second attempt in which both the segment durations and width change are visible, and HCD.9 gives feedback on the early arrival. If the issue is not timing but inability to vary reach without bracing, use SOM's bodily contrast and return to the same phrase. Removing music or a teacher's count is a separate support change, relevant only if the intended performance omits it.
+
+A front-view trace can confirm the designed geometry; a performer report can inform ease and attention; an audience response can inform the intended perceptual effect. None of those alone establishes the others. The first completed result here is the two selected phrases, the necessary transition, the full score and the next discriminating practice question. Claims about actual performance, learning or artistic success await their corresponding observations.
+
+### Adapt the construction without losing its distinction
+
+When reusing either case, change the seed, retained relation or receiving conditions deliberately. Recompute a physical constraint when mass, contact, height or timing changes. Reconstruct transitions when a transformation changes the state from which the next phrase begins. If the wanted artistic relation survives a different realization, compare that realization rather than treating the original body action as mandatory.
+
+The joint use of PHY, SOM, RHY and HCD is conditional on the difficulty: physical modeling, bodily regulation, rhythmic coordination and human learning supply different results. Use an adequate direct dance or teaching method when it already supplies the needed result. The examples need no new universal hierarchy of those methods, and no single success judgement can substitute for physical correctness, usable movement and the intended artistic effect.
+
+
 # Framework Boundary and Refresh
 
 ## Intended use and ordinary non-use

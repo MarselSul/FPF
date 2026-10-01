@@ -2367,6 +2367,8 @@ For identification, provisionally treat these population laws as known. This ask
 
 Describe the admitted causal relations. An acyclic causal graph is a useful representation: directed arrows allow direct causal influence, and a shared unobserved cause can be represented explicitly or by a bidirected edge. The absence of an arrow excludes a possible influence relative to the represented variables. A good observational fit does not justify that exclusion. Time-indexed variables can express feedback across time; a theorem for acyclic graphs must not be applied unchanged to an equilibrium model with unresolved cycles.
 
+When these causal relations or material rival mechanisms still need construction, C.28.CM develops the model family, its subject meanings and the consequences that could distinguish its members. Bring that result back to the identification question. A sufficient already supplied family needs no additional construction.
+
 The operative identification test is this: whenever two admitted causal models induce the same available laws, must they give the same requested quantity? If the assumptions themselves conflict with the available laws, return that conflict rather than declaring a result identified through an empty model class.
 
 #### MMP.15:4.3 - Derive an expression, using the simplest sufficient route
@@ -2402,6 +2404,40 @@ P(Y=y\mid do(A=a))
 The outer factor identifies the effect of action on the mediator. The inner adjustment identifies the outcome law under intervention on the mediator. The pathway restrictions license combining them for the action's total effect. Merely including a post-action measurement in a regression does not perform this construction. These classical conditions are sufficient; their failure does not establish that this functional or another identifying expression is impossible. [Front-door criteria and their extension](https://arxiv.org/html/2604.15288v1), §§2.1.5–3.
 
 For a more involved graph or several input laws, derive a sequence of intermediate distributions using the rules of do-calculus and probability. Each exchange between observation and intervention needs the corresponding separation condition in the modified graph. A suitable identification implementation can carry out that search: provide the graph, the target and the actual input laws, then recover the returned derivation and check its required factors. The historical ID algorithm covers a specified acyclic model class with latent common causes and an observed joint law; generalized search can use several incomplete or experimental laws. Do not replace those inputs by a joint law that the records never supplied. [ID algorithm](https://ftp.cs.ucla.edu/pub/stat_ser/r327.pdf), Figure 3; [generalized search](https://arxiv.org/html/1902.01073v5), §§2–3.
+
+#### MMP.15:4.3.1 - Use a binary instrument for a specified local effect
+
+Use this branch when a binary assignment or encouragement \(Z\) changes actual action \(A\in\{0,1\}\), and an instrumental-variable argument might identify an effect of \(A\). The effect of offering an action and the effect of performing it are different targets. If the receiving question requires the population average effect, determine whether the local quantity below answers it before using the result.
+
+Let \(A(z)\) be the action a unit would take under assignment \(z\). Start with \(Y(z,a)\) for its outcome under assignment \(z\) and action \(a\). Use the simple argument only under these assumptions:
+
+- **Consistency and stable versions:** observed \(A=A(Z)\) and \(Y=Y(Z,A)\); the specified interventions have fixed meanings and no interference between units.
+- **Assignment independence and support:** \(Z\) is independent of the potential actions and outcomes, and both assignment levels have positive probability in the population supplying the law.
+- **Exclusion:** \(Y(z,a)=Y(a)\); assignment has no effect on the outcome except through actual action.
+- **Monotonicity:** \(A(1)\geq A(0)\) for each unit. Assignment 1 never discourages a unit that would act under assignment 0.
+- **Relevance and finite means:** \(\delta_A=E[A\mid Z=1]-E[A\mid Z=0]>0\), and the required outcome expectations exist.
+
+These premises can be more demanding than random assignment alone. Randomizing an offer can support assignment independence without establishing exclusion or monotonicity. This is the binary local-effect argument of [Angrist, Imbens and Rubin, 1996, §§2–4](https://www.math.mcgill.ca/dstephens/AngristIV1996-JASA-Combined.pdf).
+
+The response pair \((A(0),A(1))\) separates always-takers \((1,1)\), never-takers \((0,0)\), compliers \((0,1)\) and defiers \((1,0)\). These are potential-response groups; observing one assignment and action generally does not label the individual's group. Monotonicity excludes defiers.
+
+To derive the result, use exclusion and the binary-action identity \(Y(a)=Y(0)+a\{Y(1)-Y(0)\}\). Independence and consistency give
+
+\[
+\delta_Y=E[Y\mid Z=1]-E[Y\mid Z=0]
+=E[(A(1)-A(0))(Y(1)-Y(0))].
+\]
+
+The same argument gives \(\delta_A=E[A(1)-A(0)]\). Under monotonicity, that difference is one for compliers and zero for the other admitted groups. Consequently,
+
+\[
+\frac{\delta_Y}{\delta_A}
+=E[Y(1)-Y(0)\mid A(1)>A(0)].
+\]
+
+This Wald ratio identifies the local average treatment effect for compliers under the named instrument and population. It is neither automatically the effect for everyone who took the action nor the population average effect. Changing the encouragement can change the complier group.
+
+If \(\delta_A=0\), the ratio is undefined. A small nonzero population first stage can still identify the local quantity under the assumptions, while finite-sample uncertainty and sensitivity to premise violations can be large; MMP.13 must supply suitable inference for the receiving use. If defiers are possible, the numerator and denominator instead mix oppositely signed response-group contributions. A direct \(Z\)-to-\(Y\) route, assignment dependence or interference also requires a different argument. Conditional instrument validity, continuous action and transport to another population need their own derivations; the simple unadjusted ratio does not supply them.
 
 #### MMP.15:4.4 - Carry selection, transport and support through the expression
 
@@ -2514,6 +2550,31 @@ Now suppose the source is found to contain experimental outcomes only for \(L=0\
 
 The endpoints are attainable by making every uncovered site respectively harmed or helped: \((Y(0),Y(1))=(1,0)\) or \((0,1)\). Those choices do not alter any available experimental outcome. The bound is sharp under these assumptions, and the sign of the target effect is not identified. The effect 0.30 remains available for the covered stratum if that is the agreed receiving question; it must not silently replace the original population target.
 
+#### MMP.15:5.4 - Distinguish an offer effect, a local use effect and an overall effect
+
+A team considers offering help with a work procedure. Let \(Z=1\) mean an independently randomized offer, \(A=1\) actual use, and \(Y=1\) successful completion. Assume fixed versions, no interference, exclusion, monotonicity and complete outcome recording. The following constructed population supplies one possible basis:
+
+| Response group | Population share | \(A(0),A(1)\) | Mean \(Y(0)\) | Mean \(Y(1)\) |
+| --- | --- | --- | --- | --- |
+| Always-takers | 0.2 | \(1,1\) | 0.10 | 0.60 |
+| Compliers | 0.4 | \(0,1\) | 0.40 | 0.65 |
+| Never-takers | 0.4 | \(0,0\) | 0.30 | 0.30 |
+
+Randomization is independent of response group and potential outcomes. The action rates are 0.2 without the offer and 0.6 with it. The outcome means are
+
+\[
+E[Y\mid Z=0]=0.2(0.60)+0.4(0.40)+0.4(0.30)=0.40,
+\]
+\[
+E[Y\mid Z=1]=0.2(0.60)+0.4(0.65)+0.4(0.30)=0.50.
+\]
+
+The offer effect is 0.10. The first stage is 0.40, so the ratio gives \(0.10/0.40=0.25\), the complier mean effect. Under the stipulated full table, the population effect is instead \(0.2(0.50)+0.4(0.25)+0.4(0)=0.20\).
+
+The observational law does not reveal the full table. Change the never-takers' mean \(Y(1)\) from 0.30 to 0.80 while retaining all other quantities. Their action remains zero under both assignments, so this change leaves the full observed law of \(Z,A,Y\) unchanged and preserves the assumptions. The overall effect becomes 0.40; the identified complier effect remains 0.25. This pair of models shows why the available law does not identify the overall effect under these premises.
+
+Now change the offer itself: it teaches a technique that can improve success without use of the help. Exclusion no longer holds. Retain the randomized offer-effect question, but withdraw the former interpretation of the ratio as the complier use effect until a revised model supplies a valid argument. Observing the same four means would not restore the missing exclusion premise.
+
 ### MMP.15:6 - Bias-Annotation
 
 Predictive success invites reading inputs as controls. Readily measured variables invite unjustified adjustment, while unmeasured common causes disappear for lack of a data column. Construct the causal account from the subject process.
@@ -2523,6 +2584,7 @@ Failure of a familiar criterion can instead encourage unnecessary data collectio
 ### MMP.15:7 - Conformance Checklist
 
 - The intervention, comparator and receiving quantity are defined, with consistency and interference handled where relevant.
+- A local instrumental-variable effect retains its assignment, response group and assumptions; a different requested population effect remains a different target.
 - The derivation uses the laws actually supplied by the recording and selection procedures.
 - Every causal substitution has an assumption or applicable graphical argument; every final data factor is available on its required support.
 - A nonidentifiability claim has a target-matched witness or applicable complete-method obstruction. An unfinished search is reported separately.
@@ -2569,11 +2631,13 @@ The governing question is whether the available laws and defensible causal assum
 
 **Population scope is part of identification.** Dahabreh and colleagues, *Generalizing causal inferences from individuals in randomized trials to all trial-eligible individuals* (2019; arXiv v2, 29 October 2019), §§2–4, separates within-trial exchangeability from the conditional-mean and participation assumptions required for generalization. That distinction is adapted in :4.4 and :5.3: the target mixture can differ even when the experimental comparisons are valid. Its particular nested-trial setup is not presumed for arbitrary selected records. [Read version](https://arxiv.org/html/1709.04589v2).
 
+**A local effect under a binary encouragement.** The serious alternative to :4.3.1 is reporting the randomized offer's effect, or seeking a population effect of actual use under additional assumptions. Adopt the narrower response-group derivation when its local target serves the receiving use: it needs no fully specified outcome mechanism, but does require substantive exclusion and monotonicity. The historical [Angrist–Imbens–Rubin argument, 1996, §§2–5](https://www.math.mcgill.ca/dstephens/AngristIV1996-JASA-Combined.pdf) supplies that identification result, not a complete modern inference method for weak instruments. The calculation and two compatible populations in :5.4 expose what the local result leaves undetermined. Reopen when assignment can affect outcomes directly, response types change, or the receiving population or target differs.
+
 Reopen the chosen derivation when the target, available laws, causal exclusions, population bridge or support changes. Consider a different identification method when it answers the same question under more defensible assumptions or with materially less effort; source recency alone does not require replacing an already sufficient argument.
 
 ### MMP.15:12 - Relations
 
-- **C.28** supplies the causal-use question and the distinction between identification, estimation and realizability. **C.28.MR** supplies intervention semantics and calculations within a specified causal model.
+- **C.28** supplies the causal-use question and the distinction between identification, estimation and realizability. **C.28.MR** supplies intervention semantics and calculations within a specified causal model. **C.28.CM** constructs missing causal relations and material alternatives before their identifying implications are assessed.
 - **C.16.IR** supplies compatible-case and sufficient-target reasoning; this pattern constructs the causal identification expressions and ambiguity witnesses.
 - **MMP.7** supplies the observation law, including selection and missingness. **MMP.11** supplies an explicit model family when its restrictions are needed.
 - **MMP.12** handles inverse ambiguity and justified regularization. A restriction used here remains an added causal or response assumption, not new evidence.

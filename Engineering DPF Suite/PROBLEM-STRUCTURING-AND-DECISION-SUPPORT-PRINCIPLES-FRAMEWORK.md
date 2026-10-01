@@ -3,7 +3,7 @@
 > A domain pattern language for clarifying difficult situations, structuring inquiry, comparing alternatives, and returning qualified decision support.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 September 2026
+- **Version:** 26 September 2026
 - **Status:** Eternal alpha: a published working framework, already used in analyses and worked applications, while continuing to evolve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -27,7 +27,7 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 | [Preface](#preface) | Understand how to combine qualified results while each supplying practice remains responsible for its conclusions and the authorized chooser makes the decision. |
 | [Development-direction advising](#psd-advising-development-direction-advising) | Compose development-direction advice from qualified holder-specific results. |
 | [Construct a Bounded Development Opportunity](#psd-opportunity-construct-a-bounded-development-opportunity) | Construct a useful conditional opportunity before a result is settled, without requiring an adviser. |
-| [Cross-pattern applications](#cross-pattern-applications) | Follow the contested flood and development-direction uses with their scope and source limits. |
+| [Cross-pattern applications](#cross-pattern-applications) | Follow the contested flood, development-direction and report handoff uses with their scope and source limits. |
 | [Framework boundary, sources and refresh](#framework-boundary-sources-and-refresh) | Find the covered problem families, external returns, source arguments and affected-refresh conditions. |
 | [Source responsibility and references](#source-responsibility-and-references) | Read the advising sources, their qualification dates and limits without a separate working file. |
 
@@ -119,6 +119,16 @@ For a later probe of AI configuration A, `PSD.14` needs a viable arrangement: an
 
 The human branch makes a different missing premise visible. An engineer considering evidence review and interface coordination may have permitted access to review material, yet lack a basis for independent capability and transfer; coordination practice and feedback may also be unavailable. Retain the conditional opportunities. Neither course attendance nor the organization's arrangement comparison supplies those human development results.
 
+### PSD-ENTRY-03 — Find what is wrong when the report is on time
+
+- **Situation:** Weekly reports arrive on time, yet the planner must telephone colleagues to recover identifiers before using them.
+- **Question:** Is the difficulty incomplete information, incompatible identifiers, an unsuitable deadline, or a misleading record?
+- **First useful result or blocker:** Distinct formulations with an observation that could separate them, or the exact missing fact that prevents stating what is wrong.
+- **Start with:** [PSD.3](#psd-3) to compare the formulations. If the discrepancy is already understood and only a recording correction is needed, make that correction through the responsible practice.
+- **Stop or return:** Stop when the formulation and available facts suffice for the current question. Open a causal-model question only when different explanations change the next useful action; return to the formulation if a check changes what was actually wrong.
+
+The [report-handoff application](#app-psd-03--an-on-time-report-that-cannot-yet-be-used) follows that conditional continuation: causal alternatives can inform a bounded answer, while missing evidence, a recipient's objection or later observations can change it. A diagnostic check, temporary operational help and research answer different questions and may occur at the same time.
+
 ## Citation
 
 This framework is published in the [FPF repository](https://github.com/ailev/FPF). If you use it, please cite:
@@ -126,7 +136,7 @@ This framework is published in the [FPF repository](https://github.com/ailev/FPF
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Problem Structuring and Decision Support Principles Framework.
-20 September 2026.
+26 September 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
 
@@ -1181,6 +1191,10 @@ Consider what each model can actually contribute before selecting a notation or 
 
 Select the smallest set that covers the material questions. A qualitative model may reveal a question worth quantifying; a numerical model may reveal a missing qualitative distinction. Neither direction is a universal order. Drop a model that supplies no distinct contribution unless its independently grounded evidence is needed to challenge another.
 
+A concern map can already complete the task of making participants' concerns discussable. When another material question asks what causes an outcome or what an intervention would change, use an adequate causal model directly. If the causal relations still need to be constructed or compared, `C.28.CM` helps turn the relevant subject knowledge and mechanism accounts into explicit models for that question. Return their assumptions, conditional consequences and unresolved alternatives to the combined account. Keep each existing model for the question it can answer; the constructed causal model still needs the claim-specific assurance in :4.5.
+
+When the question concerns participants' intentions, their dependence on one another and possible alternatives, the Reference's [goals-and-dependencies walkthrough](ENGINEERING-DPF-SUITE-REFERENCE.md#explore-a-situation-through-goals-and-dependencies) develops an actors-and-goals model from a service difficulty. It explains how to select what a view reveals, turn a question into analysis assumptions, interpret the answer and return to an omitted assignment when the result exposes a conflict. Use that connected account when these joins need explanation; a sufficient existing model can be used directly.
+
 #### PSD.5:4.3 - Make each model's use intelligible
 
 A reader should be able to say: “This model concerns this subject, answers this question under these conditions, and supports this limited use.” Supply the assumptions, evidence source and interval, important omissions, and an observation that would invalidate or narrow that use. Identify the exact model content or edition when a changed value could alter the result.
@@ -1240,6 +1254,10 @@ The inquiry team constructs the following bounded account. The values are illust
 The account returns: “Nominal capacity is not presently the discriminating uncertainty. The mobile branch depends on an unqualified access premise. The service comparison must retain both property protection and reachable assistance.” It does not rank the branches.
 
 If verified access evidence closes the transport gap, only the affected model claim and its dependent uses reopen. If no feasible pump branch supports the service concern, the problem boundary reopens. Repeated use of the same inflow dataset by both technical models supplies one evidence dependency, not two confirmations.
+
+Suppose the board additionally asks whether securing an alternative road would get mobile pumps operating sooner during a main-road closure. Two mechanisms remain plausible: road access delays an otherwise ready crew and pump, or the flood also disables power at the staging site, preventing pump preparation even with another road. Use the causal-construction branch in :4.2 to compare road availability, pump-and-crew readiness and time to operation under the same assumed flood conditions. In the first account a usable alternative road removes the named access delay; in the second, preparation remains a limiting condition. These are conditional consequences of the proposed mechanisms. The scenario provides no evidence to choose between them or assert an arrival time.
+
+Return the narrowed answer: another road could remove the access delay, while pump preparation remains a premise that can change its practical benefit. An operations result about readiness and the alternative route could resolve that distinction; :4.4 governs whether obtaining it is worthwhile. The residents' two service meanings remain as stated in the concern map.
 
 #### PSD.5:5.2 - Development advice across two holders
 
@@ -1301,6 +1319,7 @@ Complementarity is a relation between useful contributions to a question, not a 
 - `PSD.6`, `PSD.8`, and `PSD.16` may use the model account to discriminate their Method, alternative, or simultaneous-inquiry claims. Representation does not make the represented condition obtain.
 - `PSD.10` may use the account's evidence only for the same configuration and horizon; that evidence neither entails its uncertainty judgement nor authorizes action.
 - `C.29` governs load-bearing mathematical-lens use. `A.1.1` governs claims about a model's applicability, its actual use in assigned Work, and the coherence of fixed model and expression contents under a declared criterion and comparison scheme. Direct scientific, engineering, causal, and evidence practices retain their own truth and adequacy questions.
+- [C.28.CM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model) supplies causal construction when the needed relations are missing. Its conditional models join the account at :4.2–4.3; their causal support remains a separate question under `C.28` and :4.5.
 - Value treatment and comparison remain separate from constructing models. A model can expose a value conflict without settling it, and the later choice remains with its authorized owner.
 
 ### PSD.5:End
@@ -2320,6 +2339,23 @@ Direct domain models and evidence supply effect estimates and mechanisms. A caus
 
 Do not extend a consequence beyond its qualified horizon without a stated model and source. If a short operating horizon excludes a material long-term lock-in or displaced loss, expose the exclusion and reopen the boundary where necessary.
 
+#### PSD.11:4.2.1 - Construct and question a qualitative consequence network
+
+Use this branch when the important consequences are understandable in ordinary terms but no qualified model yet connects the alternatives to them. It returns conditional consequence profiles and precise questions for investigation. It does not turn an elicited relationship into an established causal law. Reuse a sufficient domain model instead; use a quantitative or dynamic model when timing, magnitude, feedback or joint risk decides the answer.
+
+1. **Recover the participants' reasons.** For each affected party, name the desired state, the proposed action, any required resource and the quality by which that party would judge the result. Ask both “why is this needed?” and “how could it be obtained?” Attribute each answer; a modeler's hypothesis about another person's intention stays a hypothesis. Separate a required result from a prescribed task: two ways may obtain the same result while distributing work and discretion differently.
+2. **Construct explicit relationships.** Write each important arrow as a sentence. For an external provision, identify who needs what, why, who could supply it and through which work. For a necessary combination, state which conditions must hold together; for alternative means, state whether either suffices and whether both may coexist. For a quality contribution, explain how an action or intermediate condition supports or impairs that quality. Keep necessity, sufficiency and a merely favorable contribution distinct. Name the conditions and evidence or attributed judgement supporting each sentence. A plausible relationship without support remains an open relationship.
+3. **Check the network before using it.** Trace each material consequence to the alternative and to the affected party's criterion. Ask the provider whether the proposed provision is possible and the affected party whether the criterion and stated effect capture their concern. Inspect missing intermediate steps, double-counted paths and contradictory accounts. Do not repair disagreement by deleting one party. If a cycle matters, bound its time steps or obtain an appropriate model; repeatedly circulating a favorable label supplies no additional evidence.
+4. **Evaluate one complete alternative at a time.** Hold its configuration and initial assumptions fixed. Carry established or conditional results through necessary combinations and alternative means using their stated meanings. A necessary unfulfilled condition blocks the claimed conjunction; an unknown necessary condition leaves that conjunction unsupported unless another condition already defeats it. One sufficient supported route can establish the stated disjunction even when another route remains unknown. If no route is supported and at least one remains unknown, retain the unresolved result; if every modeled route fails, that modeled disjunction fails. Apply the same discipline to external provision: the receiver's result cannot be established through a provision whose availability is unknown. For contributions, retain the incoming supporting, opposing and unknown grounds together before judging the destination. Do not add signs, count arrows, or promote several weak claims to a strong claim merely because there are several. Distinguish no investigation, an investigated but unknown effect, and opposed grounds.
+5. **Ask a question that can settle the disputed transition.** Present the affected person or qualified source with the actual incoming grounds and criterion: would these conditions suffice, only help, obstruct, or leave this outcome unresolved, and why? Record the answer, its scope and dissent. An acceptable judgement may retain a conflict or say that no conclusion is supported. If an unexpectedly favorable or unfavorable result exposes a missing condition, return to the relationship or source rather than adjust the final label to match expectations.
+6. **Compare the resulting profiles.** Apply :4.3–:4.5 to the same consequences for all alternatives. Keep a supported trade-off separate from an unknown effect that could reverse it. Return the explanation paths with the profile; a diagram is optional. Mark any judgement on which the comparison depends so that the recipient can challenge it.
+7. **Work backward only when the question requires it.** If the recipient asks how several desired conditions could hold together, trace their necessary conditions and candidate sufficient routes backward. Propose a combination of means, ask what incoming conditions would justify each disputed intermediate judgement, then test the whole combination forward under the same assumptions. Set aside a combination with an incompatible condition. Keep a combination with an unsupported decisive transition conditional, naming the missing relationship instead of treating missing evidence as refutation. A failed current combination is not proof that every possible design fails. Do not weaken the recipient's criterion merely to find a solution.
+8. **Revise by dependence.** When a source or judgement changes, identify the changed relationship, rerun its downstream consequences for affected alternatives, and recheck the comparison. Reopen the boundary if an omitted party or consequence appears. Preserve independent claims and the earlier result with its earlier conditions.
+
+Use ordinary prose categories appropriate to the subject. If a named language or solver is used, declare its version, propagation rules, treatment of unknown and conflicting evidence, and structural restrictions. A solver's satisfying assignment is a model result, not a commitment by participants or evidence that the arrangement will work.
+
+For an inquiry that also needs to construct and question the underlying actors-and-goals model, the Reference's [goals-and-dependencies walkthrough](ENGINEERING-DPF-SUITE-REFERENCE.md#explore-a-situation-through-goals-and-dependencies) connects this branch to the inquiry's purpose, model views, explicit initial assumptions and a return from unexpected results to new source questions. It follows a staffing conflict through a revised allocation and its limited use. The present branch supplies the consequence analysis within that larger inquiry.
+
 #### PSD.11:4.3 - Construct a consequence account before aggregating
 
 Keep each alternative's material consequence profile visible. For every relied-on entry, show the relevant subject, meaning, unit or category, condition or scenario, time, source, uncertainty, and missingness. A short parallel description can suffice; use a table when it makes repeated comparisons clearer.
@@ -2391,6 +2427,41 @@ The human capability result, organization-allocation result, and exact-version A
 
 A current qualified comparison already covers two replacement arrangements, their transition costs, service consequences, and the recipient's value rule. Reuse it for the authorized choice. A second consequence table with the same content adds no new result.
 
+#### PSD.11:5.4 - Two feasible library services with opposed and unknown effects
+
+A library must compare two ways of giving complex reference help during the next four weeks: A, booked consultations with preparation time; B, a walk-in desk with triage. Both have qualified staffing, access and budget arrangements. Neither is excluded for infeasibility. The following observations and judgements are invented to show the method, not findings about libraries.
+
+The reader wants a usable answer; a shift worker also needs a way to seek help without knowing next week's schedule. The librarian wants uninterrupted preparation for difficult questions. The manager needs a service whose answer quality and accessibility can both be defended. These are distinct concerns, not interchangeable satisfaction scores.
+
+The practitioner interviews the roles separately and constructs these relationships:
+
+| Relationship in this case | Ground and limit |
+| --- | --- |
+| A usable specialist answer needs the reader's question, an accessible relevant collection, and competent librarian work together. | The service definition and a sample of completed requests support this necessary combination. Availability of the collection alone does not produce an answer. |
+| The librarian depends on the reader providing enough detail before preparation can start. | The reader supplies the question; the librarian explains which missing details prevent preparation. The booking confirmation itself is not that provision. |
+| Booking online or through the staffed telephone can obtain a slot. | Either route suffices for reserving an available slot; they are not mutually exclusive. Neither establishes that the reader can attend. |
+| Advance detail and protected preparation help answer quality under A. Walk-in interruptions under B impair preparation for difficult questions. | Librarians can identify the interrupted work in the sample. This supports the direction, not a population-wide effect size. |
+| B permits a visit without a prior appointment; A requires attendance at a booked time. | The actual service rules establish this difference. Shift workers explain why the appointment condition can obstruct their access. |
+| Reminders under A might improve attendance. | No evidence yet says whether these readers receive a reminder in time or can act on it. The effect is investigated but unknown. |
+
+Now evaluate A. The necessary resources and work arrangement are supported; answer quality has favorable grounds. Telephone booking provides another way to reserve a slot. Shift workers explain that this helps booking but does not establish their ability to attend at the fixed time. The reminder effect remains unknown, so overall accessibility is unresolved.
+
+Evaluate B on the same four-week basis. Unscheduled access is supported, while preparation for complex questions has adverse grounds. Triage may help preparation, but the librarian says it cannot remove interruptions under this staffing arrangement. The comparison consequently contains a supported trade-off plus one unresolved effect:
+
+| Consequence | A — booked consultations | B — walk-in triage |
+| --- | --- | --- |
+| Preparation for difficult questions | Favorable grounds from advance detail and protected time | Adverse grounds from interruptions, not removed by triage |
+| Access without a predictable schedule | Obstructed by fixed attendance; overall access unresolved | Supported by the walk-in rule within desk hours |
+| Actual attendance and completed help | Reminder effect unknown | Not inferred merely from an open desk |
+
+There is no supported overall winner. The manager cannot substitute one aggregate satisfaction label for these differences. The return identifies a discriminating question: can the shift-worker group obtain help through A when its schedule changes, and under what continuation?
+
+Work backward from the manager's proposed joint requirement: preserve preparation and provide a route usable after a schedule change. A's telephone booking cannot by itself meet the second condition. B meets that access condition but does not preserve uninterrupted preparation. A possible combination is a booked service with a staffed same-day rescheduling route and protected preparation time. That is a new candidate, not a conclusion that A already meets both conditions. Its staffing interaction and ability to retain preparation must be checked before comparison.
+
+Suppose a bounded trial shows that changed shifts overlap the booked appointments, preventing those readers from attending; reminders arrive after the changes, and appointments cannot be moved during the four-week service. This new ground settles one relationship: reminders do not restore access for the observed shift-worker situations. Rerun A's access branch and the joint-requirement test. Retain A's independently supported preparation advantage and B's existing profile. If access after a schedule change was declared a protected condition, A now fails that condition for this scope; if it was a negotiable value, the result is a clearer trade-off, not automatic exclusion. The trial supports neither a claim about all readers nor the untested combined candidate.
+
+The useful result is the explained comparison, the precise failed route and the next candidate's missing premise. It is more informative than either “both are feasible” or “A scored higher”, and it does not authorize a service change.
+
 ### PSD.11:6 - Bias-Annotation
 
 **Scope:** consequence comparisons for bounded decision-support use. **Lenses:** **Onto/Epist** separates alternative, forecast, observation, and result; **Arch** exposes interaction and distribution; **Prag** fixes the receiving question; **Gov** preserves conditions and authority; **Did** makes the comparison replayable.
@@ -2402,6 +2473,8 @@ Ranking bias prefers closure over partiality. Baseline bias compares change with
 - [ ] Alternatives, subject, configuration, affected subjects, horizon, and receiving use are fixed for the comparison.
 - [ ] Candidate, value, and uncertainty inputs are current and compatible or their gaps are returned.
 - [ ] Each material consequence has a supported path, subject, timing, and uncertainty account.
+- [ ] Where a qualitative network is constructed, relationships have distinct meanings and grounds; opposing and unknown evidence reaches the judgement without arithmetic cancellation.
+- [ ] A backward proposal is tested forward as a whole; an unsupported transition or failed combination is not generalized to every possible design.
 - [ ] Transition, interaction, shared burdens, and displaced losses are included where they can change the result.
 - [ ] Measures, value transformations, protected conditions, and evidence retain their different meanings.
 - [ ] Missing entries are not zero, equal, or silently favorable.
@@ -2435,6 +2508,7 @@ A consequence comparison connects proposed actions to values through qualified c
 | --- | --- | --- | --- | --- | --- |
 | How should alternatives be connected to consequences? | Use explicit outcome models with the conditions and dependencies needed by the decision. | Rank isolated attributes or tool outputs without a consequence path. | **Adapt:** :4.1–:4.4 reconstruct only decision-changing consequence paths and shared burdens. The added effort is accepted when an omitted interaction could reverse the comparison; a qualified existing account is reused. | Borgonovo et al.'s [2026 decision-analysis review](https://doi.org/10.1016/j.ejor.2025.05.023) supplies the current graphical-model and uncertainty line. It does not validate a local mechanism or establish causal effects from arrows. `C.11.CRC` supplies a missing finite configuration-relative contribution, not field calculations. | Reopen when a changed configuration, mechanism, affected subject, or horizon invalidates a consequence path. |
 | What comparison is justified by conflicting or incomplete values? | Use a declared preference model and preserve its partial or model-dependent relations. | Impose one total weighted rank. | **Adapt:** :4.5–:4.6 retain ties, incomparability, and missing-input distinctions. The deliberately accepted trade-off is less rhetorical decisiveness for a truthful relation. | Greco, Słowiński, and Wallenius's [2025 MCDA review](https://doi.org/10.1016/j.ejor.2024.07.038) is a comparison candidate for alternative preference and recommendation forms. Its finite-action methods do not supply local values, probabilities, or decision authority. | Reopen if elicitation or evidence changes the admitted model set or resolves a previously missing comparison. |
+| How can early qualitative consequences be constructed and questioned before a complete domain model exists? | Make the intermediate relationships and their grounds explicit, carry each alternative through them, and use attributed domain judgement where evidence does not determine the result. | Draw influence arrows, count favorable signs, or declare a complete model necessary before any useful comparison. | **Adapt:** :4.2.1 and :5.4 supply construction, questioned propagation, conditional backward exploration and local revision; no new notation or solver is required. | Horkoff and Yu's [PoEM 2009 procedure](https://www.cs.toronto.edu/~jenhork/Papers/Horkoff_PoEM_2009l.pdf) and [ER 2010 backward analysis](https://www.cs.toronto.edu/~jenhork/Papers/ER_Horkoff.pdf) are historical method anchors, not current empirical validation or iStar 2.0 semantics. Qualitative support does not establish causal magnitude, participant commitment or realized success. | Reopen when a changed relation, stakeholder judgement or domain model changes a material consequence; use a stronger model when quantitative interaction or feedback decides the answer. |
 | Does generic candidate stewardship already compare the consequences? | Keep profile comparison, finite contribution, and archive/front stewardship distinct. | Treat C.18 as a general consequence-ranking Method. | **Adopt:** :4.2 and :4.5 use the exact C.11.CRC and A.19.CPM contributions when needed; the PSD consequence account retains its field question. No archive machinery is required for a small comparison. | Current `C.18` governs generation, archive, and front objects; `A.19.CPM` governs its admitted set-valued comparison; direct domain Methods supply consequence models. Their different result boundaries defeat the broader attribution. | Reopen when the current question actually becomes archive stewardship or a direct comparison contribution changes. |
 
 ### PSD.11:12 - Relations
@@ -4709,6 +4783,137 @@ A research team may separately ask which experimental intervention to consider. 
 The useful common result is a qualified opportunity, comparison or recommendation with a stated receiving question and use. What differs is the premise required to support it. Human transfer, organizational obtaining arrangements, AI evaluation and scientific intervention are not one score or one development mechanism.
 
 A supported direction should not be withheld merely because another branch remains uncertain. Equally, fluency, a method publication, a source bibliography or a favorable score cannot promote an unresolved branch. Follow the [profile](#psd-advising-development-direction-advising) for the full engagement and recommendation contract, the [opportunity Method](#psd-opportunity-construct-a-bounded-development-opportunity) for the earlier construction, and the direct patterns for their own results. The [source-responsibility account](#source-responsibility-and-references) keeps that profile's bounded source use separate from application-specific follow-up.
+
+## APP-PSD-03 — An on-time report that cannot yet be used
+
+### Recover the difficulty before naming a solution
+
+A team sends its weekly report before the agreed deadline. The timeliness indicator is green. The planner nevertheless spends time calling colleagues to recover identifiers before assigning the reported work. In twenty rows selected for diagnosis, four need clarification. These observations locate work that the indicator misses; they do not estimate the frequency of the difficulty across the organization.
+
+[B.5.PI](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#b5pi---initiate-inquiry-from-ongoing-work) helps notice this mismatch between formal completion and actual use. The question is whether something prevents the receiving work from proceeding under its applicable requirements. A complaint, a blank field and an adverse working condition are different objects. [C.22.2](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c222---problemcard) can express the problem-side account while its factual and criterion premises remain visible.
+
+For this constructed case, the operations manager may authorize a temporary reporting arrangement for the next planning cycle. The inquiry team may return advice; it cannot change another group's deadline or promise extra work on that group's behalf. [PSD.1](#psd-1) keeps that boundary. [PSD.2](#psd-2) brings in the planner, report preparers and the people who supply the identifiers. Their accounts can differ: the planner needs usable identifiers by planning time, preparers need an unambiguous rule, and upstream staff may not yet have the requested information.
+
+Through [PSD.3](#psd-3), retain three formulations with different consequences:
+
+| Formulation | What would make it the current difficulty? | First discriminating check |
+| --- | --- | --- |
+| The handoff omits available information. | Identifiers existed before submission but the receiving material lacks them. | Compare the source information with the material actually sent and received. |
+| Sender and receiver use incompatible identifiers. | Both sides have values, but the receiver cannot map them to the intended work. | Follow one affected identifier through the agreed correspondence and actual processing. |
+| The deadline precedes information availability. | The identifier is not knowable at the required time under the current arrangement. | Compare the time information becomes available with the receiving work's real need. |
+
+A fourth possibility is that only the recording is wrong: the receiver obtained usable information, but the register presents an empty field. Inspecting the actual sent and received material can settle that limited question. Correcting the register may then be enough; it does not establish an effect of a reporting rule on operational delay. “Install a CRM” is a proposed means, so it does not replace these formulations.
+
+[PSD.4](#psd-4) bounds this inquiry to information needed for the next planning cycle and the burdens of obtaining it. If the real difficulty is that the planning deadline itself has no useful justification, return to that requirement and its owner. Improving compliance with an unsuitable deadline can make the working situation worse.
+
+### Construct alternatives only where their consequences matter
+
+Suppose the recording check leaves a real obstacle to using the information, and the team asks whether restoring the earlier handoff rule would reduce planning delay. [PSD.5](#psd-5) retains the concern account and the timeline for their own questions. Use an adequate existing causal model directly. When the causal relations are still missing, [C.28.CM](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28cm---construct-and-challenge-a-causal-model) constructs the needed contribution.
+
+Fix the outcome and horizon before comparing stories. Let X be the rule actually used for a handoff, M whether the receiving information is usable at planning time, Y the delay in assigning that work, and Z the load during the same period. R records what the register says about completeness; S records whether the row was selected for this investigation. Do not replace M with R merely because R is easier to obtain.
+
+One account proposes X→M→Y: the new rule changed the identifier correspondence, which obstructed use and delayed assignment. Load may also have prompted the rule change and delayed work, giving Z→X and Z→Y. The common cause does not erase the proposed mediated path. Under this model, a correctly applied correspondence repair can remove one source of delay while leaving the load-related delay.
+
+A rival account makes load the cause of both information arriving late and assignment delay: Z→M and Z→Y, with Z→X explaining why the rule changed at the same time. It omits X→M. Returning to the earlier rule then leaves those delays unless it changes another mechanism. These accounts may be combined if both mechanisms operate. Their arrows require process knowledge and evidence; the temporal coincidence of a template change and delay selects neither account.
+
+The useful consequence is now explicit: restoring the rule can change M in the first account but does not do so in the second under their stated mechanisms. Trace an affected identifier and the availability times to challenge that difference. If the disagreement is only about how to present known facts, causal construction adds no result. If the necessary process fact is missing, return that fact request instead of completing a graph by intuition.
+
+Selection also matters. If rows enter the investigation because their information is unusable or their assignment is delayed, both M and Y affect S. Restricting attention to S=1 can create dependence between M and Y even without a causal effect between them. Its direction and size do not follow from the three-node shape alone. Use the whole-path rules of C.28.CM for the chosen graph. Address this selection before using those rows to infer a relation across all handoffs.
+
+Separate the start, persistence and amplification of the episode. A correspondence change may start it; a continuing stream of unresolved rows with no correction owner may sustain it; repeated assignment changes may amplify the rework. These are hypotheses about different outcomes and times, not three interchangeable names for one root cause. When delay feeds future load, represent Y(t)→Z(t+1) with the relevant earlier influences. Do not call an unqualified directed cycle a DAG.
+
+### Match the proposed action and the evidence to the question
+
+Turning a blank field green changes an indication. Correcting and applying the identifier correspondence changes how information is handed over. [C.28.MR](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28mr---derive-an-intervention-consequence-by-mechanism-replacement) can derive their different consequences once the mechanisms and intervention are specified. [C.28](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c28---causaluse-cal-causal-use-questions-identification-and-realizability) separately asks what supports the resulting causal claim. A calculated consequence does not establish that the chosen mechanism describes this workplace.
+
+A qualitative distinction may suffice. If the decision needs a quantitative causal effect, [MMP.15](https://github.com/ailev/FPF/blob/main/Foundational%20Thinking%20DPF%20Suite/MATHEMATICAL-MODELING-PRACTICE-DPF.md#mmp15---identify-an-intervention-effect-from-available-data) asks whether the effect is identified under the model and available information. Its adjustment, front-door and transport examples develop different ways to obtain or limit an answer.
+
+An externally assigned offer of help is not the same variable as help actually used. For an instrumental-variable argument, MMP.15:4.3.1 derives the binary local effect and :5.4 works through the difference between offer, local-use and population effects. Hernán and Robins, [*Causal Inference: What If*, Chapter 16, §§16.1–16.6](https://miguelhernan.org/whatifbook), provide a fuller discussion of the assumptions and limits. Return with the target effect, the proposed instrument, the grounds for its assumptions, the identifying expression or remaining bounds, and the uncertainty relevant to this decision. For a binary offer and binary use, the difference in mean outcomes between offer groups divided by the difference in use rates is the Wald ratio. Relevance, exclusion and instrument exchangeability are necessary for that argument; those conditions alone do not identify the population average effect. With monotonicity and the chapter's consistency and interference conditions, the ratio identifies the average effect among people whose use changes because of the offer. These people are not simply everyone who accepted help, and that local effect need not answer what universal use would achieve. An invitation that teaches the work independently of use breaks exclusion; a weak change in use makes the ratio unstable. Neither an external-looking event nor four clarified rows supplies the required premises or adequate precision. If this conditional result does not answer the decision, return to the target, information or feasible intervention instead of relabelling it as a population effect.
+
+If an unresolved question still warrants research, [RMP.1](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp1--decide-whether-a-question-needs-research-and-when-to-stop) frames the exact question and current basis. [RMP.2](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp2--choose-a-criticism-bearing-research-design-or-stop) compares a useful, feasible design with using the evidence already available and selecting no new study. For a rule comparison, the design must address the load, information availability, timing and selection differences that could defeat its inference. A plan for such a comparison establishes no result of performing it.
+
+### Give a usable answer while uncertainty remains
+
+[PSD.8](#psd-8) keeps alternatives connected to the live formulations: repair the correspondence, restore the former rule, offer temporary clarification, change the deadline where authorized, or retain adequate current work. A rule repair addresses a proposed mechanism; temporary clarification may protect the receiving work while its cause remains unresolved. They are different claims of benefit.
+
+[PSD.9](#psd-9) keeps the value question visible: timeliness matters because of a receiving use, and the receiving group's convenience does not make unlimited upstream calls acceptable. [PSD.10](#psd-10) and [C.11.DUA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden) ask which remaining uncertainty can change the current choice and whether obtaining the missing result warrants its burden. A disruptive permanent rule change may need evidence that a temporary workaround does not.
+
+Suppose competent staff can perform one authorized cycle of manual clarification within a specified time budget, and current operational evidence supports its ability to make the required information usable. The manager may choose that bounded help while both causal accounts remain live. Its justification rests on the action's expected contribution, feasibility, costs and limits. Agreement among the models on this temporary action does not prove either model.
+
+If the same arrangement transfers intolerable work to another group, or if usable information still cannot exist by the required time, the temporary option loses that basis. Reopen the comparison or deadline question. Through [PSD.11](#psd-11) and [PSD.12](#psd-12), distinguish a change that matters only under one causal account from an action that remains adequate across the retained accounts. Return a partial comparison when no current basis selects among the permanent alternatives.
+
+[PSD.13](#psd-13) can now return: use the justified temporary help for this cycle; correct any established recording defect; keep the permanent rule choice open until the stated mechanism question is answered or the decision no longer needs it. This is conditional advice, not authority or evidence that the plan was executed.
+
+[EXD.4](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#exd4---co-construct-and-repair-an-explanation-in-dialogue) helps explain the decisive distinction and use the recipient's response. A preparer's objection, “that identifier does not exist until Friday,” can change the formulation, deadline premise and recommendation. Repeating the original explanation more clearly would not answer it. Agreement is unnecessary for a useful return that locates the disagreement and its consequence.
+
+### Reconsider the affected claim after action
+
+For the next cycle, the manager names a person with access to the sent material and processing history to report any recurrence before the following planning decision. Suppose that cycle is again delayed. [PSD.14](#psd-14) first distinguishes what was recommended, what was chosen, what people actually did and what the observations measured. Do not infer non-execution from a bad outcome or execution from a green completion flag.
+
+When the follow-up asks about a reusable working method, [ME.11](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me11---trial-the-method-in-representative-work) records the intended task and actual Work for the stated trial question. The resulting evidence can serve [ME.13](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me13---validate-a-methods-situational-fit-and-transfer) on fit or transfer and [ME.14](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md#me14---evaluate-a-methods-practical-worth-against-current-alternatives) on practical worth against current alternatives. One successful cycle establishes none of those broader conclusions by itself.
+
+The return depends on the supported distinction:
+
+| What the follow-up establishes | What to reconsider |
+| --- | --- |
+| The record described a different event or value from the one needed. | Correct or replace the measurement and revise claims that relied on it. |
+| Clarification was performed, but the proposed causal difference did not occur under the model's stated conditions. | Challenge that mechanism or its application; inspect live alternatives before strengthening the claim. |
+| The action had its predicted effect but cost more or displaced more important work than the comparison allowed. | Reopen the value, burden or option comparison. |
+| The chosen action was not performed, or its actual implementation changed the mechanism. | Address the execution or implementation question; the outcome does not test the unperformed action's effect. |
+| The action and model conditions held, but an acknowledged uncertain outcome occurred. | Update the evidence and current choice without treating one adverse outcome as proof that every prior decision was wrong. |
+
+Several explanations may hold together, or the evidence may not distinguish them. Return to the particular record, model, comparison, execution arrangement or formulation whose basis changed. “Poor discipline” cannot stand in for that discrimination, and success cannot certify the whole original theory.
+
+Operational work, temporary assistance and research can overlap in time. The causal graph describes proposed influences. The combination of methods describes which contribution another activity needs. The work history describes what actually occurred and when. Changing the labels on the arrows does not turn one of those structures into another.
+
+### Make a usable aid for your own inquiry
+
+The report case supplies one connected application. To use the reasoning in recurring work, you may need an aid whose questions colleagues can interpret and answer. Start with a narrow receiving use, such as deciding how to make next week's planning input usable. A ready problem account or a short conversation can be sufficient. Make a reusable form only when repeated omissions or misunderstandings warrant its preparation and upkeep.
+
+The following construction adapts the problem-card and intervention exercises in Anatoly Levenchuk's R4 guide to problem-structuring work. The filled cases are constructed teaching material. They show how to produce and change an aid; they do not establish that completing a form improves workplace decisions or that its reader has learned the method.
+
+**Derive questions from the next use.** Write the action the recipient must be able to take after reading the account. For the planning team, this is to choose a justified next response without assuming that a green timeliness indicator means usable information. Work backwards from mistakes that would change that response. Confusing a register with the received report calls for the actual material and its source. Confusing inconvenience with breach of an agreed requirement calls for the receiving work and applicable criterion. Confusing an explanation with an observation calls for separate support and conjecture. [PSD.3](#psd-3) supplies the formulation content and material contrasts; it does not require a separate form for every perspective.
+
+A first problem aid for this use can have four sections:
+
+| Section and instruction | Filled report example |
+| --- | --- |
+| **What receiving work is obstructed?** Identify the work, affected people, occasion and requirement. State the undesirable condition without naming a preferred remedy. | The planner cannot assign four reported items without clarification before this week's planning meeting. Sending by the deadline is insufficient: the agreed input must identify the work to be assigned. |
+| **What supports that account?** Separate what someone said, what was inspected, and the conclusion. Identify the cases and source; keep missing or contrary information visible. | In twenty rows selected for diagnosis, the planner requested clarification for four. The sent and received material can be inspected. The selection gives no organization-wide failure rate. Whether the identifiers existed before submission is unresolved. |
+| **What else could explain or change the difficulty?** Retain alternatives only where they change the next inquiry or response. Do not require a proved cause to describe an actual obstruction. | Available information may have been omitted, sender and receiver may use different identifiers, or the information may become available too late. A recording defect is also possible until actual receipt is checked. |
+| **What would count as useful improvement, and what is needed next?** State the receiving result and constraints; name the next consequential question, not every unknown. | The planner can identify and assign the required work in time without unbounded clarification work elsewhere. Inspect one affected handoff's actual information and availability time before attributing the delay to the reporting rule. |
+
+Each section has a consumer. Evidence limits what can be asserted; alternative formulations change what to inspect; the improvement condition later tests whether an option helps. A heading such as “Root cause” would force an early hypothesis into a settled answer. “Proposed software” would prematurely restrict the option set. Remove such requirements rather than asking users to fabricate entries.
+
+An agent's dissatisfaction can itself be a real difficulty. It does not by itself establish a particular defect, cause or remedy. The aid can therefore retain “the planner reports repeated frustration” while the delivery claim remains unresolved. Conversely, a sentence in a completed form creates no empirical fact. Preserve the source and support of each claim.
+
+**Build the intervention account from the problem account.** Copy only the formulation, receiving result and conditions needed to compare responses. Do not copy a suspected cause into a field labelled “established mechanism.” For each candidate, explain what changes, how that change is expected to help, what it depends on and what observation could require revision. Include temporary help, adaptation or continuation when they are serious alternatives. [PSD.8](#psd-8) supplies alternative generation; C.28.CM and C.28.MR supply a causal construction and its consequence when that question is live.
+
+For the report case, the intervention aid can carry these genuinely different candidates:
+
+| Candidate | Proposed change and expected contribution | Conditions and comparison that matter |
+| --- | --- | --- |
+| Apply a corrected identifier correspondence | Change the correspondence used in preparing and receiving the report. If a wrong correspondence is the operative obstacle, this supplies usable identifiers without repeated manual clarification. | Recover the actual correspondence defect, obtain authority to change both uses and check the material produced. Compare usability and processing delay for relevant cases; a successful example alone does not estimate a general causal effect. |
+| Provide one cycle of manual clarification | A competent person obtains and conveys the required information for this cycle. This can protect planning while the explanation of the original failure remains open. | Information must exist in time; the helper needs access and a feasible time budget. Observe whether the planner can use the information and how much work is displaced. Stop or revise if the budget or required availability fails. |
+| Change the timing or content of the commitment | Where information cannot exist by the current deadline, obtain an authorized agreement about later completion or a usable preliminary report. This changes the obligation rather than making unavailable information appear. | The receiving work must tolerate the changed commitment. Observe its actual delay and burden, not merely whether the revised due date makes the indicator green. |
+
+Keeping current work remains an option when its present consequences are acceptable under the applicable criteria. It is not equivalent to leaving every question unanswered. A combination also needs its own explanation: temporary clarification may accompany a correspondence repair, but the helper's finite time cannot be promised independently to every measure.
+
+Add a final section, **“What will be compared, by whom, and what follows?”** Bind observations to the intended result and the action actually performed. For example: before the next planning decision, the assigned observer checks the received identifiers, clarification time and assignment delay for the agreed cycle. The observer reports whether the chosen measure was performed and under which conditions. A failed receiving result can reopen measurement, implementation, mechanism or value; use the preceding return table to distinguish those claims. Comparing before and after is descriptive unless a suitable design supports causal attribution.
+
+**Try the aid where a causal story is unnecessary.** A workshop coordinator has promised two sessions on Friday, needing three and two hours of the same room. The room is available for four hours. For this exercise, the sessions cannot overlap or be shortened, no preparation time is needed, and these durations and availability are given facts. The difficulty is not an unexplained fall in productivity: the simultaneous commitments cannot be met under these constraints, because 3 + 2 > 4.
+
+The problem account now names both commitments, the shared room and Friday's window as its basis. “Why are people inefficient?” adds an unsupported cause. The useful next question is whether a commitment or a resource condition may change. One intervention moves the two-hour session to a separately available Saturday slot, subject to participants' and the commitment owner's agreement. Another obtains a second suitable room for those two hours, with the required access and cost acceptable to the responsible parties. Retaining both Friday commitments in the original room is infeasible under the stated premises; a preference score cannot repair that fact.
+
+If either option is selected, the receiving check concerns the actual booking and the preserved session requirements. No new causal graph is needed to establish the arithmetic incompatibility. Whether participants will attend on Saturday is a different empirical premise, which the sum does not settle. If the second room is unavailable, retain the incompatibility result and reconsider the options; do not reinterpret an unconfirmed booking as capacity.
+
+This case changes the aid's explanation section to **“What grounds establish or could change this account?”** It permits a constraint argument as well as causal hypotheses. The intervention section still asks what changes and why that supplies the receiving result. A form that requires a hidden root cause and an experiment for every difficulty would fail this use. For a form intended only for report handoffs, keep the narrower terms and state that boundary instead of expanding it into a universal questionnaire.
+
+**Test the aid and correct the transition that fails.** Fill it with two or three actual or constructed cases within its intended scope, including an unresolved claim. Give a filled account to a colleague without supplying an oral explanation of facts absent from the aid. Ask them to explain the difficulty, the basis for the claims and the next justified move. Their request for an omitted availability time can reveal missing content; inability to interpret “complete” can reveal ambiguous wording; disagreement with an authorized criterion may instead expose a substantive conflict. Do not repair every objection by adding a field or by repeating the explanation.
+
+[CHK.2](CHECKLIST-PRINCIPLES-FRAMEWORK.md#chk2---construct-a-checklist-template-that-preserves-its-questions) explains how selected questions, answer meanings and references survive a reusable form and its views. Use it when representation is the difficulty. Return a missing or unsuitable question to its substantive owner. Retain an adequate existing aid when the new version adds burden without changing what the recipient can do.
+
+If learning is the purpose, save the first attempt, explain the correction and try a changed case before claiming independent performance. [HCD.9](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-9) supplies practice with feedback; [HCD.10](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-10) helps vary the missing operation. A completed template, an intelligible description, a justified intervention and demonstrated capability are different results. This construction can finish with a useful aid and a precise unresolved question without establishing the effectiveness of an intervention or a person's later unaided performance.
 
 # Framework boundary, sources and refresh
 
