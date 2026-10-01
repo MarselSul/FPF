@@ -1,4 +1,6 @@
-# First Principles Framework (FPF) Ecosystem
+# FPF Library
+
+**FPF Library** is the collection of the First Principles Framework project's own publications: **FPF Core**, **Domain Principle Frameworks (DPFs)**, their **Suites**, and accompanying References and usage materials.
 
 > **AI-native declarative pattern languages for engineering work.** FPF gives engineers and AI agents a shared, precise language for Systems, Methods, architecture, Work, evidence, verification, decisions, improvement, and communication.
 
@@ -9,9 +11,11 @@
 
 **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 
-**Status:** normative kernel and evolving ecosystem; eternal alpha—already used in working projects and development programs while continuing to change.
+**Status:** evolving publications; eternal alpha—already used in working projects and development programs while continuing to change.
 
 This repository publishes the transdisciplinary **FPF Core** and domain pattern languages, available individually or in the **Foundational Thinking** and **Engineering DPF Suites**. This Readme helps you choose among these publications. The [Readme inside FPF Core](./FPF-Spec.md#first-principles-framework-fpf-readme) gives practical examples of using Core; the [Engineering Suite Readme](./Engineering%20DPF%20Suite/) helps you choose and combine its DPFs. The [Foundational Thinking Reference](./Foundational%20Thinking%20DPF%20Suite/FOUNDATIONAL-THINKING-DPF-SUITE-REFERENCE.md) connects mathematical, physical, computational, modeling and notational contributions and explains their uses and limits.
+
+The wider **FPF ecosystem** also includes other authors' DPFs and LPFs, tools, and services for using FPF.
 
 ## Start here
 
@@ -48,7 +52,7 @@ A constituent action can also perform several levels of work at once: updating a
 
 An AI agent can therefore help choose the **next justified move** without pretending that the entire project follows one fixed sequence. The useful move may be a clarified question, an identified System, an architecture comparison, an evidence request, a decision record, a changed Method, a bounded Work plan, a source-grounded explanation, or an explicit stop because a necessary basis is missing.
 
-## What is in this repository?
+## What is in the Library?
 
 | Publication | What it contributes | Typical working questions |
 | --- | --- | --- |
@@ -248,7 +252,7 @@ FPF is most useful when the cost of semantic drift, hidden assumptions, prematur
 
 This README is a public entry point, not the normative specification. It deliberately coarsens and omits detail. When a claim becomes important, inspect the exact pattern body, definitions, checks, source uses, and stop or reopen conditions in [FPF Core](./FPF-Spec.md) or the relevant DPF.
 
-The framework is an **eternal alpha**: it is usable now and continuously revised as its sources, working situations, patterns, and evaluations change. AI agents should expose the source edition or snapshot they used whenever currentness matters.
+The Library's publications are an **eternal alpha**: they are usable now and continuously revised as their sources, working situations, patterns, and evaluations change. AI agents should expose the source edition or snapshot they used whenever currentness matters.
 
 ## License and reuse
 
@@ -259,6 +263,8 @@ You choose the license for your own original DPF or LPF. Using FPF methods or it
 ## Citation
 
 ```text
-Levenchuk, Anatoly. First Principles Framework (FPF).
+Levenchuk, Anatoly. FPF Library.
 GitHub repository: https://github.com/ailev/FPF
 ```
+
+For a specific claim or method, cite the publication, edition and pattern used.
