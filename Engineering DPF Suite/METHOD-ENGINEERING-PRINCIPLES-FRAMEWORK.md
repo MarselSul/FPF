@@ -227,6 +227,8 @@ repair already resolves the working difficulty.
 
 **Constituent actions in ongoing work.** During a trial of a proposed review Method, asking a participant to explain a unit conversion can constitute part of testing that Method, while the trial constitutes part of developing the team's way of reviewing. If the trial asks about unaided recognition, supplying the conversion during the attempt changes what the trial can establish. The facilitator needs both the subject knowledge and the ability to elicit performance without supplying the answer. ME.6's worked case develops this connection; FPF B.1.5.EW recovers it and B.1.5.RS helps compare a substitute constituent. Preparing the trial remains earlier work, not an activity presumed to continue throughout it.
 
+**Learning to recover and change a way of working.** If you know the work and want to learn how to explain and change its method, use the Reference's [practice with records, first attempts and explained answers](ENGINEERING-DPF-SUITE-REFERENCE.md#learn-to-recover-and-change-a-way-of-working). You can save an attempt, compare it with the discussion and correct it yourself. Individual feedback requires a qualified helper and agreed time; the text supplies material for self-checking.
+
 ## ME.Preface:4 - Status, evidence, and assurance decisions are preserved
 
 Identification, qualification, selection, trial, and effectiveness are different claims. A candidate account
