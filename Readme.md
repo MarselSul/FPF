@@ -40,6 +40,12 @@ FPF is designed for two complementary uses:
 
 FPF is not an agent framework, an agent runtime, or a software-coding methodology. It is a knowledge and reasoning framework that can guide work in manufacturing, construction, mechanical and electrical engineering, energy, robotics, laboratories, healthcare technology, education, embodied practice, software-intensive Systems, and other fields.
 
+## Uses and community projects
+
+People also use and adapt FPF outside this Library. Explore a [reported legacy-monolith decision](./docs/community-uses.md#legacy-monolith), [VibeVM’s versioned distribution](./docs/community-uses.md#vibevm), the [FPF-agent integration](./docs/community-uses.md#fpf-agent), and a [third-party Backend DPF prototype](./docs/community-uses.md#backend-dpf).
+
+The [full selection of uses and community projects](./docs/community-uses.md) links to primary materials and distinguishes reported use, published implementation and prototype work. These independent projects are separate from the project’s own FPF Library publications; inclusion does not imply endorsement or certification.
+
 ## Why an AI-native pattern language?
 
 The FPF Core contains more than 300 interlinked transdisciplinary patterns. Reading and remembering the entire corpus is not a prerequisite for using it—and is rarely the best human entry mode. A capable AI agent can serve as a high-bandwidth reader of the pattern language: search the corpus, inspect a small set of plausible patterns, quote exact source passages when needed, and translate the relevant distinctions into the engineer's working language.
