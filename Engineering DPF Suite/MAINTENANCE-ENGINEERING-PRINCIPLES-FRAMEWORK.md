@@ -1179,6 +1179,8 @@ Use this pattern when a maintenance decision depends on connecting service histo
 
 Restore a usable information basis for the receiving maintenance question. Reuse [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity)'s configuration identity and effectivity contribution; this Method adds the service-event and exposure continuity that maintenance decisions consume. A new database, complete digital twin or plant-wide inventory is unnecessary when a smaller reconciliation answers the question.
 
+For practice with entry dates, replacement events and component intervals, use [the first-use task](#mnt1241---first-use-with-a-replacement-history).
+
 ### MNT.12:2 - Problem
 
 The same part number can identify a design used by many physical units. A new document edition can exist while the installed machine remains unchanged. A planned replacement can appear in a system before the work occurs. Treating those entries as one current configuration can attach evidence to the wrong subject.
@@ -1204,6 +1206,30 @@ Maintain the intended user's ability to retrieve and interpret the result. Use t
 Keep corrections distinguishable from new physical events. Correcting a mistaken serial number changes the account; replacing the component changes the machine. A Method or software change can also alter the meaning of a code without changing earlier events. Preserve the interpretation needed for comparison instead of silently recoding the past as if the categories were always identical.
 
 Return the qualified information basis, its source links and any uncertainty that changes the next use. If the present question is answered, stop. Broader data repair is selected only when another real use warrants the work. Where retention or access is governed by operative requirements, preserve those obligations without inventing a new universal retention rule.
+
+#### MNT.12:4.1 - First use with a replacement history
+
+Use this practice when you can read maintenance records but still need to distinguish an entry date, an actual replacement and the interval belonging to each component. Make and retain your own answer before reading the discussion. The constructed time window uses equal operating conditions and continuous operation, so exposure here equals each component's installed duration.
+
+**Make a first attempt.** In `[6,12)`, configuration C41 contains bearing R551 until its replacement at 8; C42 contains R607 from 8 onward. The replacement account was entered at 10. There is a condition observation at 7 and a functioning test at 9. The test records PS17 without an independent identification of the bearing's serial number: its component attribution relies on the supported installation history. Allocate the exposure in this window and identify which configuration the observation and test concern. State the grounds for each attribution.
+
+Choose an available edition containing [SYSE.13:4.4, Use a record for one configuration-dependent claim](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1344---use-a-record-for-one-configuration-dependent-claim), including its uncertain-time explanation, and keep that copy available for the exercise. Read that bounded fragment with your attempted answer in view. Return here with the actual component intervals, the relevant event times and any unresolved attribution. You need another part of [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) only if another configuration question requires it.
+
+**Compare your reasoning.** R551 accumulates `8−6=2` time units and R607 accumulates `12−8=4`, totaling 6. The observation at 7 concerns C41; the test at 9 concerns C42. Entry at 10 does not move the replacement from 8 to 10. Preserve R551's earlier history; R607 does not inherit its predecessor's exposure.
+
+Revise the part of your answer whose grounds differ. Try each changed premise below before reading its discussion.
+
+**Corrected event account.** Reconciliation of the original evidence establishes that replacement actually occurred at 10. The former boundary at 8 was an error in the account; its supported correction was entered at 11. What changes?
+
+**Discussion.** R551 now has 4 time units and R607 has 2, still totaling 6. The test at 9 preceded replacement and no longer supports the former claim about testing C42/R607. This conclusion follows from the reconciled event evidence, not from preferring the latest entry. Correcting the account creates no second replacement. [MNT.10](#mnt10---verify-restored-functioning-after-maintenance) and [MNT.11](#mnt11---hand-back-and-authorize-resumed-use-after-maintenance-with-certification-where-required) retain the requirements for functioning evidence and resumed use; changing a record does not meet them.
+
+**Uncertain event time.** For a separate variation, replace the exact replacement time with evidence of one transition `τ∈[8,10]` in the same `[6,12)` operating window. There were no other replacements or gaps. What exposure and test attribution can you still return?
+
+**Discussion.** R551 has `τ−6` time units and R607 has `12−τ`. Each lies between 2 and 4, but they vary together: `τ=8 → (2,4)`, `τ=9 → (3,3)`, `τ=10 → (4,2)`. The total remains 6 for every admissible time. It is not a range from 4 to 8. The observation at 7 still concerns the earlier configuration. The test at 9, without independent component identification, cannot be attributed confidently to R607.
+
+Return the result at the scope the receiving question needs. A total-exposure question may use 6; a component-specific duration or restored-function question may require the actual boundary or separate evidence about the new component. Seek that relevant observation or accountable source answer when worthwhile; otherwise retain the uncertainty. Preserve unaffected history.
+
+Apply the same distinctions to one of your own event records and state which premise could change your answer. Work with these explanations can support correction; it does not establish independent performance on new material. Obtain competent feedback on an unresolved step before relying on its attribution.
 
 ### MNT.12:5 - Archetypal Grounding
 

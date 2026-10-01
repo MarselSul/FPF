@@ -382,6 +382,8 @@ Use this pattern when a choice depends on matching asset, condition, cost and in
 
 Start with the decision and identify which differences would change its answer. Return a usable information basis for those assets, with unresolved matches and their consequences. An adequate current basis can be reused.
 
+For practice with record dates, installed state and quotation validity, use [the first-use task](#eam341---first-use-with-two-quotations).
+
 ### EAM.3:2 - Problem
 
 A station code, serial unit, design variant and configuration description can share a convenient name while denoting different things. Combining them can attach an old condition account to new equipment or price a modification of a configuration that is not installed. Requiring a complete database before any choice creates the opposite problem: useful work waits for irrelevant information.
@@ -403,6 +405,28 @@ Resolve conflicting records at their sources. A later timestamp alone does not m
 Consider the consequence of each gap. If every plausible value leaves the requested answer unchanged, qualify the answer and continue. If the value changes technical eligibility, cost or service, obtain the smallest worthwhile applicable result or keep the affected option conditional.
 
 Return the information needed for the choice in a form its recipient can inspect. A small table can suffice. Identify the configuration, duty or source change that would reopen it. An enterprise data-model redesign belongs in [EAM.14](#eam14---decide-whether-and-how-to-change-the-asset-management-system) only when that arrangement is the recurring problem being addressed.
+
+#### EAM.3:4.1 - First use with two quotations
+
+Use this practice when you can read asset and supplier records but still need to distinguish a record's date, the installed state and the time for which a price applies. Keep your first answer before reading the explanation and discussion. The figures and dates below are constructed teaching inputs.
+
+**Make a first attempt.** C-07 has had drive configuration V2 since time 8; its installed state is confirmed for the required decision time 15. Quotation Q1 was issued at 12 and covers V1. A separate, unwithdrawn Q2 was issued at 6 and expressly covers the required V2 modification, service and appraisal horizon; its commercial terms remain valid until 20. Neither quotation is treated as a successive edition of the other. Which quotation can support the modification-cost claim at 15, and why? Record any correspondence or fact you cannot yet establish.
+
+Choose an available edition containing [SYSE.13:4.4, Use a record for one configuration-dependent claim](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse1344---use-a-record-for-one-configuration-dependent-claim), including its uncertain-time explanation, and keep that copy available for the exercise. Read that bounded fragment with your attempted answer in view. Return here with the supported installed state, the quotation's subject and conditions, and the period needed by the decision. The rest of [SYSE.13](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse13---establish-configuration-identity-variants-and-effectivity) is needed only if another configuration question requires it.
+
+**Compare your reasoning.** Q2 supports the specified cost claim at 15: it covers the actual V2 modification, the needed scope and the applicable commercial period. Q1 remains a quotation for V1 despite its later issue date. Q2's issue before installation does not prevent it from describing the later installed configuration. If your actual records leave V2 or interface coverage unsettled, ask the supplier that specific question or retain a conditional cost. A quotation alone does not establish future service performance; independently applicable water-demand information remains usable.
+
+Revise your answer where its grounds differ from this account. Then try the following changes before reading their discussions.
+
+**Changed time.** The decision is now required at 21. Configuration and work scope are unchanged, and no renewed Q2 terms have been supplied. What remains supported?
+
+**Discussion.** Q2 no longer supplies a valid price for the required time. Obtain applicable terms or leave the cost conditional. The installed-state account and independently usable demand information remain valid.
+
+**Uncertain installation time.** For this separate variation, return to the decision at 15. Replace both the original installation-time premise and the confirmation of V2 at 15 with evidence of exactly one transition from V1 to V2 at a time τ in [14,16]. No independent evidence establishes the configuration at 15. Q2 covers only V2 and remains valid until 20. Can it now supply an unconditional cost?
+
+**Discussion.** Its commercial period fits, but V2 at 15 is not established. Keep Q2's cost conditional until evidence establishes the relevant state or another applicable cost result covers the remaining possibilities. Q1's existence alone does not supply such a result. Where a requested conclusion is supported for every admissible state, retain that conclusion with its information limit; these inputs do not establish that condition for the Q2 price.
+
+Use the same reasoning on one of your own records, stating what the available source supports and what would reopen the match. Comparing an answer with this discussion can guide correction; it does not establish independent ability on new material. If the remaining distinction is unclear, obtain competent feedback on that step before relying on an unsupported match.
 
 ### EAM.3:5 - Archetypal Grounding
 

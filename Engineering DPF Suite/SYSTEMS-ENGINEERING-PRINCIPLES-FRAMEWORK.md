@@ -6679,6 +6679,8 @@ Recurring tensions include:
 Develop the smallest configuration basis that lets one engineering decision distinguish actual Systems,
 variants, descriptions, and applicability.
 
+Use [the record-and-time explanation](#syse1344---use-a-record-for-one-configuration-dependent-claim) when this correspondence is unfamiliar; continue with an adequate existing basis when it is already established.
+
 #### SYSE.13:4.1 - Perform the Move
 
 1. **Name the decision and differences that matter.** State the deciding Agent, question, use, project
@@ -6736,6 +6738,32 @@ while release and service claims become serial-unit and effectivity aware.
 Tools may expose a mismatch without deciding what it means. Engineers resolve the first collision that can change
 the decision and leave unrelated inventory alone. A changed source reopens the smallest affected claim rather
 than freezing the whole product or silently rewriting the reference baseline.
+
+#### SYSE.13:4.4 - Use a record for one configuration-dependent claim
+
+Use this explanation when you can work with the records of your practice but are unsure which state, event or period a record supports. Start with the claim your present decision needs. An adequate established correspondence can be used directly.
+
+Name the actual or intended subject of the record and the subject of the decision. Recover the description edition, identifier scheme and conditions when they can change this use. A common name or a later date does not establish the correspondence. Keep an installed state distinct from a design, plan or status entry. Different identifiers can be harmless when their supported mapping preserves the subject needed by the decision.
+
+**Distinguish three questions about time.** When was the record made or the account entered? When did the reported state or event actually obtain? At what time, or over what interval, must the claim needed by the decision apply? The answers can coincide, but one answer does not establish the others. Recover only the distinctions needed by your claim.
+
+An entry date helps recover the history of an account. Use evidence of installation to establish or bound when it occurred. A quotation has its own subject and conditions: it can be written before installation yet cover the subsequently installed configuration, or be written later and still cover a different configuration. Its issue date does not establish the period for which its terms apply.
+
+Place the relevant states and events on the interval the decision concerns. Attach an observation to the supported state at its observation time. To use that observation over a longer interval, identify the grounds for that extension. Split an interval at a configuration change that affects the claim. Keep unsupported parts qualified.
+
+When a later record supplies a supported correction of the earlier account, revise the affected correspondence and retain the earlier account as history. Entry of that correction is not another physical installation. When the sources do not settle the state or event, return the uncertainty to the receiving decision.
+
+##### SYSE.13:4.4.1 - When the change time is uncertain
+
+Suppose the evidence supports an earlier state, a later state and exactly one transition between them, but bounds its time τ only by `a ≤ τ ≤ b`. The case treats the transition as one boundary: from τ onward the state is the later one. Before a the earlier state is supported; from b onward the later state is supported. At times in `[a,b)`, a claim that depends on which state obtained remains conditional unless further evidence settles it. Additional transitions, reversals or gaps require a different history.
+
+Apply the receiving calculation or decision to the admissible event times. Retain conclusions that remain supported across them. Qualify the parts that change and obtain the smallest worthwhile observation or source answer that could settle the receiving question. A midpoint is an estimate only when there are grounds to use it; it is not a recovered event time.
+
+Quantities calculated from the same unknown event can vary together. If one component leaves when another enters and this is the only replacement in a continuously operating window `[u,v)`, their durations are `τ−u` and `v−τ`; their sum is `v−u` for every admissible τ. For `τ∈[8,10]` in `[6,12)`, the paired durations include `(2,4)`, `(3,3)` and `(4,2)`: the total is always 6. Combining both separate maxima would describe no admissible history. Stops, different duty or another exposure measure require the receiving practice's own calculation.
+
+**Return to your task.** Bring back the supported correspondence, its time limits and remaining uncertainty. Explain which record supports which claim and which changed fact would change the answer. Use the receiving method to decide whether a gap matters, which further result is worth obtaining and which subject-specific evidence or permission is still needed. Retain unrelated usable results.
+
+If you came from [EAM.3's first use](ENGINEERING-ASSET-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#eam341---first-use-with-two-quotations), return to its quotation task and discussion. If you came from [MNT.12's first use](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt1241---first-use-with-a-replacement-history), return to its event and exposure task. Otherwise return to the decision you named at the start.
 
 ### SYSE.13:5 - Worked Case: Pump-Controller Variants and Ten Installed Units
 
