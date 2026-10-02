@@ -3,7 +3,7 @@
 HCD is a pattern language for deriving human capability demand from later Work, designing and sustaining development arrangements, judging human contribution, transfer and retention, and evaluating instructional material under stated audience, task, support and time conditions.
 
 > **Author:** Anatoly Levenchuk with AI-assisted development and review.
-> **Version:** 28 September 2026 — twenty-nine-pattern edition
+> **Version:** 2 October 2026 — twenty-nine-pattern edition
 > **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 > **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 > **Publication:** [FPF repository](https://github.com/ailev/FPF). [Citation](#citation).
@@ -1049,7 +1049,7 @@ Use this pattern when one named person has a recoverable later-Work demand and a
 
 The first useful result is a **programme-comparison account**: comparable descriptions of the actual programme candidates, their intended task closure, contribution and access allocations, burdens, uncertainties, evidence needs, applicability conditions, and the smallest change that would reopen the comparison. If only one candidate remains feasible, describe that candidate and the missing comparison rather than inventing a rival or calling it dominant. A separate authorized choice consumes the comparison.
 
-The practical gain is a programme that can be inspected as a finite change from what the person can already do with available support. The practitioner can see whether a proposed component completes a usable contribution, preserves a prerequisite, adds a future option, or merely displaces practice that another required result still needs.
+The practical gain is a programme that can be inspected as a finite change from what the person can already do with available support. The practitioner can see whether a proposed component completes a usable contribution, preserves a prerequisite, adds a future option, or merely displaces practice that another required result still needs. When another start competes with unfinished learning, §4.2a compares continuing, pausing and starting together.
 
 Do not use HCD.2 to design a universal course for an unknown audience, diagnose a person, choose on behalf of the decision owner, promise learning, or establish provider competence. When the current recipient is a learning-product author who does not yet know the learners, return the outputs, audience assumptions, existing alternatives, resource boundary, and individualization questions to [HCD.28](#hcd-28). It constructs and compares the whole learning product; its conditional variants and requirements can then supply this personal comparison. A named person's compatible Work, entry performance, support, and participation conditions are the retry inputs for personal comparison.
 
@@ -1128,6 +1128,20 @@ Recover the relevant vertical within each complete task, using FPF B.1.5.EW when
 
 For example, in a stipulated dance case, strength and recall of the figure are adequate but balance during rotation is not. A programme adds suitable rotational-coordination practice and return to the figure under varied relevant conditions; it need not repeat the already mastered strength and recall work. HCD.3 distinguishes that gap from other causes, HCD.6 designs the practice and HCD.10 distributes its variation. A domain practitioner supplies the exercise and performance criterion.
 
+#### HCD.2:4.2a - Compare a New Start with Unfinished Learning
+
+When another component would start alongside unfinished learning, recover what is still needed for the contributions already being developed before treating the addition as feasible. A **learning line** here is the remaining development towards one declared task contribution or a bounded future option. Several exercises can belong to one line; completing an exercise need not close that line.
+
+Start from the person's current programmes and recent attempts, including paused work that still needs maintenance or would incur a restart cost. For each relevant line, recover the intended later use and its threshold under allowed support, what the person has already demonstrated, and what remains unsupported. Then describe the remaining practice, feedback, learner correction and checks needed for that use. Include the provider and access windows that make them possible. Include a delayed or unassisted check only when the intended use requires it.
+
+Compare the proposed new start with continuations that finish an existing contribution, preserve necessary practice, or deliberately pause or retire a line. Compare remaining benefit and burden; time already spent is not a reason to finish. A future option can justify a new start, but name what the bounded exploration will make possible or settle and when it returns for a decision. Calling every new topic an option leaves no stopping condition.
+
+Construct a feasible **boundary on concurrent learning** for each candidate. Place the remaining attempts, feedback and correction in the available learner and provider windows; check attention blocks, shared tools and any assistance needed at the same time. Count a shared activity once when it serves several lines, while retaining different observations needed for different claims. Include maintenance, transition and restart costs of a pause. A sum of course hours can fit even when feedback arrives too late for correction or two lines need the same scarce practice window.
+
+State which lines can remain active together and under what condition another can start: for example, an existing contribution is closed to its declared criterion, one line is paused with its consequences accepted, or additional usable capacity becomes available. The result can be a conditional set of compatible lines rather than a fixed count. Splitting one line into more modules does not change its remaining demand. Carry this boundary and its protected work into the programme comparison; the authorized decision owner still chooses whether to start, continue or pause.
+
+Return actual attempts and help from HCD.9 to this account. A successful episode removes only the remaining work its evidence settles; the wider contribution can still need a changed-case attempt or another required check. HCD.11–13 supply stronger observations only where the intended claim needs them. Failed correction, a changed later task or a lost provider window changes the remaining work or feasible boundary through HCD.14/.15. When the required result is established, remove the completed work from the open set while retaining any needed maintenance. These changes can tighten or widen the boundary.
+
 #### HCD.2:4.3 - Make the Descriptions Comparable
 
 Describe every candidate on the same decision-bearing positions:
@@ -1141,9 +1155,9 @@ Describe every candidate on the same decision-bearing positions:
 | preparation and sequence | True prerequisites, simultaneous complements, dependency reasons, and any replaceable or optional ordering. Printed topic order is not a capability hierarchy. |
 | practice and evidence plan | Representative attempts, permitted help, feedback, correction, retries, changed-condition checks, delayed checks, and the observation each supports. |
 | access and provider basis | Actual and assumed sources, tools, AI, people, environments, permissions, capacity, peak load, and missing enablement. |
-| resources and displacement | Learner time, provider time, preparation, assessment, transition, tool or material burden, and the useful activity displaced by the change. |
+| resources and displacement | Learner time, provider time, preparation, assessment, transition, tool or material burden, and the useful activity displaced by the change. For concurrent unfinished learning, include the remaining commitments and pause/restart consequences from §4.2a. |
 | uncertainty and source limits | Evidence for each expected contribution, unsupported effect claims, transfer and retention limits, and the observation that could change the estimate. |
-| continuation | Future options opened, preserved or closed; applicability conditions; exact constraint or evidence gap; and smallest change that reopens the comparison. |
+| continuation | Future options opened, preserved or closed; applicability conditions; the feasible boundary on concurrent learning where relevant; exact constraint or evidence gap; and smallest change that reopens the comparison. |
 
 Unequal detail is itself a comparison gap. Develop only the smallest missing fragment needed to compare the same task, output, conditions, support, and resource coordinates. Do not require complete competing courses when one closed task family can discriminate the alternatives.
 
@@ -1215,6 +1229,29 @@ If the learner budget falls from 340 to 204 hours while both outputs remain fixe
 
 A named person has a qualified near-term engineering task and strong entry evidence. Only one candidate currently fits the deadline and available project access; a second candidate depends on an unavailable specialist. HCD.2 may return the feasible candidate, its finite comparison with the current configuration, and the exact specialist result that blocks the other candidate. It does not invent a weak rival, call the feasible programme universally best, or infer that the programme will work. A later provider result, deadline change, or changed task reopens the bounded comparison.
 
+#### HCD.2:5.4 - Two Unfinished Lines and an Attractive New Start
+
+In this constructed case, Lena has six learner-hours and two 45-minute sessions with a suitably qualified teacher in the coming week. The sessions can each return feedback early enough for a learner correction and subsequent check. The programme must preserve preparation for Friday's report. A second line concerns work next month; a simulation method might open a further project option.
+
+Recover the remaining contribution of each line:
+
+| Line | Existing evidence and remaining useful result | Remaining burden in this window |
+| --- | --- | --- |
+| A — justify a dashboard anomaly | Lena computes the indicator correctly. She still needs to distinguish two plausible explanations, select a discriminating observation and correct her reasoning on a changed case under the allowed reference. This is needed for Friday's report. | Two learner-hours for attempt, feedback use, correction and check; one 45-minute teacher session, including preparation and review. |
+| B — adapt a data query | A query works on the practised structure. The remaining task is to adapt it to a changed structure and check the result with the permitted reference. No further topic reading is needed on the stipulated evidence. | Two learner-hours and one 45-minute teacher session for the remaining attempt, correction and check. |
+| C — explore simulation | This is a proposed start, not an acquired contribution. One supported model and a contrast with the current analysis would inform whether a further simulation programme is worth constructing. That decision ends this exploration. | Two learner-hours and one 45-minute teacher session for the bounded exploration and its review. |
+
+All three fit the six learner-hours but need 135 teacher-minutes; only 90 are available. Counting A's completed calculation and B's completed query as closed learning would conceal this competition. There are at least two comparable continuations that preserve Friday's requirement:
+
+- **Continue A and B; defer C.** Four learner-hours and 90 teacher-minutes are allocated to the two remaining task contributions. Completion is intended, not guaranteed by those allowances.
+- **Continue A and open C; pause B.** The same four learner-hours and 90 teacher-minutes supply A and the exploration. On the stipulated pause arrangement, preserving B's partial work takes another half-hour now and returning to it requires a further half-hour next month. Its remaining practice is still owed, and its later use must tolerate that delay.
+
+The two continuations have different closure, option and transition consequences. HCD.2 returns those differences and a boundary of these two compatible active lines, not a universal maximum of two or a choice made for Lena. If the next project now requires simulation while B's later use is cancelled, opening C and retiring B can become preferable; unfinished status is not a reason to retain obsolete work.
+
+Under the original work estimates, a confirmed third timely teacher session would make the three-line candidate feasible at six learner-hours and 135 teacher-minutes. This widens the available comparison without establishing that taking all three is preferable.
+
+Suppose instead that A's next attempt reveals another correction requiring one learner-hour and a further 45-minute teacher session before Friday. A now consumes three learner-hours and both sessions. The previous two-line continuations no longer fit. With the same help, a candidate can keep only A active and pay B's half-hour pause cost: 3.5 learner-hours and 90 teacher-minutes. Retaining B or starting C as described requires additional suitable help or a changed arrangement. HCD.9's result changes the remaining work; HCD.14/.15 reopen the affected comparison.
+
 ### HCD.2:6 - Bias-Annotation
 
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: personal human-capability programme composition and comparison under qualified later-Work, participation, support, and evidence conditions.
@@ -1241,6 +1278,7 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: personal hu
 - [ ] Preparation, representative attempts, feedback, correction, retries, changed-condition or delayed checks, and provider/access work are inside the candidate account.
 - [ ] Candidates use the same decision-bearing output, error, burden, support, horizon, uncertainty, and future-option positions; unequal detail is reported as a gap.
 - [ ] Learner, teacher, assessor, specialist, transition, tool, material, and displaced-work burdens are visible where they change the comparison.
+- [ ] When another start competes with unfinished learning, the comparison recovers remaining work, compares closure with opening an option, and states which lines can remain active together, when another may start and what would change that boundary.
 - [ ] Supported, independent, changed-condition, transfer, and retention claims remain distinct, and unobserved gains remain hypotheses.
 - [ ] Any dominance wording is bounded to the candidates, coordinates, horizon, conditions, and evidence actually compared.
 - [ ] The result contains a usable disposition and smallest reopen condition but no final choice, authorization, launch, provider-operation, or effectiveness claim.
@@ -1294,7 +1332,7 @@ This comparison adds design and evidence work, but it is non-dominated for the s
 - **`HCD.8`:** compares obtaining or building an exact unavailable contribution and establishes the preparation or operating test the selected route needs; already established usable support can be arranged directly through HCD.7.
 - **`HCD.9` and `HCD.10`:** carry out focused practice and change its variation, spacing, interleaving, challenge, or help while preserving attempt history.
 - **`HCD.11`–`HCD.13`:** provide compatible observed performance, transfer, retention, and support-dependence evidence; the programme description does not manufacture those observations.
-- **`HCD.14`:** revises only the programme assumptions and parts affected by compatible evidence.
+- **`HCD.14` and `HCD.15`:** revise affected programme assumptions and parts, or reopen development when later Work or support changes; changes in remaining work or available help can revise the boundary on concurrent learning.
 - **`C.11.CRC`:** supplies the finite configuration-relative comparison claim. **`C.11`** separately supplies a bounded choice when its preference, belief, outcome, probe, and authority inputs exist.
 - **PSD and other advice Methods:** may recommend a programme to a named recipient from qualified inputs; advice does not compose the missing programme or make the choice for its owner.
 - **HCD.28:** constructs and compares a whole learning product for a future audience, using HCD.5–8 and other applicable contributions. HCD.2 returns the unknown-audience question there and consumes suitable variants only with compatible personal evidence.
@@ -7270,7 +7308,7 @@ The designation identifies the complete HCD pattern set and reader carrier. The 
 
 **Author:** Anatoly Levenchuk with AI-assisted development and review.
 
-**Version:** 28 September 2026 — twenty-nine-pattern edition
+**Version:** 2 October 2026 — twenty-nine-pattern edition
 
 **Status:** Eternal alpha: used in working development projects and open to continuing correction.
 
