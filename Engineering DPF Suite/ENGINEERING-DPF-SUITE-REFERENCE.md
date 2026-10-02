@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 29 September 2026
+- **Version:** 2 October 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -51,6 +51,7 @@ If you are new to the Suite, the [README](README.md) explains what a DPF is, wha
 | [Buy, commission or build greenhouse control?](#how-should-we-obtain-climate-control-for-a-greenhouse) | Make or buy, AI assistance, integration, operating support, supplier access, fallback, real procurement evidence. |
 | [Develop people, obtain expertise or change the arrangement?](#what-should-a-small-engineering-team-develop-obtain-or-delegate) | Recruitment, training, providers, human and AI work, platforms, assignments, organizational choice. |
 | [Connect contributions, concerns and consequences across a whole project](#connect-contributions-concerns-and-consequences-across-a-whole-project) | Professional roles and actual contributions, local and whole results, independent acceptance, shared laboratory, organization change, capability, authority, provision and affected people. |
+| [Set a target and judge a miss after conditions change](#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) | Meaningful aims, comparison, honest forecasts, usable resources, dated funding, changed work, joint results and effective assessment consequences. |
 | [When simpler administration leaves less engineering time](#how-can-simpler-administration-leave-less-time-for-engineering) | Shifted burden, professional remedies, complete provision, capacity, introduction work, financial consequences and revision. |
 | [Share staff without losing existing commitments?](#how-can-two-archive-services-share-staff-without-losing-their-commitments) | Ready work, queues and buffers, shared staff, usable hours, variable load, constraint diagnosis, coordinated decisions. |
 | [Recommend a repair before it is ready?](#can-we-recommend-a-repair-before-it-is-ready-to-begin) | Sufficient advice, spare applicability, operating capacity, whole outage, selected intervention, functioning and return to use. |
@@ -332,7 +333,7 @@ The [use profiles](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md#use-profiles) adap
 
 ### Keep an operation working
 
-Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) when the current question concerns continuing work, admission, cases, priority, queues, constraints, capacity, service, operating evidence, quality, simultaneous work, method improvement or cultural continuation.
+Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#table-of-contents) when the current question concerns continuing work, admission, cases, priority, queues, constraints, capacity, service, operating evidence, quality, simultaneous work, method improvement, cultural continuation, meaningful aims or performance interpretation.
 
 | Your question | Open | What you can obtain |
 | --- | --- | --- |
@@ -362,6 +363,8 @@ Use the [Operations Management DPF](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.m
 | What continuation, acceptance, containment or recovery action does the evidence support? | [OPS.18 - Control Operating Quality and Reliability](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-18) | A quality or reliability response with exact evidence and stop conditions. |
 | Which cross-scale reconfiguration preserves the simultaneous operating results that matter? | [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-19) | A cross-scale continuation, reconfiguration or explicit unresolved conflict. |
 | Which Operations practice should this population continue or change? | [OPS.20 - Deliberately Continue and Change Operations Culture](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-20) | A supported decision about continuing or changing the practice; further observation only when its attainable contribution justifies the effort. |
+| What useful improvement should the operation pursue, and how should it be compared? | [OPS.21 - Choose Operating Aims, Targets and Comparisons](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) | A meaningful aim and comparison, a first action, or a justified decision to monitor without a numerical target. |
+| How should a result be judged when ambition, conditions and joint work differ? | [OPS.22 - Interpret Operating Performance and Decide the Response](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-22) | A reasoned operating assessment, its uncertainty and an effective response under the actual authority. |
 
 The [archive case](#how-can-two-archive-services-share-staff-without-losing-their-commitments) combines only the OPS contributions needed for one allocation question. The remaining patterns are available for their own working conditions; their availability does not add them silently to that case.
 
@@ -381,7 +384,7 @@ Management Accounting helps a controller, accountant or manager explain how work
 | How do customer or product economics change over time? | [MA.8 - Account for Customer and Product Economics Over Time](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma8---account-for-customer-and-product-economics-over-time) | An account of acquisition, retention, support and scale over the relevant horizon; finance supplies a needed valuation. |
 | What behavior does this account or target encourage? | [MA.9 - Examine the Behavioral Effects of Management Accounting Information](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-management-accounting-information) | An account of consequences and distortions, such as inventory building or hidden forecast changes. |
 
-[Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) uses these accounts for operating comparisons. A forecast can inform a resource decision while the authorization remains a separate result.
+[Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) uses these accounts for operating comparisons. A forecast can inform a resource decision while the authorization remains a separate result. The [repair cooperative case](#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) connects these accounts to the construction of a meaningful aim and later performance interpretation through OPS.21–22.
 
 ### Model financial positions and effects
 
@@ -837,6 +840,67 @@ A repair can expose another conflict. Return to the lost-interval case, with the
 Compare an available daytime interval or quieter arrangement, using [SYSE.2](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse2---develop-linked-use-and-system-concepts) if the new consequence changes the linked use or system concept. Obtain a bounded acoustic or other specialist result when it can change the decision and warrants its full burden. Permission and any needed representation of the resident require their own basis. A technically successful test would settle neither the disturbance question nor the relevant permission. Feed the resulting constraint or uncertainty into the laboratory and organization choice, retaining the valid engineering work.
 
 Finish this inquiry when the next useful result, its receiving use and obtainable contribution are clear enough to act, or when the exact missing condition and return are known. Ordinary coordination can suffice without an organization-change project.
+
+## How should we set a target and judge a miss after conditions change?
+
+A repair cooperative wants customers' equipment back in useful service, with accepted quality, agreed dates and enough means to keep operating. A manager proposes a completion target; Finance needs an honest forecast; the person allocating technicians needs a resource decision. Later, a missed target must inform an assessment. Treating one number as all four answers can make the work look coherent while its participants cannot act on it.
+
+Use [OPS.21](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-21) to construct the aim and comparison when they are missing, [MA.5–6](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast) to obtain and preserve the conditional outlook, [OPS.13](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-13) to establish actual service commitments, and [OPS.22](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-22) to interpret the later result. Start with an adequate supplied contribution wherever one exists. The connection is: **choose the useful change and its comparison; keep the outlook honest; make the response jointly possible; examine the actual result and response; revise the affected aim or arrangement.**
+
+### Construct the ambition from the receiving work
+
+All quantities, evidence and authorities in this example are stipulated. Twelve identified customers have equipment that could usefully return to service this month through the cooperative's standard repair. Five have booked. Seven have qualified offers; an adequate nonoverlapping demand account supports three further acceptances under current conditions. The forecast is therefore eight, with the remaining acceptances uncertain. The twelve opportunities include those eight; they are not additional demand.
+
+OPS.21 begins before choosing an indicator. Useful restored equipment is the result. Counting closed tickets alone could reward incomplete repairs or avoiding difficult cases. The team therefore compares accepted repairs in this named customer population by month end, retaining quality evidence, unfinished cases and any later returns that could defeat the claim. Continuing service for existing recipients remains protected.
+
+Eight, ten, twelve and fourteen now have different grounds. Eight describes the expected result and leaves four known needs beyond it. Ten would serve two further needs within the base provision calculated below. Twelve would address every identified suitable need if the customers choose repair and the cooperative obtains the means. Fourteen has no additional identified useful demand or way to serve it in this case. The team provisionally chooses twelve as an ambition, conditional on those needs remaining useful, customer choice and a worthwhile resource arrangement; its first action is to clarify the seven offers. This is a reasoned choice of ambition, not a claim that twelve is already likely or promised. A customer whose need disappears should not be sold an unwanted repair to protect the count.
+
+The cooperative does not use a peer league table here: another team's mix, starting position and shared support have not been shown comparable. It can retain other observations without making each a new improvement target. A different operation could reasonably choose a range, a qualified milestone or observation without a numerical quota; OPS.21 explains those alternatives.
+
+### Join the ambition to provision and dated money
+
+The base team has 36 usable hours after separately protected continuing service. The stated work includes six setup hours plus three hours per standard repair, including completion and acceptance work. One obtainable staffed block adds eight usable hours for 180 monetary units. Using the operating capacity account, [MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) give:
+
+| Work under the initial standard-repair assumptions | Hours needed | Provision that could support it |
+| --- | ---: | --- |
+| Eight repairs | 6 + 8 × 3 = 30 | The base 36 hours |
+| Ten repairs | 6 + 10 × 3 = 36 | The base 36 hours, subject to calendar fit |
+| Twelve repairs | 6 + 12 × 3 = 42 | One available block would give 44 hours |
+| Fourteen repairs in a separate surge scenario | 6 + 14 × 3 = 48 | Two blocks would give 52 hours, if that demand and provision became relevant |
+
+The resource holder and customer-facing coordinator examine the actual windows and shared assignments through OPS.13 and [OPS.19](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md#ops-19). Assume they establish the necessary calendar fit and qualification for the one-block arrangement. A forecast or suitable skill alone would not assign the technician. They keep the two-block surge request separate; the ambition does not justify buying it automatically.
+
+The complete monthly cash boundary contains opening available cash of 850, base provision payments of 400, another existing obligation of 200 and materials of 20 per repair. A completed accepted repair brings a total customer receipt of 100. All stated outflows precede the day-25 receipts; no other material flows occur in this constructed boundary.
+
+At eight repairs, payments are 400 + 200 + 160 = 760. Cash falls to 90 and then rises to 890 after receipts of 800. At twelve with one block, payments are 400 + 200 + 240 + 180 = 1,020. Ending cash of 1,030 would conceal an earlier shortage of 170. [FIN.2](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md#fin2---assess-liquidity-and-funding-needs-by-date) returns that dated funding condition before the dependent commitment.
+
+The ten-repair alternative needs no extra block: payments are 800, the earlier cash minimum is 50 and closing cash is 1,050. Thus twelve would serve two more customers but leave 20 less in closing cash, because the extra receipts of 200 do not fully cover materials of 40 and the block of 180. The cooperative decides that the two additional restored pieces of equipment are worth that difference, subject to covering the earlier funding shortage and preserving continuing service. This is its explicit value judgement, not a consequence of maximizing the repair count. A cooperative unable or unwilling to bear the difference could choose ten and retain the two unmet needs for another response.
+
+Suppose clarification now yields twelve accepted orders. Customers agree to an advance totaling 300 within the same total price of 1,200 and pay before the outflows. The actual responsible participants authorize and provide the staffed block. Cash after the proposed outflows would be 130, with 900 still to arrive on day 25 and ending cash of 1,030. The advance changes timing, not total revenue. MA.5 now supports an expectation of twelve under the stated demand and resource conditions; the earlier expectation of eight remains available on its earlier grounds. The parties can establish the corresponding promises under OPS.13. None of these changes is obtained by renaming the ambition a forecast.
+
+### Respond when the work changes and the new outlook is unwelcome
+
+Before materials are bought, inspection shows that three of the twelve repairs need five hours each rather than three. The same count now requires 6 + 9 × 3 + 3 × 5 = 48 hours. Only 44 are available before the promised dates, and another block cannot arrive in that window.
+
+The coordinator compares feasible responses and asks two customers with standard repairs to defer. This is a proposal until the customers agree. Suppose they do, a later qualified window is actually arranged, and the two outstanding cases retain their work, payment and service conditions. The ten remaining repairs need 6 + 7 × 3 + 3 × 5 = 42 hours. The original twelve-repair ambition remains visible for interpreting this month's result, while the current promises and forecast now concern ten this month and two later.
+
+The financial account changes with the same arrangement. The extra block is retained and paid. Materials for the two deferred repairs, costing 40, are bought later. The agreed advance of 300 applies to the ten repairs still due this month, whose remaining receipts are 700 on day 25. Current outflows are 400 + 200 + 200 + 180 = 980; cash is 170 after them and 870 after the remaining receipts. The later account carries materials of 40 and receipts of 200 for the two deferred repairs, together with whatever provision that later work actually needs. It is not a completed gain in the current month. If materials had already been purchased or an advance had to be refunded, those different conditions would require a different dated account.
+
+Now introduce a management conflict. The local review treats any downward forecast revision as poor performance, and the manager initially asks to keep reporting twelve. [MA.6](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma6---separate-forecasts-targets-and-resource-requests) keeps the target, forecast, resource request and authorization distinct; [MA.9](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-management-accounting-information) exposes what the consequence rule encourages. Those distinctions still need an effective response.
+
+In this cooperative the manager may change the local review and recognition rule, while a separate committee retains decisions about pay. Using [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization), the manager changes the operative local instruction: retain the ambition and honest current outlook together; judge reporting on its grounds and timeliness; examine the response and actual result before assigning recognition. The next review actually uses the forecast of ten to arrange the deferred work. This establishes the stipulated local change, not a change to the committee's pay rule. If the manager lacked that power, the proposed rule change would have to reach its holder; an adviser or meeting facilitator could not supply the authority.
+
+### Interpret the miss without losing accountability or the joint result
+
+Suppose the ten repairs are accepted with the required quality evidence. Two known needs remain for the later window. OPS.22 starts from those facts and the original basis. The result is ten against an ambition of twelve, not a retrospectively perfect ten against ten. The three complex repairs added six hours to the original plan. The evidence supports timely warning, an agreed revision and a feasible response that retained the two outstanding cases. The miss and the useful response both belong in the assessment.
+
+A second team completed ten standard repairs against an ambition of eight. Its 125% and the first team's approximately 83% cannot decide which team performed better. The manager recovers differences in work and opportunity before comparing them. The first team's 42 hours and the standard team's 36 hours under the same setup premise show why the counts are not equivalent resource demands. They do not by themselves measure customer value, personal effort or a fair reward. An easy target does not prove deliberate manipulation either; its grounds need examination.
+
+The manager's operating judgement is therefore specific: the full original receiving result is unfinished; the supported corrective action merits recognition; the current evidence does not justify ranking the teams by attainment or assigning every outcome to individual capability. The next work is to fulfill the two deferred cases and ask the technical lead whether an earlier complexity check could be useful at acceptable cost. The grounds for recognition go to the actual reward decision only under its own rules and authority. [HCD.11](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-11) would require a different basis for a person's capability-development conclusion.
+
+Apply the interpretation in both directions. If later evidence instead shows that the favorable count was obtained by taking another team's protected technician time without agreement, OPS.22 weakens that assessment and OPS.19 returns the displaced commitments for recovery. If all twelve needs remained useful but a feasible, worthwhile corrective action was knowingly left undone, context would not excuse that omission. If recipient needs genuinely changed, OPS.21 could revise the next aim while keeping the earlier result interpretable.
+
+The useful whole is a connected set of independently usable methods. A well-formed target can enter directly at the forecast or provision question; an assessment can begin with adequate existing observations. A budget, spending ceiling or external reporting date can remain wherever its function is needed. The test is whether the actual aims, accounts, decisions and consequences let participants improve the receiving work, including when the information is unwelcome.
 
 ## How can simpler administration leave less time for engineering?
 

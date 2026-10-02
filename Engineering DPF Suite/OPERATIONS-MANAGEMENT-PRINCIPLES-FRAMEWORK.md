@@ -1,9 +1,9 @@
 # Operations Management Principles Framework
 
-> A domain pattern language for admission, continuation, coordination, service, quality and improvement decisions in continuing operation.
+> A domain pattern language for admission, continuation, coordination, service, quality, improvement and performance decisions in continuing operation.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 20 September 2026
+- **Version:** 2 October 2026
 - **Status:** Eternal alpha: the current Methods can be used for their stated operating questions and conditions; the framework continues to develop as practice and evidence change.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -96,13 +96,20 @@ Use the Readme for worked connections across several operating questions. Use th
 | 25 | [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](#ops-19) |  | Which cross-scale reconfiguration, bounded continuation, or exact unresolved conflict preserves the simultaneous operating results that matter? | OPS.1, OPS.3; conditional OPS.11, OPS.12, OPS.15, OPS.17; FPF C.32.MWA, C.11 |
 | 26 | [OPS.20 - Deliberately Continue and Change Operations Culture](#ops-20) |  | How do practitioners in the named population transmit, independently enact, select, retain or lose an Operations practice, and what continuation, change or uncertainty does the evidence support? | OPS.16, OPS.17, OPS.19; FPF C.36; ME.17 |
 
+## Part X — Choose Operating Aims and Interpret Performance
+
+| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
+| :--- | :--- | :--- | :--- | :--- |
+| 27 | [OPS.21 - Choose Operating Aims, Targets and Comparisons](#ops-21) | Stable | What useful improvement should this team pursue, and which target or comparison would make it meaningful? | conditional OPS.1, OPS.10, OPS.13, OPS.15, OPS.19, STR.5/.8, MA.1/.2/.5/.6, OCE.10 |
+| 28 | [OPS.22 - Interpret Operating Performance and Decide the Response](#ops-22) | Stable | What does this result mean given target difficulty, changed conditions and joint work, and what response follows? | conditional OPS.13, OPS.15, OPS.19, OPS.21, MA.7/.9, OCE.10; HCD.11 and CGOV.13 for distinct receiving questions |
+
 # Operations Management Principles Framework Readme
 
 ## Practical entries
 
 Operations Management connects decisions about continuing service: what may start, what a case needs next, what the available resources can support, what can be promised, and what must change when results fail. These decisions use different results. A capacity calculation can constrain admission; an incident can change priorities; a service promise can remain unresolved after a feasible schedule has been found.
 
-These selected examples show how to combine the methods around a current difficulty; they are not a catalogue or a boundary of the field. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.20 and their nested methods. The [Preface](#preface), including its [conditions on a whole combination](#opspreface10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
+These selected examples show how to combine the methods around a current difficulty; they are not a catalogue or a boundary of the field. Enter where adequate inputs are available and stop at the result the decision needs. The Table of Contents gives direct access to OPS.1–OPS.22 and their nested methods. The [Preface](#preface), including its [conditions on a whole combination](#opspreface10---conditions-on-a-whole-combination), explains why individually useful operating moves can conflict when they use the same resources, authority or evidence.
 
 You can ask an assisting agent to explain a pattern or comment on your case in ordinary language, without framework jargon.
 
@@ -240,6 +247,16 @@ The [Foundational Thinking Suite Reference](https://github.com/ailev/FPF/blob/ma
 4. **Coordinate production and receiving support.** Count publication when the agreed publication result is delivered. If the service also includes explanation, practice or later application, OPS.11.1 includes their work, resources and completion conditions; OPS.10.1 compares the support demand with available capacity. A growing queue of requests for clarification may call for one material repair under HCD.19 rather than more publications. OPS.14 compares the consequential costs. Preserve a useful completed publication without claiming that it has already changed anyone's capability.
 
 The long applications add case-specific conditions and returns. Use the common Operations methods whose results the current decision needs, together with the qualified contributions of the relevant professional practice.
+
+### OPS-AIMS-AND-PERFORMANCE — Set a meaningful aim and interpret what follows
+
+- **Situation:** A target gives little guidance, a peer ranking hides different work, or a missed aim prompts judgement before the changed conditions and joint result are examined.
+- **Question:** What contribution is worth pursuing, how will it be compared, and what should the later result change?
+- **First useful result or blocker:** A meaningful aim and next action, or a reasoned operating assessment and authorized response with its actual limits.
+- **Start with:** [OPS.21](#ops-21) when the aim or comparison is missing; [OPS.22](#ops-22) when the result needs interpretation. Use an adequate supplied basis directly.
+- **Stop or return:** A target does not authorize a service promise or spending. Return a changed premise to the aim, forecast, provision, commitment or consequence rule it affects.
+
+In the [repair cooperative example](ENGINEERING-DPF-SUITE-REFERENCE.md#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change), twelve known useful opportunities justify considering an ambition of twelve while bookings and warranted further demand support a forecast of eight. OPS.21 constructs that distinction and chooses what evidence would show a useful result. MA.5–6 preserve the outlook; the operating and financial methods expose staffing and cash conditions before OPS.13 establishes promises. When work becomes harder, OPS.13 and OPS.19 obtain an agreed response rather than merely lowering a number. OPS.22 then retains the factual miss, examines difficulty and shared consequences, and distinguishes the useful response from an unsupported team ranking. An effective change in the local review rule makes the adverse forecast usable for action; changing its label alone would leave the conflict intact.
 
 # Preface
 
@@ -407,7 +424,7 @@ The three constructed applications demonstrate the reasoning and its branches. T
 ## OPS.Preface:15 - What this publication covers and leaves outside
 
 
-The patterns cover independently enterable questions about operating focus, views, subjects, current state, admission, continuation, priority, queues, constraints, capacity and structural coordination. They connect that work to affected people, supported promises, operating and financial consequences, useful accounts, bounded Method improvement, Method-repertoire selection, quality/reliability responses, reconciliation of simultaneous operating results, and deliberate cultural continuation.
+The patterns cover independently enterable questions about operating focus, views, subjects, current state, admission, continuation, priority, queues, constraints, capacity and structural coordination. They connect that work to affected people, supported promises, operating and financial consequences, useful accounts, bounded Method improvement, Method-repertoire selection, quality/reliability responses, reconciliation of simultaneous operating results, and deliberate cultural continuation. OPS.21–22 add the construction of meaningful operating aims and the interpretation of performance under changed conditions, while keeping service promises, capability assessments and reward decisions distinct.
 
 A plan or calculation does not establish performed Work, accepted service, a health effect, field release, Method identity, causal improvement or later use by a practitioner population. Those claims require their own evidence, conditions, authority and specialist results. The package table keeps the Operations questions distinct.
 
@@ -3860,6 +3877,8 @@ Keep three statements distinguishable:
 
 Recover outstanding commitments, including work already admitted and obligations to other recipients that a new plan would displace. A newly requested target does not silently replace them. When an existing promise is wider than the currently supportable result, keep the unresolved part explicit.
 
+If the desired improvement or its comparison is still arbitrary, use [OPS.21](#ops-21) to construct a meaningful aim. An ambition can exceed the current expectation while exposing a worthwhile improvement question. Establish its actual service promise here only after the work, resources and parties support it.
+
 Ask what acceptance requires. A completed test attempt, a passed test with applicable evidence, the customer's acceptance of that evidence and an authorized product release can occur at different times and under different authorities.
 
 #### OPS.13:4.2 - Obtain the work, resource and dependency basis
@@ -5862,6 +5881,326 @@ The practice question is how to continue and deliberately change Operations prac
 
 ### OPS.20:End
 
+# Part X — Choose Operating Aims and Interpret Performance
+
+<a id="ops-21"></a>
+## OPS.21 - Choose Operating Aims, Targets and Comparisons
+
+> **Type:** Method
+> **Status:** Stable
+
+
+### OPS.21:1 - Problem frame
+
+**Use this when** an operating team needs to decide what improvement to pursue and how to recognize it, or when a supplied target encourages the wrong work. A repair service can meet its count by selecting easy jobs while urgent equipment remains unusable. A support team can inherit a corporate cost ratio without knowing which contribution it should change.
+
+Start with the continuing operation, its recipients and the result worth improving. Translate that result into the team's contribution, choose what to observe and a meaningful comparison, and decide whether a numerical target would help. The first useful result is an aim with an interpretable comparison and a next action, or a specific unresolved choice that prevents agreeing them. It need not be a dashboard.
+
+The wider practice is managing operating performance. This pattern constructs the aims, targets and comparisons used in that work. [OPS.22](#ops-22) interprets subsequent performance; [OPS.13](#ops-13) establishes what can actually be promised. Use an existing aim and comparison when they already answer the question. If the worthwhile direction itself remains unsettled, obtain that contribution through [Strategy](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-5) or [problem structuring](PROBLEM-STRUCTURING-AND-DECISION-SUPPORT-PRINCIPLES-FRAMEWORK.md#psd-9) before refining its indicators.
+
+The intended reader understands the operation and can obtain its participants' evidence and decisions. The method supplies the target construction; it does not supply a missing professional acceptance criterion, authority over another team's work or permission to change pay.
+
+### OPS.21:2 - Problem
+
+An easily measured quantity can become the purpose of the work. Targets can also be selected by copying last year's number, dividing an organization-wide ratio or bargaining down an ambition until it is easy to exceed. These moves can produce precise numbers without an explanation of why reaching them would help the recipients.
+
+An ambitious target creates a different difficulty. It can identify a worthwhile gap while exceeding the present forecast or resources. Treating it as a promise conceals that gap; restricting every ambition to today's expected output can conceal useful improvement. The practitioner needs to construct the aim and its use together.
+
+### OPS.21:3 - Forces
+
+| Force | Tension in the work |
+| --- | --- |
+| Direction and local knowledge | A shared purpose needs compatible contributions, while each team sees conditions that a corporate ratio omits. |
+| Ambition and credible action | A demanding aim can expose an improvement opportunity; an unsupported demand can induce concealment or unsafe shortcuts. |
+| Comparability and unlike work | A common measure can aid learning while differences in demand, equipment, obligations or starting conditions defeat a ranking. |
+| Visibility and burden | More observations can reveal a neglected consequence, but collecting them consumes operating capacity. |
+| Local recognition and joint results | A team can improve its score by moving work, delay or cost to another participant. |
+| Stability and revision | A retained aim guides effort; changed needs can make it irrelevant even when its number remains attainable. |
+
+### OPS.21:4 - Solution
+
+#### OPS.21:4.1 - Recover the useful change and the team's contribution
+
+Name the recipients, continuing work and time horizon. Ask what should become better for them, what is already adequate and what must remain protected. Use a recent case to distinguish the recipient's result from internal activity: restored equipment from closed repair tickets, for example. [OPS.1](#ops-1) supplies a missing operating boundary.
+
+Translate the wider direction through the actual contribution. If the organization needs dependable repairs, reception may improve the completeness of requests, technicians may reduce avoidable returns, and a shared specialist may supply difficult diagnosis. These are related contributions, not smaller numerical copies of one corporate target. Ask the neighboring participants whether the proposed contribution helps their receiving work and what it would require from them.
+
+Keep an adequate condition as a condition to monitor when no useful improvement is needed. Turn it into an improvement aim if evidence shows a consequential deterioration. This prevents the mere availability of a measure from creating a demand to increase it continually.
+
+#### OPS.21:4.2 - Choose evidence that could distinguish improvement from a better score
+
+Describe an observable good result and a plausible case in which the proposed indicator improves but that result does not. A higher completed-job count can coexist with unaccepted work, repeated failures or delayed complex jobs. Retain the observation that distinguishes these cases: acceptance, later return, case mix or waiting of the affected cohort. [OPS.15](#ops-15) develops the observation account when its population or meaning is missing.
+
+State what is counted, whose cases are included, when observation begins and ends, and how unfinished work remains visible. Choose the horizon from the recipient's need and the time in which action could change the result. An annual reporting date can remain while an urgent operating response needs a shorter interval.
+
+Select only observations that can change interpretation or action. An early indicator can prompt intervention; a later result can test whether the intended benefit obtained. Where a numerical proxy is inadequate, describe the result to be examined and the evidence and competent judgement needed to recognize it. Do not invent a score to replace an unavailable professional criterion.
+
+#### OPS.21:4.3 - Choose the comparison before choosing the number
+
+Use the comparison whose meaning fits the aim and available evidence.
+
+| Comparison | When it helps | What must remain visible |
+| --- | --- | --- |
+| An absolute result by a relevant date | A known population, recipient need or required service gives the number a useful meaning. | Eligibility, quality, timing and the work needed to reach the result. |
+| A range or a qualified milestone | Precision would exceed the available knowledge, or progress is better demonstrated through a usable contribution. | What counts as adequate progress, what uncertainty remains and what decision follows each material outcome. |
+| A ratio such as accepted work per usable hour | The relation between input and output answers the operating question. | Definitions of both quantities, omitted quality and shifted work; a ratio is not a comparison with peers. |
+| Comparison with other operations | Their work, constraints and receiving results are sufficiently comparable for the intended inference. | Differences in mix, assets, starting conditions, shared support and observation coverage that could reverse that inference. |
+| Improvement from a relevant earlier condition | Absolute peer levels would conceal important structural differences. | The original basis and changes in it. A low starting point can make improvement easier; percentages alone do not equalize opportunities. |
+| Observation without a numerical improvement target | A condition is already adequate, the work is exploratory, or a quota would distort the useful contribution. | The condition or contribution to examine and the event that calls for a response. |
+
+Challenge a proposed comparison with an affected participant and one plausible unlike case. If a league table cannot distinguish superior work from easier conditions, use it to ask a learning question or narrow the comparison; do not use it to allocate credit. A complex adjustment is worthwhile only if its grounds are adequate and it can change the decision. An unexplained adjustment can hide the same unfairness as the raw number.
+
+#### OPS.21:4.4 - Construct an ambition and expose what attaining it would require
+
+Generate candidate aims from the useful change: the recipient need that remains unmet, a demonstrated improvement opportunity or a relevant comparison. Contrast them with continuing current performance. For each serious candidate, explain why the difference is worth pursuing and which action might produce it. Include displacement, quality and continuing-service conditions.
+
+Select the degree of ambition through that comparison and discussion with the people whose contributions it needs. A target can exceed the current expectation when there is a worthwhile, intelligible gap to work on. There is no generally correct percentage of stretch. A high number without a plausible way to achieve it is a demand for further construction, not an executable operating instruction. Where the way is unknown, a bounded learning contribution can be the current aim.
+
+Keep the conditional forecast honest through [MA.5](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma5---construct-and-update-an-operating-forecast). Use [MA.1](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma1---build-the-resource-consumption-and-cost-model) and [MA.2](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma2---explain-the-cost-and-use-of-capacity) and [OPS.10](#ops-10) to expose resource and payment implications. A target of twelve repairs, an expectation of eight and resources for ten can be jointly intelligible: the differences locate work and decisions. They do not authorize promising twelve.
+
+#### OPS.21:4.5 - Reconcile contributions and decide how the aim will be used
+
+Check the consequential joins with other participants. Two teams can each claim a feasible target while relying on the same specialist window. A reception target can accelerate incomplete requests and burden technicians. Use [OPS.19](#ops-19) for a joint demand or displaced contribution; return an unresolved direction conflict to the people responsible for that choice.
+
+Identify who can choose the aim, assign work, provide resources, change a service promise and decide assessment consequences. These may be different people. Finance can supply an expectation without authorizing staffing. HR can advise on an assessment arrangement without controlling the jobs through which the target could be achieved. Obtain the specific decision from its actual holder; agreement in a meeting supplies only the agreements the participants can make.
+
+Agree the intended interpretation while the grounds are available: the aim, comparison, difficulty, material assumptions, protected conditions, proposed action and reason to reconsider. Explain what an unwelcome forecast will trigger. It should expose a response decision, not silently become a lower target or an automatic adverse judgement of the reporter. If an existing consequence rule defeats that use, take the conflict and proposed change to the person who can change the rule, using [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) when the arrangement needs development. Retain the honest account and the unresolved authority condition until that change is effective.
+
+Use the ordinary working record or discussion that can carry these distinctions. No particular scorecard, software or extra annual process is required. The result may be an agreed aim, a proposal conditional on another participant's decision, or a justified choice to monitor without a new target.
+
+#### OPS.21:4.6 - Revise the affected object when conditions change
+
+Ask which premise changed and what used it. New demand evidence changes the forecast. A resource decision changes available provision when it is actually implemented. A changed recipient need or an invalid comparison can justify revising the aim. A service commitment changes through the parties' applicable agreement under OPS.13. None of these changes automatically performs the others.
+
+A difficult but still useful ambition can remain while the team changes its action or requests support. An aim whose purpose disappeared should be replaced even if it remains easy to hit. Keep the earlier aim and its basis available for [OPS.22](#ops-22); a justified revision helps interpret performance but does not turn a previous miss into a hit. Revisit only the affected contribution and preserve adequate neighboring work.
+
+### OPS.21:5 - Archetypal Grounding
+
+#### OPS.21:5.1 - Derive a repair aim before negotiating resources
+
+This constructed cooperative has twelve identified customers whose equipment could usefully return to service this month. Five have booked; seven have received qualified offers, and the available nonoverlapping demand evidence supports three further acceptances. The expected demand is eight. All twelve needs are suitable for the cooperative's standard repair; each customer retains the choice to accept or decline. Restoring useful equipment, with customer acceptance and no omitted quality work, is the receiving result.
+
+The team considers eight, ten, twelve and fourteen accepted repairs. Eight is the current expectation and leaves four identified needs beyond the expected result. Ten would serve two more needs and fits the base provision calculated below. Twelve would meet the complete known opportunity if all customers accept and the work can be supported. Fourteen has neither identified demand nor a way to achieve additional useful work in this case. The team provisionally selects twelve as a conditional ambition, with prompt clarification of the seven offers as its first action. It retains eight as the forecast. If customers decline because repair no longer serves them, manufacturing a repair sale would defeat the purpose; reconsider the affected aim.
+
+The base arrangement supplies 36 usable hours after protecting continuing service. Setup needs six hours and each standard repair three. Eight repairs need 30 hours, ten need 36, and twelve need 42. One obtainable extra block of eight hours would give 44. The ambition exposes a resource decision; it does not establish that the block is staffed or funded. The dated financial comparison shows that twelve repairs with this block would leave 20 less in closing cash than ten using the base provision. The cooperative decides that serving the two additional customers is worth that difference, provided the funding needed before customers pay is obtained and continuing service remains protected. This explicit judgement sustains the ambition; if the difference were not worthwhile, ten would be a reasoned alternative. The resource holder still has to authorize and provide the block before anyone promises the additional work. The [connected repair example](ENGINEERING-DPF-SUITE-REFERENCE.md#how-should-we-set-a-target-and-judge-a-miss-after-conditions-change) carries this result through provision, cash, changed work and assessment.
+
+#### OPS.21:5.2 - Decline a misleading ranking
+
+Two archive teams report requests completed per hour. One receives indexed digital material; the other also locates damaged, incompletely described records and assists the first team with difficult cases. Ranking their ratios as performance would conflate different work and hide the shared contribution.
+
+They retain the quantities for understanding demand, compare like cases only where that comparison has a sound basis, and examine whether recipients obtained usable material within the relevant dates. The second team's improvement from its own earlier condition remains interpretable only with changes in mix and assistance visible. They choose a concrete improvement in unresolved locating work, while monitoring an already adequate response condition without a higher quota.
+
+### OPS.21:6 - Bias-Annotation
+
+People who set targets may prefer what their own reporting can observe. Participants may negotiate an easy baseline or omit burdens borne by neighbors. Ask the receiving parties about those effects. Participation can improve the construction without establishing equal influence or eliminating conflicts of interest.
+
+Ambition is a judgement about worthwhile effort under uncertainty. It is not evidence that people will be motivated, that an expected improvement is attainable or that a more demanding number is always better.
+
+### OPS.21:7 - Conformance Checklist
+
+- The intended improvement refers to a recipient's result and the team's actual contribution.
+- An adequate condition can remain monitored without a new improvement target.
+- The observation and comparison preserve relevant population, timing, quality and unequal conditions.
+- The selected ambition has a reason and exposes the work, support or inquiry it needs.
+- Forecast, target, resource decision and service commitment keep their own meanings and revision conditions.
+- A conflict over shared resources or assessment consequences reaches the participant able to act.
+- A changed condition can revise the affected aim without rewriting its earlier basis.
+
+### OPS.21:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure | Practical repair |
+| --- | --- |
+| Divide the corporate ratio into team quotas | Translate the wider result through each team's contribution and its dependencies. |
+| Choose the indicator because its data are free | Test whether it distinguishes useful improvement from a better score. |
+| Make every target equal the forecast | Retain the gap and decide whether action, support, inquiry or a different ambition is worthwhile. |
+| Make every forecast equal the target | Preserve the supported expectation so that a response can be chosen in time. |
+| Treat a peer table as a fair ranking | Establish comparability for that inference or use a narrower learning comparison. |
+| Lower the target after observing a miss | Preserve the original result and explain any warranted revision and its effective use. |
+
+### OPS.21:9 - Consequences
+
+The team can choose what improvement matters, explain why its comparison is useful and return an exposed gap to a real decision. A supplied good target remains usable without repeating the construction. The work can also end with a monitoring condition or a bounded learning aim.
+
+This demands discussion and some knowledge of the receiving work. Detailed comparison can cost more than it changes; retain a sufficient simple basis. Better target construction alone cannot supply resources or repair a consequence rule that the responsible participants leave unchanged.
+
+### OPS.21:10 - Architectural Rationale
+
+Direction, observation, ambition and response are connected because each can defeat the others: a useful purpose can be measured badly, a sound measure can receive an arbitrary target, and a meaningful target can be used as an unsupported promise. The construction keeps these joins visible while allowing an adequate supplied result to enter directly.
+
+A fixed quota is simpler when a stable, meaningful requirement and its use are already settled. A peer comparison can reveal opportunities that an internal baseline misses. A non-numerical contribution can guide work whose useful result is poorly represented by a count. Choose among them by the receiving decision and evidence, rather than making any one a universal management system.
+
+### OPS.21:11 - SoTA-Echoing
+
+Bjarte Bogsnes, *Implementing Beyond Budgeting*, second edition (2016), chapter 4, printed pp.142–159, develops translation from direction to local contributions, indicator selection, target difficulty, peer comparison and the possibility of working without numerical targets. Those historical practice accounts inform §§4.1–4.5. This pattern retains their constructive questions while making comparison limits, shared provision and the first supported action explicit. The book supplies neither a universally correct stretch level nor evidence that one scorecard works for every operation.
+
+The [shared source discussion](#operating-aims-and-performance-sources) qualifies this line with the later study of budgets and forecasts. Keep a budget or reporting rhythm when its function remains useful. Reopen the selected construction when ordinary use shows that the aim no longer guides a useful contribution, the comparison conceals changed conditions, or its actual consequences again suppress the information needed for action.
+
+### OPS.21:12 - Relations
+
+[STR.5](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-5) and [STR.8](STRATEGY-PRINCIPLES-FRAMEWORK.md#str-8) supply a worthwhile direction and related contributions when these are unresolved. OPS.15 supplies observation meaning; OPS.10 and OPS.19 supply capacity and joint-work comparisons. MA.5–6 preserve the conditional outlook and distinguish its use from ambition and authorization. OPS.13 establishes service commitments. OPS.22 interprets later performance against the retained basis. OCE supplies an actual organizational change when the needed response exceeds the current arrangement.
+
+### OPS.21:End
+
+<a id="ops-22"></a>
+## OPS.22 - Interpret Operating Performance and Decide the Response
+
+> **Type:** Method
+> **Status:** Stable
+
+
+### OPS.22:1 - Problem frame
+
+**Use this when** an operating result must inform a judgement and response, but a target-attainment ratio or dashboard color cannot explain the contribution. One team may narrowly miss a demanding aim while another exceeds an easy one. A favorable total can conceal deferred work, deteriorating quality or another team's unpaid effort. An adverse forecast may be treated as evidence of poor performance before its conditions are examined.
+
+Begin with the decision the assessment must support and recover the aim, observations, relevant conditions and participants' actions. Return a reasoned assessment with the response it warrants, its uncertainty and the person able to act. A conclusion can be mixed: the intended result was not fully obtained, while a timely corrective action was useful and an attribution remains unresolved.
+
+This pattern governs interpretation of operating performance. It does not determine a person's capability, corporate liability or a pay entitlement from an output total. [HCD.11](HUMAN-CAPABILITY-DEVELOPMENT-PRINCIPLES-FRAMEWORK.md#hcd-11) supplies a capability-assessment contribution; [CGOV.13](CORPORATE-GOVERNANCE-PRINCIPLES-FRAMEWORK.md#cgov13---monitor-corporate-performance-and-require-an-account) supplies corporate oversight when that is the actual decision. A sufficient established interpretation can be used directly. An ordinary service-acceptance decision with an applicable clear rule can finish through [OPS.18](#ops-18).
+
+The reader needs access to the relevant operating evidence and participants, and enough domain competence to understand the result. Use another qualified contributor for a missing technical or financial judgement; the assessment must not manufacture that competence.
+
+### OPS.22:2 - Problem
+
+An observed outcome depends on the work performed, its support, prior conditions and events that participants did not control. A target adds a judgement of ambition; its attainment ratio therefore combines result and target choice. Counting that ratio as performance can reward easy targets, favorable circumstances or transferred burdens.
+
+Replacing a formula with an unexplained managerial impression creates another failure. Participants cannot correct mistakes or understand what contribution matters. The needed interpretation must expose its grounds and uncertainty, including evidence that weakens a favorable account as well as evidence that qualifies a miss.
+
+### OPS.22:3 - Forces
+
+| Force | Tension in the work |
+| --- | --- |
+| Accountability and uncertainty | An answer is needed while causal attribution may remain incomplete. |
+| Ambition and comparability | A demanding aim can motivate useful work, while attainment percentages favor an easier target. |
+| Joint work and individual consequences | A result may require several contributors whose shares cannot be inferred from the output count. |
+| Timely learning and consequential judgement | Prompt feedback helps correction; reward or formal accountability decisions may need different evidence and authority. |
+| Context and favoritism | Circumstances change interpretation; selective excuses or hindsight can make judgement arbitrary. |
+| Present results and continuing capability | A short-term gain can consume maintenance, recovery or customer trust needed for later work. |
+
+### OPS.22:4 - Solution
+
+#### OPS.22:4.1 - Name the receiving decision and recover the comparison
+
+Ask what this judgement should change: the next operating action, a resource arrangement, an aim, feedback and development, recognition, or a decision under an existing reward or governing rule. Separate these questions when they need different evidence or powers. A useful learning conversation should not silently create a new compensation decision.
+
+Recover the original aim and comparison from [OPS.21](#ops-21) or a sufficient existing basis: intended contribution, population, horizon, difficulty, assumptions and protected conditions. Retain authorized changes with their timing and reasons. If the basis was never settled, say so and reconstruct what can be established from the actual undertaking; do not invent a retrospective promise.
+
+Keep an ambition, forecast, resource authorization and service commitment distinct. Ten deliveries can miss an original ambition of twelve and satisfy ten legitimately revised promises. Both facts matter. The revision does not delete the original ambition or prove that the response was good.
+
+#### OPS.22:4.2 - Establish what was obtained and what remains
+
+Compare observed results with that basis. Keep unfinished cases, excluded populations, quality, timing and relevant later returns visible. Check whether a changed denominator, early closing or transferred task created the apparent gain. [OPS.15](#ops-15) develops a missing operating account; [MA.7](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma7---explain-a-cost-or-margin-difference) explains a monetary difference without deciding personal merit.
+
+Follow the result into its intended use. Were repairs accepted and useful, or merely marked complete? Did a faster handover require the receiving team to redo it? Include a delayed consequence when it can change the assessment. A known current result can support action before every future consequence is observed; state what later evidence could reopen the judgement.
+
+Record the gap plainly. Context can change what the gap implies; it does not change the observed count or discharge an outstanding obligation.
+
+#### OPS.22:4.3 - Examine conditions, choices and the contribution to the whole
+
+Use the following questions to explain the consequential difference, following the evidence that can change the receiving decision.
+
+1. **Did the result contribute to the intended aim?** Compare the indicator with the recipient's actual result and the conditions it omitted. A financial gain obtained by postponing required maintenance can weaken an initially favorable assessment.
+2. **How demanding was the aim on its original grounds?** Compare the opportunity, starting condition, work mix and proposed way to achieve it. A low attainment percentage against an ambitious target is not directly comparable with a high percentage against an easy one. Ambition alone also earns no credit for ineffective action.
+3. **What changed, favorably or adversely?** Recover when the change became knowable, who could respond and which premise it affected. A market windfall needs the same scrutiny as an external disruption. Separate changed circumstances from a claimed causal effect of the team's intervention.
+4. **What did the participants do with the information and means available then?** Examine promised and necessary actions, requests for support, timely warning, available alternatives and actual follow-through. Use what was reasonably available at the time; knowledge obtained later does not prove that an earlier choice was unreasonable.
+5. **What did the result require from other work, and can it continue?** Include shared assistance, displacement, quality losses, deferred obligations and consumed protection. Helpful cooperation can reduce one team's local count while improving the joint result; taking another team's resource does not create additional capacity.
+
+For a consequential explanation, compare a plausible rival. More completions could follow from a simpler work mix, overtime, transferred work or a better method. Use available evidence to distinguish them far enough for the decision. A modeled counterfactual remains conditional; a plausible story is not a measured contribution. Preserve unresolved attribution instead of assigning every residual to effort or competence.
+
+#### OPS.22:4.4 - Form a judgement that the affected participants can examine
+
+State the observed result, how it compares with the aim, which contextual findings change interpretation and what remains uncertain. Distinguish at least the findings that lead to different actions. An unmet receiving need calls for a response even when the team acted competently; a favorable outcome does not excuse concealment of a material risk.
+
+Compare teams only at the scope the evidence supports. If different work or shared contributions prevent a ranking, assess each against its meaningful aim and compare specific practices for learning. Do not repair an invalid ranking by inventing weights or a difficulty multiplier. Use an established qualified comparison when one is available.
+
+Give affected participants a real opportunity to correct consequential facts and explain their choices. Resolve a material disagreement against the evidence and agreed purpose, not by counting agreeing voices. Where the assessor's interest or a disputed ground can change a consequential decision, obtain an appropriately independent competent judgement through the existing arrangement. The result can remain qualified or contested; the person with authority must identify what can be decided on that basis.
+
+A single score may be required by an existing system. Explain the translation and preserve the separate findings that the score cannot carry. Do not let the score silently determine every later development, recognition and reward decision.
+
+#### OPS.22:4.5 - Choose and enact the response under the actual authority
+
+Use the findings to choose the smallest adequate response. Examples include correcting a report, completing deferred service, retaining a useful action, changing an assignment or provision, revising an irrelevant aim, improving a method, or obtaining a needed capability-development result. Select the method for that change rather than asking people to try harder regardless of the cause.
+
+Where the consequence arrangement is itself producing distorted forecasts or easy targets, identify its operative rule and holder. [MA.9](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md#ma9---examine-the-behavioral-effects-of-management-accounting-information) examines the account's behavioral contribution; [OCE.10](ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) develops an authorized change in access, workload, incentives or consequences. An adviser can propose the change without being able to make it effective.
+
+Keep the operating assessment separate from the applicable reward decision. Use its relevant findings under the actual rule and authority; where that rule prevents the intended response, return the required rule change or exception to its competent holder. A favorable operating assessment creates no payment right by itself, and a framework paragraph cannot waive an existing obligation. Capability development likewise needs its own evidence and work through HCD.
+
+For an unwelcome forecast, obtain the authorized operating response while preserving the supported forecast and its earlier basis. Address a demonstrated concealment or unsupported claim on its evidence. Do not punish the numerical decrease alone, or award automatic credit merely for reporting it. Both shortcuts replace judgement with a different indicator.
+
+#### OPS.22:4.6 - Observe the response and reopen the affected judgement
+
+Name the action, responsible participant and next useful observation. Establish whether the promised assignment, protection or consequence change occurred and whether the receiving work improved. A revised form or policy statement does not establish changed practice.
+
+Keep sound earlier findings when new evidence changes only one part. Later returns can invalidate a quality conclusion; a recovered resource decision can alter attribution; a changed recipient need can reopen the next aim. Use the retained original basis to explain the change. End this assessment when it supports its receiving decision at warranted confidence, leaving any specific dependent question explicit. Continue normal operating attention without requiring an indefinite inquiry into every cause.
+
+### OPS.22:5 - Archetypal Grounding
+
+#### OPS.22:5.1 - Ten repairs after the work becomes harder
+
+In the constructed case continued from OPS.21, all twelve customers eventually accept. One staffed eight-hour block is authorized and made available, giving 44 hours including six hours of setup. Three repairs then require five hours each instead of three. Twelve repairs would need 48 hours; no additional block can arrive before the promised dates. The coordinator reports the changed work promptly and obtains agreement to defer two standard repairs. Ten remaining repairs need 6 + 7 × 3 + 3 × 5 = 42 hours. Later arrangements retain the two deferred cases, their work and financial obligations.
+
+Suppose acceptance evidence confirms all ten repairs and no omitted quality work. The initial assessment is a miss against the twelve-repair ambition, with two identified needs still outstanding. The work became six hours more demanding for the original twelve. The timely warning and agreed response preserved a feasible service arrangement; the revised promises did not retrospectively achieve the original ambition. Whether another response was better depends on the alternatives actually available then.
+
+A second team reports ten standard repairs against a target of eight. Its 125% and the first team's roughly 83% do not establish a performance ranking. The first team's ten repairs required 42 hours with setup; the second team's ten would require 36 under the same setup assumption. These hours explain a relevant difference in demand, not a complete value or effort score. Recover the second team's original opportunity, means, quality and any assistance before making a consequential comparison.
+
+The manager decides to keep the factual miss and recognize the first team's supported corrective action in the operating account. Completion of the deferred work remains an action. If a reward policy nevertheless mandates a different consequence, this judgement is an input to that separate authorized decision, not a power to replace it.
+
+#### OPS.22:5.2 - A favorable count obtained by borrowing protected support
+
+An archive team exceeds its completion target after using a shared specialist for six extra hours. The initial report calls this an efficiency gain. Examination shows unchanged time per comparable request; the extra output came from the specialist's time, and another team's two due requests were postponed without its agreement.
+
+The assessment retains the actual completions but rejects the unsupported efficiency claim and includes the displaced service. The resource holder arranges recovery of the affected requests and corrects the rule under which that time was taken. If the same assistance had instead been authorized, displaced no protected commitment and improved the joint result, cooperation could be a positive contribution. The local count alone cannot choose between those conclusions.
+
+### OPS.22:6 - Bias-Annotation
+
+Hindsight can make an uncertain past choice appear obvious. Favoritism can make the same circumstance an excuse for one team and evidence against another. Apply the questions to favorable and adverse results, retain the evidence available at the time, and expose consequential disagreements.
+
+Participants with less authority may bear burdens absent from the official account. Obtain their relevant evidence. A discussion is not proof that they could safely disagree or that every causal share is now known.
+
+### OPS.22:7 - Conformance Checklist
+
+- The assessment serves an identified decision, with its evidence and authority needs.
+- Original aims, forecasts, commitments and later revisions remain distinguishable.
+- Observed results include the consequential unfinished work, quality and receiving effects.
+- Difficulty, changed conditions and available actions are examined in both favorable and adverse cases.
+- Shared contributions and displaced work affect the judgement where they change the whole result.
+- Affected participants can correct consequential facts; unsupported attribution and rankings remain qualified.
+- The assessment, reward decision and capability inference retain their distinct grounds.
+- The response is actually performed and its useful consequence is checked at an appropriate occasion.
+
+### OPS.22:8 - Common Anti-Patterns and How to Avoid Them
+
+| Failure | Practical repair |
+| --- | --- |
+| Rank teams by actual divided by target | Recover difficulty and comparable work, then qualify or decline the ranking. |
+| Treat context as an excuse for every miss | Preserve the miss, test the explanation and examine available action. |
+| Credit every gain to the manager | Examine favorable circumstances, shared work and rival explanations. |
+| Replace the formula with an unexplained impression | State the evidence, interpretation, uncertainty and consequence. |
+| Treat a lower forecast as poor performance | Examine its grounds and the response; retain earlier forecasts for learning. |
+| Let a good narrative erase outstanding work | Keep the receiving need and obligations in the next operating action. |
+
+### OPS.22:9 - Consequences
+
+The manager can distinguish a useful response under difficult conditions from a favorable number produced by easier work or transferred burden. The result supports an actual next action while preserving accountability for the unmet need. It can also justify retaining an adequate interpretation without additional analysis.
+
+The method requires judgement and access to relevant evidence. It cannot eliminate uncertainty, conflict or deliberate distortion. Use inquiry proportional to the decision; a modest correction need not wait for a complete causal explanation.
+
+### OPS.22:10 - Architectural Rationale
+
+The interpretation connects the original purpose, observations, contextual explanation and response because each answers a different question. Keeping only the ratio loses difficulty and joint work; keeping only a contextual narrative loses the actual result. The response remains subject to the powers and conditions of the decision it serves.
+
+Targets and subsequent assessments are independently usable contributions. A team can start here with an adequate target supplied elsewhere, while OPS.21 can finish after constructing a next aim. Shared conditions and selective returns connect them without requiring every operating decision to pass through an annual appraisal cycle.
+
+### OPS.22:11 - SoTA-Echoing
+
+Bogsnes, *Implementing Beyond Budgeting*, second edition (2016), printed pp.182–190, develops interpretation of indicator results through objectives, target difficulty, changed assumptions, responsive action and sustainability, together with the tensions among development and reward uses. Sections 4.2–4.5 adapt that connected historical treatment. The source's particular rating scale, delivery/behavior weighting and bonus arrangements are not requirements of this method.
+
+The adaptation retains uncertainty about causation and attribution after the event, and makes the affected participant's evidence and the response authority explicit. The [shared source discussion](#operating-aims-and-performance-sources) explains why changing budgeting labels alone cannot establish changed use. Reopen the method or its support when repeated use still rewards transferred burdens, hides missed needs or leaves a consequential judgement unexplainable to its recipients.
+
+### OPS.22:12 - Relations
+
+OPS.21 constructs aims and comparisons. OPS.15 and MA.7 develop operating and monetary accounts. OPS.13 preserves service obligations; OPS.19 reconciles affected joint work. MA.9 investigates behavioral effects of accounts, while OCE.10 changes the organizational conditions of a response. HCD.11 concerns demonstrated human capability under its own criteria. CGOV.13 supplies a governing response when the question belongs to corporate oversight. None of these results automatically substitutes for the others.
+
+### OPS.22:End
+
 # Cross-Pattern Application
 
 ## APP-OPS-01 — PumpWorks continuing control-service operation
@@ -6003,13 +6342,29 @@ OPS.19 can therefore reduce starts, reserve a compatible test environment, or ho
 
 ## Intended use and ordinary non-use
 
-Use this framework when a decision about continuing Work needs a better operating basis: the operation or subjects are unclear, current evidence cannot support admission or continuation, queues and resources conflict, human conditions, service, financial consequences, Method choice or quality require a decision, several operating results must be reconciled, or a bounded population relation about continued practice must be tested. Use the one pattern or small cooperating set whose result answers that question.
+Use this framework when a decision about continuing Work needs a better operating basis: the operation or subjects are unclear, current evidence cannot support admission or continuation, queues and resources conflict, human conditions, service, financial consequences, Method choice or quality require a decision, several operating results must be reconciled, a bounded population relation about continued practice must be tested, or the operation needs a meaningful aim or a reasoned performance assessment. Use the one pattern or small cooperating set whose result answers that question.
 
 Do not use it merely because a project exists, a process is documented, a board has cards, a dashboard is visible, a controller exists, or a management school is familiar. Return product or asset engineering, organization change, one human's capability, strategy, finance, governance, administration, safety, legal, medical, ecological, security, and other specialist results to their owners.
 
 ## PatternID and reader order
 
-`OPS.*` is this framework's PatternID namespace. The numbers are stable addresses. The nine Parts organize the twenty available bodies for reading. A result dependency applies when one decision needs the matching result; actual Work can overlap, branch, repeat or start from existing inputs.
+`OPS.*` is this framework's PatternID namespace. The numbers are stable addresses. The ten Parts organize twenty-eight pattern bodies for reading, including six nested methods. A result dependency applies when one decision needs the matching result; actual Work can overlap, branch, repeat or start from existing inputs.
+
+## Practical entry forms
+
+The following stable example keys select ordinary practical entries in the Readme. Each appears there once. They support direct choice and explicit worked continuations; no Practical-Use Card or separate mantra is selected. Questions outside these examples use the Table of Contents and the full pattern bodies.
+
+| Example key | Form |
+| --- | --- |
+| `OPS-PUMPWORKS` | Ordinary practical entry |
+| `OPS-SERVICE-WINDOW` | Ordinary practical entry |
+| `OPS-ACCEPTED-RESULT` | Ordinary practical entry |
+| `OPS-PRACTICE-CHANGE` | Ordinary practical entry |
+| `OPS-RELEASE-AND-WAIT` | Ordinary practical entry |
+| `OPS-PROTECT-AND-DEVELOP` | Ordinary practical entry |
+| `OPS-PREPARE-AND-RESPOND` | Ordinary practical entry |
+| `OPS-ADVICE-IN-USE` | Ordinary practical entry |
+| `OPS-AIMS-AND-PERFORMANCE` | Ordinary practical entry |
 
 ## Source use and currentness
 
@@ -6030,6 +6385,14 @@ OPS.11.1 draws on conceptual modeling to choose scope and detail while represent
 Queueing and scheduling provide complementary constructions in OPS.10.1/.2. A mean comparison can distinguish fast but variable service from slower predictable service; it does not settle an individual deadline. A finite schedule can establish attainability under shared resources and calendars; protection against uncertain delay additionally needs a disturbance or probability account. The bodies compare these source contributions at the question they answer, retaining the cost and limits of a richer model.
 
 OPS.8.1 compares release signals while retaining known visits and possible returns. OPS.8.2 distinguishes capacity left over after protection from temporarily used reserve, then constructs its return to service. Factory Physics, TameFlow, workload-control studies, interruption research and computational preemption contribute different mechanisms and limits. Together, the two bodies connect the release decision to feasible recovery; they do not make final acceptance a universal release signal or idle time universally available for development.
+
+### Operating aims and performance sources
+
+Bjarte Bogsnes, *Implementing Beyond Budgeting: Unlocking the Performance Potential*, second edition (Wiley, 2016), chapter 4, printed pp.142–159 and 182–190, supplies the developed historical practice account used in OPS.21–22. Jeremy Hope and Robin Fraser, *Beyond Budgeting* (Harvard Business School Press, 2003), chapters 4–5, pp.69–116, connects targets, current outlook, provision, coordinated action and assessment, including implementation failures when the wider management uses remain unchanged. The adopted connection does not prescribe either source's complete organizational model.
+
+[Bukh, Ringgaard and Sandalgaard, “Moving beyond Beyond Budgeting” (2025)](https://doi.org/10.1080/09638180.2024.2362681), pp.1221–1244, examines one Scandinavian bank that abandoned and later reinstated budgets. Its retrospective interviews and documents show changing uses of forecasts alongside retained or restored budget controls. This supports inspecting actual uses and permitting qualified combinations, not a universal verdict for or against budgeting. One author disclosed a board position. The case supplies no general causal estimate of performance gains. OPS.21–22 retain the functional distinctions and reopen the arrangement when practice contradicts its intended use.
+
+The [forecasting text's distinction between forecasting, goals and planning](https://otexts.com/fpp3/planning.html) supports keeping expectation, intended result and action separate. It does not choose the operation's aim or settle an assessment. The repertoire therefore combines those supplied distinctions with a developed construction of the aim and subsequent judgement, rather than asking a forecast to perform every management function.
 
 ### Shared source choices for the repertoire
 
@@ -6110,6 +6473,7 @@ Use the linked contribution only while its current content still supplies the st
 | `OPS-E2 — Operations Method repertoire` | `OPS.17` | Available authoritative body in this edition. |
 | `OPS-E3 — Simultaneous operating Work` | `OPS.19` | Available authoritative body in this edition. |
 | `OPS-E4 — Operations cultural continuation` | `OPS.20` | Available authoritative body in this edition. |
+| `OPS-F — Operating aims and performance interpretation` | `OPS.21`–`OPS.22` | Bodies with their stated use conditions in this edition. |
 
 These package labels keep the questions and returned results distinct. They do not prescribe an operating lifecycle, maturity ladder, or reader sequence; start from the current question and use the smallest body or exact cooperating set that can change the decision.
 
@@ -6123,9 +6487,9 @@ These package labels keep the questions and returned results distinct. They do n
 
 ## Edition return
 
-This publication contains the Readme, Table of Contents, Preface, nine Parts, eight connected practical entries, three extended applications, framework boundary and the pattern bodies listed in the contents.
+This publication contains the Readme, Table of Contents, Preface, ten Parts, nine connected practical entries, three extended applications, framework boundary and the pattern bodies listed in the contents.
 
-Use any of the twenty-six patterns whose working question and conditions match your situation. Combine them when one needs another's result. Each body states the professional contributions, evidence and authority its use requires.
+Use any of the twenty-eight patterns whose working question and conditions match your situation. Combine them when one needs another's result. Each body states the professional contributions, evidence and authority its use requires.
 
 Use the package table and each body's conditions to locate the Operations result that can change the current decision.
 
@@ -6140,6 +6504,6 @@ This is a domain framework Reference carrier. It is neither an educational Guide
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
 Operations Management Principles Framework.
-20 September 2026.
+2 October 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```

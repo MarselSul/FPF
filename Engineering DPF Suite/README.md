@@ -3,7 +3,7 @@
 > Methods for difficult engineering decisions, explained as patterns you can use with your colleagues and AI assistants.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 28 September 2026
+- **Version:** 2 October 2026
 - **Status:** Eternal alpha: already used in project analyses and development programmes, and revised as the methods and their evidence improve.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-six published DPFs with 414 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-six published DPFs with 416 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -46,7 +46,7 @@ The public folder contains twenty-six published DPFs with 414 pattern bodies. St
 | Create, perform, teach or develop music and dance practices. | [Music and Dance Practice Engineering](MUSIC-AND-DANCE-PRACTICE-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 22 patterns | A performance or practice design, a useful observation, a transmission method, or a choice about the practice's next development. |
 | Recognize, represent, vary, perform, teach or observe rhythmic relations. | [Embodied Rhythmics](EMBODIED-RHYTHMICS-PRINCIPLES-FRAMEWORK.md) - 14 patterns | A specific rhythmic correction, usable representation or variant, coordinated performance, representative exercise, bounded capability probe or observation. Its connected uses obtain cultural transmission and development contributions from the relevant MDPE methods. |
 | Understand and change the bodily contribution to a familiar human movement. | [Somatic Movement Modeling](SOMATIC-MOVEMENT-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model and correction attempt connecting experience, regulation and result; a needed bodily distinction, controllable change, coordination or support transition. Movement technique and suitable physical demands remain prerequisites. |
-| Keep an operation working while demand, queues, capacity, commitments and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 26 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, or cultural-continuation decision. |
+| Keep an operation working while demand, queues, capacity, commitments, aims and evidence change. | [Operations Management](OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md) - 28 patterns | A bounded admission or continuation decision, queue or constraint treatment, capacity and service account, operating-method improvement, quality response, simultaneous-work reconciliation, cultural-continuation decision, meaningful aim or reasoned performance assessment. |
 | Explain how work uses resources and how that use appears in money, forecasts and performance accounts. | [Management Accounting](MANAGEMENT-ACCOUNTING-PRINCIPLES-FRAMEWORK.md) - 9 patterns | A resource and cost model, capacity account, cost allocation, reconciliation, forecast, margin explanation or assessment of accounting incentives. |
 | Establish whose financial position is described, what can change it and how a financial service contributes to a participant's result. | [Financial Domain Modeling](FINANCIAL-DOMAIN-MODELING-PRINCIPLES-FRAMEWORK.md) - 5 patterns | A model of parties, rights and obligations; conditional contractual flows; an established financial effect; or a connection between a service and its use. |
 | Value investments, arrange finance, preserve liquidity or manage financial exposure. | [Corporate Finance](CORPORATE-FINANCE-PRINCIPLES-FRAMEWORK.md) - 22 patterns | An investment valuation, financing comparison, liquidity response, hedge, treasury action or financial recommendation. |
