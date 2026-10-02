@@ -837,6 +837,6 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 [DUTY]: ../FPF-Spec.md#a28---ucommitment--individual-duties-to-act-or-refrain
 [PER]: ../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition
 [ACT]: ../FPF-Spec.md#a29--uspeechact--communicative-work-and-its-intended-use
-[MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
+[MWA]: ../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use
 [FIBO]: https://spec.edmcouncil.org/fibo/index.html
 [ACTUS]: https://www.actusfrf.org/techspecs

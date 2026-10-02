@@ -3832,7 +3832,7 @@ The pattern bodies state the adopted contribution and comparison. These locators
 [EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [CHOICE]: ../FPF-Spec.md#c11---decision-theory-decsn-cal
 [DUA]: ../FPF-Spec.md#c11dua---make-advice-and-evidence-demands-worth-their-burden
-[MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
+[MWA]: ../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use
 [CULT]: ../FPF-Spec.md#c36---cultural-evolution-and-cultural-evolution-engineering
 [FPF]: https://github.com/ailev/FPF
 [CFA-WC]: https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/working-capital-and-liquidity

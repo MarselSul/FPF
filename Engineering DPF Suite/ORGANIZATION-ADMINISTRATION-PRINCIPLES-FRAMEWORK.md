@@ -2750,7 +2750,7 @@ For ADM.15, use the relevant receipts, payments, time and participant burdens on
 
 [REL]: ../FPF-Spec.md#a6rel---relation-obtaining-and-individuation-distinguish-occurrences-when-needed
 [PER]: ../FPF-Spec.md#a28per---granted-permission-exercise-and-non-prohibition
-[MWA]: ../FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures
+[MWA]: ../FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use
 [EW]: ../FPF-Spec.md#b15ew---recover-how-constituent-actions-enact-encompassing-work
 [OPS]: OPERATIONS-MANAGEMENT-PRINCIPLES-FRAMEWORK.md
 [OCE]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md

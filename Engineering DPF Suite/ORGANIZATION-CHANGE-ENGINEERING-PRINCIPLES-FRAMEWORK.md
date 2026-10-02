@@ -3622,7 +3622,7 @@ Reopen when a direct supplier or existing entry supplies the same recognition, q
 ### OCE.16:12 - Relations
 
 - [ME.6 in the current Method Engineering Principles Framework](METHOD-ENGINEERING-PRINCIPLES-FRAMEWORK.md) owns Method and candidate-account co-use comparison, including relation-only arrangements with unchanged Methods. OCE.16 supplies a qualified cross-change input and per-change return.
-- [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---practice-architecture-synthesis-from-several-structures) owns prospective practice-architecture synthesis after relevant structures and subjects are selected.
+- [C.32.MWA](https://github.com/ailev/FPF/blob/main/FPF-Spec.md#c32mwa---synthesize-an-architecture-account-of-methods-and-their-use) owns prospective practice-architecture synthesis after relevant structures and subjects are selected.
 - [OCE.4](#oce4---design-an-organizations-contribution-architecture), OCE.5, and [OCE.6](#oce6---establish-holder-assignments-and-enabling-relations-for-organization-change) own contribution-design, position, assignment, and enabling-relation results. [OCE.7](#oce7---coordinate-product-or-service-and-organization-architecture-decisions) owns paired product/service and organization architecture decisions.
 - [OCE.8](#oce8---compare-human-ai-robotic-and-provider-arrangements-for-the-same-organizational-work-result) owns whole same-result arrangement comparison and its choice, probe, rejection, or reroute result.
 - OCE.15 supplies a compatible named-use Method/repertoire result. OCE.16 does not repair or admit it.
