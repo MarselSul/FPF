@@ -3660,11 +3660,11 @@ C.32.MWA supplies practice-architecture synthesis. C.29 connects mathematical de
 
 ### OPS.12:1 - Problem frame
 
-**Use this when** an operating choice changes people's workload, exposure, attention, discretion, support or recovery. Typical situations include extending a service window, adding an urgent job, automating preparation, changing handovers or asking the same people to cover several services.
+**Use this when** an operating choice changes people's workload, exposure, attention, discretion, support or recovery. Typical situations include extending a service window, adding an urgent job, automating preparation, changing handovers or asking the same people to cover several services. It also applies when planning one's own work and the usable time depends on an ordinary recovery arrangement that has yet to be found.
 
 Begin with the affected work and the people who perform, receive and support it. Ask where the proposed gain creates additional work or removes a protected condition. The first useful result is an authorized operating intervention, or a bounded proposal awaiting the specific authority or evidence it needs, with its service effect and human consequences made explicit.
 
-Operations practitioners can change demand, schedules, task arrangements and support within their authority. This pattern governs those operating interventions. Health assessment, clinical judgment, capability development, employment conditions and organization design require their own qualified work when the choice depends on them. An ordinary schedule correction under established conditions can proceed without a general assessment of people's wellbeing.
+Operations practitioners can change demand, schedules, task arrangements and support within their authority. This pattern governs those operating interventions. Health assessment, clinical judgment, capability development, employment conditions and organization design require their own qualified work when the choice depends on them. An ordinary schedule correction under established conditions can proceed without a general assessment of people's wellbeing. When the missing input is an ordinary, personally chosen arrangement of work and rest, §4.3.1 explains how to obtain and reconsider it. A supplied protection or clinical conclusion is preserved within that work.
 
 In PumpWorks, an extra two hours of rig access is useful only if qualified people can cover it. Extending the same operator's work would consume protected recovery and the preparation for incident duty. The practical choice is qualified relief, a different service promise or another feasible arrangement.
 
@@ -3717,6 +3717,24 @@ Begin with alternatives that reduce unnecessary demands or change the operating 
 | A changed task exceeds current capability. | Change the task or support and obtain the needed capability-development result. | A training proposal must fit the actual learning need and available time. |
 
 Personal support can be valuable when it answers a real need. It is inadequate as the sole response to an operating arrangement that continues to violate a protected condition. Where a structural change to the organization is needed, formulate that change question and its required consequence comparison for the responsible practitioners.
+
+##### OPS.12:4.3.1 - Obtain an ordinary work-and-recovery arrangement when it is not yet known
+
+Use this branch when a person can see nominally free time but does not yet know what arrangement of work, rest and other activities is manageable for the intended work. The result is a provisional arrangement with evidence for its use and conditions for reconsideration. It is not an estimate of the person's maximum capacity. A person can use it for their own work; someone arranging others' work must preserve their discretion over private leisure and obtain only the information needed for the operating decision.
+
+**Recover a few relevant occasions.** Begin with the decision that is waiting: whether to add an evening session, retain an existing commitment or change when demanding work occurs. Use existing records or brief notes from occasions that expose that question. Recover actual starts and finishes, interruptions, remaining duties, rest or leisure that occurred, and the person's account before and after it. Include preparation, travel and any burden shifted to someone else. A short description such as “answered service messages through the intended break; restarted twice; left the review unfinished” can be more useful than a general energy score. Choose observation length from the variation that matters, such as ordinary days and days with late duty. Do not maintain a detailed time diary when a few observations already settle the decision.
+
+**Find what can change.** Separate an unavailable opportunity for recovery from an available activity that the person did not find helpful. If work keeps occupying the intended time, compare reducing or moving that work, changing the response arrangement or obtaining real cover. Asking for a better leisure activity leaves that conflict unresolved. Where a genuine choice remains, ask what the person seeks: quiet, relief from work-related demands, enjoyable movement, company, or an activity they choose for its own interest. Use familiar, accessible options and consider a new one when it offers a plausible benefit worth trying. These are reasons to form alternatives, not guaranteed effects of an activity. Intellectual work does not by itself prescribe physical leisure, and an active hobby can add effort rather than relieve it.
+
+**Construct one feasible change and its continuation.** Specify the proposed activity or work arrangement, an actual opportunity for it, the effort of preparing it, and the work that will be reduced, moved or left unpromised. Include affected household or service arrangements; another person's unagreed extra work is not free capacity. Compare the proposal with keeping the feasible current arrangement and with the serious alternative that changes the source of burden. Preserve supplied protection, clinical advice and other binding conditions. If no feasible trial fits, reduce the proposed commitment or seek the particular support or decision needed to make one possible. Do not fill an uncertain recovery need with new work while waiting for proof of harm.
+
+For a modest trial, choose the smallest change likely to answer the practical question. A person might reserve a familiar break before one kind of evening task, or move that task to an existing daytime window. Agree the occasions to try, what will be observed and when to reconsider. Prefer one material change when learning which change helps matters. If several changes must be made together, the observation concerns that whole arrangement; it does not identify the separate effect of each part.
+
+**Observe both the experience and the receiving work.** Check whether the opportunity and chosen activity actually occurred, whether the person found them restorative or otherwise worthwhile, and what happened in the relevant work: a completed usable result, repeated corrections, an interrupted attempt or work left for later. Keep these observations separate. Feeling better does not establish unchanged error rates or justify increasing workload. Rest and leisure may also be worthwhile without raising output. A missed trial is evidence about access or the arrangement, not evidence that the activity failed.
+
+**Revise the commitment at the reach of the evidence.** A workable trial can support continuing the same bounded arrangement under comparable conditions. It does not establish that the activity caused an improvement, supply a clinical conclusion or warrant adding more hours. Retain a margin for the uncertainty that matters. If recovery remains insufficient or work still fails, return to the relevant alternative: less demand, another timing or activity, better support, or inquiry into a different cause. Keep an established useful part while changing the failed one.
+
+Return the resulting actual work windows, retained recovery opportunities, remaining uncertainty and reconsideration condition to OPS.10 and OPS.10.2 before making a service or development commitment. If a needed conclusion concerns health, obtain it through the appropriate qualified practitioner; persistent difficulties need not be diagnosed from the diary. In particular, a known protection breach requires the response in §4.1 rather than completion of this trial. Reconsider when duty, household demands, access, task difficulty or the person's reported condition changes. Once the arrangement is adequate for the decision, stop unnecessary observation.
 
 #### OPS.12:4.4 - Compare the consequences by affected group
 
@@ -3772,6 +3790,20 @@ The practitioner compares limiting generated drafts to the acceptance rate, obta
 
 The observation follows accepted results, rework, interruptions and the readers' accounts over the chosen window. If fewer drafts leave service commitments unsupported, use OPS.13 to obtain the needed service decision from the responsible parties. Requiring readers to clear every generated draft by extending their work would recreate the original burden.
 
+#### OPS.12:5.4 - A person obtains usable work windows before promising them
+
+In this constructed case, a specialist sees eight apparently free hours: Monday and Wednesday 18:00–20:00 and Saturday and Sunday 10:00–12:00. They want to add development work and prepare a professional proposal. Current work and household commitments are otherwise arranged, but evening service messages often continue after 18:00. The person does not yet know whether the nominal evening windows support the new work.
+
+Brief records from the relevant evenings show two different problems: messages occupy part of the intended break, and uninterrupted evening attempts still involve repeated restarts. The person reports wanting time away from work before starting another task. Neither observation diagnoses the cause of fatigue. They are enough to reject promising all eight hours as new work.
+
+Within the current service agreement, the specialist can hand over unresolved messages before 18:00 and leave later routine messages for the next service window; urgent cover is already assigned elsewhere. This removes the spillover without silently dropping a service obligation. They compare two personal options: reserve the first evening hour for a familiar enjoyable walk or quiet reading, or leave evenings free, retain the existing weekend work and defer the new development commitment. The former preserves two short evening opportunities, but its usefulness is still to be tried. Travel and preparation fit the reserved hour; the choice creates no new household duty for another person.
+
+For the next comparable week the person chooses the first option. The reserved hour is a case-specific proposal, not a recommended recovery dose. Their four hours of planned work comprise a first attempt on Monday 19:00–20:00, feedback and correction on Wednesday 19:00–20:00, a fresh attempt on Saturday 10:00–11:00 and proposal preparation on Sunday 10:00–11:00. The needed feedback is available in its stated window. Two separate weekend hours remain unpromised. The apparent eight hours now contain two hours reserved for recovery, four hours of work and two hours of margin. The split margin cannot cover an operation requiring two continuous hours.
+
+The person notes whether the handover and chosen activity happened, their experience, and whether the planned work produced the specified usable result. Suppose the activities occurred and felt worthwhile, while Wednesday's correction still needed another half-hour when its window ended at 20:00. The one-hour duration assumed for correction was inadequate: satisfaction with the break cannot make the extra time available. The person retains the enjoyable activity, examines the correction task and uses OPS.10.2 to move or reduce the remaining work within actual available windows. A different observation in which the work fits supports continuing this same arrangement provisionally; neither observation establishes its general effectiveness.
+
+Now an additional household duty occupies Monday 19:00–20:00. The old arrangement no longer supplies that work hour. The person keeps the useful recovery choice where it remains available and reconstructs the remaining three work hours, or moves the missed attempt into a genuinely available weekend margin. If the needed feedback or order of work cannot fit, they defer the dependent proposal rather than compressing recovery automatically. This changed condition returns to scheduling and commitment, not to a conclusion that the person has lost capability.
+
 ### OPS.12:6 - Bias-Annotation
 
 People with little control over schedules may find it difficult to report a conflict, while a manager sees only completed output. Use an appropriate way to obtain their account and compare it with the work arrangement; silence is weak evidence that no burden exists.
@@ -3788,12 +3820,14 @@ A productivity measure also favors the group whose work it counts. Follow except
 | Alternatives change the relevant arrangement. | The comparison includes a source-level intervention or explains the specific result needed to create one. |
 | The choice preserves affected groups. | Service benefit and transferred burden are visible, and protected conditions are checked before preference. |
 | The action can be carried out and revised. | Authority, capability, communication, observations and stop or reversal conditions fit the chosen intervention. |
+| An unknown ordinary recovery arrangement has not been assumed. | Where this input matters, an available trial connects actual opportunities, the person's experience and relevant work results to a provisional commitment and its reconsideration. |
 
 ### OPS.12:8 - Common Anti-Patterns and How to Avoid Them
 
 | Misuse | Working repair |
 | --- | --- |
-| Treat unused calendar hours as available effort. | Recover actual duties, interruptions, required recovery and support for that time. |
+| Treat unused calendar hours as available effort. | Recover actual duties, interruptions, required recovery and support for that time; use §4.3.1 when the ordinary recovery arrangement is still unknown. |
+| Use feeling better as proof that more work can be promised. | Keep the person's experience and the actual work result distinct; revise the commitment only at the reach of the evidence. |
 | Average away the burden on the exception team. | Compare the material consequences for that team and the service it supplies. |
 | Wait for a wellbeing survey before correcting a known breached condition. | Take the permitted operating response from the established condition and seek any missing authority. |
 | Offer resilience training while leaving the incompatible assignment in place. | Repair demand, timing, duty or support; add learning work when an actual capability need calls for it. |
@@ -3801,7 +3835,7 @@ A productivity measure also favors the group whose work it counts. Follow except
 
 ### OPS.12:9 - Consequences
 
-Human conditions become explicit inputs to an operating choice. The service plan can use qualified relief, reduced demand or a different arrangement before hidden burden appears as delay, rework or loss of support.
+Human conditions become explicit inputs to an operating choice. The service plan can use qualified relief, reduced demand or a different arrangement before hidden burden appears as delay, rework or loss of support. For personal work with an unknown recovery arrangement, a bounded trial can supply a provisional basis for the next commitment instead of assuming that every empty hour is usable.
 
 A feasible intervention may reduce near-term completions or require additional resources. Participant inquiry and observation also consume time. Focusing on the actual choice and using existing evidence limits that effort while preserving necessary protection.
 
@@ -3819,13 +3853,17 @@ The practice question is how to improve service when the proposed change alters 
 
 The serious alternative is a broader organizational intervention where authority, contribution arrangements or recurring staffing allocation cause the conflict. OCE.13's consequence comparison helps when that is the actual subject. The local operating correction remains appropriate when it can resolve the problem within current authority at lower effort. Escalate the specific unresolved arrangement rather than making every schedule decision depend on organization redesign.
 
+For an unknown ordinary recovery arrangement, two research results limit the operating promise. [Albulescu and colleagues' 2022 meta-analysis of micro-breaks](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0272460) distinguishes reported vigor and fatigue from performance; the overall performance result did not establish a general benefit, and task differences matter. It does not supply a universal break duration or establish an appropriate off-work routine. [Kujanpää and Olafsen's 2024 daily-diary study](https://doi.org/10.1007/s10869-024-09978-z) distinguishes shaping recovery activities from the experiences people report. Its associations among Norwegian knowledge workers, measured by self-report, do not establish that prescribing a particular activity causes recovery or better task performance.
+
+Section 4.3.1 therefore uses accessible activities and personal preferences to construct a bounded operating trial, and keeps experience, actual opportunity and receiving-work results distinct. This is an operating synthesis, not a validated clinical intervention. The serious alternative of reserving a fixed generic break is simpler when its adequacy is already established for the work. When it is unknown, that rule leaves both fit and usable workload assumed. Conversely, a detailed personal experiment is unnecessary when removing an observed schedule conflict already settles the decision. The selected trial gains a revisable basis for the remaining choice at the cost of observation and delayed commitment; it does not promise an optimal regime.
+
 The case comparisons are constructed demonstrations, not effectiveness estimates. Reopen the selected intervention when a changed population, demand pattern, protection result or better-supported method changes its feasible consequences.
 
 ### OPS.12:12 - Relations
 
-OPS.5 and OPS.7 supply admission and priority choices whose human consequences may need examination. Use OPS.10 to qualify capacity and OPS.13 to establish a supported service commitment with the authorized parties when that is the receiving need. OPS.14 supplies decision-specific financial consequences, and OPS.15 can provide the necessary operating account.
+OPS.5 and OPS.7 supply admission and priority choices whose human consequences may need examination. Use OPS.10 to qualify capacity and OPS.10.2 to place remaining work in the actual available windows. The work and recovery arrangement obtained here supplies conditions for those calculations, not additional hours to count twice. Use OPS.13 to establish a supported service commitment with the authorized parties when that is the receiving need. OPS.14 supplies decision-specific financial consequences, and OPS.15 can provide the necessary operating account.
 
-OPS.18 governs the continuation or recovery action when quality and reliability are at risk. OPS.17 helps reconsider the method whose assumptions created recurring burden. OCE.13 applies when the subject is an organization change; a Human Capability Development method is needed when the unresolved result concerns capability development.
+OPS.18 governs the continuation or recovery action when quality and reliability are at risk. OPS.17 helps reconsider the method whose assumptions created recurring burden. OCE.13 applies when the subject is an organization change; a Human Capability Development method is needed when the unresolved result concerns capability development. HCD.7 and HCD.15 can use the resulting work windows, retained recovery and reconsideration conditions when arranging support or continuing development. A changed available window reopens that arrangement without itself establishing a change in the person's capability.
 
 FPF C.16 supports measurement whose basis matters to the decision. A.10 keeps evidence reach distinct from the claim being made. A.11.OP helps remove work that has no contribution to the current decision, required assurance or recovery.
 
