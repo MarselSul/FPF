@@ -2227,7 +2227,7 @@ Do not use HCD.7 to create a missing provider capability, infer that a provider 
 | --- | --- |
 | required development contribution | One result or action that the selected programme, Method, or practice needs from a learner, teacher, assessor, specialist, peer, source, tool, AI system, environment, or organization. |
 | provider function | The bounded contribution to be supplied, such as explaining, preparing a case, giving actionable feedback, checking a critical error, assessing independently, maintaining access, or supplying a specialist result. A role title does not define the function. |
-| provider | The identified person, group, organization, service, tool, source, or other System relied upon for a stated contribution under stated conditions. Different contributions may have different providers. |
+| provider | The identified person, group, organization, service, or tool relied upon to perform the required action or supply its result under stated conditions. A book or dataset used for that contribution remains an identifiable source with its own edition and access conditions. Different contributions may have different providers. |
 | access condition | A permission, credential, data boundary, physical or digital route, timing, environment, interface, or participation condition needed to obtain a contribution. |
 | capacity window | The amount and timing of provider attention or system availability that can serve the required work, including concurrency and peak demand. A total can fit while a critical window fails. |
 | human-check contribution | The human judgement, verification, explanation, authorization, or accountability that remains necessary when AI or another tool assists. It has its own competence and workload. |
@@ -2392,6 +2392,16 @@ For the pump case, an AI suggestion asks the learner to take a fresh pressure re
 This is an application of §4.4's existing human-check arrangement. Access to the suggestion tool adds no qualified mentor until the person can select, adapt or reject its output in the actual task. Reserve preparation, checking, live help and fallback separately. For example, two thirty-minute mentor preparation attempts and forty minutes of teacher comparison allocate 100 provider-minutes before live delivery. Include those minutes once in the product's fixed preparation; count live windows and subsequent maintenance where they actually fall.
 
 [Tutor CoPilot, November 2025 revision](https://edworkingpapers.com/sites/default/files/ai24_1054_v2.pdf) supplies a bounded example of tutor-facing suggestions built from expert reasoning with human selection and editing. Its paid professional tutors received training; the study does not establish that unprepared volunteers can replace them, nor that exit-ticket effects show distant transfer or independent tutor learning. Its tool price is not a complete support cost. The diagnostic preparation above is an authored application, not that study's observed result.
+
+#### HCD.7:5.6 - One Learner Can Start with Available Feedback
+
+In this fictional case, a learner has agreed to practise making a catalogue record from a supplied photograph and its metadata. The selected task uses anonymized dataset D2 and rubric R3; one protected error is inventing a date when the supplied information requires an "unknown" entry. The learner may use the rubric and write the practice record on paper or in the practice folder. The teacher is authorized to give formative feedback and check this error, and has already judged two representative records correctly against R3 within the required checking time.
+
+The learner has reserved 09:00–09:40. The teacher has confirmed eight minutes before 09:00 to prepare the task, verify D2/R3 compatibility and access, and confirm the appointments; five minutes at 09:10–09:15 for feedback on the first record; seven minutes at 09:25–09:32 to check the correction; and five minutes at 09:32–09:37 for a question, further correction or rescheduling. The full teacher allocation is `8 + 5 + 7 + 5 = 25` minutes, with no competing work in those slots. The learner makes the first record at 09:00–09:10, receives feedback, then revises it at 09:15–09:25; the checking and reserve also fit the learner's window.
+
+Both can open the specified materials, and permitted printed copies have been checked for the same content. Those copies preserve access if the folder fails. If the teacher misses the feedback slot, the learner saves the first record and reschedules feedback and correction; access to R3 alone does not complete that cycle.
+
+The result is an **enabled development arrangement for this one supported attempt and correction**. D2 and R3 remain the data and criteria being used; the teacher supplies feedback and checking. No additional provider preparation is currently needed. The practice has not yet occurred, and later independent assessment would need its own arrangement.
 
 ### HCD.7:6 - Bias-Annotation
 
