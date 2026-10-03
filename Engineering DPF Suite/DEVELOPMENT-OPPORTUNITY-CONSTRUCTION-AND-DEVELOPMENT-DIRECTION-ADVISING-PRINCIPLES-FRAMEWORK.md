@@ -72,7 +72,7 @@ Opportunity construction needs no adviser. Advice from a distinct practitioner c
 
 If you have usable material but no settled future contribution, [DOCA.2:5.4](#doca254---a-useful-question-emerges-from-available-material) shows a different entry: C.40 helps examine a feasible change; DOCA.3 investigates a possible use suggested by it; DOCA.4 and DOCA.5 become relevant when a direction and its support need construction and qualification. Stop at a sufficient local result if no further opportunity inquiry is worthwhile.
 
-In [Larch Engineering's application](#app-doca-02--an-engineering-companys-next-development-opportunities), “replace the analytics platform” starts a two-week inquiry about improving an industrial monitoring service over nine months. DOCA.1 identifies the receiving service, available inquiry effort and protections for current customers. DOCA.1.CHR separates fault-detection usefulness, false alarms, response time, work burden and protected conditions. Engineering and operations supply the readings; an unknown reading remains unknown.
+In [Larch Engineering's application](#app-doca-02--an-engineering-companys-next-development-opportunities), “replace the analytics platform” opens a two-week return window for an inquiry about improving an industrial monitoring service over nine months. DOCA.1 identifies the receiving service and protections, then selects a review of available qualified results because it can expose a limiting dependency within the return window. DOCA.1.CHR separates fault-detection usefulness, false alarms, response time, work burden and protected conditions. Engineering and operations supply the readings; an unknown reading remains unknown.
 
 DOCA.2 looks beyond platform vendors. DOCA.3 asks which receiving problem each lead would address. The resulting directions can concern a better detection component, operators' ability to interpret alarms, a revised escalation arrangement or a specialist provider. DOCA.4 explains the proposed contribution with the support that would make it usable. A course, purchase or change in responsibilities is a possible means, not evidence that the monitoring result improves. If comparing whole arrangements for one already specified result is the complete question, use the existing OCE.8 contribution directly.
 
@@ -94,7 +94,7 @@ Now suppose a provider notice removes access to one data class. DOCA.8 traces wh
 
 In [Mira's application](#app-doca-01--miras-development-direction-programme-comparison-and-guide), the engineer-manager initially wants to “learn more patterns.” A qualified HCD account instead identifies the work: decide when a specialist report can support a release-review question and when another contribution is needed. With the stated checklist and reference, three of five representative uses are adequately qualified; two changed-configuration uses rely on unsupported transfer. Those observations concern the named tasks and support, not a general ability score.
 
-DOCA.1 limits the inquiry to two short sessions and considers Mira's work over four months. Development must fit within the existing thirty-eight-hour week; up to three hours may be reassigned, with the displaced work and any burden on colleagues established. Using the problem and performance account, DOCA.4 contrasts supported practice of specialist-result use with changing the review service so a qualified reviewer supplies more of that contribution. The latter may improve the receiving result without developing Mira's personal capability. The personal-practice direction still needs the HCD transfer basis; both directions need their relevant support capacity. DOCA.5 qualifies these dependencies, and DOCA.6 can keep both conditional directions and a later unfamiliar-task possibility.
+DOCA.1 reuses the supplied performance account to begin constructing conditional directions for Mira's work over four months. Two offered discussion sessions add no capacity evidence while the support owner cannot yet supply it. Development must fit within the existing thirty-eight-hour week; up to three hours may be reassigned, with the displaced work and any burden on colleagues established. Using the problem and performance account, DOCA.4 contrasts supported practice of specialist-result use with changing the review service so a qualified reviewer supplies more of that contribution. The latter may improve the receiving result without developing Mira's personal capability. The personal-practice direction still needs the HCD transfer basis; both directions need their relevant support capacity. DOCA.5 qualifies these dependencies, and DOCA.6 can keep both conditional directions and a later unfamiliar-task possibility.
 
 The first direction gives Mira something to practise: given a release question and specialist reports, decide what can be reused and at what strength, retain its limitation, and seek a further result only when the attainable answer warrants the work. A request does not supply the requested result. The support direction instead needs the provider's qualified output, response time and capacity, including consequences for other teams. Comparing the directions must retain those different contributions and burdens.
 
@@ -282,9 +282,9 @@ Keep the receiver's useful difference separate from the subject's desired learni
 
 An inquiry can still start from material that someone can use or change: permitted records, a working procedure, a model or another construction. Name an available operation and a difference worth examining within the inquiry's resources and permissions. [C.40](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) supplies that development Method. Its result can suggest a receiving use for DOCA.2 or DOCA.3 to investigate. A useful local result can also finish the inquiry; it need not become a development opportunity.
 
-#### DOCA.1:4.3 - Fix the horizon and protected conditions
+#### DOCA.1:4.3 - Separate the return time from the development horizon
 
-Choose a horizon set only as finely as it can change the inquiry. A four-month inquiry may use several sub-horizons; another case may need one decision deadline and one longer consequence horizon. No universal near/middle/far sequence is implied.
+State when the inquiry's result must be usable and over what horizon the proposed development or its consequences matter. For example, an inquiry can return by Friday about a contribution intended to improve work over four months. The available effort within that window belongs in §4.5: six staff-hours is a resource ceiling, not the inquiry's elapsed duration. Add another development or consequence horizon only when it changes the question or protections.
 
 Name conditions that the inquiry may not silently trade away. Depending on the subject and use, these can include safety, legal or professional limits, privacy, confidentiality, workload, service continuity, accessibility, resource ceilings, reversibility, distributional consequences, or preservation of future options. The direct practice owns their meaning and evidence.
 
@@ -300,24 +300,33 @@ Write why exploration is warranted now. Distinguish:
 
 Preserve competing formulations when they would send the inquiry toward different contributions. Use the direct problem-structuring pattern when deciding among those formulations is itself the current Work.
 
-#### DOCA.1:4.5 - Set a proportional inquiry budget and permissions
+#### DOCA.1:4.5 - Establish available means and permissions
 
-Declare the effort, elapsed time, people, source access, conversations, computation, and other resources available for this inquiry. State the consequence level that would require stronger evidence before a later commitment.
+Identify what can actually be used before the inquiry must return: people's time and capability, source access, conversations, computation and other relevant means. Check who can obtain and interpret the proposed result. An available effort ceiling is not yet a reason to spend it; select the budget with the result in §4.6.
 
-Permission to inspect a source, interview a participant, or run a desk study does not authorize an intervention, access to restricted records, procurement, advice, or implementation. When the inquiry itself lacks permission, return the exact access or authority gap.
+Count the work the inquiry would require from everyone affected, including preparation, obtaining the result, interpretation and use. Include delay, displaced work and downside where they can change the choice. A short interview can require substantial preparation or interrupt someone whose contribution is needed elsewhere.
 
-#### DOCA.1:4.6 - Select the first missing result
+Permission to inspect a source, interview a participant, or run a desk study does not authorize an intervention, access to restricted records, procurement, advice, or implementation. If the proposed inquiry cannot respect a protected condition, select a permitted alternative or return the exact gap. Keep any stronger evidence condition for a later consequential commitment visible.
 
-Ask which result would most change useful progress at the declared effort:
+#### DOCA.1:4.6 - Choose a worthwhile first result and enough inquiry
+
+Identify a result that could improve the answer or next inquiry. Depending on what is already known, it may be:
 
 - a development-facing characterization from `DOCA.1.CHR`;
 - materially different search leads from `DOCA.2`;
 - a worthwhile problem and proposed contribution from `DOCA.3`;
-- an admissible advising question or blocker from `DOCA.7`;
-- a qualified result from a holder, evidence, safety, legal, professional, engineering, organization, operations, strategy, research, or other direct owner; or
-- an honest stop because the existing opportunity or option set is already sufficient.
+- an admissible advising question or blocker from `DOCA.7`; or
+- a qualified result from the practice that owns a missing premise.
 
-Start there. Publication order does not require all earlier PatternIDs to be used, and using this pattern does not create a lifecycle.
+Say what plausible answers would change: the next question, a possible contribution, a supported claim, an admissible action or a justified stop. When the future receiver is unknown, use the local exploratory question from §4.2. Discriminating explanations or discovering a useful operation can justify inquiry before an intervention is selected.
+
+Compare the attainable inquiry with what the present basis already supports. A narrower answer, smaller probe, different source, deferral or stop may serve the use better. Compare their whole burdens under §4.5 and the protections, not uncertainty alone. Use [C.11.DUA:4.1–4.4](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) when the connection between the receiving question, evidence demand and worthwhile continuation needs development. Qualitative judgement is enough when it settles that choice.
+
+Select the affordable inquiry whose attainable contribution is worth that burden, or finish with the supported answer now. State what would be enough for this use before spending the selected budget: for example, one evidenced difficulty and a question that distinguishes two plausible contributions. This condition need not settle every unknown. If the inquiry cannot reach it within the permitted means, return the narrower supported result or exact gap; exhausting a budget supplies no missing evidence.
+
+For an outside-practice contribution, [A.15.9:4.1](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), steps 2–3, connects reuse of an available answer with the decision to obtain more. When acquisition is worthwhile, its later steps bound the request and qualify the returned result for use. Asking for it does not supply it.
+
+Start at that selected contribution. Publication order does not require the earlier PatternIDs to be used.
 
 #### DOCA.1:4.7 - Return the bounded inquiry or exact gap
 
@@ -328,24 +337,25 @@ BoundedDevelopmentOpportunityInquiry@Context:
   subjectAndBoundary:
   claimPosture:
   receivingUseAndReceiver:
-  horizonSetAndDecisionWindow:
+  inquiryReturnTime:
+  developmentOrConsequenceHorizon:
   protectedConditions:
   reasonToExploreAndStatus:
   knownPremises:
   suggestedButUnqualifiedPremises:
   inquiryBudgetAndPermissions:
-  firstMissingResult:
+  selectedResultAndSufficiency:
   directOwnerOrNextPattern:
   stopOrReopenCondition:
 ```
 
-This is a local working form, not a new root kind, WorkPlan, engagement, recommendation, or authorization. An unsettled future receiver can remain unknown while the local question guides the inquiry. Omit a field only when it cannot change the next action and that omission is apparent from the case.
+This is a local working form. An unsettled future receiver can remain unknown while the local question guides the inquiry. Keep the fields that change the next action or how another reader can use the result.
 
-A complete return can be modest: “For engineer-manager Mira's incident-review contribution during the next four months, explore ways to reduce delayed handoff detection while preserving current service workload and confidential records. Spend up to six hours on characterization and source checks; first obtain the current and intended review characteristics. Stop before course selection or advice.”
+A complete return can be modest: “By Friday, use three of the six available staff-hours to locate one evidenced incident-handoff difficulty and the next question it warrants, using permitted examples and two brief clarifications. Preserve service workload and confidential records. This is enough to choose what to investigate next for Mira's work over four months; it does not select a course.” Section 5.1 shows why that inquiry earns its budget.
 
 #### DOCA.1:4.8 - Stop, reuse, and reopen locally
 
-Stop when the bounded inquiry identifies a useful next result and its owner, when a truthful blocker prevents that result, or when the existing result is already sufficient for the receiving use. Do not widen merely to increase idea count.
+Finish the boundary-setting work when the selected result, worthwhile effort, sufficient return and responsible practice are clear, or when the supported answer or exact gap already completes the present use. The inquiry itself stops at that sufficient return, a relevant blocker or its agreed limit; extending it requires a changed contribution comparison. Do not widen merely to increase idea count.
 
 Reopen only the affected boundary when the subject, receiver, receiving use, horizon, protected condition, posture, authority, source premise, or effort budget changes. A changed characteristic need not erase an otherwise usable inquiry; a changed receiving use may.
 
@@ -357,9 +367,19 @@ Instead of starting with a course, tool, provider, maturity label, or long oppor
 
 #### DOCA.1:5.1 - Person entering construction without an adviser
 
-Mira manages an engineering team and says, “I should develop in AI this quarter.” The phrase does not yet name a receiving contribution. She identifies the subject as herself in her current engineer-manager configuration, the receiving use as improving incident-review and handoff Work over four months, and the receiver as her team and service organization. She protects current service workload, confidential incident data, and her ability to continue the existing role.
+Mira manages an engineering team and says, “I should develop in AI this quarter.” She names herself as the development subject, her incident-review and handoff work as the receiving use, and her team and service organization as its receivers. She wants to improve that contribution over four months. By Friday she needs a concrete question for the next improvement discussion. Current service work, confidential records and her ability to continue the role must stay protected. Six staff-hours, counting her time and colleagues' time, can be taken from optional reporting before Friday without shifting required work to others.
 
-She allows six hours for an initial inquiry using current Work examples, two conversations, and qualified source checks. “AI” remains a search seed, not the result. The first missing result is a characterization of review quality, latency, explanation burden, and protected workload under `DOCA.1.CHR`. She can stop with that bounded inquiry without appointing an adviser or selecting a course.
+An existing summary establishes delayed handoffs but does not locate where they stall. Three permitted incident examples and two colleagues' fifteen-minute clarification slots are available. Mira compares what each feasible inquiry would add:
+
+| Available continuation | Whole burden before Friday | Useful return and limit |
+| --- | --- | --- |
+| Use the existing summary | Half an hour to interpret it. | Enough to say that delayed handoffs deserve attention; insufficient to locate the next discriminating question. |
+| Examine the three examples and clarify the handoffs | Three staff-hours: half an hour of preparation, one hour on records, one hour of conversations counting both sides, and half an hour of interpretation. | Can locate an evidenced difficulty and distinguish a question about review practice from one about missing information or support. |
+| Review a larger incident sample | Six staff-hours, including preparation and interpretation, displacing more optional reporting. | Could add evidence about recurrence, but that estimate is unnecessary for Friday's first improvement question. It would not establish the benefit of AI. |
+
+She selects the three-hour inquiry under `DOCA.1.CHR`. Its sufficient return is one evidenced handoff difficulty, the protected workload limit and the next question that could change the proposed contribution. A tool, a change in review support and personal development remain possible; none is selected from the word “AI.” If the examples cannot support that return, she brings the exact evidence gap on Friday instead of extending the study automatically.
+
+**Changed condition.** If the existing summary already locates that difficulty and supports the next question under the same conditions, the half-hour interpretation is enough. She reuses it and ends this inquiry. The unused budget creates no obligation to interview anyone. Neither result requires an adviser or a course choice.
 
 #### DOCA.1:5.2 - Organization with a fashionable solution
 
@@ -390,11 +410,11 @@ A conforming use or companion account:
 
 1. **MUST** name the exact subject or provisional subject boundary and claim posture.
 2. **MUST** state the receiving use and receiver when known. Otherwise, identify the local question being investigated and keep the future receiving use open.
-3. **MUST** declare the horizon set or decision window that can change the result.
+3. **MUST** distinguish the inquiry's return time, available effort and relevant development or consequence horizon.
 4. **MUST** expose protected conditions before candidate selection.
 5. **MUST** distinguish qualified grounds, explicit hypotheses, supplier promises, and search leads.
-6. **MUST** state a proportional inquiry budget and any permission needed for the inquiry itself.
-7. **MUST** identify the first missing result, its direct owner or next pattern, and the smallest useful return.
+6. **MUST** select an inquiry budget from attainable contribution, whole burden, available means and permissions, or use a sufficient existing answer.
+7. **MUST** identify the selected result, its direct owner or next pattern, and what makes the return sufficient for the present use.
 8. **MUST NOT** present the inquiry as a recommendation, choice, programme, Guide, performed Work, observed effect, or intervention authority.
 9. **MUST** preserve independent Construction and Advising entry; no PatternID order may be presented as a mandatory lifecycle.
 10. **MUST** state a stop or local reopen condition.
@@ -407,7 +427,7 @@ A conforming use or companion account:
 | --- | --- | --- |
 | “Develop in X” as the inquiry | It names a subject area or solution without a question worth investigating. | Name the subject, local question, horizon, protections and first useful result; identify the receiving use when investigating a proposed contribution. |
 | Full goal required before discovery | It suppresses useful exploration when the problem is still provisional. | Permit an explicit hypothesis, but bind effort and the question that would qualify or reject it. |
-| Unlimited ideation | More leads never become inspectable opportunities. | Set a proportional budget and stop at enough material difference or a named blocker. |
+| Uncertainty sets the budget | A large unknown attracts an expensive study even when its results cannot improve the present use. | Compare attainable answers and whole burden with a sufficient current answer or smaller inquiry; stop at the result this use needs. |
 | One cross-holder development mechanism | It imports human, organizational, technical, epistemic, or evolutionary assumptions across unlike subjects. | Recover the exact subject and return substantive claims to its direct owner. |
 | Inquiry as engagement authorization | Permission to explore is treated as authority to advise or intervene. | Keep inquiry permission, advising admissibility, choice authority, and implementation authority separate. |
 | Horizon by convenience | Time is shortened or extended to favor one candidate. | Declare the horizon before comparison and reopen when it changes. |
@@ -430,25 +450,28 @@ The selected boundary is therefore intentionally small: enough identity, use, ho
 
 ### DOCA.1:11 - SoTA-Echoing
 
-**Practice question.** How should early opportunity or idea work begin before a solution-development commitment while remaining usable across unlike development subjects?
+**Practice question.** How can early development inquiry remain revisable while earning its effort and returning enough to support the next useful move?
 
-**Best-known line for this pattern.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) supplies the current opportunity/idea-management boundary before solution development and deployment. FPF [`E.10.DEV`](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) supplies the stronger cross-holder repair: identify the changed or represented subject, claim posture, direction basis, and direct owner rather than treating *development* as one mechanism. This pattern **adapts** those contributions in `DOCA.1:4.1`–`4.7` by adding the receiving use, protected conditions, proportional inquiry budget, independent no-adviser entry, first-missing-result return, and explicit stop.
+**Selected best-known line.** Phillips, [*Decision Analysis for Practitioners* (2025)](https://pubsonline.informs.org/doi/full/10.1287/deca.2025.0356), develops requisite modelling: revise the problem and model with participants, explore assumptions through sensitivity analysis, and seek enough understanding to move forward without settling every input. Its sections on decision conferences, transitional objects and decision-analysis technology already support exploration before commitment and the emergence of new options. This pattern **adopts** revisable inquiry and sufficiency from that line.
 
-**Serious alternative or default.** A project brief that starts with a fixed goal and preferred solution is cheaper when the problem and option boundary are already adequate. Unbounded ideation is more open when the inquiry is exploratory. The first excludes useful pre-goal discovery; the second lacks a proportional return. At comparable initial effort, the bounded inquiry preserves both openness and an inspectable next result, at the price of leaving more conclusions provisional.
+**Useful adaptation here.** DOCA.1 joins those contributions to development-subject identification from [E.10.DEV](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), inquiry appraisal from C.11.DUA and bounded outside-practice use from A.15.9. Sections 4.1–4.6 connect the subject, local question or receiving use, protections, available means and sufficient return. This supports a self-inquiry, an unsettled future receiver, or a question that an existing qualified result can already answer. None of those entries requires convening a decision conference or constructing a decision model.
 
-**Source roles and limits.** ISO 56007 is a normative opportunity/idea-management source, not evidence of effectiveness or a universal cross-holder procedure. `E.10.DEV` is the internal best-known line for semantic recovery, not a holder-specific development Method. Domain, professional, legal, safety, evidence, and decision practices retain their conclusions.
+**Serious alternative and price.** Requisite modelling is a strong direct choice when participants need to develop shared understanding, examine consequential trade-offs or test sensitivity to disputed judgements. Use the corresponding decision-support practice directly when it supplies the whole needed result. DOCA.1's smaller return can be useful before that need is established, but it supplies neither the model nor the facilitated shared understanding. Its explicit boundary costs attention too: repeating it around an adequate modelling brief adds work without a useful contribution.
 
-**Reopen condition.** Reopen this source stance if a current alternative demonstrates a lower-effort entry that preserves subject and posture distinctions, receiving use, protections, independent branch entry, proportional stopping, and exact owner return, or if ISO 56007 changes the opportunity-to-solution boundary relied on here.
+**Source roles and limits.** [ISO 56007:2023](https://www.iso.org/standard/75068.html) provides the normative opportunity/idea-management boundary before solution development. Reliance here is on its public scope, not an inspected full standard or evidence of effectiveness. Phillips supplies a developed practitioner account and cases, not proof of DOCA's comparative performance. The FPF contributions retain their respective semantic, appraisal and reliance roles; subject practices supply the actual development evidence.
+
+**Reopen condition.** Reconsider this adaptation when a more economical entry supplies the same distinctions about the subject of development, protected conditions and sufficient return, when requisite modelling already closes the local use, or when a relied-on source changes the operation it supplies.
 
 ### DOCA.1:12 - Relations
 
 - **Uses:** `E.10.DEV` to recover the subject, posture, and direct owner when development wording changes the next action.
+- **Uses:** `C.11.DUA` to compare attainable inquiry with its receiving value and whole burden; `A.15.9` to reuse or obtain and qualify an outside-practice result.
 - **Prepares:** `DOCA.1.CHR` when selected characteristics and current, intended, protected, or unknown readings are the first missing result.
 - **Prepares:** `DOCA.2` or `DOCA.3` when the inquiry needs materially different leads or a worthwhile problem and proposed contribution.
 - **Coordinates with:** `DOCA.7` when a distinct recommending performer and recipient make advising admissibility current; this pattern does not establish that relationship.
-- **Returns to:** the exact holder, evidence, professional, legal, safety, engineering, organization, operations, strategy, research, or other practice that owns a missing premise.
+- **Returns to:** the practice that owns a missing premise, retaining its qualification and authority boundary.
 - **Hands later comparison and recommendation outward:** current Problem Structuring and Decision Support patterns own formed decision alternatives, comparison, recommendation, follow-up, and choice separation.
-- **Does not imply:** a Method sequence, programme, WorkPlan, performed Work, authorization, beneficial effect, publication order, or product membership.
+
 
 ### DOCA.1:End
 
@@ -2309,7 +2332,9 @@ Mira is an engineer-manager who prepares release-review handovers. She has four 
 
 For this case, a qualified HCD practitioner has recovered representative later-Work demand and evidence of Mira's present performance under the available checklist and technical reference, using the target practice's qualified correctness criteria. Mira's responses adequately qualified three of five receiving uses; in the two changed-configuration cases they relied on unsupported transfer. The result concerns those tasks and supports. It does not establish unaided performance, a general mastery score, or transfer to every engineering setting.
 
-DOCA.1 bounds Mira, that later Work, the four-month horizon and an inquiry of two short sessions. Development activity must fit within the existing thirty-eight-hour working week; at most three hours a week can be reassigned, with the displaced activity named. Protected conditions include no disclosure of restricted release data and no unsupported technical acceptance. Mira is the recipient and direction chooser; an employer's staffing decision remains a different use.
+DOCA.1 bounds Mira, that later Work and the four-month horizon. She needs a first direction question by Friday. Two short discussion sessions are available, but the support owner cannot provide a qualified capacity answer this week. The existing HCD result already supports construction of conditional personal-practice and review-support directions. Mira therefore uses that result now and carries the capacity gap; another meeting would not qualify it. Reopen acquisition when an obtainable answer could change the directions or their use.
+
+Development activity must fit within the existing thirty-eight-hour working week; at most three hours a week can be reassigned, with the displaced activity named. Protected conditions include no disclosure of restricted release data and no unsupported technical acceptance. Mira is the recipient and direction chooser; an employer's staffing decision remains a different use.
 
 DOCA.1.CHR replaces “become more mature” with the needed readings:
 
@@ -2329,7 +2354,7 @@ Counts, time, permission and qualification readings answer different questions. 
 
 Using DOCA.2–DOCA.4, Mira constructs two materially different directions. One is intended to develop her recognition and execution of bounded specialist-result use. The other would change the release-review support arrangement so that a qualified technical reviewer supplies more of that contribution. The second may improve the receiving result without demonstrating new personal capability. Both are more precise than competing course brands.
 
-The first direction cites [A.15.9 — Request and Use a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) as a complete contribution. The recurring difficulty is a missing qualified outside contribution. The move is to inspect an existing result, use it at its supported strength, and retain a material limit. A further request is selected only when its obtainable contribution warrants the whole acquisition burden; the return is qualified for the receiving subject, configuration, use and window. The useful result is a qualified contribution or an explicit limitation. A useful narrower answer can also complete the use; a request itself is not the supplied result.
+The first direction cites [A.15.9 — Use or Request a Bounded Result from Another Practice](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) as a complete contribution. The recurring difficulty is a missing qualified outside contribution. The move is to inspect an existing result, use it at its supported strength, and retain a material limit. A further request is selected only when its obtainable contribution warrants the whole acquisition burden; the return is qualified for the receiving subject, configuration, use and window. The useful result is a qualified contribution or an explicit limitation. A useful narrower answer can also complete the use; a request itself is not the supplied result.
 
 Mira's intended learner action is therefore observable: given a release question and two specialist reports, decide which report can be used and at what strength, retain a genuine use limit, and obtain a further contribution only when it warrants the work. When acquisition is selected, she drafts its bounded request; she withholds the claim that still lacks a suitable result. The PatternID is an address for that guidance, not a development step by itself. Reading the text does not establish that Mira can perform the described move.
 
@@ -2384,7 +2409,7 @@ A learning-product author may already have a Foundations-like HCD.2-grounded com
 
 ### One receiving question, several kinds of direction
 
-Larch Engineering wants to improve a small industrial monitoring service over nine months while preserving current customer operation. Its operations lead is the recipient of the opportunity account. The governing management arrangement owns any later direction commitment; the inquiry team cannot bind the company. DOCA.1 limits the inquiry to two weeks and names the customer-service result, available inquiry effort, confidentiality, safety and continued-service protections.
+Larch Engineering wants to improve a small industrial monitoring service over nine months while preserving current customer operation. Its operations lead is the recipient of the opportunity account. The governing management arrangement owns any later direction commitment; the inquiry team cannot bind the company. DOCA.1 sets a return within two weeks and protects confidentiality, safety and continued service. The team has one day of combined engineering and operations effort available, including preparation and interpretation. Existing qualified service and capacity reports can support a first comparison of directions and expose an impossible overlap. Reviewing them is worth that effort; a new platform benchmark cannot qualify the whole support arrangement in this window. The sufficient return is conditional directions and their limiting dependencies, not a purchase recommendation. If the reports cannot support a needed premise, that gap remains in the return.
 
 The initial proposal is “replace the analytics platform.” DOCA.1.CHR recovers the real comparison positions: fault-detection usefulness for the stated customer equipment, false-alarm burden, response time, operator and provider effort, total transition and operating resources, service interruption, security, effects on small and large customers, and future maintainability. Each needs its own scale, polarity, evidence and window. Current readings are supplied by engineering and operations; missing readings remain unknown.
 
@@ -2483,16 +2508,17 @@ The applications preserve a person-to-Guide use, an organization inquiry and unl
 
 ## Source responsibility and references
 
-The source roles below consolidate the pattern-local SoTA accounts for this edition's claims. They identify which contribution is adopted or adapted, its limit, and the smallest return after a material change. They do not replace the complete sources or establish a client's facts. The dated external-source inspection basis is 5 September 2026; it is not a guarantee of future currentness or universal applicability.
+The source roles below consolidate the pattern-local SoTA accounts for this edition's claims. They identify which contribution is adopted or adapted, its limit, and the smallest return after a material change. They do not replace the complete sources or establish a client's facts. The cited editions and bounded source roles qualify these uses; a changed source or receiving question can require a new source return.
 
 ### Opportunity, characterization, and retained possibilities
 
 | Source and relied-on contribution | Use in this framework | Limit and smallest reopen |
 | --- | --- | --- |
 | [ISO 56007:2023](https://www.iso.org/standard/75068.html): opportunity/idea and concept work before solution development and deployment. | **Adapted** in DOCA.1–DOCA.4: independent early inquiry, contrastive search, receiving problem/contribution and prospective support configuration. | Reliance is on its public scope, not an inspected full paid standard or effectiveness evidence. Reopen the affected front-end boundary if that scope or a stronger practice changes it. |
+| [Phillips, Decision Analysis for Practitioners, 2025](https://pubsonline.informs.org/doi/full/10.1287/deca.2025.0356): requisite modelling, revisable problem framing and exploration sufficient to move forward. | **Adopted and compared** in DOCA.1: a strong alternative when joint modelling and sensitivity analysis serve the question; adapted to a bounded development inquiry with an optional no-adviser entry. | A practitioner account with cases, not comparative effectiveness evidence for DOCA. Reopen the bounded-entry choice when direct modelling already supplies the needed result. |
 | [Keeney, Value-Focused Brainstorming](https://pubsonline.informs.org/doi/10.1287/deca.1120.0251): generate alternatives from explicit values and avoid early group anchoring. | **Adapted historical anchor** in DOCA.2, joined to current bounded inquiry and source-qualified return. | This earlier contribution is not labelled the whole current SoTA or a universal generation Method. A better contrastive approach reopens the affected search move. |
 | [ISO 56008:2024](https://www.iso.org/standard/78485.html): measurement and review for innovation management. | **Bounded comparator** for organization/campaign characterization in DOCA.1.CHR. | Organization scope does not supply person, AI or facility measures. Reopen its affected measurement comparison, not every holder branch. |
-| Current FPF [E.10.DEV](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.16](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.11.CRC](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [A.15.9](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.18](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) and [C.19](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). | Their directly defined semantic recovery, measurement, finite comparison, external-result acquisition, archive/front and live-pool contributions are **adopted or adapted** at the body loci named in each pattern's SoTA account. | None establishes a particular holder result. C.19 governs actual live-pool treatment, including under unchanged policy; it is not a local probe selector. A changed definition reopens the dependent DOCA claim. |
+| Current FPF [E.10.DEV](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.16](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.11.CRC](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.11.DUA](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [A.15.9](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md), [C.18](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md) and [C.19](https://raw.githubusercontent.com/ailev/FPF/main/FPF-Spec.md). | Their directly defined semantic recovery, measurement, finite comparison, inquiry appraisal, external-result use and acquisition, archive/front and live-pool contributions are **adopted or adapted** at the body loci named in each pattern's SoTA account. | None establishes a particular holder result. C.19 governs actual live-pool treatment, including under unchanged policy; it is not a local probe selector. A changed definition reopens the dependent DOCA claim. |
 | [OECD, Proactive portfolio management in mission-oriented innovation policy, 2025](https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/03/proactive-portfolio-management-in-mission-oriented-innovation-policy_6bc6df0e/1ee956a5-en.pdf), sections 2–4: complementary activities, stage dependencies, resources, adaptation and termination. | **Adapted** in DOCA.6's retention, stage-specific comparison and reconsideration. | Its mission selection and funding remain external; it supplies no universal horizon count, individual development mechanism or demonstrated option valuation. Reopen the particular retention or specialist-valuation question. |
 
 ### Professional and AI-source qualification
@@ -2540,8 +2566,9 @@ The complete [FPF Markdown](https://raw.githubusercontent.com/ailev/FPF/main/FPF
 | A.3.1 | U.Method: Reusable Way of Doing with Explicit Applicability |
 | A.3.2 | U.MethodDescription: Description Episteme for a Way of Doing |
 | A.10.1 | Revalidate Affected Uses When a Relied-on Source Changes |
-| A.15.9 | Request and Use a Bounded Result from Another Practice |
+| A.15.9 | Use or Request a Bounded Result from Another Practice |
 | C.11.CRC | Configuration-Relative Contribution Comparison |
+| C.11.DUA | Make Advice and Evidence Demands Worth Their Burden |
 | C.16 | Measurement & Metrics Characterization (MM‑CHR) |
 | C.17 | Characterising Generative Novelty and Value |
 | C.18 | Open-Ended Search Archive and Front Stewardship |
