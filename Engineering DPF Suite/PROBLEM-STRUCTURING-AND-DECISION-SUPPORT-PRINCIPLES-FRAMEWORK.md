@@ -53,7 +53,7 @@ Search the questions and keywords for the result you need. PSD numbers are stabl
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 8 | [PSD.8 - Generate Decision Alternatives](#psd-8) | Candidate | alternatives, mechanisms, staged directions. Which live candidate differs materially from the incumbent? | Bounded engagement and formulation inputs; FPF C.17, C.18 and C.38 only when their results are needed. |
-| 9 | [PSD.9 - Represent Values and Trade-Offs](#psd-9) | Candidate | values, objectives, trade-offs, compensation. Which distinctions matter, and what must a score not compensate away? | PSD.8 and PSD.11 inputs where needed; FPF A.19 and C.16 for applicable space or measurement claims. |
+| 9 | [PSD.9 - Represent Values and Trade-Offs](#psd-9) | Stable | values, objectives, trade-offs, compensation. Which distinctions matter, and what must a score not compensate away? | PSD.8 and PSD.11 inputs where needed; FPF A.19 and C.16 for applicable space or measurement claims. |
 | 10 | [PSD.10 - Represent Decision-Relevant Uncertainty and Evidence Limits](#psd-10) | Candidate | uncertainty, evidence, scenarios, information. Which unknown can change eligibility, comparison or the current return? | Uses actual candidate and consequence questions; FPF A.10 for reliance and C.11 for later probe choice. |
 | 11 | [PSD.11 - Compare Consequences of Decision Alternatives](#psd-11) | Candidate | consequences, interactions, partial comparison. What follows under the stated configuration, and what comparison is warranted? | Qualified PSD.8–PSD.10 inputs; FPF C.11.CRC and A.19.CPM for their direct comparison contributions. |
 | 12 | [PSD.12 - Test Robustness and Sensitivity of Decision Alternatives and Their Comparison](#psd-12) | Candidate | robustness, sensitivity, reversals, information value. Under which justified conditions does the result hold or reverse? | Qualified comparison inputs; PSD.10 for unresolved evidence; FPF C.11 for an actual probe choice. |
@@ -95,7 +95,7 @@ That boundary changes the modeling question. `PSD.5` keeps nominal pumping capac
 | Fixed pumps | 2 | 3 | 8 |
 | Mobile pumps | 1 | 9 | 5 |
 
-With an assumed road-loss probability `p` and cost weight `λ`, the illustrative lower-is-better scores are `2 + p + 8λ` and `1 + 8p + 5λ`. `PSD.9` keeps the trade-off premise separate from protected conditions; `PSD.10` retains the missing basis for `p`. `PSD.11` supplies the comparison, and `PSD.12` exposes its reversal: fixed pumps score lower when `7p > 1 + 3λ`. At `λ = 0.5`, mobile pumps score lower for `p = 0.2`, but fixed pumps do for `p = 0.6`. Neither input is established for the committee's decision by this calculation.
+With an assumed road-loss probability `p` and cost weight `λ`, the illustrative lower-is-better scores are `2 + p + 8λ` and `1 + 8p + 5λ`. `PSD.9` keeps the trade-off premise separate from protected conditions; its §4.5 constructs compatible preferences when the exchange still needs elicitation, with a deterministic worked case in §5.5. `PSD.10` retains the missing basis for `p` and the uncertainty conditions needed here. `PSD.11` supplies the comparison, and `PSD.12` exposes its reversal: fixed pumps score lower when `7p > 1 + 3λ`. At `λ = 0.5`, mobile pumps score lower for `p = 0.2`, but fixed pumps do for `p = 0.6`. Neither input is established for the committee's decision by this calculation.
 
 The `PSD.13` return therefore retains the conditional comparison while withholding a whole-investment ranking. Access, assistance and protection conditions remain unqualified; the baseline and staged direction were not disposed of by the two-row calculation. A further result is requested through `A.15.9` only if its obtainable contribution warrants the burden. Even resolving road access would not by itself settle the value trade-off.
 
@@ -1896,13 +1896,13 @@ Structured inquiry becomes useful to choice when its differences change what can
 ## PSD.9 - Represent Values and Trade-Offs
 
 > **Type:** DPF pattern body
-> **Status:** Candidate
+> **Status:** Stable
 >
 > **Primary working result:** a **decision-usable value account**: attributed concerns and objectives, their consequence measures, protected conditions, admitted trade-offs, unresolved disagreements, and limits for one named comparison.
 
 ### PSD.9:1 - Problem frame
 
-**Use this when** a scorecard's criteria came from a template, “importance” weights have no stated meaning, or the same benefit appears under several headings. Also use it when people agree that reliability, development, safety, or fairness matters but mean different consequences for different subjects.
+**Use this when** a scorecard's criteria came from a template, “importance” weights have no stated meaning, or the same benefit appears under several headings. Also use it when people agree that reliability, development, safety, or fairness matters but mean different consequences for different subjects, or when their consequence comparisons still need to become a justified numerical model.
 
 Begin with one concern: important to whom, about which subject and situation, and why? Trace it to a consequence that could distinguish the live alternatives. Then state how that consequence will be represented and whether it may be traded against another. The gain is a comparison whose value assumptions can be understood and challenged.
 
@@ -1968,21 +1968,73 @@ Return the supported requirement recommendation and the reason or limit the reci
 
 Some thresholds are preference choices rather than prohibitions: an aspiration level, budget preference, or tolerated inconvenience. Say which they are and whose judgement they express. A threshold crossing is not automatically a decision or permission to act.
 
-#### PSD.9:4.5 - Elicit trade-offs over consequences, not criterion labels
+#### PSD.9:4.5 - Construct preferences from comparisons of consequences
 
-Before assigning weights, ask which concrete consequence profiles the value holder prefers and why. For an additive value model, a weight concerns the value of an improvement over a stated consequence range, not the abstract importance of the criterion's name. Changing that range can require elicitation again.
+Ask the value holder to compare concrete consequence profiles, with the same people, horizon and conditions in view. Record whether one profile is **no worse**, **strictly better**, or **indifferent** to another, or whether the holder leaves the comparison open. Retain the profiles and the reason given. An open comparison imposes no equality. Use actual alternatives or understandable hypothetical profiles within the declared ranges; a fictitious combination is useful only if the holder can judge its meaning.
 
-Test whether a proposed compensatory model fits the expressed preferences. If one consequence's value depends on another, retain that interaction or use a suitable model. If a participant refuses the trade-off, do not encode refusal as an extreme but negotiable weight unless that faithfully represents the judgement.
+The numerical construction below concerns preferences over known consequences. Preferences over uncertain outcomes also need a suitable account of risk and uncertainty; the deterministic trade-off alone does not supply it. Start with §4.5.1 to choose the form, then use the branch whose conditions the value account supports.
 
-Several forms can be useful: qualitative preference statements, a priority order, threshold rules, an additive or non-additive value model, or an outranking relation that can preserve incomparability. Choose the least burdensome form that preserves the decision-changing distinction. The domain Method supplies its elicitation and validity conditions; naming MCDA does not satisfy them.
+##### PSD.9:4.5.1 - Choose and challenge the representation
 
-Keep each materially different value account attributable. A common account requires an explicit and legitimately governed way to combine or reconcile the judgements. Voting, averaging, or a sponsor's preference is not a default aggregation rule. Where several preference models remain compatible with the expressed judgements, retain that family rather than fitting one arbitrary point estimate.
+Separate protected conditions under §4.4 before considering compensation. Then ask what the preference must preserve. Choose the least burdensome form that preserves the distinctions needed by the receiving comparison. These are usable alternatives, not stages every decision must pass through:
+
+| Available judgement and intended use | Construction and return |
+| --- | --- |
+| Only directions of improvement and some pairwise comparisons are justified. | Keep those comparisons and coordinate dominance. Infer further comparisons only through an admitted rule, such as transitivity. Return the resulting partial relation and the pairs still open. |
+| A priority or threshold is explicitly noncompensatory. | Write and apply that rule, including its order and tie treatment. For example, prefer every profile with waiting time at most two hours to every profile above two hours, then prefer lower cost within each class. This is a preference rule only if the holder says so; its threshold does not become a duty. |
+| Improvements can compensate for one another, with constant value increments and a constant exchange over the stated ranges. | Construct the affine family in §4.5.2. Its coefficients express the admitted exchange, not the importance of criterion names. |
+| Compensation is acceptable but marginal values may curve. | Test the additive assumption and use the finite-level construction in §4.5.3 when it fits. Preserve interactions through a suitable non-additive family or explicit rules when addition fails. A qualified outranking Method can instead supply a relation with incomparability; its thresholds and aggregation conditions must be supplied with it. |
+
+For a proposed additive form, compare profiles that differ on a subset of criteria while holding the others equal. Repeat the comparison at materially different common levels of those other criteria. A reversal challenges preferential independence: the preference over that subset depends on its background. Ask also about complementarities, thresholds and refusals to compensate. With two criteria, unchanged directions of preference alone give little support for addition; ask about the exchanges themselves. Statistical independence of measurements answers neither question.
+
+For an affine form, ask the stronger question: does the holder value the same physical increment equally at different positions on each scale, and does the compensating amount remain the same at different starting profiles? Within a one-to-five-hour range, compare reducing two hours to one with reducing five hours to four, and repeat a cost-for-time exchange at a different cost level. A stated constant exchange is a substantive modelling assumption over that range. Finite elicitation can challenge it and check its local fit; it does not prove a universal preference law. Preserve that qualification when the assumption is accepted for use, and return the unresolved form choice when it is not.
+
+Keep materially different holders' accounts separate. Combining them requires a legitimately governed aggregation or reconciliation Method. Neither averaging nor choosing the sponsor's account follows from the construction below.
+
+##### PSD.9:4.5.2 - Construct a family for a constant exchange
+
+Suppose lower cost `c` and lower waiting time `t` are preferred, both matter, and the holder accepts the affine conditions above on the named ranges. Represent loss by `L(c,t) = a c + b t`, with `a > 0` and `b > 0`; lower loss is preferred. A common constant and positive scale do not change the ordering. Divide by `a` to obtain `L_r(c,t) = c + r t`, where `r = b/a > 0`. The unit of `r` is cost units per hour. It belongs to this holder and use, rather than being a measured market price.
+
+For each statement that profile `(c_x,t_x)` is no worse than `(c_y,t_y)`, write `c_x + r t_x <= c_y + r t_y`. Use equality for stated indifference and a strict inequality for stated strict preference. Keep every statement on the same `r` and intersect its restrictions with `r > 0`. The resulting set `R` describes every admitted exchange in this form. A point selected for a convenient spreadsheet is additional preference information unless the holder actually supplied it.
+
+Ranges still matter when scales are normalized. If the cost range is 20–60 thousand and the waiting range is 1–5 hours, normalized losses are `(c-20)/40` and `(t-1)/4`. A weighted sum with positive weights `w_c + w_t = 1` represents the same exchange only when `r = 10 w_t/w_c`. The weights compare the two whole range changes. A different range changes that correspondence; a change in the holder's marginal values can require a different function as well. Unit conversion alone must leave the represented comparisons unchanged.
+
+##### PSD.9:4.5.3 - Retain unknown marginal values when linearity is unwarranted
+
+For a finite comparison with an admitted additive form, use the distinct consequence levels appearing in the reference profiles and live alternatives. Order each criterion's levels from least to most preferred. Assign an unknown value contribution `q_i(z)` to each level `z` of criterion `i`. Set the least preferred contribution on each criterion to zero, require the contributions to be nondecreasing along that criterion, and set the sum of the most preferred contributions to one. This normalization requires at least one valued improvement across the represented ranges; it fixes an arbitrary origin and unit without fixing relative criterion values. If the holder is indifferent across every represented profile, return that relation directly. If whether any difference matters is unresolved, retain that gap rather than normalizing it away.
+
+Define `U(x) = sum_i q_i(x_i)`, with higher value preferred. Each no-worse statement `x` versus `y` adds `U(x) >= U(y)`; indifference adds equality; strict preference adds `U(x) > U(y)`. Add elicited bounds or comparisons of value differences only with their own meaning and source. All rows constrain the same contributions. Solving them jointly supplies a family of additive value functions, rather than independently chosen intervals for each criterion. Weak monotonicity permits a flat contribution; require strict increase only where the holder's judgement supports it.
+
+This construction leaves unevaluated levels open. Add a new level with its monotonicity and preference constraints, or use an explicitly justified interpolation. Equal spacing on an ordinal performance scale is not equal spacing in value. A family that is feasible at the represented levels establishes compatibility there; use beyond them needs the stated shape or new elicitation.
+
+The constraints are linear in the unknown contributions. Use direct algebra for a small family or a linear-programming solver for the finite system. When strict comparisons are present, a solver can replace each strict difference by a common positive slack `epsilon` and maximize that slack under the normalization: a feasible result with `epsilon > 0` witnesses joint strictness. A fixed arbitrary margin can exclude compatible models. Preserve weak equalities and numerical error limits when interpreting a computation. `MMP.10` and `MMP.11` supply the general formulation, representation and obtaining-method work; the consequence meanings and preference assumptions supplied here govern this instance.
+
+##### PSD.9:4.5.4 - Distinguish an open answer from a failed construction
+
+First check whether at least one model satisfies the joint constraints. For a small interval family, exhibit an admitted parameter; for a larger system, obtain a feasible witness or a justified infeasibility result. A solver timeout leaves this question unanswered.
+
+If the family is empty, locate a conflicting subset of the elicited rows and form assumptions. Check transcription, units, profile meanings and attribution with the holder. Two opposite weak comparisons may express indifference; they are not a contradiction. A strict preference for `x` over `y` together with `y` no worse than `x` under the same conditions conflicts with the claimed preference relation. Other failures can arise because the chosen form cannot express otherwise coherent judgements. Do not resolve either failure by silently deleting a row or returning the best fitting weights. Revise a judgement only with its holder, change the form with an explicit basis, or return the unresolved conflict. An approximate fit needs an admitted error interpretation before it can support advice.
+
+For a **nonempty** family, distinguish what all compatible models support from what at least one supports:
+
+- `x` is **necessarily no worse** than `y` when every compatible model gives that weak preference.
+- `x` is **possibly no worse** than `y` when at least one compatible model gives it.
+
+Test these claims on the joint family. For the loss family, necessary preference requires `L_r(x) <= L_r(y)` for every `r` in `R`; a possible preference needs one such `r`. A proof over the range establishes necessity; one feasible witness establishes possibility and one contrary witness defeats necessity. Use `MATH.20` for the required whole-domain bound. Separate strict preference from equality at a boundary. An empty family warrants neither kind of recommendation.
+
+If the question asks for a best alternative, keep the quantifiers together. A necessary best is no worse than every rival in every compatible model. A possible best is no worse than every rival in **one and the same** compatible model. Separate pairwise witnesses against different rivals do not establish possible best. Return a common best when supported, the condition-dependent alternatives otherwise, or the precise comparison gap. No probability distribution over the compatible models is implied.
+
+##### PSD.9:4.5.5 - Reopen only what the changed judgement affects
+
+A further judgement by the same holder on the same profiles adds a constraint to the existing family. Intersect, check nonemptiness again, and recalculate the dependent comparisons. A correction replaces its old row and every restriction derived from it; retaining the superseded row could manufacture a conflict. Preserve consequence measurements, protected conditions and comparisons whose grounds remain valid.
+
+A changed holder, horizon, range, consequence meaning or compensation rule can invalidate the representation itself. Reconsider that premise before intersecting parameters in the old form. State which results depend on it and which remain usable. Stop when the receiving comparison is settled to the needed strength or the missing judgement, form or authority is clear enough to obtain.
 
 #### PSD.9:4.6 - Return the account and its exact incompleteness
 
 Return the attributed concerns and objectives; consequence meanings and measures; protected conditions and their sources; admitted trade-offs or preference relations; material interactions and dissent; unsupported transformations; and what would change the account. When a requirement's merits were in question, include the bounded appraisal return and the limit imposed by its current force from §4.4.
 
-`PSD.11` may use it only for the named comparison. The account can support a partial order or leave a comparison unresolved. Missing preference information is not automatically missing empirical evidence: a further experiment may estimate consequences without deciding how they should be valued.
+For a numerical construction, include the chosen form and its assumptions, the profiles and judgements constraining it, the joint compatible family or identified conflict, and the scope of any necessary or possible preference. `PSD.11` may use it only for the named comparison. The account can support a partial order or leave a comparison unresolved. Missing preference information is not automatically missing empirical evidence: a further experiment may estimate consequences without deciding how they should be valued.
 
 Recognition needs only a material ambiguity, duplication, or unexplained trade-off. Consequential reliance additionally needs qualified measurements, faithful elicitation, a justified aggregation Method when used, direct authority for binding conditions, and the applicable domain assurance. A readable value table satisfies none of those stronger claims by itself.
 
@@ -2029,6 +2081,46 @@ In the second variant, the configuration and access protection remain adequate. 
 
 The rule owner cannot amend the transcription requirement before this decision. The recommendation is still complete, but it is not an exemption: present options must satisfy the rule or remain deferred. The lost testing opportunity remains a consequence of the present constraint. The contrasted results follow from the stipulated contribution and burden, not from the words security, digital or redundant.
 
+#### PSD.9:5.5 - Obtain an exchange family and use a new judgement
+
+A service manager supplies one legitimate value account for a four-week arrangement. Known costs are in thousands of resource units, waiting times in hours. The relevant ranges are 20–60 and 1–5. Lower values are preferred. The manager explicitly accepts constant value increments and a constant cost-for-time exchange within these ranges. Those are the form assumptions; the following comparisons constrain its parameters.
+
+| Alternative | Cost `c` | Waiting time `t` | Eligibility for this comparison |
+| --- | ---: | ---: | --- |
+| A | 60 | 2 | Admissible. |
+| B | 30 | 5 | Admissible. |
+| C | 45 | 3 | Admissible. |
+| D | — | — | Fails a currently binding access condition; no timely amendment is available. |
+
+The manager says that `(60,1)` is no worse than `(20,5)`, and `(20,4)` is no worse than `(60,2)`. Applying §4.5.2 gives:
+
+| Stated judgement | Joint constraint | Consequence for `r` |
+| --- | --- | --- |
+| `(60,1)` no worse than `(20,5)` | `60 + r <= 20 + 5r` | `r >= 10` |
+| `(20,4)` no worse than `(60,2)` | `20 + 4r <= 60 + 2r` | `r <= 20` |
+
+Thus `L_r(c,t) = c + r t` with `10 <= r <= 20` is the compatible family. It is nonempty: both endpoints satisfy both weak comparisons. No interview is available to choose a narrower exchange. In normalized range weights the same family has `1/3 <= w_c <= 1/2`, with `w_t = 1-w_c`; those numbers were derived from the profiles, not assigned to criterion labels.
+
+The receiving `PSD.11` comparison keeps one shared `r`:
+
+| Difference over the whole family | Consequence |
+| --- | --- |
+| `L_B - L_C = 2r - 15`, between 5 and 25 | C is strictly preferred to B throughout. |
+| `L_B - L_A = 3r - 30`, between 0 and 30 | A is no worse than B throughout, with a tie at `r = 10`. |
+| `L_A - L_C = 15 - r`, between -5 and 5 | C is better below 15; A is better above 15; they tie at 15. |
+
+These linear differences establish the signs over the entire interval. At `r = 10`, the losses for A, B and C are 80, 80 and 75; at `r = 20`, they are 100, 130 and 105. Both exchanges satisfy the elicited information but give different best alternatives. The `PSD.12` sensitivity result is therefore the threshold 15 thousand per hour, and the `PSD.13` return is the conditional set `{A,C}`. B cannot be best in any compatible model; D remains ineligible. Choosing `r = 15` merely because it is the interval's midpoint would add unsupported indifference.
+
+Later the same manager states that C is no worse than A. Its new row is `45 + 3r <= 60 + 2r`, hence `r <= 15`. Intersecting gives `[10,15]`. Now `L_A-L_C` lies in `[0,5]` and `L_B-L_C` in `[5,15]`: C is no worse than A and strictly better than B for every compatible exchange. C is a necessary best, while `{A,C}` remains the set of possible best alternatives because A ties at 15. Return C as a supported direction with that tie intact. The new judgement changed the value family and its comparison; it changed neither the consequences nor D's access failure. The recommendation still leaves the authorized recipient's later choice distinct.
+
+#### PSD.9:5.6 - A failed affine form is not automatically contradictory judgement
+
+Consider a different continuation from the original `[10,20]` family. The manager additionally says that `(20,5)` is no worse than `(44,2)`. In the affine form this yields `20 + 5r <= 44 + 2r`, or `r <= 8`. That row and the first original row `r >= 10` cannot hold together. Return this specific conflict; the former comparison no longer has a compatible affine basis.
+
+Ask whether the equal-increment assumption still expresses the manager's values. They may care much more about reducing two hours to one than about reducing five hours to two. For example, a curved time-loss contribution taking values `0,20,28,36,44` at times `1,2,3,4,5`, with loss `c + h(t)`, satisfies all three profile comparisons: `60 <= 64`, `56 <= 80` and `64 <= 64`. This constructed witness proves only that those three judgements need not contradict one another. It is not an elicited curve and supplies no recommendation by itself.
+
+If the manager withdraws constant time increments but retains addition, §4.5.3 constructs the whole compatible monotone family at the relevant levels. If the manager instead states the noncompensatory two-hour rule in §4.5.1, that different value account prefers A to B and C directly. Either change needs its stated basis; neither is a convenient parameter adjustment inside the old affine model. If no clarification is available, retain the attributed comparisons, D's independently established exclusion and the exact failed form. Return the numerical ranking as unresolved.
+
 ### PSD.9:6 - Bias-Annotation
 
 **Scope:** value representation for one bounded comparison. **Lenses:** **Onto/Epist** separates concern, measure, preference, and obligation; **Prag** preserves decision relevance; **Gov** exposes representation and authority; **Did** makes trade-offs concrete.
@@ -2042,11 +2134,13 @@ Template bias imports irrelevant criteria. Proxy bias rewards what is easy to co
 - [ ] Repeated consequences are not counted twice; correlation alone does not justify deletion.
 - [ ] Measures retain subject, scale, unit, horizon, evidence, proxy limits, and missingness.
 - [ ] Binding conditions, aspirations, and unresolved authority questions are distinguished. A live merits question receives an appraisal of protective contribution and burden, with a supported recommendation and unchanged current force.
-- [ ] Value transformations and weights have declared ranges and an elicitation basis.
+- [ ] Value transformations and weights have declared ranges and an elicitation basis; the chosen form is justified separately from fitting its parameters.
+- [ ] The numerical family preserves the joint judgements, has a checked feasibility result, and distinguishes incomplete information from contradictory judgements or a failed form.
+- [ ] Necessary and possible comparisons retain their quantifiers, ties and dependence on the same compatible model. A changed judgement reopens only dependent results unless it changes the form itself.
 - [ ] Interactions and refusals to compensate are preserved.
 - [ ] Any collective aggregation has an explicit basis; incompatible accounts remain visible otherwise.
 - [ ] The return states partiality, dissent, direct-source gaps, and exact reopen conditions.
-- [ ] A value account is not a comparison result, authorization, or claim of effect.
+- [ ] A supported preference comparison covers only its attributed account and supplied consequences; authorization of the later choice and a claim of effect need their own grounds.
 
 ### PSD.9:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -2072,13 +2166,14 @@ Value representation makes consequences decision-relevant without confusing desc
 | Practice question | Best-known line | Serious alternative or default | Defect overcome and pattern mutation | Source roles and limits | Reopen condition |
 | --- | --- | --- | --- | --- | --- |
 | How can objectives be concise without omitting what matters? | Inspect means–ends structure, relevance, overlaps, and sensitivity to simplification. | Retain an exhaustive descriptive hierarchy, or delete criteria by correlation alone. | **Adapt:** :4.2–:4.3 keep a small consequence-led account and test any lost distinction. More analyst attention is accepted where it prevents double counting; small clear cases remain short. | Marttunen et al.'s [2019 objectives-hierarchy study](https://doi.org/10.1016/j.ejor.2019.02.039) supplies the comparative methods and retrospective environmental cases. It supports disciplined simplification, not one optimal hierarchy or a statistical license to discard values. | Reopen when a removed distinction can reverse the comparison or a lighter structure preserves the same concerns. |
-| Must incomplete preferences become one weighted score? | Match the preference model to the available judgements and preserve a family of compatible models when necessary. | Fit a single additive model or average participants' weights for convenience. | **Adapt:** :4.4–:4.6 retain protected conditions, explicit compensation assumptions, and distinct value accounts. The accepted trade-off is a possibly less decisive result for less invented precision. | Greco, Słowiński, and Wallenius's [2025 MCDA review](https://doi.org/10.1016/j.ejor.2024.07.038) compares preference information, models, and recommendation forms, including robust ordinal regression. It is a best-known-line candidate for model–information fit, not evidence of a universally correct value system. | Reopen if new elicitation narrows the compatible models or a domain obligation changes admissible compensation. |
+| Must incomplete preferences become one weighted score? | Construct the preference model from consequence comparisons and use all compatible instances. | Fit one additive score, average weights, or retain a noncompensatory rule when that better expresses the judgement. | **Adapt:** :4.5.1–:4.5.5 develop form selection, joint constraints, feasibility, necessary/possible comparison and local revision; :5.5–:5.6 show a complete use and failure of the affine form. The trade-off is a potentially less decisive answer for less invented precision. | Greco, Słowiński and Wallenius's [2025 MCDA review](https://doi.org/10.1016/j.ejor.2024.07.038), especially §3.1.2 and §7.1 ([accessible author-hosted PDF](https://www.iris.unict.it/retrieve/cb6fc63a-f16d-4c14-a163-46b863c27dc9/1-s2.0-S0377221724005988-main.pdf)), supplies preference assessment and robust ordinal regression. Its rules and non-additive families remain serious alternatives. The two-criterion derivation and service cases here are bounded applications, not its empirical findings or a universal additive-representation theorem. | Reopen when new judgement changes the compatible set, an interaction defeats the form, or the holder, range or governing condition changes. |
 | Can common coordinates perform the value judgement? | Declare meanings and scales separately from preference, comparison, and selection. | Treat a dashboard or normalized vector as the decision model. | **Adopt:** :4.3 uses A.19 only for the declared space or predicate and leaves value elicitation here. The distinction adds little effort to an existing table and prevents a false consumer result. | Current `A.19`, `C.16`, and the direct comparison patterns supply the relevant typing and operation boundaries. They do not elicit the engagement's values or authorize a trade-off. | Reopen when the scale, predicate, consequence range, or receiving use changes. |
 
 ### PSD.9:12 - Relations
 
 - `PSD.2` may supply the participation and concern account that changes the value question. That contribution is not already a weight set or a collective mandate.
-- `PSD.11` consumes the value account only for the named comparison. The account does not silently scalarize or authorize its result.
+- `PSD.11` consumes the value account and its admitted preference relation for the named comparison; `PSD.12` tests its dependence on the compatible family, and `PSD.13` uses the supported direction, conditional set or gap.
+- `MMP.10` and `MMP.11` supply general constraint and model-family construction after the value meanings and form conditions in §4.5 are established. `MATH.20` supplies bounds over the admitted domain; none of these suppliers elicits the holder's preferences.
 - `C.16` governs measurements; `A.19` supplies a declared characteristic space or predicate when needed. Scoring, aggregation, comparison, and selection remain separate direct operations.
 - Direct ethics, law, safety, governance, finance, and holder practices supply the particular conditions and claims they own. `A.15.9` helps obtain a missing qualified contribution without transferring that authority.
 - If a required value or source premise is absent, stale, or incompatible, use a qualified direct result or return its exact gap. A completed model, candidate list, or workshop does not fill it by adjacency.
@@ -4658,7 +4753,7 @@ These are model values, not monetary prices, measured municipal performance or a
 
 [PSD.9](#psd-9) keeps the declared value scheme separate from a participant's concern. [PSD.10](#psd-10) distinguishes an assumed road-loss probability from an established one. [PSD.11](#psd-11) can compare the stated consequences, and [PSD.12](#psd-12) exposes a possible reversal rather than hiding it.
 
-In this deliberately stated weighted-loss model, let `p` be the assumed road-loss probability and `λ` the declared cost weight. The two totals are `2 + p + 8λ` for F and `1 + 8p + 5λ` for M. F is lower only when `7p > 1 + 3λ`. With `λ = 0.5`, `p = 0.2` favors M; `p = 0.6` favors F. Neither probability nor the weight has been established for the board's decision.
+In this deliberately stated weighted-loss model, let `p` be the assumed road-loss probability and `λ` the declared cost weight. The two totals are `2 + p + 8λ` for F and `1 + 8p + 5λ` for M. F is lower only when `7p > 1 + 3λ`. With `λ = 0.5`, `p = 0.2` favors M; `p = 0.6` favors F. Neither probability nor the weight has been established for the board's decision. When the missing contribution is a trade-off from expressed consequence comparisons, use PSD.9:4.5 and its worked construction in :5.5. That deterministic value account alone does not supply preferences over uncertain outcomes.
 
 The result therefore identifies a decision-bearing uncertainty and a conditional comparison. It does not prove that a probability obtains, that assistance is reachable, that a protected condition can be traded away, or that F or M should be bought. More decimal places would not close those gaps.
 
