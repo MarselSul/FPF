@@ -3038,7 +3038,7 @@ The first useful result is a **condition-sensitive practice progression**: a bou
 
 Spacing means distributing repeated practice episodes across separated times. It does not by itself require retrieval, source removal, interleaving, greater difficulty, or less help. Whether an episode asks the learner to retrieve, consult a source, use AI, or work with changed support is selected separately from the target contribution and development Method.
 
-The practical gain is discriminating practice rather than decorative variety. The practitioner can say which changed condition should change the warranted action, why two tasks are mixed, why an interval matters, and when support should remain, change, or return. An observed failure can reopen the assumption instead of automatically increasing difficulty.
+The practical gain is discriminating practice rather than decorative variety. The practitioner can explain which changes should alter or preserve the warranted action, why cases are grouped or mixed, why an interval matters, and when support should remain, change, or return. An observed failure can reopen the assumption instead of automatically increasing difficulty.
 
 Do not use HCD.10 to build the first representative task, repair an unavailable provider, infer transfer or retention from a schedule, or intensify challenge when the basic operation is not yet feasible. Return to HCD.6 for task design, HCD.7/HCD.8 for support, and HCD.11–HCD.13 for stronger evidence interpretation. When apparent failure could instead be applicability, access, expression, adaptation, enactment, or support, obtain the applicable E.23.CAE differential before assigning more practice on the assumption of capability loss.
 
@@ -3047,7 +3047,7 @@ Do not use HCD.10 to build the first representative task, repair an unavailable 
 | Name in this pattern | What it denotes |
 | --- | --- |
 | decision-bearing condition | A task, context, resource, support, configuration, timing, risk, or evidence value whose change can alter the warranted human action or Method. |
-| variation | A change to one or more decision-bearing conditions intended to expose preservation, change, or failure of the target action. Renaming the setting while keeping the same answer is not useful variation. |
+| variation | A designed change that tests what should preserve or alter the target action. It can change a deciding condition or change an incidental cue while the deciding relation stays the same. A change with no needed discrimination adds only surface variety. |
 | spacing | Repeated practice episodes distributed across separated times, with the interval and intervening activity made explicit. It is a timing relation, not an automatic retrieval or support rule. |
 | retrieval condition | What the learner must recover without reopening a named source or answer, what remains supplied, and why that distinction matters to the target contribution. |
 | source condition | Which references, data, patterns, tables, calculators, tools, or other resources are available and what the learner must do with them. Source use can itself be part of expert performance. |
@@ -3080,7 +3080,7 @@ A third shortcut treats support withdrawal as the definition of progress. This c
 - Variation can expose decision rules, while cosmetic or excessive variation adds noise without a useful discrimination.
 - Separated episodes can support later access, while one universal interval cannot fit different tasks, histories, and horizons.
 - Retrieval can exercise unaided recovery, while expert later Work may legitimately depend on references, tools, or current data.
-- Interleaving can require Method selection among similar cases, while blocked practice can be better for an unfamiliar basic operation.
+- Interleaving can expose differences between similar alternatives, while a block can reveal what diverse instances share or help establish an unfamiliar operation.
 - Less guidance can expose a human contribution, while premature withdrawal can increase avoidable load or unsafe error.
 - More challenge can expand the practice envelope, while a failed attempt may indicate access, applicability, support, or task-design failure instead of capability loss.
 - A scheduled later episode supplies an observation, while transfer and retention conclusions require their own task, delay, support, and practice-history argument.
@@ -3107,25 +3107,43 @@ Use this discrimination table:
 
 | Question about the next practice | Candidate change | Required statement |
 | --- | --- | --- |
-| Does the learner change the action when a deciding condition changes? | variation | Which condition changes, which action should be preserved or changed, and which rival response is exposed? |
+| Does the learner preserve or change the action for the right reason? | variation | Which deciding condition or incidental cue changes, which action should be preserved or changed, and which rival response is exposed? |
 | Can the learner perform another episode after a material interval? | spacing | Which repeated episode, separated times, interval rationale, intervening activity, and later observation are used? |
 | Must a contribution be recovered without reopening a source? | retrieval | What is retrieved, what remains supplied, why unaided recovery matters, and what support is still allowed? |
+| Must the learner recognize a shared basis across varied instances? | blocked comparison | Which instances belong together, what common relation must be noticed, and what action reveals it? |
 | Must the learner distinguish which Method or case family applies? | interleaving | Which alternatives are mixed, which similarities cause confusion, and what selection explanation is required? |
 | Is stable performance ready for a changed level of challenge or help? | progression | Which feature changes, what prior evidence supports the change, and what condition pauses or reverses it? |
 
-Select several changes in one episode only when their contributions and failure interpretations remain recoverable. Otherwise change one decision-bearing feature at a time or create comparable branches.
+Select several changes in one episode only when their contributions and failure interpretations remain recoverable. Otherwise change one feature relevant to the intended comparison at a time or create comparable branches.
 
-#### HCD.10:4.3 - Design Variation around a Warranted Change of Action
+#### HCD.10:4.3 - Design Variation around the Needed Discrimination
 
 Choose a condition that can make the correct action differ: configuration FW7 versus FW8, 24 versus 22 test hours, 80 records versus 60 distinct requests after duplicates, pressure near 448 versus 400 kPa, complete versus missing source information, or a different authority or support boundary.
 
-State the expected discrimination before the attempt. A useful variant can require a justified refusal, supported continuation, changed calculation, specific request, different Method, or preservation of the earlier action. A new story with the same values and answer is surface variety, not evidence-bearing variation.
+Alternatively, keep the deciding relation and change a feature on which the learner may wrongly rely, using HCD.6.1:4.4. The correct answer can remain the same while the task tests whether the learner can preserve it for the right reason.
+
+State the expected discrimination before the attempt. A useful variant can require a justified refusal, supported continuation, changed calculation, specific request, different Method, or preservation of the earlier action. Ask for the action and its subject-matter ground so that a rival response can be recognized. Renaming a setting without exposing a needed distinction adds no such test.
 
 #### HCD.10:4.4 - Space Repeated Episodes without Smuggling in Other Changes
 
-Name the earlier episode, later episode, separated times, interval, and intervening activity. The interval should follow the intended use horizon, practical opportunity, prior access, risk, and available evidence rather than a universal spacing number. Record any practice, work use, feedback, or source encounter between the episodes.
+Name the repeated action, intended later-use horizon, available practice windows, and total time for first attempts, feedback, correction, and retries. Choose a **provisional gap that can be revised from the next response**. If the learner cannot yet perform the action under its intended source and support conditions, first use HCD.9 to establish an accessible attempt; delaying another failed attempt supplies no missing instruction.
 
-Then specify separately for each episode:
+Use a previous comparable delayed attempt when one is available. A gap across which the required response remained accessible is a starting candidate, qualified by intervening use and changed conditions. Without that evidence, begin with a feasible separated return early enough to detect a difficulty and still leave time for repair before the intended use. Distribute the remaining opportunities across the available period, retaining a later return when the horizon matters. These are initial scheduling choices under uncertainty. Do not infer a personal forgetting curve from an immediate successful retry.
+
+At each return, obtain the relevant **first response before new feedback or answer-bearing help**. Keep the task's legitimate sources and tools. Record what was omitted or inaccurate, response time against the working criterion, help actually received, and practice or work use since the preceding attempt. Then revise the next opportunity:
+
+| Observed response under comparable conditions | Next practice decision |
+| --- | --- |
+| A required contribution is missing. | Find whether the learner can enter the task and recover or locate that contribution. Restore needed instruction or support and obtain a usable retry before choosing another delay. If it was previously accessible but is now unavailable, try a shorter feasible gap after relearning. |
+| The response is inaccurate. | Address the particular misconception, discrimination, or execution error through feedback and a new comparable attempt. If delay exposed a previously accessible response becoming unreliable, bring the next return closer; repeated error even immediately after feedback calls for a different learning move, not just more frequent dates. |
+| The answer is accurate but slower than the working criterion. | Identify the slow contribution, including legitimate source search. Practise it with feedback while preserving correctness; keep or shorten the gap rather than treating eventual accuracy as grounds to extend it. |
+| The required response is accessible with effort and meets the working criterion. | Keep a comparable gap while that challenge is useful. A further comparable response can support trying a longer gap. |
+| The response is readily accessible and meets the criterion. | Try a longer feasible gap when it serves the later-use horizon and still leaves a repair opportunity. Change the gap without simultaneously withdrawing useful support. |
+| Access, help, task change, or intervening use prevents interpreting the response. | Repair the condition or obtain a comparable observation. Keep the interval provisional; the observation does not identify a useful increase or reduction. |
+
+Select shorter, comparable, or longer gaps from the actual available windows, measured from the preceding relevant practice. Changing a date reallocates a remaining opportunity; it does not silently add sessions. If needed relearning consumes the budget, return that shortage and the unresolved later-use question. In a consequential setting, retain the required support or arrange another way to obtain the work result instead of declaring readiness from the schedule.
+
+Specify separately for each episode:
 
 - whether the learner retrieves a contribution or receives it;
 - which sources, patterns, data, tables, calculators, tools, and AI are available;
@@ -3133,13 +3151,19 @@ Then specify separately for each episode:
 - whether the task, configuration, time, consequence, or Method choice also changes; and
 - what the later attempt can and cannot establish.
 
-Two episodes at separated times constitute spacing even when the same appropriate references and tools remain available. Removing AI or closing a source is a support or source change, not proof that spacing occurred. A later observation after continuing use is not retention without intervening practice merely because a date has passed.
+Two episodes at separated times constitute spacing even when the same appropriate references and tools remain available. Removing AI or closing a source is a support or source change, not proof that spacing occurred. A later observation after continuing use is not retention without intervening practice merely because a date has passed. The response rules above support a revisable practice decision; they do not identify an empirically optimal personal interval.
 
-#### HCD.10:4.5 - Interleave only when Selection Is Part of the Target
+#### HCD.10:4.5 - Choose Blocks or Interleaving from the Needed Comparison
 
-Mix task families when the learner must recognize which Method, relation, calculation, check, or response applies and when their similarity makes that discrimination meaningful. Require the learner to state why one route fits and why a serious neighbor does not. Preserve category similarity, order, support, and result so that a failure can be interpreted.
+Choose the order from the distinction the learner still needs. Use HCD.6.1:4.2–4.4 to construct the examples and a response that reveals that distinction.
 
-When the basic operation is new or still unstable, begin with blocked or stable supported episodes if that makes the action learnable and observable. Introduce mixing after the learner can perform the constituent action sufficiently for selection to become the real difficulty. Interleaving is a candidate, not a default schedule.
+When the difficulty is recognizing what different instances of one category have in common, keep a short block of those instances together. Vary incidental features while the shared relation remains visible, and ask the learner to identify and use that relation. This can be useful even when the individual operation is already available; its purpose is recognizing the common basis across instances.
+
+When the difficulty is distinguishing similar categories or choosing among competing Methods, place contrasting instances close enough for their deciding difference to be compared, then mix further instances without announcing the required route. Ask why one route fits and a serious neighbor does not. A fixed alternation that predicts the answer would remove the selection being practised.
+
+Preserve the comparison while changing order: a short within-category block, a close cross-category comparison, and a later mixed set are possible responses to different observed difficulties, not mandatory stages. After feedback, choose another same-category comparison if the shared basis remains hidden, or another cross-category comparison if the learner still confuses alternatives. If the basic action itself is unavailable, return to a worked example or stable supported practice before adding selection demands.
+
+Keep the compared cases available together or close in time when the learner needs their relation to become discernible. Choose the interval before returning to that practice separately through §4.4. Inserting long gaps between the members of one needed comparison can make the comparison harder to perform; spacing later returns does not require breaking it apart. Retain the task's legitimate tools and support, and judge the proposed order from the resulting responses.
 
 #### HCD.10:4.6 - Progress Challenge and Support Conditionally
 
@@ -3188,7 +3212,15 @@ A practitioner stops asking, “Which spacing and difficulty recipe should every
 
 ### HCD.10:5 - Archetypal Grounding
 
-#### HCD.10:5.1 - Four Scheduled Returns Are a Design Example
+#### HCD.10:5.1 - Choose and Revise Scheduled Returns
+
+In a fictional inventory-training case, a learner will apply eight brief checking rules at work on day 18. The rules sheet remains available; the target is correct application within thirty seconds per check. Today's corrections and retries were successful, but there is no delayed-attempt evidence. Four ten-minute practice windows can be booked or moved, starting on day 2.
+
+The practitioner books days 2, 6, 11, and 16 provisionally. Day 2 is the earliest feasible separated return and leaves room to act on an error; the remaining three spread opportunities across the horizon, with day 16 still allowing a correction before day 18. Each window reserves four minutes for first responses to all eight brief checks, three for feedback and correction, and three for targeted retries. This uses `4 × 10 = 40` minutes. The dates and allocations are decisions for this case, not estimated forgetting rates or optimal intervals.
+
+On day 2 the learner omits one required check and misapplies another despite access to the sheet. The practitioner preserves those first responses, corrects the particular difficulties, and obtains usable retries. The next booking moves from day 6 to day 3: a one-day gap is tried after relearning instead of repeating the unsuccessful two-day gap or waiting the planned four. Day 3 is the earliest available return. Two later windows remain; days 11 and 16 remain provisional, not extra entitlements. A slow but accurate day-3 response would keep or shorten the next gap while its slow contribution is practised. An effortful response meeting the criterion can keep the gap; ready, accurate application can justify trying a longer one. If further early repair uses a later booking, the practitioner records the lost delayed observation and reopens the remaining budget or work support.
+
+The day-18 work observation has its own task and assistance conditions. Successful corrected retries and completion of forty minutes do not establish that every rule will remain accessible then. Any intervening work or consultation is included in that interpretation.
 
 FoundationsProgramme revisits six selected patterns at weeks 8, 17, 25, and 34. Week 8 returns to F.1 and F.0.1 in a new quantitative source question after about six weeks. Week 17 revisits C.16 and B.5.2 in a manager or engineering case outside the main project. Week 25 combines F.1, C.16, and A.10.1 around sources, measurement, and revision for a configuration question. Week 34 uses F.1, C.16, and C.11 in an integrated case.
 
@@ -3208,9 +3240,15 @@ One practice episode supplies a report for FW7 when FW8 is required; the warrant
 
 The variants change evidence applicability and capacity separately. Their value lies in selecting refusal, continuation, or constraint revision from the current condition, not in increasing difficulty or changing surface context.
 
-#### HCD.10:5.4 - Stabilize before Interleaving and Fading
+A different useful variant can preserve the answer. A learner previously chose a measure from a report's visual template. Two reports now use different templates but ask the same measurement question with the same relevant data. The learner must choose the same warranted measure and explain its basis. This tests resistance to the false visual cue. Merely changing the client name, when it exposes no such reliance or needed distinction, would add only decoration.
+
+#### HCD.10:5.4 - Choose the Order for the Missing Contribution
 
 A learner who cannot yet compare energy per volume receives a worked example, integrated data, and stable supported practice. The next attempt changes the values but keeps the same operation and source access. Only after the operation is usable are pump explanation, ticket-load comparison, and release-configuration cases mixed when selecting the Method becomes the target.
+
+A block can also serve an already competent learner. In a fictional diagram-reading case, the learner can follow every arrow and correctly work out what stops when a named input is removed, but recognizes a shared prerequisite only in one familiar layout. The teacher presents three differently arranged diagrams in a short block; in each, one result is required by both later actions. The learner points to that result and explains the consequence of its loss. The block makes their common relation available for comparison.
+
+For a different observed difficulty, the same available arrow-following operation supports a different order. The learner confuses that shared-prerequisite structure with two independent inputs when the drawings look alike. The teacher first places one example of each side by side and keeps the visual conventions similar. For the dependencies shown, the learner chooses whether to check one common input or two separate inputs before both later actions can proceed, and explains that choice. Further instances are mixed without category labels or a predictable answer order. Here the required learning concerns the difference between categories. Both designs use HCD.6.1's contrast construction; neither attributes an effect to presentation order before observing the learner. A return on another day is a separate spacing choice.
 
 After a successful independent variant, a detailed cue can be removed while ordinary references remain. If the learner then cannot identify the task at all, the practitioner restores the working entry and one discriminating question rather than removing more help. The progression follows observed action and intended later conditions, not a universal novice-to-expert ladder.
 
@@ -3222,22 +3260,13 @@ A later episode appears to show that the learner forgot a configuration rule, bu
 
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: selecting variation, timing, task mixing, retrieval, source, support, and challenge changes across bounded human practice episodes.
 
-| Recurring bias | Likely drift | Repair |
-| --- | --- | --- |
-| desirable-difficulty bundle | Delay, retrieval, interleaving, source removal, and harder tasks are applied together. | Select each feature by a named target and preserve separate failure interpretations. |
-| calendar-effect bias | Scheduled dates are treated as spacing effect, transfer, or retention. | Name repeated episodes, intervening practice, conditions, and the separate inference Method. |
-| spacing-retrieval conflation | A later episode is assumed to require unaided recall. | Specify retrieval, sources, tools, AI, and human help independently of timing. |
-| interleave-everything bias | Random mixing replaces task-similarity and Method-selection grounds. | Interleave only when discrimination among alternatives is part of the target. |
-| harder-is-better bias | Difficulty is increased despite unstable basic performance or invalid access. | Stabilize, diagnose the limiting condition, and progress one warranted feature. |
-| support-removal bias | Tools or references belonging to later Work are withdrawn as proof of progress. | Change support only for a stated human contribution or evidence use. |
-| failure-as-loss bias | An unsuccessful changed-condition attempt is called lost capability. | Differentiate applicability, access, expression, adaptation, enactment, and support. |
-| scheduled-proof bias | A later task is reported as transfer or retention by date alone. | Preserve task, support, delay, intervening use, and route interpretation to HCD.12/HCD.13. |
+Visible effort, novelty, and calendar completion can attract more attention than the contribution being developed. Judge the learner's response under its actual conditions before treating a harder or less supported attempt as progress. The distinct corrective decisions are collected in §8.
 
 ### HCD.10:7 - Conformance Checklist
 
 - [ ] The holder, target action, selected Method, representative task family, prior attempts, and intended later conditions are explicit.
 - [ ] Each selected practice change has a named purpose, expected discrimination, serious rival response, and response rule.
-- [ ] Variation changes a decision-bearing condition rather than only names or scenery.
+- [ ] Variation tests a needed discrimination, including preservation of the action when an incidental cue changes.
 - [ ] Spacing names repeated practice episodes across separated times, the interval, and intervening activity.
 - [ ] Retrieval, source access, tools, AI, human help, task variation, and challenge are selected separately from spacing.
 - [ ] Interleaving is used only when distinguishing among sufficiently similar task or Method families is part of the target.
@@ -3249,16 +3278,16 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: selecting v
 
 ### HCD.10:8 - Common Anti-Patterns and How to Avoid Them
 
-| Anti-pattern | Why it fails | Repair |
-| --- | --- | --- |
-| “Review after six weeks” | No repeated task, intervening history, support, or target observation is specified. | Bind both episodes and their conditions before calling the schedule spacing. |
-| “Spacing means closed-book recall” | Timing and retrieval are different choices. | State separated times, then select source and retrieval conditions independently. |
-| “Mix all topics” | Random order may add load without testing Method selection. | Mix task families only around a named similarity and discrimination. |
-| “Remove help every time” | Support may be premature to remove or constitutive of later Work. | Use an evidence-based progression rule and restore help when its assumption fails. |
-| “Make the next task harder” | Difficulty has no target relation or lowering rule. | Change one decision-bearing condition and state the expected action. |
-| “Failure means forgetting” | Access, applicability, expression, adaptation, enactment, or support may be the real limit. | Differentiate before assigning more practice for presumed loss. |
-| “Week 34 proves retention” | Ongoing practice and changed task/support conditions are ignored. | Preserve history and use HCD.13 for the qualified delayed interpretation. |
-| “The final test is fifteen minutes without AI” | It collapses the thirty-minute core probe into one fragment and drops supplied tools. | Keep the thirty-minute probe, fifteen-minute no-AI fragment, tables, calculator, narrow action, and main-task support distinct. |
+| Problem in the proposed practice | Corrective decision |
+| --- | --- |
+| Several difficulties are added together, so a failure cannot identify the assumption that failed. | Select each change for a named purpose and keep its failure interpretation recoverable; separate changes or use comparable branches where necessary. |
+| Dates alone are treated as a spacing effect, transfer, or retention. | Identify the repeated episodes, interval, intervening activity, task, and support. Use HCD.12/HCD.13 for the stronger inference. |
+| A later return automatically becomes closed-book recall. | Select retrieval, source access, tools, AI, and human help separately from timing. |
+| Random mixing replaces a needed comparison. | Choose a block for the common basis within a category or close/mixed contrasts for differences between similar alternatives; make the deciding relation observable. |
+| Help is removed on every return, including means needed in later Work. | Change support for the particular human contribution, preserve legitimate equipment, and restore help when the withdrawal prevents useful practice. |
+| The next task becomes harder despite an unstable operation or an uninterpretable result. | Stabilize the operation or repair the limiting condition, then change a feature with an expected response and a stop or backoff rule. |
+| Failure is called forgetting before its conditions are understood. | Distinguish applicability, access, expression, adaptation, enactment, and support before assigning repetition for presumed loss. |
+| The final probe is reported as fifteen minutes entirely without AI. | Preserve the thirty-minute core probe, its fifteen-minute no-AI fragment, supplied tables and calculator, the narrow human contribution, and normal support for the main task. |
 
 ### HCD.10:9 - Consequences
 
@@ -3276,7 +3305,9 @@ A later practice observation is still practice evidence. Its date, unfamiliarity
 
 The working question is: **How should a practitioner select variation, spacing, interleaving, retrieval, support, and challenge changes across practice episodes for one target action and evidence need?**
 
-The selected best-known line is task-, similarity-, support-, and horizon-sensitive rather than recipe-based. Carpenter, Pan, and Butler's 2022 review ([`COG-01`](https://doi.org/10.1038/s44159-022-00089-1)) supports spaced encounters and effortful retrieval as credible candidates for durable access under source-specific conditions while selecting no universal gap, repetition count, threshold, or curriculum. Brunmair and Richter's 2019 meta-analysis ([`COG-03`](https://doi.org/10.1037/bul0000209)) shows that interleaving depends materially on between- and within-category similarity, complexity, and material type; some source families showed no benefit or favored blocking. HCD.10 adapts these contributions into the separate timing, retrieval, and task-selection steps in §§4.2–4.5.
+The selected best-known line is task-, similarity-, support-, and horizon-sensitive rather than recipe-based. Carpenter, Pan, and Butler's 2022 review ([`COG-01`](https://doi.org/10.1038/s44159-022-00089-1)) supports spaced encounters and effortful retrieval as credible candidates for durable access under source-specific conditions while selecting no universal gap, repetition count, threshold, or curriculum. Brunmair and Richter's 2019 meta-analysis ([`COG-03`](https://doi.org/10.1037/bul0000209)) distinguishes the search for a shared basis within a category from discrimination between similar categories. Its heterogeneous category-learning evidence supports choosing the comparison, not treating interleaving as universally superior. It also distinguishes the proximity needed to compare different categories from spacing later encounters. These results, largely from student samples and unevenly represented materials, do not determine a professional practice schedule. HCD.10 adapts these contributions into the separate timing, retrieval, and task-selection steps in §§4.2–4.5.
+
+A serious alternative to fixed dates is response-adaptive spacing. [Mettler, Massey, Burke, and Kellman (2020)](https://kellmanlab.psych.ucla.edu/wp-content/uploads/sites/357/2025/09/mettler_massey_burke_kellman_2020.pdf) used accuracy and response time to adjust item presentation during learning. Its country-fact experiments distinguish efficiency per presentation from raw accuracy and test the contribution of retiring mastered items. That supports considering response evidence, not transferring the tested algorithm or its numerical intervals to an arbitrary work calendar. HCD.10:4.4 offers a qualitative scheduling procedure under a declared horizon and budget; §5.1 demonstrates its provisional decisions. The initial gap, the next available window, and the sufficiency of support remain judgements for the actual task.
 
 The serious ordinary alternative is a bundled desirable-difficulty recipe: space all topics on one calendar, require closed-book retrieval, interleave them, remove help, and raise challenge together. It is easy to standardize, but a failure cannot distinguish timing, access, task selection, support, load, or capability. HCD.10 retains each candidate move while rejecting their automatic combination and any universal difficulty ladder.
 
@@ -3290,6 +3321,7 @@ The selected line costs more than copying a schedule, but it preserves the targe
 
 - **`HCD.5`:** supplies the selected development Method, proposed mechanism, fit, limits, and evidence need.
 - **`HCD.6`:** supplies representative task families, decision-bearing variations, criteria, protected errors, permitted help, and domain-provider returns.
+- **`HCD.6.1`:** supplies the construction of contrasts and the choice of the next comparison from an actual confusion; HCD.10 selects their order and separated returns for the present practice need.
 - **`HCD.7` and `HCD.8`:** supply feasible providers, sources, tools, AI, environments, capacity, human checking, and any built contribution for the selected episodes.
 - **`HCD.9`:** supplies attempt, actual-help, feedback, correction, retry, and next-focus evidence; HCD.10 selects what changes across later episodes.
 - **`E.23.CAE`:** can differentiate applicability, access, expression, adaptation, enactment, support, and capability-change explanations when they would alter the next practice decision; it does not select HCD.10's practice change.
@@ -3422,6 +3454,17 @@ The result does not average the four attempts. It preserves the original miss, t
 #### HCD.11:5.2 - An inaccessible assessment is not a demonstrated deficit
 
 A task asks a person to use a current technical source, but the assessment removes the source and an accessibility aid normally required for reading it. Failure to retrieve its detail cannot support the intended source-use judgement. Restore the target conditions or explicitly select a different, justified independent-core question; do not prescribe remedial learning from the invalid comparison.
+
+#### HCD.11:5.3 - The Same Joint Product Can Support Different Personal Conclusions
+
+In this fictional dispatch task, M28 maintains the pickup list and partner P09 reports when parcels will be ready. Available pickups are at 10:00 and 11:00. The assessed contribution is M28's response to a material change reported by the partner: notice that the previous booking is no longer feasible, choose a compatible pickup, and confirm the changed handoff. The shared timetable and list remain available. P09's readiness report is necessary task information; a message telling M28 which pickup to choose would supply part of the contribution being judged.
+
+Two constructed histories end with the same accepted list: parcel Q is booked for 11:00.
+
+- In the first history, P09 reports that Q will be ready at 10:20. Before P09 or another helper names a new pickup, M28 identifies that the 10:00 booking no longer fits, changes it to 11:00, and asks P09 to confirm readiness for that handoff. P09 confirms it. The trace supports M28's recognition, adaptation, and coordination in this interaction with this partner and these means.
+- In the second history, the available trace starts after P09 has already selected 11:00 and corrected the row. M28 copies that row into the final list. The accepted shared product and M28's copying are observable, but the trace cannot establish M28's own recognition or selection. That personal conclusion remains untested; it is not a demonstrated inability.
+
+For a reversible practice decision, preserve the team's successful product and the personal contribution actually observed. If a later use needs M28's independent response to a changed partner input, select a worthwhile observation of that interaction. An individual quiz without the partner's change would not answer the same coordination question. The example attributes an observed personal contribution without dividing the joint success into numerical shares or judging the team's whole arrangement.
 
 ### HCD.11:6 - Bias-Annotation
 
@@ -3601,6 +3644,24 @@ In another constructed task, a person makes no relevant first move but produces 
 
 If the practical question is application with a routinely supplied Method, that result may already be useful. If the work requires the person to select the Method, the next task must preserve that selection problem.
 
+#### HCD.12:5.3 - First Use of a Method Supplied by a New Source
+
+In this fictional case, S32 can read price and delivery tables and compare individual numbers. The recorded preparation contains no instruction in finding non-dominated alternatives; no comparable pre-source performance was observed. The question is what S32 can do after learning from an available source, so earlier successful use of this new Method is not required.
+
+A one-page handout, *Compare Offers on Price and Delivery*, supplies the Method: with lower price and earlier delivery preferred, an offer dominates another only when it is no worse on either measure and better on at least one. Compare the offers pairwise and retain those that no other offer dominates. The handout includes a worked two-offer example. The result is a set of remaining choices; selecting one of them still needs the buyer's priorities and constraints.
+
+After six minutes with the handout, S32 receives a different three-offer task: A costs 120 and arrives in four days; B costs 135 and arrives in three days; C costs 140 and arrives in five days. The criterion requires the retained set and grounds for each elimination or remaining trade-off. The sheet stays open; a calculator is permitted but unused. The teacher and AI supply no further explanation or answer. In seven minutes S32 retains A and B, eliminates C because A is both cheaper and earlier, and explains why neither A nor B dominates the other.
+
+The assessor then changes C's price to 100, keeping its five-day delivery. With the sheet still available and no feedback on the first answer, S32 now retains all three and explains each price–delivery trade-off. Repeating the previous elimination would fail this task; comparing isolated numbers without the two-measure rule would also be insufficient.
+
+These constructed observations distinguish three conclusions:
+
+| Question | Supported answer |
+| --- | --- |
+| What was performed after reading? | S32 applied the supplied Method and adapted its result in these two tasks with the handout available. The observation does not cover finding the source independently or later use without it. |
+| Did S32's capability change? | A relevant comparison is missing. The first observed successful application cannot establish what S32 could do before source access or what will remain available later. |
+| Did the earlier preparation help S32 learn? | This case does not isolate that contribution. Such a comparison would need relevant differences in preparation, the same learning opportunity and help conditions, and separate application tasks using new data. It remains open. |
+
 ### HCD.12:6 - Bias-Annotation
 
 Unfamiliarity is person-relative. A task familiar to the assessor may be novel to the learner, and a nominally new task may have been rehearsed elsewhere. Retain relevant exposure instead of treating cohort membership as proof.
@@ -3760,7 +3821,9 @@ The existing alternatives are A, a second stand still requiring a shared-power c
 
 Two stipulated weekly logs each record ten accepted changes, all required checks completed and twelve arrivals; together they show four additional queued changes. Those observed counts and periods remain distinct from the modelled 23-hour requirement. The source set contains these logs, the exact configuration reports and the calculation assumptions. The release manager is the chooser for release/use; L17 prepares a bounded recommendation. These are local exercise facts.
 
-The delayed assessment is eight weeks after T0. The constructed history records two intervening source-selection uses and one comparison/decision-support exercise, with no rehearsal of the exact follow-up cases. Thus the question is retention under intermittent practice, not eight weeks of non-use.
+The work decision is whether L17 can resume preparing these bounded recommendations at the next planned assignment, eight weeks after T0. That return date sets the delayed assessment; it is not a general retention interval. The constructed history records two intervening source-selection uses and one comparison/decision-support exercise, with no rehearsal of the exact follow-up cases. Thus the question is retention under intermittent practice, not eight weeks of non-use.
+
+At T0 and follow-up, the main task permits the framework and technical sources, calculator, AI assistance with search or calculation, and teacher clarification of instructions. Required accessibility aids remain available. In both constructed attempts, L17 uses AI only to open files L17 has already named; the teacher supplies no additional explanation. The recorded choices and reasoning precede any assistant output that could select the decisive sources, interpret the quantities or recommend an option. The main-task result therefore includes help with document access, while the selected judgements remain observable as L17's contributions.
 
 | Selected contribution | Qualified observation at T0 | Constructed observation eight weeks later |
 | --- | --- | --- |
@@ -3770,7 +3833,9 @@ The delayed assessment is eight weeks after T0. The constructed history records 
 
 These are selected contributions, not a demonstration of the whole F.1, C.16 or C.11 Method envelope.
 
-At both T0 and follow-up, a separate fifteen-minute core uses supplied tables and a calculator but no AI. It asks L17 to recover the required configuration, notice an unsupported report, and reconstruct a feasible time-limited proposal. In both constructed observations, L17 distinguishes the configuration and time constraints and explains why ten cannot be promised at 22 hours.
+The same assignment starts with a fifteen-minute handoff in which the approved AI service is unavailable, but an accessible offline packet and calculator are available. L17 must still identify the required configuration, notice an unsupported report and reconstruct a feasible time-limited proposal for the release manager. That working requirement justifies the separate core; the later full recommendation can use normal sources and AI.
+
+At both T0 and follow-up, the fifteen-minute core uses the supplied tables and calculator, with required accessibility aids, but no AI or teacher cue. In both constructed observations, L17 distinguishes the configuration and time constraints and explains why ten cannot be promised at 22 hours.
 
 The core runs before the source-dependent task on different material, with no corrective teaching until both are complete. The report retains that order. It supports the narrow core under those conditions and the later source-dependent performance after that core; it is not evidence that task order never matters. A receiving use requiring an entirely unwarmed first attempt would need that observation.
 
