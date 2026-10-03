@@ -32,7 +32,7 @@ You can ask an assisting agent to explain an answer or give feedback in ordinary
 
 ## Choose a DPF
 
-The public folder contains twenty-six published DPFs with 416 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
+The public folder contains twenty-seven published DPFs with 427 pattern bodies. Start with the working question nearest to yours. Each linked publication provides its full searchable pattern index.
 
 ### Published DPFs
 
@@ -64,6 +64,7 @@ The public folder contains twenty-six published DPFs with 416 pattern bodies. St
 | Connect separately governed meanings for a receiving use, qualify a model, handle semantic change or maintain shared modules. | [Semantic Integration Engineering](SEMANTIC-INTEGRATION-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 12 patterns | A bounded integration result, adequate model reuse or construction, affected-use repair or revalidation, or a sufficient interface agreement or modular-commons arrangement. |
 | Help someone follow why an outcome occurred, how a calculation works, or why a recommendation follows. | [Explanation Design](EXPLANATION-DESIGN-PRINCIPLES-FRAMEWORK.md) - 6 patterns | A useful explanatory question, an account with its grounds, a worked example, coordinated text and diagrams, a repaired exchange, or a supported choice about improving an explanation. Includes instructional, technical and advisory, and human–AI profiles. |
 | Notice consequential omissions, preserve answer meanings and coordinate checks in human, AI or mixed work. | [Checklist](CHECKLIST-PRINCIPLES-FRAMEWORK.md) - 6 patterns | Useful questions, an interpretable form, a workable occasion, grounded answers, a shared conclusion, or a bounded judgement about a criterion and its checking means. |
+| Design or change access to documentary knowledge for a person, team or assisting agent. | [Knowledge-Corpus Access Engineering](KNOWLEDGE-CORPUS-ACCESS-ENGINEERING-PRINCIPLES-FRAMEWORK.md) - 11 patterns | An access design that connects search and synthesis to readable sources, keeps updates coherent and is tested on the work it must support. |
 
 The word *engineering* includes physical equipment, factories, laboratories, buildings, robots and software, as well as the means needed to develop them. A platform can be a manufacturing or laboratory platform. The software profile addresses its particular delivery and reliability difficulties.
 
