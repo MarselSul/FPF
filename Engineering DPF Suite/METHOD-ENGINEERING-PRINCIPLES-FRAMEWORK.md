@@ -617,8 +617,8 @@ Recover dated differentiation and rivals first. Apply the full `C.28` causal-use
 2. **Name causal use or choose a descriptive stop.** State the receiver's exact question. If causal reliance is needed, name `CausalUseClaimKind`, target `CausalityLadderRung`, comparator or intervention where applicable, and the link claims. Otherwise return dated description without causal vocabulary.
 3. **Establish the dated descriptive sequence.** Recover source editions, Work evidence, variant appearances and disappearances, abandoned forms, and decision points. A timeline is an index, not an explanation.
 4. **Propose explicit link claims.** Name the pressure or environmental change, affected actor or carrier, response or variation, selection or retention process, and resulting Method or relation change. Use *mechanism* only in a source-local sense unless an `A.6.1` `U.Mechanism` is separately identified.
-5. **Generate serious rivals.** Include at least one demand or constraint account and applicable provider/tool, regulation, authority, diffusion/fashion, recording-artifact, deliberate-redesign, or survivorship accounts.
-6. **Derive and collect diagnostic observations.** Before choosing observations that are easy to collect, state which dated records, version differences, decisions, Work evidence, interviews, abandoned variants, negative cases, or cross-setting contrasts are expected under each link and rival. Preserve provenance and independence. Grade observations without making the whole chain certain.
+5. **Generate serious rivals.** Consider demand or constraint, provider/tool, regulation, authority, diffusion/fashion, recording-artifact, deliberate-redesign, and survivorship accounts where they are plausible for this history. Explain which alternatives compete and which can coexist; do not invent a demand account merely to fill a category.
+6. **Derive and collect diagnostic observations.** Before choosing observations that are easy to collect, state which dated records, version differences, decisions, Work evidence, interviews, abandoned variants, negative cases, or cross-setting contrasts are expected under each link and rival. Preserve provenance and source dependence. Weigh the observations through :4.4 before grading the resulting claims; provenance alone does not establish diagnostic strength.
 7. **Run the complete `C.28` boundary when needed.** Issue one identifiable support result with question ref, claim kind, rung, actual evidence-path/data-regime and specialist-result refs, common-threat-screen ref, verdict, supported/unsupported causal uses, limits/window, and reopen. Raw observations or source names are not support-component results. A missing identification, bound, or estimate required for this named causal-use question, or an unresolved live threat to that use, lowers the verdict. Do not commission an estimate merely because another kind of causal question would need one.
 8. **Return distinguishable results.** Grade differentiation claims as observed, source-supported, inferred, expert-estimated, contradicted, or missing and retain rivals. Keep the causal result separate. A downstream choice cites only causal reliance allowed by the verdict and retains its own authority. An `unsupported` or `undecided` result may not serve as positive causal evidence; a separately named non-causal observation or hypothesis may still support a bounded trial.
 
@@ -626,7 +626,7 @@ Recover dated differentiation and rivals first. Apply the full `C.28` causal-use
 
 | Result | Required content |
 | --- | --- |
-| differentiation account | Explanandum, dated sequence, source editions and Work evidence, link claims, rivals, diagnostic observations, grades, limits, and reopen. |
+| differentiation account | Explanandum, dated sequence, source editions and Work evidence, link claims, rivals, diagnostic comparisons with their assumptions and source dependencies, grades, limits, and reopen. |
 | optional causal-use support result | Question ref, claim kind, rung, actual support-component refs, threat-screen ref, verdict, supported/unsupported uses, limits/evidence window, and reopen. |
 | optional non-causal observation or hypothesis | Separate identity, descriptive basis, bounded design use, inferences this result does not support, and reopen. |
 | downstream handoff | The result and its allowed use supplied to another decision, which retains its own authority. |
@@ -634,6 +634,17 @@ Recover dated differentiation and rivals first. Apply the full `C.28` causal-use
 #### ME.19:4.3 - What Changes in Practice
 
 Practitioners can use history without turning it into inevitability. A dated account can reveal forgotten variants and serious rivals; a causal stop can prevent unsupported reliance; and a current architecture decision can still authorize a reversible probe from a separate non-causal observation.
+
+#### ME.19:4.4 - Weigh Historical Evidence between the Actual Accounts
+
+A reliable source can contain a fact that all serious accounts predict. Such a fact helps establish the sequence without favoring one explanation. Conversely, a potentially revealing statement may have little weight because its date, authorship or relation to the events is uncertain. Keep these questions separate from the claim grades in :4.1.
+
+1. **Make the comparison specific.** For the same finding, ask how expected it would be under each serious account, given the evidence already incorporated. Explain the difference. Compatibility with one account alone is insufficient. If two causes can operate together, compare their proposed contributions or a combined account rather than forcing an exclusive choice.
+2. **Examine how the finding became available.** Distinguish an event from a later assertion about it. Ask what the source could observe, why it was recorded, and how it was selected and preserved. A missing record weighs against an account only to the extent that the proposed event should have produced an accessible surviving record.
+3. **Use additional information, not additional copies.** A brochure, an interview repeating it and an article citing that interview may transmit one assertion. Assess the later item conditional on what is already known; do not count it as independent corroboration. Separately established timing or Work evidence can add information even when it appears in the same archive.
+4. **Return a conditional comparison.** State which finding favors which account and which assumptions carry that judgement. Preserve an indistinguishable result when the accounts predict the same observations or source uncertainty defeats discrimination. Check whether the preference survives plausible changes in disputed coding, source selection, dependence or the weight given to a key finding. If it does not, make that fragility part of the result. Use numerical analysis only with a justified observation model; do not invent probabilities or turn named test types into automatic grades.
+5. **Reconsider the relevant evidence when the account changes.** A newly discovered actor, date or mechanism may alter what earlier findings would mean. Compare the revised account with the relevant prior corpus as well as the new item, keeping source dependence visible. Do not attach the old conclusion to a newly worded hypothesis without this reconsideration.
+6. **Return only the supported use.** The comparison can identify a promising next inquiry or a bounded historical hypothesis. When a receiver needs causal reliance, supply this contribution and its limits to `C.28`; the comparison alone is not its complete support result. If a revised premise matters to an existing repertoire or choice, use its evidence dependencies to identify the affected ME.2, ME.5 or ME.6 result and reassess that reliance. A change to historical attribution need not invalidate an independently qualified current Method.
 
 ### ME.19:5 - Archetypal Grounding
 
@@ -655,7 +666,7 @@ The case premises also admit `ElectricalReviewer-E` and `MechanicalReviewer-M` a
 
 Before inspecting the April records, the office has two serious explanations. **R-demand** says domain-specific omissions prompted the proposal and selection of different rules; it predicts a problem record, a response proposal, and distinct checks before the form migration. **R-carrier** says the apparent split is only a naming or recording effect of that migration; it predicts unchanged checks beneath the new names. R-carrier is initially plausible because the searchable PLM history starts with F2 and makes the split look like a May event.
 
-Comparing E1/M1 and WE7/WM4 with S3 and T2 is diagnostic: different reusable checks and their enactments are recorded in April, before F2. This contradicts R-carrier's strong claim that only names changed in May. It fits R-demand, but the missing deliberation minutes and absence of a comparable office without those exceptions prevent treating the complete demand–selection link as established causality. A weaker carrier contribution to later retention remains possible and untested; rejecting the naming-only account does not prove its rival.
+Comparing E1/M1 and WE7/WM4 with S3 and T2 is diagnostic: different reusable checks and their enactments are recorded in April, before F2. This contradicts R-carrier's strong claim that only names changed in May. It fits R-demand, but the available records do not settle why the office selected separate rules over common signoff with escalation, or how other pressures contributed. Missing deliberation evidence leaves that link unresolved here; a separate control office is not a universal requirement for within-case causal inquiry. A weaker carrier contribution to later retention remains possible and untested; rejecting the naming-only account does not prove its rival.
 
 `DA-Signoff-Differentiation-1` returns these grades and limits:
 
@@ -702,6 +713,18 @@ Every live threat lowers the causal-support verdict because no specialist result
 
 `DC-EC417-CadenceMismatch-1` separately retains only the observed timing/co-occurrence as a trial hypothesis and design constraint. `AD-EC417-B2-Trial-1` consumes that non-causal result, capacity, confidentiality, authority, and reversibility to select only a bounded B2 trial. `SafetyReviewer-17` performs `W-SafetyEvidenceDecision-17` under `ASG-SafetyReview-17` and `AUTH-SafetyEvidence-17` for the evidence-condition result; `ReleaseDecider-17` separately performs `W-ReleaseDecision-17` under `ASG-ReleaseDecision-17` and `AUTH-ReleaseDecision-17` for branch entry and release disposition. The architecture decision does not cite `CUR-EC417-CadenceEffect-1` as positive causal evidence.
 
+#### ME.19:5.3 - A Dated Proposal Has More Weight than Repeated Promotion
+
+Consider a constructed extension of the signoff history. Method and variant identification remain the independent premises of :5.1. The next historical inquiry must choose between **H-response**, in which repeated domain-specific omissions contributed to selecting separate rules, and **H-tool-only**, in which a provider's form package induced the split and the omissions were invoked afterwards. Tool support may also have helped retain a split selected for other reasons, so these are not the only possible contributions.
+
+A newly recovered internal decision memo compares separate rules with common escalation, rejects escalation because the named specialist would not be available, and recommends separation. Its authenticated March date precedes the earliest presently documented provider contact. This combination is more expected under H-response than H-tool-only: it records a problem-specific choice and reason before the currently known tool opportunity. The weight depends on the memo's authenticity, whether it recorded an actual decision rather than advocacy, and whether earlier provider influence remains unrecorded.
+
+A budget approval refers to that memo. It supplies evidence that resources were authorized, but its repeated rationale is not a second independent explanation. A later brochure and three interviews all repeat the same launch narrative; they show circulation of that story, not four independent confirmations. No trial of common escalation has been found, but trial records were not routinely preserved. That absence adds little against an account in which such a trial occurred.
+
+The investigator therefore gives H-response greater relative support than H-tool-only under the stated evidence and assumptions, while retaining possible provider influence and a mixed account. This selects a focused search for earlier contact and actual decision records. It supplies neither a numerical probability nor a claim about the effect of imposing separate rules today.
+
+Suppose the next archive yields an authenticated February provider proposal. The earlier temporal advantage disappears. The investigator reassesses the memo and budget in light of that contact, and compares a mixed account with tool-only influence and response to omissions. The memo still records its stated reason; it no longer independently shows that this reason preceded any known provider opportunity. Revised historical attribution returns to a present repertoire or decision only where that result relied on the attribution. Existing direct evidence that a local variant works within its qualified scope remains available.
+
 ### ME.19:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -719,7 +742,8 @@ Every live threat lowers the causal-support verdict because no specialist result
 - [ ] The dated sequence precedes explanation and keeps source editions, Work evidence, variants, disappearances, and decision points recoverable.
 - [ ] Every link claim names pressure/change, affected actor or carrier, response/variation, selection/retention, and resulting Method or relation change.
 - [ ] Serious rivals and diagnostic observations are derived before convenient collection.
-- [ ] Differentiation claims carry grades and limits.
+- [ ] Diagnostic weight compares the actual rivals under stated prior evidence, source-generation conditions and dependencies; source repetition is not independent support.
+- [ ] Differentiation claims carry grades and limits, and changed accounts prompt reconsideration of the relevant earlier evidence.
 - [ ] Any causal-use result contains the complete current `C.28` identity, support, threat, verdict, use, window, and reopen fields.
 - [ ] Raw observations and source names are not presented as specialist support results.
 - [ ] Differentiation, causal support, non-causal hypothesis, and downstream architecture decision remain separate.
@@ -752,7 +776,9 @@ The pattern connects questions about variant generation, transmission, fashion, 
 | Source | Retained contribution | Use boundary |
 | --- | --- | --- |
 | Stacey et al., [Methods as a form of engineering knowledge](https://doi.org/10.1017/dsj.2025.9) | Attention to Method knowledge, variation, loss, and engineering context. | Conceptual history supplies no project causal verdict or current architecture authority. |
-| Collier, [Understanding Process Tracing](https://doi.org/10.1017/S1049096511001429) | Within-case descriptive sequencing, rivals, and diagnostic observations. | Does not replace identification, estimation, transport, or FPF ontology. |
+| Collier, [Understanding Process Tracing, with 2019 addendum](https://polisci.berkeley.edu/sites/default/files/people/u3827/2011%20Collier-Understanding%20Process%20Tracing%20with%20Addendum.pdf) | The 2011 foundation supplies within-case sequencing and diagnostic observations; the addendum develops relations among rivals and moves beyond rigid necessity/sufficiency test classes. | This historical foundation is supplemented by the later inferential treatment below; it does not replace FPF causal-use assessment. |
+| Fairfield and Charman, [Explicit Bayesian Analysis for Process Tracing](https://researchonline.lse.ac.uk/id/eprint/69203/2/Fairfield_Explicit%20bayesian%20analysis_author_2017%20LSERO.pdf) and [A Dialogue with the Data](https://doi.org/10.1017/S1537592718002177) | Compare specified alternatives, condition on prior evidence, retain source dependence, and reconsider existing evidence when hypotheses develop. | These foundations discipline qualitative comparison; numerical probabilities require warranted assumptions. They supply no complete causal-use verdict or architecture decision. |
+| [Fully specified Bayes factors for hypothesis testing and sensitivity analysis in process tracing, v2](https://arxiv.org/abs/2606.16683v2), 2026 preprint | Model-based evidence weighting and sensitivity analysis sharpen the question of how a conclusion depends on coding, selection and weight. | Its binomial observation model and one-rival comparisons require substantive justification; clustered source dependence limits the claimed guarantees. This optional numerical development is not a default historical protocol. |
 | Mahoney, [The Logic of Process Tracing Tests](https://doi.org/10.1177/0049124112437709) | Weak, necessary-condition, and strongly discriminating test logic. | Grades observations; it does not make the whole chain certain. |
 | Current FPF `C.28` | Causal-use question, rung, support components, common threat screen, verdict, use boundary, limits, and reopen. | C.28 states evidence support only; downstream choice and authority remain separate. |
 
@@ -761,7 +787,7 @@ Reopen when a current source changes the diagnostic logic or causal-use rules, w
 ### ME.19:12 - Relations
 
 - `A.3.1` governs Method identity; `G.5` governs established family or selector claims; a local grouping label supplies neither.
-- `A.10` governs source and evidence paths; `C.27` governs temporal-claim adequacy; `C.28` governs causal-use support.
+- `A.10` governs source and evidence paths; `A.10.1` helps locate actual dependencies when a premise changes; `C.27` governs temporal-claim adequacy; `C.28` and `C.28.CM` govern causal-use support and construction of causal inquiry.
 - ME.2 may retain variants and lineages without inheriting causal truth.
 - ME.6 may consume the differentiation account, causal-use verdict, or separately named non-causal observation only within each result's use boundary and keeps its own authority.
 - Cultural continuation and professional-history uses remain separate from one current project architecture decision.
@@ -946,7 +972,7 @@ Reopen when a relied-on source contribution, its support or its applicability ch
 ## ME.18 - Reconstruct a Candidate Method Account through a Specialist Evidence Programme
 
 >
-> **Primary working result:** a **claim-to-evidence dossier** with scoped candidate Method accounts, contradictions and rivals, a held-out result, evidence limits, and the next receiving use—or a justified lowering when the evidence supports only Work description, a local workaround, tool behavior, or an unresolved grouping.
+> **Primary working result:** a **claim-to-evidence dossier** with scoped candidate Method accounts, contradictions and rivals, results of any selected further checks, evidence limits, and the next receiving use—or a justified lowering when the evidence supports only Work description, a local workaround, tool behavior, or an unresolved grouping.
 
 ### ME.18:0 - Use This When
 
@@ -966,7 +992,7 @@ Use the larger evidence programme only when ordinary candidate recovery is insuf
 | Critical Decision Method (CDM) probe | recalled critical-incident cues, options, judgments, and counterfactual reflections | recall and interviewer effects remain visible; CDM supplies no event-log claim |
 | event-log analysis | recorded recurrence, sequence, deviation, and conformance relative to declared log semantics | tool traces describe recorded events, not intent, tacit contribution, or a MethodDescription |
 | contextual observation or protocol elicitation | coordination, workarounds, or otherwise inaccessible reasoning when their particular risk is named | these moves are selected separately; CDM and process-mining sources do not support them by proxy |
-| expert synthesis | claim-to-evidence matrix, decision-relevant sampling, contradiction-by-scope rule, held-out discriminator, and stopping rule | disclose the synthesis rather than attributing it to the specialist sources |
+| expert synthesis | claim-to-evidence matrix, decision-relevant sampling, contradiction-by-scope rule, choice of further checks, and stopping rule | disclose the synthesis rather than attributing it to the specialist sources |
 | candidate Method account | a scoped episteme about a possible reusable way of doing | Method identification remains with `A.3.1` |
 
 ### ME.18:1 - Problem Frame
@@ -979,7 +1005,7 @@ More evidence is not automatically better. The programme earns its cost only whe
 
 A trace-only reconstruction turns log regularity into a Method. An interview-only reconstruction turns confident recall into recurrence. A majority-vote synthesis erases variants and failure cases. An expanding study collects material without a stopping decision.
 
-The resulting account looks rich yet cannot say which claim each item supports, what would contradict it, or whether a held-out case behaves as the account predicts.
+The resulting account looks rich yet cannot say which claim each item supports, what would contradict it, or which remaining uncertainty matters to its use.
 
 ### ME.18:3 - Forces
 
@@ -989,12 +1015,12 @@ The resulting account looks rich yet cannot say which claim each item supports, 
 | Heterogeneity | Several performers and settings improve discrimination, while indiscriminate sampling raises cost. |
 | Contradiction | Variants may be real, while some disagreement is error or incomplete evidence. |
 | Tool visibility | Event logs are precise about recorded fields, while invisible coordination and intent remain outside them. |
-| Held-out use | A new case tests the account, while retrofitting after observation destroys discrimination. |
+| Further discrimination | An unseen case can test prediction or transfer, while an unavailable or decision-irrelevant case adds no useful assurance. Retrofitting after inspection loses the intended discrimination. |
 | Specialist burden | Consequential decisions may justify a programme, while ordinary recovery needs an affordable stop. |
 
 ### ME.18:4 - Solution
 
-Organize evidence around decision-changing claims, keep evidence forms distinct, resolve contradiction by scope, and use a held-out discriminator before returning scoped accounts or a lower result.
+Organize evidence around decision-changing claims, keep evidence forms distinct, resolve contradiction by scope, and select further checks only where their attainable result warrants the burden. Return scoped accounts or a lower result when the receiving decision has an adequate basis.
 
 #### ME.18:4.1 - Pattern-Use Unfolding
 
@@ -1004,8 +1030,8 @@ Organize evidence around decision-changing claims, keep evidence forms distinct,
 4. **Keep evidence forms distinct.** Use occurrence observation/artifacts for overt actions and results; CDM for recalled critical-incident cognition; event-log analysis for recorded recurrence and deviation. Select contextual or protocol evidence only for a named gap and risk.
 5. **Keep occurrence and candidate layers separate.** Record each Work occurrence before abstracting an account. Preserve missing fields, observer effects, recall limits, tool coverage, and source access.
 6. **Resolve contradiction by scope, not vote.** Compare performer, setting, outcome, and evidence form. Correct a supported error; otherwise split variants, narrow applicability, retain rivals, or lower the claim.
-7. **Use a held-out discriminator.** Before inspecting the held-out case, state what each serious account predicts about cues, decisions, variation, and result. Record surprise and revision rather than retrofitting.
-8. **Stop or lower.** Stop when the receiving decision can distinguish the accounts and each load-bearing claim has adequate trace or an explicit uncertainty disposition. Return no candidate account when the evidence supports only a Work description, local workaround, tool behavior, or unresolved grouping.
+7. **Choose whether a further check is needed.** Identify the unresolved claim and the possible answers that would change the receiving use. Compare the attainable discrimination with evidence access, practitioner capacity, delay, and the whole acquisition burden. Select a held-out case when prediction or transfer to that case matters and can be examined usefully. State each serious account's predictions about cues, decisions, variation, and result before inspecting it; record surprise and revision. Another claim may instead need a source comparison, a targeted elicitation, or no additional check because the existing evidence already supports the bounded decision. An unavailable check leaves its claim uncertain; it does not oblige an unproductive study or license a stronger claim.
+8. **Stop or lower.** Stop when the scoped accounts and explicit uncertainty dispositions support the receiving decision. Rivals may remain unresolved when distinguishing them would not change that decision. Narrow the use or defer it if a load-bearing uncertainty remains. Return no candidate account when the evidence supports only a Work description, local workaround, tool behavior, or unresolved grouping.
 
 #### ME.18:4.2 - Record the Result
 
@@ -1015,7 +1041,7 @@ Organize evidence around decision-changing claims, keep evidence forms distinct,
 | claim-to-evidence matrix | Claim, discriminating observation, selected evidence form, support/contradiction/split/lowering rule, and stopping use. |
 | sample and occurrences | Decision-relevant variation, each Work occurrence, source access, missing fields, and evidence-form limits. |
 | synthesis | Scoped accounts, retained variants/rivals, contradiction disposition, and attribution of each synthesis move. |
-| held-out result | Predictions made before inspection, observed result, surprise, revision, and remaining uncertainty. |
+| selected further checks, when needed | Claim and use at issue, why the attainable answer warrants the burden, actual result and remaining uncertainty. For a held-out check, also preserve predictions made before inspection, surprise and revision. When existing evidence suffices, state that basis in the return; no empty held-out record is needed. |
 | return | Account(s) or lower result, evidence limits, next receiving use, and reopen condition. |
 
 #### ME.18:4.3 - What Changes in Practice
@@ -1059,6 +1085,16 @@ The held-out case then showed **cues** of supplier-owned geometry, restricted pr
 
 The resulting disposition is to keep `C-Evidence-Reconcile-Internal` for the eight internal cases, keep and narrow `C-Evidence-Reconcile-Supplier` to supplier-owned configuration with the signed-evidence branch, and retain rig availability as a support condition rather than the account that explains this split. The scope split is not decided by majority count. One held-out supplier case leaves transfer to other suppliers, other configuration classes, and missing-approval situations uncertain; neither account is admitted as a Method, and no effectiveness or population claim is made.
 
+#### ME.18:5.3 - A Specialist Programme Can Finish without a New Case
+
+A retired repair service used two routing practices. Ordinary `A.3.1.MR` recovery from its mixed logs and instruction editions cannot tell whether an urgent route was a repeatable cue-based branch or an occasional supervisor override. The receiving museum archive needs a qualified comparison of the two candidate accounts for this service's final year. It is not deciding to reopen the service or transfer either account to current work.
+
+The larger programme is justified because the disputed cue is absent from the logs. Its claim matrix selects the dated routing sheets and targeted critical-incident interviews with the two available former dispatchers. The sheets record whether replacement stock was present; the logs record only the chosen route. Linking them to the same occurrences shows that the disputed route accompanied absent stock in the accessible cases. Each dispatcher recalls using the stock cue and describes one exception requiring supervisor involvement. Their recalled reasons remain elicited accounts; the routing sheets support recorded stock and routing, not unrecorded intentions or universal recurrence.
+
+The evidence supports a stock-conditioned candidate branch with a separately retained supervisor exception. The archive can now compare that account with the earlier instruction and state the unresolved gaps. A new live repair cannot be observed because the service has closed. Simulating one would test present performance under new conditions, which the archive's comparison does not need. The programme therefore returns the bounded account, source links, recall limits and unresolved coverage outside the accessible records. It makes no claim about transfer or effectiveness, and it does not identify a Method through these observations.
+
+The programme entered ME.18 and completed useful specialist work. Its stop rests on the adequacy of that work for the receiving comparison. If a later operator wants to reuse the reconstructed branch, that changed use reopens the evidence and check choice; the archive's descriptive result cannot settle it.
+
 ### ME.18:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -1076,7 +1112,8 @@ The resulting disposition is to keep `C-Evidence-Reconcile-Internal` for the eig
 - [ ] Observation/artifacts, CDM, event-log analysis, contextual/protocol evidence, and expert synthesis keep distinct contributions and limits.
 - [ ] Each Work occurrence is recorded before candidate-account abstraction.
 - [ ] Contradictions are resolved by scope or retained, not averaged by vote.
-- [ ] A held-out discriminator states predictions before inspection and records surprise/revision.
+- [ ] Any further check addresses a use-changing uncertainty and has an attainable result worth its burden; an adequate existing basis can support a bounded stop.
+- [ ] A selected held-out discriminator states predictions before inspection and records surprise/revision.
 - [ ] Scoped variants and rivals remain visible.
 - [ ] The result can lower to Work description, local workaround, tool behavior, or unresolved grouping.
 - [ ] No evidence form identifies a Method, creates a MethodDescription, backdates Work, or establishes causality by itself.
@@ -1088,6 +1125,7 @@ The resulting disposition is to keep `C-Evidence-Reconcile-Internal` for the eig
 | “Mine the log and recover the Method.” | Recover only recorded events; use the claim matrix to identify missing intent, tacit, and context evidence. |
 | “Interview experts until their stories converge.” | Sample for decision-relevant variation and preserve contradiction, recall limits, and minority variants. |
 | “Use every evidence form.” | Select only forms whose possible results can change a claim or the receiving decision. |
+| “A specialist programme must always obtain another unseen case.” | Select the check from the unresolved claim and receiving use; finish on adequate existing evidence, or narrow/defer the use when uncertainty matters. |
 | “The held-out case fits after we revised the account.” | Record predictions before inspection and report surprise rather than retrofitting. |
 | “The reconstructed account is now an admitted Method.” | Return the account and send Method identity to `A.3.1`. |
 
@@ -1099,7 +1137,7 @@ The cost is specialist sampling, evidence access, and analysis. Some evidence wi
 
 ### ME.18:10 - Rationale
 
-No single evidence form covers overt action, recorded recurrence, recalled judgment, tacit coordination, and cross-setting variation. Combining these evidence forms is useful only when each is connected to a claim and a receiving decision. The matrix, scope rule, held-out discriminator, and stop make that combination testable without claiming a universal research protocol.
+No single evidence form covers overt action, recorded recurrence, recalled judgment, tacit coordination, and cross-setting variation. Combining these evidence forms is useful only when each is connected to a claim and a receiving decision. The matrix, scope rule, justified check choice, and stop make that combination testable without claiming a universal research protocol.
 
 ### ME.18:11 - SoTA-Echoing
 
@@ -1110,7 +1148,7 @@ No single evidence form covers overt action, recorded recurrence, recalled judgm
 | IEEE Task Force, [Process Mining Manifesto](https://www.tf-pm.org/resources/manifesto) | Discovery, monitoring, and conformance analysis over recorded event logs. | Event-log regularity establishes neither intent, tacit contribution, Method identity, nor causality. |
 | Ordinary observation and artifacts | Overt occurrence evidence and result traces. | Observation supplies only what its access, scheme, and window support. |
 
-The claim matrix, decision-relevant sampling, contradiction-by-scope rule, held-out application, and combined stop are the bounded DPF synthesis. Reopen when a current evidence Method changes one of those moves, or when representative uses show that the extra burden does not improve account scope or the receiving decision.
+The claim matrix, decision-relevant sampling, contradiction-by-scope rule, conditional further checks, and combined stop are the bounded DPF synthesis. Reopen when a current evidence Method changes one of those moves, or when representative uses show that the extra burden does not improve account scope or the receiving decision.
 
 ### ME.18:12 - Relations
 
@@ -4537,7 +4575,7 @@ When several positions are compressed into one intervention label, the team cann
 
 ### ME.16:4 - Solution
 
-Build a typed account of the target subjects, accounts and descriptions, the introduction strategy and its status, any separate WorkPlan, actual Work occurrences, and named relied-on relations. Perform the bounded introduction attempt, observe later Work and decision-relevant outcomes separately, distinguish target adaptations from introduction-strategy adaptations, invoke C.28 only for a causal reliance, and revise only the maintained claim the evidence contradicts.
+Build a typed account of the target subjects, accounts and descriptions, the introduction strategy and its status, any separate WorkPlan, actual Work occurrences, and named relied-on relations. Perform the bounded introduction attempt, observe later Work and decision-relevant outcomes separately, distinguish target adaptations from introduction-strategy adaptations, invoke C.28 only for a causal reliance, and return each supported correction, refinement or alternative to the maintained result it affects.
 
 #### ME.16:4.1 - Pattern-Use Unfolding
 
@@ -4550,7 +4588,7 @@ Build a typed account of the target subjects, accounts and descriptions, the int
 3. **Recover each maintained result and receiving action.** For every target, introduction-strategy object, and observation position, record its maintained result, particular claim or edition, current status, evidence, source and qualification window, observation that would support or defeat it, receiving Agent or governing pattern when one is current, and next maintenance, reconsideration, or stop action.
 4. **Select the capability branch.** Omit capability detail that cannot change the attempt, interpretation, or decision. When the decision does rely on capability, recover the `A.2.2` basis: holder, Work family, envelope, measures, qualification window, evidence, and currentness. If existing capability is adequate and no relevant capability change is required or asserted, retain it as a reliance or observation condition; no development result is needed. A missing capability basis returns that `A.2.2` question, not an automatic development prescription. Only when a capability-change claim is needed, consume a compatible `E.23.CDI` or domain development result naming holder, Work family, baseline, target, intervention, representative transfer Work, evidence, and currentness. If that required result is missing or stale, name the gap and the next governing development decision or stop; ME.16 does not fill it.
 5. **Bound authorization and protected conditions.** Identify the change decision-making Agent, A.13 basis, and the named assignment, permission, or authority predicate with participants and scope that permits each intended change. Name participating Systems, confidentiality and safety stops, and protected conditions. Expertise, sponsorship, project position, ownership, tool control, assignment, permission, and authority are not interchangeable bases.
-6. **Plan decision-relevant observations before intervention.** Select only positions that can change the decision: acceptability or rejection; appropriateness or fit; feasibility; enactment or fidelity; burden or cost; reach; sustainment; changes to named targets or to the introduction strategy; and the outside result. Keep acceptability as a stakeholder observation, formal fit or transfer with ME.13, actual enactment with A.15.1, bounded reach as observed participation, and a population-level continuation question with ME.17. Preserve ME.11 trial, ME.13 fit, and ME.14 worth questions as distinct inputs or later uses.
+6. **Plan decision-relevant observations before intervention.** Select only positions that can change the decision: acceptability or rejection; appropriateness or fit; feasibility; enactment or fidelity; burden or cost; reach; sustainment; changes to named targets or to the introduction strategy; and the outside result. Keep acceptability as a stakeholder observation, formal fit or transfer with ME.13, actual enactment with A.15.1, bounded reach as observed participation, and a population-level continuation question with ME.17. Preserve ME.11 trial, ME.13 fit, and ME.14 worth questions as distinct inputs or later uses. Use §4.5 when selecting these observations requires distinguishing delivery, mechanism, adaptation and context explanations.
 7. **Plan separate target and introduction-strategy adaptation records.** First classify every planned or observed modification as a change to the Method-related target or a change to the way it is introduced. Record what changed, when, planned or reactive status, deciding Agent and named authorization predicate, affected level, reason and conditions.
 
    For a target change, name the affected Method semantics, description, support, capability input, fit claim, cultural question, or local-use condition. For an introduction-strategy change, name the admitted introduction Method or candidate introduction account, its admissibly classified description episteme, and any separate WorkPlan claim.
@@ -4608,6 +4646,24 @@ If the failed lookup path has two proposed later repairs that the available evid
 
 In a separate constructed no-development case, the same admitted review Method is introduced to `Reviewer-23` by repairing the conversion-table lookup path. The current `A.2.2` basis `CAP-R23-1` identifies that holder, calibration-report-review Work, the mixed-unit envelope, the required detection measure, representative evidence, and a qualification window covering the attempt. It supports adequate existing capability; no capability change is required or claimed. The engineer repairs and checks the lookup path under separately supported configuration permission, and the independently admitted later review Work uses it successfully. Return `keep` for this bounded support change and preserve `CAP-R23-1` as a reliance condition. No CDI result is missing merely because none was supplied, and no training is commissioned. If the capability basis later expires, return its currentness question to `A.2.2`; if the Work envelope instead changes so that development is needed, open that separately governed question. This case changes neither the reliance on `CDI-R22-1` nor its expiry stop in the preceding case.
 
+#### ME.16:4.5 - Explain a changed result before selecting an adaptation
+
+Use this continuation when an unexpected result, changed setting or proposed adaptation leaves materially different explanations that would change the next application. Existing observations and a supported local correction may already settle the decision; a new study is not required merely because some causal uncertainty remains.
+
+1. **Recover how the proposed contribution is expected to work.** Connect the needed result to the function each relevant contribution serves, the concrete actions or form that supply it, and the conditions under which the proposed mechanism could operate. Read the target and the introduction strategy separately. For example, a rehearsal may be intended to develop recognition of a stop condition, whereas an expert checking the completed result may supply that recognition directly. Use C.28.CM and the relevant subject practice to construct or challenge this explanation. Keep assumptions and unknown functions visible. Preserving a function does not by itself preserve Method identity.
+
+2. **Derive observations that could distinguish the live explanations.** Compare what should be seen if the relevant contribution was not delivered, was delivered but did not activate the proposed mechanism, operated differently in this context, or was supplemented by another contribution. Several explanations may hold together. Link observations of actual actions, the proposed intermediate change and the outside result for the same cases and relevant times. Include failed entry and cases where the result differs. A procedure-completion count alone cannot decide among these explanations. Assess fidelity only against an interpretable baseline and only when that comparison can change the decision; unknown essential functions or an intentionally flexible strategy may support a narrower account of what was done instead.
+
+3. **Select an attainable comparison.** First ask whether existing evidence distinguishes enough for the receiving action. If a further inquiry is worthwhile, pass the competing explanations, expected observations, case differences, timing, available access and whole burden to RMP.2. Its selected design and limits, operationalized through RMP.3, become inputs to the ME.11 trial or other inquiry. Check separately whether the proposed application can be performed and whether the evaluation can obtain an interpretable answer. Specify which changes the design permits: holding a configuration stable and studying an adapting configuration answer different questions. If no useful comparison is attainable, return the supported course or unresolved alternatives with the limitation that matters now.
+
+4. **Combine observations through the explanation.** Use the selected methods to recover what was delivered, how participants used or responded to it, the pertinent context and the resulting benefit, harm or burden. Where broad records show a pattern, selected observations or interviews can investigate the difference; where a particular account suggests a mechanism, look for its expected consequences in the relevant records. Repeated observation can reveal a changed contribution or context. Keep the same cases, periods and measurement meanings recoverable when combining results. Separate an observation, a participant's explanation and the investigator's inference; use C.28 for any resulting causal reliance.
+
+5. **Make each adaptation interpretable.** Compare the actual change with its prior target or introduction-strategy baseline. Recover the affected action or component, proposed function, reason, decision-maker and authorization, conditions, decision time and actual implementation time when their difference matters. Keep coupled changes together when their contributions cannot be separated. Determine what supports a claim that the function was retained, changed or remains unknown. An adaptation description supplies neither that functional conclusion nor an effect estimate. Return changed reusable operations or conditions to ME.15 even if the intended function stays the same.
+
+6. **Return what the evidence changes.** ME.13 receives the conditions and configuration actually examined; ME.14 receives comparable consequences, support demand and displaced work; ME.15 receives the semantic change with separately qualified function and evidence; ME.16 receives the basis to retain, refine, branch, replace or stop the target, its introduction, or their support. A favourable result despite poor delivery may support investigating another contribution; it neither confirms the proposed mechanism nor makes all useful work a failure. A new supported explanation or useful alternative may warrant development without contradicting the earlier bounded account. Revisit uses whose relied-on premises change through their governing patterns. Use ME.24 when the change affects a source-coverage or reconstruction claim.
+
+The result is an explanation sufficient for the named next action, with its evidence and unresolved alternatives. It can be a bounded continuation, a changed introduction strategy, a proposed target variant, a useful refinement of the explanation, or a stop. Additional detail is selected for the decision it can change.
+
 ### ME.16:5 - Archetypal Grounding - Workplace Introduction and Revision
 
 The SSFD programme reports a three-year intervention involving more than 300 engineers, training followed by supported four-to-six-month workplace projects, expert assistance, 72 reports recording SSFD use, and 41 reports supporting deeper analysis. Use this account to distinguish the target, strategy, performed Work, observations, adaptations, and outside results; it is not evidence from an isolated causal experiment.
@@ -4629,6 +4685,20 @@ Implementation-science comparators sharpen this account without supplying its do
 The EC-417 three-release statement remains a WorkPlan. Do not report introduction, release enactment, later revision, cadence effect, or receiving result until the introduction strategy is identified and actual introduction Work and release Work are admitted with performers, enacted admitted constituent Methods, capability inputs, Systems, named Agent-performed Work occurrences, relation occurrences, assignments, permissions, authority, conditions, target and strategy adaptations, burdens, deviations, and domain results.
 
 The ME.10 support-use task observations may supply identified support baselines and gaps. They do not establish an introduction Method, release Work, AI-provider use, feedback Work, capability, or Method fit. Preserve `C-EC-Release-v2` as a target candidate and `CUR-EC417-CadenceEffect-1` as unsupported. The application has no supplied `A.2.2` capability basis, so a receiving decision that relies on capability returns that missing basis first. If a current adequate basis is supplied and no capability change is needed, retain it without requiring development. Name `E.23.CDI` or a domain development result and next action only for an actually needed capability change; do not invent capability or prescribe development from the gap alone.
+
+#### ME.16:5.2 - Correct outputs with an undelivered learning mechanism
+
+In this constructed example, a team introduces a report-review Method requiring the reviewer to trace each measurement to the equipment identifier and check its unit before recommending release. The proposed introduction strategy combines a lesson with individual rehearsal. Its working explanation is that rehearsal will enable newcomers to recognize identifier and unit mismatches independently. Release still requires a separately qualified reviewer; the introduction attempt has no authority to remove that safeguard.
+
+Records show that the lesson occurred, but individual rehearsal was repeatedly cancelled. Reports released during the attempt have the required corrections. Observation of review meetings shows that experienced colleagues identified the mismatches and newcomers then corrected them. The attendance records and corrected reports therefore concern different contributions: neither establishes independent newcomer capability. The proposed learning mechanism remains unsupported, while the experienced reviewers' actual corrections are useful observations.
+
+The method engineer connects delivery records, the sequence of detection and correction, current capability evidence and report outcomes. This supports continuing the existing safeguarded review under its established conditions. It also identifies a rival explanation worth considering: supported joint review may supply the immediate checking function while creating a different opportunity for learning. Whether newcomers learn from that participation remains an open question.
+
+Suppose a receiving decision now concerns assigning newcomers independent reviews next month. A feasible comparison uses archived reports with known mismatches, including an unfamiliar unit convention, and records each newcomer's answer before help, the help actually given and the final correction. The inquiry designer must justify case coverage, comparison, timing, assessment and attainable burden; merely scheduling the exercise is not a result. If the protected inquiry window is unavailable, independent assignment stays unsupported and the existing review can continue.
+
+After such an authorized comparison, suppose the observed records show that newcomers detect familiar identifier mismatches unaided but require expert help for the unfamiliar unit convention. Return that differentiated result to the capability owner and to ME.13; it supports neither a blanket failure nor unrestricted transfer. ME.14 includes the expert's time. ME.16 can develop a proposed introduction variant using joint review and later independent rehearsal. ME.15 determines whether its changed reusable operations constitute a variant; retaining the intended checking and learning functions does not settle that identity question.
+
+The adaptation account records when the joint-review change was chosen and when it actually operated. If rehearsal and coaching change together, the observed benefit belongs to that examined arrangement until a useful comparison separates their contributions. The original lesson remains a delivered event. Its proposed mechanism is reconsidered on the new evidence; the history is not rewritten as if the later strategy had been used from the start.
 
 ### ME.16:6 - Bias-Annotation
 
@@ -4656,7 +4726,7 @@ The ME.10 support-use task observations may supply identified support baselines 
 - [ ] Every adaptation distinguishes target change from introduction-strategy change and records the affected target, strategy and status, identified description episteme, separate WorkPlan, support or local-use condition; time and planned/reactive status; deciding Agent and authorization; level, reason and conditions; maintained result; and receiving action or stop.
 - [ ] A relied-on causal or contribution claim uses C.28 and preserves supported and unsupported uses, validity threat and residual uncertainty. An observational result carries only the qualification needed for its receiving use.
 - [ ] The comparison records the action supported by the available evidence, or the alternatives that remain unresolved and the reason they cannot yet be distinguished. Any further observation or probe has a useful obtainable answer worth its full burden and feasible conditions.
-- [ ] ME.13 receives a bounded fit or transfer question, ME.17 a bounded population-level cultural question, and ME.15/ME.10/A.15.2 only an observation contradicting one particular maintained claim or edition. ME.8 receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
+- [ ] ME.13 receives a bounded fit or transfer question, ME.17 a bounded population-level cultural question, and ME.15/ME.10/A.15.2 a supported correction, refinement or alternative tied to the particular maintained claim or edition it affects. ME.8 receives a needed correction of MethodDescription or candidate-Method-account content and preserves its status; other content returns to its own episteme or a local stop.
 - [ ] The result claims no adoption lifecycle, maturity ladder, phase gate, general effectiveness, causal superiority, or authority outside its boundary.
 
 ### ME.16:8 - Common Anti-Patterns and How to Avoid Them
@@ -4679,7 +4749,7 @@ The cost is a more explicit baseline and observation design. Some programmes end
 
 An intervention can change several subjects, relations, and descriptions at once. Learning requires each claimed change to retain its own subject, governor, baseline, evidence, and receiving use. Otherwise the intervention label becomes a substitute for both Work and explanation.
 
-Separating the Method-related target from the introduction strategy, its status and description, any separate WorkPlan, capability development, and cultural continuation prevents ME.16 from becoming an adoption lifecycle. It remains the practice for introducing one bounded Method-related change, observing later Work and consequences, and revising the particular maintained claim or edition defeated by evidence.
+Separating the Method-related target from the introduction strategy, its status and description, any separate WorkPlan, capability development, and cultural continuation prevents ME.16 from becoming an adoption lifecycle. It remains the practice for introducing one bounded Method-related change, observing later Work and consequences, and using the resulting evidence to correct, refine or develop the particular maintained account or next application.
 
 ### ME.16:11 - SoTA-Echoing
 
@@ -4693,6 +4763,7 @@ Separating the Method-related target from the introduction strategy, its status 
 | Miller et al., [FRAME-IS](https://doi.org/10.1186/s13012-021-01105-3) | **Adapt:** distinguish modifications to the introduction strategy from modifications to the Method-related target; for the strategy, record the changed component or function, nature, timing, participants in the modification decision, rationale, and scope. | **Reject:** healthcare intervention and implementation-strategy ontology, automatic Method admission, and a compulsory reporting module. Record the introduction strategy's status and keep its description, any WorkPlan, performed Work, and affected maintained result separate. |
 | Damschroder et al., [updated CFIR](https://doi.org/10.1186/s13012-022-01245-0) | **Adapt:** ask which context and determinant observations can explain anticipated or actual success or failure. | **Reject:** a universal determinant inventory, success score, maturity ladder, or inference from a determinant label to an obtaining FPF relation. |
 | Skivington et al., [2021 MRC complex-intervention framework](https://doi.org/10.1136/bmj.n2061) | **Adapt:** identify key uncertainty, context interaction, refinement, stakeholder perspective, and comparative resource/outcome consequence; permit repeat, reconsider, or stop. | **Reject:** a compulsory phase sequence or gate. The source neither admits FPF Methods and Work nor supplies causal support; C.28 remains conditional. |
+| Moore et al., [MRC process-evaluation guidance](https://doi.org/10.1136/bmj.h1258), and Jolles et al., [core functions and forms](https://dworakpeck.usc.edu/sites/default/files/2020-10/Core%20Functions%20and%20Forms%20of%20Complex%20Health%20Interventions.pdf) | **Adapt:** connect the proposed explanation to observations of implementation, mechanisms, context and outcomes; distinguish a contribution's function from its concrete form. | These are developed comparison sources, not a universal mechanism inventory. Recover the subject-specific function and the evidence for its preservation; an observed benefit does not confirm the originally proposed mechanism. |
 | Current FPF `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `A.13`, `A.2.2`, `E.23.CDI`, `A.3.4`, `A.10`, `C.28`, and direct relation governors | **Adopt:** Method admission, MethodDescription identity, WorkPlan identity, Work admission, Agent basis, capability, capability development, bounded transformation, evidence, causal-use boundary, and relation semantics. | ME.16 contributes the typed attempt, later observations, target-versus-strategy adaptation record, conditional causal branch, and local revision decision; it does not redefine those governors. |
 
 Reopen the pattern when practitioners cannot separate target subjects and accounts, introduction strategy and status, description, any separate WorkPlan, performed Work, relation occurrences, observations, and receiving actions; when stronger cross-domain evidence changes the observation or adaptation positions; when repeated introductions reveal an independent organizational-change problem; or when current FPF Method, description, plan, Work, relation, capability, evidence, or causal-use semantics change the action.
@@ -4700,11 +4771,12 @@ Reopen the pattern when practitioners cannot separate target subjects and accoun
 ### ME.16:12 - Relations
 
 - ME.1 supplies the Method-of-interest and outside result. ME.15 supplies an admitted variant or status-preserved candidate lineage with applicability and currentness. A candidate account is not enacted; later Work may enact only independently admitted constituent Methods.
-- ME.15 governs admitted Method semantics and candidate lineage, provenance, evidence, applicability, currentness, and retirement claims for both target and introduction accounts. ME.8 authors or revises a MethodDescription of an admitted Method, or improves a candidate Method account while retaining its unresolved status. Other description content stays with its own episteme. A.15.2 governs the separate introduction WorkPlan; ME.10 particular support claims; ME.13 bounded fit and transfer questions; and ME.17 bounded population-level cultural questions. Return an observation only with the contradicted admissible maintained claim or edition plus the next action.
+- ME.15 governs admitted Method semantics and candidate lineage, provenance, evidence, applicability, currentness, and retirement claims for both target and introduction accounts. ME.8 authors or revises a MethodDescription of an admitted Method, or improves a candidate Method account while retaining its unresolved status. Other description content stays with its own episteme. A.15.2 governs the separate introduction WorkPlan; ME.10 particular support claims; ME.13 bounded fit and transfer questions; and ME.17 bounded population-level cultural questions. Return a correction, refinement or alternative with the affected maintained claim or edition and the next action.
 - `E.23.CDI` or a domain capability-development pattern governs capability change. `A.2.2` governs the relied-on capability result; ME.16 records it as an input, observation, or named gap.
 - `A.3.1` governs admission of both target and introduction Methods, and `A.3.2` governs `U.MethodDescription` membership. A WorkPlan and performed Work neither admit nor enact a candidate Method. `A.13` governs precise Agent claims and `A.15.1` every introduction and later Work occurrence. Assignment, permission, authority, access, use, enactment, and other direct relations retain their own named predicates, participants, applicability, and obtaining tests.
 - `A.3.4` governs a claimed actual bounded change to a continuing subject. Introduction Work, a before/after account, an adaptation record, or a decision label does not by itself identify a `U.Transformation`.
 - `A.10` governs evidence use. When the ME.16 decision relies on a causal or contribution claim, `C.28` governs the bounded causal-use question, supported and unsupported uses, conditions, validity threats, and reopen trigger. Without that reliance, ME.16 stops at observation or association.
+- C.28.CM develops the proposed causal explanation and its rivals. RMP.2 selects a suitable attainable inquiry; RMP.3 operationalizes it. The selected design and operationalized protocol guide ME.11 or another inquiry. Its actually obtained observations and their limits then inform the bounded introduction decision; ME.16:4.5 explains this connection for adaptation. ME.24 is used when a change affects a source-coverage or reconstruction claim.
 - Proctor, FRAME, FRAME-IS, updated CFIR, and MRC supply bounded comparator questions only. FRAME and FRAME-IS support the target-versus-introduction-strategy distinction; none creates FPF health ontology, adoption lifecycle, maturity ladder, phase gate, Method admission, Work occurrence, relation occurrence, capability, authority, or culture claim.
 
 ### ME.16:End
