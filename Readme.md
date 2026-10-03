@@ -33,6 +33,8 @@ See [source editions and update status](https://fpf.tools/status) for the revisi
 
 Before selecting framework guidance, read and apply [Using FPF and its DPF Suites](./USING-FPF.md). This instruction applies to project work, framework development, review and coordination. It explains how to find and read relevant content in the publications available to you, including when an interface cannot retrieve a large file.
 
+For unfamiliar terminology or incomplete source access, [F.1](./FPF-Spec.md#f1---find-and-select-sources-for-a-current-question) explains how to find inspectable material and return any remaining gap. When several patterns seem plausible, [E.11’s worked comparisons](./FPF-Spec.md#e11462---resolve-a-first-pattern-ambiguity-with-a-worked-comparison) help recover the fact that changes the first needed result. Use an already known sufficient source directly.
+
 When an AI agent assists you, put this requirement and the instruction's location in your project's `AGENTS.md` or equivalent instructions. If a reading test explicitly limits its reader to an isolated excerpt, use only the materials supplied for that test; do not add USING-FPF.md unless the test includes it.
 
 FPF is designed for two complementary uses:
