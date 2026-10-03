@@ -894,7 +894,10 @@ Early replacement can reduce continuing burden but discard useful service life. 
 
 ### EAM.8:4 - Solution
 
-#### Establish the service that each policy must support
+<a id="establish-the-service-that-each-policy-must-support"></a>
+
+#### EAM.8:4.1 - Establish the service that each policy must support
+
 
 Recover the required service, asset configuration and horizon. Use the relevant condition and diagnostic account to establish which maintained-use responses are supported. [MNT.4](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt4---monitor-and-interpret-system-condition-for-maintenance) supplies condition interpretation; [MNT.6](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the diagnosis and intervention recommendation. Their result must apply to this asset and proposed duty.
 
@@ -904,7 +907,10 @@ Lay out the period covered by each technical qualification. An initial repair su
 
 Keep technical eligibility separate from preference. Label an option conditional when a decisive engineering, support or permission result is missing. A proposal can be worth discussing while that result is sought, but it cannot be treated as a feasible immediate act.
 
-#### Construct the dated consequence account
+<a id="construct-the-dated-consequence-account"></a>
+
+#### EAM.8:4.2 - Construct the dated consequence account
+
 
 For each policy, follow the work and use through time: initial preparation and integration, recurring operation and support, subsequent interventions, interruptions and temporary provision, and the intended ending. Attach each consequence to its cause and date. Include the whole intervention and return to service supplied by [MNT.7](MAINTENANCE-ENGINEERING-PRINCIPLES-FRAMEWORK.md#mnt7---coordinate-maintenance-intervention-and-continuing-operation); the time spent physically repairing equipment alone can understate the interruption. Carry the resulting work and service conditions into EAM.11.
 
@@ -912,7 +918,10 @@ Then obtain the economic consequences of that same policy. [FIN.6](CORPORATE-FIN
 
 A recurring service price may already include maintenance, response or replacement. Check those inclusions before adding separate allowances. Conversely, a required future overhaul is still a consequence when it falls outside the current capital request. Preserve unpriced service loss, safety, environmental or other material consequences for [EAM.9](#eam9---compare-asset-alternatives-and-reconcile-decisions-when-they-conflict) instead of silently treating them as zero. A finance result values the stated policy; it does not establish that the policy can supply the service.
 
-#### Reconcile horizon and ending
+<a id="reconcile-horizon-and-ending"></a>
+
+#### EAM.8:4.3 - Reconcile horizon and ending
+
 
 Place the alternatives on a common service and analysis horizon. If their technical lives differ, describe the further work needed to cover that horizon or obtain an applicable value of remaining service. A repeating replacement chain needs supported availability, duty and cost assumptions; extending an annuity factor cannot supply them.
 
@@ -922,7 +931,10 @@ When only the explicit table endpoint moves, reconcile the value at the new endp
 
 Use constant prices with a real discount rate, or a consistent current-price basis with its corresponding rate. Changing the required service horizon calls for reconsidering which interventions occur, which support still applies and what ending is being valued. If the service itself ends, reconsider withdrawal and other alternatives.
 
-#### Return comparable choices and their conditions
+<a id="return-comparable-choices-and-their-conditions"></a>
+
+#### EAM.8:4.4 - Return comparable choices and their conditions
+
 
 Compare eligible policies using the applicable criterion in EAM.9. Return their service and configuration, dated work and consequences, ending premise, technical support and material conditions. [EAM.10](#eam10---compare-engineered-asset-portfolio-combinations) can then combine them without losing a later funding need or counting shared work twice.
 
@@ -930,7 +942,10 @@ Retain the smallest alternative set that includes materially different feasible 
 
 ### EAM.8:5 - Archetypal Grounding
 
-#### Constructing a four-year policy
+<a id="constructing-a-four-year-policy"></a>
+
+#### EAM.8:5.1 - Constructing a four-year policy
+
 
 Consider a separate constructed asset E supplying the same required service under two technically qualified policies. All amounts are constant-price €million; the comparison uses a 3% real rate, year-end cash and sufficient resources for either policy. Tax and financing differences are held equal. These assumptions do not supply rates or technical support for a real asset.
 
@@ -958,7 +973,10 @@ Let `a₂ = 1/1.03 + 1/1.03²` and `d₂ = 1/1.03²`. Using unrounded values, th
 
 Actual withdrawal at year two is another case. If the authority ends the service and X incurs a net exit cost of 0.10 while Y yields net sale proceeds of 0.60, replace the continuing values with those consequences. Present costs are then 1.068300 and 1.221463. X is cheaper in this different case because the service requirement and exit consequences have changed. There is no year-three service obligation in this case. If the service remains required, withdrawal alone is incomplete: a qualified replacement service and its consequences must join the policy.
 
-#### Comparing the complete supplied policies for D
+<a id="comparing-the-complete-supplied-policies-for-d"></a>
+
+#### EAM.8:5.2 - Comparing the complete supplied policies for D
+
 
 For the constructed D case, both policies supply the same required service for five years under their stated engineering qualifications. Continued use needs €0.50 million initially as operating expenditure and €1.00 million at each year end, with zero terminal value. Replacement needs €3.00 million capital, €0.35 million each year and has €1.20 million terminal value. These are teaching inputs, not estimates for a real pump.
 
@@ -1110,7 +1128,10 @@ Shared allocation must preserve required service and actual technical eligibilit
 
 ### EAM.10:4 - Solution
 
-#### Define complete choices and different kinds of coupling
+<a id="define-complete-choices-and-different-kinds-of-coupling"></a>
+
+#### EAM.10:4.1 - Define complete choices and different kinds of coupling
+
 
 State the portfolio scope, requested result and horizon. Recover the alternatives and their eligibility from [EAM.7](#eam7---generate-ways-to-supply-an-asset-dependent-service)–EAM.9. Identify which choices are mutually exclusive, mandatory, optional or dependent, and why. Include continued use or no new work when it is a qualified alternative. An omitted asset can still matter through a shared service or resource.
 
@@ -1118,7 +1139,10 @@ Distinguish three questions about a proposed combination. A prerequisite or excl
 
 For each material relation, identify the affected alternatives, its operating or engineering cause, the time and conditions under which it holds, and the resulting constraint or consequence. [EAM.6](#eam6---assess-asset-capacity-resilience-and-interdependence) supplies service and dependency conditions. A promised saving cannot make a combination technically eligible.
 
-#### Construct the whole consequence account
+<a id="construct-the-whole-consequence-account"></a>
+
+#### EAM.10:4.2 - Construct the whole consequence account
+
 
 Start from compatible policies on the same service boundary, perspective and horizon. If a policy omits later support or its ending, return to EAM.8. Then describe what work and service the combination actually entails. Identify shared preparation, enabling work, recurring operation, temporary service and ending consequences. Obtain amounts and dates for those actual operations.
 
@@ -1128,7 +1152,10 @@ Count each shared consequence once. If two estimates each contain the same mobil
 
 Keep unpriced consequences visible. Shared disruption can change a service or environmental result even when the expenditure sum is unchanged. Use [EAM.9](#eam9---compare-asset-alternatives-and-reconcile-decisions-when-they-conflict)'s actual criteria to compare those consequences; a cash adjustment cannot silently settle them. When the combination changes a demand or recovery premise, return that premise to [EAM.4](#eam4---assess-demand-and-service-need-for-asset-decisions) or [EAM.6](#eam6---assess-asset-capacity-resilience-and-interdependence) before relying on its qualification.
 
-#### Test constraints and compare the feasible combinations
+<a id="test-constraints-and-compare-the-feasible-combinations"></a>
+
+#### EAM.10:4.3 - Test constraints and compare the feasible combinations
+
 
 Write the constraints at the whole-combination scope. Separate initial capital, initial operating expenditure and recurring operating envelopes where they are different decisions. Include later commitments when they bind: the year-three overhaul in an [EAM.8](#eam8---generate-maintenance-renewal-and-retirement-alternatives) policy needs its funding, crew and service window at that time. A low initial outlay does not establish that later provision. Do not count a resource twice or assume unused funding must be spent.
 
@@ -1138,7 +1165,10 @@ For a larger problem, select an optimization or scenario method whose objective,
 
 Compare eligible combinations using the actual value criteria. When required service and other material consequences are equal, minimize total present cost. Otherwise preserve justified trade-offs or a non-dominated set. A cheaper programme that requires more scarce resources does not automatically dominate a dearer one.
 
-#### Explain the choice and the condition that could change it
+<a id="explain-the-choice-and-the-condition-that-could-change-it"></a>
+
+#### EAM.10:4.4 - Explain the choice and the condition that could change it
+
 
 Show the preferred combination and the consequential alternatives it displaces. Test a changed funding limit, engineering qualification, demand driver, shared-work condition or resource date when it could alter the answer. Use coherent conditions across the combination; a common disruption cannot be favorable for one component and absent for another without grounds.
 
@@ -1146,7 +1176,10 @@ Return the recommendation, the whole consequence account, feasibility conditions
 
 ### EAM.10:5 - Archetypal Grounding
 
-#### A shared operation changes the comparison
+<a id="a-shared-operation-changes-the-comparison"></a>
+
+#### EAM.10:5.1 - A shared operation changes the comparison
+
 
 Consider a separate constructed service requirement. Two interventions P and Q together and a different complete solution Z are both qualified to supply it over the same horizon. P or Q alone is insufficient. Their subsequent operating, ending and other material consequences are equal; all different costs are payable now in €million, and funding is sufficient for either whole solution. Thus their initial cost difference decides this bounded comparison.
 
@@ -1163,7 +1196,10 @@ Suppose incompatible access windows require two visits and two mobilizations. P+
 
 The example does not infer a common saving for CityWater's separate station jobs. A proposed CityWater sharing arrangement would need its own work, service and financial account before altering the following result.
 
-#### The sixteen supplied CityWater combinations
+<a id="the-sixteen-supplied-citywater-combinations"></a>
+
+#### EAM.10:5.2 - The sixteen supplied CityWater combinations
+
 
 The common CityWater application supplies four two-option choices. Initial capital must not exceed €8 million, initial operating expenditure €0.60 million, annual operation €3 million and the available team/outage time twelve days. All amounts and eligibility results are constructed.
 

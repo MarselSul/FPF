@@ -5908,7 +5908,10 @@ Costs and limits:
 
 ### MDPE.14:8 - Rationale and Source Use
 
-#### What current FPF already supplies
+<a id="what-current-fpf-already-supplies"></a>
+
+#### MDPE.14:8.1 - What current FPF already supplies
+
 
 `C.30.ILC` recovers a cross-scope or interlevel residual. `C.32.MLAO` frames residual-reducing candidates with
 selected structures, preserved and lost structure, new burdens, an evolution window, and a named pattern for the
@@ -5919,7 +5922,10 @@ With those results, a practitioner still needs the Music-and-Dance relation bran
 partner and ensemble criteria, judging and platform alternatives, split-use choices, representative trials, and
 domain observations supplied by `MDPE.14`.
 
-#### Domain sources and the decisions they change
+<a id="domain-sources-and-the-decisions-they-change"></a>
+
+#### MDPE.14:8.2 - Domain sources and the decisions they change
+
 
 | Source or maintained result | Action-changing use here | Limit and smallest reopen |
 | --- | --- | --- |

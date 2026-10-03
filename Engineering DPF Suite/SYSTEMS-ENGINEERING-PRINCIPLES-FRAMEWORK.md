@@ -756,7 +756,10 @@ when the evidence changes which System should orient this project or where the p
 
 ### SYSE.1:5 - Archetypal Grounding
 
-#### Pumping station under flood risk
+<a id="pumping-station-under-flood-risk"></a>
+
+#### SYSE.1:5.1 - Pumping station under flood risk
+
 
 A flood-reduction project starts with the phrase “new pump”. The engineer compares the pump unit, the pumping
 station, the drainage-control System, and a provider arrangement. Flood-control use crosses the pump-unit
@@ -774,7 +777,10 @@ reopen: use, architecture, realization, or operating evidence changes that assum
 Later discovery that the proposed station increases downstream harm changes the linked use claim. It reopens
 the project-system choice only when that changed claim defeats the reason or boundary used by the choice account.
 
-#### Manufacturer and ERP vendor
+<a id="manufacturer-and-erp-vendor"></a>
+
+#### SYSE.1:5.2 - Manufacturer and ERP vendor
+
 
 A manufacturer opens a “new ERP” project because production plans repeatedly fail. The manufacturer compares
 the software product, the planning organization, a deployed planning System containing people, software, data,
@@ -786,7 +792,10 @@ The vendor's product project can separately select the ERP software product. “
 system-of-interest” and “software is never the project system-of-interest” both erase the project-specific
 decision. The two accounts preserve the shared software and the different uses.
 
-#### Continuing building through several projects
+<a id="continuing-building-through-several-projects"></a>
+
+#### SYSE.1:5.3 - Continuing building through several projects
+
 
 For example, design, construction, operating retrofit, and heritage-restoration Work can concern one continuing building
 while using different plans, transformer Systems, access arrangements, and evidence. In an occupied retrofit,
@@ -1641,7 +1650,10 @@ boundary lies.
 
 ### SYSE.2:5 - Archetypal Grounding
 
-#### Pumping station under flood risk
+<a id="pumping-station-under-flood-risk-1"></a>
+
+#### SYSE.2:5.1 - Pumping station under flood risk
+
 
 In the preceding `SYSE.1` use, the engineer retains the intended referent `PumpingStation-P1` in decision content
 and records downstream exposure as unresolved. No actual `PumpingStation-P1` exists yet. The first linked proposal
@@ -1658,7 +1670,10 @@ This is enough to use `C.30` and `C.32`. A component pump test can contribute ev
 but it establishes neither the not-yet-present station nor its outside effect. The engineer uses downstream-harm evidence to revise the use claim. The project-system choice reopens only if
 the station referent no longer supports the project decision.
 
-#### Manufacturer's ERP-enabled planning change
+<a id="manufacturers-erp-enabled-planning-change"></a>
+
+#### SYSE.2:5.2 - Manufacturer's ERP-enabled planning change
+
 
 The manufacturer keeps `PlanningSystem-P1` as an intended System referent in its project decision; actual System
 identity remains unestablished. Actual person Systems `Planner-A` and `Planner-B` perform `PlanningWork-PW1`. They use
@@ -1674,7 +1689,10 @@ ERP vendor's product project can instead select `ERP-Runtime-E3` or its product 
 Installation completion, an organization chart, and user acceptance establish neither the manufacturer's
 production effect nor the intended composite `PlanningSystem-P1`.
 
-#### Occupied building heat-pump control
+<a id="occupied-building-heat-pump-control"></a>
+
+#### SYSE.2:5.3 - Occupied building heat-pump control
+
 
 For `HeatPumpPlant-HP1`, `ControllerConfig-C2`, the next heating season, and `ArchitectureDecision-AD1`, the three
 compatible input accounts use the same subject, configuration, use, horizon, evidence window, and receiving
@@ -5054,7 +5072,10 @@ reason to preserve an unsupported answer.
 
 ### SYSE.3:5 - Archetypal Grounding
 
-#### Pumping station under flood risk
+<a id="pumping-station-under-flood-risk-2"></a>
+
+#### SYSE.3:5.1 - Pumping station under flood risk
+
 
 `FloodPumpStation-7 : U.System` exists at configuration `FPS7-C18`. `SYSE.2` supplies a compatible station
 concept for changing that station so it can move water under the selected flood load without unacceptable
@@ -5103,7 +5124,10 @@ The fixture does not become part of the pump merely because realization needs it
 does not establish welding capability, and the WorkPlan does not establish that welding Work or manifold
 change occurred.
 
-#### Manufacturer's ERP-enabled planning change
+<a id="manufacturers-erp-enabled-planning-change-1"></a>
+
+#### SYSE.3:5.2 - Manufacturer's ERP-enabled planning change
+
 
 The architecture candidate concerns one deployed production-planning System. It names the software bearer,
 interfaces to order and shop-floor Systems, selected data and decision relations, and the planning functions
@@ -5132,7 +5156,10 @@ or data meaning, the engineer reopens the `C.32` comparison of interface, placem
 structures. The engineer reassesses the linked planning concept under `SYSE.2` only when the planning-use claim must change. The words *platform* and *migration pipeline* establish
 neither integration capability nor one universal Work order.
 
-#### Occupied building retrofit
+<a id="occupied-building-retrofit"></a>
+
+#### SYSE.3:5.3 - Occupied building retrofit
+
 
 `SYSE.2` supplies the continuing building, the occupied-use claim, and a candidate concept through the occupied
 region, safe-entry, egress, and essential-service interfaces. `C.30` and `C.32` supply candidate building zones,
@@ -7766,7 +7793,10 @@ relations are claim-dependency and revision relations; they impose no lifecycle 
 
 ### SYSE.4:5 - Archetypal Grounding
 
-#### Pumping station under flood risk
+<a id="pumping-station-under-flood-risk-3"></a>
+
+#### SYSE.4:5.1 - Pumping station under flood risk
+
 
 In earlier steps, the engineer selects an intended pumping station, links the use claim “move water under the
 selected flood load without unacceptable downstream harm” to a station concept, records
@@ -7808,7 +7838,10 @@ and discharge architecture on that basis. The observation does not by itself pro
 harm, acceptance, permission, or release decision. Use `C.28` or the specialist pattern if one of those stronger
 claims is needed.
 
-#### Manufacturer's ERP-enabled planning change
+<a id="manufacturers-erp-enabled-planning-change-2"></a>
+
+#### SYSE.4:5.2 - Manufacturer's ERP-enabled planning change
+
 
 The manufacturer's claim is that the deployed planning System will improve one named production-planning
 decision under the current data, integration, staffing, and configuration conditions. The decision question is
@@ -7824,7 +7857,10 @@ observation earns a WorkPlan; otherwise the present result can support a narrowe
 without establishing the production effect. The engineer does not report that the effect is false or treat the platform,
 organization chart, or vendor label as evidence.
 
-#### Continuing building under occupied retrofit
+<a id="continuing-building-under-occupied-retrofit"></a>
+
+#### SYSE.4:5.3 - Continuing building under occupied retrofit
+
 
 The retrofit decision relies on a configuration-specific claim that the continuing building can retain the
 declared structural performance and occupied-use constraints during one staged change. The challenge combines a
@@ -11428,7 +11464,10 @@ Keep the result's source, configuration and unresolved conditions to the extent 
 
 ### SYSE.42:5 - Archetypal Grounding
 
-#### A person uses a calculator and reports the product
+<a id="a-person-uses-a-calculator-and-reports-the-product"></a>
+
+#### SYSE.42:5.1 - A person uses a calculator and reports the product
+
 
 Six lots contain 347 items each. A calculator has been chosen because it is already open and, under the supplied conditions, using it protects other intermediate values the person is holding. The person enters 347 × 6, inspects that expression, obtains 2082 and reports the total for the six lots. The device computes; the person binds, inspects and applies the result.
 
@@ -11436,7 +11475,10 @@ If the input is mistyped as 374 × 6, the functioning calculator returns 2244. T
 
 For a search return, determine whether it is an actual computation, a recoverable cited claim or generated text before using it. A matching snippet and two interfaces to the same backend do not supply two independent checks. Stop when the required answer is used; later unaided ability is a separate development result.
 
-#### A generated service call has an uncertain effect
+<a id="a-generated-service-call-has-an-uncertain-effect"></a>
+
+#### SYSE.42:5.2 - A generated service call has an uncertain effect
+
 
 A test service exposes a fictional operation `set_interval(target, seconds, expected_revision, attempt)` and a query for an attempt's outcome. The engineer is permitted to change meter-2's sampling interval to 10 seconds. Its current revision is 81.
 
@@ -11554,13 +11596,19 @@ SYSE.46 qualifies stronger reliance, including delayed and shifted use when rele
 
 ### SYSE.43:5 - Archetypal Grounding
 
-#### Restore the relation between a carry and its column
+<a id="restore-the-relation-between-a-carry-and-its-column"></a>
+
+#### SYSE.43:5.1 - Restore the relation between a carry and its column
+
 
 A person is interrupted after calculating 7 × 6 = 42 in 347 × 6. The retained worksheet should record the units result 2 and a carry of 4 into the tens column, with the original expression. A copied note preserves “2, 4” but drops their positions. That is a recording loss. Recover the original sheet when available, restore 2 under units and 4 above tens, then continue 4 × 6 + 4 = 28 and 3 × 6 + 2 = 20 to report 2082. If the original is unavailable, recompute the bounded units operation; do not guess what the two digits meant.
 
 If the complete sheet was retained but the current view cropped away its carry row, repair the view through SYSE.52. If the correct sheet is supplied and the person still skips adding the carry, the receiving operation needs attention; recopying the sheet does not supply that performance. Stop with a usable record and resumed calculation. Later unaided retention is a separate HCD question.
 
-#### Reorganize still-valid timeout episodes
+<a id="reorganize-still-valid-timeout-episodes"></a>
+
+#### SYSE.43:5.2 - Reorganize still-valid timeout episodes
+
 
 An agent's small exact store contains three episodes under a common “timeout” keyword. In E1 the interface establishes rejection before acceptance. In E2 the request was accepted, its reply was lost, and querying the original attempt later confirmed an effect. In E3 acceptance is known but the supported query still leaves the effect unknown. The original traces remain valid.
 
@@ -11570,7 +11618,10 @@ The current interrupted attempt A19 was accepted. Retrieval by that known status
 
 For three episodes, a two-entry conditional index can suffice. A larger corpus with differently worded recovery questions may justify candidate links and revised note descriptions, tested against the same queries and contrary episodes. Compare total maintenance and retrieval effort before adopting it. This changes the organization of valid experience, unlike correction of a false current-state summary below.
 
-#### Preserve an earlier observation without treating it as current
+<a id="preserve-an-earlier-observation-without-treating-it-as-current"></a>
+
+#### SYSE.43:5.3 - Preserve an earlier observation without treating it as current
+
 
 An agent resumes a test-service change after interruption. Its memory contains “meter-2 used interval 10 seconds at revision 82” and a trace link. A later authoritative observation says revision 83 uses 2 seconds.
 
@@ -11685,7 +11736,10 @@ Stop when the whole result suffices or the remaining work cannot supply a worthw
 
 ### SYSE.44:5 - Archetypal Grounding
 
-#### Compare divisions for the same service-update proposal
+<a id="compare-divisions-for-the-same-service-update-proposal"></a>
+
+#### SYSE.44:5.1 - Compare divisions for the same service-update proposal
+
 
 The receiving result is a bounded service-update proposal with an applicable interruption/recovery contract and a capacity/backlog calculation. Target, source edition, demand interval, interruption duration, worker effects and allowed backlog must agree. The following are constructed comparison conditions, not measured agent timings.
 
@@ -11699,7 +11753,10 @@ Now supply a short authoritative contract excerpt and a calculation that the sam
 
 During a divided attempt, a new contract edition doubles the interruption duration. Reopen the dependent trajectory and the proposal that consumed it. An unrelated description of the monitoring interface remains usable. If both contexts copied an incorrect capacity from one summary, their agreement adds no independent evidence: obtain the actual capacity basis and retain the calculations as conditional if it is unavailable.
 
-#### People supply the same joined contributions
+<a id="people-supply-the-same-joined-contributions"></a>
+
+#### SYSE.44:5.2 - People supply the same joined contributions
+
 
 A contract engineer and a capacity analyst can enact this division with source access, a written brief and an explicit receiving decision. The engineer returns the applicable duration and recovery condition; the analyst calculates from that version; the integrator checks their shared assumptions and uses the proposal. If both copy the same erroneous capacity sheet, different professional roles do not repair the source. A changed duration reopens the dependent calculation just as in the technical case.
 
@@ -11817,7 +11874,10 @@ Retain, revise or reject the candidate according to the comparison. Return bad f
 
 ### SYSE.45:5 - Archetypal Grounding
 
-#### A converter, a learned interpretation and two failed withdrawals
+<a id="a-converter-a-learned-interpretation-and-two-failed-withdrawals"></a>
+
+#### SYSE.45:5.1 - A converter, a learned interpretation and two failed withdrawals
+
 
 A service accepts an interval in seconds. Target identity, revision and actual effect must be obtained through the current interface. For already structured input `duration_ms=12000`, a deterministic conversion returns `seconds=12`. Under the supplied conditions that small controller is adequate and cheaper to construct and qualify than an adapter. Stable recurrence alone supplies no reason to replace it.
 
@@ -11834,7 +11894,10 @@ Two held-out failures discriminate what was lost when guidance was reduced. Insp
 
 Guidance reduction therefore tests a particular stable contribution, not all support. Untouched cases also include ambiguity, unsupported units and restraint after a lost reply. A delayed comparison must record intervening adapter, provider, controller and memory changes before attributing retained benefit.
 
-#### Construct a corrected continuation from a recorded history
+<a id="construct-a-corrected-continuation-from-a-recorded-history"></a>
+
+#### SYSE.45:5.2 - Construct a corrected continuation from a recorded history
+
 
 A recorded history H contains the permitted outcome-lookup operation, the original attempt A17, an acknowledgement followed by a lost reply, and the at-most-one-effect requirement. The recorded next action was an unsafe repeat of the mutation. An experience-informed teacher, using that failure and other qualified episodes, proposes `lookup_outcome(attempt=A17)`.
 
@@ -11967,7 +12030,10 @@ Return invocation/effect failure to SYSE.42, memory failure to SYSE.43, division
 
 ### SYSE.46:5 - Archetypal Grounding
 
-#### Separate support benefit from the choice to obtain it
+<a id="separate-support-benefit-from-the-choice-to-obtain-it"></a>
+
+#### SYSE.46:5.1 - Separate support benefit from the choice to obtain it
+
 
 In a constructed service-update diagnostic, the optional contribution is documentation lookup; execution, current-state checks and permission remain common. E supplies an applicable procedure premise, R leaves a decisive procedure fact only in the reachable source, and T supplies a sufficient premise while offering an irrelevant source.
 
@@ -11981,13 +12047,19 @@ The stipulated R trace locates missed assistance selection, because the usable c
 
 After the selected rule repair, unused matched cases must show E using its supplied premise, R obtaining and using the needed source, and T declining irrelevant acquisition, while keeping the actual-state and at-most-one-effect checks. Fewer calls with a guessed R answer fails. The [Reference](ENGINEERING-DPF-SUITE-REFERENCE.md#agent-development-across-attempts) works the whole repair comparison. This table defines an illustrative diagnostic, not observed effectiveness.
 
-#### A person's arithmetic and order information
+<a id="a-persons-arithmetic-and-order-information"></a>
+
+#### SYSE.46:5.2 - A person's arithmetic and order information
+
 
 A person reports the total for six lots. Keep ordinary arithmetic means available while varying optional access to the relevant order document. One card already supplies 347 per lot; another matched task omits the current lot size; a third supplies the needed facts but offers an unrelated order. Supplied-support trials identify which order lookup to perform; the person must still recover the right quantity, calculate and report. In the missing-fact case, no-support work should return the gap, while a useful lookup can supply the fact needed to obtain 2082. In the sufficient case, extra lookup needs a benefit that repays its burden.
 
 Use different matched orders and values, with order/allocation chosen for the claim, so the first exposure does not give away a later answer. Record errors, unnecessary or missed lookup, result use and relevant burden separately. If the person learns during the comparison or becomes fatigued, bound the attribution accordingly. Correct supported arithmetic does not establish later unaided learning; that separate question uses HCD's tests.
 
-#### Test the reliance that extends beyond the immediate repair
+<a id="test-the-reliance-that-extends-beyond-the-immediate-repair"></a>
+
+#### SYSE.46:5.3 - Test the reliance that extends beyond the immediate repair
+
 
 Consider a constructed record for an agent that kept retrieving an already usable procedure. A controller repair records and consumes the returned premise. The model, tool contracts, persistent memory policy and task criterion stay fixed.
 
@@ -12122,7 +12194,10 @@ Retain the smallest procedure supported by the comparison. Return a false suffic
 
 ### SYSE.47:5 - Archetypal Grounding
 
-#### Connect supplied arithmetic, recording and checking
+<a id="connect-supplied-arithmetic-recording-and-checking"></a>
+
+#### SYSE.47:5.1 - Connect supplied arithmetic, recording and checking
+
 
 A person repeatedly loses carries when resuming short multiplications for a stock report. The target includes the exact product and a recoverable intermediate record. Arithmetic operations and an adequate column worksheet are already supplied; the missing construction is a sequence that preserves and uses their returns. Ordinary uninterrupted mental work remains the simpler way when those conditions do not call for the new procedure.
 
@@ -12132,7 +12207,10 @@ Add the actual recovery: if a carry's position is lost, retrieve the intact reco
 
 Exercise the written procedure through an interruption and a deliberately misplaced carry. Compare recovery and total burden with the incumbent. A recurring assistance-choice defect can consume a rule from SYSE.50; a choice about further checking can consume SYSE.51 while preserving time to report. Those constructors are unnecessary when the short supplied rules already suffice. The result is a usable sequence with bounded performance evidence, not an assertion of acquired unaided skill.
 
-#### Repair a fixed-model controller that ignores a usable return
+<a id="repair-a-fixed-model-controller-that-ignores-a-usable-return"></a>
+
+#### SYSE.47:5.2 - Repair a fixed-model controller that ignores a usable return
+
 
 One engineering agent repeatedly retrieves an applicable maintenance procedure until its budget expires. The trace shows that the controller never records the returned rule as supplying the outstanding premise. The engineer can change the external controller, but cannot train the model.
 
@@ -12251,7 +12329,10 @@ Withdraw an affected callable edition when its assumptions are defeated. Retain 
 
 ### SYSE.48:5 - Archetypal Grounding
 
-#### Construct a column-and-carry worksheet
+<a id="construct-a-column-and-carry-worksheet"></a>
+
+#### SYSE.48:5.1 - Construct a column-and-carry worksheet
+
 
 Repeated interrupted arithmetic loses the relation between carry digits and their receiving columns. The supplied operation is three-digit non-negative integer multiplication by one digit, with its ordinary correctness criterion. The engineer compares intact and failed attempts and recovers the needed aid: a fixed place-value layout with explicit positions for the input, multiplier, carry into the next column and result. The digits vary; 347, 6 and the particular carries are example values, not constants printed into the reusable operation.
 
@@ -12261,7 +12342,10 @@ Try a new input, 268 × 4. Units 8 × 4 = 32 gives 2 with carry 3; tens 6 × 4 +
 
 Compare preparation, use and maintenance with ordinary paper or direct calculation. Retain an already adequate sheet when a new template adds no value. A reusable worksheet can enter an existing procedure, and SYSE.47 can build a procedure from an already adequate worksheet. The resulting aid and its tested use are different from a person's acquired unaided ability.
 
-#### Parameterize a technical calculation
+<a id="parameterize-a-technical-calculation"></a>
+
+#### SYSE.48:5.2 - Parameterize a technical calculation
+
 
 An engineering agent repeatedly asks a specialist to normalize measurements and perform a calculation. One successful trace contains a customer's value and an implicit unit convention. The engineer and specialist recover the stable operation: validate units and applicability, normalize using the supplied conversion, calculate under the selected equation, and return the quantity with its conditions.
 
@@ -12273,7 +12357,10 @@ The next agent finds the function through its applicability entry, invokes it an
 
 This is a construction and qualification plan, not measured evidence that the library saves effort. If selection and maintenance cost exceed the repeated benefit, retain direct work.
 
-#### Recover an outcome lookup from interruption traces
+<a id="recover-an-outcome-lookup-from-interruption-traces"></a>
+
+#### SYSE.48:5.3 - Recover an outcome lookup from interruption traces
+
 
 Accepted-but-unresolved traces identify another candidate operation: take the original attempt identity, call its supported outcome query, and return the observed known, unknown or failed status. The engineer recovers and parameterizes that operation; ME.21 is unnecessary unless already recovered contributions need allocation. Keep the actual interface as the status source and retain its failure meaning.
 
@@ -12388,7 +12475,10 @@ Return misleading feedback to its construction, provision/reset faults to SYSE.3
 
 ### SYSE.49:5 - Archetypal Grounding
 
-#### Make a missed carry observable in human practice
+<a id="make-a-missed-carry-observable-in-human-practice"></a>
+
+#### SYSE.49:5.1 - Make a missed carry observable in human practice
+
 
 The receiving engineering question is whether a proposed worksheet and sequence make carry recording and use recoverable. HCD.6 supplies a practice design for a person already able to perform the digit products: produce a correct stock total with intermediate working, first with an allowed demonstration, then correct the affected action. The arithmetic criteria are supplied. The engineer prepares the worksheet, task cards, independent answer basis and an available observer who can give the designed feedback.
 
@@ -12398,7 +12488,10 @@ If the person records 2 but writes tens 6, feedback preserves the correct units/
 
 Challenge the feedback itself: an answer key that approves 361 despite the visible unused carry fails the supplied arithmetic criterion. A sheet whose carry row is misplaced returns to SYSE.48/.52; a missed use despite a correct supplied layout returns to the procedure or the human learning diagnosis. The qualified material and observations can inform that repair. They do not establish that learning occurred; HCD.11–13 supplies the corresponding performance, transfer and retention questions.
 
-#### Distinguish an absent effect from an absent reply
+<a id="distinguish-an-absent-effect-from-an-absent-reply"></a>
+
+#### SYSE.49:5.2 - Distinguish an absent effect from an absent reply
+
 
 An agent sometimes repeats a configuration change after a lost reply. Reproducing the failure on the real service is costly. The interface owner supplies four predicates: the requested target reaches the requested version; one attempt has at most one state-changing effect; an acknowledgement without the effect is not completion; unresolved effect does not authorize blind replay.
 
@@ -12513,7 +12606,10 @@ Inspect the actual next input and transition when a supported premise is request
 
 ### SYSE.50:5 - Archetypal Grounding
 
-#### Build a useful human assistance rule
+<a id="build-a-useful-human-assistance-rule"></a>
+
+#### SYSE.50:5.1 - Build a useful human assistance rule
+
 
 A person regularly totals stock lots. Prior comparable work supports mental decomposition of 347 × 6, but some occasions require keeping other intermediate values or retaining written working. The constructor compares complete mental, paper and calculator ways: entry, setup, arithmetic, checking and reporting all count. In the constructed evidence, a ready calculator frees working attention when those other values must be held; the mental way is adequate and cheaper when no such benefit or written record is needed.
 
@@ -12523,7 +12619,10 @@ Test the rule on fresh comparable tasks, including an already sufficient case, a
 
 If the target instead is learning to use a carry, HCD's practice design can select a hint that lets the person perform the addition. Giving 2082 can finish the numeric task while removing that practice contribution. The rule and its evidence must follow the declared target; supported success alone supplies no unaided-learning conclusion.
 
-#### Build a technical rule with accessible signals
+<a id="build-a-technical-rule-with-accessible-signals"></a>
+
+#### SYSE.50:5.2 - Build a technical rule with accessible signals
+
 
 An agent must update a service once and report its observed state. It keeps requesting an already applicable maintenance rule. The engineer first verifies that the next input contains the rule, its edition and target applicability, and that the controller would execute a proposal to proceed. This isolates the assistance decision from lost context and ignored returns.
 
