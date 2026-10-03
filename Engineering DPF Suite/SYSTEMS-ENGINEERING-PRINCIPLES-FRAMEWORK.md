@@ -7757,17 +7757,14 @@ challenge, five short entries make its contribution recoverable:
 5. **Affected earlier answer:** the project-focus, concept, architecture, realization, or specialist answer that
    the practitioner must reassess if the result does not support present reliance.
 
-This five-line form is a learning and presentation unfolding, not a WorkPlan or a claim about the order of
-performed Work. It is enough for the engineering-assurance plan. When a future challenge has been selected, use
-`A.15.2` for a separate WorkPlan: its present EntityOfConcern, effective reference scheme, horizon, and the
-smallest PlanItem that coordinates the intended Method, performer or local role condition, window, capability,
-resource, dependency, and result target. The engineering-assurance plan references that WorkPlan; the five
-lines do not constitute it. Expand the assurance plan only when the decision question depends on several evidence
-kinds, configurations, conditions, scales, or uncertainty sources. When evidence already exists, add the dated
-Work, direct result, descriptive `A.10` evidence/provenance path, current validity limit, changed reliance, and
-affected earlier answer to obtain the engineering-assurance account. Reuse an existing account where it already
-supplies this content; update it where the evidence use or reliance changes. If no new challenge is selected,
-the supported answer and its limits can complete the work without a new plan or a record of waived checks.
+The five entries describe the engineering-assurance plan; their order explains the proposal rather than
+prescribing Work order. Coordinate a selected future challenge in a separate `A.15.2` WorkPlan; the assurance
+plan cites it. Section 4.3 and the pump example give the precise plan identity and coordination content.
+
+When results already exist, reuse or update the engineering-assurance account: state the result, why it bears
+on the claim, its limits and the affected earlier answer (§§4.4–4.5). A supported answer or justified stop can
+complete the current question without a new plan. Expand the account when several evidence lines or conditions
+must be considered together (§4.6).
 
 If this move is missed, checks are often chosen after an architecture or implementation is already treated as
 settled. A passed component test can then stand in for System behaviour and outside benefit; a model confidence
@@ -7783,8 +7780,9 @@ terminal stage or a fixed test programme.
 Use this pattern when the project must choose or interpret a challenge for an engineering decision. Use `A.10`
 when the remaining question is only provenance for an already named bounded evidence use, `C.16` for measurement
 validity, `C.32.ACE` for an architecture-characteristic eval programme, `A.1.1` for model applicability or use
-under stated conditions, and `C.28` for a causal-use claim. Use `B.3` only when an assurance claim or material
-reliance threshold is current. Neighboring specialist questions—for example, safety, security, ethics, legal compliance, finance,
+under stated conditions, and `C.28` for a causal-use claim. Use `B.3` when an actual named assurance claim is
+current, including one required by a direct domain rule. Consequence alone does not create that claim.
+Neighboring specialist questions—for example, safety, security, ethics, legal compliance, finance,
 certification, acceptance, permission, or release—retain their own criteria, Methods, Work, and decisions.
 
 At the first consequential use of an assurance cue such as *verification*, *validation*, *test*,
@@ -7850,19 +7848,20 @@ and evidence.
 Before selecting or planning new challenge Work, check whether current engineering result epistemes already
 contain or cite evidence and relations the practitioner can use:
 
-- a compatible `SYSE.10` engineering claim assessment may contain evidence-use relations for the same
-  claim, decision, subject, configuration, use, conditions, interval, and evidence window;
-- a compatible `SYSE.11` bounded usable-increment result may contain integration and observed-use evidence for the
-  same actual System, configuration, use, conditions, interval, and evidence window; and
-- a compatible `SYSE.14` change-and-release decision may cite evidence, configuration and effectivity
-  basis, and unresolved conditions for the same release question, configuration, effectivity, interval, and
-  evidence window.
+- a `SYSE.10` engineering claim assessment may supply evidence-use relations;
+- a `SYSE.11` bounded usable-increment result may supply integration and observed-use evidence;
+- a `SYSE.14` change-and-release decision may cite evidence, a configuration/effectivity basis and unresolved
+  conditions.
 
-Use only the compatible claims and cited evidence, not a neighbouring decision or authority. If the needed
-evidence already exists, recover the direct result and its descriptive `A.10` evidence/provenance path, then reuse
-or update the engineering-assurance account without creating another WorkPlan. Without a compatible current
-result, use a qualified direct source. If that still leaves a gap, state how it limits the present answer.
-Availability or a familiar result name establishes no evidence use.
+For each, match the claim and decision question, actual subject, configuration, intended use, conditions,
+effectivity, interval and evidence window needed here. Explain any difference that still permits the intended
+evidence use; otherwise keep that part inapplicable. Establish any changed evidence-use relation through its
+direct pattern (§4.4) before relying on it. Reuse the compatible claims and cited evidence while keeping the
+neighbouring decision and authority separate.
+
+If the evidence already exists, recover its direct result and descriptive `A.10` evidence/provenance path, then
+reuse or update the account without another WorkPlan. If these neighbouring results supply no compatible basis,
+use a qualified direct source or state the gap limiting the present answer.
 
 For a remaining evidence gap, ask: **what attainable result could change reliance or make a needed use
 admissible?** Use `C.11.DUA` to compare obtaining it with proceeding on the present basis, narrowing the claim,
@@ -7939,6 +7938,31 @@ A planned challenge is not evidence. A performed test is not its result. A resul
 claim only through the named use and its conditions. Provenance, repetition, automation, or a familiar tool does
 not widen that use.
 
+**Explain the inference before changing reliance.** Start with what the result directly establishes, then state
+why that result bears on the claim needed by the decision. For example: "The measured flow supports this pump's
+flow claim at the tested head and configuration because the measurement covers that criterion within its stated
+uncertainty." If that is the exact claim and the direct Method settles it, this brief reason is enough. Reuse a
+sufficient specialist argument and its limits; a second argument diagram or new test adds nothing by itself.
+
+When the intended claim goes further, expose the engineering step that carries the extension. Identify the
+consequential premises: for example, a model applies to the actual load and support arrangement; tested cases
+cover the operating range; a component result also holds under the system's interactions; or an observed change
+can be attributed to the proposed intervention. State which premise is established, which remains an assumption,
+and why the assumption is acceptable for this use. An assumption cannot replace evidence required by an applicable
+rule. Return a causal step to `C.28` and a model-applicability step to `A.1.1`; citing their names does not supply
+their results.
+
+Try to defeat the consequential step. Could the same observation occur while the intended claim fails? Look for
+a credible alternative explanation, omitted operating condition, common source of error, or interaction that
+would change the conclusion. Address the actual challenge with available results or specialist reasoning. If it
+remains unresolved, narrow the claim to the supported conditions or retain the uncertainty; use §4.2 to decide
+whether resolving it warrants further inquiry. A flaw in the argument removes that support, but establishes the
+claim's negation only when the counter-evidence and reasoning actually support that stronger conclusion.
+
+Keep only assumptions and challenges that can change this use. The purpose is to make the engineer's reason
+inspectable, not to fill every possible branch of an assurance case. Section 5.3 demonstrates this construction
+when an analysis and observations must jointly support a claim about a staged change.
+
 #### SYSE.4:4.5 - Update the engineering-assurance account
 
 After evidence is available, reuse a sufficient engineering-assurance account. Otherwise update or write the
@@ -7948,18 +7972,30 @@ account so that the practitioner can recover:
 2. the actual challenge Work and its direct result;
 3. the descriptive `A.10` evidence/provenance path and currentness basis;
 4. the result's configuration, condition, scale, uncertainty, and applicability limits;
-5. the practical change in reliance for this decision; and
-6. the smaller earlier answer, specialist question, or next challenge affected by that change.
+5. the reason it supports, contradicts, or leaves unresolved the target claim, including the consequential
+   assumptions, coverage and disposition of criticism developed in §4.4;
+6. the practical change in reliance for this decision; and
+7. the smaller earlier answer, specialist question, or next challenge affected by that change.
 
 The account remains a C.2.1 episteme about the named target claim. Its ClaimGraph adds claims about performed
-Work, direct results, evidence use, changed reliance, and the affected earlier answer. Those named participants do
+Work, direct results, evidence use and its reasoning, changed reliance, and the affected earlier answer. Those named participants do
 not become a composite EntityOfConcern.
 
 State the reliance change in ordinary language, using a conclusion that fits the case: for example, the claim
 remains usable for the decision within the stated limits; the practitioner must narrow reliance; the practitioner
-must replace or withdraw the claim for this use; or available evidence leaves the question unresolved. When the current question is an assurance claim or material reliance threshold, use `B.3` for the
-named assurance-result claim or no-assurance disposition. The engineering-assurance account cites that result;
-it does not replace it.
+must replace or withdraw the claim for this use; or available evidence leaves the question unresolved.
+
+When the current question makes an actual assurance claim—for example, that the stated argument adequately
+supports an exact safety claim for a named release use—state that claim and use `B.3` for the bounded
+assurance result or unsupported-assurance disposition. A direct domain rule may require this claim; retain that
+requirement. The engineering-assurance account cites the result. A consequential engineering result with no
+separate assurance claim stays with its direct domain, evidence and decision rules; it needs no B.3 result merely
+because the decision matters. The name *engineering-assurance account* does not itself assert such a claim.
+
+If the receiving assurance use needs a structured specialist case, retain that case's construction and
+scrutiny. Reuse an adequate existing case, including its unresolved criticism, and cite the result it supports
+for this use. The compact account is a way to connect that result to the engineering decision; shortening the
+account must not discard the argument on which reliance depends.
 
 When the result is unresolved, identify the missing input that limits this answer—for example, a configuration,
 comparator, observation window, calibration, causal link, specialist criterion, or independent challenge. Return
@@ -7969,9 +8005,20 @@ complete the current question. Missing information establishes neither the targe
 #### SYSE.4:4.6 - Combine evidence only for the decision question
 
 Some decisions depend on several evidence lines—for example, model predictions, physical tests, integration
-results, operating observations, and specialist arguments. Keep each direct result and evidence use visible. Combine them
-only through the composition or assurance rule needed by the decision question, including congruence and scope
-limits when `B.3` is current.
+results, operating observations, and specialist arguments. Start from what must hold together for the intended
+claim. Map each necessary premise or operating case to the result that supports it and explain why those premises
+are sufficient. A test of one component does not cover its interactions, and a list of tested cases needs a reason
+that the untested cases do not change the answer.
+
+Distinguish results that support different necessary premises from alternative arguments for the same claim.
+Two reports derived from the same model or data do not supply independent confirmation. If their conclusions
+conflict, inspect the differing conditions, assumptions and direct results before choosing what remains usable;
+counting favourable reports cannot settle the conflict.
+
+Keep each direct result and evidence use visible. Use the applicable domain composition rule for their
+combination. When the current question is an assurance claim, `B.3` also requires the relevant dependency, scope
+and congruence conditions. If a necessary premise or applicable combination rule is missing, keep the supported
+parts and the unresolved whole separate. Do not create a confidence score to hide the gap.
 
 Representations and automation—for example, digital twins, evidence dashboards, traceability graphs, assurance
 cases, test-report collections, or continuous pipelines—can help maintain these relations. Name the contribution
@@ -8032,7 +8079,8 @@ assignment, capability fit, resource availability, performed Work, results, and 
 
 The direct result of later component-test Work is `PumpHydraulicTestResult-12`: the pump meets its declared flow
 criterion. That result can support the pump capability claim within its test envelope. It does not support the
-whole station-use claim by itself.
+whole station-use claim by itself. Even when that component result matters to an expensive architecture choice,
+its direct bounded use creates no separate B.3 assurance question.
 
 The direct result of later station-operating and observation Work is `DownstreamLevelMeasurementResult-9`.
 `C.16` identifies the measurement result and uncertainty for the stated locations and window; the result shows
@@ -8042,6 +8090,12 @@ narrowed reliance for this configuration in the engineering-assurance account an
 and discharge architecture on that basis. The observation does not by itself prove a complete causal account or make the specialist
 harm, acceptance, permission, or release decision. Use `C.28` or the specialist pattern if one of those stronger
 claims is needed.
+
+If a release rule separately requires the assurance claim "the argument adequately supports
+`StationFloodUseClaim-4` for this release", apply `B.3` to that exact target and use. The observed guardrail breach
+prevents the present argument from supporting that assurance use; the account cites the resulting disposition
+and the need to revise the affected claim or design. That conclusion supplies neither permission nor a release
+decision. The direct rule determines what may proceed.
 
 <a id="manufacturers-erp-enabled-planning-change-2"></a>
 
@@ -8066,20 +8120,38 @@ organization chart, or vendor label as evidence.
 
 #### SYSE.4:5.3 - Continuing building under occupied retrofit
 
+The engineer must decide whether to retain a proposed staged retrofit arrangement. The load-bearing claim is
+that the continuing building will retain the specified structural performance and occupied-use constraints
+during stages A and B. An existing specialist analysis, installation inspection and displacement-monitoring
+account are available, together with a separate assessment of occupied access and restrictions.
 
-The retrofit decision relies on a configuration-specific claim that the continuing building can retain the
-declared structural performance and occupied-use constraints during one staged change. The challenge combines a
-model or analysis applicable to that configuration with inspection and monitoring results from the
-occupied stage. A result obtained for an empty building or another temporary-support arrangement does not carry
-the same applicability.
+The engineer first recovers their argument. The analysis supports the specified performance for the declared
+occupied-load envelope **with temporary support T in position**. The inspection establishes that T was installed
+for stage A. Monitoring during A records displacement within the stated criterion and uncertainty. The access
+assessment supports occupied passage under stage A's stated route and restrictions. To extend these results to
+both stages, the argument needs T to remain effective throughout both, the loads to stay within the analysed
+envelope, and the analysis to cover the change between stages. The occupied-use assessment must
+also cover the access arrangement for each stage. The analysis, inspection, monitoring and access assessment
+support different premises; none replaces the others. An empty-building analysis cannot silently supply the
+occupied-load result.
 
-The engineering-assurance plan names the claim, `OccupiedRetrofitSequenceQuestion-3`, the intended analysis and
-observation Work, the temporary-support and access configuration, the validity window, and the temporary-access
-branch in `SYSE.3` or architecture choice that the practitioner may need to reassess. If monitoring later
-contradicts the assumed load or access condition, the engineer records that change in the account and reassesses
-the affected branch or choice.
-Building acceptance, a permit, contractor authorization, and release of the next Work window remain separate
-decisions under their own criteria.
+A critic notices that the stage-B access drawing removes T before the replacement support carries load.
+The measured displacement in A cannot distinguish an arrangement that stays adequate in B from one that depends
+on the soon-removed support. This challenges the extension across stages even though every reported result
+remains correct. The engineer checks the drawing against the analysis conditions and retains only the supported
+stage-A conclusion, subject to its load, access and monitoring limits. The argument does not establish stage B; it does
+not establish that stage B must fail.
+
+The smallest return is to the temporary-support/access arrangement in `SYSE.3` and the dependent sequence choice.
+The engineer can use §4.2 to compare retaining T, changing the sequence, obtaining a specialist analysis for the
+transition, or stopping that proposed continuation. A selected future analysis or inspection receives a separate
+`A.15.2` WorkPlan; an already sufficient amended specialist argument can be reused. The account identifies
+`OccupiedRetrofitSequenceQuestion-3`, the applicable results, the failed premise, the narrower conclusion and
+the condition for reopening it. A changed load, support configuration or observation window also reopens use.
+
+This example develops the evidence-to-claim connection; it supplies no structural design rule. Building
+acceptance, a permit, contractor authorization and release of the next Work window remain separate decisions
+under their own criteria.
 
 ### SYSE.4:6 - Biases to Watch
 
@@ -8097,10 +8169,10 @@ smallest answer it can change.
 | `CC-SYSE4-3` | Intended challenge Work SHALL be coordinated through a separate `A.15.2` WorkPlan; the engineering-assurance plan SHALL NOT be treated as that WorkPlan or as performed Work. |
 | `CC-SYSE4-4` | Performed challenge Work and its performer SHALL be identified through the direct Work and assignment patterns, and every measurement, evaluation, model-use, causal, test, or specialist result SHALL satisfy its own pattern. |
 | `CC-SYSE4-5` | An evidence use SHALL name the target claim, result, conditions, provenance, currentness, and bounded use through `A.10`; its descriptive path SHALL represent only independently established relations, and a carrier, result record, or graph edge SHALL NOT establish the use by presence. |
-| `CC-SYSE4-6` | A `B.3` assurance result SHALL be used only when assurance or material reliance is current; the DPF account SHALL NOT substitute for that result. |
+| `CC-SYSE4-6` | `B.3` SHALL be applied when an actual named assurance claim is current, including one required by a direct domain rule. Consequence or material reliance alone SHALL NOT create that claim. The DPF account SHALL NOT substitute for the B.3 result or for direct domain obligations. |
 | `CC-SYSE4-7` | Model, simulation, test, and digital-twin results SHALL retain their applicability, error, uncertainty, extrapolation, configuration, and evidence limits. |
 | `CC-SYSE4-8` | Component behaviour, containing-System performance, outside effect, causality, benefit, harm, acceptance, permission, certification, release, and decision SHALL remain separately recoverable. |
-| `CC-SYSE4-9` | The updated account SHALL state the practical change in reliance and the smallest project-focus, concept, architecture, realization, or specialist answer that the practitioner must reassess. |
+| `CC-SYSE4-9` | The updated account SHALL state the reason for the bounded reliance conclusion, any consequential assumptions or unresolved criticism, and the smallest project-focus, concept, architecture, realization, or specialist answer affected. A direct result or sufficient existing argument may supply that reason without a new graph, test, or assurance case. |
 | `CC-SYSE4-10` | When evidence is missing or inapplicable, the practitioner SHALL state the gap that limits the current answer rather than assert the target claim or its negation. A next challenge is conditional on the inquiry choice in §4.2. |
 | `CC-SYSE4-11` | A conforming use SHALL allow evidence-producing Work at any relevant time and SHALL let its results revise affected engineering answers without establishing a terminal assurance stage or lifecycle order. |
 
@@ -8113,7 +8185,7 @@ smallest answer it can change.
 | Assurance plan as evidence | Planned checks, booked facilities, or named results are treated as if Work and results already exist. | Keep the DPF plan, `A.15.2` WorkPlan, actual Work, result, evidence use, and account separate. |
 | Model confidence as validity | Familiarity, model history, or a confidence score replaces applicability, uncertainty, extrapolation, and physical evidence. | Recover the model-use claim and its limits; obtain another evidence line when the decision requires it. |
 | Digital twin or pipeline as assurance | Automation and traceability are treated as a complete assurance Method. | Name the model, check, observation, result, evidence use, and missing specialist decision maintained by the arrangement. |
-| Evidence pile | Reports, dashboards, tests, and certificates are accumulated without a target claim or decision question. | Retain only the descriptive `A.10` paths needed by the current claim and bounded use; keep other results available without claiming relevance. |
+| Evidence pile | Reports, dashboards, tests, and certificates are accumulated without an argument for the decision's claim. | Explain which result supports which premise and why those premises warrant the claim; retain the needed descriptive `A.10` paths and expose missing coverage or dependence. |
 | Stale configuration reuse | A result from another version, calibration, environment, load, or observation window is reused unchanged. | Recheck applicability and currentness; narrow the use or plan a challenge for the current configuration. |
 | Acceptance or release by test | A technical result is treated as acceptance, permission, certification, gate passage, or release. | Apply the result only to the decision and criteria that can use it; record only the engineering claim it supports here. |
 | Terminal assurance stage | Evidence is collected once at the end and cannot revise project focus, concepts, architecture, or realization. | Use SYSE.4 whenever a claim becomes load-bearing, and reassess only the earlier answer changed by each result. |
@@ -8148,18 +8220,54 @@ Engineering rather than a final checkpoint.
 
 | Current practice line | What changes in this pattern | Source and use | Adoption status |
 | --- | --- | --- | --- |
-| Current model credibility research treats model use as decision-specific and makes error, uncertainty, extrapolation, technical validity, model history, competence, access, and decision risk visible. | A model or simulation challenge names its applicability, uncertainty, extrapolation, configuration, and decision question; confidence does not become validity or physical truth. | Riedmaier et al. (2021), survey of more than 200 sources; Schwarzburg, Trauer, and Rebentisch (2024), literature review, 40-person survey, and an untested confidence-assessment proposal. | **Adopt and bound.** Use decision-specific credibility questions; select the VV&UQ Method and warranted reliability claim for the receiving model use. |
-| Digital-twin engineering uses heterogeneous model transformation, code generation, and interpretation across design, implementation, and operation, mainly in manufacturing and transport. | A digital-twin arrangement can contribute a named model, automation, observation, or evidence-maintenance relation, but is not itself the challenge, physical evidence, or assurance result. | Lehner et al. (2025), mapping study of 66 included publications and 136 reported applications. | **Adapt.** Recover the twinned subject, model use, domain, result, and maturity limit; use the arrangement only for its established contribution. |
-| Continuous integration, CPS, and SRE practice combine automated feedback with simulation, Hardware-in-the-Loop, physical checks, and risk-sensitive review in bounded technology settings. | Challenges may run frequently and produce results used as evidence during realization and operation, while cadence, pipeline structure, risk rule, permission, and release remain local. | Current DORA capability pages; Thurgood's 2018 SRE error-budget example; Zampetti et al. (2022), interviews in ten organizations and a 55-practitioner survey. | **Adapt narrowly.** Use frequent feedback where conditions fit; establish the local automation boundary, cadence, pipeline, and independent-assurance need. |
-| Continuing requirements and compliance research keeps collaboration, traceability, monitoring links, legal interpretation, engineering descriptions, and evidence connected as systems change. | A challenge can cite maintained traceability and monitoring, but the account keeps legal interpretation, engineering claim, evidence use, specialist verdict, and decision separate. | Hernández, Moros, and Nicolás (2023); Norheim et al. (2024); Kosenkov et al. (2025). | **Adapt within scope.** Preserve continuing evidence links; let the receiving legal and engineering practices determine their Methods and Work organization. |
-| BDD and test-intent research shows that software scenarios and executable checks can clarify part of intended behaviour, while industry evidence and automation coverage remain limited. | A scenario-to-check link can become one planned challenge for a software claim, but the check does not establish an outside effect, obligation, acceptance, or complete assurance. | Mohanani et al. (2022); Binamungu and Maro (2023); Lahiri et al. (2022); Fakhoury et al. (2024); Wang et al. (2025). | **Use as a bounded branch.** Retain test-intent clarification for software and qualify transfer of its metrics or result scope for each other engineered System. |
-| Early model-based V&V and system-theoretic assurance research remains heterogeneous and profile-specific. | The common claim–challenge–evidence-use–revision method stays a guide-derived synthesis; specialist frameworks contribute only the named analysis, traceability, or argument result used by the decision. | Cederbladh, Cicchetti, and Suryadevara (2024), systematic review, DOI `10.1145/3631976`; Ahlbrecht, Sprockhoff, and Durak (2024), aircraft-safety proof of concept, DOI `10.1007/s10270-024-01209-6`. | **Keep provisional.** Use each V&V or safety-assurance framework within its supported profile and transfer only its established contribution. |
+| Model-credibility research distinguishes validation, uncertainty and application conditions; practitioner confidence also depends on model history, competence, access and decision risk. | Section 4.4 keeps the model result's applicability and evidence-to-claim reasoning explicit. | The exact Riedmaier et al. (2021) and Schwarzburg, Trauer and Rebentisch (2024) publications are linked in [SYSE.7:11](#syse711---sota-and-source-use). Use Riedmaier §§2.5 and 7 for application/validation and uncertainty limits; Schwarzburg §§5.2–5.3 for the 40-person convenience sample and exploratory confidence model. | **Adopt and bound.** Select VV&UQ for the actual model use. Neither a confidence proposal nor its small survey establishes physical validity. |
+| Digital-twin research reports heterogeneous model transformation, code generation and interpretation across engineering activities. | Section 4.6 treats a twin as a possible supplier of a model, observation or maintained relation, with an independently established contribution. | Lehner et al., *Model-driven engineering for digital twins: a systematic mapping study* (2025), linked in [SYSE.7:11](#syse711---sota-and-source-use), abstract and §§4.2, 7: 66 publications, 136 reported automation applications and uneven industrial maturity. | **Adapt.** Retain the application and subject boundary; manufacturing and transport dominate this corpus. |
+| Software delivery guidance and CPS studies combine frequent feedback with technology-specific checks and review. | Sections 4.2 and 4.4 permit repeated challenges while retaining their claim, performer, validity and authorization conditions. | [SYSE.11:11](#syse1111---sota-and-source-use) supplies the exact DORA, Thurgood and Zampetti references. Use DORA *Continuous integration*, “How to implement CI”, and *Streamlining change approval*, “How to implement a change approval process”, for practice guidance; Zampetti et al., abstract and the survey's reported simulator/Hardware-in-the-Loop barriers, for the bounded CPS study; Thurgood's *Example Error Budget Policy* (2018), “SLO Miss Policy” and “Escalation Policy”, for an illustrative service policy. | **Adapt narrowly.** Frequent feedback can be useful; select cadence, automation and independence for the actual engineering use. The SRE example's numerical thresholds and authority structure are local policy, not cross-domain law. |
+| Requirements and compliance studies expose continuing traceability, collaboration and specialist-interpretation needs. | Sections 4.4–4.6 keep maintained descriptions, direct evidence, legal interpretation and verdicts distinct. | The three separate publications are linked in [SYSE.11:11](#syse1111---sota-and-source-use): Hernández, Moros and Nicolás (2023), abstract's DevOps collaboration/traceability findings; Norheim et al. (2024), §§3–5 on LLM requirements tasks, challenges and limits; Kosenkov et al. (2025), abstract's regulatory-compliance mapping and limited joint legal/engineering participation. | **Adapt within scope.** These research findings support checking the contribution of maintained links. They establish no general legal interpretation, requirements Method or autonomous assurance capability. |
+| BDD connects selected software scenarios with executable checks; fixed specification forms can also inhibit criticism. | Sections 4.2 and 4.4 use a scenario as a possible challenge and require a reason for the inference instead of accepting a completed form. | Binamungu and Maro, [*Behaviour driven development: A systematic mapping study*](https://doi.org/10.1016/j.jss.2023.111749) (2023), abstract's scenario, industrial-evidence and metrics findings. Mohanani et al., [*How Templated Requirements Specifications Inhibit Creativity in Software Engineering*](https://doi.org/10.1109/TSE.2021.3112503) (2022; [author manuscript](https://zenodo.org/records/5192379)), §§5–6: observed fixation in a 42-designer protocol study. | **Adapt the scenario contribution; retain the failure evidence.** Neither study makes template conformity proof of the engineering claim. The fixation result does not show that requirements analysis is useless. |
+| Interactive test-driven code generation can clarify part of software intent, provided the person can judge the proposed tests. | Sections 4.2 and 4.4 require an attainable discriminating challenge and keep its result within the tested claim. | Lahiri et al., [*Interactive Code Generation via Test-Driven User-Intent Formalization*](https://arxiv.org/abs/2208.05950v1) (2022), abstract's explicitly simulated-user MBPP evaluation; Fakhoury et al., [*LLM-Based Test-Driven Interactive Code Generation: User Study and Empirical Evaluation*](https://doi.org/10.1109/TSE.2024.3428972) (2024; [public text](https://arxiv.org/html/2404.10100v2)), §§IV, V–VII and IX. The latter separates a 15-programmer study from benchmark evaluation with idealized feedback. | **Use as a bounded branch.** Test-based clarification is a partial specification. Its reported code metrics establish neither general intent coverage nor outside benefit; larger tasks and reliable human test judgement remain material limits. |
+| Requirements-driven test-generation research finds incomplete automation and dependence on input quality. | Sections 4.4 and 4.6 keep tested cases and their coverage argument visible. | Wang et al., [*Requirements-Driven Automated Software Testing: A Systematic Review*](https://doi.org/10.1145/3767739) (2025; [accepted preprint v3](https://arxiv.org/abs/2502.18694v3)), abstract's synthesis of 156 studies and automation/input-quality gaps. | **Adopt the limitation.** A generated test set needs a claim-specific coverage argument; it supplies no complete engineering assurance by itself. |
+| Early model-based V&V and system-theoretic assurance offer specialized analysis and integration arrangements. | Sections 4.4–4.6 reuse the named analysis or argument without importing its entire lifecycle or safety Method. | Cederbladh, Cicchetti and Suryadevara, [*Early Validation and Verification of System Behaviour in Model-based Systems Engineering: A Systematic Literature Review*](https://doi.org/10.1145/3631976) (2024), abstract's review of 149 papers and industrial/academic scope. Ahlbrecht, Sprockhoff and Durak, [*A system-theoretic assurance framework for safety-driven systems engineering*](https://doi.org/10.1007/s10270-024-01209-6) (2024; [public text](https://elib.dlr.de/208415/1/s10270-024-01209-6.pdf)), §§4.2 and 5, proposed integration and aircraft proof of concept. | **Keep transfer provisional.** A specialized proposal or demonstration supplies only its established contribution; it does not select the common Method for every engineering use. |
 
-These sources support particular challenge, model-use, automation, traceability, and specialist-assurance
-branches. The common claim–challenge–evidence-use–revision Method remains a cross-source synthesis. Reopen it
-when later cross-domain comparison changes evidence composition, operating-feedback use,
-assurance-case applicability, or the boundary with specialist safety, security, ethics, legal, certification,
-acceptance, permission, or release decisions.
+These sources support particular challenge, model-use, automation, traceability and specialist-assurance
+branches. Selecting their combination requires a separate comparison of the common engineering move.
+
+#### SYSE.4:11.1 - Choosing a proportionate argument for an engineering decision
+
+The practice question is: **what do the available results justify for this decision, and which unresolved
+premise is worth investigating or requires a specialist assurance result?** This pattern selects an explicit
+engineering inference with sufficient-result reuse, conditional further inquiry and a local return to the
+affected answer. A developed assurance-case Method is the serious alternative when the receiving use needs
+that fuller argument.
+
+Bloomfield, Netkachova and Rushby's [*Defeaters and Eliminative Argumentation in Assurance 2.0*](https://arxiv.org/html/2405.15800v1)
+(2024), §§2.1–2.2, 5–6, distinguishes direct evidence from the useful claim inferred from it, scrutinizes the
+intervening justification and tracks challenges without treating every defeated argument as proof of the
+target's falsity. Its light-installation case exposes missing coverage of continued operation; §5 explicitly
+simplifies the elaborate illustrative argument for normal practice. The later
+[*Quantifying Confidence in Assurance 2.0 Arguments*](https://arxiv.org/html/2604.00034), §1, retains logical and
+dialectical assessment while revising probabilistic treatment. Numerical confidence is a separate contribution,
+not the basis for the choice made here.
+
+Compare both Methods on the occupied-retrofit question in §5.3, using the same analysis, inspection, monitoring,
+access assessment and stage-B drawing:
+
+| Receiving question | Assurance 2.0 contribution | Choice in this pattern |
+| --- | --- | --- |
+| Do correct stage-A results carry the claim across stage B? | A coverage premise and a challenge to it expose the unsupported extension. | Sections 4.4–4.6 require that same reasoning. Both can retain A and leave B unsupported. |
+| What should the engineer do with the unsupported extension now? | A usable existing case can supply the affected claim, argument and criticism. | Reuse it and apply §4.2 to the actual choice among redesign, attainable inquiry, a narrower supported continuation or stop; §4.7 returns to the support/access arrangement. A new representation is unnecessary. |
+| Does a release use require an assurance conclusion about the argument? | A structured case provides fuller argument scrutiny and can support explicit dependency checking. | Section 4.5 retains the named B.3 question and the specialist case it consumes. The compact engineering account cites that result and cannot substitute for it. |
+
+**Adopt** the explicit inference and consequential criticism; **adapt** their extent to the receiving engineering
+question. The practical gain is a supported next engineering answer even when a larger assurance question remains
+open. The trade-off is that the compact account does not provide the fuller case's systematic representation and
+checking. When these are needed, §4.5 selects the fuller contribution; when an adequate case already exists,
+rewriting it would add work without a new answer. This is a conditional Method choice, not a measured claim of
+less total effort. Include any later assurance construction, maintenance and specialist work in that total.
+
+Reopen the choice when interacting claims, required assurance, disputed coverage, an unresolved credible
+challenge or comparative use evidence makes the compact account insufficient or another Method more useful.
+
 
 ### SYSE.4:12 - Relations
 
@@ -8167,20 +8275,17 @@ acceptance, permission, or release decisions.
   `SYSE.2`, `C.30`, `C.32`, `C.32.PAD`, `SYSE.3`, or a specialist practice. The engineering-assurance account
   states changed reliance and the smallest affected answer; the practitioner decides whether to revise that
   answer.
-- A compatible `SYSE.10` engineering claim assessment may contain evidence-use relations only for the
-  same load-bearing claim, decision question, subject, configuration, use, conditions, interval, and evidence
-  window. The practitioner uses `SYSE.4` to select any further challenge, qualify the evidence use, and record an
+- A `SYSE.10` engineering claim assessment may supply the compatible evidence-use relations identified under
+  §4.2. The practitioner uses `SYSE.4` to select any further challenge, qualify the evidence use, and record an
   assurance or reliance judgement. If the assessment is unavailable, stale, outside scope, or incompatible, use
   qualified direct evidence sources or record the missing assessment. Using the assessment gives no experiment
   choice, technical decision, assurance conclusion, acceptance, permission, or release authority.
-- A compatible `SYSE.11` result may contain integration and observed-use evidence only for the same actual
-  System, configuration, use, conditions, interval, and evidence window. The practitioner uses `SYSE.4` to qualify
+- A `SYSE.11` result may supply the compatible integration and observed-use evidence identified under §4.2. The practitioner uses `SYSE.4` to qualify
   that evidence through `A.10` and record an assurance or reliance conclusion. If the result is unavailable,
   stale, outside scope, or incompatible, use a qualified direct source or record the missing integration or use
   evidence. Using the result gives no modernization choice, release, permission, or assurance authority.
-- A compatible `SYSE.14` change-and-release decision may cite evidence for individual claims, configuration and
-  effectivity basis, and unresolved conditions only for the same release question, configuration, effectivity,
-  interval, and evidence window. The practitioner uses `SYSE.4` to qualify that evidence and may narrow reliance,
+- A `SYSE.14` change-and-release decision may supply compatible cited evidence, a configuration/effectivity
+  basis and unresolved conditions as identified under §4.2. The practitioner uses `SYSE.4` to qualify that evidence and may narrow reliance,
   abstain, or record the blocker. If the result is unavailable, stale, outside scope, or incompatible, use
   qualified direct evidence and configuration sources or record the missing change-and-release result. Using the
   decision episteme as a source gives no release authority, permission, or assurance conclusion; it also does not
@@ -8193,8 +8298,9 @@ acceptance, permission, or release decisions.
   applicability and use, and `C.28` for causal use. Each result retains its subject, Method, configuration,
   uncertainty, applicability, and validity limits before it can be used as evidence.
 - Use `A.10` to recover the descriptive claim-bound evidence/provenance path. Use `G.11` and `C.27.TA` when currentness,
-  decay, calibration, configuration time, or an observation window changes admissible use. Use `B.3` only for a
-  named assurance use or material-reliance threshold.
+  decay, calibration, configuration time, or an observation window changes admissible use. Use `B.3` only for an
+  actual named assurance claim, including one required by a direct domain rule. Direct evidence, safety, gate,
+  permission and release questions retain their own rules; consequence alone opens no B.3 use.
 - Use `C.11` for a local decision, `A.21` for a gate decision, and `A.2.8.PER` for permission when those claims are
   current. Acceptance, certification, release, obligation, responsibility, authority, safety, security, ethics,
   law, compliance, and finance remain with their direct patterns and specialist practices.
