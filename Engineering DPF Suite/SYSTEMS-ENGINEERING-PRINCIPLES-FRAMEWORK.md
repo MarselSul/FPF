@@ -280,6 +280,12 @@ to the engineering decision that consumes it. For example, an obtaining comparis
 missing provider commitment for `SYSE.18`; an actual integration result from `SYSE.11` can support, but does
 not make, the release decision in `SYSE.14`. The following sections explain these connections.
 
+A provisional project focus can support individual concept work. Before joint work relies on a common focus,
+`SYSE.1` makes participants' referents, interests and contribution connections visible through a
+concrete use. The result may be sufficient common understanding for the current decision, an unresolved
+coordination condition, or distinct projects with a defined receiving contribution. A shared project name or
+written account cannot supply that result by itself.
+
 The choice of Methods must accommodate useful effects, cost and time, available evidence, and consequences for
 other Systems. Preserving an option can be worth more than completing a design early; a faster local operation
 can transfer delay or risk to integration, maintenance or a user. Compare the complete arrangements that would
@@ -311,6 +317,9 @@ A concept of use says how actual or intended Systems participate in an operating
 expected. A System concept says what engineered System arrangement could participate that way. Either can expose
 a defect in the other. `SYSE.2` therefore guides an Agent in developing linked use-concept and System-concept
 candidate families rather than letting one preferred technical solution determine the use story after the fact.
+An available construction can also start the inquiry: develop a plausible use, follow its consequential
+behaviour, and let the failed assumption change the required functioning or proposed bearer. The next result
+can be a grounded architecture question while the proposed use remains conditional.
 
 Functional organization and constructive organization answer different questions. A function claim concerns a
 contribution under conditions. A bearer claim concerns an actual System or intended System referent that could
@@ -605,16 +614,18 @@ The first result is a **project-system choice account**: claim-bearing project d
 selected actual System or intended referent, the current reason for the choice, and what may reopen it.
 
 First useful move: name one candidate actual System or intended referent, state the present use or change reason
-for choosing it, and write the main unresolved assumption. This small project-system choice account is enough
-to ask the next use-and-system concept question. Expand it only when disagreement, a valuable alternative, or a
-later answer can change the choice.
+for choosing it, and write the main unresolved assumption. An individual can use this provisional choice to ask
+the next use-and-system concept question. Before coordinated Work relies on a common focus, compare the
+participants' intended referents and how their contributions connect, as in §4.4.1. Expand the account only when
+disagreement, a valuable alternative, or a later answer can change its use.
 
 If the choice is missed, participants can work competently on different projects while using the same project
 name. A supplier optimizes a component, an integrator changes an operating assembly, and a client expects an
 outside effect, yet each assumes that the familiar noun names the same project system-of-interest.
 
-The payoff is a shared and revisable project focus. The choice can stabilize current
-coordination while evidence from use, architecture, realization, or operation remains able to reopen it.
+The payoff is a defensible provisional choice and, when participants have established the needed common
+understanding, a shared focus for the current coordination. Evidence from use, architecture, realization,
+operation, or a participant's different understanding can reopen the claim on which that coordination relies.
 
 Use this pattern only when project coordination needs a System designation. If the decision already concerns
 another recognized subject—for example Work, a Method, a capability, a state, a material portion, a
@@ -684,20 +695,11 @@ for the project; selecting an intended referent does not make it physically pres
 
 #### SYSE.1:4.3 - Generate and criticize materially different referents
 
-Generate alternatives from the working situation. After the direct-subject exit
-in §4.2, retain a candidate referent for the project system-of-interest only when it is one of two things:
+Generate alternatives from the working situation under the actual-System and intended-referent conditions in
+§4.2. Use its direct-subject exit when a System designation is unnecessary.
 
-1. an actual System, with `A.1.SCR` recognition when that recognition is decision-relevant; or
-2. an intended referent for a System not yet present, kept as a designator in plan, decision, or description
-   content rather than described as an already acting System.
-
-Examples include an actual product System, tool System, engineering platform, operating System, provider
-System, containing System, or organization System, and the intended referent of any such possible-future
-System. A provider arrangement or organization qualifies only when that whole is an admitted actual System or
-such an intended referent. A
-subject changed by a tool, a collection, Work, Method, capability, state, description, or another holon remains
-the direct subject or a related structure unless it satisfies the same System condition. The examples are
-non-exhaustive. Retain only candidates that would change a later decision.
+Examples include a product or tool System, an engineering platform, an operating or provider System, a containing
+or organization System, and intended counterparts. Retain only candidates that would change a later decision.
 
 For each candidate, compare the claims that matter now:
 
@@ -739,6 +741,43 @@ Stop when the project can ask a concrete use-and-system concept question about t
 reason. The resulting account supplies that referent, reason, boundary question, alternatives, and reopen
 condition to `SYSE.2`.
 
+##### SYSE.1:4.4.1 - Establish enough common focus for the current coordination
+
+When the next decision relies on several contributors working on the same project System, compare their
+understanding through one concrete use or change. Include the people whose contributions, receiving use, or
+limits can change that decision. Existing compatible exchanges may already supply the answer.
+
+Ask each contributor to point to the actual System or intended referent they mean, explain what matters to them
+in the project, and trace how their contribution would help change or use that referent. Follow a contribution
+across its next dependency: have the person relying on it explain what they expect to receive and how it supports
+the proposed use. A short conversation, annotated example, or asynchronous exchange can expose the connection;
+no particular meeting or form is required.
+
+For example, “install the planning software” and “produce a feasible production plan” may initially share a
+project name. Following one changed order reveals whether installation, current stock information, capacity
+decisions, and the planner's use actually connect. Compare the decision-changing differences under §4.3.
+Distinguish different accounts of one proposed project from legitimate separate projects that must exchange
+contributions.
+
+Resolve a material mismatch through the project's actual decision authority and the contributions available.
+Explain the selected referent and the reason for selecting it; then ask the affected contributors to apply that
+choice to the same example. The current coordination has enough common focus when those relying on it can
+identify the selected referent, connect the contributions on which their next action depends, and state the
+unresolved condition that limits that action. They may retain different interests and preferred alternatives.
+Common understanding supplies neither permission to act nor a commitment to perform Work; obtain those when
+the next action requires them.
+
+If the participants still mean different referents or cannot connect a needed contribution, preserve the
+individual choice as provisional and hold the joint claim that depends on the unresolved connection. Name the
+difference and the answer needed to resolve it. Independently supported work can continue. If the apparent
+disagreement instead comes from separate projects, keep their designations and coordinate the receiving result
+between them; use `SYSE.8` for a provider-use arrangement or `SYSE.9` for a specialist contribution when that
+question is current.
+
+Keep the choice account aligned with this result: provisional individual choice, sufficient common focus for a
+named decision, unresolved mismatch, or coordination between distinct projects. The account makes the result
+recoverable; writing it does not produce agreement or establish that an intended System already exists.
+
 #### SYSE.1:4.5 - Reopen the choice from the answer that failed
 
 Reopen the account when one of these changes the comparison:
@@ -750,9 +789,14 @@ Reopen the account when one of these changes the comparison:
 - operating or assurance evidence defeats the reason for the choice; or
 - a related project is separated, combined, or reoriented in a way that changes the current project decision.
 
+An observed mismatch between contributors reopens the common-focus claim in §4.4.1 even when the individual
+choice remains defensible. Repeat only the exchange affected by that mismatch; reconsider the designation if
+its reason or boundary has changed.
+
 Return to the smallest failed claim. A changed use assumption may require `SYSE.2` before the project focus
-changes. A failed bearer or architecture candidate may return through `C.30` or `C.32`. Reopen `SYSE.1` only
-when the evidence changes which System should orient this project or where the project boundary lies.
+changes. A failed bearer or architecture candidate may return through `C.30` or `C.32`. Reopen the
+project-system designation only when the evidence changes which System should orient this project or where
+the project boundary lies.
 
 ### SYSE.1:5 - Archetypal Grounding
 
@@ -782,15 +826,44 @@ the project-system choice only when that changed claim defeats the reason or bou
 #### SYSE.1:5.2 - Manufacturer and ERP vendor
 
 
-A manufacturer opens a “new ERP” project because production plans repeatedly fail. The manufacturer compares
-the software product, the planning organization, a deployed planning System containing people, software, data,
-and decision interfaces, and the wider production-control System. It selects the intended deployed planning
-System because the current project changes production-planning use and records data quality as the main
-assumption.
+A manufacturer opens a “new ERP” project because production plans repeatedly fail. Its engineering lead compares
+the software product, the planning organization, an intended deployed planning System, and the wider
+production-control System. She provisionally selects the deployed planning System because the project is meant
+to improve production-planning use, with data quality as the main assumption. That choice is enough for her
+first concept question.
 
-The vendor's product project can separately select the ERP software product. “Software is always the project
-system-of-interest” and “software is never the project system-of-interest” both erase the project-specific
-decision. The two accounts preserve the shared software and the different uses.
+Before assigning joint work, she asks the contributors to follow one order moved to an earlier date. The IT lead
+means the installed ERP runtime by “our system”; his contribution is software installation and data interfaces.
+The production planner means an arrangement that produces feasible commitments; she needs current stock and
+capacity information and a way to resolve conflicts. The stock controller expects the existing overnight update
+to remain sufficient. The vendor means its software product and wants to preserve a supportable standard
+configuration.
+
+Tracing the intended contributions exposes a mismatch. IT can deliver the interface and the vendor can supply
+rescheduling, but the planner would receive a new schedule based on stock information that predates the moved
+order. No contribution yet supplies the missing current information. Recording the lead's choice again would
+leave the same joint plan unsupported.
+
+In this worked case, the manufacturer's authorized project owner retains the intended deployed planning System
+as the focus. The stock controller and planner agree to investigate current-information and confirmation
+arrangements; IT identifies what each would require from the software interface. Each explains how that
+contribution would support the moved-order decision, and the planner identifies what she would still need
+before treating a proposed schedule as a production commitment. The common next decision is now to compare
+those arrangements in `SYSE.2`. Software installation alone is no longer their completion claim. This establishes
+enough common focus for that investigation, while feasibility, implementation permission and the eventual
+production benefit remain to be established.
+
+If the stock-information contribution cannot be obtained or participants still disagree about the proposed
+referent, the shared planning-change claim remains open. The lead's provisional designation and independently
+supported interface investigation can remain useful; the missing contribution prevents reliance on the joint
+change. If the manufacturer authorizes only a software deployment project, that is a different bounded
+designation whose completion cannot establish the planning benefit.
+
+The vendor's product project continues to select the ERP software product. The parties coordinate its
+contribution to the manufacturer's use without merging their projects or requiring identical interests.
+“Software is always the project system-of-interest” and “software is never the project system-of-interest”
+would both erase this distinction. Their respective choice accounts retain the shared software, different
+referents and receiving use.
 
 <a id="continuing-building-through-several-projects"></a>
 
@@ -824,6 +897,7 @@ plausible referent into permanent project scope; retain material alternatives an
 | `CC-SYSE1-6` | Additional account content SHALL be added only when it changes the current choice or a downstream use. |
 | `CC-SYSE1-7` | A stop SHALL make the next use-and-system concept question askable; a reopen SHALL name evidence or a changed project condition that can alter the choice. |
 | `CC-SYSE1-8` | Related projects SHALL keep their own designation decisions even when they share Systems, Work, resources, descriptions, or evidence. |
+| `CC-SYSE1-9` | Before coordinated Work relies on a shared focus, the relevant contributors SHALL establish a common referent and the contribution connections needed for that decision, or identify the unresolved mismatch and limit the dependent coordination. A written account alone SHALL NOT establish this result. |
 
 ### SYSE.1:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -831,19 +905,22 @@ plausible referent into permanent project scope; retain material alternatives an
 | --- | --- | --- |
 | Project-name shortcut | The noun in a charter or backlog is used as the selected System without a use or change reason. | State the current project decision, generate plausible referents, and compare how each changes the next question. |
 | Tool or provider substitution | The most visible tool or the System performing realization Work replaces the System whose use the project changes. | Keep tool, transformer, provider, changed subject, and project designation as separate claims; compare them as candidates only when each could orient this project. |
+| Account-as-agreement | A clear choice written by one person is treated as the participants' shared project focus. | Follow a concrete use through contributors and receivers; resolve the material mismatch or limit the coordination that depends on it. |
 | First-candidate freeze | Work has started, so later use or feasibility evidence is treated as irrelevant to project focus. | Record the main assumption and reopen condition with the first choice; return evidence to that claim when it changes. |
 | Important-subject inflation | A desired state, Work result, description, collection, capability, or transformation is called a System because the project centres on it. | Keep the direct subject and use its FPF pattern. Open `SYSE.1` only if a System designation is required for the current project decision. |
 | Programme-as-performer | Shared resources or one programme plan are treated as proof of one composite acting System. | Use the programme or portfolio grouping for its coordination decision and establish any System composition separately. |
 
 ### SYSE.1:9 - Consequences
 
-The project gains a focus that is stable enough for coordinated Work and explicit enough to challenge. Related
-projects can share resources and evidence without being collapsed. Architecture and realization discoveries
-can change the project focus without being treated as late exceptions.
+The project gains a defensible provisional focus and a way to establish how far contributors can rely on it
+together. An unresolved mismatch becomes a bounded coordination question. Related projects can share resources
+and evidence while retaining their own designations. Architecture and realization discoveries can change the
+project focus without being treated as late exceptions.
 
-The cost is visible uncertainty. Several candidate referents may remain current, and the account must be
-revisited when a named assumption fails. That cost replaces the larger cost of optimizing an architecture or
-realization network for the wrong project system-of-interest.
+The cost is visible uncertainty and, for a shared claim, the work of comparing participants' understanding.
+Several candidates may remain open, and changed assumptions require a return. Spend that effort where an
+unresolved difference could redirect architecture or realization; a compatible existing result needs no repeated
+elicitation.
 
 ### SYSE.1:10 - Rationale
 
@@ -859,12 +936,43 @@ realization, and evidence can change one another; the explicit reopen condition 
 
 ### SYSE.1:11 - SoTA-Echoing
 
+The practice question is how to establish a defensible, shared and revisable project focus for the next
+engineering decision. The selected answer combines explicit framing and valuable alternatives with the
+contribution comparison in §4.4.1. The following research lines support parts of that synthesis; they do not
+establish its comparative effectiveness as a whole. Exact work titles, primary identifiers and evidence limits
+are in the public [project-focus research sources](#project-focus-research-sources).
+
+
 | Current practice line | What changes in this pattern | Source and use | Adoption status |
 | --- | --- | --- | --- |
-| Design framing treats what matters to a design problem as revisable while problem and solution understanding develop together. | The Solution makes the project-system choice revisable and requires the use, assumptions, and contextual relations behind it. | Kelly and Gero (2022), Litster, Cardoso, and Hurst (2024), and Nickel, Hurst, and Duimering (2024). These conceptual and small empirical studies support explicit framing and revision, not one framing ontology or universal Method. | **Adopt and bound.** Adopt co-development and contextual comparison; reject an algorithmic or consensus-made designation. |
+| Design framing treats what matters to a design problem as revisable while problem and solution understanding develop together. | The Solution makes the project-system choice revisable and requires the use, assumptions, and contextual relations behind it. | Kelly and Gero (2022), Litster, Cardoso, and Hurst (2024), and Nickel, Hurst, and Duimering (2024). These conceptual and small empirical studies support explicit framing and revision, not one framing ontology or universal Method. | **Adopt and bound.** Adopt co-development and contextual comparison; let the project decision select the focus and establish actual System identity separately. |
 | Set-based design retains alternatives while learning can change feasibility or trade-offs. | The Solution asks for materially different referents and preserves valuable alternatives when the decision needs them. | Toche, Pellerin, and Fortin (2020) review the set-based line; Al Handawi et al. (2024) demonstrate margin-based exploration in one aeroengine-component case. | **Adapt.** Retain alternatives and narrow them by evidence; let the receiving project determine candidate count and decision choreography. |
 | Decision making under deep uncertainty uses robust alternatives, staged commitments, monitoring, and revision rather than prediction alone. | The first account carries an unresolved assumption and a reopen condition; later evidence can change the choice. | Haasnoot et al. (2013), Marchau et al. (2019), Lempert et al. (2024), and Akse (2024), mainly in climate, infrastructure, policy, and sociotechnical-transition settings. | **Adapt.** Use staged commitment and explicit reopening; let the receiving project establish its scenarios, thresholds, triggers, and decision Method. |
 | Entrepreneurial-action research treats available means, commitments, contingencies, prediction, and judgement as context-dependent complements. | Candidate generation may use available Systems and commitments without treating them as proof of the project referent or of success. | Chen, Liu, and Chen (2021), Zhang et al. (2023), and Rapp, Olbrich, and Packard (2026). Meta-analytic associations and conceptual synthesis do not establish one causal engineering Method. | **Adapt narrowly.** Keep contingent action and revision as candidate pressure; leave business and Strategy decisions with their practices. |
+
+The serious practice alternative is the NASA handbook's
+[Stakeholder Expectations Definition](https://www.nasa.gov/reference/4-1-stakeholder-expectations-definition/).
+Its iterative treatment uses operating scenarios to refine expectations, develop mutual understanding and
+obtain commitments. Those operations are useful here; its broader programme baseline is not required for
+every provisional choice.
+
+Compare both ways on the ERP case at the same effort: the same contributors examine one moved order and its
+receiving use. A bounded expectations-and-scenario discussion can expose the stale-information gap. The
+§4.4.1 contribution comparison can expose it too. SYSE makes the designation question explicit alongside that
+discovery: does the decision need a System designation, which actual System or intended referent is selected,
+and which contributions belong to separate projects? Its direct-subject exit remains available in §4.2.
+
+For this next concept decision, the selected result is a revisable focus and the unresolved connection.
+It deliberately leaves a complete expectations set and broader commitments unprovided. When the receiving
+decision needs those results, obtain them through the expectations treatment. When an existing scenario exchange
+already establishes the needed focus and connections, reuse it. The small account saves no participant work that
+is actually necessary, and the comparison establishes no general time or outcome advantage.
+
+Reopen this methodological choice when contributors can repeat the designation but apply incompatible
+contribution paths, or when a bounded scenario or facilitated framing treatment resolves the same mismatch with
+less reconstruction. Repair the failed connection or use the better-suited treatment. Reconsider the retained
+research contribution when its evidence or transfer conditions no longer support the receiving use; keep the
+affected project's assumptions and return in view.
 
 These sources support comparing and revising project focus. Actual System recognition uses the FPF `U.System`
 criterion. Choosing an actual System or intended referent for the project uses the project's decision and case
@@ -1464,19 +1572,17 @@ worsens downstream flooding; planning software is installed but cannot support p
 available data; a retrofit design works in an empty building but cannot be realized while the building is
 occupied.
 
-The payoff is a revisable account that keeps outside use connected to concept content about the selected actual
-System, retained intended System referent, or other bounded engineering subject. Evidence about use can change
-that concept content, while architecture and realization findings can change the use, boundary, or
-affected-System claims.
+The payoff is a revisable account that keeps outside use connected to the concept for the selected subject.
+Evidence about use can change that concept, while architecture and realization findings can change the use,
+boundary, or affected-System claims.
 
 Use this pattern while a concrete use claim and a candidate System concept still need to be developed together.
 Use `C.30` and `C.32` when the current question is grounded architecture and candidate synthesis, `A.3.4` when
 the question is whether one actual bounded change occurred, and the applicable Operations Management pattern
 for continuing Work. Return to `SYSE.1` when evidence changes which System should orient the project.
 
-At the first consequential use of source wording, ask: **does this claim connect concept content about the
-selected actual System, retained intended System referent, or other bounded engineering subject with a concrete
-use situation, participating or affected Systems, conditions, and outside effects?** If yes, name those
+At the first consequential use of source wording, ask: **does this claim connect the concept for the selected
+subject with a concrete use situation, participating or affected Systems, conditions, and outside effects?** If yes, name those
 subjects and relations and use this pattern. A representation—for example, a ConOps, use case, scenario,
 requirement, user story, diagram, or model—presents some of these claims. Its form establishes neither their
 truth nor the required form for the proposal.
@@ -1515,7 +1621,10 @@ Take the selected actual System or intended System referent and current reason f
 account, or state the bounded engineering subject when no project-system choice is needed. If that choice is
 needed but no compatible `SYSE.1` account is available for the same subject and decision, use a qualified direct
 source for the focus claim or record the missing project-focus result and stop only the linked claim
-it blocks. For an actual System, describe an actual or possible-future situation in which it participates. For a not-yet-present referent, keep the
+it blocks. An individual can explore a linked proposal from a provisional focus. When its use depends on
+joint action, use `SYSE.1:4.4.1` to establish the common referent and contribution connections for that action,
+or retain the unresolved coordination condition. For an actual System, describe an actual or possible-future
+situation in which it participates. For a not-yet-present referent, keep the
 intended participation in modal plan, decision, or description content; do not assert an actual System or
 participation relation before identity inception. State:
 
@@ -1569,6 +1678,12 @@ conditions, expected transformations or behavior, and outside effects only as fa
 needs. The system-concept claim names what the proposed concept needs—for example, a boundary, functioning,
 interface, resource, constraint, or placement—while leaving full architecture selection open.
 
+When an available construction starts the inquiry, ask who could use it, in what situation, and for what
+outside effect. Follow one consequential behaviour path from the triggering change through the participating
+Systems to that effect. Try the condition most likely to defeat the proposal. Use the resulting success or
+failure to revise the functioning, bearer, interface or use claim that made the difference. Expand the path
+only when another condition could change the concept; no complete scenario set is needed for the first link.
+
 Use `A.6.F` when function-like wording carries a claim. Name the required functioning and its proposed bearer.
 Any remaining question—for example, about function, capability, Method, Work, module, interface, evidence, or
 architecture—stays under the pattern that defines or constrains it. Use `A.6.M` only when an actual module or interface claim is
@@ -1613,7 +1728,12 @@ is the next use.
 
 #### SYSE.2:4.5 - Expand only when another claim can change the candidate
 
-The cheap first result is one linked use claim, one candidate concept claim, and their main uncertainty. Expand
+The cheap first result is one linked use claim, one candidate concept claim, and their main uncertainty.
+Reuse an adequate scenario or use-case slice as the proposal: retain its compatible use and concept claims and
+add only the missing relation, consequence or uncertainty needed for this decision. The progressive-slice
+comparison in §11 helps choose when to continue toward implemented, tested behaviour.
+
+Expand
 when further content—for example, another use situation, load, failure, participant, affected System, harm,
 benefit, or representation—could change the candidate. Add only the relevant:
 
@@ -1674,20 +1794,49 @@ the station referent no longer supports the project decision.
 
 #### SYSE.2:5.2 - Manufacturer's ERP-enabled planning change
 
+An available construction starts this concept question: deployed `ERP-Runtime-E3` offers automatic rescheduling
+when an order date changes. The manufacturer considers using that facility to revise production commitments.
+Its usefulness depends on what the planners would receive and could act on.
 
 The manufacturer keeps `PlanningSystem-P1` as an intended System referent in its project decision; actual System
-identity remains unestablished. Actual person Systems `Planner-A` and `Planner-B` perform `PlanningWork-PW1`. They use
-actual deployed software runtime `ERP-Runtime-E3` and demand, capacity, material, and production-order records as
-resources and evidence. The records are epistemes; `PlanningAPI-PA2` and the user interface are separately
-identified interfaces.
+identity remains unestablished. Actual person Systems `Planner-A` and `Planner-B` perform `PlanningWork-PW1`.
+They use `ERP-Runtime-E3` and demand, capacity, material, and production-order records as resources and evidence.
+The records are epistemes; `PlanningAPI-PA2` and the user interface are separately identified interfaces.
+The common-focus exchange in `SYSE.1:5.2` has made the missing stock-information contribution visible.
 
-The linked use claim says that `Planner-A` and `Planner-B` would revise production commitments during
-`PlanningWork-PW1` using current records and `ERP-Runtime-E3`. The system-concept claim describes a possible
-future organization in which these actual Systems, records, interfaces, and planning Methods could satisfy a
-separately tested A.1 System criterion. Data currentness and interface latency are the main uncertainties. The
-ERP vendor's product project can instead select `ERP-Runtime-E3` or its product referent for its own decision.
+The first linked proposal lets the software reschedule a moved order and release the revised production
+commitment. Its use claim is that the planners could promise the earlier date from the resulting plan; its
+main assumption is that the runtime's material and capacity information supports that commitment.
+
+Follow the proposed behaviour. When an order needs six units, ten are recorded and actually available, and the
+needed capacity is available, the proposed schedule has support for those constraints. Now try a failure path:
+the imported record still shows ten unreserved units, but eight have since been allocated elsewhere. The moved
+order needs six, while only two remain unreserved. A successful date recalculation leaves the proposed commitment
+unsupported. It has exposed a stale-input failure, without establishing that rescheduling itself is useless.
+
+Revise the linked concept. Required functioning becomes proposing a schedule, obtaining current material and
+capacity confirmation and any needed reservation, and holding commitment when that support is missing.
+One proposed allocation gives `ERP-Runtime-E3` schedule proposal and an explicit unconfirmed state;
+`Planner-A` obtains the needed confirmation and reservations, and `Planner-B` makes the commitment decision
+under the applicable authority. This changes the bearer proposal from software alone to a coordinated use of
+the runtime and people. Their proposed organization still has to satisfy the System criterion for
+`PlanningSystem-P1`; a list of participants and records does not establish that composite.
+
+The resulting `C.32` question is which arrangement can support that functioning before the required commitment
+time. Use `SYSE.5` to develop and compare event-fed information with reservation interfaces against provisional
+software plans with human confirmation and a hold on unsupported commitments. Compare latency, available
+contributions and the burden of exceptions as well as normal use. The concept now gives that comparison a
+specific function, possible bearers, failure path and uncertainty; it does not select a finished architecture.
+
+If confirmation cannot arrive in time, return to the timing claim or proposed allocation. If the required
+stock-control contribution or authority cannot be obtained, hold the commitment relying on it and use the
+smallest affected concept or focus return. Reopen `SYSE.1`'s designation only when the failure changes the
+project's selected referent or boundary.
+
+The vendor's product project can still select `ERP-Runtime-E3` or its product referent for its own decision.
 Installation completion, an organization chart, and user acceptance establish neither the manufacturer's
 production effect nor the intended composite `PlanningSystem-P1`.
+
 
 <a id="occupied-building-heat-pump-control"></a>
 
@@ -1776,12 +1925,40 @@ change, not by a prescribed documentation sequence.
 
 ### SYSE.2:11 - SoTA-Echoing
 
+The practice question is how much use description is needed to change the concept or expose the next
+architecture question. The selected approach develops a small linked proposal with progressive behavioural
+detail. Existing scenarios and slices can supply that content directly.
+
 
 | Current practice line | What changes in this pattern | Source and use | Adoption status |
 | --- | --- | --- | --- |
 | Current use-case practice starts from user goals, admits human and nonhuman participants and failure paths, and revises end-to-end slices as work proceeds. Model-based system-architecture practice connects use cases to candidate functional groupings and interfaces. | The Solution starts with a concrete use situation and keeps success, failure, participants, behavior, and the system-concept claim connected while both change. | Jacobson et al., *Use-Case 3.0: The Definitive Guide — Refreshed* (2024); Weilkiens et al., *Model-Based System Architecture*, 2nd ed. (2022). These are provider and textbook Methods, not comparative proof of one universal sequence. | **Adopt and adapt.** Use revisable slices and explicit links to candidate functioning; choose the representation form for the receiving engineering decision. |
-| Agile and continuing requirements research treats models, requirements, traceability, monitoring, and compliance links as maintained parts of changing work rather than one frozen preliminary package. | The linked proposal stays revisable, and representations are chosen for the decision and maintained only while they continue to carry useful claims. | Liebel and Knauss (2023) report one large software/telecommunications setting; Hernández, Moros, and Nicolás (2023), Norheim et al. (2024), and Kosenkov et al. (2025) synthesize software- and CPS-heavy requirements and compliance work. | **Adapt.** Maintain useful claims and choose representations by use; let the receiving project determine how requirements Work is organized. |
-| Product-service system and servitization research treats useful offerings as configurations of products, service Work, provider and customer relations, capabilities, operations, digital support, and consequences. Reported performance is mixed and configuration-dependent. | The Solution compares actual or proposed changes to the designated System, external Systems, interfaces, and Work arrangements and asks for the specialist results that make those alternatives credible. | Brambila-Macias, Sakao, and Kowalkowski (2018); Braga Junior, de Toledo, and González (2020); Kim (2020); Brax et al. (2021); Åkesson et al. (2024); Menon et al. (2024); Zhao et al. (2025). | **Adapt.** Use the cross-boundary design pressure; establish each System, Work, provider relation, Method, and consequence directly in the receiving project. |
+| Agile and continuing requirements research treats models, requirements, traceability, monitoring, and compliance links as maintained parts of changing work rather than one frozen preliminary package. | The linked proposal stays revisable, and representations are chosen for the decision and maintained only while they continue to carry useful claims. | Liebel and Knauss, [*Aspects of modelling requirements in very-large agile systems engineering*](https://doi.org/10.1016/j.jss.2023.111628) (2023; [author preprint](https://arxiv.org/abs/2209.01993)), report one Ericsson case, including model-maintenance and tool trade-offs. [SYSE.11:11](#syse1111---sota-and-source-use) gives the distinct source scopes and references for Hernández, Moros and Nicolás (2023), Norheim et al. (2024), and Kosenkov et al. (2025): DevOps requirements management, LLM requirements tasks, and regulatory compliance. | **Adapt.** Maintain useful claims and choose representations by use; let the receiving project determine how requirements Work is organized. |
+| Product-service system and servitization research treats useful offerings as configurations of products, service Work, provider and customer relations, capabilities, operations, digital support, and consequences. Reported performance is mixed and configuration-dependent. | The Solution compares actual or proposed changes to the designated System, external Systems, interfaces, and Work arrangements and asks for the specialist results that make those alternatives credible. | [SYSE.8:11](#syse811---sota-and-source-use) gives the primary references and bounded contributions of Brambila-Macias, Sakao and Kowalkowski (2018), Braga Junior, de Toledo and González (2020), Kim (2020), Brax et al. (2021), Åkesson et al. (2024), Menon et al. (2024), and Zhao et al. (2025). | **Adapt.** Use the cross-boundary design pressure; establish each System, Work, provider relation, Method, and consequence directly in the receiving project. |
+
+A serious alternative is a progressive use-case slice following the
+[Use-Case 3.0 guide](https://www.ivarjacobson.com/files/use-case_3.0_v1.0.pdf). It starts with a user goal and can
+grow from a sketch through selected normal and failure paths toward a testable increment. It need not enumerate
+all scenarios before useful work starts.
+
+Compare the two on the same moved-order facts in §5.2, including the stale stock record. A small slice for
+rescheduling an order can already reveal the unsupported commitment and supply a failure path that holds it.
+The linked proposal should reveal the same failure. Its selected next result is the architecture question:
+which functioning, people, runtime and interfaces could support a commitment under the stated conditions?
+An adequate slice can already supply those claims; use them without a second description.
+
+The trade-off depends on the next result. This linked proposal leaves implementation and path-specific
+acceptance tests unprovided while the bearer and interface choices remain open. Progressive slice practice
+supplies the route toward implemented, tested behaviour when that is needed. Neither representation earns a
+general effort advantage from being called small. In the ERP case, the proposed confirmation and reservation
+arrangements still need comparison, so §§4.3–4.6 return the functional and bearer question to `C.32` and
+`SYSE.5`; a later testable slice can use that result.
+
+Reopen the choice of a thin linked proposal when it appears coherent but a consequential path changes the
+functioning or bearer—for example, when another order consumes the promised stock between proposal and
+commitment. Add the missing path or use the progressive slice directly. Prefer an available scenario treatment
+when it supplies the required architecture claims with less reconstruction or maintenance. These are selection
+conditions, not evidence that one description form has superior project outcomes.
 
 These current lines support continuing, use-led, model-linked revision within their stated domains. This pattern connects a use situation, subjects and relations, qualified consequences and a candidate concept, using compatible SYSE.16, SYSE.17 and SYSE.8 results. Relate evidence to the claim it can change. Apply each source within its stated domain and assess cross-domain transfer against the receiving use, Systems, relations and evidence.
 
@@ -1804,7 +1981,8 @@ These current lines support continuing, use-led, model-linked revision within th
 - The linked use-and-system concept proposal supplies functioning, operating conditions, outside effects,
   selected environment structures, assumptions, and evidence limits to the architecture question. `C.30`
   defines grounded architecture claims and relations; `C.32` guides candidate synthesis over selected
-  structures.
+  structures. `SYSE.5` develops the engineering functional and bearer alternatives, their allocations,
+  interfaces and feasibility limits from those compatible claims.
 - Architecture, realization, operation, or assurance evidence returns to the smallest linked claim it can
   change. Practitioners in organization change, Operations Management, Platform Engineering, Governance, safety,
   security, ethics, law, finance, and other specialist practices keep their Methods and supply only the results
@@ -12978,6 +13156,12 @@ conditions, and part and interaction relations. Use `SYSE.17` to identify System
 consequences, including the operator, connected heating network, maintainers, and affected users. Use `SYSE.2`
 to keep the proposed operating use and the changed station concept linked.
 
+When contributors use different referents, follow one operating change together: a component supplier may mean
+the modified pump train, while the station engineer and operator rely on changed station functioning during
+continuing heat delivery. Establish which contributions support that current station decision and which remain
+unavailable. Keep a supplier's separate component project distinct; an unresolved contribution limits the
+station claim that relies on it.
+
 The first return is either a bounded focus and linked concepts or a named blocker. If the station configuration,
 using System, operating interval, or consequence claim cannot be identified, do not compensate with a generic
 stakeholder list or release checklist.
@@ -13582,6 +13766,24 @@ reopen conditions. Standards, textbooks, academic attention, vendor claims, inst
 coverage can identify candidate Methods or terminology. They do not by themselves show actual project use,
 causal effectiveness, widespread retention, or state of the art. When direct prevalence evidence is unavailable,
 label the value as an expert estimate and state its uncertainty.
+
+### Project-focus research sources
+
+[SYSE.1:11](#syse111---sota-echoing) states how these works inform the project-focus Method.
+The source roles and limits below bound that use; none supplies a universal engineering decision procedure.
+
+- Kelly and Gero (2022), [*Reviewing the concept of design frames towards a cognitive model*](https://doi.org/10.1017/dsj.2022.25). A conceptual review supports revisable framing and distinguishes frames from their expressions.
+- Litster, Cardoso and Hurst (2024), [*Analyzing problem framing in design teams: a systems mapping approach*](https://doi.org/10.1017/S089006042400012X). Analysis of two datasets makes team-framing contributions inspectable; it does not establish causal improvement from a prescribed coordination Method.
+- Nickel, Hurst and Duimering (2024), [*Contextual influences on trade-offs in engineering design: a qualitative study*](https://doi.org/10.1017/dsj.2024.34). A small qualitative study supports attention to context in trade-offs, with limited grounds for generalization.
+- Toche, Pellerin and Fortin (2020), [*Set-based design: a review and new directions*](https://doi.org/10.1017/dsj.2020.16). This historical review, covering work through 2017, supplies the retained-alternatives line and its implementation gaps.
+- Al Handawi et al. (2024), [*Design Space Exploration and Evaluation Using Margin-Based Trade-Offs*](https://doi.org/10.1115/1.4063966). One aeroengine-component study supports exploring alternatives with margins under uncertainty; its particular design procedure and results do not transfer without qualification.
+- Haasnoot et al. (2013), [*Dynamic adaptive policy pathways: A method for crafting robust decisions for a deeply uncertain world*](https://doi.org/10.1016/j.gloenvcha.2012.12.006). A historical adaptation-pathways anchor supports staged choices and monitoring; the receiving project must establish its own triggers.
+- Marchau et al., eds. (2019), [*Decision Making under Deep Uncertainty: From Theory to Practice*](https://doi.org/10.1007/978-3-030-05252-2). This collection develops several uncertainty-management approaches; it does not select one for every engineering project.
+- Lempert et al. (2024), [*The use of decision making under deep uncertainty in the IPCC*](https://doi.org/10.3389/fclim.2024.1380054). The climate-assessment setting bounds the contribution to reasoning under deep uncertainty and adaptation.
+- Akse (2024), [*Towards a conceptual model of uncertainty management for socio-technical innovations: A systematic review*](https://doi.org/10.1016/j.techfore.2024.123796). The proposed synthesis supports context-sensitive uncertainty management; its conceptual model still needs further empirical testing.
+- Chen, Liu and Chen (2021), [*The effectiveness of effectuation: a meta-analysis on contextual factors*](https://doi.org/10.1108/IJEBR-02-2020-0050). The meta-analysis informs context-dependent entrepreneurial action, rather than proving one causal engineering Method.
+- Zhang et al. (2023), [*The impact of decision-making styles (effectuation logic and causation logic) on firm performance: a meta-analysis*](https://doi.org/10.1108/JBIM-08-2021-0378). Associations with firm performance inform comparison of decision approaches; they do not establish universal causal effects.
+- Rapp, Olbrich and Packard (2026 issue; published online 2025), [*A logic of entrepreneurial action without judgment? Effectuation revisited*](https://doi.org/10.1007/s11846-025-00926-6). The conceptual argument restores judgement to effectuation; it is not an empirical validation of a Systems Engineering procedure.
 
 ### Shared engineering sources and architectural choices
 
