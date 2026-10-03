@@ -5004,75 +5004,49 @@ The following relations locate this pattern's inputs, specialist boundaries, and
 
 ### SYSE.3:0 - Use This When
 
-Use this pattern when one grounded engineering architecture candidate or decision exists, but no current account
-shows which actual Systems, capabilities, Methods, resources, interfaces, and Work could bring about the proposed
-System or change.
+Use this pattern when a grounded engineering architecture candidate or decision exists, but one realization
+branch is unsupported: the capable System, Method or enabling condition needed to produce or change the
+engineered System remains unresolved.
 
-The first useful move is to name one unsupported realization branch, its proposed transformer System or the
-need to find one, the missing enabling condition, and one next planned action or earlier answer to revisit.
-Expand only when another build-the-builder branch changes that next action.
+Name that branch, its proposed transformer System or the need to find one, the missing support and one next
+planned action. Expand only when interacting branches or building the builder changes that action; name the
+earlier answer to revisit if the branch proves infeasible.
 
-The result is a `RecursiveRealizationArrangementResult@Project`, a project-local `U.Episteme` containing a
-provisional realization-network description plus a distinct `U.WorkPlan`. It identifies the first unsupported
-branch, proposed transformer and enabling Systems, identified gaps, result dependencies, and the earlier
-answers that each gap can reopen. The description and WorkPlan are epistemes for analysis and planning. Establish
-performed Work, actual change, an obtaining network, and feasibility through their direct evidence and patterns.
-
-Use current FPF architecture patterns when the architecture or bearer choice is still open. Use the relevant specialist pattern when the question has left this realization account—for example, a
-question about performed Work, transformation, production, capability, platform engineering, operations,
-organization change, configuration, or assurance.
+The result is a provisional realization-network description and a distinct WorkPlan. Performed Work, actual
+change, feasibility and an obtaining network require their own evidence. If the architecture or function
+bearer is still open, return to the architecture patterns. If the question concerns production, capability,
+operations, organization, configuration or assurance beyond this first action, use the specialist return in :4.6.
 
 ### SYSE.3:0.1 - Terms and Distinctions
 
 | Cue | Meaning used here |
 | --- | --- |
-| realization | Actual or intended Work and transformations by which an engineered System or configuration can be produced or changed. A description or decision does not realize its subject. |
-| creator, builder, developer, or manufacturer | A cue to recover separately the admitted System, its local SystemRole and assignment, its capability, its Method, and its performed Work. |
-| realization-network description | A project episteme that describes proposed transformations, participating Systems, result dependencies, and gaps for one current realization question. It is not the selected world-side structure it describes. |
-| selected realization network | An `A.22`/`E.18.NET` `U.Structure` established through independently identified transformation-flow or nested-network members, obtaining cross-boundary relations, endpoint bindings, and one use frame. Other project descriptions contribute only the claims that support those values. |
-| build the builder | A recursive branch in which Work changes or produces a System, capability, Method support, tool, or platform needed by later realization Work. It is not a permanent creator hierarchy. |
-| platform or toolchain | A cue to identify the enabling Systems, services, interfaces, capabilities, and conditions that matter here, then establish their availability, fit, Work, and integration contributions separately. |
-
-An engineer is an admitted System classified by and assigned to an engineering SystemRole for the Work. The
-performer System, SystemRole, assignment, Method, capability, WorkPlan, Work, transformation, result episteme,
-and engineered System remain distinct.
+| realization | Actual or intended Work and transformations by which an engineered System or configuration can be produced or changed. |
+| realization-network description | A project episteme describing proposed transformations, participating Systems, result dependencies and gaps. It is distinct from the world-side network whose recognition conditions appear in :4.4. |
+| build the builder | A recursive branch in which Work changes or produces a System, capability, Method support, tool or platform needed by later realization Work. |
 
 ### SYSE.3:1 - Problem frame
 
-Use this pattern when an engineer has one grounded architecture candidate or project architecture decision,
-but cannot yet show how existing Systems and feasible Work can bring about or change the proposed System and
-its selected structures. The architecture may name suitable bearers for required functioning while a
-realization branch—for example, fabrication, adaptation, integration, configuration, installation,
-qualification, or build-the-builder Work—remains unsupported.
+An architecture can name suitable bearers for required functioning while fabrication, adaptation, integration,
+configuration, installation or qualification remains unsupported. A product tree, WBS, schedule or toolchain
+diagram can then look like a realization argument. Engineers may plan Work for a System that does not exist,
+assign it to a label with no capable holder, or discover late that a selected interface, material or access
+condition cannot be realized.
 
-First useful move: name one unsupported realization branch, the proposed transformer System, the missing
-enabling condition, and one next planned action or earlier answer to revisit. This is enough to turn a broad
-claim that the architecture is "buildable" into a specific feasibility question. Expand the description only
-when several branches interact or the next action itself depends on realizing a transformer System,
-capability, Method, tool, or platform contribution.
-
-If this move is missed, a project description—for example, a product tree, WBS, schedule, toolchain diagram,
-or platform name—can look like a realization argument. Engineers can then plan Work for a System that does not exist, assign Work to a label
-that has no capable holder, or discover late that a selected interface, material, access condition, or
-integration relation cannot be realized.
-
-The payoff is a bounded realization account. The engineer inspects dependencies only far enough to find the
-first unsupported one, plans one useful next action, and uses an infeasibility result to reopen only the
-smallest earlier answer it changes. A build-the-builder branch appears only when changing an enabling System,
-capability, Method support, tool, or platform changes that next action.
+The useful gain is a bounded feasibility question: identify the first unsupported dependency, plan an attainable
+action and use its result to revise only the affected earlier answer. The pump case in :5.1 shows how an inquiry
+into a supplier and fixture can precede fabrication without expanding into a complete production-network plan.
 
 Use this pattern after the architecture has at least one candidate bearer for every required functioning at
-issue. Otherwise keep the architecture question open with `A.6.F`, `C.30`, and `C.32`. Use `A.3.4` for an actual
+issue. Otherwise keep the architecture question open with `A.6.F`, `C.30` and `C.32`. Use `A.3.4` for an actual
 bounded change, the A.15 family for Work and production claims, and `E.18` or `E.18.NET` only when their
 selected-structure conditions are met. Use Operations Management or project-portfolio practice when the live
-question is queue, capacity, priority, or shared-resource coordination rather than realization of one
-architecture candidate.
+question is queue, capacity, priority or shared-resource coordination.
 
-At the first consequential use of words such as *creator*, *builder*, *developer*, *design*, *production*,
-*deployment*, *platform*, *toolchain*, or *baseline*, ask: **which realization branch is unsupported?** Name
-the intended result or change, the proposed transformer System or unresolved need for one, and the missing
-enabling condition. Use the local `TransformerSystemRole` to describe the System's contribution only when that distinction matters. Treat a source stage name or tool label as a cue; establish the
-Work order, assignment, capability, and relation that the current branch actually uses.
+When a source names a builder or enabling means—for example, a *manufacturer*, *platform* or *toolchain*—recover
+the System and its contribution to the current branch. Establish assignment, capability, Method, Work order and enabling
+relations separately under :4.2–4.6. Use the local `TransformerSystemRole` when that contribution needs the
+distinction; a source label alone supplies none of those claims.
 
 ### SYSE.3:2 - Problem
 
@@ -5191,8 +5165,8 @@ on*—replace it with the actual production, participation, use, evidence, integ
 other relation through the pattern that defines it. If the relation kind or case facts are not yet available, keep the dependency as a
 provisional claim and name what must be established.
 
-Keep each `DesignRunTag` local to one leaf-position binding. Represent any wider dependency or Work order
-through the direct relations that establish it.
+When a formal flow description uses `DesignRunTag`, keep each tag local to one leaf-position binding under
+`E.18`/`E.18.NET`. Represent wider dependencies and Work order through the direct relations that establish them.
 
 #### SYSE.3:4.5 - Plan the next Work separately
 
@@ -5235,6 +5209,9 @@ pattern exists, retain the unresolved specialist need and the decision it blocks
 
 #### SYSE.3:4.7 - Stop at one actionable gap and name the affected earlier answer
 
+The project-local result is a `RecursiveRealizationArrangementResult@Project`, a `U.Episteme` containing a
+provisional realization-network description plus a distinct `U.WorkPlan`. It identifies the unsupported branch,
+proposed transformer and enabling Systems, gaps, result dependencies and the earlier answers each gap can reopen.
 The first result can be stated in five lines:
 
 1. **Architecture input:** the named candidate or decision and the selected structures at issue.
@@ -5246,6 +5223,13 @@ The first result can be stated in five lines:
 
 Stop when these five lines make the next action and affected earlier answer clear. Expand only when interacting branches or
 build-the-builder recursion changes that next action.
+
+Reuse the branch description and distinct WorkPlan already supplied by an implementation-preparation account
+when they identify the unsupported branch, the attainable next action and the earlier answer that adverse
+evidence would reopen. Add only a missing decision or relation. The five lines above are a way to expose that reasoning, not a second
+required record. When the next decision concerns readiness to make, buy or reuse the product, use the applicable
+implementation Method and its wider readiness conditions; this first-gap result does not discharge them.
+The comparison in :11.1 works this choice through the pump case.
 
 When feasibility evidence arrives, update the branch description and WorkPlan. If one branch fails but another
 admissible branch remains, repair or replace that branch. If no admissible realization remains, reopen the
@@ -5427,11 +5411,49 @@ decision.
 | Current practice line | What changes in this pattern | Source and use | Adoption status |
 | --- | --- | --- | --- |
 | Current manufacturing work links product architecture with process, resource, and capability choices and uses assembly or production infeasibility to revise design. | The Solution starts from a named architecture result, exposes one transformation-and-capability branch, and uses feasibility evidence to revise the architecture claim it changes. | Eichenwald et al. (2024), Ghanjaoui et al. (2024), and Meixner et al. (2024). These are manufacturing, aircraft-assembly, and cyber-physical-production studies with proposed ontologies, methods, prototypes, and small evaluations. | **Adopt and bound.** Use the product-process-resource-capability connection and architecture revision from feasibility evidence; select the receiving ontology, toolchain, and planning Method for the project. |
-| Multi-project and portfolio research distinguishes precedence, resource contention, timing, uncertainty, interaction, and synergy rather than deriving them from common project membership. | A shared transformer or resource opens a separate operations or portfolio result only when the direct interdependency matters to the branch. Network position selects no priority. | Gómez Sánchez et al. (2023) and Vieira et al. (2024), both literature reviews over formal models and reported applications. | **Adapt.** Preserve typed interdependencies and let the receiving operations or portfolio decision establish its schedule, priorities, boundary, and participating Systems. |
+| Multi-project scheduling and portfolio selection require different relations: job precedence and shared resource capacity constrain feasible timing; portfolio interactions can change resource demand or combined benefit. | When either relation changes the next realization action, request the corresponding scheduling or portfolio result in :4.6. Common network membership establishes none of these relations, priorities or authorizations. | Gómez Sánchez et al., [*Resource-constrained multi-project scheduling problem: A survey*](https://doi.org/10.1016/j.ejor.2022.09.033) (2023), §§3–4.1, especially §3.2's shared-resource example; Vieira et al., [*Project Portfolio Selection considering interdependencies: A review of terminology and approaches*](https://doi.org/10.1016/j.plas.2023.100115) (2024), §§4.2.2–4.2.5. The first reviews scheduling models; the second compares varying portfolio terminology and proposes a clarification. Neither establishes a particular project's relations or a universally best allocation rule. | **Adapt.** Preserve the distinct relations and let the receiving operations or portfolio decision establish the schedule, priorities, boundary and participating Systems. |
 | Continuous integration, delivery, CPS, and SRE practice uses frequent integration, automated and physical checks, feedback, and risk-sensitive change review in bounded technology settings. | A realization branch may request an integration or feedback result and revise the branch from it, while cadence, pipeline structure, release, and assurance remain local questions. | Current DORA capability pages; Thurgood's SRE error-budget example (2018); Zampetti et al. (2022) on ten CPS organizations and a 55-practitioner survey. | **Adapt narrowly.** Use frequent feedback where its engineering conditions fit; establish the local pipeline, cadence, automation boundary, and reliability policy separately. |
 | Platform Engineering in technology work and platform-based manufacturing both treat shared Systems as enabling means whose usefulness depends on user tasks, interfaces, extensibility, and operating conditions. | A platform appears as one possible transformer or enabling branch with a named capability and interface contribution, not as a mandatory layer. | DORA, *State of AI-assisted Software Development*, report version 2025.2; Tolio et al., “Platform-based manufacturing” (2023). The evidence comes from technology work and manufacturing ecosystems and uses different platform lineages. | **Adapt and keep plural.** Evaluate the named platform contribution in its domain and establish the receiving organization, service relations, and platform design separately. |
 
-These sources support particular realization branches. This pattern combines the use of documents in Work, creation relations, recursive consideration, Method choice, continuing development, platform Work and configuration. Its synthesis works backward to the first unresolved need, bounds recursion and revises the affected local arrangement under current FPF. Reconsider the affected realization claim or receiving architecture decision when comparative evidence changes applicability or shows that a specialist Method is needed.
+The manufacturing, portfolio, integration and platform sources above support particular contributions;
+their domain results do not establish the superiority of the combined Method. The same-question choice below
+determines when its bounded first result is useful and when an implementation Method already supplies enough.
+
+#### SYSE.3:11.1 - Choose the next action with an implementation-preparation alternative
+
+**Question and common basis.** In the pump case in :5.1, what can the engineering team plan next before
+committing the manifold to fabrication? Compare the two ways using the same architecture, material and
+geometry claims, supplier statements, access conditions and feasibility window. Both require the team's
+capability fit and access before the investigation can begin. Count source retrieval, specialist coordination,
+recording and the preparation still needed later, rather than equating a shorter description with less total effort.
+
+A serious alternative is the [NASA Systems Engineering Handbook, §5.1, *Product Implementation*](https://www.nasa.gov/reference/5-1-product-implementation/),
+especially §§5.1.1.1 and 5.1.1.2.1–5.1.1.2.2. **Adopt** its review of implementation inputs, personnel skills and
+enabling products, and its distinct make, buy and reuse duties. It permits tailoring preparation to complexity;
+reuse requires fitness for the new requirements and environment. Its enabling-product questions already expose the missing fixture and qualification evidence in this case.
+
+| Receiving decision in the same pump case | Tailored implementation preparation | First-gap planning under this pattern |
+| --- | --- | --- |
+| Choose an attainable next action while the welding capability and fixture are unsupported. | Review the selected implementation inputs and enabling means. Open a fixture-and-supplier feasibility action before treating the manufacturing branch as ready. Retain the remaining preparation duties. | :4.3 locates the same unsupported branch; :4.5 names the engineering team as the intended investigator, with the supplier weld cell still a candidate for later welding. The useful next action can therefore be the same. |
+| Decide how far to investigate the fixture's own production now. | Tailor the enabling-product inquiry to the current implementation decision; a sufficient existing preparation plan may already bound it. | :4.4 asks whether a toolmaking dependency changes the immediate investigation. Expand that branch only if it does; otherwise stop without completing a production-network description. |
+| Respond when the feasibility account defeats every fixture-and-weld branch within the selected material, geometry and access conditions. | Reconsider the affected implementation inputs and feasible means; retain the implementation duties for the revised choice. | :4.7 and :5.1 identify the receiving decision: reopen the C.32 comparison of interface, material, module split or placement. Keep the station's flood-use claim unless the result also defeats that claim. |
+
+**Selection and accepted cost.** For this narrow planning question, use the first unsupported dependency together
+with an explicit stopping condition and a named return. The stopping condition limits the fixture inquiry to dependencies that change its next action;
+the named return directs adverse evidence to the architecture choice it actually changes. These are requirements on the reasoning, not benefits conferred by another form.
+If the implementation-preparation account already supplies them through its branch description and WorkPlan,
+:4.7 reuses those results; rewriting the account in five lines adds no gain. If they are missing, add the bounded dependency and return to the existing account.
+
+This choice deliberately defers completeness of production preparation. Obtaining a first action leaves personnel,
+enablers, quality controls, verification inputs and implementation records to be established for the eventual
+make, buy or reuse decision. Their later effort remains in the comparison. When that wider readiness is the
+present question, the implementation Method supplies the stronger result. The worked comparison supports this
+conditional choice; it supplies no measured time saving or general ranking of the two Methods.
+
+Reopen the choice when a second interacting branch or shared-resource constraint can change the selected action,
+when the remaining preparation can no longer be deferred, or when another implementation Method supplies the
+same bounded decision with less total work. Use :4.4 or the specialist return in :4.6 for the changed dependency;
+do not preserve a separate SYSE.3 account merely because it was started.
 
 ### SYSE.3:12 - Relations
 
