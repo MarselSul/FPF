@@ -31,10 +31,10 @@ Use the Readme when you have a working difficulty but do not yet know the direct
 | :--- | :--- | :--- | :--- | :--- |
 | 1 | [HCD.1 — Derive Human Capability Demand from Representative Later Work](#hcd-1) | Stable | What must this exact human contribute in representative later Work, and what evidence makes the demand current? | FPF A.15.1, E.23.CDI; direct later-Work and target-domain evidence |
 | 2 | [HCD.3 — Diagnose Whether a Capability, Misconception, or Behaviour Limits Work](#hcd-3) | Stable | Which smallest changeable human limitation is supported, or which non-training branch owns the next result? | HCD.1 or equivalent qualified input; FPF E.23.CAE |
-| 3 | [HCD.4 — Architect a Balanced Human Capability Profile Across Simultaneous Work](#hcd-4) | Stable | What should be preserved, investigated, deferred, or returned across simultaneous capability claims? | HCD.1 or equivalent qualified input; FPF C.32.MWA, C.11 |
+| 3 | [HCD.4 — Architect a Balanced Human Capability Profile Across Simultaneous Work](#hcd-4) | Stable | Which contributions should be preserved or developed, and what local model explains possible qualitative changes? | HCD.1 or equivalent qualified input; FPF C.32.MWA, C.11 |
 | 4 | [HCD.2 - Compose and Compare Human Capability-Development Programmes for Later Work](#hcd-2) | Stable | Which feasible development programmes can serve this person's later Work, and how do their complete contributions and burdens compare? | HCD.1, HCD.3 and HCD.4 values or qualified equivalents; FPF C.11.CRC |
 | 5 | [HCD.5 - Select Human Capability-Development Methods](#hcd-5) | Stable | Which development Method plausibly fits the target action, observed or proposed entry conditions, mechanism, task, provider, risk, and evidence need? | Qualified target and starting evidence; HCD.2 when a programme candidate is current |
-| 6 | [HCD.6 - Design Representative Practice Tasks](#hcd-6) | Stable | Which sufficiently whole practice task exposes the target action and critical errors while enabling feedback and correction? | HCD.5 Method requirements; target-domain criteria and safe-task constraints |
+| 6 | [HCD.6 - Design Representative Practice Tasks](#hcd-6) | Stable | Which tasks, help and alternative pathways could develop the target action, and what observation would redirect them? | HCD.5 Method requirements; HCD.4 local model when needed; target-domain criteria and safe-task constraints |
 | 7 | [HCD.6.1 - Help a Learner Discern a Needed Distinction in Practice](#hcd-6-1) | Stable | How can a learner notice a needed difference, use it and distinguish it from a misleading cue? | Subject distinction and action criteria; learner access and starting capability; HCD.6 whole-task use |
 | 8 | [HCD.7 - Arrange Providers, Access, Tools, and AI Support for Human Capability Development](#hcd-7) | Stable | Which exact provider, source, tool, AI, environment, and checking contributions are actually available when needed? | Selected programme, Method or practice contributions; actual access and capacity evidence |
 | 9 | [HCD.8 - Obtain or Build Missing Human Capability-Development Support with Bounded Recursion](#hcd-8) | Stable | Should a missing development contribution be obtained or built, and what operating test establishes it? | One exact HCD.7 gap; direct provider, environment and domain-owner results |
@@ -781,6 +781,8 @@ The practical gain is a profile that preserves strong contributions while exposi
 
 Do not use this pattern to claim current mastery from an aggregate, prescribe curriculum or provider, assert a learning trajectory or transformation, perform ongoing-Work steering, decide employment, safety, legal, clinical, or release matters, or treat an assisting System as the chooser by label alone.
 
+When choosing learning opportunities requires more than a current–target comparison, also construct a **local qualitative model of proficiency** using §§4.2.1–4.3.1. It describes possible ways of acting or reasoning, the conditions that distinguish them, and testable hypotheses about how one might develop into another. The model supplies HCD.6 with something to teach and test. A supported preserve-or-prioritize decision can finish without constructing this additional model.
+
 ### HCD.4:0.1 - Working Terms
 
 | Name in this pattern | What it denotes |
@@ -788,7 +790,11 @@ Do not use this pattern to claim current mastery from an aggregate, prescribe cu
 | capability claim | One condition-qualified claim about a human contribution or interface needed in representative later Work. It is not a course outcome, trait label, or scalar coordinate by itself. |
 | current profile | The set of supported current claim dispositions for one human holder, configuration, conditions, evidence window, and date. |
 | target profile | The set of intended claim dispositions justified by representative later Work. It is not proof that the holder obtained them. |
-| intermediate state | An optional description of a contribution and result boundary between the current and target profiles, under named conditions. Distinguish an intended intermediate target from an observed state. |
+| intermediate state | A proposed way of acting or reasoning that may be useful between a current and target contribution. Its place and attainability need grounds; a convenient middle row establishes neither. |
+| local qualitative model | A revisable account of distinguishable ways of performing a bounded contribution and their relations. A person's current profile locates supported claims within that account, with uncertainty; the account is not the person's actual condition. |
+| learning progression | A model of possible qualitative development under specified instructional and task conditions, with supporting evidence and unresolved relations. A newly proposed progression remains a hypothesis. |
+| learning pathway | A selected, revisable plan of learning opportunities, tasks and help for a person. HCD.2 and HCD.6 use a progression without treating every possible transition as compulsory. |
+| learning trajectory | The recorded history of attempts, help, feedback, observations and supported changes for a person. It may diverge from the selected pathway and reveal defects in the model. |
 | profile difference | The claim-by-claim current-versus-target comparison, including preserved strengths, gaps, uncertainty, support dependence, critical errors, and trade-offs. |
 | bounded profile decision | A lawful `C.11` choice over an already-available option set, supported by the profile comparison and kept separate from authorization, commitment, and later Work. |
 | profile-decision-blocked | A substantive return naming a missing value required for the affected conclusion—scope, evidence, chooser, option, comparison, applicable inquiry input, participation or authority—and its retry condition. |
@@ -854,11 +860,65 @@ For each selected capability claim, record:
 
 Use an aggregate only when the receiving decision does not need any claim identity, asymmetry, critical-error status, support dependence, or uncertainty that the aggregate removes. Keep the underlying rows available whenever an aggregate is used.
 
+##### HCD.4:4.2.1 - Construct Distinguishable Ways of Acting
+
+Use this extension when different accounts of how proficiency develops would change a learning, assessment or next-practice decision. Begin with the claim rows and representative later Work, rather than filling predefined levels. A small model of one consequential contribution is often enough.
+
+**Recover the action and its meaningful differences.** Inspect the domain Method, a worked performance and relevant learner attempts. Ask what the person attends to, how they represent the difficulty, which alternatives they consider, what they do, and how they detect or repair a wrong result. Compare the same contribution under compatible conditions. For example, counting every incoming message and identifying distinct requests before estimating work are qualitatively different strategies, even when a particular dataset makes their totals coincide. Two arbitrary score bands need not describe different strategies.
+
+**Write descriptions that another practitioner can discriminate.** For each candidate way, give the task conditions, the person's action or reasoning, the resulting work product, help allowed, a positive example and a nearby response that would not warrant that description. Include plausible partial or mistaken reasoning when it changes instruction. A person who notices duplicate messages only after a question is different, for this use, from one who independently chooses the appropriate unit. The same person may show either response in different settings. “No admissible evidence” describes the assessor's knowledge; it is not an initial state of the person.
+
+**Choose the grain by the decision.** Split a description when its components can lead to different instruction or different evidence. Join descriptions when the distinction changes neither the task, feedback, inference nor receiving decision. Do not create a node for every sentence of a pattern or a step of its mantra. Conversely, do not compress recognizing a difficulty, selecting a Method and enacting it merely because one task needs all three.
+
+**Separate dimensions before ordering them.** Ask whether one contribution can be available while another is absent or uncertain. Construct or find tasks that expose those combinations: calculation with the unit supplied; unit selection with calculation supplied; and their combination in a whole task. Differences across those conditions warrant separate descriptions for the local decision. They do not establish statistical independence or show that isolated success composes automatically. Preserve interfaces and simultaneous resource demands through §4.3.
+
+**Locate the current and intended profiles with their evidence.** A profile can occupy several condition-qualified descriptions or remain between competing interpretations. Record that uncertainty instead of forcing one label. Keep the desired later-Work performance as the target even when an intermediate instructional task is easier. If personal observations are unavailable, retain a proposed model and target; do not invent that person's starting position, gap or actual passage through it.
+
+##### HCD.4:4.2.2 - Propose and Challenge the Relations
+
+A list of descriptions becomes useful for development when it explains which relationships matter and why. Draw a graph only if it helps retain them; a few sentences or a table can carry the same account.
+
+| Proposed relation | How to construct it | What could change it |
+| --- | --- | --- |
+| A contribution is required during another performance | Inspect the domain action: identify the input or coordinated contribution that must be present, including what a reference, tool or colleague can supply. | A valid alternative Method or supplied contribution removes the supposed personal requirement. |
+| One capability must be available before a particular learning opportunity is usable | Explain what the learner must already notice or do to benefit from that task under its actual help. Distinguish this instructional prerequisite from a requirement of later Work. | A supported route makes the task learnable without that prerequisite, or a learner succeeds through another route. |
+| One learning move may produce a qualitative change | Name the starting way, intended way, learning action, support and proposed mechanism; connect them to domain teaching knowledge, relevant research or prior observations. | Adequate enactment produces no predicted difference, a different change appears, or the change disappears outside the cue that supplied it. |
+| Two ways may develop separately or through different routes | Specify a plausible combination of performances and a task contrast that could distinguish it from one common ordering. | Comparable observations consistently require the missing contribution or expose an omitted shared requirement. |
+| A return or renewed support may be needed | State the changed condition: a more complex task class, lost access, a misconception, fatigue or a delayed difficulty. Name the result the return is meant to recover. | Restoring the condition removes the difficulty, or evidence supports a different cause. Returning to help alone is not evidence of lost capability. |
+
+For each relation used to select a pathway, state whether its basis is domain analysis, a research result with matching conditions, a local observation, or an untested author hypothesis. These grounds support different strengths of reliance. Co-occurrence or a common teaching order does not establish necessity. Success after instruction does not isolate its causal effect.
+
+Make a proposed transition concrete: **for a learner showing this starting response under these conditions, this activity and help are expected to make this different response attainable, because this learning process addresses the observed difference; this observation would weaken or redirect that expectation.** HCD.5 compares development Methods for that process. HCD.6 constructs the actual learning and observation tasks. If the mechanism or starting evidence is too uncertain for a useful proposal, return the particular missing account; an arrow is no substitute.
+
+Keep more than one route when the evidence supports materially different starts, supports or mechanisms. A route can revisit an earlier distinction, maintain an already acquired action while developing another, or use renewed guidance in a harder task class. Retain only relations that matter to the receiving decision. A complete universal map of professional mastery is unnecessary.
+
+##### HCD.4:4.2.3 - Preserve Different Proposals for Learning a Method
+
+When the subject is a Method described by a pattern language, two candidate orderings expose different questions. Use them as hypotheses to examine, rather than as a prescribed scale.
+
+One proposal follows **recognition in a supplied example → explanation of situation, conflicts and mechanism → supported enactment → independent familiar enactment → adaptation in a new context → composition and repair → developing and testing variants, helping others learn and improving the pattern description**. Its useful question is how the person's ways of using a Method differ as demands change. Lack of evidence sits outside this sequence. Composition, repair, variant testing, teaching others and improving the pattern description must each have their own target and observation; they need not form one highest stage.
+
+The other follows **noticing isolated signs → recognizing the conflict among requirements in the situation → selecting an applicable Method → supported enactment → independent action → adaptation and composition in a new context**. Its useful question is how interpretation of the situation makes a Method choice possible. Recognizing a finished example in the first proposal does not establish that a person notices a conflict in an unlabelled situation in the second.
+
+Localize each proposed link. To examine signs-to-conflict, contrast two situations with the same conspicuous sign but different relationships among requirements; ask what action each warrants. To examine conflict-to-selection, retain the difficulty while making a neighboring Method a plausible rival. To examine supported-to-independent enactment, change only the help that supplied the targeted contribution while retaining legitimate later-Work tools. To examine familiar-to-unfamiliar use, identify the consequential novelty and obtain an attempt that does not merely repeat the demonstrated answer.
+
+Compare the proposals against the same work and learner evidence. Keep a useful local order where its grounds survive; split dimensions or allow another route where the evidence distinguishes them. Do not convert either proposal into an unordered vocabulary list, equate the two, or require a person to traverse every distinction before useful work. §§5.5 and HCD.6:5.6 show how a proposed relation changes while the required later-Work result stays the same.
+
 #### HCD.4:4.3 - Compare Without Inventing Order
 
 Apply `C.32.MWA`'s guard against layout substitution. A course sequence, Method hierarchy, Work order, organization chart, or platform dashboard may be a source structure; none is the profile architecture merely because its rows line up with capability names.
 
 Ask which contributions are simultaneous, which interfaces constrain each other, which supported claims must be preserved, which gaps are limiting, and where a local gain moves burden or risk. State the current profile, target profile, difference, priority characteristics, explicit trade-offs, and the recommendation or unresolved question before making a choice.
+
+##### HCD.4:4.3.1 - Test and Revise the Model without Rewriting the History
+
+For a relation that can change the next decision, design an observation whose plausible outcomes favor different accounts. Specify the task, means, relevant first action and inference before interpreting its result. An answer that both accounts predict supplies little discrimination. HCD.11 returns the observation and its limits; it does not make the proposed categories true merely by scoring them.
+
+Distinguish three updates. New evidence may locate this person differently within an unchanged model; it may require a different description, condition or relation in the model; or it may only require changing a task or available help. If a supposedly higher performance appears while its asserted prerequisite fails under comparable conditions, examine the prerequisite claim, the observations and the model's grain. Do not relabel the inconvenient attempt as noise simply to preserve the ladder. If the apparent contradiction comes from an inaccessible task or changed help, repair that comparison before changing the proficiency account.
+
+Use learner explanations and work products to detect a strategy missing from the proposed categories. Where the categories collapse different mechanisms, split them; where two categories never change a relevant inference, consider merging them. Reconsider task validity, scoring and alternative explanations along with the model. Small local evidence can justify a reversible pathway change while leaving a population-wide progression unvalidated.
+
+Keep the earlier observation, its conditions and the model interpretation used at the time. Record the revised interpretation with its reason. Revising a model is a change in an account; claiming that the person learned, forgot or transferred requires evidence about the person. HCD.14 uses this distinction when the model revision also changes the remaining learning arrangement.
 
 #### HCD.4:4.4 - Make a Bounded Choice Under C.11
 
@@ -955,6 +1015,24 @@ K6 is the person-level chooser and participates directly. The current options ar
 
 The explicit `ChoiceRule` selects the option supported for all required contributions before preferring speed. Applied to these rows, it returns **`choose now: O1`**: preserve the present profile; the faster option loses a required contribution. The result keeps the claim rows, options, rule, reason and same-configuration limit. This is the completed profile-priority choice. It neither selects a programme nor authorizes a release, allocation or employment action; those decisions retain their direct owners.
 
+#### HCD.4:5.5 - A Local Model for Selecting the Unit of Work
+
+Coordinator-N24 is fictional. The following tasks, observations and resources are stipulated teaching data, not a measured learning study. N24 must estimate active processing work from request records. In this case each distinct request needs 18 minutes, and each duplicate message adds no further processing. These simplifying assumptions are supplied domain facts; real coordination, queueing and variable request effort require their own model.
+
+The target is to choose the unit appropriate to the requested result, calculate the active effort and state its boundary. In two initial tasks, N24 calculates correctly when given the number of distinct requests. With 80 message records including 20 duplicates, N24 initially uses 80 and returns 24 hours. After a teacher asks which records concern the same request, N24 groups them into 60 requests, returns 18 hours and explains the difference. The first response and the helped correction are separate evidence.
+
+The practitioner constructs this small model:
+
+| Contribution | Candidate qualitative descriptions | Current position and intended change |
+| --- | --- | --- |
+| selecting the unit | follows the salient record label; uses the work request when grouping is prompted; independently chooses and checks the unit against the receiving question | The first two are observed. Independent selection is the target, with uncertainty about cues and context. |
+| carrying out the calculation | needs the unit and operation supplied; applies 18 minutes per distinct request with ordinary calculator access | The second is supported when the unit is given. Preserve it while changing selection. |
+| coordinating the result | reports a number without its scope; relates the estimate to active effort while keeping response time and queue clearance separate | Include that scope distinction in whole-task practice; do not infer it from arithmetic alone. |
+
+Model M0 tentatively orders independent selection by context familiarity: success in new service contexts is expected to come with reliable selection in familiar ticket formats. This cumulative proficiency hypothesis would favor familiar-format practice before moving to new contexts. Its basis is a plausible teaching assumption, not an established prerequisite. M0 also predicts that an explanation of the duplicate/request relation will help selection; the earlier helped explanation has not yet tested independent use. HCD.6:5.6 constructs two routes that could address that difference.
+
+The two candidate orderings lead to different observations: noticing duplicate signs is not yet recognizing the unit conflict; recognizing that conflict is not choosing the relevant operation; supported grouping is not independent selection. Explanation, calculation, selection and qualification of the whole result remain distinguishable. Whether learning them also supports later adaptation or repair needs separate observations. Teaching another person is outside this target, not an automatic next stage. The observation and revision of M0 are developed in HCD.6:5.6.
+
 ### HCD.4:6 - Bias-Annotation
 
 | Recurring bias | Likely drift | Repair |
@@ -975,6 +1053,8 @@ The explicit `ChoiceRule` selects the option supported for all required contribu
 - [ ] Later-Work family, configuration, conditions, horizon, evidence window, receiving decision, and representative simultaneous interfaces are explicit.
 - [ ] Each claim row states contribution, current evidence, target, optional intermediate only when useful, conditions, support posture, observation date, uncertainty, discriminating task/evidence, critical-error boundary, trade-off, and next change point.
 - [ ] Profile descriptions and their comparison or aggregate are distinguished from instructional plans, realized learning trajectory, performed learning Work, and human transformation; occurrence and change claims have corresponding evidence.
+- [ ] When a local progression model is used, qualitative descriptions have discriminating examples; dimensions, task conditions, prerequisites and transition hypotheses retain their different grounds.
+- [ ] The model's consequential relations have an observation that can challenge them, and the result distinguishes updating a person's position from revising the model or pathway. An ordinary supported profile choice needs no additional model.
 - [ ] Any source structure used for the profile is justified by the contributions and mutual constraints in representative Work.
 - [ ] Supported claims to preserve are visible alongside gaps and trade-offs.
 - [ ] An aggregate is used only when it removes no decision-bearing identity, asymmetry, critical-error, support, or uncertainty value.
@@ -1019,6 +1099,12 @@ A serious alternative is the single competency score, role-level matrix, or mast
 
 The selected line does not establish a universal capability state space, threshold, curriculum, development sequence, transfer result, or transformation. Choice requirements come from `C.11`; a decision record documents their application to the case. Direct target-domain sources supply correctness and criticality criteria. Reopen when the holder, later Work, configuration, Method or source edition, support posture, claim set, evidence date, critical-error predicate, trade-off, profile owner, options, chooser, authority, or decision rule changes.
 
+For the additional question, **how can a practitioner construct and revise a local model of qualitative development rather than merely list current and target claims?**, the selected line separates descriptions of proficiency from hypotheses about changing it. [Expanded evidence-centered design](https://doi.org/10.3389/fpsyg.2019.00853) makes that missing connection explicit through a proficiency-change account, task support and change evidence. HCD.4 adapts this construction in §§4.2.1–4.3.1 without requiring a psychometric model for every local decision; it supplies no effect estimate for the proposed teaching move.
+
+[Kaldaras, Haudek and Krajcik (2024)](https://doi.org/10.1186/s40594-024-00516-0), in their account of learning-progression-aligned STEM assessment, distinguish hypothetical progressions from validity evidence accumulated through tasks and responses. Their discussion also treats progression as dependent on instructional conditions. HCD.4 adopts that bounded practice of revising descriptions and relations against observations; their proposed AI assessment architecture does not validate N24's model or an automated mastery judgement.
+
+A serious alternative is a fixed rubric of increasing independence, or an unconnected list of skills. Either can suffice for reporting a bounded performance when its distinctions fit that use. Neither explains why the next activity should produce a particular change. The local construction adds that explanation, alternative routes and a discriminating observation, at the cost of domain analysis and case preparation. The added model is justified only when those distinctions change learning or assessment. Reopen it when a new response crosses the proposed ordering, a supposedly independent dimension depends on another, or a different task or support changes what a description predicts.
+
 ### HCD.4:12 - Relations
 
 - **`HCD.1`:** supplies the same-holder scope and result frame. An equivalent qualified demand account may substitute; an incompatible population profile may not.
@@ -1032,7 +1118,9 @@ The selected line does not establish a universal capability state space, thresho
 - **`A.13`:** receives an unresolved agency claim when an assisting System, coupled arrangement, team, or organization is proposed as chooser.
 - **`E.23.CAE` and `E.23.CDI`:** may supply differential or later development/transfer evidence under their own entry conditions; neither is implied by a profile.
 - **Target-domain and specialist sources:** provide criteria and evidence for correctness, quality, criticality, safety, legal, clinical, and specialist-return questions in the claim rows. Qualified specialists supply professional judgements, and authorized actors make the corresponding decisions.
-- **Programme comparison (`HCD.2`):** may receive priority characteristics and trade-offs as fit criteria for the same person, later Work, and decision. HCD.4 requires no programme-comparison result and does not fabricate programme alternatives.
+- **Programme comparison (`HCD.2`):** may receive priority characteristics, trade-offs and relevant local progression hypotheses as fit criteria for the same person, later Work, and decision. HCD.4 requires no programme-comparison result and does not fabricate programme alternatives.
+- **`HCD.5`, `HCD.6`, `HCD.10`, `HCD.11` and `HCD.14`:** respectively compare learning mechanisms, turn local transition hypotheses into tasks and pathways, select the next practice change, test the claims and relations, and revise the affected model or arrangement. A model does not supply a selected plan or an observed trajectory.
+
 - **Managers and direct decision owners:** retain allocation, assignment, employment, safety, legal, clinical, and release authority; the human holder's participation remains explicit.
 
 ### HCD.4:End
@@ -1127,6 +1215,8 @@ If personal evidence, participation, later Work, or support conditions are missi
 Recover the relevant vertical within each complete task, using FPF B.1.5.EW when the connections are unclear. Ask what the person or available contributors must perform together while the encompassing work is under way. Adequate performance of isolated constituents can leave their coordination unavailable. Keep already attained contributions and include development only for the missing or insufficiently transferable ones. Include the variety of constituent Methods that the intended task variants require; a single rehearsed path may leave the person unable to choose a different continuation. Check shared time, attention, equipment and assistance as a combined demand rather than counting the same available resource separately for every part.
 
 For example, in a stipulated dance case, strength and recall of the figure are adequate but balance during rotation is not. A programme adds suitable rotational-coordination practice and return to the figure under varied relevant conditions; it need not repeat the already mastered strength and recall work. HCD.3 distinguishes that gap from other causes, HCD.6 designs the practice and HCD.10 distributes its variation. A domain practitioner supplies the exercise and performance criterion.
+
+When candidate programmes rely on different ways of developing the same contribution, carry the relevant HCD.4 local model into this comparison. Name which entry evidence makes each route usable, which qualitative change it proposes and what evidence supports the relations it relies on. HCD.6:4.2.1 supplies task and help alternatives; compare their whole learner/provider burden and the observation that could redirect them. Do not count crossed model nodes as equal units of gain or require every candidate to follow one presumed ladder. In the N24 case (HCD.6:5.6), contrast-first and supported-performance-first routes have the same target but different entry reliance, preparation and learning opportunities. The selected plan remains revisable; it is not the person's recorded trajectory.
 
 #### HCD.2:4.2a - Compare a New Start with Unfinished Learning
 
@@ -1439,6 +1529,8 @@ Use the observed action difference, or the stated difference between possible en
 
 Spacing, retrieval, interleaving, cue focus, support fading, and other practice features may refine a candidate when their mechanism matches the target. Their names do not select the Method. HCD.10 chooses the condition-sensitive practice change after the governing Method and observations are present.
 
+If a local proficiency model is being used, connect the candidate mechanism to its proposed transition rather than selecting a Method for a level name. Recover the starting response, the intended difference and the condition that distinguishes them from HCD.4:4.2.1–4.2.2. For N24 (HCD.6:5.6), correct calculation with a supplied unit rules against arithmetic repetition as the present target. Contrast and supported whole performance are serious alternatives for making unit selection available. If later evidence separates cue-dependent selection from cue-resistant selection, reconsider that mechanism and its task; the model's new wording alone is no reason to repeat an unchanged Method. Pass the selected connection and its uncertainty to HCD.6.
+
 #### HCD.5:4.3 - Compare Method Fit and Evidence
 
 For each serious candidate, record:
@@ -1618,6 +1710,8 @@ The practical gain is an interpretable attempt. A practitioner can tell whether 
 
 Do not use HCD.6 to invent target-domain correctness, turn a worked answer into learner evidence, schedule all repetitions, provide unavailable teachers or tools, or assess later capability. HCD.5 supplies the selected development Method; HCD.7–HCD.8 supply needed support; HCD.9–HCD.10 enact and vary practice; HCD.11–HCD.13 interpret performance, transfer, and retention.
 
+When the practical question is how the person could move between different ways of acting, use the local model from HCD.4:4.2.1–4.3.1 or an equivalent qualified account. HCD.6 connects a proposed change to learning activities, help and observations, and can design alternative pathways through it. The model describes possibilities; the selected pathway plans opportunities; the learning trajectory records what was actually attempted and observed. A simple correction can still use one task without a larger progression model.
+
 ### HCD.6:0.1 - Working Terms
 
 | Name in this pattern | What it denotes |
@@ -1691,6 +1785,22 @@ Show what encompassing work is being performed through the target action during 
 
 When the task presupposes a distinction the learner cannot yet notice, HCD.6.1 helps construct an accessible encounter, vary a misleading cue and connect the noticed difference to action. Incorporate that attempt into the task and return to the whole contribution. A preparatory encounter need not remain a step of later performance.
 
+##### HCD.6:4.2.1 - Turn a Proposed Transition into Learning Opportunities
+
+Take one consequential difference from the local model: the starting response, intended response, relevant conditions, proposed relation and uncertainty. Inspect the evidence that locates the learner there. “Intermediate level” is insufficient: name what they would notice, reason or do differently. If the account supplies only labels, return to HCD.4's construction before treating it as a sequence to teach.
+
+**Connect the difference to an action the learner can perform.** Work with HCD.5's selected development Method. If the difference concerns noticing a relation, provide an accessible contrast and an opportunity to act on it; HCD.6.1 develops that encounter. If it concerns explaining a relation, use a worked explanation and the learner's own account of another case. If the needed operation is understood but unstable, provide focused enactment and correction. If separate operations work but their coordination fails, restore a sufficiently whole task with support for the other contributions. State why this activity is expected to address this difference; do not assign all four activities to every learner.
+
+**Construct the help, including its limits.** Identify what the teacher, example, procedural reminder, reference, AI or colleague supplies and what the learner must supply. For complex tasks, distinguish information explaining unfamiliar reasoning from instructions needed at the moment of a routine operation. Offer focused part practice when a recurrent operation actually limits the whole result, then return to its coordination in the whole task.
+
+**Separate task complexity from the person's proficiency.** Group tasks by the features that make their performance demands comparable: number and interaction of contributions, novelty, ambiguity or consequences. In a simple class, a worked example may lead to a completion task and then a whole attempt with less guidance. When another class adds a difficult interaction, guidance may increase again. Task classes organize opportunities; they are not states of the learner. Retain tools and sources needed in later Work, and retain support when withdrawal would remove a legitimate contribution.
+
+**Construct serious route alternatives when they could change the decision.** One route might establish a distinction before a whole attempt; another might start from an already available performance and use its consequential error to make the distinction meaningful. For each, state its entry evidence, intended qualitative change, tasks, support, mechanism, burden, protected contributions and next observation. Explain which evidence or resource condition favors which route. Do not invent a second route solely to fill a table. HCD.2 compares their complete programme contributions when that larger decision is live.
+
+**Pair teaching with an observation that can redirect it.** A learning task can supply the missing move. The later observation must expose whether the learner supplies that move under the conditions being claimed. Specify at least one plausible rival response and what each would change: the learner's position in the model, the proposed transition, the task, the support or the remaining plan. Keep the observation small enough to obtain and useful enough to justify its burden. Learning can occur during an assessment; record feedback and repeated exposure rather than assuming a pure measurement.
+
+The result is a usable connection: **starting evidence → proposed change and its reason → learning activity with allocated help → discriminating observation → continuation or return**. This is a design account. It is not an observed transformation or a guarantee that every learner follows that route.
+
 #### HCD.6:4.3 - Separate Demonstration, First Attempt, and Help
 
 A demonstration or worked explanation should expose the intermediate action the learner will later need: the cue noticed, Method selected, competing alternatives, calculation or transformation, check, remaining uncertainty, and next move. It should not rely on a final answer whose reasoning remains hidden.
@@ -1722,6 +1832,14 @@ Let the learner use the feedback to correct the affected action, on the same cas
 
 Practice feedback and later assessment serve different uses. HCD.9 records the feedback and next attempt as practice history. HCD.11 decides what a condition-qualified performance attempt can support, including the effect of help and contamination.
 
+##### HCD.6:4.5.1 - Keep the Model, Pathway and Trajectory Separate
+
+Return the proposed tasks and conditional alternatives to the learning plan. A selected pathway says which opportunity is next, which help and resources it uses, what would make another route preferable and when to reconsider. HCD.10 chooses and distributes the actual next practice change from the available observations; it need not advance to a new state after every exercise.
+
+Keep actual attempts, help received, feedback and outcomes in the HCD.9 practice history. HCD.11 interprets the observations, and HCD.14 revises the affected model or arrangement. If a response contradicts the supposed order of states, inspect that relation and the task conditions before advancing, demoting or repeating by label. The plan may change while the model remains useful; the model may change without evidence that the person changed. Neither update rewrites the earlier attempt.
+
+For example, a teacher may plan explanation before independent performance, yet observe independent selection in a new context alongside failure in a familiar one. That can expose a missing cue condition in the model. It does not necessarily call for harder tasks, more arithmetic or a claim of general transfer. The connected case below makes the differing returns explicit.
+
 #### HCD.6:4.6 - Record the Representative Practice Set
 
 | Result position | Required content |
@@ -1732,7 +1850,7 @@ Practice feedback and later assessment serve different uses. HCD.9 records the f
 | human and support allocation | Human contribution, permitted references, tools, AI, prompts, peers, teachers, specialists, authority, and the required human check. |
 | materials and work products | Data, descriptions, models, reports, calculations, decisions, explanations, or other artifacts needed and returned by each task. |
 | criteria and feedback opportunity | Success, warranted uncertainty, critical error, stop conditions, feedback source and content, and retry condition. |
-| progression or return | What observation permits less help, greater complexity, another variation, or later assessment; what returns to Method selection, diagnosis, support, domain truth, or task redesign. |
+| progression or return | What observation permits less help, greater complexity, another variation, or later assessment; what returns to Method selection, diagnosis, support, domain truth, or task redesign. Where a local progression model is used, retain the proposed transition, its grounds, any decision-relevant alternative route, and observation that can revise the model or pathway. |
 | evidence-purpose limit | Which attempt is demonstration, supported practice, independent practice, correction, or later observation, and which stronger learning, transfer, retention, or effectiveness claim remains unestablished. |
 
 The result is complete when another competent practitioner can present the intended task and help, identify the target action in the work product, apply the domain criteria, and choose the stated feedback, correction, progression, or return without reconstructing the design from private notes.
@@ -1791,6 +1909,42 @@ A trainee must enter a measurement and its unit in an inspection record. The tea
 
 That corrected entry is a useful supported practice result. When the later question is whether the trainee independently preserves units on a new reading, supply another reading and withhold the answer-bearing worked row. If later work also requires unit conversion, a separate variant can ask for **0.0024 V** to be entered in a column marked **mV**, whose correct value is **2.4**. Select that variant only for the conversion target. Each task keeps its own help and conclusion; the design alone establishes no learner performance.
 
+#### HCD.6:5.6 - Two Pathways and an Observation that Changes the Model
+
+Continue the fictional Coordinator-N24 case in HCD.4:5.5. The domain criterion is to count distinct work requests, multiply by the supplied 18 minutes per request and qualify the result as active processing effort. Ordinary source tables and a calculator remain available. A teacher may help during learning; during the later observation no teacher or AI supplies the unit choice. N24's calculation with a supplied unit is already supported, so neither route reteaches multiplication.
+
+The practitioner has two plausible development Methods: comparison of contrasting cases followed by explanation and practice, or supported whole-task completion followed by explanation of its consequences. Both are hypotheses for this learner, with different routes to making unit selection available.
+
+| Pathway candidate | Learning tasks and intended change | Help, observation and complete local burden |
+| --- | --- | --- |
+| A — contrast before the whole attempt | Compare two 80-record tables: one represents 80 distinct requests and the other 60. Explain why the same visible record count can mean 24 or 18 hours. Then select the unit and produce the estimate on another whole task. The proposed change is from following the record label to using the relation between records and work requests. | Ten minutes of contrast, fifteen of whole-task practice, ten of feedback and correction, twenty for four fresh observations, five for a return: 60 learner minutes. The teacher's full participation plus twenty preparation minutes costs 80 teacher minutes. |
+| B — supported whole performance before explanation | Begin with a partly completed allocation in which grouping by request key is demonstrated. N24 completes the estimate, compares it with the raw-record estimate, explains the consequence, then performs another whole case as grouping help is removed. The proposed change uses available calculation to make the need for selection apparent in a completed result. | Fifteen minutes of worked completion, twenty of whole-task practice, fifteen of correction, twenty for the same fresh observations and ten for return: 80 learner minutes. Full teacher participation plus thirty preparation minutes costs 110 teacher minutes. |
+
+Both fit the stipulated ninety learner minutes and 120 teacher minutes. N24 and the responsible teacher choose A within that authorized practice allocation: existing calculation makes its smaller preparation and practice burden credible, and there is no current evidence that B's additional guided completion is needed. The shared preference is to obtain independent unit selection while preserving calculation and the effort-only boundary, then prefer lower burden. Expected learning effectiveness remains uncertain; A is a reversible choice, not a demonstrated winner. B remains a supported alternative if the contrast cannot be understood or acted upon from the learner's present preparation. A learner unable to complete the operation even with the unit supplied would need a different entry and comparison.
+
+In the constructed history, A's learning and correction tasks are completed. N24 can explain the relation in the paired tables. The four fresh observation tasks then vary **service context and salient heading separately**. The record identities and duplicate groups are new, including where totals repeat. Each has the request keys and record details needed to distinguish duplicates; each asks for active processing effort. Request rate, delay and queue clearance are outside the question. The teacher observes the first unit choice and calculation and gives no correction until all four first attempts are recorded. In all four recorded responses, N24 explicitly labels the reported quantity as active processing effort and makes no claim about response time or clearing the queue; this preserves the separate scope criterion even when the chosen count is wrong.
+
+| Fresh task | Stipulated data and correct result | N24's constructed first response |
+| --- | --- | --- |
+| Familiar ticket service, salient “records” heading | 80 records, 60 distinct requests: 18 hours | Counts 80 and reports 24 hours. |
+| New equipment-service context, salient “requests” heading | 72 records, 50 distinct requests: 15 hours | Uses request keys, counts 50 and reports 15 hours. |
+| Equipment service, salient “records” heading | 70 records, 60 distinct requests: 18 hours | Counts 70 and reports 21 hours. |
+| Ticket service, salient “requests” heading | 48 records, 40 distinct requests: 12 hours | Uses request keys, counts 40 and reports 12 hours. |
+
+Calculation is correct for each chosen number. Independent selection varies with the salient label in both contexts. Model M0's single familiar-before-unfamiliar ordering cannot adequately describe this profile: N24 shows the intended selection in an unfamiliar context while still missing it in a familiar one. The evidence does not identify a causal label effect or establish population-wide independence; order, case differences and the small sample remain limits. For this local decision, it warrants replacing one familiarity-based position with descriptions that retain the cue condition.
+
+Model M1 therefore distinguishes **selection when a compatible cue highlights the unit** from **selection that withstands a misleading record cue**, while retaining calculation and whole-result qualification separately. It drops the assumption that a successful new-context response entails reliable selection in familiar formats. The new transition hypothesis is that comparing incompatible labels with request identities, followed by a learner-generated unit check, may make selection less cue-bound. A fresh task with a misleading heading can weaken that hypothesis. An invalid or ambiguous request table would instead return for task repair.
+
+This changes the remaining pathway. The teacher proposes a twenty-minute addition for cue contrast, correction and a fresh first response; five preparation minutes and fifteen contact minutes take twenty teacher minutes, with the remaining five learner minutes used for an independent attempt. The resulting 80 learner minutes and 100 teacher minutes remain within the original allocation. The practitioner preserves the supported arithmetic and target; simply moving to a harder domain or repeating arithmetic would not address the observed difference. If the new attempt still follows the misleading cue, return to the interpretation and learning mechanism; do not force a higher label. HCD.14 owns that bounded revision.
+
+The three accounts now differ visibly:
+
+- **Model:** M1's condition-qualified descriptions and revised relation, including an untested cue-resistance transition.
+- **Selected pathway:** A, revised to include the proposed twenty-minute cue-focused opportunity instead of an assumed next harder stage.
+- **Trajectory so far:** initial independent miss, helped grouping and correction; then A's learning attempts, explanation and four recorded fresh responses. Sixty minutes of the selected allocation have occurred. The new twenty-minute opportunity has not yet occurred.
+
+The case shows model and plan revision without claiming that the revision itself changed N24. The new-context responses are local evidence; broader transfer, delayed retention and causal programme effectiveness remain separate questions.
+
 ### HCD.6:6 - Bias-Annotation
 
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: representative practice-task design for a named human contribution or an explicitly conditional future-audience branch.
@@ -1820,6 +1974,8 @@ Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: representat
 - [ ] Feedback names the affected criterion and next action. Same-case correction is distinguished from a later changed-case observation of recognition or adaptation.
 - [ ] Learner and provider resources include task, feedback, correction, and retry; an oversized case returns for redesign.
 - [ ] The result states progression or return conditions and distinguishes demonstration, supported practice, independent practice, correction, transfer, retention, and effectiveness uses.
+- [ ] Where a qualitative transition is proposed, its starting evidence, intended change, activity, allocated help, mechanism and discriminating observation are connected; a level label alone does not design practice.
+- [ ] Any serious alternative pathway has entry and resource grounds. The model, selected plan and recorded trajectory stay distinct, including after an observation changes the model.
 
 ### HCD.6:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -1858,9 +2014,11 @@ Brunmair and Richter's 2019 meta-analysis ([`COG-03`](https://doi.org/10.1037/bu
 
 The selected line costs more domain and case-design effort than renaming exercises, but it preserves action interpretability, legitimate support, critical errors, and the opportunity to learn from a changed result. Reopen it when stronger sources alter the whole-task, worked-support, variation, AI-help, or transfer boundary, or when representative use shows a lower-effort task design that preserves the same decision-bearing relations and evidence value.
 
+For constructing a pathway from a qualitative model, [van Merriënboer's 4C/ID overview (2019)](https://www.4cid.org/wp-content/uploads/2021/04/vanmerrienboer-4cid-overview-of-main-design-principles-2021.pdf) supplies a developed comparison: task classes organize increasing complexity, with guidance reduced within a class and renewed when a harder class begins. HCD.6 adapts that design distinction in §4.2.1; a class of tasks is not a developmental state. [Expanded evidence-centered design](https://doi.org/10.3389/fpsyg.2019.00853) supplies the complementary connection from a proposed proficiency change to task support and observations. It does not establish which route works for N24. Compared with simply increasing difficulty after success, the construction exposes why a task and help might change the targeted response and what would redirect them. The additional preparation is warranted when that distinction changes the next learning opportunity; ordinary same-case correction still needs no complete progression model.
+
 ### HCD.6:12 - Relations
 
-- **`HCD.1`, `HCD.3`, and `HCD.4`:** can supply the later-Work demand, qualified target, current evidence, protected strengths, and priority conditions.
+- **`HCD.1`, `HCD.3`, and `HCD.4`:** can supply the later-Work demand, qualified target, current evidence, protected strengths, and priority conditions. HCD.4:4.2.1–4.3.1 also constructs and tests a local qualitative model when the pathway needs it.
 - **`HCD.2`:** can expose a programme component and task closure needing elaboration; HCD.6 does not select the programme.
 - **`HCD.5`:** supplies the selected development Method, proposed mechanism, learner/task fit, support need, and evidence plan.
 - **`HCD.7`:** establishes whether the required provider, source, tool, AI, access, environment, and human-check contributions are available.
@@ -1868,7 +2026,7 @@ The selected line costs more domain and case-design effort than renaming exercis
 - **`HCD.9`:** enacts the tasks, feedback, correction, and retries while recording the practice history.
 - **`HCD.10`:** selects variation, spacing, interleaving, progression, or support change across practice episodes; HCD.6 supplies the meaningful task conditions.
 - **`HCD.11`–`HCD.13`:** interpret condition-qualified performance, transfer, retention, and tool dependence; a task design or answer key is not those observations.
-- **`HCD.14`:** can revise the affected task, criterion, help, or progression condition from compatible evidence.
+- **`HCD.14`:** distinguishes a changed learner position, a revised proficiency model and a revised learning arrangement, and can change the affected task, criterion, help or progression condition from compatible evidence.
 - **LG.05 and other learning-product practices:** can explain and package a selected task; pedagogical presentation does not select the target relation or establish professional correctness.
 - **Target-domain, safety, clinical, legal, employment, provider, privacy, and specialist practices:** retain correctness, hazard, participation, authority, and consequence decisions.
 
@@ -2981,6 +3139,10 @@ Use a rule rather than a ladder label. For example: after a successful independe
 
 Pause, reverse, or redesign when error becomes unsafe, the learner cannot yet perform the basic operation, support removal changes the intended later task, feedback cannot be used, or the observation no longer distinguishes the progression assumption. No fixed fading path or difficulty increase is required.
 
+When HCD.4's local qualitative model guides the next episode, name the particular relation being used and the observation that supports this learner's current position. Distinguish an opportunity to test the proposed transition from an opportunity to consolidate a contribution already shown. Greater task complexity, less guidance and a different qualitative strategy are different changes.
+
+Use the HCD.6 pathway as a revisable plan. Renewed help in a harder task class can enable learning while an earlier independent contribution remains supported. A response that crosses the proposed ordering, as in N24's unfamiliar-context success alongside familiar-context failure (HCD.6:5.6), calls for interpretation of the model and cues before selecting the next harder class. Return the evidence to HCD.11 and any action-changing model revision to HCD.4/HCD.14. Do not force the response into a level simply to preserve the schedule.
+
 #### HCD.10:4.7 - Differentiate Apparent Failure before Assigning More Practice
 
 When different explanations would lead to different next Work, ask whether the learner failed to recognize applicability, access the needed response or source, express the result, adapt the Method, enact the action, or operate under the changed support. Apply E.23.CAE when its differential is available and material. Its result informs the HCD decision; it does not choose the practice change.
@@ -3188,6 +3350,10 @@ Obtain domain criteria from a current qualified Method, result or competent spec
 Select tasks for consequential variation: for example a matching and a mismatching source, a feasible and an infeasible resource condition, or an ordinary and an exceptional coordination demand. Explain why the selected sample is sufficient for the receiving decision. There is no universal number of tasks. If a rare but consequential condition is untested, exclude it from the claim or obtain the relevant evidence before stronger reliance.
 
 Return a missing criterion, unsuitable task or unavailable competent assessor before judging the person. These are assessment defects, not performance failures.
+
+When assessing a proposed relation in a local proficiency model, name that relation as well as the person's performance claim. Use HCD.4:4.3.1 to identify outcomes that would distinguish the present model from a serious alternative. A task answered correctly under either account does not test their difference.
+
+For example, a familiar-before-unfamiliar ordering and a cue-dependent-selection account predict different combinations across familiar and unfamiliar tasks with compatible and misleading cues. The N24 tasks in HCD.6:5.6 expose those combinations while retaining unit-selection and calculation judgements separately. Task differences, order and help must remain inspectable; four local responses do not validate a general developmental sequence. Return whether the observations fit the proposed descriptions and relations, require a local revision, or fail to discriminate them. This is distinct from locating the person in an unchanged model.
 
 #### HCD.11:4.3 - Observe the attempt without hiding help
 
@@ -3683,7 +3849,7 @@ Target-domain criteria and specialist results remain necessary for correctness. 
 
 The first useful result is a **bounded revision hypothesis**: a specific change to the arrangement, the contribution it is expected to improve, what remains protected, and the next observation that could retain, adapt or reject the change. A compatible result from HCD.11, HCD.12 or HCD.13 can be sufficient; the three are not obligatory stages.
 
-An arrangement includes the tasks, practice, feedback, sources, tools, provider and other conditions through which development is attempted. The Method revises the smallest justified part of that arrangement. It does not treat every disappointing result as a reason to rebuild a course or select a new life or career direction.
+An arrangement includes the tasks, practice, feedback, sources, tools, provider and other conditions through which development is attempted. Its design may also rely on a local model of proficiency and possible changes. Distinguish a revised claim about the person, a revised model and a revised learning plan before changing the smallest justified part of the arrangement. A disappointing result alone is not grounds for rebuilding a course or choosing a new life or career direction.
 
 Do not proceed from a score with no recoverable contribution or observation. Obtain the missing evidence first. If the live question is clinical treatment, professional correctness, safety, employment action or an unavailable domain Method, return it to the responsible specialist or owner. A new source edition alone does not establish deterioration in the person.
 
@@ -3729,6 +3895,21 @@ Ask what else could explain the discrepancy and what different action each expla
 A short inspection may settle a known missing source or incorrect criterion. Use HCD.3 when the limiting human target remains unresolved. Use a qualified E.23.CAE differential when access, selection, adaptation, enactment or apparent loss can be distinguished and the distinction changes the next action. Do not add a causal investigation when the current evidence already supports an affordable reversible test and no live rival changes its safe scope.
 
 A small testable revision may follow one well-observed miss. Label it a hypothesis, retain the rival explanation and choose a test that can disconfirm it. Evidence too weak even for that bounded change returns a specific observation to obtain.
+
+##### HCD.14:4.2.1 - Decide Whether the Model or the Pathway Must Change
+
+A surprising result can change different things. Use the observation and its conditions to identify the affected claim before prescribing another exercise.
+
+| What the observation changes | Appropriate revision |
+| --- | --- |
+| Evidence for this person's current contribution, while the descriptions and relations still fit | Update the current profile and retain the model. Use the new position to choose a needed continuation. |
+| A category merges different strategies, a purported prerequisite is bypassed, or an omitted condition explains contradictory positions | Return the local model to HCD.4:4.2.1–4.3.1. Revise the description or relation and identify which pathway assumptions used it. |
+| The model remains useful but the selected task, help, provider, time or learning mechanism does not fit | Revise the affected pathway or arrangement through HCD.5–HCD.10 while preserving the supported model claims. |
+| The observation itself is defective or cannot distinguish the rival accounts | Repair the assessment through HCD.11 or retain the unresolved relation; do not manufacture a developmental change. |
+
+For a model revision, say what the earlier model predicted, which observation it cannot accommodate adequately, what the replacement distinguishes, and what could challenge the replacement. Reconsider dependent learning opportunities without reopening unrelated contributions. A plausible revised model may support a bounded next trial while its broader developmental claims remain untested.
+
+Keep the actual trajectory intact: the tasks attempted, help received, first responses and later corrections retain their original conditions. Add the new interpretation and subsequent plan. Neither rewriting the model nor revising a curriculum demonstrates that the person acquired or lost capability.
 
 #### HCD.14:4.3 - Specify the positive revised arrangement
 
@@ -3803,6 +3984,12 @@ No result of the proposed revision is assumed. The test has the following condit
 | Further qualified observations show several tasks depend on the same missing prerequisite | Enlarge the target or arrangement question through the appropriate diagnostic and Method owner. |
 
 A later HCD.13 result may update the hypothesis if delay or support dependence becomes relevant. It is neither a prerequisite for this first revision nor proof that the revision caused the later result.
+
+#### HCD.14:5.3 - Revise a Proficiency Relation before Advancing a Pathway
+
+In the constructed N24 case (HCD.4:5.5 and HCD.6:5.6), independent selection succeeds in a new service context and fails in a familiar one; across four tasks the response also differs with the salient label. Retaining a single familiar-before-unfamiliar position would conceal the difference that changes the next teaching move.
+
+The local revision separates cue-compatible selection from selection under a misleading cue, drops the assumption that new-context success entails reliable familiar-context selection and preserves arithmetic. The new hypothesis proposes cue contrast and a learner-generated unit check. Its proposed twenty-minute opportunity fits the remaining learner and teacher allocation; a fresh misleading-heading task could challenge it. The observed history still contains the earlier misses and successes. This is a model revision with a consequent pathway change, not a claim that the rewritten model taught N24 or that the new activity has already worked.
 
 ### HCD.14:6 - Bias-Annotation
 
