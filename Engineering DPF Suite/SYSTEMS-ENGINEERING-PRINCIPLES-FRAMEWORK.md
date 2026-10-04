@@ -1939,7 +1939,7 @@ detail. Existing scenarios and slices can supply that content directly.
 | --- | --- | --- | --- |
 | Current use-case practice starts from user goals, admits human and nonhuman participants and failure paths, and revises end-to-end slices as work proceeds. Model-based system-architecture practice connects use cases to candidate functional groupings and interfaces. | The Solution starts with a concrete use situation and keeps success, failure, participants, behavior, and the system-concept claim connected while both change. | Jacobson et al., *Use-Case 3.0: The Definitive Guide — Refreshed* (2024); Weilkiens et al., *Model-Based System Architecture*, 2nd ed. (2022). These are provider and textbook Methods, not comparative proof of one universal sequence. | **Adopt and adapt.** Use revisable slices and explicit links to candidate functioning; choose the representation form for the receiving engineering decision. |
 | Agile and continuing requirements research treats models, requirements, traceability, monitoring, and compliance links as maintained parts of changing work rather than one frozen preliminary package. | The linked proposal stays revisable, and representations are chosen for the decision and maintained only while they continue to carry useful claims. | Liebel and Knauss, [*Aspects of modelling requirements in very-large agile systems engineering*](https://doi.org/10.1016/j.jss.2023.111628) (2023; [author preprint](https://arxiv.org/abs/2209.01993)), report one Ericsson case, including model-maintenance and tool trade-offs. [SYSE.11:11](#syse1111---sota-and-source-use) gives the distinct source scopes and references for Hernández, Moros and Nicolás (2023), Norheim et al. (2024), and Kosenkov et al. (2025): DevOps requirements management, LLM requirements tasks, and regulatory compliance. | **Adapt.** Maintain useful claims and choose representations by use; let the receiving project determine how requirements Work is organized. |
-| Product-service system and servitization research treats useful offerings as configurations of products, service Work, provider and customer relations, capabilities, operations, digital support, and consequences. Reported performance is mixed and configuration-dependent. | The Solution compares actual or proposed changes to the designated System, external Systems, interfaces, and Work arrangements and asks for the specialist results that make those alternatives credible. | [SYSE.8:11](#syse811---sota-and-source-use) gives the primary references and bounded contributions of Brambila-Macias, Sakao and Kowalkowski (2018), Braga Junior, de Toledo and González (2020), Kim (2020), Brax et al. (2021), Åkesson et al. (2024), Menon et al. (2024), and Zhao et al. (2025). | **Adapt.** Use the cross-boundary design pressure; establish each System, Work, provider relation, Method, and consequence directly in the receiving project. |
+| Product-service system and servitization research treats useful offerings as configurations of products, service Work, provider and customer relations, capabilities, operations, digital support, and consequences. Reported performance is mixed and configuration-dependent. | The Solution compares actual or proposed changes to the designated System, external Systems, interfaces, and Work arrangements and asks for the specialist results that make those alternatives credible. | [Brambila-Macias, Sakao and Kowalkowski (2018)](https://doi.org/10.1017/dsj.2018.3), [Braga Junior, de Toledo and González (2020)](https://doi.org/10.4322/pmd.2019.017), [Kim (2020)](https://doi.org/10.1017/dsj.2019.30), [Brax et al. (2021)](https://doi.org/10.1108/IJOPM-08-2020-0535), [Åkesson et al. (2024)](https://doi.org/10.1108/JMTM-11-2021-0457), [Menon et al. (2024)](https://doi.org/10.1016/j.jclepro.2024.142459), and [Zhao et al. (2025)](https://doi.org/10.1016/j.jclepro.2025.146690). [SYSE.8:11](#syse811---sota-echoing) develops the bounded offering/provider comparison. | **Adapt.** Use the cross-boundary design pressure; establish each System, Work, provider relation, Method, and consequence directly in the receiving project. |
 
 A serious alternative is a progressive use-case slice following the
 [Use-Case 3.0 guide](https://www.ivarjacobson.com/files/use-case_3.0_v1.0.pdf). It starts with a user goal and can
@@ -3792,9 +3792,9 @@ The everyday words in this field are overloaded. Recover the object or relation 
 | promise content | A consumer-facing `U.PromiseContent` episteme stating the promised outcome, applicability, access terms when access is promised, and acceptance claims. Ground the provider, Method, Work occurrence, and any commitment through their own relations. |
 | supplied or accessed subject | The product, asset, material portion, data, episteme, capability access, or other subject transferred, changed, accessed, or made available. It need not be a System. |
 | provider System | An actual System that participates in a named provider relation, is classified under a local provider SystemRole kind, or holds an assignment under that kind. A department or company name is only a clue until the underlying System and relation are identified. |
-| provider arrangement | The Systems and relations through which provision is expected to happen. Its account names actual providers and partners, possible-future provider referents, their assignments and other relations, and the capabilities, Methods, Work, interfaces, resources, and enabling Systems needed for provision. Claims about duty, risk, and evidence remain separate. |
-| integrated offering concept | The engineering proposal that connects client-side use, promise content, supplied or accessed subjects, engineered Systems, provider arrangement, realization needs, evidence, and reopen conditions. This is a local collective name; the FPF kinds of its participants remain unchanged. |
-| fulfilment or acceptance claim | A claim that evaluates evidence about performed Work, affected subjects and states, and the relevant direct relations against the promise content. Treat the promise, payment, fulfilment, and acceptance through their own relations. |
+| provider arrangement | The Systems and relations through which provision is expected to happen. Its account distinguishes actual providers and partners from possible-future provider referents. |
+| integrated offering concept | The engineering proposal connecting a bounded offering to the provider arrangement needed for the receiving use. This local collective name preserves the kinds of its participants. |
+| fulfilment or acceptance claim | An assertion of whether specified promise content was fulfilled or a named acceptance occurred, under stated conditions and within a declared window. An evaluator assesses evidence and reaches the judgement. The assertion and the underlying fulfilment or acceptance remain distinct. |
 
 Bare *service* is a recognition cue. At a consequential use, apply the FPF service-word recovery in
 `A.6.P:4.11a` and name the recovered referent or relation. A local `ProviderSystemRole` kind, an assignment
@@ -3846,10 +3846,15 @@ The engineering decision must manage these recurring tensions:
 
 ### SYSE.8:4 - Solution
 
-Develop several client-use and provider-arrangement candidates together. For each candidate, distinguish the
-promise content, supplied or accessed subjects, Systems, assignments, Methods, Work, responsibility and
-authority claims, evidence, economic claims, and consequences that matter to the decision. Name the engineering
-decision that consumes each choice and the specialist practice that must answer each specialist question.
+Develop client-use and provider-arrangement candidates together. Name the engineering decision that consumes
+each choice and obtain needed specialist results from the responsible practice.
+
+First inspect available accounts of this use. Reuse one that already connects plausible alternatives, the
+provider's and client's decision-relevant Work, and applicable grounds to the receiving decision. If a missing
+connection can change the choice, develop that connection through :4.1 and preserve unaffected grounds. When
+the receiving use or the range of possible arrangements is itself unsettled, use the relevant PSS design work
+in :11 to generate candidates before qualifying them for the engineering decision.
+
 
 #### SYSE.8:4.1 - Perform the Move
 
@@ -3858,15 +3863,17 @@ decision that consumes each choice and the specialist practice that must answer 
    when they fit that subject, configuration, use, horizon, decision, and evidence window. Otherwise use a
    qualified direct source or record the missing result, then pause only the decision that needs it. These result
    dependencies do not prescribe the order of Work.
-2. **Recover the promise.** State the consumer-facing promise content, eligibility or applicability, access
-   terms when access is promised, acceptance conditions, and evidence needed to evaluate fulfilment. Keep each
-   actual commitment, permission, delivery relation, acceptance relation, payment, and Work occurrence separate.
+2. **Recover the promise.** State the consumer-facing promise content and its edition, eligibility or
+   applicability, access terms when access is promised, acceptance conditions, and the evaluation Method and
+   evidence needed to evaluate fulfilment. Keep each actual commitment, permission, delivery relation,
+   acceptance relation, payment, and Work occurrence separate.
 3. **Name the subject.** Identify what is transferred, accessed, changed, used, restored, or kept within a
    stated range or condition: for example, a machine, material lot, software edition, data, access point, temperature range,
    stock state, or performed Work. Keep non-System subjects in their recovered kinds.
-4. **Generate materially different candidates.** Compare plausible arrangements such as product transfer with
-   support, access or use provision, continuing availability responsibility, result-oriented provision, and
-   mixed forms. Retain variety when evidence can still change the choice.
+4. **Compare materially different candidates.** Reuse applicable alternatives and generate further ones when
+   an unresolved decision needs them. Plausible arrangements include product transfer with support, access or
+   use provision, continuing availability responsibility, result-oriented provision, and mixed forms. Retain
+   variety when evidence can still change the choice.
 5. **Develop the provider structure.** For each candidate, identify the actual provider and partner Systems.
    Represent a provider that does not yet exist only as an intended referent in a possible-future claim. Record the
    relations and assignments that obtain. Then name the capabilities, Methods, recurring and exceptional Work,
@@ -3904,60 +3911,101 @@ decisions.
 
 #### SYSE.8:4.2 - Record the Result
 
-The smallest useful offering-and-provider account contains:
-
-| Field | Required content |
-| --- | --- |
-| client-side use | Receiving Systems, intended change, use situation, configuration, horizon, and current decision. |
-| promise and acceptance | Promise-content edition, applicability, access terms when access is promised, acceptance claims, evaluation Method, and required evidence. |
-| subjects | The supplied, accessed, changed, or maintained subjects named by the proposal—for example, products, Systems, assets, material portions, data, epistemes, states, access, or Work. |
-| candidate arrangements | Materially different arrangements—for example, transfer, access, continuing provision, responsibility for a result, or a mixed form—and each candidate's current disposition. |
-| provider structure | Actual provider and partner Systems; named possible-future provider referents; the relations and assignments that obtain; and the capabilities, Methods, Work, interfaces, resources, data, shared enabling Systems, and recovery arrangements needed for provision. |
-| expected Work, responsibility, and risk | Planned or performed Work, intended or actual performer Agents as applicable, result-restoration actions, asset custody or ownership, variability and failure exposure, and separately supported responsibility, obligation, permission, remedy, or authority claims. |
-| realization and change | Required realization and change Work, the Systems it uses or changes, configuration and update conditions, provider-capability changes, dependencies, and unsupported feasibility claims. |
-| specialist returns | The needed specialist result and its receiving use—for example, a commercial, financial, legal, organizational, operational, supporting-System engineering, safety, security, or environmental result. |
-| evidence and consequences | Decision-relevant evidence and its limits—for example, evidence about fulfilment, use, performance, cost, value, burden, benefit, harm, or consequences for affected Systems. |
-| receiving engineering use | Selected or retained concepts, the architecture or realization decisions that use them, and reopen conditions. |
-
-An initial account needs the client-side use and decision, one promise claim, the supplied or accessed
+For a new account, begin with the client-side use and decision, one promise claim, the supplied or accessed
 subject, one actual provider System or named possible-future provider referent, one critical Work or direct
-relation, and one
-evidence gap or receiving decision. Other fields may say *not yet needed* when they cannot change the current
-candidate. Mark an unavailable answer as *unknown* when the decision depends on it, and name what it blocks. The result may use several
-representations. A publication or representation—for example, a canvas, contract draft, architecture view,
-service blueprint, financial model, or operations account—is one source. Ground the provider arrangement from
-its actual Systems and relations.
+relation, and one evidence gap or receiving decision. An adequate existing result can be referenced and used
+directly; adopting this Method does not require recopying it.
+
+Expand this account through the moves in :4.1 only where another fact can change the current candidate.
+Details that cannot yet change it may remain *not yet needed*. Mark a needed but unavailable answer as
+*unknown* and name the claim or decision it blocks. The account can use several representations; use those
+descriptions as sources and ground the provider arrangement in its actual Systems and relations.
+
 
 #### SYSE.8:4.3 - What Changes in Practice
 
-The practitioner treats transfer as one boundary in a longer provider arrangement and recovers the objects and
-relations hidden by *service*. The account keeps client-side use, promise content, subjects, technical
-architecture, provider capability, continuing Work, responsibilities, evidence, and change distinct while
-connecting them to the same engineering decision.
+The practitioner follows the receiving use beyond product transfer, exposes the provider's continuing Work and
+the burden passed to the client, and returns their consequences to the engineering decision.
+
 
 ### SYSE.8:5 - Worked Case: Cast-Iron Transfer, Delivery, or Replenishment
 
 A foundry organization and a machining company must decide how an accepted grey-cast-iron lot will reach the
-machining plant. The lot is a material portion, not a System. The two organizations compare three provider
-arrangements for the same machining use, material specification, unloading point, and planning horizon.
+machining plant. The lot is a material portion, not a System. They compare three arrangements for the same
+machining use, material specification, unloading point, and planning horizon.
 
 A commercial lead may decide price and credit and select an arrangement only after an operations coordinator
 accepts its schedule. Each person has a current assignment and a separate authority relation. The assignments
 identify their project participation; they do not create authority.
 
-| Candidate | Promise and subject | Provider arrangement | Evidence and decision |
-| --- | --- | --- | --- |
-| **Gate transfer** | The accepted lot will be available at the foundry gate. | The foundry organization performs production Work; the machining company arranges transport from the gate. | Current lot and gate records support availability. The operations coordinator accepts the handover window. The current gate quote is EUR 40,000 with payment due in 30 days. The machining company would also pay EUR 1,800 for haulage within 7 days and perform eight staff-hours of pickup and exception coordination, valued at EUR 50 per hour under `CommercialComparisonRule-2`. The commercial lead retains gate transfer as the low-provider-burden alternative for the foundry, while recording the transport burden received by the machining company. |
-| **Scheduled delivery** | The accepted lot will reach the plant's unloading point between 08:00 and 12:00 on the agreed day. | `ForgeHaul-A` is the proposed logistics-provider System. `Truck-12` is the intended transport bearer, and a driver selected under the qualified-driver condition is the intended Agent for the planned transport Work. The proposed `PlantHandover-and-Acceptance-Lot-27` relation keeps custody with the foundry until handover at the unloading point and lets the machining receiver accept only the identified lot, seal, mass, and visible condition against `LotAcceptanceRule-7`. Under proposed `DeliveryExceptionRecovery-Lot-27`, the provider dispatcher must arrange a replacement truck within four hours after a truck failure before handover. No transport, handover, acceptance, or recovery Work has yet occurred. | Operations coordinator `OC-4` performed delivery-assessment Work by applying the plant's delivery-planning Method. The resulting `DeliveryScheduleAssessment-Lot-27` uses the current carrier roster, unloading calendar, and ten recent runs on the same route: nine arrived inside a four-hour window, and one truck failure was recovered with a replacement in three hours. It supports the 08:00–12:00 window and four-hour recovery only for this route, lot class, season, and current provider roster; it establishes neither future performance nor legal responsibility. The authorized operations coordinator accepts that schedule. The current delivered-lot quote is EUR 42,000 with payment due in 30 days. The machining company would perform one staff-hour of arrival confirmation and handover Work, valued at EUR 50 under `CommercialComparisonRule-2`. For schedule-accepted candidates, that rule compares quoted buyer payments plus receiving transport-coordination Work valued at EUR 50 per hour; it selects a candidate only when its advantage exceeds EUR 100 and records any earlier payment obligation. Gate transfer totals EUR 42,200 and includes a haulage payment due within 7 days; scheduled delivery totals EUR 42,050 with payment due in 30 days. The authorized commercial lead therefore selects scheduled delivery for this lot and retains gate transfer as fallback. |
-| **Stock replenishment** | Accepted stock at the plant will remain above a stated minimum during operating windows. | A stock sensor exists, but the replenishment controller is only an intended System referent. Observation Work, replenishment Work, access permission, custody, ownership, and restoration commitment remain separate claims. | Sensor history does not yet establish observation reliability; no finance result supports retained inventory; no authorized commitment supplies restoration responsibility. The candidate remains open only for a named observation test and finance decision. |
+#### SYSE.8:5.1 - The Three Alternatives
 
-The authorized commercial lead uses `DeliveryScheduleAssessment-Lot-27`, the operations coordinator's schedule acceptance, and `CommercialComparisonRule-2` with the quoted payments, credit terms, and receiving transport burden to select scheduled delivery. Gate transfer remains the
-fallback; stock replenishment remains a possible-future candidate pending its named observation test and finance
-decision. The selection does not assert that transport, handover, acceptance, or recovery Work has occurred, and
-the intended driver is not an actual performer until separately identified Work occurs. Engineers use the account
-to carry product, interface, custody, Work, provider System, evidence, and recovery constraints into use,
-architecture, and realization decisions. Commercial and operations decisions remain separate and use their own
-authority and evidence. Replacing these relations with the phrase *cast iron as a service* would lose the decision.
+| Candidate | Offered result | Allocation proposed |
+| --- | --- | --- |
+| **Gate transfer** | The accepted lot is available at the foundry gate. | The foundry performs production Work; the machining company arranges transport from the gate. |
+| **Scheduled delivery** | The accepted lot reaches the plant's unloading point between 08:00 and 12:00 on the agreed day. | `ForgeHaul-A` is the proposed logistics-provider System, with transport and exception recovery described below. |
+| **Stock replenishment** | Accepted stock at the plant stays above a stated minimum during operating windows. | A stock sensor exists; the replenishment controller is only an intended System referent. |
+
+Current lot and gate records support gate availability, and the operations coordinator accepts the handover
+window. Gate transfer places little provider burden on the foundry while passing transport coordination to the
+machining company.
+
+For replenishment, sensor history does not yet establish observation reliability; no finance result supports
+retained inventory, and no authorized commitment supplies restoration responsibility. Observation Work,
+replenishment Work, access permission, custody, ownership, and restoration commitment remain separate claims.
+The candidate remains open for a named observation test and finance decision.
+
+#### SYSE.8:5.2 - Scheduled Delivery and Its Grounds
+
+`Truck-12` is the intended transport bearer. A driver selected under the qualified-driver condition is the
+intended Agent for the planned transport Work. The proposed `PlantHandover-and-Acceptance-Lot-27` relation keeps
+custody with the foundry until handover at the unloading point. It lets the machining receiver accept only the
+identified lot, seal, mass, and visible condition against `LotAcceptanceRule-7`. Under proposed
+`DeliveryExceptionRecovery-Lot-27`, the provider dispatcher must arrange a replacement truck within four hours
+after a truck failure before handover.
+
+Operations coordinator `OC-4` has performed delivery-assessment Work using the plant's delivery-planning Method.
+The resulting `DeliveryScheduleAssessment-Lot-27` uses the current carrier roster, unloading calendar, and ten
+recent runs on the same route: nine arrived inside a four-hour window; one truck failure was recovered with a
+replacement in three hours. This supports planning for the 08:00–12:00 window and four-hour recovery only for
+this route, lot class, season, and current provider roster. It establishes neither future performance nor legal
+responsibility. The authorized operations coordinator accepts that schedule.
+
+#### SYSE.8:5.3 - Commercial Comparison and Engineering Return
+
+For schedule-accepted candidates, `CommercialComparisonRule-2` compares quoted buyer payments plus receiving
+transport-coordination Work valued at EUR 50 per staff-hour. It selects a candidate only when its advantage
+exceeds EUR 100 and records any earlier payment obligation.
+
+| Candidate | Lot quote and payment | Other buyer payment | Receiving Work | Compared total |
+| --- | --- | --- | --- | --- |
+| Gate transfer | EUR 40,000, due in 30 days | EUR 1,800 haulage, due within 7 days | Eight staff-hours of pickup and exception coordination: EUR 400 | EUR 42,200 |
+| Scheduled delivery | EUR 42,000, due in 30 days | None in the stated comparison | One staff-hour of arrival confirmation and handover: EUR 50 | EUR 42,050 |
+
+The EUR 150 advantage exceeds the EUR 100 threshold. Using the schedule assessment, the operations
+coordinator's acceptance and the comparison rule, the authorized commercial lead selects scheduled delivery
+for this lot and retains gate transfer as fallback. The earlier haulage payment remains visible rather than
+being silently treated as equivalent credit. Replenishment remains a possible-future candidate pending its
+named observation test and finance decision.
+
+The selection does not assert that transport, handover, acceptance, or recovery Work has occurred. The intended
+driver becomes an actual performer only through separately identified Work. Engineers carry the resulting
+product, interface, custody, Work, provider, evidence and recovery constraints into use, architecture and
+realization decisions. Commercial and operations decisions retain their own authority and evidence. Replacing
+these relations with *cast iron as a service* would lose the decision.
+
+For this lot, the alternatives and receiving use are already known. Comparing lot quotations alone would
+prefer gate transfer; joining the receiving Work and accepted schedule grounds changes that choice. An existing
+procurement and operations account containing these connections would already suffice. A PSS comparison with
+the same connections and supplied facts reaches the same result; building another case repository or business
+model would need a further decision to justify it.
+
+If the question changes to keeping stock available throughout a season, explore the plant's consumption and
+replenishment activities, possible provider partners and the inventory business arrangement. That broader
+design work can generate alternatives to the present replenishment proposal. It still leaves the named
+observation test, financing and restoration commitment to their responsible practices; a promising blueprint
+does not supply those results.
+
 
 ### SYSE.8:6 - Bias Annotation
 
@@ -3978,7 +4026,7 @@ them.
 | --- | --- |
 | `CC-SYSE8-1` | names a client-side use, intended change, receiving Systems, project system-of-interest or intended System referent, configuration, horizon, and decision. |
 | `CC-SYSE8-2` | separates promise content, commitments, permissions, supplied or accessed subjects, Systems, Methods, Work, fulfilment, acceptance, payment, and evidence. |
-| `CC-SYSE8-3` | compares materially different offering and provider arrangements rather than renaming one product. |
+| `CC-SYSE8-3` | compares materially different offering and provider arrangements, reuses adequate existing results, and develops further candidates or connections only where the decision needs them. |
 | `CC-SYSE8-4` | identifies provider and partner Systems, relations, assignments when current, capabilities, interfaces, Work, resources, shared enabling Systems, and recovery. |
 | `CC-SYSE8-5` | separates expected Work, result restoration, custody or ownership, and risk exposure from any independently supported responsibility, duty, permission, or authority claim. |
 | `CC-SYSE8-6` | connects the selected concept to realization, provider-capability change, configuration, continuing operation, and reopen evidence. |
@@ -4013,27 +4061,45 @@ branch or stop the candidate before commitment.
 
 ### SYSE.8:10 - Rationale
 
-FPF already distinguishes promise content, SystemRole assignments, Systems, Methods, Work, evidence,
-commitments, permissions, value, and direct relations. The recurring Systems Engineering difficulty is more
-specific: a choice among transfer, access, continuing provision, or result responsibility changes both the
-engineered subject and the provider arrangement that realizes and sustains use. This pattern connects the
-offering choice with the provider arrangement needed to fulfil it.
-
-### SYSE.8:11 - SoTA and Source Use
-
-Offering and provider design distinguishes promises, access, participation, providers, Methods, performed Work, obligations, fulfilment and acceptance. Recover the relevant subjects and relations before drawing conclusions about a product-to-service transition, a shared project referent, attribution to an Agent, or a market or provider gain.
+A choice among transfer, access, continuing provision, or responsibility for a result can change both the
+engineered subject and the provider arrangement that sustains its use. This pattern connects those design
+decisions, using the FPF distinctions at their points of application.
 
 
-| Source line | Use here | Epistemic boundary |
-| --- | --- | --- |
-| [Brambila-Macias, Sakao, and Kowalkowski (2018)](https://doi.org/10.1017/dsj.2018.3), [Braga Junior, de Toledo, and González (2020)](https://doi.org/10.4322/pmd.2019.017), and [Kim (2020)](https://doi.org/10.1017/dsj.2019.30) | Support interdisciplinary PSS design, plurality of development Methods, and several possible representation structures. | Use the reviews and case comparison to generate alternatives. Select ontology, practical Method, and representation for the current engineering decision. |
-| [Brax et al. (2021)](https://doi.org/10.1108/IJOPM-08-2020-0535), [Åkesson et al. (2024)](https://doi.org/10.1108/JMTM-11-2021-0457), [Menon et al. (2024)](https://doi.org/10.1016/j.jclepro.2024.142459), and [Zhao et al. (2025)](https://doi.org/10.1016/j.jclepro.2025.146690) | Support configuration-dependent provider performance, SME limits, mixed economic and environmental outcomes, and fragmented technical–social–ecological integration. | Use the studies as bounded evidence. Choose the enterprise arrangement from its use and evidence; assess prevalence separately; qualify any reusable provider-design Method through further cases. |
-| Current FPF `A.2.3`, `A.1.SCR`, `A.13`, `A.15.1`, `A.15.6`, `F.6`, `A.6.P:4.11a`, `A.10`, `A.22`, `C.11`, `C.17`, `E.10.ROLE`, and `E.18.NET` | Supplies promise content, actual-System recognition versus intended reference, actual-performer and Work identity, optional assignment-bound attribution, project-focus distinctions, service-word recovery, evidence use, selected structures, value and temporal distinctions, role-word recovery, and transformation-flow structure. | Use these general distinctions directly. `SYSE.8` adds the engineering comparison of offering and provider arrangements and the bounded account returned to later decisions. |
+<a id="syse811---sota-and-source-use"></a>
 
-Reconsider the affected source-dependent claim when later evidence changes a practical Method, performance
-boundary, or receiving engineering decision. Treat academic or institutional visibility as evidence of
-publication or declared use; assess enacted prevalence separately and import only the distinctions needed by the
-current decision.
+### SYSE.8:11 - SoTA-Echoing
+
+**How much offering and provider design is needed before choosing an arrangement for a bounded use?** The
+selected answer is to reuse a sufficient account, repair a consequential missing connection, or expand the
+design inquiry when the use or candidate range is unsettled. The :4 entry rule, :4.1 move 4 and :4.2 make that
+choice part of the Method.
+
+A serious alternative is richer PSS comparison and design. **Adopt** [Kim (2020), §§2.5.2 and 6.1–6.3](https://www.cambridge.org/core/journals/design-science/article/representation-framework-of-productservice-systems/1DFF0672BB42549F65F07B9247985787)'s
+connection between customer activities, actors, value, business models and detailed provision activities.
+**Adapt** its selective, iterative use of representation spaces and case analogies: use the parts that can
+expose an overlooked arrangement or develop an unfamiliar one. Its comparison of cases helps generate design
+choices but does not qualify this project's provider capability or future performance.
+
+**Adopt** [Brambila-Macias, Sakao and Kowalkowski (2018), §4.3](https://doi.org/10.1017/dsj.2018.3)'s attention to
+customer networks, hidden coordination costs and organizational flexibility. Moves 5, 6 and 9 apply that
+contribution by recovering the work and constraints behind a price or promise. **Reject** quote-only selection
+when those consequences can change the receiving decision.
+
+The local synthesis connects these design contributions to scoped evidence, separate specialist authority and
+the next engineering decision. In :5, both this account and a PSS comparison containing the same client Work
+and schedule grounds select delivery: EUR 42,050 against EUR 42,200. An already adequate account has no missing
+connection for this Method to repair. For the fixed lot and known options, further analogy or business-model
+development has no demonstrated decision benefit. For the changed question of continuing stock availability,
+that exploration can reveal different allocations and provider arrangements.
+
+The accepted trade-off is to maintain the grounds and allocations needed for the bounded choice while
+deferring broader opportunity search. Each claim used in the decision still needs applicable support.
+Bounding the use too narrowly can hide an alternative; use the richer PSS treatment to reconsider the range
+of arrangements. No comparative time saving or industrial performance advantage is established by the worked
+arithmetic. Reopen the depth choice when a changed use, overlooked actor or continuing task, or evidence of a
+better feasible arrangement defeats the existing account. Reopen only the affected provider or engineering
+claim when a local capability, allocation or evidence condition changes.
 
 ### SYSE.8:12 - Relations
 
