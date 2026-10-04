@@ -1712,7 +1712,10 @@ Do not use HCD.6 to invent target-domain correctness, turn a worked answer into 
 
 When the practical question is how the person could move between different ways of acting, use the local model from HCD.4:4.2.1–4.3.1 or an equivalent qualified account. HCD.6 connects a proposed change to learning activities, help and observations, and can design alternative pathways through it. The model describes possibilities; the selected pathway plans opportunities; the learning trajectory records what was actually attempted and observed. A simple correction can still use one task without a larger progression model.
 
+When learners can perform the preliminary actions but miss a relation in the next explanation, §4.2.2 connects preparation, explanation and a fresh application. §5.7 constructs both a learner-generated solution and a worked-solution alternative under explicit resource limits.
+
 #### HCD.6:0.1 - Working Terms
+
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -1801,7 +1804,22 @@ Take one consequential difference from the local model: the starting response, i
 
 The result is a usable connection: **starting evidence → proposed change and its reason → learning activity with allocated help → discriminating observation → continuation or return**. This is a design account. It is not an observed transformation or a guarantee that every learner follows that route.
 
+##### HCD.6:4.2.2 - Prepare the Learner to Use a Later Explanation
+
+Use this branch when a learner has the basic actions needed to explore a case, but a relation in the next explanation is likely to pass unnoticed. HCD.5 compares the proposed preparation with other ways of addressing that gap. HCD.6 designs the selected preparation together with the explanation and subsequent practice. The first useful result is a feasible lesson in which the learner can connect a case to a reason in the explanation.
+
+Start from the explanation's subject relation. Give cases that expose it through actions the learner can already perform. Invite the learner to construct one way of handling all the cases and test it beyond the first plausible answer. The designer supplies informative contrasts; the learner need not first discover good data. HCD.6.1 helps make a missed difference accessible.
+
+Retain the learner's attempt, including a useful partial solution. In the later explanation, ask the learner to locate what their attempt captured, what another case exposed, and how the explained relation handles that case. A correct early solution can be extended and connected in the same way; failure is not a prerequisite. Then give a fresh task that needs the relation, with assistance suited to the claim being observed.
+
+Construct an alternative when the learner can follow a worked solution: supply its reasoning and ask the learner to explain why each consequential step is needed, test it against the contrasts and identify where a simpler rule fails. Both preparations lead into the later explanation and practice. Compare the whole arrangements, including material preparation, learner effort, available guidance and feedback. Select from the learner's entry evidence and available support; a harder preliminary task has no inherent advantage.
+
+If neither preparation is accessible, restore the limiting prerequisite or support. If the relation is already reliably used, address the remaining execution or coordination difficulty without repeating this preparation. Bound exploration so that time and help remain for explanation and correction. A change of route must fit the remaining allowance or return for replanning; it cannot silently add a second lesson.
+
+Keep three observations separate: what the learner noticed or produced during preparation; what they did after receiving the explanation; and any comparison that could support a causal effect of the preparation. HCD.12:4.5 guides the latter learning question. The lesson can return a useful next teaching action while that causal effect remains unknown. Reconsider the design when the target relation, entry capabilities or available explanation changes.
+
 #### HCD.6:4.3 - Separate Demonstration, First Attempt, and Help
+
 
 A demonstration or worked explanation should expose the intermediate action the learner will later need: the cue noticed, Method selected, competing alternatives, calculation or transformation, check, remaining uncertainty, and next move. It should not rely on a final answer whose reasoning remains hidden.
 
@@ -1945,7 +1963,49 @@ The three accounts now differ visibly:
 
 The case shows model and plan revision without claiming that the revision itself changed N24. The new-context responses are local evidence; broader transfer, delayed retention and causal programme effectiveness remain separate questions.
 
+#### HCD.6:5.7 - Preparing to Understand a Weighted Mean
+
+This constructed lesson prepares a service coordinator to report mean active processing time per request from batch summaries. It supports a descriptive work report; predicting queue clearance would need other information. The coordinator can count requests, add durations, multiply and divide. On an entry task they correctly average individual request times, but average two batch means without considering how many requests each batch contains. The missing relation is each batch's contribution to the total across requests. A calculator, paper and a trainer competent in this arithmetic are available.
+
+**Select contrasts from that relation.** In the supplied teaching data every request in a batch takes its stated active time. There is no waiting time to interpret and no missing request. The learner receives these inputs:
+
+| Case | Batch with 10 minutes per request | Batch with 20 minutes per request |
+| --- | --- | --- |
+| E | 5 requests | 5 requests |
+| A | 2 requests | 8 requests |
+| B | 8 requests | 2 requests |
+| C | 4 requests | 16 requests |
+
+The designer's separate answer key gives E = 150 / 10 = 15, A = 180 / 10 = 18, B = 120 / 10 = 12 and C = 360 / 20 = 18 minutes per request. E makes the simple average of the two batch means plausible. A and B expose the importance of the mixture while keeping batch times and total request count unchanged. A and C change total size while preserving the mixture and the mean. Keep this key out of the initial learner sheet.
+
+**Preparation through construction.** Ask: “Devise one calculation for the mean active minutes per request that works for all four cases. Show how it treats every request. Test it on another case before settling on it.” The learner may expand a batch into individual durations, draw groups or use arithmetic. Suppose their first rule is `(10 + 20) / 2 = 15`. It works for E. Ask them to test A by totaling its individual durations with operations they already know. The resulting 180 minutes across ten requests conflicts with the 150 minutes implied by their proposed mean. They now have a concrete question about the missing request counts. Have them test B and C with the same proposed rule or its revision. The trainer may clarify data and invite a comparison, recording help that supplies the missing relation. The learner need not derive a polished formula before the explanation begins.
+
+**Preparation through a worked solution.** For the alternative, give the complete reasoning for A: two requests contribute `2 × 10 = 20` minutes; eight contribute `8 × 20 = 160`; divide their combined 180 minutes by all ten requests to obtain 18. Ask the learner to explain why each multiplier and the divisor are present, why 15 fails, what changes in B and why doubling both counts in C leaves the mean unchanged. They must use the data and explain the reasoning; copying 18 does not complete the preparation. An incorrect explanation identifies what the trainer should address next.
+
+**Connect either preparation to the same explanation.** The trainer now explains that a batch's mean time `t`, multiplied by its request count `n`, supplies that batch's total active time. Across batches, `mean time per request = sum(n × t) / sum(n)`. Giving each batch equal weight answers a different question; for these two batch times it gives the per-request mean only when their counts are equal. The learner marks the counts, totals and final divisor in their own attempted or supplied solution, then uses the explanation to account for A versus B and A versus C. This gives the formula a relation to inspect instead of leaving the learner to memorize its symbols. If the learner already constructed the correct rule, use the explanation to make that connection explicit and move on.
+
+**Use the relation in a new report.** The first fresh task has four requests at eight minutes each and six at eighteen: `(4 × 8 + 6 × 18) / 10 = 14` minutes per request. The learner supplies the calculation and its units. A second report changes the representation: eight requests have a batch total of 72 minutes, and two have a batch total of 28. The mean is `(72 + 28) / 10 = 10`; multiplying these totals by the counts again would count the work repeatedly. The learner must identify what the columns contain before calculating. During these attempts the explanation sheet and calculator remain available; the trainer gives no decisive prompt before recording the first response. Feedback then addresses the actual error, and correction may reuse that case.
+
+The lesson returns the preparation response, the first responses after explanation, help received, correction and remaining difficulty. These observations can guide the next lesson. Success with the sheet is performance with that support. It does not by itself show improvement caused by preparation, independent transfer or retention. A comparison of preparations would need HCD.12:4.5's comparable conditions and actual observations; the arithmetic key supplies none.
+
+**Make the choice fit the people and resources.** Both designs have a 40-minute learner allowance and a 45-minute provider allowance. The trainer can prepare beforehand and attend the stated contact periods. Materials and calculator access are available. The allocations below include preparing and checking the case sheets, common explanation and response criteria:
+
+| Contribution | Construction preparation | Worked-solution preparation |
+| --- | --- | --- |
+| Provider preparation before the lesson | 12 minutes | 14 minutes, including the worked reasoning |
+| Learner preparation with trainer present | 10 minutes learner and 10 provider | 8 minutes learner and 8 provider |
+| Common explanation and connection to the preparation | 8 minutes learner and 8 provider | 8 minutes learner and 8 provider |
+| Fresh reports before feedback | 10 minutes learner; no provider contact | 10 minutes learner; no provider contact |
+| Feedback and correction | 6 minutes learner and 6 provider | 6 minutes learner and 6 provider |
+| Record the response and next need | 2 minutes learner and 2 provider | 2 minutes learner and 2 provider |
+| Total allocated | 36 minutes learner; 38 provider | 34 minutes learner; 38 provider |
+
+These are local planning allowances to test, not research-established doses. The small, fully supplied arithmetic cases make both preparations feasible proposals. Choose construction when entry evidence shows that the learner can generate and compare approaches and the useful question is which relation their approach overlooks. Choose the worked solution when constructing a method consumes the available attention but the learner can follow its steps and explain contrasts. This choice concerns fit, not a demonstrated superiority of either preparation.
+
+For example, a second learner can explain the worked multipliers but cannot organize a calculation from the blank sheet: use the worked preparation and inspect their explanation before proceeding. If a learner already weights the cases and interprets batch totals reliably, omit both preparations and use practice for the remaining target. If qualified explanation or feedback is unavailable, restore that contribution through HCD.7/.8 or redesign within the actual resources. If the construction allowance is exhausted, do not append the entire worked route to it under the original totals; revise the remaining lesson or arrange another window.
+
 ### HCD.6:6 - Bias-Annotation
+
 
 Lenses: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: representative practice-task design for a named human contribution or an explicitly conditional future-audience branch.
 
@@ -2016,7 +2076,10 @@ The selected line costs more domain and case-design effort than renaming exercis
 
 For constructing a pathway from a qualitative model, [van Merriënboer's 4C/ID overview (2019)](https://www.4cid.org/wp-content/uploads/2021/04/vanmerrienboer-4cid-overview-of-main-design-principles-2021.pdf) supplies a developed comparison: task classes organize increasing complexity, with guidance reduced within a class and renewed when a harder class begins. HCD.6 adapts that design distinction in §4.2.1; a class of tasks is not a developmental state. [Expanded evidence-centered design](https://doi.org/10.3389/fpsyg.2019.00853) supplies the complementary connection from a proposed proficiency change to task support and observations. It does not establish which route works for N24. Compared with simply increasing difficulty after success, the construction exposes why a task and help might change the targeted response and what would redirect them. The additional preparation is warranted when that distinction changes the next learning opportunity; ordinary same-case correction still needs no complete progression model.
 
+For preparation before a new explanation, [Schwartz's *Achieving an adaptive learner* (online 2024)](https://aaalab.stanford.edu/assets/papers/2024/achieving_an_adaptive_learner.pdf) develops the construction of a common account across chosen contrasts. It informs §4.2.2. The paper reinterprets earlier studies in selected STEM settings; broader generality and the joint necessity of its design principles remain unresolved. Its practical timing is not a universal dose. §5.7 is a constructed adaptation. Prompted explanation of a worked solution remains a serious alternative, supported by the expertise-sensitive guidance discussed above. Choose from entry evidence and complete resource demands, and reopen the choice when observations or stronger comparative evidence change it.
+
 ### HCD.6:12 - Relations
+
 
 - **`HCD.1`, `HCD.3`, and `HCD.4`:** can supply the later-Work demand, qualified target, current evidence, protected strengths, and priority conditions. HCD.4:4.2.1–4.3.1 also constructs and tests a local qualitative model when the pathway needs it.
 - **`HCD.2`:** can expose a programme component and task closure needing elaboration; HCD.6 does not select the programme.
@@ -2025,7 +2088,7 @@ For constructing a pathway from a qualitative model, [van Merriënboer's 4C/ID o
 - **`HCD.8`:** builds a missing task-production, provider, assessment, or practice-environment capability only when the required result is explicit.
 - **`HCD.9`:** enacts the tasks, feedback, correction, and retries while recording the practice history.
 - **`HCD.10`:** selects variation, spacing, interleaving, progression, or support change across practice episodes; HCD.6 supplies the meaningful task conditions.
-- **`HCD.11`–`HCD.13`:** interpret condition-qualified performance, transfer, retention, and tool dependence; a task design or answer key is not those observations.
+- **`HCD.11`–`HCD.13`:** interpret condition-qualified performance, transfer, retention, and tool dependence; a task design or answer key is not those observations. HCD.12:4.5 also separates application after a new explanation from any causal contribution of the preceding preparation.
 - **`HCD.14`:** distinguishes a changed learner position, a revised proficiency model and a revised learning arrangement, and can change the affected task, criterion, help or progression condition from compatible evidence.
 - **LG.05 and other learning-product practices:** can explain and package a selected task; pedagogical presentation does not select the target relation or establish professional correctness.
 - **Target-domain, safety, clinical, legal, employment, provider, privacy, and specialist practices:** retain correctness, hazard, participation, authority, and consequence decisions.
@@ -2083,7 +2146,16 @@ Ask for an action that reveals what the learner noticed: point to the changed pa
 
 Use the initial response to distinguish plausible difficulties. If the learner notices the contrast but uses another name, connect the name to the already available distinction. If they select by an incidental cue, vary that cue. If the signal is inaccessible, repair access. If the target itself remains unclear, improve the demonstration or explanation.
 
+##### HCD.6.1:4.2.1 - Make a Relation in the Next Explanation Noticeable
+
+When the encounter prepares a later explanation, choose the contrast from the relation that explanation will introduce. The learner needs something they can inspect with their existing actions and then reconnect to the explanation. HCD.6:4.2.2 develops that complete lesson and a worked-solution alternative.
+
+In HCD.6:5.7, keeping two batch times fixed while changing their request counts exposes what a simple average ignores. Scaling both counts together tests a different relation. Asking for one calculation across the cases makes those differences consequential. The learner's attempt shows which relation the subsequent explanation needs to make explicit. If the relation is already accessible, omit that contrast and address the remaining difficulty.
+
+Return the attempt to HCD.6's explanation and fresh application. A learner may notice the difference without yet knowing how to calculate with it; another may calculate correctly after help without having noticed it independently. Preserve that distinction when choosing the next action.
+
 #### HCD.6.1:4.3 - Connect the noticed difference to its use
+
 
 Show what changes because of the distinction. Let the learner make that next move with support appropriate to the present purpose. HCD.9 supplies usable feedback and correction; a score alone does not show what to change.
 
@@ -2197,7 +2269,7 @@ Subject practice determines correct use, and the representation must retain the 
 
 HCD.24 uses a discernible criterion in peer review; HCD.25 arranges comparison and personal return across project cases.
 
-HCD.3 diagnoses the limiting contribution. HCD.5 selects development methods. HCD.6 supplies the whole practice task; this nested method develops its recognition component. HCD.9 and HCD.10 guide correction and progression; HCD.11–HCD.13 qualify later claims.
+HCD.3 diagnoses the limiting contribution. HCD.5 selects development methods. HCD.6 supplies the whole practice task; this nested method develops its recognition component. HCD.6:4.2.2 and :5.7 connect preparation to a later explanation and compare construction with explaining a worked solution. HCD.9 and HCD.10 guide correction and progression; HCD.11–HCD.13 qualify later claims.
 
 FPF B.5.EA supports a participant who cannot yet express a relevant distinction. B.5.4 supports interpretation through an available concept; B.1.5.EW relates constituent and encompassing work.
 
@@ -7493,7 +7565,7 @@ HCD.* is the Human Capability Development PatternID namespace. Numbers are stabl
 | HCD.4 | Available: architect a balanced profile across simultaneous Work. | Profile comparison, recommendation, unresolved question, bounded choice or exact blocker. |
 | HCD.2 | Available: compose and compare capability-development programmes for later Work. | Same-holder programme comparison, exact missing input, or learning-product design return when the person is not yet known; no programme choice. |
 | HCD.5 | Available: select a capability-development Method. | Bounded Method selection or shortlist, non-training return, or exact missing input; no effectiveness claim. |
-| HCD.6 | Available: design representative practice tasks. | Criterion-bearing task set with whole action, support, critical errors, correction, meaningful variation and resource fit. |
+| HCD.6 | Available: design representative practice, including preparation for a later explanation. | Criterion-bearing task set with whole action, support, critical errors, correction, meaningful variation and resource fit; §4.2.2 and §5.7 compare constructing a solution with explaining a worked solution. |
 | HCD.6.1 | Available: make a needed distinction discernible in practice. | Accessible contrast, action using the distinction and a learner response that guides correction, variation or whole-task use. |
 | HCD.7 | Available: arrange providers, access, tools and AI support. | Enabled contribution arrangement with competence, access, capacity, checking and fallback, or the exact gap. |
 | HCD.8 | Available: obtain or build missing capability-development support with bounded recursion. | Obtain/build decision, bounded provider or environment preparation, representative operating test, or first unsupported dependency. |
@@ -7540,6 +7612,7 @@ The constructed human-development and cultural cases supply no evidence that the
 | HCD.10 condition-sensitive progression | HCD.9, HCD.11 and later evidence uses | Next episode conditions and response rules only. Spacing, retrieval, transfer, retention and effectiveness do not follow from dates or design labels. |
 | HCD.1 or equivalent demand frame | HCD.11 | Same-holder contribution, conditions and receiving-use input; it is not current performance evidence. |
 | HCD.11 or equivalent qualified performance | HCD.12 and HCD.13 | Prior contribution and conditions for the specified unfamiliarity, delay or support comparison. No transfer or retention result follows automatically. |
+| HCD.6:4.2.2 preparation, subsequent explanation and learner responses | HCD.12:4.5, when learning from the explanation or the preparation's contribution is the question | Preserve what happened before and after source access, assistance and any comparison. A successful application after the source does not by itself establish a causal preparation effect. |
 | New-source learning question, source and task criteria | HCD.12:4.5 | Prior preparation, familiarity and access conditions support this separate entry. Prior execution of the new Method is not required; report the observed application without inventing an earlier transfer basis. |
 | Any compatible HCD.11, HCD.12 or HCD.13 observation | HCD.14 | Evidence that changes an identified development assumption; all three assessments are not required. |
 | New compatible contribution evidence | HCD.3, HCD.4, HCD.2 or HCD.5 | Reopen only the affected diagnosis, profile, programme comparison or Method selection; preserve unchanged claims and candidates. |
@@ -7578,6 +7651,7 @@ The HCD.2 and HCD.5–HCD.10 bodies bind their source uses to programme comparis
 
 | Source group | Contribution and limit used by HCD.2 and HCD.5–HCD.10 |
 | --- | --- |
+| [Schwartz, *Achieving an adaptive learner*, online 2024](https://aaalab.stanford.edu/assets/papers/2024/achieving_an_adaptive_learner.pdf) | Preparing to use an explanation through a common account across contrasts. HCD.6:4.2.2 compares this with explaining a worked solution; the original STEM studies establish neither a universal sequence nor the effect of the constructed lesson. |
 | Maintained [4C/ID model](https://www.4cid.org/about/) and Paas and van Merriënboer ([2020; `COG-05`](https://doi.org/10.1177/0963721420922183)) | Sufficiently whole complex tasks, integrated information, worked support and expertise-sensitive guidance; no local programme effect, mandatory sequence or universal fading rule. |
 | Winget and Persky ([2022; `COG-06`](https://doi.org/10.5688/ajpe8906)) and Wisniewski, Zierer, and Hattie ([2020; `MOT-05`](https://doi.org/10.3389/fpsyg.2019.03087)) | Corrective activity, retest and information-bearing feedback under task and receiver conditions; no universal threshold, feedback type or later-work inference. |
 | Carpenter, Pan, and Butler ([2022; `COG-01`](https://doi.org/10.1038/s44159-022-00089-1)), Brunmair and Richter ([2019; `COG-03`](https://doi.org/10.1037/bul0000209)), and Czyż, Wójcik, and Solarská ([2024; `COG-04`](https://doi.org/10.3389/fpsyg.2024.1377122)) | Spacing, retrieval, interleaving and delayed-transfer candidates whose value depends on material, similarity, setting and horizon; no universal gap, mix, repetition count or professional schedule. |
