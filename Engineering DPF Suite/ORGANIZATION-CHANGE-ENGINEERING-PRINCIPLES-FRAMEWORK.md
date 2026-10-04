@@ -63,7 +63,7 @@ Search the Keywords & Search Queries column for a difficulty, subject, or result
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 13 | [OCE.13 - Observe and Compare Organization-Change Consequences](#oce13---observe-and-compare-organization-change-consequences) | Stable | *Keywords:* consequences, observation, comparison, gains, losses, causal limits. *Question:* What changed, for whom, and which comparison can change the next organization decision? | Qualified observation and measurement results; FPF C.16, A.10; C.28 when causal reliance is needed |
-| 14 | [OCE.14 - Decide Whether and How to Revise the Organization from Qualified Results](#oce14---decide-whether-and-how-to-revise-the-organization-from-qualified-results) | Eternal alpha | *Keywords:* organization revision, retention, repair, reversal, authority. *Question:* Should the challenged organization relation be retained or changed, and under whose authority? | OCE.13 or a current direct result; actual authority; FPF C.11; conditional OCE.3-OCE.12/OCE.16 |
+| 14 | [OCE.14 - Decide Whether and How to Revise the Organization from Qualified Results](#oce14---decide-whether-and-how-to-revise-the-organization-from-qualified-results) | Stable | *Keywords:* organization revision, retention, repair, reversal, authority. *Question:* Should the challenged organization relation be retained or changed, and under whose authority? | OCE.13 or a current direct result; actual authority; FPF C.11; conditional OCE.3-OCE.12/OCE.16 |
 
 **Part V - Sustain Methods, Cross-Change Coordination, and OCE Practice**
 
@@ -3267,7 +3267,7 @@ Strategy, Operations, human development and clinical, safety, labor, legal, priv
 ## OCE.14 - Decide Whether and How to Revise the Organization from Qualified Results
 
 > **Type:** Method pattern
-> **Status:** Eternal alpha
+> **Status:** Stable
 >
 > **Primary working result:** an authorized retain, repair, replace, reverse, stop or investigate disposition for identified organization relations or conditions, with its effective scope, accepted losses and remaining realization or observation work; without authority, a bounded proposal or exact authority request.
 
@@ -3275,7 +3275,7 @@ Strategy, Operations, human development and clinical, safety, labor, legal, priv
 
 **Use this when** a qualified result challenges an organization relation or condition that was previously selected or put into use. A release-support arrangement improves evidence returns but occupies a service interval already promised to customers. The next question is which relation should change, who can change it and what useful contribution must be preserved.
 
-Start from the challenged relation and the result that challenges it. Recover what obtains now, what was only proposed, and the current authority for a change. Then form materially different bounded alternatives.
+Start from the challenged relation and the result that challenges it. Recover what obtains now, what was only proposed, and the current authority for a change. Use a sufficient current revision decision or comparison; form materially different bounded alternatives only for the question still open.
 
 Continuing organization development is the wider concern. This Method covers **revision of the organization's contribution, assignment, authority, access, support, provider, participation or other relevant relations and conditions**. Strategic direction, investment, continuing Operations, human development and specialist protection decisions retain their own owners. A revisable development programme is not one indefinitely continuing work occurrence or a universal maturity ladder.
 
@@ -3303,7 +3303,7 @@ The practitioner needs to identify a useful revision subject, compare complete a
 
 ### OCE.14:4 - Solution
 
-Recover the current relation and the challenged premise; distinguish revision from direct correction; generate and compare bounded alternatives; make the authorized disposition effective; and return unrealized work and future observations.
+Recover the current relation and the challenged premise; distinguish revision from direct correction; reuse a sufficient revision or develop the missing comparison; make the authorized disposition effective; and return unrealized work and future observations.
 
 Recognition is light: one consequential result can justify examining a relation. Assurance is specific to the disposition. A proposal needs a recoverable problem and alternatives. An authorized decision needs its actual mandate and applicable decision rule. An obtaining assignment or enabling relation needs the acts and conditions that make it effective. Realized capability and causal effect require their own evidence.
 
@@ -3319,7 +3319,9 @@ Keep the governing evidence close to the claim. If current evidence does not est
 
 #### OCE.14:4.2 - Choose the smallest revision subject that answers the problem
 
-Decide what kind of result is actually missing.
+First inspect any current revision already prepared or decided through competent operating review, adaptive management or a specialist contribution. Does it answer this organization question for the same contribution, period and protected conditions, with an applicable basis? A sufficient comparison can go directly to the actual decider. A sufficient decision within current authority needs only its remaining effective acts under §4.5; an already effective disposition goes to the receiving work in §4.6. Reuse those results without regenerating alternatives, repeating observation or requiring an additional OCE approval. Remaining integration or later performance evidence does not by itself make the revision decision insufficient.
+
+For what remains unresolved, decide what kind of result is actually missing.
 
 | Current difficulty | First useful return |
 | --- | --- |
@@ -3335,7 +3337,7 @@ A missing observation may justify a bounded inquiry instead of a redesign. A qua
 
 #### OCE.14:4.3 - Form materially different bounded alternatives
 
-Keep the current arrangement visible with its observed benefits, costs and limits. If a binding condition excludes its continued use, retain it as a reference, not as an admissible continuation option.
+For the unresolved revision question, keep the current arrangement visible with its observed benefits, costs and limits. If a binding condition excludes its continued use, retain it as a reference, not as an admissible continuation option.
 
 Try different ways of answering the problem:
 
@@ -3354,6 +3356,10 @@ Test reversal against the present world. Are the former holder, access, evidence
 #### OCE.14:4.4 - Compare complete options under one current basis
 
 Compare the alternatives against the same intended contribution, decision window and current constraints. For each, expose what is retained or surrendered, who bears the loss, effects on continuing service and other commitments, transition work, recovery conditions and uncertainty.
+
+Also distinguish choosing an organization arrangement from choosing how much work to do to obtain that choice. A sufficient competent continuation may be a bounded repair or an authorized temporary recovery while a more ambitious revision waits. Use OCE.8:4.1, especially sufficient-result reuse and the full-effort comparison, to compare that actual continuation with the proposed addition. Keep the receiving result, decision window and protected conditions the same. Name the unresolved relation or condition the addition could settle and the resulting choice it could change; the number of new alternatives is not its payoff.
+
+Reuse the common preparation and qualified participant or provider results in both ways. Include added consultation and design, the actual decision and relation-establishment work, integration, continuing service, later observation and recovery through the same period. Ask the affected participants which other work would wait and whether the answer can arrive before it is needed. Keep their capacity and protected obligations visible even when no credible total of hours is available. Accept the addition for a stated useful difference and an explicit trade-off, or use the competent continuation. If a sufficient decision arrives or the useful window closes, withdraw the now-unneeded inquiry rather than charging its hoped-for benefit to the result. A changed mandatory condition still needs its own response.
 
 Carry non-negotiable conditions separately from trade-offs. An organization owner cannot waive clinical, safety, legal, labor, privacy or financial conditions merely because the organization alternative looks attractive. Obtain the exact applicable result from the qualified owner.
 
@@ -3424,6 +3430,19 @@ OCE.9 receives the remaining integration and representative-use question. OCE.11
 
 Now remove one supplied condition: protected service coverage is not available. The selected repair cannot take effect as proposed; no substitute is invented. The consequence comparison remains valid at its original scope. The owner must obtain the missing coverage, select another currently permitted alternative or stop the dependent work. The result is not rewritten as successful realization.
 
+**Compare the work of obtaining this revision.** If the ordinary operating review has already delivered the middle-row decision with current coverage, substitute, authority and accepted loss, use it. Applying OCE.14 adds no second workshop or approval. The allocation acts, integration, service protection and observation above remain necessary where unfinished; they are not evidence that the comparison must be repeated.
+
+For a different starting condition, suppose the conflict and manual recovery are qualified, but the substitute's compatibility with current obligations has not yet been established. The receiving question is a permissible support disposition for the next two weekly releases, retaining the release contribution where feasible while protecting service. Competent current management can already answer it by using manual recovery for those two cycles and reconsidering the hybrid repair at the next ordinary allocation review. That is a sufficient bounded answer, not blind rollout or a failed revision.
+
+| Way of obtaining and using the disposition over those two cycles | Work and consequence to compare |
+| --- | --- |
+| Use the competent current recovery decision. | Reuse the conflict, authority and protection results; obtain any remaining recovery-allocation acts. The existing support participants perform the qualified manual checks and hand-offs, service participants maintain protected coverage, and the ordinary review uses the next evidence-return and service observations. No special substitute-design session is required. The opportunity to resume the affected hybrid contribution is deferred for two cycles; manual work and its stated limits remain real costs. |
+| Complete the open support relation before the first release, with recovery if completion fails. | Reuse the same facts and use the qualified manual recovery until the new conditions actually obtain. The service planner, support specialist and proposed substitute jointly resolve compatible intervals and displaced commitments; the proper owners supply the needed coverage and allocation results. The receiving participants then prepare the revised hand-offs and obtain the required integration result before relying on the repair. This adds joint preparation, consultation and transition work, followed by support, service and observation during the same two cycles. If completion misses the cutoff or coverage fails, use the qualified recovery; the extra work is still spent. |
+
+Suppose those participants can resolve the bounded question before the first release only by deferring a noncritical process-improvement workshop, and the owners of that work accept the deferral. The organization owner chooses this addition for the opportunity to resume the hybrid contribution within these two cycles, accepting the joint work, possible unsuccessful completion and the reduced allowance for other change that the repaired arrangement requires. No lower total cost or superior causal effect is asserted. Only if the qualified owners supply the coverage and substitute results assumed in the original branch can the owner select its middle row and proceed to the separate effective acts and realization.
+
+If a current sufficient middle-row decision arrives before the extra session starts, cancel the duplicate session and use the result. If completion can return only after both releases, it cannot earn the stated two-cycle benefit: retain the current recovery disposition and reconsider any later proposal against its later use. In either change of condition, keep the original consequence observations and the independently held Safety and release authority unchanged.
+
 #### OCE.14:5.2 - A good proposal after an association chair's term
 
 A standards association has evidence that an editorial-return assignment delays member review. The proposed reassignment is reasonable, volunteers are willing and the repository can support it. The current chair's term has nevertheless ended, and the bylaws do not give that former holder the required decision authority.
@@ -3449,8 +3468,8 @@ Sponsor power can hide burdens accepted by someone else. Identify the affected p
 - [ ] The challenged organization relation or condition and its current evidence are identified separately from a proposed design.
 - [ ] The actual decision scope, owner, effective interval and hard constraints are recovered.
 - [ ] Direct correction, realization, Method repair and strategic questions are distinguished from organization revision.
-- [ ] Materially different complete alternatives include an honest current reference and any feasible repair, stopping, recovery or probe branch.
-- [ ] Comparison preserves contribution, losses, burden-bearers, continuing service, transition, uncertainty and recovery.
+- [ ] A sufficient current revision is reused; otherwise materially different complete alternatives answer the unresolved question and include an honest current reference and any feasible repair, stopping, recovery or probe branch.
+- [ ] Comparison preserves contribution, losses, burden-bearers, continuing service, transition, uncertainty and recovery; any added revision work has a useful difference and accepted trade-off covering the whole effort against the competent current continuation.
 - [ ] The authorized acts and any remaining ineffective conditions are stated without implying realized capability.
 - [ ] Missing authority, protection or external results stop only the dependent action; no replacement or approval is invented.
 - [ ] Receiving work, conditional cross-change consumers and the observation that can reopen the disposition are explicit.
@@ -3470,23 +3489,23 @@ Sponsor power can hide burdens accepted by someone else. Identify the affected p
 
 A useful contribution can survive a revision while its failing support or assignment changes. The decision owner sees the real losses, authority boundaries and unfinished work, and later observers know what result could defeat the disposition.
 
-The cost is completing alternatives and obtaining the exact relations and external results they require. A revision may remain a proposal, a choice with pending conditions or a stopped dependent action. Those are usable results when they make the next work clear.
+A sufficient existing revision can end the comparison without another study. Where an organization question remains, completing alternatives, obtaining relations and carrying the chosen change into use consume real participant and support work. An addition may be worth that price without being cheaper; it may also be declined in favor of a sufficient current disposition. A revision may remain a proposal, a choice with pending conditions or a stopped dependent action. Those are usable results when they make the next work clear.
 
 ### OCE.14:10 - Rationale
 
 An organization is changed through actual relations and contributions, not merely through its description. Consequence evidence therefore has to reach a concrete revision subject and a legitimate decision, while the selected arrangement still has to become usable.
 
-Separating comparison, authority, effectivity and realization lets a practitioner act at the justified scope. It also preserves the value of a good observation when a repair is blocked, and the need for further observation after an authorized repair.
+Separating comparison, authority, effectivity and realization lets a practitioner act at the justified scope. It also preserves the value of a good observation when a repair is blocked, and the need for further observation after an authorized repair. A capable existing review can supply the comparison or decision already. The reason to add work is an unresolved organization question whose answer is worth obtaining in time, not the availability of another method description. Comparing organizational options alone cannot establish that repeating their construction is worthwhile.
 
 ### OCE.14:11 - SoTA-Echoing
 
-The practice question is how to revise an organization after consequences or changed conditions defeat a current premise. The selected line combines explicit alternatives and losses, actual authority, practical support and evidence-driven revision. A serious alternative is to continue a staged rollout toward its original target, treating feedback only as a request for more implementation effort.
+The practice question is how to obtain a justified, timely organization revision after consequences or changed conditions defeat a current premise. Competent adaptive management is the serious current alternative: it can use existing evidence, compare feasible repairs and recovery, involve affected participants, obtain the proper decision and return remaining work. When that practice supplies a sufficient current disposition, it is the selected answer; §4.2 and §5.1 use it without a second construction or OCE approval.
 
-**Connect revision to the desired result.** Separate the result sought in the world from the Methods used to obtain it. Relate authority, support, the first performed Work, sacrificed alternatives and later improvement. Distinguish organization revision from contributions to direction, platform, learning and research. Sections 4.1–4.6 and the PumpWorks case show these moves.
+**Adapt the connection from evidence to action.** The [Magenta Book (HM Treasury, 15 May 2026), §§6.1–6.2](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html) relates evidence use to the recipients, decision timing, proportionate information and their capacity to act. The [MRC update (Skivington et al., 2021)](https://doi.org/10.1136/bmj.n2061) contribution is context-sensitive, iterative reconsideration of consequential uncertainty. These sources strengthen the competent comparator; they do not supply a local organization mandate or demonstrate OCE's effectiveness. Section 4.4 retains stronger causal inquiry where it changes the decision, while direct qualified relation facts can suffice for a bounded revision.
 
-**Adapt proportionate evaluation use.** The [MRC update (Skivington et al., 2021)](https://doi.org/10.1136/bmj.n2061) and [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html) support revisiting explanations and evidence needs when the receiving decision changes. Section 4.4 retains stronger causal inquiry where it matters without making it a prerequisite for every bounded revision. Obtain local authority and the direct service, clinical or employment result from their qualified owners.
+**Add only the unresolved organization construction.** Separate the result sought from the way of obtaining it, including authority, support, first use and sacrificed work. Where an existing disposition leaves a consequential relation question open, §§4.3–4.5 connect the actual OCE.3/.6/.8 and C.11 contributions to its completion. PumpWorks compares a competent two-cycle recovery with completing a compatible support assignment in time. The latter offers an earlier opportunity to resume the hybrid contribution, but adds joint work and transition, defers another workshop and accepts reduced change allowance and the risk of unsuccessful completion. The owner accepts that trade-off; comparable total effort or general superiority is not claimed. If ordinary review already supplies the repair, or the answer would arrive after its useful window, no such extra work earns that payoff.
 
-**Reject** both blind rollout continuation and automatic full redesign. At comparable bounded effort, recovering the actual support conflict and completing three alternatives preserves a useful contribution while exposing its cost. The trade-off is that some proposed repairs stop for a missing condition instead of producing a confident new plan. Reopen the decision when an applicable rival, an unavailable recovery condition, changed authority or later consequence defeats its selected basis.
+Blind rollout and automatic full redesign remain rejected failure modes, not substitutes for this comparison. The organization-specific contribution is to complete a missing relation and carry its actual effectivity and unfinished work to their owners. Reopen only the affected choice when a stronger available disposition, changed burden or timing, expired authority, unavailable recovery or later consequence changes its basis. Obtain local service, clinical, employment and other protected results from their qualified owners; a source-guided comparison cannot waive them.
 
 ### OCE.14:12 - Relations
 
@@ -3494,7 +3513,7 @@ The practice question is how to revise an organization after consequences or cha
 
 OCE.13 supplies a qualified consequence comparison when needed. A current direct owner result can also enter OCE.14 without a general observation exercise. OCE.1/OCE.2 recover the organization and actual relations when those are uncertain.
 
-OCE.3–OCE.8 supply the applicable concept, contribution, position, assignment, paired-architecture or whole-arrangement result. OCE.6 establishes obtaining assignments and enabling relations; OCE.9 realizes the contribution; OCE.10/OCE.12 support participation and leadership; OCE.11 coordinates change with continuing service.
+OCE.3–OCE.8 supply the applicable concept, contribution, position, assignment, paired-architecture or whole-arrangement result. OCE.8:4.1 supplies sufficient-comparison reuse and the comparison of common and added work for a needed extension. OCE.6 establishes obtaining assignments and enabling relations; OCE.9 realizes the contribution; OCE.10/OCE.12 support participation and leadership; OCE.11 coordinates change with continuing service.
 
 OCE.16 handles an actual consequential dependency on a condition another separately managed change uses. OCE.15 and Method Engineering receive a reusable-Method defect; OCE.17 can receive evidence about continuation of OCE practice. Obtain the required authority, professional evidence and actual work results from their respective owners.
 
