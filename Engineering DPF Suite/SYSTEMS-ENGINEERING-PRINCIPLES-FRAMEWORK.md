@@ -3025,7 +3025,10 @@ Work—can confirm or reopen the choice.
    Work must preserve. Separately state
    which implementation details and lower-scope structures remain open. Establish Work assignments, authority,
    commitments, and permissions through their own relations rather than through the architecture decision.
-9. **Name the engineering uses.** Identify the receiving Work and the constraint or question it needs. Supply
+9. **Name the engineering uses.** Identify the receiving Work and the constraint or question it needs. Where
+   later Work can change the grounds for this choice, connect its relevant result or return condition to the
+   affected architecture question and decision subject. Use an existing compatible decision or configuration
+   account for these connections when it already supplies them. Supply
    compatible selected-structure constraints and reconsideration conditions to `SYSE.3`, `SYSE.13`, and
    `SYSE.18` only where they change the receiving design choice. During decision Work, use `SYSE.9` to request a
    specialist contribution when one is needed. Use `SYSE.7`, `SYSE.10`, or `SYSE.4` for a current description
@@ -3061,7 +3064,7 @@ decision relation and its cited subjects:
 | selected structures | Obtaining structures or possible-future claim content, affected relations, selected option, fixed project-shaping constraints, and open refinements. |
 | criteria and evidence | Decision-specific `C.32.ACS` rows, any `C.32.ACE` results, comparison or choice result, sources, observations, uncertainty, and limits. |
 | trade-offs | Expected gains, accepted losses, unresolved residuals, rejected or retained alternatives, protected characteristics, and affected-System consequences. |
-| engineering returns | Named constraints, questions, and result conditions supplied to receiving decisions—for example, realization, integration, configuration, description, specialist, assurance, supporting-System, operation, or maintenance decisions. |
+| engineering returns | Named constraints, questions, and result conditions supplied to receiving decisions—for example, realization, integration, configuration, description, specialist, assurance, supporting-System, operation, or maintenance decisions. When a returned result can change this choice, name the affected architecture question. |
 | continuation | Observations and source changes that call for reconsideration, the decision subject and authority for that reconsideration, the supersession condition, and comparison of later actual structures with decision content. |
 
 An ADR-like file or architecture description can publish parts of this result through `C.32.ADR` and
@@ -3078,50 +3081,76 @@ than forcing either silent drift or a whole-project restart.
 
 ### SYSE.6:5 - Worked Case: Architecture Decision for the Heat-Pump Plant Controller
 
-Engineers using `SYSE.5` have produced two viable alternatives for an occupied-building heat-pump plant. In
-alternative A, local unit controllers carry protection and normal regulation while a supervisor sends bounded
-set-points. In alternative B, thermal storage and a tariff scheduler carry most time-shifting while local
-controllers retain protection and regulation. Both can satisfy the current use concept; their structures and unresolved evidence
-differ.
+Engineers using `SYSE.5` have developed two alternatives for the same occupied-building heat-pump plant.
+In A, local unit controllers carry protection and normal regulation while a supervisor sends bounded
+set-points. B adds thermal storage and tariff scheduling; its local controllers retain protection and regulation.
 
-The project must choose the controller architecture for plant configuration `HP-2` for the next three heating
-seasons. Its architecture board is the decision subject; a separate project relation gives the board authority
-to make this decision. The board's assignment and the decision record do not create that authority. The resulting
-`ArchitectureDecisionRelation@Project` selects these project-shaping structures:
+The decision is which architecture should guide engineering of configuration `HP-2` for the next three
+heating seasons. The architecture board is the decision subject; a separate project relation gives it
+authority for that choice. The assignment and decision record do not create that authority.
 
-- local protection remains within each unit boundary and does not depend on supervisor or utility
-  communication;
-- the supervisor can coordinate set-points only inside declared unit operating envelopes;
-- plant-state and command interfaces carry units, timestamps, quality, validity, fallback, configuration, and
-  effectivity conditions;
-- a later storage branch can enter only through the declared thermal, control, configuration, and assurance
-  interfaces.
+Continue the `SYSE.5` proposals with additional stipulated design inputs: a thermal/hydraulic account
+and a compatible sensing and control arrangement. These are premises of this worked case, not reported plant
+results. If the sensor-variant conflict in `SYSE.7` remains open, follow that return before relying on the
+storage comparison below.
 
-The architecture board compares protection independence, room-comfort response, grid-flexibility response,
-integration burden, energy and cycling consequences, maintenance access, and continuing change. Each criterion
-names its bearer and conditions. Current evidence supports alternative A. Alternative B remains a future option
-because storage-cycling, plant-space, supply, and economic claims are not yet sufficient for the current
-commitment.
+Both proposals use the same building heat-demand and weather envelope, comfort requirement, communication-loss
+condition, installation window and budget. Compatible unit results and design analyses support both at the
+scope of the architecture commitment; whole-plant qualification is still required before operation. Seasonal
+energy and storage-cycling claims remain unresolved as shown below. Layout and supply estimates leave both
+options within the window and budget, with the required maintenance access.
 
-The accepted loss is less global optimization than the most centralized candidate predicts. The decision
-protects local fail-safe behavior and records the operating evidence that can reopen the balance. Algorithm choice, hardware supplier, detailed state estimator, and user-interface design
-remain open refinements provided they preserve the fixed structures and guardrails.
+After protection and comfort, the building owner gives priority to less installation disturbance and a
+smaller added maintenance burden. Peak-period flexibility is desirable but is not a current requirement.
+The board compares the complete arrangements under those conditions:
 
-The controller and integration teams use the fixed structures while shaping controller, bench, installation,
-and integration Work with `SYSE.3`. Configuration and interface-version Work uses `SYSE.13`; utility-signal
-authority and service conditions are handled with `SYSE.18`. Model and trial results are assessed through
-`SYSE.10`, and the assurance question is handled through `SYSE.4`. The Agents performing these neighboring
-Work occurrences apply their respective Methods, and each Work occurrence produces its own result for its named
-receiving use. The architecture decision only supplies relevant constraints and questions.
-The architecture board reconsiders the decision if communication-loss trials violate local protection,
-room-comfort or cycling observations cross their guardrails, the utility changes signal semantics, storage enters
-current project scope, or the installed structure diverges materially from the selected option. A new decision
-then names the changed configuration, remaining horizon, unresolved evidence gaps, and operating envelope. It may
-supersede the earlier decision.
+| Decision-relevant consequence and basis | A — local regulation with bounded supervision | B — storage with tariff scheduling |
+| --- | --- | --- |
+| Protection and comfort under the shared envelope | Uses the qualified local protection and the existing heat-delivery path. The design analysis supports the required comfort response. | Retains the same local protection. The design analysis includes the storage charging and discharge modes needed for comfort. Neither option gains preference by dropping the protection condition. |
+| Installation and maintenance burden in the stipulated plans | Retains the heat path and adds supervisory connections and configuration. It needs fewer site changes and no storage-loop servicing. | Adds a tank, pump, valves, sensors and charging controls. The layout allows access, but installation and later servicing cover these additional parts and modes. |
+| Response during a two-hour utility peak | Can adjust set-points within the comfort envelope, but the stipulated heat balance does not support a two-hour compressor stop at the declared cold-weather load. | A design-stage heat balance supports delivery from the charged store during that stop, including usable stored energy, discharge rate and losses. This is model support for the declared conditions, not an observed operating result or zero electricity use by the whole plant. |
+| Seasonal energy, cycling and economic consequences | Peak-period compressor use remains. Comparative seasonal consumption and total cost are not established. | Tariff scheduling could move purchases out of the peak period; storage losses and charging cycles also matter. The available comparison does not establish a seasonal energy or total-cost advantage. |
+| Continuing change | Storage can be added later through reserved interfaces, but that would require another physical alteration and qualification. | Storage flexibility is developed now, at the cost of the added equipment, control modes and their continuing configuration and evidence burden. |
 
-The architecture decision does not make the plant configuration obtain. After integration, observations of the
-actual installed Systems and relations are compared with the decision content. A different wiring, fallback,
-or control allocation is an implementation divergence even if the architecture record was left unchanged.
+**Present choice.** The board selects A. Both proposals meet the conditions needed for this bounded
+commitment, and A is better on the owner's stated priority. B's supported peak-shifting possibility does not
+override that priority while flexibility remains optional and its seasonal economic advantage is unknown.
+No aggregate score is needed. The board accepts A's lack of the modeled two-hour shift, continued exposure
+to peak-period purchases, and the possibility of a later retrofit. It does not claim that A has the lowest
+lifetime cost.
+
+The resulting `ArchitectureDecisionRelation@Project` fixes these structures:
+
+- local protection remains within each unit boundary and does not depend on supervisor or utility communication;
+- supervisory set-points stay inside declared unit operating envelopes;
+- plant-state and command interfaces carry units, timestamps, quality, validity, fallback, configuration and effectivity conditions;
+- a later storage branch enters through the declared thermal, control, configuration and assurance interfaces.
+
+Algorithm choice, hardware supplier, detailed state estimator and user-interface design remain open
+provided they preserve those constraints. The controller and integration teams use the constraints while
+shaping controller, bench, installation and integration Work with `SYSE.3`. Configuration and interface-version
+Work uses `SYSE.13`; utility-signal authority and service conditions use `SYSE.18`. Model and trial results are
+assessed through `SYSE.10`, and assurance through `SYSE.4`. Each receiving practitioner applies the relevant
+Method to produce the needed result; the architecture decision supplies constraints and questions.
+
+**Changed premise.** Suppose the utility contract now requires that same two-hour compressor stop while
+the building's comfort requirement remains. The accepted flexibility loss is no longer admissible. Reopen
+the A/B choice: with the other stated premises still current, B's heat balance supports selecting it for
+further engineering, while A's does not support the new requirement. The board can make a new decision for
+the remaining horizon; this does not qualify B for operation. Preserve the local protection constraint and
+still-applicable unit results, and return the storage, charging-control and integration questions to their
+receiving work. If the relied-on storage calculation or installation premise fails, reopen that unsupported
+branch instead of treating the new contract as proof that B works.
+
+A lower tank price alone would not automatically overturn A: the board would examine whether it changes
+the burden comparison or the owner's priority. Unknown seasonal savings remain unknown. Communication-loss
+failures, comfort or cycling guardrail crossings, changed utility-signal semantics and material installed
+divergence also retain their named return to the affected architecture question.
+
+After integration, compare the actual installed Systems and relations with the decision content. Different
+wiring, fallback or control allocation is an implementation divergence even if the architecture record was
+left unchanged. The decision, its later supersession and evidence of the obtaining plant configuration
+remain separate.
 
 ### SYSE.6:6 - Biases to Watch
 
@@ -3132,11 +3161,9 @@ bearers and losses; compare decision-specific criteria. **Software-transfer bias
 example as a general engineering rule; recheck the physical realization, operating conditions, and evidence of
 the engineered System.
 
-Agents—for example, people, teams, organizations, robots, or sufficiently agentic AI Systems—may contribute to
-synthesis, modeling, criticism, evaluation, or implementation when they have the needed capability and
-assignment. The decision still names the decision subject, authority, accepted losses, evidence, and affected
-Systems. Application DPFs supply subject-specific Methods—for example, Methods for physics, safety, software,
-medicine, electrical or civil engineering, shipbuilding, manufacturing, law, environment, or economics.
+Agents may contribute when their capability and assignment fit the needed work. The deciding Agent remains
+responsible for the choice under the applicable authority and evidence conditions. Application DPFs supply
+the subject-specific Methods and safeguards needed for the engineering question.
 
 ### SYSE.6:7 - Conformance Checklist
 
@@ -3194,20 +3221,64 @@ structure.
 
 ### SYSE.6:11 - SoTA and Source Use
 
-Module boundaries and interfaces create trade-offs in architecture characteristics. Relate each choice and its accepted limitations to realization and integration, retain the reasons for the decision, and reconsider it when those relations change. The receiving project determines which characteristics and interface constraints matter.
+**Practice question.** In a project using FPF, how should engineers choose among developed architecture
+options and keep that choice useful when realization, integration or operation changes its grounds?
 
+**Selected answer.** Combine proportionate decision analysis with an explicit fixed/open boundary and
+connections from the decision to receiving engineering work and back. Use the direct comparison and choice
+Methods for selection; use `C.32.PAD` for the commitment, accepted losses, refinement freedom and
+reconsideration. The Systems Engineering contribution is to fill those connections with the actual
+realization, interface, configuration and evidence dependencies that could change this choice.
 
-| Source line | Use here | Epistemic boundary |
-| --- | --- | --- |
-| [Ford, Parsons, Kua, and Sadalage, *Building Evolutionary Architectures*, 2nd ed.](https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/) and [Richards and Ford, *Fundamentals of Software Architecture*, 2nd ed., 2025](https://www.oreilly.com/library/view/fundamentals-of-software/9781098175504/) | Supplies the current practitioner line for guided incremental architecture change, contextual characteristics, trade-offs, objective evaluation, and reopening. | The examples are software-centred. Their general Method is already generalized by `C.30`–`C.32`; software mechanics, team topologies, pipelines, and metric sets are not transferred as universal Systems Engineering rules. |
-| [Monetti, Lundström, and Maffei 2025](https://doi.org/10.1080/21693277.2025.2566066), [Grønvald et al. 2026](https://link.springer.com/article/10.1007/s11740-025-01412-4), [Eichenwald et al. 2024](https://doi.org/10.1016/j.procir.2024.03.018), [Ghanjaoui et al. 2024](https://doi.org/10.1007/s13272-024-00773-3), and [Meixner et al. 2024](https://arxiv.org/abs/2402.09882) | Supports early assembly and realization feedback, explicit positive and negative modularity consequences, sparse economic evidence, and return from production feasibility to architecture. | The studies are bounded manufacturing and company cases. They do not establish universal modularity savings, one product/process/resource ontology, or automatic architecture-to-Work derivation. |
-| [Demir, Chouseinoglou, and Tarhan 2024](https://doi.org/10.1002/smr.2703) | Supports the recurrence of architecture-decision participation, information-sharing, tracking, and rationale problems. | The 101-practitioner self-report survey is software-specific and does not establish a cross-domain decision Method or causal superiority of one authority arrangement. |
-| [Lynch et al. 2025](https://doi.org/10.1016/j.jenvman.2025.126419) | Supports the distinction among an authorized decision, later observation, a reopen condition, and later re-evaluation. | The three natural-resource cases do not supply universal triggers, decision rights, or responses. The receiving engineering use must establish its own observations, consequences, evidence, authority, and choice. |
-| [Becker et al. 2025 with the 2026 METR update](https://metr.org/blog/2026-02-24-uplift-update/), [Agarwal, He, and Vasilescu 2026](https://arxiv.org/abs/2601.13597), and [Pradas Gomez et al. 2025](https://doi.org/10.1017/pds.2025.10045) | Supports AI participation in bounded software and engineering-design Work with task-dependent gains, review needs, and integration consequences. | Use the evidence for bounded, task-dependent AI contribution. Complete-process autonomy, productivity transfer, independent problem selection, authority or responsibility transfer, and architecture adequacy remain separate claims. |
-| Current FPF `C.30`–`C.32`, especially `C.32.ACS`, `C.32.ACE`, `C.32.PAD`, `C.32.ADR`, `C.32.CONWAY`, `C.31`, and comparison, choice, evidence, Work, and architecture-description patterns | Supplies the normative ontology, general criteria/eval/candidate/decision machinery, and description boundary used directly. | This DPF uses the `C.32.PAD` schema and general evolutionary-architecture Method, then adds the engineered-System admission and result-return specialization stated in the Solution and Rationale. |
+A serious alternative is [NASA's Systems Engineering Handbook, §6.8, especially
+§§6.8.1–6.8.1.2.5](https://www.nasa.gov/reference/6-8-decision-analysis/).
+It distinguishes mandatory and enhancing criteria, scales the analysis to the decision, examines whether
+reducing uncertainty is worth its cost and delay, allows closely ranked alternatives to reach the decision
+maker, and separates a recommendation from the authorized choice. **Adopt** these disciplines in §4.1
+steps 4–7. They support the qualitative A/B choice in §5; neither a compulsory aggregate score nor exhaustive
+inquiry is needed.
 
-Recheck an affected AI allocation or evidence claim when the tool generation, task distribution, engineering
-profile, or quality outcome changes.
+[NASA §6.5, especially §§6.5.1.2.2–6.5.1.2.3 and the configuration-verification
+activity](https://www.nasa.gov/reference/6-5-configuration-management/) connects approved
+baselines, change authority, impact evaluation and verification of implementation. A project applying these
+together can maintain an architecture decision through change. Its actual arrangement may already supply
+the connections used here.
+
+The remaining practical question is what this choice constrains and what a later result can overturn.
+For HP-2, the ordinary supplier choice remains open while local protection and command limits remain fixed.
+The new two-hour curtailment requirement changes the acceptability of the flexibility loss and reopens the
+A/B decision. It preserves the still-valid local-protection basis. That is the connection made explicit in
+§4.1 steps 8–11 and the engineering-return position in §4.2: the receiving work, its relevant result or changed
+condition, and the affected architecture question stay joined.
+
+**Adapt** decision-analysis and configuration information to these bounded engineering uses. The
+`C.32.PAD` fixed/open and source-return distinction supplies the general move; the HP-2 filling is authored
+here. Compared with a choice report and product baseline that leave those connections for each receiver to
+reconstruct, this account gives the installer, controller developer and architecture board a shared answer
+about which change needs which decision. If the existing report and configuration arrangement already give
+that answer, cite and use them. This pattern calls for no duplicate account or replacement of their change
+authority.
+
+The deliberate cost is identifying and maintaining the few receiving questions and return conditions that
+matter. Accept that effort when an engineering result can invalidate a material decision premise or expose
+a conflict between fixed constraints and open refinement. For a self-contained choice whose consequences
+need no such coordination, use the direct decision Method. The comparison supports this bounded connection
+and its worked changed-condition return; it supplies no measured reduction in engineering time or failure
+rate and no general ranking above NASA's wider process.
+
+[Ford, Richards, Sadalage and Dehghani, *Software Architecture: The Hard Parts*, chapter 7,
+“Finding the Right Balance” and “Ticket Assignment Granularity,” pp. 24–28](https://www.thoughtworks.com/content/dam/thoughtworks/documents/books/bk_software_architecture_hard_parts_ch7_en.pdf)
+provides a developed comparison of opposed consequences. **Adopt** its explanatory move: connect the choice
+to the actual interactions and priorities, and retain a disadvantage of the selected option. The heat-pump
+case applies that move to installation burden and peak flexibility. **Reject** transferring a particular
+software granularity choice into a universal engineering rule; the physical dependencies and qualifications
+in §§4–5 govern this use.
+
+Reopen this selection if the connections fail to identify the affected decision, their maintenance costs
+more than the receiving use warrants, or another applicable method supplies the same decision and return
+with less effort and no lost constraint. Changed source or engineering conditions reopen the affected
+comparison. Recheck an affected AI allocation or evidence claim when the tool generation, task distribution,
+engineering profile or quality outcome changes.
 
 ### SYSE.6:12 - Relations
 
@@ -3238,9 +3309,8 @@ profile, or quality outcome changes.
 - `C.32.ADR`, `C.30.AD`, `E.17`, and `E.24.PUB` govern decision projection, architecture description,
   source-backed publication, and audience availability. A current decision can exist without one particular
   file, and a file can persist after the decision is superseded.
-- Application DPFs retain subject-specific architecture Methods and safeguards for engineered-System
-  profiles—for example, software, electrical, mechanical, civil, ship, medical, manufacturing, or human–AI
-  engineering.
+- Application DPFs retain the subject-specific architecture Methods and safeguards needed for the
+  engineered System's profile.
 
 ### SYSE.6:End
 
