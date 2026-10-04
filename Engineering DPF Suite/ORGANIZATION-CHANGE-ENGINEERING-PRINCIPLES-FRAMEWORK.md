@@ -62,7 +62,7 @@ Search the Keywords & Search Queries column for a difficulty, subject, or result
 
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
-| 13 | [OCE.13 - Observe and Compare Organization-Change Consequences](#oce13---observe-and-compare-organization-change-consequences) | Eternal alpha | *Keywords:* consequences, observation, comparison, gains, losses, causal limits. *Question:* What changed, for whom, and which comparison can change the next organization decision? | Qualified observation and measurement results; FPF C.16, A.10; C.28 when causal reliance is needed |
+| 13 | [OCE.13 - Observe and Compare Organization-Change Consequences](#oce13---observe-and-compare-organization-change-consequences) | Stable | *Keywords:* consequences, observation, comparison, gains, losses, causal limits. *Question:* What changed, for whom, and which comparison can change the next organization decision? | Qualified observation and measurement results; FPF C.16, A.10; C.28 when causal reliance is needed |
 | 14 | [OCE.14 - Decide Whether and How to Revise the Organization from Qualified Results](#oce14---decide-whether-and-how-to-revise-the-organization-from-qualified-results) | Eternal alpha | *Keywords:* organization revision, retention, repair, reversal, authority. *Question:* Should the challenged organization relation be retained or changed, and under whose authority? | OCE.13 or a current direct result; actual authority; FPF C.11; conditional OCE.3-OCE.12/OCE.16 |
 
 **Part V - Sustain Methods, Cross-Change Coordination, and OCE Practice**
@@ -3039,7 +3039,7 @@ HCD.1 supplies capability demand. HCD.3 supplies a target justified by evidence 
 ## OCE.13 - Observe and Compare Organization-Change Consequences
 
 > **Type:** Method pattern
-> **Status:** Eternal alpha
+> **Status:** Stable
 >
 > **Primary working result:** a decision-useful comparison of observed organization-change consequences, stating what the evidence supports and preserving conflicting results, uncertainty, missing evidence, and the next decision or observation question.
 
@@ -3087,7 +3087,11 @@ Do not begin by choosing a dashboard. Begin, for example, with “Should the rel
 
 Ask affected participants which consequences the initial account omits. Follow the contribution outward and the work backward: who receives the result, who supplies it, who handles failures, whose work is displaced and which surrounding System could bear a material consequence? Participant accounts can reveal a question without yet settling its answer.
 
-Bound the inquiry by that decision. If one current service or authority result already determines the permitted next action, return it directly. If a wider observation would not change the decision, do not require it merely to fill an evaluation framework.
+Bound the inquiry by that decision. If one current service or authority result already determines the permitted next action, return it directly. A competent existing evaluation may already answer the whole consequence question, including displaced burdens and explanatory limits. Check its fit to the present arrangement and receiving use, then use that answer without commissioning another OCE comparison. If a wider observation would not change the decision, do not require it merely to fill an evaluation framework.
+
+For a consequential gap, compare using the supported current answer with extending it or obtaining another qualified result. Keep the receiving decision, required protection and decision window fixed. Say what each continuation would let the owner decide, including an explicit deferral when that is permitted. An extension is useful when its possible findings would change that choice.
+
+Compare the complete work required to reach and use each return. Keep common collection, interpretation and decision work in both accounts; reuse completed work rather than charging for it again. For the difference, include access and provider preparation, participants' contributions, collection and checking, reconciliation of disagreements, coordination, communication, and the support or rework needed to use the result. Count displaced commitments and continued support while waiting. Distinguish total effort, who bears it and elapsed time: a short analyst task can still require scarce participant time or miss the decision. Use available estimates or a bounded qualitative comparison; leave unknown costs visible. Agree any additional burden and delay with those who allocate and perform the work. Choose the extension only for its stated gain at that accepted cost; otherwise return the sufficient result or the narrower supported answer and its unresolved question.
 
 #### OCE.13:4.2 - Make the consequence questions observable
 
@@ -3142,7 +3146,7 @@ A compact result can say:
 
 Use OCE.14 when that result challenges an organization relation and a revision is the next question. Use OCE.10 for a supported participation or target-culture question, OCE.11 for a service/change conflict, or the direct measurement, safety, customer or other owner for its missing result. Give OCE.15 or OCE.17 feedback only when a reusable Method or practice-continuation question actually arises.
 
-If the next useful output is an observation plan, name the question, procedure, permitted source, responsible provider, timing and conditions. Do not describe its proposed readings as obtained.
+If the next useful output is an observation plan, name the question, procedure, permitted source, responsible provider, timing and conditions. Do not describe its proposed readings as obtained. If access fails or the result will arrive after its receiving decision, reconsider the addition with that owner: a timely narrower return, a permitted delay or a separately authorized protective response may now be preferable. Keep already supported contrasts, and commission a later observation only for a later use that still warrants its work.
 
 What changes in practice is the choice of the next move. The organization can retain an observed gain, investigate a displaced loss and stop an unsupported claim without treating them as one all-or-nothing verdict on the change.
 
@@ -3164,9 +3168,22 @@ Staffing, incident mix and product mix may differ. The equal denominators do not
 
 OCE.13 preserves both numerical contrasts and the limited interview evidence. It does not average the two proportions, call the change a net success or infer whole-organization customer benefit. The observed return improvement remains useful even while its cause and wider effects remain open.
 
-The next inquiry is specific. Inspect the obtaining release-support and service assignments, their work intervals and the relevant work evidence to determine whether one holder is committed in incompatible windows. Request the service owner's qualified coverage and substitution conditions if revision becomes the receiving question. The comparison itself does not supply those results.
+A competent evaluation team can already supply these contrasts, participant accounts and limits. Producing them includes permitted record extraction, checking the counting procedure, participant consultation, interpretation with qualified providers, reconciliation and a usable return. OCE does not repeat that work. The evaluator, relevant holders and receiving owner check whether its arrangement, intervals and intended use are still current. If the result also contains a qualified current assignment account that answers the overlap question, return it directly. Obtain the service owner's coverage and substitution conditions only where the receiving revision needs them. This is a sufficient evaluation result, not a reason for another observation cycle.
 
-The result returned to OCE.14 therefore contains the two contrasts, the report's limited reach, live staffing and mix explanations, and the exact assignment question. If the later assignment result confirms a conflict, an authorized revision can respond to that conflict without claiming that this observational comparison established the hybrid arrangement's full causal effect.
+Now suppose the assignments changed after the observed windows. The historical contrasts remain supported, but the evaluator cannot yet say whether the current release-support and service commitments occupy incompatible intervals for the same holder. The organization owner needs a warranted basis by Friday for choosing the support arrangement for the next two weekly releases. For this choice, the direct owners separately supply a permitted temporary manual arrangement through the next scheduled review, with its staffing, service protection and recovery conditions. These are case inputs, not consequences inferred from the table.
+
+Both continuations use the completed evaluation, its currentness check, the owner's Friday decision and the work of implementing, communicating and checking whichever disposition is authorized. Temporary support through Friday is common work. Compare what differs:
+
+| Continuation for the Friday decision | Additional work and timing | Useful return and accepted limitation |
+| --- | --- | --- |
+| Use the competent current evaluation and defer the unresolved assignment decision to the scheduled review. | No new collection now. The holders and service owner arrange and perform temporary manual support for the two releases; the evaluator carries the exact gap into the existing review. Its later inquiry and participants' preparation still cost work. | The owner can choose the supplied temporary arrangement without attributing either contrast to the hybrid. The current assignment question stays open, and the hybrid-dependent contribution is deferred. |
+| Extend that evaluation with a current assignment-and-work check before Friday. | The record custodian checks permitted access and extracts the relevant assignment and episode records; the affected holder and release/service leads explain actual intervals and exceptions; the evaluator reconciles them and returns a bounded conclusion by Thursday. The service owner checks what that conclusion means for coverage. Their added preparation, coordination, correction and return occupy time otherwise allocated to a non-urgent cross-team documentation review. Any resulting reassignment, substitute and follow-up remain work to be provided, not a saving credited in advance. | A confirmed conflict opens the specific OCE.14 revision question; a supported absence of that conflict removes this particular ground for repair. An inconclusive return leaves the temporary option available under its supplied conditions. No outcome identifies the hybrid's overall causal effect. |
+
+In this case these participants and providers can complete the check and return by Thursday; they and those responsible for their allocation accept postponing the documentation review. The organization owner chooses the extension because a timely answer can settle this ground for repairing the assignment before Friday, when a supported revision can still be considered for the next releases. A usable answer creates that earlier choice; it does not guarantee a permissible revision or preservation of the hybrid's contribution. This is an accepted expenditure for a useful earlier choice, not demonstrated net economy. The temporary arrangement's work remains in the comparison; the burden of any eventual repair must be accepted separately. If the current evaluation already answered the assignment question, or the earlier choice did not matter enough to those bearing the additional work, the extension would not be selected.
+
+Suppose the qualified check then confirms incompatible commitments. OCE.14 receives that result alongside the two descriptive contrasts, the report's limited reach and the live staffing/mix explanations. Its owner still needs current coverage, substitution and authority before changing the relation. The inquiry has supplied no such permission.
+
+Change one condition: the custodian can release the needed records only after Friday, and no timely qualified substitute result is available. The proposed extension cannot support this Friday choice. The owner uses the already permitted temporary arrangement, with its actual burden and deferred hybrid contribution, and reconsiders the observation for the later review. If that temporary arrangement is also unavailable, return the unsupported continuation to the direct owner rather than inventing cover. Neither delay erases the two historical contrasts or turns them into an answer about the changed assignments.
 
 #### OCE.13:5.2 - Hospital waiting time and missing severe cases
 
@@ -3192,6 +3209,7 @@ Participant evidence can expose what records omit, but contributors may face une
 
 - [ ] The receiving decision, arrangement, affected organization, timing and decision-changing questions are explicit.
 - [ ] The chosen consequences follow the contribution and affected parties rather than a compulsory metric panel.
+- [ ] A sufficient current evaluation can finish the inquiry; any extension has a decision-changing result, full common/additional work, timing and an accepted burden.
 - [ ] Subjects, eligible episodes, windows, conditions, measurement procedures and comparison basis are recoverable.
 - [ ] Reports, observations, interpretations, uncertainty and missing evidence retain their different meanings.
 - [ ] Relevant gains, losses, transferred burdens and subgroup differences remain visible.
@@ -3214,25 +3232,25 @@ Participant evidence can expose what records omit, but contributors may face une
 
 The practitioner obtains a result that can support a specific next decision without concealing displaced work or overstating causation. A useful local contrast can survive an unresolved wider question, and a missing observation becomes an actionable request rather than a vague demand for more study.
 
-The cost is explicit comparability and source work. Some results arrive later than the decision window or remain inaccessible. The appropriate response may be a narrower claim, a bounded observation or an authorized precaution supplied by another owner.
+The cost includes participants and providers as well as analysis: comparability, access, interpretation, reconciliation, return, displaced work and continued support while waiting. An existing competent result can avoid a new inquiry. An extension may instead justify greater effort for an earlier or better-supported choice, as in PumpWorks; neither its narrower scope nor its OCE label proves economy. A late or inaccessible result can make a narrower return, permitted deferral or separately authorized precaution the better continuation.
 
 ### OCE.13:10 - Rationale
 
-Organization change alters relations through which contributions are obtained and burdens distributed. Observing only the intended local result can miss the reason a revision is needed. Beginning with the receiving decision selects an informative, affordable observation scope.
+Organization change alters relations through which contributions are obtained and burdens distributed. Observing only the intended local result can miss the reason a revision is needed. Beginning with the receiving decision identifies which observation could matter; comparing its complete work and timely use determines whether obtaining it is worthwhile. When a competent evaluation already supplies the answer, specialization to OCE adds no reason to repeat it.
 
 A qualified comparison preserves the meaning of each value and the conditions under which it was obtained. That permits a decision owner to distinguish a real conflict, a measurement problem and an unresolved causal question, instead of treating every disappointing observation as proof that the whole arrangement failed.
 
 ### OCE.13:11 - SoTA-Echoing
 
-The practice question is how to obtain enough consequence evidence to change an organization decision. The selected line is decision-led, context-sensitive and proportionate evaluation. Two serious alternatives are reporting the existing KPI set unchanged and requiring a full causal evaluation before any useful return.
+The practice question is whether the current consequence evidence is sufficient for an organization decision, and which further evaluation, if any, is worth its work. **Adopt** competent, proportionate evaluation that relates its question, evidence and return to that decision. A sufficient existing evaluation is the principal alternative to a new OCE-led extension. Sections 4.1 and 5.1 let it finish the inquiry after its applicability has been checked.
 
-**Adapt the current evaluation line.** The [updated MRC framework (Skivington et al., 2021)](https://doi.org/10.1136/bmj.n2061) connects questions, intervention/context relations, stakeholders and consequential uncertainty. Sections 4.1–4.2 adopt those questions for organization contributions and displaced burden rather than a fixed phase sequence. It is a health-intervention research contribution, not evidence that this OCE Method produces a particular effect.
+**Adapt** the [updated MRC framework (Skivington et al., 2021)](https://doi.org/10.1136/bmj.n2061): questions about intervention/context relations, stakeholders and consequential uncertainty become questions about organization contributions and displaced burden in 4.1–4.2. It is a health-intervention research contribution, not evidence that this OCE Method produces a particular effect.
 
-The [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html), especially §§2.2.1–2.2.2 and §3.4, supports intended-user and decision-timing questions, proportionate designs and explicit explanatory limits. Sections 4.3–4.5 adapt that line: reuse suitable evidence, expose rivals and request specialist attribution when it changes the use. Obtain the local measurement result and organization decision authority from their respective owners.
+The [Magenta Book (HM Treasury, May 2026)](https://www.gov.uk/government/publications/the-magenta-book/magenta-book-central-government-guidance-on-evaluation-html), especially §§2.2.2, 3.1–3.2 and 4.2, supplies the strong evaluation line: purpose and use, feasible timing, participant burden and explicit methodological trade-offs. Sections 4.1/4.3/4.5 adapt it to the receiving organization question. Local measurement, professional interpretation and organization authority still need their actual providers.
 
-**Compare the consequences of change.** Distinguish desired results, observed drift, sacrificed Work and different development contributions. The PumpWorks and hospital cases show how those distinctions affect an OCE comparison.
+The constructed PumpWorks comparison specializes this evaluation line for an organization decision. The competent bounded return supports a permitted temporary arrangement. A timely current-assignment check costs additional participant/provider work and displaces a documentation review, but can change which specific relation the owner considers repairing before the next releases. That accepted trade-off, including continuing support and the uncredited cost of any later repair, justifies the addition in the stated case. A sufficient current assignment result removes the need for it; late access removes its Friday payoff. Sections 4.1/4.5 and 5.1 make the choice depend on the available evidence, burden and time left to use the result.
 
-**Reject** unchanged KPI reporting when it omits a decision-changing burden, and reject universal causal study as the price of a descriptive result. At comparable effort, qualifying the two relevant contrasts in PumpWorks yields a more useful next question than broad reporting. More demanding evidence is deliberately retained when its answer can change a high-consequence claim. Reopen the selected comparison when a changed population, procedure, configuration, applicable rival design or later consequence defeats its basis.
+Unchanged indicators that omit a material burden and compulsory causal research for every descriptive return remain failures to avoid, not the strongest alternatives. Obtain stronger causal evidence where the receiving claim requires it. Reopen the comparison when the decision window, available answer, population, procedure, arrangement, provider access, burden or a serious evaluation alternative changes.
 
 ### OCE.13:12 - Relations
 
