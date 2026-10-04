@@ -3318,8 +3318,7 @@ engineering profile or quality outcome changes.
 
 ### SYSE.7:0 - Use This When
 
-Use this pattern when an engineering decision depends on several epistemes—for example, descriptions, models,
-requirements, analysis reports, configuration records, test results, or records of operating observations—but the project cannot
+Use this pattern when an engineering decision depends on several description epistemes, but the project cannot
 yet tell whether they concern the same subject, compatible configurations and intervals, mutually interpretable
 claims, or the evidence needed by that decision.
 
@@ -3361,40 +3360,30 @@ objects and relations that matter to the decision.
 | consistency | A named set of claims can be jointly used under stated schemes, configurations, intervals, and tolerances. Establish it from claim content under those conditions; syntactic agreement, shared identifiers, and storage co-location are only comparison cues. |
 | coherence | The selected claims and their correspondences support the receiving decision without an unresolved contradiction or missing distinction material to that use. Its scope is the named decision and material claims. |
 
-The described subject, description episteme, model use, representation, mathematical lens, view, viewpoint,
-publication occurrence, carrier, source, evidence relation, configuration, and performed Work remain different
-objects. Restore only the distinctions that can change the receiving decision.
+Restore only the distinctions that can change the receiving decision.
 
 ### SYSE.7:1 - Problem Frame
 
-Engineering decisions rarely depend on one self-sufficient description. A controller architecture can involve,
-for example, an outside-use account, a description of functional organization, a bearer-and-interface description,
-an equation-based plant model, a control-state description, a wiring schedule, a component catalogue claim, a configuration
-record, a test procedure, recorded test observations, or an assurance argument. These epistemes may concern different subjects,
+Engineering decisions rarely depend on one self-sufficient description. A controller-architecture decision can
+depend on a plant model and a sensor's component specification. These epistemes may concern different subjects,
 scales, configurations, and intervals. They may use different reference schemes and intentionally omit
 different characteristics.
 
 The difficulty is not solved by putting every expression into one repository or by declaring one model
 authoritative. Engineers need to know which claims support which decision, what each claim concerns, how a
 cross-description comparison is warranted, and what world-side or evidence result would expose a mistake.
-Otherwise a coordination cue—for example, a model identifier, diagram label, common part number, generated
-link, or synchronized timestamp—is silently treated as identity and agreement.
+Otherwise a shared part number or generated link can be silently treated as identity and agreement.
 
 Two symmetric failures recur.
 
-1. **One-model overreach.** A familiar product—for example, an architecture model, CAD assembly, requirements
-   database, ontology, simulation, or digital-twin product—is expected to contain every useful engineering
-   distinction. Its local
-   ontology and omissions then become hidden project law.
+1. **One-model overreach.** One favored description is expected to contain every useful engineering distinction.
+   Its local ontology and omissions then become hidden project law.
 2. **Unrelated-description accumulation.** Specialists maintain useful local epistemes but no one states their
    shared subjects, configuration applicability, interpretation, evidence, contradictions, or receiving
    decisions. The project has many artifacts and little joint decision support.
 
-`SYSE.7` describes the applied engineering move between these failures. FPF supplies the transdisciplinary
-distinctions for representations, epistemes, publications, views, evidence, configurations, and source
-currentness. This pattern specializes their joint use for engineering descriptions supporting decisions—for
-example, concept, architecture, realization, integration, operation, assurance, or modernization decisions—
-about an engineered System and its affected Systems.
+The general FPF distinctions support the applied engineering move between these failures: make descriptions
+jointly usable for decisions about an engineered System and its affected Systems.
 
 ### SYSE.7:2 - Problem
 
@@ -3403,8 +3392,7 @@ the following clear:
 
 
 - the receiving decision and the claim that a description is expected to change;
-- the actual System, intended referent, configuration, part, environment, Work occurrence, or other holon
-  that a claim concerns;
+- each claim's subject or intended referent, with its own identity and independently established kind;
 - whether two descriptions concern the same individual, the same kind, related parts, successive
   configurations, or merely similarly named subjects;
 - the reference scheme, scale, coordinate frame, units, tolerance, assumptions, omissions, and modeled interval;
@@ -3428,14 +3416,14 @@ would change if the linked claim failed.
 | Force | Tension to manage |
 | --- | --- |
 | Local specialist fitness and cross-specialist use | A local model should use the distinctions needed by its specialist Work; a receiving engineering decision still needs explicit correspondences and limits. |
-| Minimum useful set and missing perspectives | Every additional description costs maintenance and collision checking; an omitted claim—for example, a functional, physical, temporal, affected-System, realization, or evidence claim—can make the decision unsound. |
+| Minimum useful set and missing perspectives | Every additional description costs maintenance and collision checking; an omitted decision-changing claim can make the decision unsound. |
 | Stable subject identity and changing configurations | Several epistemes may concern one enduring System while referring to different particulars—for example, parts, variants, versions, effectivities, or intervals. Recover the identity relation instead of relying on a shared name. |
 | Human readability and machine-supported checking | Text and diagrams can reveal meaning to people; formal expressions and automation can expose selected contradictions. Warranted reliance still requires an explicit interpretation, completeness boundary, and world-side correspondence. |
-| Executable model and physical result | Simulation and generated code can shorten feedback; they can also reproduce shared assumptions and omit physical effects—for example, manufacturing, installation, environmental, or operating effects. |
+| Executable model and physical result | Simulation and generated code can shorten feedback; they can also reproduce shared assumptions and omit physical effects. |
 | Shared model and federated descriptions | One common model can reduce translation for a bounded use; independently maintained descriptions can preserve needed expertise and authority. Choose from the receiving decision and the losses of each arrangement. |
 | Current decision and future reuse | General data structures can enable later use; speculative completeness can delay the present decision and preserve obsolete distinctions. |
 | Publication convenience and epistemic identity | One publication occurrence can make several epistemes available, and one episteme can appear through several publication forms. Carrier consolidation leaves claim content and editions distinct. |
-| AI-assisted production and warranted reliance | AI Systems can produce candidate outputs—for example, text, code, diagrams, mappings, checks, or summaries—quickly. The outputs still need recoverable sources, subjects, error checks, and decision-specific acceptance. |
+| AI-assisted production and warranted reliance | AI Systems can produce candidate descriptions quickly. The outputs still need recoverable sources, subjects, error checks, and decision-specific acceptance. |
 | Standards compatibility and present practice | Standards supply useful distinctions and exchange constraints. Treat conformance, official publication, and academic visibility as evidence of declared content; assess practical adoption, effectiveness, and current engineering Methods separately. |
 
 ### SYSE.7:4 - Solution
@@ -3445,24 +3433,26 @@ and make every material cross-description use explicit. Select descriptions from
 document inventories, notations, process presentations, and tool repositories are candidate sources rather than
 the selection rule.
 
+Start with the project's existing descriptions and review results. Reuse results that still apply to the
+receiving decision and whose subjects, editions and interpretations remain recoverable. When a material claim
+lacks that basis, recover or establish the missing comparison through :4.1 and keep the usable results for
+unaffected claims. This work can remain within the existing data-management arrangement.
+
 #### SYSE.7:4.1 - Perform the Move
 
 1. **Name the receiving decision and its decision-changing claims.** State the decision, decision subject,
    intended use, project focus, current option set, and the claims for which a changed value, contradiction, or
    evidence result could change the choice.
-2. **Recover each described subject.** For every needed claim, identify the actual System, intended referent,
-   selected structure, configuration, part, environment, Work occurrence, Method, or other holon concerned.
-   Distinguish an individual from its kind, one part structure from another selected structure, and a current
-   configuration from a possible-future candidate.
-3. **Select the description uses.** Choose the smallest set of epistemes needed, for example, to express,
-   calculate, compare, communicate, realize, observe, or assure those claims. Examples include a use account,
-   functional description, physical-structure description, equation model, state model, interface account,
-   configuration record, trial
-   result, or operating observation. Include each one only for a stated use.
+2. **Recover each described subject.** For every needed claim, identify its subject or intended referent and
+   retain its independently established kind. A description of an engineered System concerns that System;
+   a description of a selected organization of relations concerns a `U.Structure`. Distinguish an individual
+   from its kind, one selected structure from another, and an actual configuration from a possible-future
+   candidate.
+3. **Select the description uses.** Choose the smallest set of description epistemes needed for those claims,
+   and state each description's use.
 4. **Identify each episteme and expression.** Record claim content, `EntityOfConcern`, effective reference
    scheme, edition, source, provenance, modeled interval or effectivity, assumptions, omissions, and relying
-   Work. Separately identify any material expression or publication object—for example, a carrier, publication
-   form, rendering, executable expression, database object, or generated summary—when its identity changes use.
+   Work. Separately identify any material expression or publication object when its identity changes use.
 5. **State interpretation and model-use conditions.** As needed by the decision, name conditions such as units,
    coordinate frames, scales, tolerances, abstractions, parameter sources, boundary conditions, solvers or
    inference procedures, and validation limits. State the project's interpretation separately from language rules
@@ -3499,15 +3489,16 @@ are recoverable. It does not prescribe the order of performed Work.
 
 #### SYSE.7:4.2 - Record the Result
 
-Use a compact `EngineeringDescriptionEnsembleAccount@Project` when several descriptions materially support one
-decision. It is a project-local episteme; the FPF kinds of its participants remain unchanged.
+Keep a compact `EngineeringDescriptionEnsembleAccount@Project` for the receiving decision. Reuse applicable
+existing results that supply the content below; add only what is missing or must change. It is a project-local episteme;
+the FPF kinds of its participants remain unchanged.
 
 | Field | Required content |
 | --- | --- |
 | receiving decision | Decision, decision subject, intended use, interval, and downstream Work that will use the result. |
 | decision-changing claims | The smallest claim set whose value, contradiction, evidence, or absence can change the decision. |
 | description entries | For each episteme: source and edition, claim content, `EntityOfConcern`, reference scheme, configuration/effectivity, modeled interval, assumptions, omissions, and relying Work. |
-| expression and publication entries | Material carriers, publication occurrences and forms, renderings, executable expressions, database objects, or generated summaries, each kept separate from the source episteme. |
+| expression and publication entries | Material expressions, publication occurrences, forms, and carriers whose identities change use; identify each separately from the source episteme. |
 | model-use conditions | Purpose, scale, units, coordinates, tolerances, boundary conditions, parameter sources, interpretation, calculation or inference Method, and validity limits needed by this use. |
 | relations | Direct same-subject, part, interface, configuration, source, transformation, evidence, or other governed relations; unsupported correspondence hypotheses are marked as such. |
 | collision results | Claim-level agreements, explainable differences, unresolved contradictions, missing interpretations, and missing world-side checks. |
@@ -3515,8 +3506,8 @@ decision. It is a project-local episteme; the FPF kinds of its participants rema
 | maintenance assignments | Assigned Agents, their system-role assignments, authority, capability, Work, and acceptance conditions for producing, checking, changing, or retiring description uses. |
 | return and refresh | Receiving Work and the Agents assigned to it, accepted reliance limits, current gaps, triggering observations, and the smallest affected account or decision to reopen. |
 
-The account can be published through, for example, linked text, tables, model queries, a repository view, or
-generated reports. Its identity and sufficiency do not depend on one storage technology.
+The account can use existing publication forms. Its identity and sufficiency do not depend on one storage
+technology.
 
 #### SYSE.7:4.3 - What Changes in Practice
 
@@ -3548,7 +3539,7 @@ distributed across several descriptions. The engineering team constructs this bo
 | use and operating-scenario episteme | The intended heat-pump plant in occupied-building use; supplies temperature, noise, maintenance, power-price, and grid-response situations. | Scenarios are possible use descriptions, not performed operation or test evidence. |
 | functional-organization episteme | Candidate control organization: demand estimation, compressor modulation, storage dispatch, limit protection, and fault handling. | Treat the listed elements as functions until separate bearer and realization relations assign them to controller modules or software processes. |
 | bearer-and-interface account | Candidate controller hardware, plant sensors, actuator connections, storage valve, communication interfaces, and allocations. | Names candidate Systems, physical interface specifications, and many-to-many function allocations for the decision. |
-| equation-based plant model | Thermal plant and storage behavior under selected boundary conditions. | Modelica equations describe one selected physical abstraction; solver output is not observed plant behavior. |
+| equation-based plant model | Thermal plant and storage behavior under selected boundary conditions. | [Modelica](https://modelica.org/projects/language/) equations describe one selected physical abstraction; solver output is not observed plant behavior. |
 | controller state and timing description | Control states, transitions, sampling assumptions, fallback conditions, and actuator commands. | The description concerns intended controller behavior and must correspond to the hardware timing and sensor claims. |
 | component and wiring records | Sensor variants, controller I/O, update rates, error bounds, cable and connector configurations. | Catalogue claims apply only to component variants and conditions. |
 | bench and commissioning results | Observations from controller-in-the-loop Work and later installed-plant trials. | Engineers use `SYSE.10` to qualify which engineering claims those results support and `SYSE.13` to keep tested configurations explicit. |
@@ -3571,6 +3562,11 @@ configuration, and a reconsideration condition tied to component substitution or
 requirement. Controller, procurement, integration, configuration, and assurance Work use different publication
 forms over recoverable source epistemes while the decision-changing relations remain explicit. The result stays
 bounded to this decision.
+
+If the data-management review already distinguishes the sensor variants and relates the model assumptions to
+the selected variant, the engineers reuse that result. When procurement later substitutes a variant, they
+reconsider the affected timing and error claims and the dependent architecture branch. Unchanged descriptions
+and qualified earlier results keep their stated applicability.
 
 An AI System also produces a proposed cross-description summary and candidate correspondence list. Those
 outputs are new epistemes produced by performed Work. They are checked against source editions and
@@ -3598,9 +3594,11 @@ This pattern resists four recurrent source and practice biases.
 ### SYSE.7:7 - Conformance Checklist
 
 - [ ] One receiving engineering decision, its decision subject, and the decision Work are named.
+- [ ] Applicable existing results are reused with recoverable interpretations and returns to the decision;
+      added content answers a material gap.
 - [ ] Every selected description has a source episteme and edition, claim content, `EntityOfConcern`,
       effective reference scheme, configuration or effectivity where material, modeled interval, and use.
-- [ ] Actual Systems, intended referents, kinds, parts, configurations, and occurrences are not merged by name.
+- [ ] Each claim's subject or intended referent is identified without merging distinct subjects or kinds by name.
 - [ ] Model purpose, assumptions, omissions, scale, units, tolerances, and interpretation are sufficient for the
       receiving decision.
 - [ ] A `U.View` claim cites a viewpoint episteme and obtaining E.17.0 conformance; otherwise *view* stays
@@ -3651,46 +3649,84 @@ their assumptions for the receiving decision, and the integration team must unde
 
 **Risks.** The account can itself grow into a master-model bureaucracy. Prevent this by requiring a receiving
 decision for every maintained entry and by retiring a relation when no current Work relies on it. Conversely,
-aggressive minimization can omit a slow feedback channel—for example, a physical, affected-System, or
-specialist channel; the result
-check therefore asks what decision would become unsound if the omitted claim failed.
+aggressive minimization can omit a slow feedback channel; the result check therefore asks what decision would
+become unsound if the omitted claim failed.
 
 ### SYSE.7:10 - Rationale
 
-FPF already gives general precision for the needed transdisciplinary objects and relations, including epistemes,
-descriptions, publications, views, reference schemes, representations, mathematical lenses, evidence,
-currentness, configurations, and Work.
-
-Select a heterogeneous set of descriptions for the engineered-System decisions. Preserve subjects and
-configurations across functional, physical, behavioral, analytical, realization, and assurance uses. Expose
-conflicts between claims, connect candidate and intended descriptions to evidence from actual realization and
-operation, and turn gaps into questions for the engineering Work that can change the System or revise the decision.
+An engineering decision can need claims from descriptions with different purposes and omissions. Preserving
+their subjects and configuration applicability keeps the comparison about the intended case. Exposing conflicts and connecting
+candidate and intended descriptions to evidence from actual realization and operation turns gaps into questions
+for the engineering Work that can change the System or revise the decision.
 
 The ensemble is decision-bounded because no description is complete for every use. The same plant can require
-different selected structures and representations for different uses—for example, control design, installation,
-maintenance, economic choice, safety assurance, or operator training. Choose and relate descriptions by the
-claims that must be jointly usable now.
+different selected structures and representations for control design and maintenance. Choose and relate
+descriptions by the claims that must be jointly usable now.
 
 ### SYSE.7:11 - SoTA and Source Use
 
-Select descriptions for the engineering decision while keeping the subject, description, scheme and carrier distinct. Relate simultaneous descriptions through their correspondences, conflicts, gaps and update needs. Select aspects, levels, creator relations and model-federation links for that decision. Use descriptions to support research, realization and integration, and identify who performs the Work and who may authorize it.
+**Working question.** Once engineering descriptions are available and controlled, what further work makes
+their claims usable together for one decision? The selected answer is an authored combination: retain adequate
+data-management arrangements, then establish only the missing claim-level interpretation and applicability.
+Keep that result available to the decision and to the changes that can defeat it.
+
+[NASA's Technical Data Management treatment, §§6.6.1.2–6.6.1.3](https://www.nasa.gov/reference/6-6-technical-data-management/)
+is a serious alternative. It selects needed data, addresses adequacy and consistent use, defines exchange
+conventions and responsibilities, and weighs acquisition burden. It also permits existing contractor arrangements
+when they meet project requirements. **Adopt** that selection and reuse principle. A tailored implementation may
+already provide all the content review this decision needs. Retain an applicable result whose claim interpretation,
+configuration basis and receiving use remain recoverable.
+
+For a concrete comparison, give both approaches the HP-2 inputs in :5 and engineers able to interpret the sensor
+specifications and control-model assumptions. Either can discover the conflict between the assumed two-hertz,
+0.1-kelvin bound and the selected variant's half-hertz, 0.3-kelvin bound. Controlled exchange alone leaves that
+conflict unresolved. Where the existing review already connects those claims to the selected variant and the
+architecture choice, :4 and :4.2 reuse it. Where that connection is missing, :4.1 moves 4–8 recover the
+interpretation, test the correspondence and return the unsupported architecture claim. The additional useful
+result is a recoverable reason for limiting the storage branch and reconsidering it after sensor substitution,
+as :5 demonstrates. This is a conditional benefit of the added comparison, not a claim that NASA's process
+precludes such a check.
+
+Both arrangements need the specialist interpretation. This pattern additionally asks that the material
+correspondence, applicability and return remain recoverable. Accept the work of recording and maintaining them
+when dependent decisions or changes would otherwise require reconstruction or risk reusing the wrong result.
+For a one-off decision, a short explanation in its existing record may suffice. A maintained shared account earns
+its cost through actual relying Work; retire unused relations under :9. Total effort depends on how often the
+result is reused and how often its basis changes.
+
+A shared semantic model is another serious alternative when recurring exchanges justify the conversion and
+maintenance. The [landing-gear case in Wu et al. (2025)](https://doi.org/10.1016/j.aei.2025.103490) combines shared
+model semantics, conflict handling, traceability and versioning. **Adapt** that joint treatment in :4.1 moves
+4, 6 and 10. Use an existing common model when it retains the distinctions needed by the decision; use explicit
+correspondences between specialist descriptions when conversion would lose a needed distinction or cost more
+than maintaining those correspondences. For HP-2, either arrangement must preserve the sensor variant and its
+timing and error bounds. **Reject** shared names or storage co-location as substitutes for that relation.
+The case supplies a feasible arrangement, not evidence that one architecture wins across domains.
+
+**Bound the reliance on each comparison.** [Riedmaier et al. (2021), §§2.5 and 7](https://doi.org/10.1007/s11831-020-09473-7)
+distinguish validated conditions from the intended model application and examine uncertainty: **adopt** that
+distinction in :4.1 moves 5 and 8. [Schwarzburg, Trauer and Rebentisch (2024), §§5.2–5.3](https://doi.org/10.1017/dsj.2024.14)
+examine model history, competence, access and decision risk: **adapt** these as questions for a consequential
+unresolved reliance under `SYSE.10`, without importing an exploratory confidence score as an acceptance threshold.
+The study's small non-probability sample cannot establish comparative industrial effectiveness.
+These sources limit what either data arrangement can warrant: internally consistent claims still need a
+qualified basis for the physical use.
+
+For optional AI assistance, **adapt** the task-specific allocation proposed by
+[Pradas Gomez et al. (2025), §§4–5](https://www.cambridge.org/core/journals/proceedings-of-the-design-society/article/team-of-three-the-role-of-generative-ai-in-the-development-of-design-automation-systems-for-complex-products/2DB8CA17B63C63EA1C0C57F349769C7E).
+In :5, the AI System proposes correspondences; the assigned engineers check their sources and implications
+before accepting reliance. Tools remain resources under :4.3. The source offers a conceptual model for choosing
+contributions; its survey and literature review do not demonstrate this HP-2 arrangement's effectiveness or
+confer decision authority.
+
+**Reconsider the choice** when a material relation cannot be recovered before use, a changed configuration or
+source defeats its applicability, or a different arrangement supplies the same needed distinctions with less
+total work. Reopen the affected claims and return them under :4.1 move 11 and :4.3. A credibility gap goes to
+`SYSE.10`; a configuration-identity gap goes to `SYSE.13`; a changed description used by Work returns through
+`SYSE.19`. Preserve the usable remainder. This is also the limit on :12's return to `SYSE.6`: only an account
+applicable to the same architecture decision, configuration and horizon can inform it.
 
 
-| Source line | Retained contribution | Limit and guard |
-| --- | --- | --- |
-| [ISO/IEC/IEEE 42010:2022 and ISO/IEC/IEEE 15288:2023](https://www.iso.org/standard/74393.html) | Current standard vocabulary separates entity, architecture description, viewpoint, view, model kind, correspondence, and iterative or concurrent process application. | Use the standards for their declared vocabulary and constraints. Ground the project architecture, modeling Method, practical adoption, shared interpretation, and current practice separately; let the receiving engineering problem select the descriptions needed now. |
-| [Lehner et al. 2025](https://doi.org/10.1007/s10270-025-01264-7) | A systematic mapping study shows heterogeneous model automation and uses in digital-twin engineering, with domain and subject dependence. | Treat the manufacturing- and transport-heavy literature as evidence of heterogeneous arrangements. Select ontology, Method, and subject kind for the current engineering use. |
-| [ISO/IEC 30173:2023, ISO 23247-5:2026, and ISO 23247-6:2026](https://www.iso.org/standard/81442.html) | Current institutional work makes maintenance, continuity, connectivity, and integrated, unified, or federated composition visible as engineering-data arrangement choices. | Use these manufacturing standards to expose arrangement choices. Assess completeness, effectiveness, adoption, and the need for a digital-twin or digital-thread arrangement in the current engineering Work. |
-| [Wu et al. 2025](https://doi.org/10.1016/j.aei.2025.103490) | One landing-gear case connects heterogeneous model semantics, conflict handling, traceability, and versioning. | Use it as a worked case for those relations. Physical configuration selection, release, supply, and broader use require their own evidence and Methods. |
-| [SysML 2.0](https://www.omg.org/spec/SysML/2.0), [Modelica 3.7](https://modelica.org/language/), [ModelingToolkit 11](https://docs.sciml.ai/ModelingToolkit/stable/), and [Dyad 3.3.0](https://help.juliahub.com/dyad/stable/manual/changelog.html) | Rechecked 2026-08-25: the maintained families serve different uses—for example, architecture, requirements, acausal physical, symbolic-numeric, simulation, calibration, control, or integration uses—and a project may need several. Dyad 3.3 adds compiler-resolved editing and 3D multibody capabilities; each use still needs decision-led selection and explicit cross-description correspondence. | Specifications, changelogs, and provider documentation establish declared capabilities and maintenance. Assess comparative adoption and effectiveness separately; choose the model boundary, evidence, and correspondence from the engineering decision. |
-| [Riedmaier et al. 2021](https://doi.org/10.1007/s11831-020-09473-7) and [Schwarzburg et al. 2024](https://doi.org/10.1017/dsj.2024.14) | Model use requires decision-specific verification, validation, uncertainty and extrapolation attention; warranted reliance can depend on model history, competence, access, and decision risk. | Treat confidence as one evidence result under stated conditions. Establish physical adequacy, decision correctness, and reliability separately; interpret the small non-probability practitioner sample accordingly. |
-| [Becker et al. 2025 with the 2026 METR update, Agarwal et al. 2026, and Pradas Gomez et al. 2025](https://metr.org/blog/2026-02-24-uplift-update/) | AI Systems already participate in bounded software and engineering-design Work; task-specific allocation, provenance, review, integration, and observation remain necessary. | Use the sources for bounded contribution claims. Ground further claims—for example, productivity transfer, autonomous performance of larger Work, decision authority, or generated-description correctness—separately. |
-
-Refresh a source-dependent claim when a new edition changes a relied-on language capability, composition option,
-model-use boundary, automation result, or engineering-data relation. Treat publicity, standards announcements,
-university curricula, and vendor demonstrations as evidence of what is declared or taught. When evidence with
-a stated epistemic status changes a bounded engineering use, refresh the affected project claim,
-correspondence, or reliance decision.
 
 ### SYSE.7:12 - Relations
 
@@ -3707,8 +3743,7 @@ correspondence, or reliance decision.
   release, and revalidation when those are the current problems.
 - A compatible `SYSE.1` result can supply the scope and intended-result frame for the same subject and decision.
   It does not prescribe Work order. If it does not fit, use a qualified direct source or record the missing
-  result. Descriptions such as concept, candidate, provider, affected-System, or specialist descriptions remain
-  governed by their own subject patterns.
+  result. Descriptions remain governed by their own subject patterns.
 - `SYSE.7` supplies evidence to `SYSE.6` only when the account can change the same architecture decision at the
   same configuration and horizon. The account neither authorizes nor entails that decision. If the account
   cannot serve the use—for example, because it is unavailable, stale, outside scope, or incompatible—`SYSE.6`
@@ -3718,12 +3753,11 @@ correspondence, or reliance decision.
   cannot serve the use—for example, because it is unavailable, stale, outside scope, or incompatible—`SYSE.19`
   uses a qualified direct source or records that missing result.
 - When the current problem is requesting and accepting a professional contribution, apply `SYSE.9` to that
-  result and receiving decision. When neighboring Work—for example, realization, integration, supporting-System engineering, description
-  federation, or assurance Work—needs a description, its governing pattern uses the source episteme through its
-  own subject, configuration, evidence, and use relations. The Agent performing each neighboring Work applies its governing Method, and that Work produces its own result for the named receiving use.
-- Engineering profiles—for example, engineering-data, physical, software, electrical, control, manufacturing,
-  medical-device, ship, or building profiles—may specialize description Methods where their subjects,
-  formalisms, evidence, and realization relations change the working move. A profile name alone adds no pattern.
+  result and receiving decision. When neighboring Work needs a description, its governing pattern uses the source
+  episteme through its own subject, configuration, evidence, and use relations. The Agent performing that Work
+  applies its governing Method, and the Work produces its own result for the named receiving use.
+- Engineering profiles may specialize description Methods where their subjects, formalisms, evidence, and
+  realization relations change the working move. A profile name alone adds no pattern.
 
 ### SYSE.7:End
 
