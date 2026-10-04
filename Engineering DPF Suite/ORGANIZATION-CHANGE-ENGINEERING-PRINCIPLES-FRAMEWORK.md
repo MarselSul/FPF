@@ -54,7 +54,7 @@ Search the Keywords & Search Queries column for a difficulty, subject, or result
 | § | ID & Title | Status | Keywords & Search Queries | Dependencies |
 | :--- | :--- | :--- | :--- | :--- |
 | 9 | [OCE.9 - Realize a Bounded Organization-Capability Increment](#oce9---realize-a-bounded-organization-capability-increment) | Eternal alpha | *Keywords:* capability increment, representative work, integration, exception return. *Question:* How can the organization obtain the selected contribution beyond an isolated demonstration? | OCE.4/OCE.8 decision; OCE.6; qualified integration, learning and service results |
-| 10 | [OCE.10 - Choose a Response to Participation or Working Culture Difficulties in the Target Organization](#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) | Eternal alpha | *Keywords:* participation, resistance, working culture, intervention. *Question:* Why is a needed contribution not occurring, and what response is warranted by the available evidence? | OCE.6; applicable HCD.1/HCD.3/HCD.4 or direct professional results; C.36; conditional C.28 |
+| 10 | [OCE.10 - Choose a Response to Participation or Working Culture Difficulties in the Target Organization](#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) | Stable | *Keywords:* participation, resistance, working culture, intervention. *Question:* Why is a needed contribution not occurring, and what response is warranted by the available evidence? | OCE.6; applicable HCD.1/HCD.3/HCD.4 or direct professional results; C.36; conditional C.28 |
 | 11 | [OCE.11 - Coordinate Organization-Change Work with Continuing Service](#oce11---coordinate-organization-change-work-with-continuing-service) | Eternal alpha | *Keywords:* continuing service, capacity, dual operation, recovery, hand-back. *Question:* How can change work overlap with service without breaching its protected conditions? | ME.6; applicable OPS admission, resource and service results; conditional OPS.11.1/OPS.19, OCE.8/OCE.16; direct protection results |
 | 12 | [OCE.12 - Distribute Leadership Contributions in Organization Change](#oce12---distribute-leadership-contributions-in-organization-change) | Stable | *Keywords:* leadership, briefing, feedback, mutual assistance, continuity. *Question:* Which leadership contribution is missing from the next work episode, and how can it continue? | Qualified leadership and learning Methods; OCE.6; conditional OCE.10/OCE.11; applicable HCD results |
 
@@ -2278,7 +2278,7 @@ Use the current SYSE.11 bounded System-use result and ME.16 introduction result 
 ## OCE.10 - Choose a Response to Participation or Working Culture Difficulties in the Target Organization
 
 > **Type:** Method pattern
-> **Status:** Eternal alpha
+> **Status:** Stable
 >
 > **Primary working result:** a warranted participation or working-culture response, its bounded consequences when performed, or the exact unresolved explanation, professional result or stop. A response can be supported across surviving explanations without claiming a unique cause or creating a new study.
 
@@ -2296,7 +2296,7 @@ Do not use this pattern to settle an employment, clinical, legal or personal-wel
 
 A practitioner and the affected participants need to make a selected contribution workable in the target organization. A new request may conflict with an old reward, an effective duty, workload, belonging, legitimate concern or an established local practice. Formal design and nominal consent can coexist with those conflicts.
 
-The governed move is a bounded intervention on participation conditions or recurrent working practice. The practical gain is a different, supported action instead of repeated persuasion or a larger training order.
+The governed move is to choose and return a warranted response to the participation or working-culture difficulty: retain a sufficient current practice, recommend a change, or perform a bounded intervention when that work is assigned. The practical gain is a supported next action instead of repeated persuasion or a larger training order.
 
 ### OCE.10:2 - Problem
 
@@ -2339,9 +2339,13 @@ Keep the smallest live set of rival explanations that would change the next move
 
 Current HCD.3 can help distinguish a same-person capability target from task, access and support causes. Use the appropriately qualified professional when a clinical judgement or learning intervention is actually needed. Preserve a surviving rival when evidence does not distinguish it, and withhold an unsupported unique-cause conclusion. Request a new contrast only when its attainable result could change the response or warranted claim enough to justify its whole burden, delay and displaced work. Include the effort of designing the inquiry; C.11.DUA supplies that appraisal when needed. If the response is robust across the rivals, the contrast cannot arrive in time, or its burden exceeds its contribution, finish the qualified response on the available basis.
 
-#### OCE.10:4.3 - Choose a bounded, source-supported intervention
+#### OCE.10:4.3 - Choose a sufficient response and develop only what remains
 
-State the intended contribution, supported condition or surviving explanations, mechanism hypothesis, participants, effort, protection and authority, expected first difference, adverse consequence and stop. Choose the actual Method or professional intervention that fits those facts. When several explanations support the same bounded response, retain that uncertainty without inventing a unique cause. A determinant name or a strategy-menu item does not supply the Method.
+First compare the available response with the work that remains. A competent participatory implementation team may already have joined the participants' actions, relevant conditions, practical support and receiving-use observations. If that result supports the requested contribution under the current window, authority, protection and burden, use it. Do not repeat its inquiry, practice or evaluation to give it an OCE description. Uncertainty that cannot change this response may remain unresolved.
+
+When a real gap remains or a serious alternative is offered, put the current response and the proposed continuation on the same receiving task and acceptance conditions. Recover the whole work each needs: participants' preparation and use, the construction and conduct of inquiry, facilitation or translation, condition repair, support, correction and later observation. Count shared work once in each alternative; compare who carries it and what other work it displaces, as well as total effort and elapsed time. Keep unavailable authority or protection as a stop, not a burden that benefits can compensate. Choose a supported improvement at comparable whole effort, or name the gain and the disadvantage that the affected participants and responsible owners accept. If neither is warranted, retain the sufficient response, narrow the result or return the missing contribution. Section 5.2 shows why equal hours can still imply a consequential choice.
+
+For the intervention still needed, state the intended contribution, supported condition or surviving explanations, mechanism hypothesis, participants, effort, protection and authority, expected first difference, adverse consequence and stop. Choose the actual Method or professional intervention that fits those facts. When several explanations support the same bounded response, retain that uncertainty without inventing a unique cause. A determinant name or a strategy-menu item does not supply the Method.
 
 For a role-understanding difficulty, conduct a working conversation: reconstruct the expected result and limit with the participant; compare them with the person's goals, concerns and observed task; resolve the actionable misunderstanding or return the unresolved design conflict; agree one next contribution and how feedback will be obtained. OCE.12 can help obtain and sustain this leadership contribution.
 
@@ -2393,11 +2397,23 @@ If available interviews instead showed that people already challenge freely but 
 
 #### OCE.10:5.2 - Participation without common employment authority
 
-In a distributed standards association, silence may reflect language, time-zone burden, employer-owned evidence or a seniority norm. An executive-style demand for commitment would miss the actual constraints.
+In a constructed distributed standards association, silence may reflect language, time-zone burden, employer-owned evidence or a seniority norm. A competent team using Implementation Mapping has already obtained participant input, qualified translation, a lawful evidence-use boundary and an asynchronous challenge-and-response practice. Its prepared materials and observed use in two amendment packets support a sufficient current response: a junior member submits a permitted question, an editor answers it and the correction reaches the packet. Retain that response for the same conditions; another culture survey is not required.
 
-Suppose the association obtains qualified translation and a lawful evidence-use boundary. Participants test an asynchronous challenge-and-response practice on one amendment packet. A junior member can submit a permitted question, an editor responds within an accepted volunteer window, and the correction reaches the packet. Later peer use can support a narrow norm-change observation.
+A proposed live editorial clinic, with qualified facilitation and materials already available, would let contributors clarify difficult objections together and finish in one day. A volunteer objects to making common attendance a condition of having evidence considered. This is a concern about contribution and decision relations, not evidence of deficient motivation. Under the supplied bylaws, packet preparation requires specified qualified inputs and an editor's acceptance, not attendance by every contributor; the formal ballot remains separate. Both a facilitated clinic and separate submissions are lawful and available. The current question is one corrected packet within five working days, with the same technical review and evidence protections.
 
-The association has not acquired authority over employer time or permission to publish protected evidence. Missing bylaw or publication decisions still stop their dependent action.
+The following illustrative estimates are total person-hours for that packet. They include the necessary selection work, participant work, support and follow-up; they are stipulated case inputs, not measured effectiveness of either school.
+
+| Work through receiving use | Competent live clinic | Retain the prepared asynchronous practice |
+| --- | --- | --- |
+| Clarify this packet and compare responses; confirm authority, protection and availability; prepare its permitted evidence | 6 | 6 |
+| Contributors prepare questions and participate, including the clinic's waiting time or separate exchanges | 10 | 4 |
+| Editorial facilitation, qualified translation and response routing | 5 | 11 |
+| Correct the packet and inspect receiving use and burden | 3 | 3 |
+| **Whole work** | **24** | **24** |
+
+Both alternatives have the same nine hours of shared work; it is included once per alternative. The clinic finishes in one day; separate exchanges take three. The editor and support providers confirm that the extra six hours are available by postponing optional index maintenance; participants accept their individual windows. They and the publication owner choose the asynchronous practice: it moves six hours of burden away from contributors while accepting six more support hours, the postponed maintenance and slower response. It saves no total work. The objection changes the proposed organization design: separate qualified contributions can reach the accepting editor without a universal-attendance condition. A competent implementation team can make this same revision; OCE adds no second intervention to its sufficient result.
+
+If the packet becomes due in one day, that choice no longer meets the receiving window. Reconsider the clinic with the actual participants, translation and protection conditions, or return the deadline problem. Do not demand commitment to an unavailable arrangement. Later peer use can support a narrow observation about this participation practice; these packet results do not establish a culture change across the association. Missing bylaw or publication decisions still stop their dependent action, and the association gains no authority over employer time or protected evidence.
 
 ### OCE.10:6 - Bias-Annotation
 
@@ -2407,7 +2423,7 @@ Sponsor-centred inquiry can turn valid objections into resistance. Fear of conse
 
 - The gap concerns a concrete contribution and receiving work, not only an attitude label.
 - Rival explanations that change action have been considered and uncertainty remains visible. A new contrast is selected only for a worthwhile attainable contribution, including design effort, delay and displaced work; a response supported across the rivals can finish without it.
-- The chosen intervention has a supported mechanism, suitable Method, owner, protection and stop.
+- A sufficient current response is used directly. Any remaining intervention has a supported mechanism, suitable Method, owner, protection and stop; its comparison includes whole participant and support work, later use and any accepted disadvantage.
 - A claimed performed intervention uses actual observations of use, non-use, burden and receiving consequences. A recommendation, current continuation or selected probe is not reported as a newly performed intervention.
 - A cultural claim includes transmission, recognition and later use within a named population and window.
 - A stronger causal or professional claim is not inferred from a local participation result.
@@ -2423,7 +2439,7 @@ Sponsor-centred inquiry can turn valid objections into resistance. Fear of conse
 
 ### OCE.10:9 - Consequences
 
-The practitioner can choose a smaller intervention that addresses the actual difficulty and can stop an unsupported one. Participants gain a workable contribution and a way to raise valid concerns. Inquiry, protection, practice and follow-up consume effort; they may reveal that the selected design itself must change.
+The practitioner can retain a sufficient response, develop the intervention still needed and stop an unsupported one. Participants gain a workable contribution and a way to raise valid concerns. A better fit for participants can require more support or slower completion; make that choice explicit. Inquiry, protection, practice and follow-up consume effort, and valid concerns may require changing the organization design itself.
 
 ### OCE.10:10 - Rationale
 
@@ -2431,13 +2447,13 @@ Participation arises in a working situation with capabilities, relations, intere
 
 ### OCE.10:11 - SoTA-Echoing
 
-The practice question is how to choose a useful participation intervention rather than treating non-use as one kind of resistance. The selected line is determinant-sensitive, participatory and mechanism-explicit. It accepts the cost of bounded inquiry and follow-up rather than assuming a universally correct change recipe.
+The practice question is which participation response can support the needed contribution now. The selected line is to use sufficient competent participatory implementation directly, and to develop or obtain only its consequential remainder. Compare feasible responses under the same receiving conditions and whole work, retaining the determinant sensitivity and follow-up already supplied by competent implementation.
 
 | Comparison and disposition | Pattern consequence, source limit and reopen condition |
 | --- | --- |
-| **Adapt** [Implementation Mapping](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2019.00158/full): connect a performer's action, determinant, mechanism and practical support. The [2025 scoping review](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1603178/full) exposes uneven prioritization and outcome evaluation. | Steps 4.1–4.4 select and test an intervention; a determinant catalogue alone does not do so. The research supplies no guaranteed matching algorithm or engineering effect. Reopen when the mechanism, setting or observed consequence defeats the selection. |
-| **Use, with a boundary**, the [2025 CFIR guide](https://pmc.ncbi.nlm.nih.gov/articles/PMC12357348/) for selecting informative determinants and sources. A serious menu-based alternative can organize inquiry but does not itself provide intervention design or enactment. | Step 4.2 keeps a small action-changing explanation set; step 4.3 must still obtain the actual Method. More coded factors are not a better intervention. Reopen if an omitted determinant changes the action. |
-| **Retain as comparators** current [ADKAR](https://www.prosci.com/methodology/adkar) and [Kotter's evolving accelerators](https://www.kotterinc.com/methodology/8-steps/), not caricatures of training-only or linear change. Their engagement and support moves may be useful. | Steps 4.2–4.6 additionally bind the local cause, actual authority, consequences and recurrence evidence. Provider accounts are not independent comparative proof. Keep their direct contribution where it fits; reopen if it answers the local question more economically without losing those conditions. |
+| **Adopt and adapt** [Implementation Mapping](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2019.00158/full), Tasks 1–5, as a strong constructive line: participant involvement, action and change objectives, suitable strategies, prepared support and evaluation. Its sufficient result is the serious alternative to another OCE-led intervention. | Step 4.3 accepts that result without repeating its work. In 5.2, the prepared asynchronous practice and a competent live clinic each need 24 person-hours; the chosen response reduces contributor burden at the explicit cost of support, displaced maintenance and time. This is a conditional local choice, not evidence that OCE outperforms Implementation Mapping. Reopen for a changed receiving window, burden, support or protection. The [2025 scoping review](https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2025.1603178/full) reports uneven application and evaluation; it supplies no ranking of these constructed alternatives. |
+| **Use, with a boundary**, the [2025 CFIR guide](https://pmc.ncbi.nlm.nih.gov/articles/PMC12357348/) to select determinants and sources for a question that can change the response. It explicitly connects strategy development to participatory methods such as Implementation Mapping; use it for that determinant question. | Step 4.2 keeps the inquiry question and burden bounded; 4.3 uses an adequate existing response or obtains the actual intervention Method. More coded factors do not justify another intervention. Reopen only when an omitted or changed determinant can change the action or its warranted claim. |
+| **Use a sufficient contribution from** current [ADKAR](https://www.prosci.com/methodology/adkar) or [Kotter's evolving accelerators](https://www.kotterinc.com/methodology/8-steps/). Ability and reinforcement, barrier removal and institutional continuation can already support the local participation task. Compare retaining that supported work with the proposed replacement or extra diagnosis, not with training-only or announcement-only caricatures. | Steps 4.2–4.6 retain useful support and add work only for a consequential unresolved question. If further diagnosis cannot change the warranted response, continuing that support is sufficient, as in 5.1. If a gap survives, count both alternatives' complete burden through use as in 5.2. The public descriptions bound this comparison: detailed professional techniques and comparative effectiveness remain unestablished. Reopen on a changed contribution, condition or observed consequence. |
 | **Adapt bounded participant inspection** from the [sociotechnical-prototype experiment](https://doi.org/10.1016/j.apergo.2023.104012). Understandable representations can help participants inspect proposed work; whether cooperation improves must be observed in subsequent use. | Step 4.3 uses a concrete working case and participant co-design, then step 4.4 observes use. The experiment does not establish implementation effectiveness. Reopen when participants cannot understand or use the proposed arrangement. |
 
 ### OCE.10:12 - Relations
