@@ -4241,6 +4241,8 @@ the supplier's Method, enable a capable Agent, and assess the return before rely
    and C.11.DUA to compare its attainable contribution with preparation, qualification, supplier Work,
    delivery, interpretation, delay, displaced work, and alternatives. For a selected request, name the
    bounded calculation, constraint, objection, observation, or other result that supplies that contribution.
+   A competent specialist review may already supply this answer. Use that return; reconstruct only a missing
+   connection that can change its use, rather than requiring another account of the same result.
 3. **Bound the result.** Name its subject and the applicability dimensions that could change the answer. For a
    System claim these may include the actual or intended System, configuration, part, environment, affected
    System, use, interval, scale, and assumptions.
@@ -4296,6 +4298,14 @@ develop capability, obtain an external contribution, change the Method, or chang
 subsequent organization, capability, procurement, or engineering decisions; `SYSE.9` makes the need visible
 without absorbing those practices.
 
+Distinguish a missing result within an adequate contribution arrangement from a failure of that arrangement.
+A bounded trial can answer a timing question when capability, access and decision rights are already established.
+Repeated incompatible requests to the same specialists, unavailable shared capacity, or unsettled rights to
+change a common design instead raise a work- or organization-design question. Name which receiving decisions
+the present arrangement cannot support, the affected Work and the constraint to change. The first useful return
+is that bounded design need for the responsible organization or capability practice. Preserve the specialist
+results and current decisions that remain supported while that wider question is resolved.
+
 ### SYSE.9:5 - Worked Case: Contributions to a Heat-Pump Controller Decision
 
 A project is deciding whether a heat-pump controller should use direct compressor modulation alone or coordinate
@@ -4317,13 +4327,37 @@ individually worthwhile requests must also fit together within the decision wind
 | Tonal-noise and vibration observations for stated compressor speeds, mounting, and rooms. | Compare use consequences and choose further trials. | An acoustics specialist. A generic product noise rating is an input, not the requested site-use result. |
 | Refrigerant, leak, ventilation, and installation claims needed before release. | Decide whether the candidate may proceed and what remains unresolved. | The bearer of the relevant specialist authority is named separately; the word *safety* creates neither authority nor a universal veto. |
 
-The controls request exposes a hidden gap. An AI Agent has produced an optimization report, and its provider
-interface labels the run *verified*. The assignment covered parameter search, not validation, physical trial, or
-the architecture decision. Suppose an available stability check and controller-in-the-loop trial can qualify the proposed option in the
-decision window, and that contribution warrants their combined burden relative to retaining the existing
-controller. A controls specialist then checks the assumptions, and the selected Work supplies observations
-that `SYSE.10` qualifies for the receiving claim. The provider label proves none of
-those results.
+#### SYSE.9:5.1 - Use the Qualified Return Already Available
+
+Suppose inspection finds an electrical return E17 that already identifies the controller, inverter and wiring
+editions for both candidate arrangements, states the constraints, supplies adequate grounds and names its
+acceptance and decision-right boundaries. Those conditions match the receiving decision. The ordinary return
+can be: “E17's qualified electrical constraints apply to both configurations considered here. Use those
+constraints in the controller comparison within E17's stated limits.” This completes the electrical contribution;
+it does not claim the controls, acoustics or release results. Repeating the electrical review or rebuilding its
+account would supply no missing ground.
+
+#### SYSE.9:5.2 - Select a Worthwhile Missing Contribution
+
+The controls request exposes a different situation. An AI Agent has produced an optimization report, and its
+provider interface labels the run *verified*. The assignment covered parameter search, not validation, physical
+trial or the architecture decision. The missing connection is from the proposed parameter set, through an
+applicable stability assessment and observations, to the claim that the named controller configuration may
+enter trial. Recovering that connection identifies the needed contribution.
+
+For this illustrative decision, suppose an existing controller remains an admissible fallback. A controls
+specialist has a suitable stability check and controller-in-the-loop protocol. Preparation, execution,
+interpretation and return require six hours, and an exclusive bench slot permits completion before the decision.
+The project estimates EUR 900 for the complete burden, including displaced Work, and EUR 1,600 for the obtainable
+decision contribution relative to the fallback. These are stated decision assumptions, not measured trial
+success. The comparison supports obtaining the contribution while the separate time and resource conditions hold.
+
+The selected request names the proposed configuration, the stability and trial-entry question, the required
+observations, the decision time and an acceptable return of either a supported conclusion or a material limit.
+The specialist retains the controls Method. The selected Work supplies observations that `SYSE.10` qualifies;
+the engineer then uses the returned result for the controller choice. The provider label supplies none of
+that missing qualification. If the useful return cannot arrive in time, reconsider acquisition for this decision
+and use the supported fallback when the other conditions permit it. Later research needs its own receiving use.
 
 The refrigeration team returns a blocker: the supplier data and available tests do not cover the low-ambient,
 high-storage-charge region used by one candidate. The project can run another trial, restrict the operating
@@ -4333,6 +4367,25 @@ the next engineering choices clearer.
 The deciding engineer uses each accepted result only within its stated scope. The project neither merges the
 specialist Methods nor transfers all authority to a “chief architect.” Later commissioning observations reopen
 only the claims and architecture choices they can affect.
+
+#### SYSE.9:5.3 - Recognize a Changed Work-Design Question
+
+Now suppose several controller projects repeatedly compete for the same controls specialist and bench. Product
+teams can change a shared controller release, but no agreed arrangement settles joint priorities or who may
+authorize those changes. The earlier assumption that a selected request can obtain an exclusive slot and return
+under established decision rights no longer holds across this work.
+
+Another request for a controls report cannot settle those shared constraints. Return the design need: establish
+how these projects obtain controls analysis, bench access and decisions on the common release. Work or
+organization design must compare arrangements, using actual process demands, stakeholder constraints, capability
+and authority. Its burden includes gathering that evidence, comparing and enabling arrangements, transition and
+observation in use. It can propose, for example, a shared service with agreed priorities or capability in the
+product teams; neither proposal establishes its feasibility by being named.
+
+The bounded-result Method still identifies what each engineering decision needs and preserves an E17 or controls
+result wherever its conditions remain applicable. The wider Method must resolve the recurring arrangement.
+Keep those two contributions connected: an organization chart does not qualify a controller, and a qualified
+controller result does not establish shared capacity or decision rights.
 
 ### SYSE.9:6 - Bias Annotation
 
@@ -4354,8 +4407,9 @@ field evidence is not affordably available, state the expert estimate and its un
 Check the conditions needed by the claimed result. A reuse-only answer asserts no new supplier Work; a selected request or performed Work retains the applicable conditions below.
 
 - [ ] The receiving decision, deciding Agent, relying Work, and consequence are named.
-- [ ] A useful available answer and its material limit can finish the use. Any new request has an obtainable
-      contribution worth its whole acquisition burden and states a bounded result rather than a title or document.
+- [ ] A useful available answer and its material limit can finish the use, including a return from an adequate
+      existing specialist review. Any new request has an obtainable contribution worth its whole acquisition
+      burden and states a bounded result rather than a title or document.
 - [ ] Subject, configuration, environment, interval, assumptions, and non-use boundary prevent application to the
       wrong case.
 - [ ] A selected acquisition retains the supplier's Method, inputs, expected evidence, and acceptance conditions,
@@ -4366,6 +4420,8 @@ Check the conditions needed by the claimed result. A reuse-only answer asserts n
       decision consequence requires them.
 - [ ] The receiver accepts within a reliance limit, rejects, requests repair, selects another contribution, or
       records the blocker and affected decision.
+- [ ] A missing result remains distinct from a recurring capacity or decision-right problem. The latter reaches
+      the responsible work- or organization-design practice with the affected decisions and constraint to change.
 - [ ] Reopen conditions name the later change that can invalidate the result instead of requiring a generic
       periodic review.
 
@@ -4408,22 +4464,57 @@ the Method; accepted results and later evidence separately support continued use
 
 ### SYSE.9:11 - SoTA and Source Use
 
-Derive specialist coordination from the Work that needs to be done. Keep the needed contribution, the System and its role classification or assignment, capability, authority, Method, performed Work, result and receiving decision separately recoverable. A list of professional titles leaves these relations to be established for the project.
+The working question is: **for this engineering decision, what specialist answer can be used now, what additional
+contribution is worth obtaining, and does obtaining it require a change to the work arrangement?** The selected
+line is proportionate decision support with an explicit connection from specialist result to receiving use.
+Use an adequate established review directly; recover a consequential missing connection; take an unsettled
+contribution arrangement to the Method that can change it.
 
+A serious alternative is a competent specialist review using applicable reports, understood limitations and
+established decision rights. [NASA's Systems Engineering Handbook, Revision 2 (2016), §6.8](https://www.nasa.gov/reference/6-0-crosscutting-technical-management/)
+already scales decision analysis to the problem and considers whether uncertainty reduction warrants its cost
+and delay. **Adapt** its proportionate use of evidence to specialist requests, retaining its wider analysis
+when the whole comparison of engineering alternatives needs it. The table applies both answers to the same
+heat-pump conditions.
 
-| Source line | Retained contribution | Limit and guard |
+| Receiving situation from :5 | Complete answer and burden of a competent existing review | Selected use of this pattern |
 | --- | --- | --- |
-| [Grote et al. 2025](https://doi.org/10.1109/ISSE65546.2025.11370103) | A current positive Method derives organization-specific engineering-role bundles from required process contributions and stakeholder evidence; three industrial cases report clearer responsibilities and recognized gaps. | The conference study is limited to Advanced Systems Engineering organizations, uses judgment-laden workshops and one clustering technique, and does not merge kind, position, capability, assignment or Work. |
-| [Naikar et al. 2023/2024](https://pubmed.ncbi.nlm.nih.gov/38018437/) | Complex human–AI design should include distributed teams, artifacts, networked technologies, communication, adaptation and self-organization rather than one human–machine task list. | This is a conceptual synthesis with an illustrative application, not validation of one complete Method; its institutional cases do not justify military or centralized-authority ontology. |
-| [Waterson et al. 2025](https://publications.ergonomics.org.uk/uploads/Function-Allocation-for-Responsible-Artificial-Intelligence-How-do-we-allocate-trust-and-responsibility.pdf) | Function allocation should include system interdependencies, joint operation, decision points, responsibility points, outcomes, authority and dynamic trust. | The framework and experiments are early and small; they establish neither universal responsibility allocation, AI moral agency, legal rules, nor a complete Work-design Method. |
-| [Becker et al. 2025 with the 2026 METR update, Agarwal et al. 2026, and Pradas Gomez et al. 2025](https://metr.org/blog/2026-02-24-uplift-update/) | AI Systems already perform bounded software and engineering-design Work; allocation needs task-specific capability, quality, provenance, integration and observation. | Software dominates the evidence, and the sources do not establish autonomous complete engineering, independent problem selection, authority transfer, role-holder replacement, or universal productivity. |
-| [INCOSE Competency Framework 2018](https://www.incose.org/docs/default-source/professional-development-portal/isecf.pdf) | Historical counterexample to title inference: role statements differ from job descriptions, one job can combine several roles, local tailoring and proficiency evidence matter. | It inherits a 2015 handbook, lifecycle/acquisition/defense framing and a fixed proficiency ladder. Its catalogue is neither current SoTA nor FPF ontology, assignment, Work or capability proof. |
-| [Team Topologies, second edition 2025](https://teamtopologies.com/book) | Current author summary keeps cognitive load, platform grouping, whole-organization use and continuing adaptation visible as organization-design considerations. | The public page is not detailed chapter evidence or an independent effectiveness comparison. Software-team types and interaction modes are candidates, not universal engineering roles or DPF structure. |
+| E17 already supports the electrical contribution. | Inspect applicability and use the supported constraints. Additional analysis and new organization design add no ground for this question. | Use the same answer in :5.1. The account is optional; no new request or reconstruction is required. |
+| Parameter search is complete, but trial-entry qualification is missing. | Identify the unsupported claim, compare the useful additional check with the fallback and obtain it only within the stated cost, time and resource conditions. A competent review does not treat a *verified* label as that check. | Recover the missing connection between result and receiving use in :5.2. Both paths select the same six-hour contribution under the EUR 900/EUR 1,600 assumptions and still await its qualified return. |
+| Shared capacity and decision rights are unsettled across projects. | Report that the assumed contribution arrangement does not hold. Further decision analysis must compare arrangements as well as technical alternatives; another specialist report alone leaves the shared constraint unresolved. | Use :4.3 and :5.3 to return the work-design need while retaining independently usable results. Role or work design supplies the changed arrangement; its evidence, transition and continuing burden belong in that comparison. |
 
-Use an explicit epistemic status when field prevalence or causal effectiveness is not cheaply knowable. Expert
-judgment can guide a bounded engineering move; identify it as judgment rather than a population measurement.
-Reopen a contribution claim when a later engineering profile, role-derivation comparison, human–AI allocation study, actual project
-result, or changed capability makes the current request, holder, authority, acceptance, or DPF boundary wrong.
+The local constructive move connects the receiving claim to the specialist's Method, performed Work, actual
+result and permitted reliance, adding detail only where that connection is missing. This makes the next useful
+action recoverable when files or title-shaped requests obscure it. An established review that already supplies
+the connection achieves the same result without extra apparatus. The deliberate trade-off is narrow scope:
+this pattern exposes and coordinates the needed contribution; specialist analysis, ranking whole engineering
+alternatives and changing organizations remain substantive supplying work. The worked comparison supports this
+conditional choice, not a measured general advantage in speed or project success.
+
+Three further source contributions change that choice or its limits:
+
+- **Adapt:** [Grote et al. (2025), institutional abstract](https://publikationen.bibliothek.kit.edu/1000192414).
+  The authors propose deriving role bundles from process and stakeholder evidence, assessing relevance, effort
+  and complexity.
+  It is a serious organization-design alternative for :5.3, rather than a title catalogue. Its wider evidence
+  burden is warranted when the arrangement is the question; require no such reconstruction to reuse E17.
+  The abstract reports three industrial cases and limits from workshop judgement, clustering and regulated
+  transfer. It supports this boundary comparison, not reproduction or validation of the full algorithm.
+- **Adapt:** [Waterson et al. (2025), pp. 1–7](https://publications.ergonomics.org.uk/uploads/Function-Allocation-for-Responsible-Artificial-Intelligence-How-do-we-allocate-trust-and-responsibility.pdf)
+  distinguish choices of action from points where their consequences must be judged. Steps 5–7 and the controls
+  case use that distinction to separate parameter search, trial evidence and deciding authority.
+  Its exploratory models and experiments leave allocation criteria open. **Reject** treating that proposal as
+  an established assignment of legal responsibility or as evidence that an AI output carries decision authority.
+- **Adopt:** [METR's 24 February 2026 study-design update](https://metr.org/blog/2026-02-24-uplift-update/)
+  shows why selection, changed tasks, quality and concurrent work constrain a productivity interpretation.
+  It is failure evidence against inferring current task capability or value from an aggregate AI productivity
+  claim. Step 5 therefore requires grounds for this Work, and :5.2 still needs controls qualification.
+  Its software observations do not qualify refrigeration or controller behaviour.
+
+Reopen the affected reliance when configuration, capability, authority or available time breaks the connection
+to the receiving decision. Recompare the chosen way of working when an adequate review supplies the same return
+with less burden, or recurring failures show that bounded requests leave the contribution arrangement unresolved.
+A later source changes the choice only through the claim or Method contribution it can support.
 
 ### SYSE.9:12 - Relations
 
