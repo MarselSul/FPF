@@ -3,7 +3,7 @@
 > Find a method for your working question, and see how methods from different fields contribute to one decision.
 
 - **Author:** Anatoly Levenchuk, with AI-assisted development and review
-- **Version:** 3 October 2026
+- **Version:** 4 October 2026
 - **Status:** Eternal alpha: a working reference, revised as the Suite and its applications develop.
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
@@ -653,6 +653,7 @@ The [Research Method Practice DPF](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK
 | --- | --- | --- |
 | Does the request need new research, already have a sufficient answer, or require a different kind of work? | [RMP.1 - Decide Whether a Question Needs Research and When to Stop](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-1) | A scoped research question; a sufficient answer from available sources; a request to the practice able to answer; or a statement of the missing input that prevents a decision. |
 | Is the existing evidence sufficient, is a new study worth doing, or does a missing result prevent choosing? | [RMP.2 - Choose a Criticism-Bearing Research Design or Stop](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-2) | An adequate answer from existing evidence; a justified research design; a hold identifying the input that prevents selection; or a justified choice of no new study, with the unresolved claim, limits and conditions for reconsideration explicit. |
+| How can a manager obtain and use a defensible test of a workplace change? | [Workplace experiment: an additional approver](RESEARCH-METHOD-PRACTICE-PRINCIPLES-FRAMEWORK.md#rmp-workplace-experiment) | A worked application from suitable event records through a qualified comparison and its result to a staffing decision, including when a shared queue requires a different comparison and when to stop without a new study. |
 
 The complete repertoire supplies guidance for obtaining research results, not already obtained results. If a needed field-specific result, permission or evidence is missing, name that gap and return it to its owner. A protocol or collected information alone does not establish the research result.
 
