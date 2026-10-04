@@ -55,7 +55,7 @@ Search the Keywords & Search Queries column for a difficulty, subject, or result
 | :--- | :--- | :--- | :--- | :--- |
 | 9 | [OCE.9 - Realize a Bounded Organization-Capability Increment](#oce9---realize-a-bounded-organization-capability-increment) | Eternal alpha | *Keywords:* capability increment, representative work, integration, exception return. *Question:* How can the organization obtain the selected contribution beyond an isolated demonstration? | OCE.4/OCE.8 decision; OCE.6; qualified integration, learning and service results |
 | 10 | [OCE.10 - Choose a Response to Participation or Working Culture Difficulties in the Target Organization](#oce10---choose-a-response-to-participation-or-working-culture-difficulties-in-the-target-organization) | Stable | *Keywords:* participation, resistance, working culture, intervention. *Question:* Why is a needed contribution not occurring, and what response is warranted by the available evidence? | OCE.6; applicable HCD.1/HCD.3/HCD.4 or direct professional results; C.36; conditional C.28 |
-| 11 | [OCE.11 - Coordinate Organization-Change Work with Continuing Service](#oce11---coordinate-organization-change-work-with-continuing-service) | Eternal alpha | *Keywords:* continuing service, capacity, dual operation, recovery, hand-back. *Question:* How can change work overlap with service without breaching its protected conditions? | ME.6; applicable OPS admission, resource and service results; conditional OPS.11.1/OPS.19, OCE.8/OCE.16; direct protection results |
+| 11 | [OCE.11 - Coordinate Organization-Change Work with Continuing Service](#oce11---coordinate-organization-change-work-with-continuing-service) | Stable | *Keywords:* continuing service, capacity, dual operation, recovery, hand-back. *Question:* How can change work overlap with service without breaching its protected conditions? | ME.6; applicable OPS admission, resource and service results; conditional OPS.11.1/OPS.19, OCE.8/OCE.16; direct protection results |
 | 12 | [OCE.12 - Distribute Leadership Contributions in Organization Change](#oce12---distribute-leadership-contributions-in-organization-change) | Stable | *Keywords:* leadership, briefing, feedback, mutual assistance, continuity. *Question:* Which leadership contribution is missing from the next work episode, and how can it continue? | Qualified leadership and learning Methods; OCE.6; conditional OCE.10/OCE.11; applicable HCD results |
 
 **Part IV - Observe Consequences and Revise the Organization**
@@ -2467,7 +2467,7 @@ Current HCD.1/HCD.3/HCD.4 can supply demand, target-diagnosis and capability-pro
 ## OCE.11 - Coordinate Organization-Change Work with Continuing Service
 
 > **Type:** Method pattern
-> **Status:** Eternal alpha
+> **Status:** Stable
 >
 > **Primary working result:** a bounded, authorized arrangement for change and continuing service to coexist, its observed consequences and hand-back, or an exact reason that no current coexistence is available.
 
@@ -2511,7 +2511,9 @@ Identify the particular change contribution and the resources it can consume or 
 
 #### OCE.11:4.2 - Account for the overlap at the needed times
 
-With the participating workers and service owner, place the continuing commitments and the complete change burden in the same relevant time and resource view. Include preparation, practice, coaching, dual operation, observation, extra review, exception handling, recovery, catch-up and hand-back.
+Begin with the current service/change arrangement. Competent release and operating practice can already cover limited exposure, participant load, interruption response, recovery and support hand-back. If its current result covers this contribution, receiving obligations, interval and protection, use it without constructing another coordination account.
+
+Where a consequential gap remains, name the exact relation or interval whose answer can change the overlap: for example, who must answer a late challenge after a temporary support contribution is due to end. With the participating workers and service owner, extend a suitable existing account, or construct the needed account when none is suitable. Place the continuing commitments and complete change burden in the same relevant time and resource view. Include preparation, practice, coaching, dual operation, observation, extra review, exception handling, recovery, catch-up and hand-back. Count obtaining and keeping the needed account and any needed specialist returns current; that work also consumes the overlap.
 
 Keep unlike constraints visible. A holder can have hours but lack the needed capability, authority or access. Another participant's free time may not substitute. A provider's availability can constrain the whole attempt.
 
@@ -2521,9 +2523,13 @@ Use OPS.11.1 when the overlap requires reconstructing a network of transformatio
 
 #### OCE.11:4.3 - Construct a bounded coexistence arrangement
 
-Combine the direct decisions into a workable overlap. Specify the service coverage to retain, the size and timing of change exposure, available practice/support, the bridge or fallback, the condition for reducing or stopping starts, and what the receiving service owner must obtain at hand-back.
+Compare the competent current continuation with the proposed change on the same receiving result, authority, protected conditions and horizon through hand-back. Continued support or a qualified deferral can be a sufficient alternative. Use a current ME.6 co-use or OPS.19 operating comparison when it already answers this choice; do not rebuild it here.
 
-For example, limit a trial to one package, place its protected learning interval where the qualified coach is available, retain the old evidence-return channel until its last consuming obligation ends, and defer further starts when an incident consumes the agreed margin. Each condition must have an effective owner and basis.
+For a remaining choice, compare the complete work in each continuation, not just the proposed trial. Include the account and specialist-return work in 4.2, enactment, learning, retained support, recovery and later receiving use. Count shared work once in each alternative; distinguish total effort from burden on a scarce participant, elapsed time and work displaced elsewhere. Choose an improvement without hidden loss at comparable whole effort, or the gain and disadvantage that the affected participants and responsible owners explicitly accept. An unavailable protection, assignment or authority is a stop, not a disadvantage to buy away. If the added work cannot change a worthwhile result, retain the sufficient continuation.
+
+Combine the selected direct decisions into a workable overlap. Specify the service coverage to retain, the size and timing of change exposure, available practice/support, the bridge or fallback, the condition for reducing or stopping starts, and what the receiving service owner must obtain at hand-back.
+
+For example, limit a trial to one package, place its protected learning interval where the qualified coach is available, retain the old evidence-return channel until its last consuming obligation ends or a qualified replacement can carry it, and defer further starts when an incident consumes the agreed margin. Each condition must have an effective owner and basis.
 
 Do not repeat a comparison that another Method has already supplied:
 
@@ -2553,7 +2559,7 @@ Record what actually happened. Deferred learning or a cancelled probe is not per
 
 Recover the affected service and re-establish the conditions required for restart before resuming the blocked change. Avoid charging the same recovery interval to both service restoration and planned change output. If the original arrangement no longer fits, return to the exact allocation, commitment or co-use decision.
 
-At hand-back, obtain the receiving service owner’s acceptance of the actual configuration, support, capability conditions, open obligations and next reconsideration. Retire temporary support only when its agreed consuming obligations and replacement conditions are satisfied.
+At hand-back, obtain the receiving service owner’s acceptance of the actual configuration, support, capability conditions, open obligations and next reconsideration. Retire temporary support only when its agreed consuming obligations and replacement conditions are satisfied. An open obligation may pass to a qualified replacement under its effective assignment and support; transferring that obligation and closing it are different results. The owner can accept a bounded configuration while refusing removal of support that it still needs.
 
 Return the actual overlap and service consequences, not merely the plan. An honest result can be “service recovered; the trial was deferred; this missing observation remains open”.
 
@@ -2591,7 +2597,28 @@ Suppose repository consolidation would retire Electrical's evidence-return contr
 
 Use that result in the coexistence arrangement: preserve the support interval, adjust the proposed retirement and carry the receiving obligation to hand-back. Do not open another comparison merely because a new repository option exists. If the result already answers the dependency, further inquiry that cannot change this use is unnecessary.
 
-The retention decision still does not establish provider access, service recovery or trial authority that it did not supply. If one of those is absent, stop its dependent action rather than reopening the answered retention question.
+In a distinct pre-decision variant, no current return yet covers transferring that last obligation. The competent existing arrangement can keep Electrical's evidence-return contribution through Friday, close the challenged package and then retire the bridge. It already includes monitoring, interruption response and qualified recovery. A proposed alternative would transfer the remaining obligation to an available participant with the relevant preparation and retire the old bridge on Wednesday. The organizational remainder is who can obtain the old package's exact evidence and answer its challenge after that transfer, under which assignment, access and support interval. A successful trial on new packages does not answer it.
+
+Both alternatives must close the same package by Friday, preserve the same continuing service and protection, and cover hand-back and an already committed five-hour diagnostic-library task by the following Wednesday. The responsible owners supply compatible participant calendars for either arrangement. The library task may use its preferred Thursday slot or an authorized following-Monday slot. These are constructed case premises, not general capacity results.
+
+Unchanged continuing-service work and the same qualified interruption cover are held constant. The estimates below include all additional work through that common horizon, including obtaining and updating the needed account, professional returns and later use. They are stipulated person-hours, not observed savings or a forecast of every possible incident.
+
+| Additional work through the receiving horizon | Retain the competent current arrangement | Transfer the remaining obligation earlier |
+| --- | ---: | ---: |
+| Common selection, service checks, package disposition, observation and recovery preparation, plus the five-hour library task | 10 | 10 |
+| Obtain and maintain arrangement-specific facts and the responsible owners' returns | 1 | 5 |
+| Additional preparation, coached practice and setup for the receiving participant | 0 | 5 |
+| Bridge and receiving-participant support through Friday | 8 | 3 |
+| Final hand-back inspection and support retirement | 1 | 1 |
+| **Whole additional work** | **20** | **24** |
+
+Under retention, Electrical supplies the eight bridge hours. Under early transfer, Electrical supplies two of the five preparation hours and one of the three support hours; the receiving participant supplies the remaining work in those rows. The five Electrical hours released from bridge work let the already-counted library task use Thursday rather than Monday. The service and support owners choose early transfer and the participants accept its allocations: they accept four more total hours to avoid that deferral. They do not claim a labour saving. A competent service/change team can produce the same relation within its existing method; use that result. The addition is useful here because it permits a different support retirement and work allocation.
+
+The trial is nominally complete on Tuesday, but the receiving owner refuses the proposed unconditional hand-back: the receiving participant has so far handled only new packages, and the old challenged package remains open. The old route stays available. During the selected Wednesday preparation, the participant retrieves the exact old evidence under current access, works through its challenge and returns a usable response to the accepting owner. The owner checks that the effective assignment and supplied support cover further clarification through Friday. Only then does the owner accept that bounded transfer and permit retirement of Electrical's old bridge. The challenged package is still an open receiving obligation, now carried by the replacement. On Friday the package's authorized receiver accepts its disposition; the service owner can then end the temporary clarification support under the agreed condition. Neither Tuesday's trial result nor Wednesday's transfer falsely closes the package.
+
+If the Wednesday qualification, access or support return is unavailable, early retirement stays blocked. Retention may still work, but reconsider the remaining work and commitments after any preparation already consumed; the original 20-hour estimate cannot erase that cost. If early release of Electrical no longer changes useful work and retention remains adequate, keep retention instead. An incident reopens the affected service and recovery conditions as in 5.1; its actual work must be counted, not hidden inside the no-incident estimate. A returned adequate retention or transfer result ends this choice without a fresh model or trial.
+
+These decisions still do not establish provider access, service recovery or trial authority that they did not supply. If one of those is absent, stop its dependent action rather than reopening the answered retention question.
 
 #### OCE.11:5.3 - Volunteer windows and an expiring chair
 
@@ -2608,7 +2635,7 @@ A change sponsor may count only visible project tasks, while a service owner may
 ### OCE.11:7 - Conformance Checklist
 
 - Continuing users, commitments, configuration and protection/recovery conditions are explicit.
-- The overlap includes learning, support, dual operation, observation and recovery at the times they consume resources.
+- An adequate current coexistence result is used directly. Any addition answers a consequential relation, interval or obligation, and its comparison counts account upkeep, specialist returns and whole learning, support, execution and recovery work through the receiving horizon.
 - Required co-use, arrangement, admission and commitment decisions are obtained from their owners and not repeated here.
 - Stop, reduction and fallback conditions change actual action.
 - Interrupted or deferred work and missing observations remain visible.
@@ -2626,7 +2653,7 @@ A change sponsor may count only visible project tasks, while a service owner may
 
 ### OCE.11:9 - Consequences
 
-The organization can reduce change exposure before it defeats continuing service, and can distinguish a recovered service from a completed change. The cost is explicit support, participant time and sometimes slower change. A stop can preserve the possibility of a later useful attempt.
+The organization can reduce change exposure before it defeats continuing service, and can distinguish a recovered service from a completed change. A sufficient current arrangement can finish the coordination question. A justified revision may free a scarce participant earlier while requiring more total work elsewhere; the accepted allocation and timing trade-off remain part of the result. A stop can preserve the possibility of a later useful attempt.
 
 ### OCE.11:10 - Rationale
 
@@ -2634,13 +2661,13 @@ The coexistence problem is temporal and relational: who must provide which contr
 
 ### OCE.11:11 - SoTA-Echoing
 
-The practice question is how to sustain an actual service during bounded organizational change. The selected line combines qualified service conditions, complete overlap accounting, limited exposure, interruption response and accepted hand-back.
+The practice question is which work remains necessary to sustain service through this organization change and its hand-back. The selected line adopts sufficient competent service/change coordination and adds only a consequential missing organizational relation or interval. Compare the complete continuations at their full burden and preserve the sufficient incumbent.
 
 | Comparison and disposition | Pattern consequence, evidence limit and reopen condition |
 | --- | --- |
-| **Reuse** ME.6 for co-use comparison and the applicable OPS results for admission, allocation, capacity and service. OPS.11.1 constructs a needed operating network; OPS.19 reconciles interacting operating results. A broader portfolio comparison remains useful when the question exceeds one bounded overlap. | Steps 4.1–4.4 use those results to account for the organization's learning, support, recovery and hand-back work. Select the contribution needed for the overlap; there is no requirement to apply the whole OPS repertoire. A published capacity method must still be applied to the actual operation before its result can support this change. Reopen the affected question when its conditions change. |
-| **Adapt** bounded exposure and failure return illustrated by Google's [Canarying Releases](https://sre.google/workbook/canarying-releases/) and service-sensitive reduction illustrated by its [Example Error Budget Policy](https://sre.google/workbook/error-budget-policy/), both 2018 operational references. | Steps 4.3–4.6 qualify exposure, observations and recovery for the actual service. The deliberate cost is slower change and retained support. Software rollback assumptions, percentages and windows do not transfer to people or physical systems; a missing domain recovery/protection result stops that branch. |
-| **Reject as a sufficient answer** date-led completion or calendar-only allocation: both can leave learning and recovery unaccounted for. | The forty-hour case includes those costs and preserves the deferred probe. This is a constructed demonstration, not evidence that a fixed reserve is generally adequate. Reopen when observed burden or variability defeats the supplied envelope. |
+| **Adopt** bounded exposure, suitable observation and failure return from [Canarying Releases](https://sre.google/workbook/canarying-releases/), together with actual-load reconstruction, support hand-back and training investment in [Identifying and Recovering from Overload](https://sre.google/workbook/overload/). These primary SRE treatments already supply serious service/change coordination. | Step 4.2 uses an adequate current result without another account. In 5.2, retaining the bridge needs 20 additional hours; the 24-hour transfer is selected only for its explicit earlier release of Electrical and accepted extra burden. That constructed choice establishes no empirical ranking of OCE or SRE. Reopen when the receiving obligation, participant window, support or useful timing difference changes. |
+| **Reuse** ME.6 for the actual co-use choice and applicable OPS results for operating admission, allocation, capacity and service. OPS.11.1 constructs a needed operating network; OPS.19 already requires sufficient-account reuse and exact additions with their upkeep cost. | Steps 4.2–4.4 consume the result that answers the overlap, not the whole repertoire. In 5.2, the addition binds the final package's obligation to its qualified receiver and support interval; it does not duplicate the supplied comparison. Hand-back in 4.6 can accept that transfer without pretending the obligation is closed. If the same relation is already covered, reuse it; reopen only the changed premise. |
+| **Adapt within its scope** the service-sensitive stop, exception and escalation choices in the [Example Error Budget Policy](https://sre.google/workbook/error-budget-policy/). Reject treating its software percentages or rollback assumptions as protection permission for people or physical systems. | Steps 4.3–4.6 retain direct service and professional conditions. The forty-hour case uses its supplied envelope and leaves the cancelled probe unperformed. The three SRE references are 2018 operational treatments, not a claim about a universal current policy, guaranteed effects or a generally adequate reserve. Changed burden, recovery or protection defeats the dependent continuation, including the apparently cheaper one. |
 
 ### OCE.11:12 - Relations
 
