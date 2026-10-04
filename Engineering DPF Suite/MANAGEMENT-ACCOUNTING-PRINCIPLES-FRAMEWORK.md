@@ -1,6 +1,6 @@
 # Management Accounting Principles Framework
 
-**Edition:** [MA 1.0](#edition-record)
+**Edition:** [MA 1.0](#mareference1---edition-record)
 
 **Author:** Anatoly Levenchuk, with AI-assisted development and review
 
@@ -1538,11 +1538,15 @@ MA.1–4 explain resource and account effects; MA.5–6 clarify forecasts, targe
 
 Copyright © Anatoly Levenchuk. The original framework text and worked examples are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The [licensing notice](https://github.com/ailev/FPF/blob/main/LICENSING.md) states the scope and attribution terms. Referenced third-party works retain their own terms.
 
-## Edition record
+<a id="edition-record"></a>
+
+## MA.Reference:1 - Edition record
 
 **MA 1.0** is the first edition of *Management Accounting Principles Framework*, containing MA.1–MA.9. Cite this edition with the pattern and section, for example **MA 1.0, MA.2:5**.
 
-## Source locators
+<a id="source-locators"></a>
+
+## MA.Reference:2 - Source locators
 
 
 - IMA, *Developing an Effective Managerial Costing Model* (2019): the resource-model construction and use-dependent sophistication discussed in MA.1.
@@ -1569,3 +1573,5 @@ Copyright © Anatoly Levenchuk. The original framework text and worked examples 
 [OCE]: ORGANIZATION-CHANGE-ENGINEERING-PRINCIPLES-FRAMEWORK.md
 [CLV]: https://www.brucehardie.com/notes/033/what_is_wrong_with_this_CLV_formula.pdf
 [RETENTION]: https://brucehardie.com/papers/037/
+
+## MA.Reference:End

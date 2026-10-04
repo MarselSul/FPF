@@ -8,7 +8,7 @@
 - **License:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for original framework content; third-party material retains its own terms.
 - **Publication:** [FPF repository](https://github.com/ailev/FPF)
 
-Start with the [Readme](#operations-management-principles-framework-readme) for a working difficulty or the [Table of Contents](#table-of-contents) for a familiar question or PatternID. Open the smallest useful pattern, reuse current matching inputs and stop at its sufficient result. For references to this version, use the [Citation](#citation).
+Start with the [Readme](#operations-management-principles-framework-readme) for a working difficulty or the [Table of Contents](#table-of-contents) for a familiar question or PatternID. Open the smallest useful pattern, reuse current matching inputs and stop at its sufficient result. For references to this version, use the [Citation](#opsreference11---citation).
 
 # Table of Contents
 
@@ -22,8 +22,8 @@ Use the Readme for worked connections across several operating questions. Use th
 | :--- | :--- |
 | [Operations Management Principles Framework Readme](#operations-management-principles-framework-readme) | Connect readiness, capacity, commitments, service results and changes to operating practice; follow the consequences of a changed condition. |
 | [Preface](#preface) | Keep Work, actual structures, subjects, commitments and units distinct when interpreting views, records and accounts; identify when control relations change an operating decision. |
-| [Cross-Pattern Application](#cross-pattern-application) | Follow PumpWorks, public-hospital and AI-assisted cases through local coordination, human conditions, service commitments, operating consequences, accounts, Method improvement, quality responses, simultaneous Work and cultural continuation. |
-| [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check available packages, FPF dependency, sibling returns, source limits, representative cases, and edition boundary. |
+| [OPS.Application - Cross-Pattern Application](#cross-pattern-application) | Follow PumpWorks, public-hospital and AI-assisted cases through local coordination, human conditions, service commitments, operating consequences, accounts, Method improvement, quality responses, simultaneous Work and cultural continuation. |
+| [OPS.Reference - Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check available packages, FPF dependency, sibling returns, source limits, representative cases, and edition boundary. |
 
 ## Part I — Bound the Operation and Select Coordination Views
 
@@ -128,7 +128,7 @@ The numbers in these applications are constructed. Their professional premises a
 - **Stop or return:** Return changed feasibility to admission and affected commitments. A supported test-service plan does not supply field-release evidence or authority.
 
 1. **Keep the same subjects across the needed views.** [OPS.1 - Identify the Operating System, Commitments, and Flow Units](#ops-1) bounds the continuing control-service operation. [OPS.3 - Distinguish Operating Subjects, Cases, Queues, Resources, and Records](#ops-3) separates a release candidate, incident, rig request and test attempt. [OPS.2 - Select Work-Management Views and Coordination Methods](#ops-2) can use case, recurring-process and queueing views for their different questions. [OPS.4 - Keep Current Operating State Recoverable Across Participants](#ops-4) makes the relevant evidence, unresolved conditions and next decisions recoverable to the participants; they need not share one screen.
-2. **Establish readiness for the next action.** In the [PumpWorks application](#app-ops-01--pumpworks-continuing-control-service-operation), twelve matters appear on boards but only four are ready test packages. OPS.8 identifies what the test can use now. The test's future output is not its own prerequisite. If laboratory permission is current and the unresolved safety question concerns only field release, the test may proceed while release remains held. A safety condition that also governs testing changes that conclusion.
+2. **Establish readiness for the next action.** In the [PumpWorks application](#opsapplication1---app-ops-01--pumpworks-continuing-control-service-operation), twelve matters appear on boards but only four are ready test packages. OPS.8 identifies what the test can use now. The test's future output is not its own prerequisite. If laboratory permission is current and the unresolved safety question concerns only field release, the test may proceed while release remains held. A safety condition that also governs testing changes that conclusion.
 3. **Distinguish missing inputs from insufficient usable time.** Across forty rig-access hours, the example records twenty testing, four setup, four unavailable and twelve without eligible work. [OPS.9 - Diagnose and Treat the Current Operating Constraint](#ops-9) uses eligibility and service histories to distinguish late prerequisites from a resource deficit in the required window. The historical starvation does not settle the next window: [OPS.10 - Qualify Operating Capacity Under Variability](#ops-10) finds six usable rig-hours and four packages needing two consecutive hours each. All four require eight hours and cannot fit.
 4. **Make the adverse case and other demands part of the plan.** Suppose one planned package requires an immediate two-hour repeat and then passes, while the other planned packages pass first time. Two completions plus that repeat use six hours; three plus the repeat need eight. [OPS.12 - Protect Human Conditions in Operating Decisions](#ops-12) preserves the operator's required recovery and incident coverage after hour six. Extra rig access needs qualified relief as well as the resource owner's decision. The full application also compares advance funding and a later slot; an extra window alone does not make the whole extension feasible.
 5. **Use the combined result to decide starts and returns.** [OPS.19 - Reconcile Simultaneous Operating Work Across Cases and Scales](#ops-19) retains the feasible two-package plan, defers the third to its qualified later slot and keeps a competing trial closed in the same six-hour window. [OPS.5 - Admit Work and Limit Starts](#ops-5) gives each considered item its disposition. [OPS.7 - Manage Aging, Urgency, and Service Commitments](#ops-7) handles the affected local priority or existing promise under the appropriate authority. [OPS.11 - Coordinate Interacting Operating Structures](#ops-11) checks that access and evidence still concern the required interval and configuration.
@@ -147,7 +147,7 @@ If an extra window, qualified relief and the other required conditions later bec
 
 - **Stop or return:** Obtain the parties' decision on a changed promise. Internal replanning does not discharge an existing commitment; an unresolved professional condition remains with its responsible practitioner.
 
-1. **Use the resource that actually limits this service.** In the constructed [hospital application](#app-ops-02--public-hospital-emergency-flow-probe), two rooms each have four available hours, but one qualified team has four usable hours. Supplied clinical and operating assumptions require thirty minutes per routine visit, including turnover, and reserve one team-hour for the stated urgent-case scenario. OPS.10 therefore supports six routine visits in total, not sixteen from the room count.
+1. **Use the resource that actually limits this service.** In the constructed [hospital application](#opsapplication2---app-ops-02--public-hospital-emergency-flow-probe), two rooms each have four available hours, but one qualified team has four usable hours. Supplied clinical and operating assumptions require thirty minutes per routine visit, including turnover, and reserve one team-hour for the stated urgent-case scenario. OPS.10 therefore supports six routine visits in total, not sixteen from the room count.
 2. **Subtract what is already promised.** Two visits are committed and six additional visits are requested. The supported proposal is four additional routine visits under the stated reserve. Serving all six additional requests needs another qualified arrangement or an agreed later time. Eligibility, clinical priority and protected conditions remain supplied professional decisions.
 3. **Make the schedule usable for everyone who supplies it.** OPS.12 follows the support team's other duty and recovery. Where the supplied windows permit two groups of three visits, that arrangement can preserve both service and support duties. If the reserve changes from one to two team-hours, only four routine visits fit: after the two existing commitments, the additional offer falls to two. Return that changed resource result to OPS.13 before confirming the larger offer.
 4. **Use an account that retains unfinished obligations.** [OPS.15 - Build a Decision-Specific Operating Account](#ops-15) distinguishes the historical due-request cohort from completed visits. Twenty-seven timely, three late-completed and ten still-open requests give timely service of `27/40 = 67.5%`. The completed-only `27/30 = 90%` answers another question. Use the due-cohort result for overdue service, while the clinical evidence determines clinical action.
@@ -166,7 +166,7 @@ If an extra window, qualified relief and the other required conditions later bec
 
 - **Stop or return:** Retain the distinction between drafts, review decisions, accepted changes and authorized deployments. A settled resource bound can answer the current request without an additional model or experiment.
 
-1. **Follow generation to acceptance.** In the constructed [software application](#app-ops-03--ai-assisted-software-operation-probe), sixty drafts can be generated per day but qualified staffing supports six individual review decisions. Each accepted output needs its own decision. Ten accepted outputs tomorrow are therefore excluded under the current arrangement. Recent days with four to six accepted outputs do not supply a probability for tomorrow, or a guarantee that all six reviews will accept.
+1. **Follow generation to acceptance.** In the constructed [software application](#opsapplication3---app-ops-03--ai-assisted-software-operation-probe), sixty drafts can be generated per day but qualified staffing supports six individual review decisions. Each accepted output needs its own decision. Ten accepted outputs tomorrow are therefore excluded under the current arrangement. Recent days with four to six accepted outputs do not supply a probability for tomorrow, or a guarantee that all six reviews will accept.
 2. **Compare changes at the receiving result.** [OPS.17 - Compare and Refresh Operations Methods](#ops-17) compares limiting starts, obtaining qualified review capacity and changing preparation or acceptance. OPS.12 follows review, rework, interruptions and recovery; OPS.13 uses the resulting capacity and conditions to form a later or narrower offer. If the recipient accepts a review service instead of accepted output, make that changed result explicit.
 3. **Keep payment and service consequences together.** A separate constructed day in the application has four accepted outputs due. Both alternatives generate sixty charged drafts, use six reviews and pay the same salary of 240. The current alternative pays 60 for drafts and accepts four outputs: total payments 300. The cheaper-generation alternative pays 30 plus 10 for rework and accepts two: total 280. Its 20 payment reduction leaves two due outputs unaccepted. OPS.14 compares that service consequence before treating the lower generation price as an improvement.
 4. **Use deployed-service evidence for the deployed-service decision.** [OPS.18 - Control Operating Quality and Reliability](#ops-18) uses a separately defined population of one million eligible service requests with a 99.9% success objective. The permitted failure amount is 1,000; 1,500 unsuccessful requests consume 150% of it. Under the example's authorized response policy, discretionary feature releases pause while permitted urgent recovery and security work continue. Restart needs the agreed service evidence. Accepted code and a fresh reporting period do not establish restored service.
@@ -419,7 +419,7 @@ The combined use makes an operating choice explainable: which result it protects
 
 The examples favor operations where cases, commitments, resource windows and result evidence can be recovered. Real operations can have incomplete records, unequal access to information and affected people whose burden is absent from the official account. OPS.12 asks those affected about displaced work and conditions; OPS.15 preserves missing observations and omitted populations. A manager's account alone can therefore be insufficient even when its arithmetic is correct. Retain disagreement and professional limits instead of treating missing information as zero burden or permission to proceed.
 
-The three constructed applications demonstrate the reasoning and its branches. They do not establish comparative effectiveness across domains, future service probabilities, clinical or engineering outcomes, causal superiority of a Method, or sustained population retention. A result that needs any of those claims requires evidence for that use. The [source and refresh account](#source-use-and-currentness) identifies what to reconsider when a professional premise changes.
+The three constructed applications demonstrate the reasoning and its branches. They do not establish comparative effectiveness across domains, future service probabilities, clinical or engineering outcomes, causal superiority of a Method, or sustained population retention. A result that needs any of those claims requires evidence for that use. The [source and refresh account](#opsreference4---source-use-and-currentness) identifies what to reconsider when a professional premise changes.
 
 ## OPS.Preface:15 - What this publication covers and leaves outside
 
@@ -451,7 +451,7 @@ Recognition is cheap: enter when a practical decision cannot name its operating 
 
 Do not use OPS.1 merely to rename an already bounded operation, classify every object as a System, approve a strategy, design a product, authorize Work, or choose an improvement Method. If the current blocker is a product or asset change, organization change, one person's capability, finance, law, safety, or another specialist result, obtain that result and return only if it changes the operating focus.
 
-### OPS.1:0.1 - Working Distinctions
+#### OPS.1:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -634,7 +634,7 @@ Recognition is cheap: enter when practitioners disagree about “what kind of Wo
 
 Do not use OPS.2 to classify Work into a universal natural kind, infer performed Work from a plan, select a structure by diagram appearance, or prescribe one lifecycle. If the question concerns only the identity of an already selected structure, mathematical lens, or architecture view, use `A.22`, `C.29`, or `C.30.LCA` directly.
 
-### OPS.2:0.1 - Working Distinctions
+#### OPS.2:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -823,7 +823,7 @@ Recognition is cheap: enter when a record label, metric denominator, queue item,
 
 Do not use OPS.3 to model every object in the operation, redesign a database, declare an event log complete, infer a case from a ticket, or create a catch-all `operational object` kind. If an existing subject pattern already answers the identity or relation question, use it and record only the Operations correspondence needed here.
 
-### OPS.3:0.1 - Working Distinctions
+#### OPS.3:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -1006,7 +1006,7 @@ Recognition is cheap: enter when a participant cannot resume, decide, or explain
 
 Do not use OPS.4 to build a generic dashboard, mandate transparency, create one shared mental model, replace specialist records, or declare state true because it is visible. If the current problem is a Work-performance configuration or recovery dependency after interruption or support loss, use `A.15.8` for that general question and keep the operation-specific state and commitments here.
 
-### OPS.4:0.1 - Working Distinctions
+#### OPS.4:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -1190,7 +1190,7 @@ Recognition asks whether this demand may enter now. Assurance establishes its ad
 
 Do not use OPS.5 to design a queue or buffer policy, identify or exploit the current constraint, size capacity under variability, coordinate interacting structures, or make a whole-service commitment credible. Return those questions to `OPS.8`–`OPS.13` when their results are available, or to a qualified direct source. If the current problem is continuing an already admitted case after facts changed, use `OPS.6`. If age, dependency, risk, or consequence may revise priority or an existing commitment, use `OPS.7`.
 
-### OPS.5:0.1 - Working Distinctions
+#### OPS.5:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -1388,7 +1388,7 @@ Recognition concerns a next action left uncertain by current case facts. Before 
 
 Do not use OPS.6 to design one universal workflow or case lifecycle, reconstruct a reusable Method from event data, infer progress from a ticket, plan, model, trace, or record update, or revise priority merely because the case is old. Use `A.15.7` for the general situation-responsive next-action Method, `A.3.1.MR` when reusable Method recovery from several performances is the actual question, and `OPS.7` when temporal or consequence evidence can change priority or an existing commitment.
 
-### OPS.6:0.1 - Working Distinctions
+#### OPS.6:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -1583,7 +1583,7 @@ Recognition asks whether delay can change this decision. Assurance needs the tem
 
 Do not use OPS.7 to sort every queue by age, create a universal urgency scale, identify the current constraint, size capacity, design service levels, perform clinical triage, authorize release, or establish a credible whole-service commitment account. Return those results to `OPS.8`–`OPS.13`, `OPS.18`, or their specialist owners. Use `C.27` only when the claim concerns intervention-sensitive rate, rhythm, recovery, or regime change; ordinary state, age, rate, or trend readings do not require it.
 
-### OPS.7:0.1 - Working Distinctions
+#### OPS.7:0.1 - Working Distinctions
 
 | Name used here | Meaning |
 | --- | --- |
@@ -6206,7 +6206,7 @@ A fixed quota is simpler when a stable, meaningful requirement and its use are a
 
 Bjarte Bogsnes, *Implementing Beyond Budgeting*, second edition (2016), chapter 4, printed pp.142–159, develops translation from direction to local contributions, indicator selection, target difficulty, peer comparison and the possibility of working without numerical targets. Those historical practice accounts inform §§4.1–4.5. This pattern retains their constructive questions while making comparison limits, shared provision and the first supported action explicit. The book supplies neither a universally correct stretch level nor evidence that one scorecard works for every operation.
 
-The [shared source discussion](#operating-aims-and-performance-sources) qualifies this line with the later study of budgets and forecasts. Keep a budget or reporting rhythm when its function remains useful. Reopen the selected construction when ordinary use shows that the aim no longer guides a useful contribution, the comparison conceals changed conditions, or its actual consequences again suppress the information needed for action.
+The [shared source discussion](#opsreference41---operating-aims-and-performance-sources) qualifies this line with the later study of budgets and forecasts. Keep a budget or reporting rhythm when its function remains useful. Reopen the selected construction when ordinary use shows that the aim no longer guides a useful contribution, the comparison conceals changed conditions, or its actual consequences again suppress the information needed for action.
 
 ### OPS.21:12 - Relations
 
@@ -6366,7 +6366,7 @@ Targets and subsequent assessments are independently usable contributions. A tea
 
 Bogsnes, *Implementing Beyond Budgeting*, second edition (2016), printed pp.182–190, develops interpretation of indicator results through objectives, target difficulty, changed assumptions, responsive action and sustainability, together with the tensions among development and reward uses. Sections 4.2–4.5 adapt that connected historical treatment. The source's particular rating scale, delivery/behavior weighting and bonus arrangements are not requirements of this method.
 
-The adaptation retains uncertainty about causation and attribution after the event, and makes the affected participant's evidence and the response authority explicit. The [shared source discussion](#operating-aims-and-performance-sources) explains why changing budgeting labels alone cannot establish changed use. Reopen the method or its support when repeated use still rewards transferred burdens, hides missed needs or leaves a consequential judgement unexplainable to its recipients.
+The adaptation retains uncertainty about causation and attribution after the event, and makes the affected participant's evidence and the response authority explicit. The [shared source discussion](#opsreference41---operating-aims-and-performance-sources) explains why changing budgeting labels alone cannot establish changed use. Reopen the method or its support when repeated use still rewards transferred burdens, hides missed needs or leaves a consequential judgement unexplainable to its recipients.
 
 ### OPS.22:12 - Relations
 
@@ -6376,7 +6376,9 @@ OPS.21 constructs aims and comparisons. OPS.15 and MA.7 develop operating and mo
 
 # Cross-Pattern Application
 
-## APP-OPS-01 — PumpWorks continuing control-service operation
+<a id="app-ops-01--pumpworks-continuing-control-service-operation"></a>
+
+## OPS.Application:1 - APP-OPS-01 — PumpWorks continuing control-service operation
 
 PumpWorks must continue weekly evidenced controller releases while field incidents, provider changes, test-rig access, safety questions, and service commitments coexist. The application is constructed to demonstrate connected operating decisions; it is not evidence that an intervention succeeded.
 
@@ -6433,7 +6435,9 @@ OPS.20 bounds the coordinators of `PW-Early` and `PW-Late` over six weeks and ex
 
 The application can enter or stop after any matching pattern and reuse current inputs without replaying earlier bodies. Simultaneous operating reconciliation, local Method improvement, and cultural continuation remain linked but distinct decisions. Other professional questions retain their direct owners.
 
-## APP-OPS-02 — Public-hospital emergency flow probe
+<a id="app-ops-02--public-hospital-emergency-flow-probe"></a>
+
+## OPS.Application:2 - APP-OPS-02 — Public-hospital emergency flow probe
 
 | Probe position | Reused result | Boundary retained |
 | --- | --- | --- |
@@ -6471,7 +6475,9 @@ OPS.17 selects conditional case planning where changed clinical or home-support 
 
 OPS.16 can keep the proposed handover way pre-admission while observations distinguish missing readiness information from changing clinical facts. OPS.19 can reconfigure only the operating relations supported by current clinical, staffing, service and recovery inputs. OPS.20 can finish a qualified current cultural account within its licensed population and candidate branch; any new receiving-use probe must warrant its obtainable work under current authority. A checklist, training event, occupied bed or improved local count establishes none of the retained specialist results.
 
-## APP-OPS-03 — AI-assisted software-operation probe
+<a id="app-ops-03--ai-assisted-software-operation-probe"></a>
+
+## OPS.Application:3 - APP-OPS-03 — AI-assisted software-operation probe
 
 | Probe position | Reused result | Boundary retained |
 | --- | --- | --- |
@@ -6511,19 +6517,28 @@ For a deployed software service, suppose a separately defined account contains o
 
 OPS.19 can therefore reduce starts, reserve a compatible test environment, or hold release Work while preserving incident recovery and qualified review. OPS.16 can retain an admitted low-risk Method branch only under the exact provider and model condition; a changed edition triggers its stop and fallback. OPS.20 may retain a supported selection account for the named rotations without a new trial, but tool use is not cultural continuation and the changed-provider branch remains `unknown` or `stop` until qualified. Any new inquiry is selected for its useful attainable contribution; security, assurance, capability, release, employment and governance remain with their owners.
 
+## OPS.Application:End
+
+
 # Framework Boundary and Refresh
 
-## Intended use and ordinary non-use
+<a id="intended-use-and-ordinary-non-use"></a>
+
+## OPS.Reference:1 - Intended use and ordinary non-use
 
 Use this framework when a decision about continuing Work needs a better operating basis: the operation or subjects are unclear, current evidence cannot support admission or continuation, queues and resources conflict, human conditions, service, financial consequences, Method choice or quality require a decision, several operating results must be reconciled, a bounded population relation about continued practice must be tested, or the operation needs a meaningful aim or a reasoned performance assessment. Use the one pattern or small cooperating set whose result answers that question.
 
 Do not use it merely because a project exists, a process is documented, a board has cards, a dashboard is visible, a controller exists, or a management school is familiar. Return product or asset engineering, organization change, one human's capability, strategy, finance, governance, administration, safety, legal, medical, ecological, security, and other specialist results to their owners.
 
-## PatternID and reader order
+<a id="patternid-and-reader-order"></a>
+
+## OPS.Reference:2 - PatternID and reader order
 
 `OPS.*` is this framework's PatternID namespace. The numbers are stable addresses. The ten Parts organize twenty-eight pattern bodies for reading, including six nested methods. A result dependency applies when one decision needs the matching result; actual Work can overlap, branch, repeat or start from existing inputs.
 
-## Practical entry forms
+<a id="practical-entry-forms"></a>
+
+## OPS.Reference:3 - Practical entry forms
 
 The following stable example keys select ordinary practical entries in the Readme. Each appears there once. They support direct choice and explicit worked continuations; no Practical-Use Card or separate mantra is selected. Questions outside these examples use the Table of Contents and the full pattern bodies.
 
@@ -6539,7 +6554,9 @@ The following stable example keys select ordinary practical entries in the Readm
 | `OPS-ADVICE-IN-USE` | Ordinary practical entry |
 | `OPS-AIMS-AND-PERFORMANCE` | Ordinary practical entry |
 
-## Source use and currentness
+<a id="source-use-and-currentness"></a>
+
+## OPS.Reference:4 - Source use and currentness
 
 The framework connects Methods and Work with resources, transformation flows, queues, constraints and descriptions. Project, process, case, queueing, issue-tracking and operations-management viewpoints can concern the same Work. Changing conditions, improvement cycles and the scale at which a change is made affect which diagnostic and coordination results are useful. Each pattern develops the contribution needed for its operating question.
 
@@ -6559,7 +6576,9 @@ Queueing and scheduling provide complementary constructions in OPS.10.1/.2. A me
 
 OPS.8.1 compares release signals while retaining known visits and possible returns. OPS.8.2 distinguishes capacity left over after protection from temporarily used reserve, then constructs its return to service. Factory Physics, TameFlow, workload-control studies, interruption research and computational preemption contribute different mechanisms and limits. Together, the two bodies connect the release decision to feasible recovery; they do not make final acceptance a universal release signal or idle time universally available for development.
 
-### Operating aims and performance sources
+<a id="operating-aims-and-performance-sources"></a>
+
+### OPS.Reference:4.1 - Operating aims and performance sources
 
 Bjarte Bogsnes, *Implementing Beyond Budgeting: Unlocking the Performance Potential*, second edition (Wiley, 2016), chapter 4, printed pp.142–159 and 182–190, supplies the developed historical practice account used in OPS.21–22. Jeremy Hope and Robin Fraser, *Beyond Budgeting* (Harvard Business School Press, 2003), chapters 4–5, pp.69–116, connects targets, current outlook, provision, coordinated action and assessment, including implementation failures when the wider management uses remain unchanged. The adopted connection does not prescribe either source's complete organizational model.
 
@@ -6567,7 +6586,9 @@ Bjarte Bogsnes, *Implementing Beyond Budgeting: Unlocking the Performance Potent
 
 The [forecasting text's distinction between forecasting, goals and planning](https://otexts.com/fpp3/planning.html) supports keeping expectation, intended result and action separate. It does not choose the operation's aim or settle an assessment. The repertoire therefore combines those supplied distinctions with a developed construction of the aim and subsequent judgement, rather than asking a forecast to perform every management function.
 
-### Shared source choices for the repertoire
+<a id="shared-source-choices-for-the-repertoire"></a>
+
+### OPS.Reference:4.2 - Shared source choices for the repertoire
 
 The shared architectural choice is to combine source contributions by the operating question they answer. The following comparisons explain that choice across several bodies; each cited body's SoTA-Echoing section retains the more specific mechanism, worked distinction and reopen condition.
 
@@ -6593,7 +6614,9 @@ These correspondences are source-supported reasons for the Methods' organization
 
 Competent improvement and adoption practices are also reusable sources. [IHI's PDSA testing guidance](https://www.ihi.org/library/model-for-improvement/testing-changes) and [implementation guidance](https://www.ihi.org/library/model-for-improvement/implementing-changes) supply the improvement comparison in OPS.16. [Google SRE's incident management](https://sre.google/sre-book/managing-incidents/) and [organizational-change account](https://sre.google/workbook/organizational-change/) supply maintained coordination and adaptive receiving support for OPS.4 and OPS.20. These contributions may already suffice. OPS adds no separate account unless a missing distinction can change the receiving decision.
 
-### Bibliographic returns for shared sources
+<a id="bibliographic-returns-for-shared-sources"></a>
+
+### OPS.Reference:4.3 - Bibliographic returns for shared sources
 
 The source comparisons above and in the bodies use the following works. The dates identify the editions consulted; the contribution and applicability of each work are explained beside its use.
 
@@ -6605,7 +6628,9 @@ The source comparisons above and in the bodies use the following works. The date
 - **Layered control:** Mung Chiang, Steven H. Low, A. Robert Calderbank and John C. Doyle, [“Layering as Optimization Decomposition”](https://doi.org/10.1109/JPROC.2006.887322) (2007); Gautam Goel, Niangjun Chen and Adam Wierman, [“Thinking Fast and Slow: Optimization Decomposition Across Timescales”](https://arxiv.org/abs/1704.07785) (2017); Nikolai Matni, Aaron D. Ames and John C. Doyle, [“Towards a Theory of Control Architecture”](https://arxiv.org/abs/2401.15185v1) (2024). These papers supply models of decomposition and operating rates. Figure's [Helix report](https://www.figure.ai/news/helix) (2025) describes its own humanoid-control system.
 - **AI-assisted operation:** DORA, [*State of AI-assisted Software Development*](https://dora.dev/research/2025/dora-report/) (2025.2; see the [errata](https://dora.dev/research/2025/errata/)); Hailin Zhong and Shengxin Zhu, [*AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents*](https://arxiv.org/abs/2605.13357v1) (2026, v1); Ivan Belcic and Cole Stryker, [“What Is Loop Engineering?”](https://www.ibm.com/think/topics/loop-engineering) (17 July 2026). OPS compares the report, research proposal and provider explanation for their distinct contributions to context, tools, feedback and stopping in software work.
 
-## FPF dependency and compatibility
+<a id="fpf-dependency-and-compatibility"></a>
+
+## OPS.Reference:5 - FPF dependency and compatibility
 
 The OPS methods are described in their pattern bodies. The Table of Contents, SoTA-Echoing and Relations identify their external FPF contributions and receiving uses. For an OPS use that requires an FPF contribution, open the [current FPF edition](https://github.com/ailev/FPF/blob/main/FPF-Spec.md), identify the needed pattern edition, and check that its content and use conditions provide the stated contribution. Retain a permanent link or copy of the edition actually used. If the contribution is unavailable or no longer fits, keep the dependent use open and reconsider the affected OPS pattern and dependent conclusions. Unaffected results remain reusable.
 
@@ -6615,7 +6640,9 @@ The OPS methods are described in their pattern bodies. The Table of Contents, So
 
 **Authority direction.** FPF does not depend on this DPF for its transdisciplinary results. A transdisciplinary discovery returns to FPF through its own decision and review. An Operations-specific remainder found in FPF returns to this DPF and is removed from the general host rather than duplicated.
 
-## Sibling-domain returns and availability
+<a id="sibling-domain-returns-and-availability"></a>
+
+## OPS.Reference:6 - Sibling-domain returns and availability
 
 The patterns have no mandatory sibling-DPF result for every displayed use. The FPF contributions and direct Operations sources needed for each displayed use are named in its pattern body. Clinical, safety, legal, privacy, security, finance, product-release, capability, and other domain results remain direct returns rather than sibling frameworks silently imported into the edition.
 
@@ -6635,7 +6662,9 @@ The following direct returns help when the operating question exposes work owned
 
 Use the linked contribution only while its current content still supplies the stated result and boundaries. Keep the edition or copy actually used with a consequential receiving result. If a supplier's content, availability or case conditions change, requalify the affected return; unrelated OPS uses remain available.
 
-## Available packages
+<a id="available-packages"></a>
+
+## OPS.Reference:7 - Available packages
 
 | Package | PatternIDs | Availability in this edition |
 | --- | --- | --- |
@@ -6652,7 +6681,9 @@ Use the linked contribution only while its current content still supplies the st
 
 These package labels keep the questions and returned results distinct. They do not prescribe an operating lifecycle, maturity ladder, or reader sequence; start from the current question and use the smallest body or exact cooperating set that can change the decision.
 
-## Representative case coverage
+<a id="representative-case-coverage"></a>
+
+## OPS.Reference:8 - Representative case coverage
 
 | Case | What it tests | Boundary retained |
 | --- | --- | --- |
@@ -6660,7 +6691,9 @@ These package labels keep the questions and returned results distinct. They do n
 | Public-hospital emergency flow | patient/case/queue/resource boundaries, qualified readiness and capacity, case continuation, support burden, service promises, financial alternatives, due-cohort evidence, operating recovery, a pre-admission Method candidate, cross-scale coordination, and bounded receiving-use observation. | Operations supplies no clinical triage, treatment, medical-safety, consent, privacy, legal, labor, patient-outcome, Method-identity, or Method-culture result. |
 | AI-assisted software operation | user issue, candidate and episode distinctions; eligible queues, provider/test/acceptance capacity, retries, human review burden, Method trial and refresh, accepted-output promises, financial consequences, service reliability, cross-scale release coordination, and bounded on-call selection. | System/Agent recognition, security, software assurance, provider/model capability, causal effect, integration, release, human authority, high-risk transfer, and cultural continuation outside the named population retain their owners. |
 
-## Edition return
+<a id="edition-return"></a>
+
+## OPS.Reference:9 - Edition return
 
 This publication contains the Readme, Table of Contents, Preface, ten Parts, nine connected practical entries, three extended applications, framework boundary and the pattern bodies listed in the contents.
 
@@ -6668,13 +6701,17 @@ Use any of the twenty-eight patterns whose working question and conditions match
 
 Use the package table and each body's conditions to locate the Operations result that can change the current decision.
 
-## Publication boundary
+<a id="publication-boundary"></a>
+
+## OPS.Reference:10 - Publication boundary
 
 Pattern bodies are the authoritative working references. The Readme, Preface, Table of Contents, practical entries, and applications help readers enter and combine them; they do not replace conditions, evidence boundaries, stops, or specialist returns.
 
 This is a domain framework Reference carrier. It is neither an educational Guide nor the Engineering DPF Suite Reference. A Guide is organized for learning and memory formation; this Reference is organized for lookup and direct pattern use.
 
-## Citation
+<a id="citation"></a>
+
+## OPS.Reference:11 - Citation
 
 ```text
 Anatoly Levenchuk, with AI-assisted development and review.
@@ -6682,3 +6719,5 @@ Operations Management Principles Framework.
 2 October 2026.
 GitHub repository: https://github.com/ailev/FPF
 ```
+
+## OPS.Reference:End

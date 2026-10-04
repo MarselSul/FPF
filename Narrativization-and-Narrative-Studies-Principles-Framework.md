@@ -29,10 +29,10 @@ Use the practical entries to find a useful route, the Preface to understand how 
 
 | Locus | Title | Kind | Use |
 | --- | --- | --- | --- |
-| [Heterogeneous cases](#heterogeneous-acceptance-cases) | Teaching, fiction, mathematics and live events | Worked applications | Compare uses and constraints across different narrative tasks. |
-| [Support Maps](#support-maps) | Architecture, language, sources and terminology | Reference | Follow a relevant question from a pattern to its further explanation. |
-| [DPF Relations](#dpf-relations) | Dependencies and connected uses | Reference | Recover a relation and the condition that reopens it. |
-| [Refresh Route](#refresh-route) | Source and use changes | Maintenance guidance | Revisit the affected use when its conditions change. |
+| [Heterogeneous cases](#nstdreference1---heterogeneous-acceptance-cases) | Teaching, fiction, mathematics and live events | Worked applications | Compare uses and constraints across different narrative tasks. |
+| [Support Maps](#nstdreference2---support-maps) | Architecture, language, sources and terminology | Reference | Follow a relevant question from a pattern to its further explanation. |
+| [DPF Relations](#nstdreference8---dpf-relations) | Dependencies and connected uses | Reference | Recover a relation and the condition that reopens it. |
+| [Refresh Route](#nstdreference9---refresh-route) | Source and use changes | Maintenance guidance | Revisit the affected use when its conditions change. |
 
 # Readme - First Practical Entries
 
@@ -161,7 +161,7 @@ The gain is an account whose content, order and use are easier to examine and ch
 
 ## NSTD.Preface:6 - Source synthesis, coverage and relations
 
-Narrative studies supplies several complementary contributions. Narratology distinguishes story, discourse, voice and focalization; cognitive narrative research examines event comprehension and reader processing; science communication makes the tension between engagement and supported claims visible; natural-language generation and narrative planning distinguish content, order, realization and control. Learning research contributes conditions for retrieval, spacing, interleaving and transfer. The [Source Use And Refresh Map](#source-use-and-refresh-map) and each pattern's SoTA-Echoing section state the adopted contributions and their limits.
+Narrative studies supplies several complementary contributions. Narratology distinguishes story, discourse, voice and focalization; cognitive narrative research examines event comprehension and reader processing; science communication makes the tension between engagement and supported claims visible; natural-language generation and narrative planning distinguish content, order, realization and control. Learning research contributes conditions for retrieval, spacing, interleaving and transfer. The [Source Use And Refresh Map](#nstdreference5---source-use-and-refresh-map) and each pattern's SoTA-Echoing section state the adopted contributions and their limits.
 
 The synthesis uses those distinctions as methods for recognizable work. It adapts staged planning into a revisable cycle and separates product evaluation from generation history. A purely stylistic account would miss source and dependency failures; a universal formal-admission procedure would add unnecessary work before ordinary explanation. Domain sources remain necessary when the proposed use exceeds a source's actual reach or a newer result changes the method.
 
@@ -169,7 +169,7 @@ The publication foregrounds selection, order, event and mechanism support, viewp
 
 The emphasis on explicit source relations can favor analytic and technical work. Expressive aims such as mood, voice and imaginative discovery remain legitimate; choose a fidelity or reconstruction criterion only when that use requires it. A provisional draft can help discover both the subject and the purpose. Actual field effectiveness and learning remain questions for observations qualified by their conditions.
 
-This DPF depends on FPF's general distinctions and adds narrative-domain methods. FPF does not depend on NSTD. The [DPF Relations](#dpf-relations) section explains the specific dependencies, teaching-publication relations and useful returns. In an architecture-mediated explanation, the reader may need to return from narrative to a description or view, then to the modeled structure and observations. A directly sourced explanation returns to its relevant material. Each representation may omit relations; inspect those omissions when they affect the use.
+This DPF depends on FPF's general distinctions and adds narrative-domain methods. FPF does not depend on NSTD. The [DPF Relations](#nstdreference8---dpf-relations) section explains the specific dependencies, teaching-publication relations and useful returns. In an architecture-mediated explanation, the reader may need to return from narrative to a description or view, then to the modeled structure and observations. A directly sourced explanation returns to its relevant material. Each representation may omit relations; inspect those omissions when they affect the use.
 
 ## NSTD.Preface:End
 
@@ -2639,13 +2639,17 @@ Uses `A.6.3.NAR`, `E.6`, `E.11`, `E.17`, `E.17.AUD`, `NSTD.1`, `NSTD.2`, `NSTD.5
 
 # Reference
 
-## Heterogeneous Acceptance Cases
+<a id="heterogeneous-acceptance-cases"></a>
+
+## NSTD.Reference:1 - Heterogeneous Acceptance Cases
 
 The cases show how the methods combine across teaching, fiction, mathematics and live commentary. Each route can be shortened to the work the current difficulty needs.
 
 Use a route to construct a narrative or to locate a defect in an existing one. An existing draft can be evaluated immediately; the absence of its production history does not prevent judging a visible problem. Return to the relevant construction step when repair needs it.
 
-### Case A - FPF Learning Route Probe With Seminar Carrier
+<a id="case-a---fpf-learning-route-probe-with-seminar-carrier"></a>
+
+### NSTD.Reference:1.1 - Case A - FPF Learning Route Probe With Seminar Carrier
 
 Use: a seminar or slide series that teaches readers to apply FPF patterns. The complete course is a separate teaching publication; a worked teaching example may also appear in a pattern.
 
@@ -2672,7 +2676,9 @@ Related work: use `E.17` and `E.17.AUD` for teaching-publication and audience-un
 
 Low `NSTD.6` repair: if learners enjoy sessions but cannot reconstruct pattern use, repair `NSTD.2`, `NSTD.3`, and `NSTD.8` before changing only style.
 
-### Case B - Franchise Continuation Storycraft
+<a id="case-b---franchise-continuation-storycraft"></a>
+
+### NSTD.Reference:1.2 - Case B - Franchise Continuation Storycraft
 
 Use: plan a continuation of an existing fictional world, such as a space-opera franchise. This case concerns narrative construction; it does not determine publication rights.
 
@@ -2700,7 +2706,9 @@ Related work: select canon and its constraints through `NSTD.1`; inspect generat
 
 Low `NSTD.6` repair: continuity drift, premise mismatch, character-agency collapse, escalation without causal structure, fan-service replacing plot function, viewpoint confusion, or stakes without source return repair through `NSTD.1` through `NSTD.4`, not by adding more dramatic prose.
 
-### Case C - Homotopy Theory Explanation
+<a id="case-c---homotopy-theory-explanation"></a>
+
+### NSTD.Reference:1.3 - Case C - Homotopy Theory Explanation
 
 Use: graph-heavy and structure-heavy mathematical theory rendered into sequential explanatory narrative for learners.
 
@@ -2727,7 +2735,9 @@ Related work: `C.29` supports a mathematical lens when one is being constructed;
 
 Low `NSTD.6` repair: if learners can retell an analogy but cannot state definitions, dependency order, example boundaries, or proof status, repair `NSTD.1`, `NSTD.2`, and `NSTD.3`; do not raise engagement alone.
 
-### Case D - Live Event Commentary
+<a id="case-d---live-event-commentary"></a>
+
+### NSTD.Reference:1.4 - Case D - Live Event Commentary
 
 Use: live commentary for an unfolding football match or analogous event stream, used for listener orientation and later review only under source-return conditions.
 
@@ -2754,13 +2764,17 @@ Related work: return to the official record for a disputed fact or correction. U
 
 Low `NSTD.6` repair: if listeners remember drama but cannot distinguish observed event from commentator inference or later official correction, repair `NSTD.1`, `NSTD.2`, `NSTD.3`, and `NSTD.4` before increasing engagement.
 
-## Support Maps
+<a id="support-maps"></a>
+
+## NSTD.Reference:2 - Support Maps
 
 Open these maps when a pattern's instruction leaves a source, meaning or neighboring-method question unresolved. They are optional reference material, not prerequisites for beginning a narrative.
 
 Use the architecture bridge for an actual architecture-related narrative; the semiotic bridge for an unresolved representation or interpretation problem; the source map for a relied-on research claim; and the precision map to distinguish an overloaded term.
 
-## Architecture and Narrative Work Bridge
+<a id="architecture-and-narrative-work-bridge"></a>
+
+## NSTD.Reference:3 - Architecture and Narrative Work Bridge
 
 Architecture and narrative work both involve selecting and relating structures, but their results differ. The table identifies useful correspondences and the conditions under which an architecture method applies. A plot, synopsis or teaching route is not thereby an architecture description.
 
@@ -2779,7 +2793,9 @@ Architecture and narrative work both involve selecting and relating structures, 
 
 The comparison suggests possible training transfers, not an established transfer effect. An architect learning narrative work can practise presentation order, viewpoint and reader response while using familiar structural distinctions. A narrator learning architecture work must additionally learn how to identify the relevant real structures, compare design alternatives and check their consequences. Competence in one practice does not establish competence in the other.
 
-## Semiotic And Language-Precision Bridge
+<a id="semiotic-and-language-precision-bridge"></a>
+
+## NSTD.Reference:4 - Semiotic And Language-Precision Bridge
 
 Narrative construction changes how signs, sequence and viewpoint make material available to a reader. Use the following neighboring methods when they address the actual difficulty. Ordinary drafting can proceed without a formal language-state profile.
 
@@ -2798,7 +2814,9 @@ Narrative construction changes how signs, sequence and viewpoint make material a
 
 Use FPF for the general definition or method and NSTD for the narrative operation that uses it. This keeps the dependency from NSTD to FPF while avoiding a second set of general definitions inside narrative practice.
 
-## Source Use And Refresh Map
+<a id="source-use-and-refresh-map"></a>
+
+## NSTD.Reference:5 - Source Use And Refresh Map
 
 The sources below contribute to particular narrative operations. Older conceptual anchors remain useful within their scope; recent studies and systems add bounded results. The extension across factual, mathematical, fictional and live accounts is this DPF's synthesis. A citation does not establish every condition of that synthesis.
 
@@ -2825,7 +2843,9 @@ Meretoja's *Narrative and Human Existence: Ontology, Epistemology, and Ethics* r
 
 Return to the affected source when its claim is contradicted, overextended or no longer suitable for the intended use. Apply `G.2`/`G.11` when the work is to synthesize or refresh the relevant SoTA traditions; ordinary comparison with a story's canon or a lesson's source remains direct.
 
-## DPF Precision Restoration And Owner Map
+<a id="dpf-precision-restoration-and-owner-map"></a>
+
+## NSTD.Reference:6 - DPF Precision Restoration And Owner Map
 
 These terms help distinguish questions that occur in narrative work. A local field name does not create a new Core kind. Use the cited definition when the particular claim needs its precision.
 
@@ -2869,7 +2889,9 @@ These terms help distinguish questions that occur in narrative work. A local fie
 | narrative precision restoration | Resolving wording whose ambiguity changes the claim or action. | Use `E.10`, `A.6.P`, `C.16.Q` or `C.2.P` for the specific unresolved meaning. |
 | artistic or literary rendering mode | A choice of voice, tone, genre, scene or technique for an expressive or other reader aim. | `NSTD.4/.5` guide the choice; `NSTD.6` assesses it for that aim without treating artistic effect as factual support. |
 
-## Name And Edition Route
+<a id="name-and-edition-route"></a>
+
+## NSTD.Reference:7 - Name And Edition Route
 
 Package name: `Narrativization and Narrative Studies Principles Framework`.
 
@@ -2883,7 +2905,9 @@ The definitions and general methods used by this edition are available in [FPF C
 
 NSTD depends on those definitions for the uses stated here. A relevant change calls for reconsidering the affected narrative instruction or evaluation; it does not require restarting unrelated uses. Compatibility across a changed Core edition is a separate question about that use. `E.4.PFR` explains this dependency distinction and `G.11` the currentness question.
 
-## DPF Relations
+<a id="dpf-relations"></a>
+
+## NSTD.Reference:8 - DPF Relations
 
 These relations explain how the methods combine and when their dependencies need to be revisited. A pattern citation locates the relevant definition or instruction; it does not own a subject or create an authority relation. Ordinary subject assertions below are sufficient for reading and use. A maintenance index may represent the same assertions through the optional forms in `E.4.PFR`.
 
@@ -2900,7 +2924,9 @@ These relations explain how the methods combine and when their dependencies need
 | NSTD.8 and NSTD.6 support evaluation of learner reconstruction and use. | Distinguish a design walkthrough, an actual reading and a learning-effect claim. Feed an established defect into the relevant repair or `E.23`. | Revisit changed reader preparation, assistance, source selection or evidence; an evaluation does not by itself grant publication permission. |
 | NSTD.4/.5 can expose agency, responsibility, persuasion or affected-party questions. | Use `A.2`, `A.13`, `D.1`–`D.5`, `A.10` or `B.3` for the corresponding claim when it is made. | Reopen the particular claim when wording changes who acts, who is affected, what is supported or who may decide. |
 
-## Refresh Route
+<a id="refresh-route"></a>
+
+## NSTD.Reference:9 - Refresh Route
 
 Use this route when the package is already being applied and one of its source, evaluation, or carrier assumptions changes.
 
@@ -2910,3 +2936,5 @@ Use this route when the package is already being applied and one of its source, 
 4. Use `E.23` only for an exact changed narrative rendering version or declared changed slice with `NSTD.6` re-evaluation planned.
 5. Use `G.11` refresh when FPF Core edition, generated-narrative practice, reader telemetry, teaching-test evidence, source pack, or the `NSTD.6` evaluation characteristic space changes.
 6. Distinguish the teaching or narrative product from observations about its use. Reuse an observation only for the claim and conditions it actually supports; a worked example may remain in the pattern that explains the method.
+
+## NSTD.Reference:End

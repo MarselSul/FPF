@@ -2465,7 +2465,7 @@ The outer factor identifies the effect of action on the mediator. The inner adju
 
 For a more involved graph or several input laws, derive a sequence of intermediate distributions using the rules of do-calculus and probability. Each exchange between observation and intervention needs the corresponding separation condition in the modified graph. A suitable identification implementation can carry out that search: provide the graph, the target and the actual input laws, then recover the returned derivation and check its required factors. The historical ID algorithm covers a specified acyclic model class with latent common causes and an observed joint law; generalized search can use several incomplete or experimental laws. Do not replace those inputs by a joint law that the records never supplied. [ID algorithm](https://ftp.cs.ucla.edu/pub/stat_ser/r327.pdf), Figure 3; [generalized search](https://arxiv.org/html/1902.01073v5), §§2–3.
 
-#### MMP.15:4.3.1 - Use a binary instrument for a specified local effect
+##### MMP.15:4.3.1 - Use a binary instrument for a specified local effect
 
 Use this branch when a binary assignment or encouragement \(Z\) changes actual action \(A\in\{0,1\}\), and an instrumental-variable argument might identify an effect of \(A\). The effect of offering an action and the effect of performing it are different targets. If the receiving question requires the population average effect, determine whether the local quantity below answers it before using the result.
 

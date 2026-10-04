@@ -27,8 +27,8 @@ Search the Keywords & Search Queries column for the engineering difficulty, subj
 | [Agent work and support](#tool-using-llm-systems-make-the-available-contribution-enter-the-task) | Choose and use an available way for the current task, or find the construction needed to repair recurring misallocation. |
 | [Citation](#citation) | Cite this framework or one pattern with its author, title, release date, and publication address. |
 | [Preface](#preface) | Understand how 53 patterns connect common Systems Engineering, Platform Engineering, selected software Methods and engineering of agent work and support. |
-| [Cross-Pattern Applications](#cross-pattern-applications) | Use two navigation walkthroughs and four worked applications in software, cyber-physical equipment and manufacturing. |
-| [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check the publication's scope and professional source coverage, trace claims back to their sources, and find remaining profile obligations and reopen conditions. |
+| [SYSE.Application - Cross-Pattern Applications](#cross-pattern-applications) | Use two navigation walkthroughs and four worked applications in software, cyber-physical equipment and manufacturing. |
+| [SYSE.Reference - Framework Boundary and Refresh](#framework-boundary-and-refresh) | Check the publication's scope and professional source coverage, trace claims back to their sources, and find remaining profile obligations and reopen conditions. |
 
 **Part I - Project Focus, Environment, Consequences, and Problem/System-Family Development**
 
@@ -162,7 +162,7 @@ The following selected examples show how an engineering answer depends on result
 - **Start with:** SYSE.1 for the project system and SYSE.2 for its intended use, or the first missing result if these are already understood.
 - **Stop or return:** Return the recommendation to the release authority when it can decide. Reopen only the conclusions affected by a changed configuration, use, source or observation.
 
-In [APP-SYSE-01](#app-syse-01--navigation-walkthrough-release-a-vibration-control-change-for-a-district-heating-pump-station), the station's configuration PS17-C42 combines a pump-train modification and software changes. SYSE.16 identifies the surrounding heating arrangement; SYSE.17 finds the systems that may bear consequences, including connected users and maintainers. Their results let SYSE.2 describe the proposed operating use and the station arrangement that could support it.
+In [APP-SYSE-01](#syseapplication1---app-syse-01--navigation-walkthrough-release-a-vibration-control-change-for-a-district-heating-pump-station), the station's configuration PS17-C42 combines a pump-train modification and software changes. SYSE.16 identifies the surrounding heating arrangement; SYSE.17 finds the systems that may bear consequences, including connected users and maintainers. Their results let SYSE.2 describe the proposed operating use and the station arrangement that could support it.
 
 SYSE.5 uses that account to develop different functional allocations and physical or software bearers. SYSE.6 compares these alternatives and selects the structures on which realization will depend. If no complete way of obtaining an included result is available, SYSE.24 compares arrangements such as adapting existing equipment or obtaining a supplied contribution, including integration and continued support. SYSE.3 then develops the required realization work and its means. An unsupported branch can return the project to the architecture choice.
 
@@ -170,7 +170,7 @@ SYSE.11 integrates the realized contributions and observes the increment in its 
 
 The example's recommendation remains conditional on a restored-function check and unresolved safety permission. A new component version reopens the claims affected by that version; it need not invalidate unrelated evidence. If the trial also used a new AI-assisted analysis method, SYSE.15 addresses its further use for the supported claim classes. SYSE.21 becomes relevant only when the question concerns transmission and retention across practitioners. A local trial and a claim about later cultural continuation need different results.
 
-The same connections apply to other engineered systems. [APP-SYSE-03](#app-syse-03--worked-application-choose-and-bound-an-authentication-service-migration) gives a software-only case with displayed alternatives and four limits: its one surviving architecture supports a specified canary, not unrestricted release. The specialist security result remains a premise supplied by that practice.
+The same connections apply to other engineered systems. [APP-SYSE-03](#syseapplication3---app-syse-03--worked-application-choose-and-bound-an-authentication-service-migration) gives a software-only case with displayed alternatives and four limits: its one surviving architecture supports a specified canary, not unrestricted release. The specialist security result remains a premise supplied by that practice.
 
 ### SYSE-CARD-02 — Develop a problem portfolio and System family without freezing either
 
@@ -180,7 +180,7 @@ The same connections apply to other engineered systems. [APP-SYSE-03](#app-syse-
 - **Start with:** SYSE.22 when project focus and use are understood. Resolve an ambiguous system through SYSE.1 and incomparable configurations through SYSE.13.
 - **Stop or return:** Stop at a useful option decision if realization does not change it. Use SYSE.23 when the relation between the option and its builder changes the next investment or reconfiguration choice.
 
-[APP-SYSE-02](#app-syse-02--navigation-walkthrough-develop-a-district-heating-inspection-system-family-while-the-damage-detection-problem-changes) considers inspection systems whose relevant problems include early damage, false alarms, inaccessible locations and interruption of operation. SYSE.22 keeps the problem formulations connected to, but distinct from, the system-family options. SYSE.2 supplies their intended uses; SYSE.5 and SYSE.6 supply materially different arrangements; SYSE.7 and SYSE.13 keep descriptions and configurations comparable. SYSE.10 interprets what a prototype or trial actually supports.
+[APP-SYSE-02](#syseapplication2---app-syse-02--navigation-walkthrough-develop-a-district-heating-inspection-system-family-while-the-damage-detection-problem-changes) considers inspection systems whose relevant problems include early damage, false alarms, inaccessible locations and interruption of operation. SYSE.22 keeps the problem formulations connected to, but distinct from, the system-family options. SYSE.2 supplies their intended uses; SYSE.5 and SYSE.6 supply materially different arrangements; SYSE.7 and SYSE.13 keep descriptions and configurations comparable. SYSE.10 interprets what a prototype or trial actually supports.
 
 These contributions allow SYSE.22 to choose among surviving options, reject them, or select a feasible probe whose result could change the choice enough to justify its cost. For example, a trial revealing inaccessible locations can change the use question and the relevant sensing options. Repeating the old ranking with unchanged acceptance conditions would miss that change. The new question returns to the linked use and system concepts before their architectures are compared again.
 
@@ -196,11 +196,11 @@ A source change returns through SYSE.19 to the decisions that relied on it.
 - **Start with:** SYSE.25 for the practitioner's difficulty; SYSE.24 when the whole obtaining arrangement is undecided.
 - **Stop or return:** Use the improvement when its receiving task is supported. Pass the observed failure, uncertainty or missing professional result to the practitioner who can address it. Continue independently supported interface or planning work.
 
-In [APP-SYSE-06](#app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation), planners cannot reliably connect returned coated parts with their drawing, lot, fixture and program. SYSE.25 selects the practitioner improvement; SYSE.24 compares internal production, external finished-part supply and a mixed arrangement. The comparison includes waiting, transport, rejected lots, support and exit as well as price.
+In [APP-SYSE-06](#syseapplication6---app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation), planners cannot reliably connect returned coated parts with their drawing, lot, fixture and program. SYSE.25 selects the practitioner improvement; SYSE.24 compares internal production, external finished-part supply and a mixed arrangement. The comparison includes waiting, transport, rejected lots, support and exit as well as price.
 
 The example explores the mixed arrangement; choosing it for production still requires the missing professional results and comparison with the other arrangements. SYSE.26 constructs a request, clarified input, authorized operation and returned result that the practitioner can follow. SYSE.13 carries the configuration relations through it. The example request names fixture B but supplies a program qualified only for A: the receiving interaction exposes that mismatch before machining. Correcting the association permits interface qualification to continue; qualification of the B program's machining behavior remains a professional contribution. SYSE.18 handles the independently controlled coating provider, and SYSE.9 connects the dimensional and process results to the receiving engineering decision.
 
-[APP-SYSE-05](#app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path) works an analogous connection for software. Its constructed candidate B retains the unresolved comparison with candidate A. SYSE.31 constructs trustworthy shared-mainline feedback, SYSE.30 addresses build inputs when they prevent it, and the runtime, data and recovery methods supply their own contributions. Data change, alerting and failed-task diagnosis can also start directly at SYSE.34, SYSE.37 and SYSE.38. The manufacturing case does not acquire these software prerequisites; both cases use the common methods to connect a practitioner's task to supported results.
+[APP-SYSE-05](#syseapplication5---app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path) works an analogous connection for software. Its constructed candidate B retains the unresolved comparison with candidate A. SYSE.31 constructs trustworthy shared-mainline feedback, SYSE.30 addresses build inputs when they prevent it, and the runtime, data and recovery methods supply their own contributions. Data change, alerting and failed-task diagnosis can also start directly at SYSE.34, SYSE.37 and SYSE.38. The manufacturing case does not acquire these software prerequisites; both cases use the common methods to connect a practitioner's task to supported results.
 
 
 <a id="tool-using-llm-systems-make-the-available-contribution-enter-the-task"></a>
@@ -497,7 +497,7 @@ FPF distinctions and a curated standards or handbook route are a useful smaller 
 supply the needed engineering move. SYSE adds the domain work of constructing linked use and System concepts,
 complete obtaining arrangements, recursive realization and configuration-bound engineering judgements.
 Its common layer does not replace the specialist procedure that determines a material, software or regulated
-result. The [shared source account](#shared-engineering-sources-and-architectural-choices) explains the
+result. The [shared source account](#sysereference32---shared-engineering-sources-and-architectural-choices) explains the
 different roles of process scope, engineering practice and professional procedures.
 
 Platform Engineering retains `SYSE.12` for the enabling-System question and reuses `SYSE.24` for obtaining
@@ -516,7 +516,7 @@ direct source or pattern is sufficient; a full build-and-delivery traversal adds
 
 Choosing a platform's architecture requires comparing the available arrangements. Retaining repaired local provision, sharing
 a bounded contribution, obtaining external provision and adding an interface can each be appropriate.
-[APP-SYSE-05](#app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path)
+[APP-SYSE-05](#syseapplication5---app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path)
 keeps the repaired local and thin shared arrangements tied after their matched initial trial; developing
 the shared candidate further does not select it. This preserves a serious alternative to treating shared
 provision or a portal as the inevitable outcome of Platform Engineering.
@@ -559,7 +559,7 @@ a combination, ask the following questions about the intended decision.
   actual process, measurement, material disposition and production-acceptance results.
 
 The whole-arrangement condition is visible in
-[APP-SYSE-06](#app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation).
+[APP-SYSE-06](#syseapplication6---app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation).
 Its nominal 143 machining cycles do not establish delivery of 120 acceptable brackets: measurement,
 yield, rework, coating and transport still determine the end-to-end result. The supported interface can
 nevertheless be improved while the production claim remains open. The software application likewise
@@ -945,7 +945,7 @@ The practice question is how to establish a defensible, shared and revisable pro
 engineering decision. The selected answer combines explicit framing and valuable alternatives with the
 contribution comparison in §4.4.1. The following research lines support parts of that synthesis; they do not
 establish its comparative effectiveness as a whole. Exact work titles, primary identifiers and evidence limits
-are in the public [project-focus research sources](#project-focus-research-sources).
+are in the public [project-focus research sources](#sysereference31---project-focus-research-sources).
 
 
 | Current practice line | What changes in this pattern | Source and use | Adoption status |
@@ -1026,7 +1026,7 @@ Do not use this pattern merely to draw a context diagram or inventory every near
 pattern directly when one already-known relation—such as parthood, interface, interaction, flow, or an architecture
 relation—answers the question. If the project system-of-interest designation is still unclear, use `SYSE.1` first.
 
-### SYSE.16:0.1 - Terms and Distinctions
+#### SYSE.16:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -1293,7 +1293,7 @@ decision.
 Use `C.28` when one already identified causal claim is the whole question. Obtain a result from the applicable
 specialist practice whenever the decision relies on authority outside Systems Engineering.
 
-### SYSE.17:0.1 - Terms and Distinctions
+#### SYSE.17:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -2028,7 +2028,7 @@ and option set are stable and only an architecture choice remains. Use `C.18` wh
 archive or Front. A contested problem formulation may require a Problem Structuring and Decision Support Method;
 a changed Method may require Method Engineering.
 
-### SYSE.22:0.1 - Terms and Distinctions
+#### SYSE.22:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -2381,7 +2381,7 @@ across several structures, use `C.32`; and for choosing an architecture from dev
 electrical protection, or structural integrity—determines the answer, use the relevant application DPF with this
 allocation account.
 
-### SYSE.5:0.1 - Terms and Distinctions
+#### SYSE.5:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -2893,7 +2893,7 @@ directly when no Systems Engineering specialization changes the choice, and `SYS
 identify the basis it still lacks. Release approval and evidence that the intended architecture now obtains
 remain separate decisions and claims.
 
-### SYSE.6:0.1 - Terms and Distinctions
+#### SYSE.6:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -3338,7 +3338,7 @@ cross-description claim is being made. Use `SYSE.10` when the problem is the cre
 or trial—for a named engineering claim; use `SYSE.13`, `SYSE.14`, or `SYSE.19` when configuration identity,
 change, release, or a changed source edition is the governing problem.
 
-### SYSE.7:0.1 - Terms and Distinctions
+#### SYSE.7:0.1 - Terms and Distinctions
 
 Words such as *model*, *view*, *specification*, *requirement*, *data*, *digital thread*, *digital twin*,
 *traceability*, and *single source of truth* are recognition cues. Before relying on them, restore the
@@ -3782,7 +3782,7 @@ risks, or realization network. A mere change from *product* to *service* wording
 their own Methods, results, and authority—for example, practices governing demand, positioning, price, finance,
 legal duty, organization change, continuing operations, or shared enabling Systems.
 
-### SYSE.8:0.1 - Terms and Distinctions
+#### SYSE.8:0.1 - Terms and Distinctions
 
 The everyday words in this field are overloaded. Recover the object or relation before relying on them:
 
@@ -4084,7 +4084,7 @@ the request, return, and engineering use. The applicable specialist DPF or direc
 Method, whether the question concerns, for example, law, medicine, safety, security, economics, human factors,
 manufacturing, software, or a physical science.
 
-### SYSE.9:0.1 - Terms and Distinctions
+#### SYSE.9:0.1 - Terms and Distinctions
 
 The terms below keep the contribution separate from the organizational labels used to find it:
 
@@ -4417,7 +4417,7 @@ cost before a local choice; a specialist experimental-design Method for a set or
 `SYSE.4` for an assurance conclusion or release-facing consequence. Scientific and specialist practices retain
 their own research Methods.
 
-### SYSE.10:0.1 - Terms and Distinctions
+#### SYSE.10:0.1 - Terms and Distinctions
 
 The same research word can name a Method, dated Work, a result, or a publication. Restore the object and
 relation needed by the engineering claim:
@@ -4772,7 +4772,7 @@ arrangement has been retained and the next difficulty is whether its realization
 System's use. Specialist decisions—for example, commercial, financial, legal, governance, organization, operations, asset,
 and capability-development decisions—remain with their specialist practices.
 
-### SYSE.24:0.1 - Precision Restoration
+#### SYSE.24:0.1 - Precision Restoration
 
 | Wording in this pattern | Meaning used here |
 | --- | --- |
@@ -5252,7 +5252,7 @@ change, feasibility and an obtaining network require their own evidence. If the 
 bearer is still open, return to the architecture patterns. If the question concerns production, capability,
 operations, organization, configuration or assurance beyond this first action, use the specialist return in :4.6.
 
-### SYSE.3:0.1 - Terms and Distinctions
+#### SYSE.3:0.1 - Terms and Distinctions
 
 | Cue | Meaning used here |
 | --- | --- |
@@ -5745,7 +5745,7 @@ Use `SYSE.14` when the current question is authorization or release, `SYSE.4` wh
 is current, and Operations Management when the problem is continuing queues, allocation, or operating control
 rather than production of the engineering increment.
 
-### SYSE.11:0.1 - Terms and Distinctions
+#### SYSE.11:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -6038,7 +6038,7 @@ When the professional move is not supplied by the common language or the selecte
 use a qualified application-profile Method—for example, for a laboratory, compiler, manufacturing cell,
 clinical environment, electrical bench, or ship facility. The software selection is not complete software engineering.
 
-### SYSE.12:0.1 - Terms and Distinctions
+#### SYSE.12:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -6332,7 +6332,7 @@ Change when an organization is the System being changed, Corporate Governance fo
 decisions, Operations Management for continuing allocation and coordination Work, or a configuration or other
 specialist pattern for its own subject.
 
-### SYSE.18:0.1 - Terms and Distinctions
+#### SYSE.18:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -6621,7 +6621,7 @@ or concerns human capability, use the relevant Organization Change Engineering o
 DPF result when available; otherwise name the specialist help needed and use a qualified source. Use `SYSE.21`
 when cultural continuation is the current question.
 
-### SYSE.23:0.1 - Short Practitioner Use
+#### SYSE.23:0.1 - Short Practitioner Use
 
 For a first pass, use one expected change family and one decision horizon:
 
@@ -7067,7 +7067,7 @@ Use the governing FPF pattern directly when one identity, structure, characteris
 already answers the question. Use `SYSE.7` when several descriptions must be made jointly usable, `SYSE.14` when a proposed or
 performed change must be connected to release, and `SYSE.19` when a changed source may reopen earlier decisions.
 
-### SYSE.13:0.1 - Terms and Distinctions
+#### SYSE.13:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -7397,7 +7397,7 @@ Use `SYSE.19` when a changed source may invalidate an earlier decision. Use a go
 one isolated result—such as a choice, permission, gate, Work, transformation, evidence, assurance, status, or
 transfer result—already answers the question.
 
-### SYSE.14:0.1 - Terms and Distinctions
+#### SYSE.14:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -7697,7 +7697,7 @@ Use `SYSE.14` when the engineered System or its release is changing, and `SYSE.1
 effectivity are the main question. Use `SYSE.7` to maintain several descriptions used by one decision and `SYSE.10`
 to qualify new model, experiment, or trial evidence. Use FPF `E.15` when an FPF pattern edition itself changes.
 
-### SYSE.19:0.1 - Terms and Distinctions
+#### SYSE.19:0.1 - Terms and Distinctions
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -8569,7 +8569,7 @@ Use direct FPF patterns when the question concerns one already identified Method
 result is an engineering-platform capability, `SYSE.21` for wider cultural continuation, and `SYSE.24` when the
 project must choose how to obtain a needed engineering result.
 
-### SYSE.15:0.1 - Precision Restoration
+#### SYSE.15:0.1 - Precision Restoration
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -8915,7 +8915,7 @@ assurance, and the project must decide whether and how to change the arrangement
 Method Engineering when the reusable Method itself is the subject being developed. Use `SYSE.15` first when the
 project still lacks a usable account of its engineering Methods.
 
-### SYSE.20:0.1 - Precision Restoration
+#### SYSE.20:0.1 - Precision Restoration
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -9237,7 +9237,7 @@ consequences for the project system-of-interest or other named affected Systems.
 among Method and Work structures. Use an application DPF when the decisive distinction comes from, for example,
 software, electrical, maritime, building, medical, or manufacturing engineering.
 
-### SYSE.21:0.1 - Precision Restoration
+#### SYSE.21:0.1 - Precision Restoration
 
 | Name in this pattern | What it denotes |
 | --- | --- |
@@ -13733,14 +13733,18 @@ conditions that reopen them. None is a project lifecycle: Work may overlap, and 
 one result cannot be used before another exists.
 
 
-## APP-SYSE-01 — Navigation walkthrough: release a vibration-control change for a district-heating pump station
+<a id="app-syse-01--navigation-walkthrough-release-a-vibration-control-change-for-a-district-heating-pump-station"></a>
+
+## SYSE.Application:1 - APP-SYSE-01 — Navigation walkthrough: release a vibration-control change for a district-heating pump station
 
 `DistrictHeating-PumpStation-17` must receive changed vibration-control configuration `PS17-C42`. The change
 combines a physical pump-train modification, control-software changes, updated operating limits, and a trialled
 AI-assisted analysis Method. District heating must continue. A component test can pass while station-level
 functioning or a downstream condition still fails, and an earlier source can change during release preparation.
 
-### 1. Recover the subject, use, and consequences
+<a id="1-recover-the-subject-use-and-consequences"></a>
+
+### SYSE.Application:1.1 - 1. Recover the subject, use, and consequences
 
 Use `SYSE.1` to designate the actual station as the project system-of-interest and keep that designation distinct from
 the System's identity. Use `SYSE.16` to recover the containing district-heating arrangement, operating neighbours,
@@ -13758,14 +13762,18 @@ The first return is either a bounded focus and linked concepts or a named blocke
 using System, operating interval, or consequence claim cannot be identified, do not compensate with a generic
 stakeholder list or release checklist.
 
-### 2. Compare architecture choices
+<a id="2-compare-architecture-choices"></a>
+
+### SYSE.Application:1.2 - 2. Compare architecture choices
 
 Use `SYSE.5` to compare functional contributions, physical and software bearers, and interfaces for vibration
 control under the declared operating conditions. Use `SYSE.6` to select an architecture candidate and state the
 trade-offs, accepted losses, evidence, and reopen conditions. Architecture and assurance Work may overlap; the
 architecture decision still cannot rely on an assurance result that does not yet exist.
 
-### 3. Bind change and evidence to configuration
+<a id="3-bind-change-and-evidence-to-configuration"></a>
+
+### SYSE.Application:1.3 - 3. Bind change and evidence to configuration
 
 Use `SYSE.13` to identify `PS17-C42`, its parts, software realization, variant relations, and effectivity. Use
 `SYSE.14` to connect the proposed and performed change to the deciding System, permission, implementation,
@@ -13777,13 +13785,17 @@ its component claim and conditions. Station and downstream observations apply to
 engineering-assurance account can support, narrow, or refuse reliance for the release question; an independent
 safety permission remains a separate specialist result.
 
-### 4. Bound the Method and cultural return
+<a id="4-bound-the-method-and-cultural-return"></a>
+
+### SYSE.Application:1.4 - 4. Bound the Method and cultural return
 
 Use `SYSE.15` to decide whether the trialled AI-assisted analysis Method belongs in the engineering repertoire,
 for which claim class, with which evidence and exclusions. Use `SYSE.21` only if the question extends beyond this
 release to transmission and retention across a named practitioner population. Use the existing evidence for a qualified current account or supported continuation; stronger later claims need their own observations. Do not infer cultural retention from the local trial or publicity, or commission a new replay merely to close the current answer.
 
-### Result and stop
+<a id="result-and-stop"></a>
+
+### SYSE.Application:1.5 - Result and stop
 
 The bounded result is a recommendation to release `PS17-C42` only after the named restored-function check, with
 configuration, effectivity, evidence limits, unresolved safety permission, and the AI-assisted Method
@@ -13791,7 +13803,9 @@ disposition explicit. Stop there when the release authority can decide. Return m
 bearing-temperature observation, source claim, configuration fact, or specialist result to its source. Reopen
 only the decisions whose relied-on System, use, configuration, evidence horizon, or Method basis changed.
 
-## APP-SYSE-02 — Navigation walkthrough: develop a district-heating inspection System family while the damage-detection problem changes
+<a id="app-syse-02--navigation-walkthrough-develop-a-district-heating-inspection-system-family-while-the-damage-detection-problem-changes"></a>
+
+## SYSE.Application:2 - APP-SYSE-02 — Navigation walkthrough: develop a district-heating inspection System family while the damage-detection problem changes
 
 Engineering team `ET2` develops successive inspection Systems for district-heating networks. Candidate `IS-A`
 combines a mobile sensing unit, models, an operator interface, and an evidence service. Candidate `IS-B` changes
@@ -13799,7 +13813,9 @@ both sensing and builder-platform assumptions. The problem portfolio contains di
 early damage recognition, false alarms, inaccessible locations, operating interruption, evidence for
 intervention, and deployment burden.
 
-### 1. Bound the project and keep two portfolios visible
+<a id="1-bound-the-project-and-keep-two-portfolios-visible"></a>
+
+### SYSE.Application:2.1 - 1. Bound the project and keep two portfolios visible
 
 Use `SYSE.1`, `SYSE.16`, and `SYSE.17` to identify the actual System or intended-system designator selected as the project system-of-interest, operating environment, and Systems that may
 bear consequences. Use `SYSE.22` to keep problem formulations and System-family options distinct but connected.
@@ -13807,7 +13823,9 @@ Each problem has its own affected Systems, comparison and acceptance conditions,
 currentness. Keep each problem open to revision. Each System option has a recoverable family and configuration
 relation and remains connected to the problem it addresses.
 
-### 2. Compare options and choose the next evidence
+<a id="2-compare-options-and-choose-the-next-evidence"></a>
+
+### SYSE.Application:2.2 - 2. Compare options and choose the next evidence
 
 Use `SYSE.2`, `SYSE.5`–`SYSE.7`, `SYSE.10`, and `SYSE.13` to keep use concepts, architecture candidates,
 descriptions, evidence, family identity, configuration, and effectivity comparable. The deciding Agent uses `SYSE.22` to compare the problems and options and records one
@@ -13815,7 +13833,9 @@ replayable next-decision `ChoiceResult` for later planning or authorization. The
 the decision enough to justify its cost. Otherwise the Agent chooses among surviving options, rejects the option
 set, or sends a question or missing-authority result to the Agent responsible for the named receiving decision.
 
-### 3. Separate the designated System, builder arrangement, platform, Method, Work, and culture
+<a id="3-separate-the-designated-system-builder-arrangement-platform-method-work-and-culture"></a>
+
+### SYSE.Application:2.3 - 3. Separate the designated System, builder arrangement, platform, Method, Work, and culture
 
 Use `SYSE.3`, `SYSE.11`, and `SYSE.12` to identify the realization arrangement, usable increments, and engineering
 platform contribution. Use `SYSE.20` to distinguish simultaneous Work from dependencies that require order.
@@ -13829,7 +13849,9 @@ capability and cultural continuation remain results of their own patterns. A bui
 bounded unfolding; it does not make problem development, System-family development, and builder development
 three universal stages or levels.
 
-### Result and stop
+<a id="result-and-stop-1"></a>
+
+### SYSE.Application:2.4 - Result and stop
 
 The application returns an updated problem portfolio, a reidentifiable System-family option set, supported
 correspondences and unresolved mismatches, one next-decision `ChoiceResult`, a grounded account of evolvability across the selected System-family option and its
@@ -13838,13 +13860,17 @@ reconfiguration `ChoiceResult`. Stop when the named authorities can act on those
 realization, adoption, cultural retention, and reliance on a future Open-Ended Evolution Engineering result
 remain separate decisions and claims.
 
-## APP-SYSE-03 — Worked application: choose and bound an authentication-service migration
+<a id="app-syse-03--worked-application-choose-and-bound-an-authentication-service-migration"></a>
+
+## SYSE.Application:3 - APP-SYSE-03 — Worked application: choose and bound an authentication-service migration
 
 This constructed case tests whether the common Systems Engineering patterns still help when the System designated as project system-of-interest
 is software-only rather than electromechanical. It assumes the named software-security result; it does not teach
 cryptographic design or threat modeling, decide privacy or law, or grant release authority.
 
-### 1. Fix the System, use, and decision
+<a id="1-fix-the-system-use-and-decision"></a>
+
+### SYSE.Application:3.1 - 1. Fix the System, use, and decision
 
 `SYSE.1` identifies deployed software System `AccountAccessService`, current configuration `AS-7.4`, and the
 bounded use: tenant login during a five-minute loss of communication between two regional session stores. The
@@ -13852,7 +13878,9 @@ next decision is whether to prepare one candidate architecture for a limited pro
 Systems relevant to this choice. The first result, `AccountAccessProjectFocus-R1`, excludes unrelated identity-
 governance and user-interface changes.
 
-### 2. Compare architecture alternatives using displayed evidence
+<a id="2-compare-architecture-alternatives-using-displayed-evidence"></a>
+
+### SYSE.Application:3.2 - 2. Compare architecture alternatives using displayed evidence
 
 The project's software-security Agent performed `AuthenticationThreatModelingWork-TM4` by applying
 `ProjectSoftwareSecurityThreatModelingMethod`. That Work produced `AuthenticationThreatModelResult-TM4`, which
@@ -13875,7 +13903,9 @@ replay for configuration candidate `AS-7.5-rc2` returns these values:
 replication burden as an accepted loss. The choice uses `AuthenticationThreatModelResult-TM4`; the table does not establish that specialist result or
 transfer the specialist's authority.
 
-### 3. Bind the recommendation to configuration, effectivity, and evidence
+<a id="3-bind-the-recommendation-to-configuration-effectivity-and-evidence"></a>
+
+### SYSE.Application:3.3 - 3. Bind the recommendation to configuration, effectivity, and evidence
 
 Using `SYSE.13`, the configuration Agent identifies candidate configuration `AS-7.5-rc2` and its proposed
 effectivity: tenant cohort `TenantCohort-Canary`, 5% of eligible traffic, regions `EU-West` and `EU-Central`, for
@@ -13889,7 +13919,9 @@ canary; retain `AS-7.4` as the rollback configuration; do not widen effectivity 
 the canary observations and the required security permission. The recommendation is not the release occurrence
 and grants no authority.
 
-### 4. What transfers and what remains specialist
+<a id="4-what-transfers-and-what-remains-specialist"></a>
+
+### SYSE.Application:3.4 - 4. What transfers and what remains specialist
 
 The same Systems Engineering moves transfer unchanged: choose the project system-of-interest and use; expose affected
 Systems; develop bearer and interface alternatives; bind claims to configuration and effectivity; qualify
@@ -13900,7 +13932,9 @@ Their Methods and authorities remain external. Part VII supplies selected runtim
 recovery Methods only where their conditions fit; it does not supply those specialist security results or
 change the evidence and permission limits of this case.
 
-### Result, stop, and reopen
+<a id="result-stop-and-reopen"></a>
+
+### SYSE.Application:3.5 - Result, stop, and reopen
 
 Another practitioner can reproduce the recommendation by applying the four limits to the displayed values:
 `A` is the only surviving architecture, and its evidence supports only the stated canary. Stop when the release
@@ -13915,14 +13949,18 @@ Agent can decide that canary with the named security permission and rollback ava
 | security permission, rollback availability, or canary observations | `SYSE.14` release recommendation |
 | threat model, cryptographic construction, privacy constraint, or security authority | the owning software-security or legal Method and source |
 
-## APP-SYSE-04 — Worked application: obtain climate control for a new greenhouse configuration
+<a id="app-syse-04--worked-application-obtain-climate-control-for-a-new-greenhouse-configuration"></a>
+
+## SYSE.Application:4 - APP-SYSE-04 — Worked application: obtain climate control for a new greenhouse configuration
 
 This case shows the common Systems Engineering patterns in a small cyber-physical equipment company. It includes
 physical equipment, control software, provider Work, an AI Agent, internal capability, and continuing support.
 Greenhouse-control, electrical-safety, commercial, legal, financial, and organization-design results enter as
 inputs; their Methods remain with those practices.
 
-### 1. Fix the System, use, and result to obtain
+<a id="1-fix-the-system-use-and-result-to-obtain"></a>
+
+### SYSE.Application:4.1 - 1. Fix the System, use, and result to obtain
 
 `SYSE.1` keeps `GreenhouseClimateControl-GH2` as an intended-system designator selected as the project
 system-of-interest and distinguishes it from greenhouse `GH-2`, company `GreenHeat-4`, and any actual System
@@ -13937,7 +13975,9 @@ and humidity performance, no unsafe actuator command after sensor failure, ident
 configuration, recoverable observations, and supported manual fallback. These are case inputs from greenhouse-
 control and electrical-safety Methods. The case takes its thresholds from those specialist results.
 
-### 2. Construct complete obtaining arrangements
+<a id="2-construct-complete-obtaining-arrangements"></a>
+
+### SYSE.Application:4.2 - 2. Construct complete obtaining arrangements
 
 `GreenHeat-4`'s managers initially propose buying a controller or having an AI Agent write one. The engineering
 team applies `SYSE.24` and rejects those two phrases as a usable option set. A purchase is one relation inside an
@@ -13956,7 +13996,9 @@ human–AI–provider Work allocation and its authority gaps. The safety result 
 condition. The commercial and legal results state the proposed access, update, data, and remedy terms.
 `SYSE.24` uses those results but does not recreate their Methods or decide their questions.
 
-### 3. Restore parity and choose the next probe
+<a id="3-restore-parity-and-choose-the-next-probe"></a>
+
+### SYSE.Application:4.3 - 3. Restore parity and choose the next probe
 
 The comparison uses the same three operating conditions, commissioning date, field interfaces, configuration
 evidence, assurance burden, data access, support horizon, internal capability consequence, expected change
@@ -13991,7 +14033,9 @@ first observation to the tested failure and configuration. The deciding Agent ap
 `ChoiceResult-GH2-2`: **choose now** for the hybrid arrangement under that basis. A different safety limit or
 withdrawn vendor-update support would reopen the choice.
 
-### 4. Continue with realization, configuration, and assurance
+<a id="4-continue-with-realization-configuration-and-assurance"></a>
+
+### SYSE.Application:4.4 - 4. Continue with realization, configuration, and assurance
 
 The realization Agent applies `SYSE.3` to the retained arrangement and identifies its first unsupported realization branch: whether the
 internal integration Agent can configure the supervisory layer and produce the commissioning evidence before the
@@ -14004,7 +14048,9 @@ claims may rely on those observations and which still need greenhouse commission
 the later change and release decision. Performed integration Work, accepted configuration, payment, provider
 duty, and changed internal capability remain results of their own Methods.
 
-### Result, stop, and reopen
+<a id="result-stop-and-reopen-1"></a>
+
+### SYSE.Application:4.5 - Result, stop, and reopen
 
 The worked application returns a project-System focus, linked use and System concepts, four comparable whole
 obtaining arrangements, one evidence-qualified `C.11` choice, and the first unsupported realization branch. The
@@ -14014,11 +14060,15 @@ Stop there. Reopen `SYSE.24` when the result, use, need date, provider capabilit
 export, support, internal capability, evidence, or exit condition can reverse the choice. Reopen only the
 affected realization or assurance result when the arrangement remains preferred but one branch or claim fails.
 
-## APP-SYSE-05 - Worked application: construct a supported software build-and-delivery path
+<a id="app-syse-05---worked-application-construct-a-supported-software-build-and-delivery-path"></a>
+
+## SYSE.Application:5 - APP-SYSE-05 - Worked application: construct a supported software build-and-delivery path
 
 This is a constructed desk example. Its numbers, trials and observations are stipulated to explain how the Methods compose. The result is a supported-path candidate with unresolved choices.
 
-### Initial situation and available means
+<a id="initial-situation-and-available-means"></a>
+
+### SYSE.Application:5.1 - Initial situation and available means
 
 ParcelWorks has six teams maintaining twelve internal service applications in Go and TypeScript, with PostgreSQL 18 data stores. Developers already use a managed CI service and an artifact registry. The provider offers version-addressable runner images and artifact storage by digest. Several teams frequently change a common staging environment.
 
@@ -14028,7 +14078,9 @@ The user need is to take a service change to bounded production use with meaning
 
 The team will construct the delivery path, reliability objectives, exposure rules and data-change mechanism using the following source Methods: the exact DORA continuous-integration route under `SYSE.31`; configuration and release Methods in `SYSE.13` and `SYSE.14`; whole obtaining comparison in `SYSE.24`; independent-provider integration in `SYSE.18`; SLSA v1.2 artifact verification; and the PostgreSQL 18 engine primitives and recovery Method named in `SYSE.34`.
 
-### 1. Derive an improvement and compare repaired obtaining arrangements
+<a id="1-derive-an-improvement-and-compare-repaired-obtaining-arrangements"></a>
+
+### SYSE.Application:5.2 - 1. Derive an improvement and compare repaired obtaining arrangements
 
 Applying `SYSE.25`, the team groups the observations by the developer's failed undertaking. The first improvement hypothesis is a supported way to obtain trustworthy feedback and move the identified result into limited use. A new portal is one possible interface, not the user result.
 
@@ -14046,7 +14098,9 @@ The choice result is a retained A/B tie and one discriminating probe. Apply the 
 
 C remains deferred until its extra user-result hypothesis can be tested fairly. The rest of this application develops B for the probe. A requested language-specific variant outside the probe remains unqualified; its existing local path is retained with its known limits.
 
-### 2. Construct the supported interaction and provider relation
+<a id="2-construct-the-supported-interaction-and-provider-relation"></a>
+
+### SYSE.Application:5.3 - 2. Construct the supported interaction and provider relation
 
 Using `SYSE.26`, the team constructs a request that identifies source/configuration, allowed service variant and requested environment. The path acknowledges one attempt, shows whether it is waiting, executing, failed or complete, and returns the identified result with usable assistance.
 
@@ -14056,7 +14110,9 @@ An otherwise valid request for an unsupported variant receives an explanation of
 
 The managed CI provider controls some runner changes, while ParcelWorks controls the selected image and workflow. `SYSE.18` constructs the distributed-authority integration decision: use the available version-addressable images, identify the affected commitment and notice condition, exercise the provider interaction and retain an exit/provision alternative. The whole obtaining comparison remains with `SYSE.24`.
 
-### 3. Produce trustworthy integration, build and artifact results
+<a id="3-produce-trustworthy-integration-build-and-artifact-results"></a>
+
+### SYSE.Application:5.4 - 3. Produce trustworthy integration, build and artifact results
 
 The application team names its mainline, a small change, adequate build/tests and the permission to integrate. The direct DORA CI Method under `SYSE.31` supplies the missing shared-mainline result.
 
@@ -14081,7 +14137,9 @@ Using `SYSE.32`, the consumer obtains the tested artifact by its qualified ident
 
 `SYSE.28` places two different controls from the supplied constraints. Untrusted branch execution must not obtain release credentials. Artifact verification must occur before the consumer relies on transferred bytes. The example uses no production personal data. Production changes require the product release holder's permission.
 
-### 4. Construct a compatible data change and its recovery boundary
+<a id="4-construct-a-compatible-data-change-and-its-recovery-boundary"></a>
+
+### SYSE.Application:5.5 - 4. Construct a compatible data change and its recovery boundary
 
 Further ordinary case facts now matter. One non-partitioned PostgreSQL 18 table has an immutable row ID and non-null Unicode delivery_address D. Old applications read and replace D as a whole. The new form edits the first display line L and remaining display text T; it does not infer postal structure.
 
@@ -14114,7 +14172,9 @@ The separate [PostgreSQL 18 point-in-time recovery Method](https://www.postgresq
 
 Before using this data-change mechanism, exercise the schema, roles, concurrency, load and recovery arrangement in their deployed conditions.
 
-### 5. Produce and test an actual runtime
+<a id="5-produce-and-test-an-actual-runtime"></a>
+
+### SYSE.Application:5.6 - 5. Produce and test an actual runtime
 
 The service has an old serving pool, a separate two-instance candidate pool and an operator interface that can install an identified package, set configuration, start a process and read back actual runtime state. Its data use is the compatible state above. A release holder permits isolated deployment and a synthetic address write/read test, not general user exposure.
 
@@ -14126,7 +14186,9 @@ In the partial history, one instance reports h2/c2 while the second request time
 
 Repeat no data migration blindly. A return to h1/c1 is available only because the old data contract remains valid and the runtime restoration test succeeds. Wider release requires the release holder's decision.
 
-### 6. Measure the right tasks and evaluate exposure
+<a id="6-measure-the-right-tasks-and-evaluate-exposure"></a>
+
+### SYSE.Application:5.7 - 6. Measure the right tasks and evaluate exposure
 
 `SYSE.36` is applied twice, to different software services. The application owner supplies the address-form acceptance meaning; the platform cannot substitute “deployment completed.”
 
@@ -14143,7 +14205,9 @@ Meanwhile, all ten observed platform deployment attempts may have completed corr
 
 In an adverse form observation, the new screen hides a non-empty tail although the backend preserves D/L/T and the platform deployed exactly h2/c2. Application acceptance fails, so exposure stops or returns within the qualified recovery boundary. This does not prove deployment-path failure. Conversely, failed CI workers can interrupt developer tasks while the old application continues serving parcel operators correctly.
 
-### 7. Recover, reduce burden and resolve migration
+<a id="7-recover-reduce-burden-and-resolve-migration"></a>
+
+### SYSE.Application:5.8 - 7. Recover, reduce burden and resolve migration
 
 A different constructed burst fills shared execution capacity. `SYSE.40` separates delivery-control work from heavy tests, bounds admission/waiting/retries and reports refused or late user attempts. `SYSE.38` distinguishes queue contention from a broken dependency using attempt-stage evidence and a permitted probe. It applies the qualified mitigation and verifies the user's result; uncertain data effects return to `SYSE.34`.
 
@@ -14151,7 +14215,9 @@ Later illustrative use of the explored B candidate shows fewer identity-reconcil
 
 `SYSE.29` migrates the affected users only after the new variant is usable and the old path's users, state, rights and support have a disposition. A quiet old endpoint does not establish that an infrequent recovery consumer is gone. `SYSE.21` becomes relevant when later practice supplies evidence for an engineering-culture change claim.
 
-### Result, stop and direct-entry variations
+<a id="result-stop-and-direct-entry-variations"></a>
+
+### SYSE.Application:5.9 - Result, stop and direct-entry variations
 
 The example returns a constructed supported-path candidate for B, the retained A/B obtaining tie awaiting its matched maintenance/failure probe, an explicitly unqualified variant, an inconclusive application-exposure result and a concrete next improvement. `SYSE.14` keeps the actual release decision with its authorized holder.
 
@@ -14161,11 +14227,15 @@ For a separate high-volume service, the source-derived alert illustration with a
 
 Ask the release holder for missing production permission. Revalidate the results that depend on a changed source, provider condition, representation, task meaning or observation gap.
 
-## APP-SYSE-06 - Worked application: qualify a machining path with an external operation
+<a id="app-syse-06---worked-application-qualify-a-machining-path-with-an-external-operation"></a>
+
+## SYSE.Application:6 - APP-SYSE-06 - Worked application: qualify a machining path with an external operation
 
 This constructed desk example develops part of a supported manufacturing path and identifies the professional qualifications still needed. Its figures and trials are stipulated; the production procedure and capacity require the qualifications identified below.
 
-### Initial situation and the two users
+<a id="initial-situation-and-the-two-users"></a>
+
+### SYSE.Application:6.1 - Initial situation and the two users
 
 A producer must deliver 120 acceptable brackets per working day in two fixture variants. The receiving assembly requires a finished bore of 20.000 ± 0.020 mm. Machining is internal; coating may be external and can alter the dimension needed by that assembly.
 
@@ -14175,7 +14245,9 @@ For the supported-path question, a further illustrative observation is available
 
 The platform users are the people preparing and performing production work. The bracket user's assembly task is a different use. A clearer dispatch interface may help the former without establishing that the latter can assemble conforming brackets.
 
-### 1. Select an improvement and retain the whole obtaining comparison
+<a id="1-select-an-improvement-and-retain-the-whole-obtaining-comparison"></a>
+
+### SYSE.Application:6.2 - 1. Select an improvement and retain the whole obtaining comparison
 
 With `SYSE.25`, the producer selects one bounded improvement hypothesis: production users should be able to request, perform and recover an identified machining/coating undertaking without reconstructing its inputs and returned result from disconnected messages.
 
@@ -14191,7 +14263,9 @@ Compare transport, waiting, rejected lots and the work of maintaining the provid
 
 The following construction explores the mixed arrangement. Selecting it requires the missing professional results and a comparison of its benefits and burdens with repaired internal and fully external provision.
 
-### 2. Construct the supported transfer and its failure return
+<a id="2-construct-the-supported-transfer-and-its-failure-return"></a>
+
+### SYSE.Application:6.3 - 2. Construct the supported transfer and its failure return
 
 `SYSE.26` turns the improvement into a supported undertaking. A request identifies the design revision and finished-part requirement, material/lot identity, requested quantity and variant, applicable fixture and NC-program configuration, process conditions that the qualified procedure requires, and the receiving result.
 
@@ -14205,7 +14279,9 @@ For a missing dispatch acknowledgement, first recover the original lot's actual 
 
 The first result is therefore a supported transfer candidate with an exercised mismatch return and a recoverable uncertainty path. It remains usable for interface and planning work while production qualification is incomplete.
 
-### 3. Construct the independent-provider relation and contribution path
+<a id="3-construct-the-independent-provider-relation-and-contribution-path"></a>
+
+### SYSE.Application:6.4 - 3. Construct the independent-provider relation and contribution path
 
 The external coater controls its own process, scheduling and willingness to continue supply. `SYSE.18` identifies the producer's dependent results and the actual provider decisions that can change them.
 
@@ -14217,7 +14293,9 @@ Using `SYSE.27`, a changed fixture or NC program arrives as a bounded contributi
 
 A compatible file format is only one interface fact. It cannot establish that the fixture locates the part correctly, the toolpath produces the required geometry or a changeover can be performed under the intended conditions.
 
-### 4. Place the decisive dimensional control and expose what it still lacks
+<a id="4-place-the-decisive-dimensional-control-and-expose-what-it-still-lacks"></a>
+
+### SYSE.Application:6.5 - 4. Place the decisive dimensional control and expose what it still lacks
 
 The supplied requirement concerns the bore after coating, because that is what the assembly receives. `SYSE.28` places the decisive dimensional control after the last operation that can alter that property and before reliance by the receiving assembly.
 
@@ -14235,7 +14313,9 @@ This calculation concerns the stated part and error model. Acceptance of a lot a
 
 The immediate stop is precise: no acceptance claim for the finished lot from this incomplete evidence. Independent work on the interface, provider commitments or test preparation can continue.
 
-### 5. Separate nominal cycle arithmetic from qualified delivery capability
+<a id="5-separate-nominal-cycle-arithmetic-from-qualified-delivery-capability"></a>
+
+### SYSE.Application:6.6 - 5. Separate nominal cycle arithmetic from qualified delivery capability
 
 After the two expected changeovers, the nominal machining time is:
 
@@ -14263,7 +14343,9 @@ The remaining production contributions can now be assigned.
 
 Use the available Suite Methods for the stated constructions. Obtain or develop the physical procedures still missing, and obtain the case inputs and qualification results needed by the receiving decision. The common platform language connects those contributions.
 
-### 5.1. Compare independent preparation and a transferable setting
+<a id="51-compare-independent-preparation-and-a-transferable-setting"></a>
+
+### SYSE.Application:6.7 - 5.1. Compare independent preparation and a transferable setting
 
 A shorter stop can require a different physical arrangement, not just a different timetable. Consider one of the 25-minute changeovers. The machine works until minute 20. Preparation takes 12 minutes, installation and datum establishment 10, and the stipulated qualification operation 3. Performing all three after the stop gives the next start at minute 45.
 
@@ -14279,7 +14361,9 @@ With SYSE.26/.27, the proposed supported variant now states which prepared modul
 
 The result is a candidate for reducing this stop from 25 to 13 minutes, with its resource condition, calibration correspondence and qualification needs exposed. The three-minute qualification operation is a stipulated duration, not evidence that three minutes can qualify an actual process. SYSE.24 compares the complete provision alternatives before adopting the change. The rest of the day's capacity and coating/return constraints still apply.
 
-### 6. Recover physical work and make exit real
+<a id="6-recover-physical-work-and-make-exit-real"></a>
+
+### SYSE.Application:6.8 - 6. Recover physical work and make exit real
 
 In an adverse constructed return, a coated lot lacks a qualified final-dimensional result, or qualified inspection finds a nonconformity. Keep its disposition distinct from a conforming released lot. Recover which parts and configurations are affected before selecting an authorized action.
 
@@ -14289,7 +14373,9 @@ Possible responses include segregation, additional qualified inspection, permitt
 
 An old support route can remain necessary for a disputed or infrequently ordered lot even when ordinary new orders use another provider. Ending new orders and ending responsibility for old results are different decisions.
 
-### Result and practical change
+<a id="result-and-practical-change"></a>
+
+### SYSE.Application:6.9 - Result and practical change
 
 The application gives the producer a supported transfer with a response that identifies the wrong fixture/program pairing, a proposed independent-provider commitment, final-dimensional control placement and a bounded capacity calculation. It also gives a candidate for independent preparation with the calculation for transferring its setting. The available measurement and operating Methods support these constructions; the physical procedures, inputs and qualifications still needed for production are identified.
 
@@ -14297,12 +14383,17 @@ It stops before promising 120 acceptable brackets per day or treating the produc
 
 The team can improve the common path and obtain the separate machining, metrology and delivery results needed for production. A practitioner needing only the failed-lot disposition starts at the missing recovery Method; one facing a provider change starts at `SYSE.18` or `SYSE.29`. Neither must perform the entire example.
 
+## SYSE.Application:End
+
+
 # Framework Boundary and Refresh
 
 
 
 
-## Intended use and non-use boundary
+<a id="intended-use-and-non-use-boundary"></a>
+
+## SYSE.Reference:1 - Intended use and non-use boundary
 
 Use this framework for recurring common Systems Engineering difficulties that materially change decisions about
 an engineered System, its use and operational environment, problem formulations and System-family options,
@@ -14345,13 +14436,17 @@ For each missing result, recover the relevant practitioner, qualified Method and
 An omission blocks only the dependent claim or action, not every independent engineering move.
 
 
-## PatternID discipline
+<a id="patternid-discipline"></a>
+
+## SYSE.Reference:2 - PatternID discipline
 
 `SYSE.*` provides addresses for the authoritative pattern bodies in this Systems Engineering Principles
 Framework. The eight Parts and four ordinary worked connections group patterns for
 reading. These groups do not establish semantic parentage, Method composition, or project order.
 
-## Source use and epistemic status
+<a id="source-use-and-epistemic-status"></a>
+
+## SYSE.Reference:3 - Source use and epistemic status
 
 Each pattern carries its own source-use decisions, adopted payload, rejected shortcuts, evidence limits, and
 reopen conditions. Standards, textbooks, academic attention, vendor claims, institutional promotion, and press
@@ -14359,7 +14454,9 @@ coverage can identify candidate Methods or terminology. They do not by themselve
 causal effectiveness, widespread retention, or state of the art. When direct prevalence evidence is unavailable,
 label the value as an expert estimate and state its uncertainty.
 
-### Project-focus research sources
+<a id="project-focus-research-sources"></a>
+
+### SYSE.Reference:3.1 - Project-focus research sources
 
 [SYSE.1:11](#syse111---sota-echoing) states how these works inform the project-focus Method.
 The source roles and limits below bound that use; none supplies a universal engineering decision procedure.
@@ -14377,7 +14474,9 @@ The source roles and limits below bound that use; none supplies a universal engi
 - Zhang et al. (2023), [*The impact of decision-making styles (effectuation logic and causation logic) on firm performance: a meta-analysis*](https://doi.org/10.1108/JBIM-08-2021-0378). Associations with firm performance inform comparison of decision approaches; they do not establish universal causal effects.
 - Rapp, Olbrich and Packard (2026 issue; published online 2025), [*A logic of entrepreneurial action without judgment? Effectuation revisited*](https://doi.org/10.1007/s11846-025-00926-6). The conceptual argument restores judgement to effectuation; it is not an empirical validation of a Systems Engineering procedure.
 
-### Shared engineering sources and architectural choices
+<a id="shared-engineering-sources-and-architectural-choices"></a>
+
+### SYSE.Reference:3.2 - Shared engineering sources and architectural choices
 
 
 The working synthesis combines common engineering reasoning with procedures that produce a particular
@@ -14418,7 +14517,9 @@ recommendation. Use each source at the scope stated below and in the receiving b
 when a better-supported alternative changes the working move, or when an unlike application defeats the
 assumption being carried across profiles.
 
-### Professional source coverage for this edition
+<a id="professional-source-coverage-for-this-edition"></a>
+
+### SYSE.Reference:3.3 - Professional source coverage for this edition
 
 The common engineering sources retained in the pattern bodies and the following professional lines have
 different jobs. Exact source Methods, local adaptations, historical anchors and implementation comparators
@@ -14451,7 +14552,9 @@ Current common engineering, AI-native engineering, Platform Engineering, configu
 architecture, assurance, continuous engineering, and cultural-evolution sources can change quickly. Return first to the source-use claim on which the affected pattern relies. Reopen only the dependent claim, example, relation, or pattern
 unless the new evidence defeats the framework field boundary or a cross-pattern result relation.
 
-## Dependence on FPF and neighbouring products
+<a id="dependence-on-fpf-and-neighbouring-products"></a>
+
+## SYSE.Reference:4 - Dependence on FPF and neighbouring products
 
 FPF remains the source for transdisciplinary ontology, holons and Systems, Method and Work distinctions,
 architecture, evidence, assurance, decisions, cultural evolution, precision restoration, pattern form, and DPF
@@ -14492,7 +14595,9 @@ availability of a pattern is neither an obtained local assignment nor an establi
 
 For Part VIII, MMP.8.SD supplies an action-conditioned decision model, MMP.17 a qualified approximation when needed, and CMP.7 learner construction. The engineer recovers candidate reusable operations; ME.21 reconciles or allocates already recovered contributions, while ME.15/.10 retain semantic repertoire and usable discovery. HCD, SOM and RHY retain human practice, learning, observation and timed bodily coordination; an LLM-generated account supplies no bodily response. C.38/C.11 retain complete-way comparison and choice. The [Reference](ENGINEERING-DPF-SUITE-REFERENCE.md#make-an-available-contribution-work-in-the-whole-task) gives direct access and worked returns for these separate contributions.
 
-## Edition scope and refresh
+<a id="edition-scope-and-refresh"></a>
+
+## SYSE.Reference:5 - Edition scope and refresh
 
 This publication contains the 53 `SYSE.*` pattern bodies indexed across eight reading Parts,
 this Readme, this Preface, two navigation walkthroughs, four worked cross-pattern applications, and this
@@ -14513,3 +14618,5 @@ Recheck the affected pattern and its receiving relations when:
 Refresh the smallest affected unit first. Reopen the framework architecture only when evidence changes the
 promised field, selected problem families, pattern split, material result relations, publication form, or
 maintenance boundary.
+
+## SYSE.Reference:End

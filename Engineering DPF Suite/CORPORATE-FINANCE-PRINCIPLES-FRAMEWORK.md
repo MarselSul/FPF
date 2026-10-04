@@ -1,6 +1,6 @@
 # Corporate Finance Principles Framework
 
-**Edition:** [FIN 1.0](#edition-record)\
+**Edition:** [FIN 1.0](#finreference1---edition-record)\
 **Author:** Anatoly Levenchuk, with AI-assisted development and review
 
 Methods for valuing investments, arranging finance, preserving liquidity, managing financial exposure and making corporate-finance decisions.
@@ -13,7 +13,7 @@ Methods for valuing investments, arranging finance, preserving liquidity, managi
 | --- | --- | --- |
 | — | [Corporate Finance Readme](#corporate-finance-readme) | Follow connected financial decisions and a direct value calculation. |
 | — | [Preface](#preface) | Understand the language and how its methods connect. |
-| — | [References](#references) | Find supplying editions, source guidance and citation information. |
+| — | [FIN.Reference - References](#references) | Find supplying editions, source guidance and citation information. |
 
 **Part A - Cash and decision accounts**
 
@@ -4297,7 +4297,9 @@ FIN.18 supplies a selected method change, FIN.17 its model update and FIN.19 a p
 
 Copyright © Anatoly Levenchuk. The original framework text and worked examples are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The [licensing notice](https://github.com/ailev/FPF/blob/main/LICENSING.md) states scope and attribution terms. Referenced third-party works retain their own terms.
 
-## Edition record
+<a id="edition-record"></a>
+
+## FIN.Reference:1 - Edition record
 
 **Framework and edition:** Corporate Finance Principles Framework, FIN 1.0.\
 **Language:** English.\
@@ -4308,7 +4310,9 @@ For a precise citation, name the framework, FIN 1.0, the edition date and the pa
 
 Use current market, operating and institutional facts for a real decision. FIN.17 refreshes relied-on financial results; FIN.18 reconsiders their method. Revisit a cited supplying edition when its contribution changes the receiving use. A copied publication preserves its edition's text, not continuing accuracy of the user's data or continuing access to every external source.
 
-## Source guidance
+<a id="source-guidance"></a>
+
+## FIN.Reference:2 - Source guidance
 
 The pattern bodies state the adopted contribution and comparison. These locators let a reader examine the sources or obtain greater professional depth. They do not claim full access to restricted curricula or compliance with an unread standard.
 
@@ -4406,3 +4410,5 @@ The pattern bodies state the adopted contribution and comparison. These locators
 [DAM-ACQUISITION]: https://pages.stern.nyu.edu/adamodar/New_Home_Page/invfables/acqmotives.htm
 [IVSC]: https://ivsc.org/standards/
 [WB-WORKOUT]: https://documents1.worldbank.org/curated/en/982181642007438817/pdf/A-Toolkit-for-Corporate-Workouts.pdf
+
+## FIN.Reference:End

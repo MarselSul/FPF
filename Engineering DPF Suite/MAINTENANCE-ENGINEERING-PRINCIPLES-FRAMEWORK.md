@@ -16,9 +16,9 @@ Search for the maintenance difficulty or result you need. Dependencies identify 
 | [Maintenance Engineering and Management Principles Framework Readme](#maintenance-engineering-and-management-principles-framework-readme) | Follow condition-to-result work, fleet learning and shared-work reconciliation. |
 | [Citation](#citation) | Cite the framework or one continuing pattern contribution. |
 | [Preface](#preface) | Understand the language, its result relations, alternatives and limits. |
-| [Cross-Pattern Applications](#cross-pattern-applications) | Follow PS17, the fleet comparison and shared-resource coordination. |
-| [Source Responsibility and References](#source-responsibility-and-references) | Recover source contributions and their applicable limits. |
-| [Framework Boundary and Refresh](#framework-boundary-and-refresh) | Understand scope, pattern continuity and action-changing refresh. |
+| [MNT.Application - Cross-Pattern Applications](#cross-pattern-applications) | Follow PS17, the fleet comparison and shared-resource coordination. |
+| [MNT.Reference - Source Responsibility and References](#source-responsibility-and-references) | Recover source contributions and their applicable limits. |
+| [MNT.Boundary - Framework Boundary and Refresh](#framework-boundary-and-refresh) | Understand scope, pattern continuity and action-changing refresh. |
 
 **Part A - Maintained Use, Policy, Failure, and Condition**
 
@@ -74,7 +74,7 @@ The cases are constructed. Their equipment, operating, protection and measuremen
 - **Start with:** [MNT.1 - Identify the Maintained System, Use, and Permission Boundary](#mnt1---identify-the-maintained-system-use-and-permission-boundary) if the unit, use or requested result is unclear; otherwise enter [MNT.6 - Diagnose Condition and Choose a Maintenance Response](#mnt6---diagnose-condition-and-choose-a-maintenance-response) with the adequate condition and failure accounts.
 - **Stop or return:** A supported recommendation can finish before repair. Continue only when that intervention is selected and its operative conditions are met; reopen the result whose condition changes.
 
-1. **Give the choice a condition and failure account it can use.** In [PS17](#app-mnt-01--ps17-advice-selected-intervention-and-return-to-use), the question concerns PumpTrain-PS17-B, configuration C41. [MNT.4 - Monitor and Interpret System Condition for Maintenance](#mnt4---monitor-and-interpret-system-condition-for-maintenance) supplies abnormal, increasing bearing-location vibration under comparable duty. [MNT.3 - Establish Degradation and Failure Evidence for Maintenance](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) uses the case's separate machine-specific inspection and diagnostic account: the rolling contact has a localized defect, while the mounting and lubrication findings support replacement under the unchanged design basis.
+1. **Give the choice a condition and failure account it can use.** In [PS17](#mntapplication1---app-mnt-01--ps17-advice-selected-intervention-and-return-to-use), the question concerns PumpTrain-PS17-B, configuration C41. [MNT.4 - Monitor and Interpret System Condition for Maintenance](#mnt4---monitor-and-interpret-system-condition-for-maintenance) supplies abnormal, increasing bearing-location vibration under comparable duty. [MNT.3 - Establish Degradation and Failure Evidence for Maintenance](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) uses the case's separate machine-specific inspection and diagnostic account: the rolling contact has a localized defect, while the mounting and lubrication findings support replacement under the unchanged design basis.
 2. **Finish the bounded recommendation.** The supplied operating assessment permits a lower-duty arrangement that meets present service needs until the planned outage two days away, while its condition and protection limits hold. Normal demand then returns. [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) uses that temporary bridge and the identified defect to recommend replacement at the suitable outage. The two days are a service boundary, not a predicted failure time. [MNT.5 - Prepare Maintenance Service Capability, Spares, Tools, and Authority](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) finds the spare physically available but its required specialist applicability return missing. The advice is complete; replacement cannot begin. Compatible information, tools and provider preparation can continue.
 3. **Test the whole window after the missing support is supplied.** In the extended branch, the applicability return arrives and the intervention is selected. [MNT.7 - Coordinate Maintenance Intervention and Continuing Operation](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) uses a separate operating allowance of four hours for reduced-capacity operation. Thirty minutes for shutdown and isolation, 95 for intervention, 45 for controlled testing, 25 for restoration and hand-back, and thirty of explicit contingency total 225 minutes within 240. Ninety minutes of preparation occurs before the outage. A further twenty-minute demand beyond all included allowances raises the total to 245: revise the arrangement rather than consume required testing or hand-back time.
 4. **Carry the selected scope through actual work.** [MNT.8 - Isolate, Make Safe, and Authorize the Maintenance Intervention](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) establishes applicable protection and permission. An uncontrolled shared energy path prevents the affected work from starting. In the branch where the conditions are met, [MNT.9 - Perform and Record the Maintenance Intervention](#mnt9---perform-and-record-the-maintenance-intervention) records removal of bearing R551 and installation of compatible R607, resulting in configuration C42. [MNT.12 - Maintain Maintenance Information and Configuration Continuity](#mnt12---maintain-maintenance-information-and-configuration-continuity) connects the C41 condition history to those events and the C42 test.
@@ -90,7 +90,7 @@ A lost standby train reopens the earlier operating allowance; a finding that a s
 - **Start with:** [MNT.13 - Coordinate the Maintenance Programme and Fleet Learning](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning), using [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) and [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity) only where the failure or history basis needs work.
 - **Stop or return:** Retain an adequate current policy or fix a known support deficiency on its existing basis. Further inquiry is selected only for a worthwhile attainable answer.
 
-1. **Make the comparison mean the same thing.** In the [48-pump case](#app-mnt-02--a-fleet-comparison-that-reverses-when-exposure-is-counted), twenty pumps have four relevant failures over 20,000 operating hours; 28 have six over 56,000 hours. The crude rates are 0.20 and approximately 0.107 events per 1,000 hours. Counts favor the first group, rates the second. [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) establishes what counts as a failure, and [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity) attaches events and exposure to the actual components and intervals.
+1. **Make the comparison mean the same thing.** In the [48-pump case](#mntapplication2---app-mnt-02--a-fleet-comparison-that-reverses-when-exposure-is-counted), twenty pumps have four relevant failures over 20,000 operating hours; 28 have six over 56,000 hours. The crude rates are 0.20 and approximately 0.107 events per 1,000 hours. Counts favor the first group, rates the second. [MNT.3](#mnt3---establish-degradation-and-failure-evidence-for-maintenance) establishes what counts as a failure, and [MNT.12](#mnt12---maintain-maintenance-information-and-configuration-continuity) attaches events and exposure to the actual components and intervals.
 2. **Propagate a corrected history before changing the policy.** If two of the second group's six records are preventive removals, correct that event classification and the affected rate. Duty, component histories and selection into the groups still limit any causal policy comparison.
 3. **Keep a policy decision separate from a support decision.** [MNT.2 - Select and Reopen the Maintenance Policy](#mnt2---select-and-reopen-the-maintenance-policy) can retain the current task where its existing failure-and-response basis remains adequate. The weak comparative data do not establish that adequacy. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) can separately select repair of the known spare deficiency, using [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) to establish readiness for the upcoming task. A broader redesign of recurring support returns to the relevant enabling-arrangement practice; it need not wait for a causal fleet study.
 4. **Compare the proposed method at the response it can improve.** [MNT.14 - Compare Maintenance Methods for Retention or Change](#mnt14---compare-maintenance-methods-for-retention-or-change) compares the online predictor with current periodic interpretation at the same maintenance use. In its case, existing provider information shows no improvement in feasible response: the same specialist and part constraints dominate, while integration and interpretation add work. Retain the present method for that use and address support. Another family with rapidly changing condition and an available response can reopen the comparison for that family.
@@ -105,7 +105,7 @@ The policy alternatives also depend on the function. An obvious, low-consequence
 - **Start with:** [MNT.15 - Reconcile Simultaneous Maintenance, Operation, and Support Work](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work), using the existing job, readiness and operating accounts.
 - **Stop or return:** A simple shared-demand bound can finish the feasibility question. Selecting a repair needs the relevant consequence, capability and authority results.
 
-1. **Compare the whole shared demand.** In the [packaging-plant case](#app-mnt-03--individually-feasible-jobs-and-one-shared-specialist), each job needs four hours of the same qualified specialist inside one six-hour access window. Eight hours cannot fit six. Preparation overlapping production leaves the shared eight-hour specialist demand unchanged.
+1. **Compare the whole shared demand.** In the [packaging-plant case](#mntapplication3---app-mnt-03--individually-feasible-jobs-and-one-shared-specialist), each job needs four hours of the same qualified specialist inside one six-hour access window. Eight hours cannot fit six. Preparation overlapping production leaves the shared eight-hour specialist demand unchanged.
 2. **Use the separate methods to distinguish feasible alternatives.** [MNT.6](#mnt6---diagnose-condition-and-choose-a-maintenance-response) supplies the failure consequence of deferring a job; [MNT.5](#mnt5---prepare-maintenance-service-capability-spares-tools-and-authority) determines whether an additional provider is capable, available and permitted to act; [MNT.7](#mnt7---coordinate-maintenance-intervention-and-continuing-operation) checks another window or changed operating arrangement against continuing service. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) consumes those results to return a supported combined arrangement or an unmet commitment.
 3. **Reopen the combination when a shared premise changes.** If both jobs rely on the same standby equipment, each plan's separate fallback claim no longer settles their joint use. Extend the comparison to the actual operating dependencies and relevant [MNT.8](#mnt8---isolate-make-safe-and-authorize-the-maintenance-intervention) protection conditions. If a longer shift would impair the specialist's later protected work, change allocation, relief or timing.
 
@@ -1611,7 +1611,9 @@ The question is how to choose a useful maintenance-culture intervention from lim
 
 # Cross-Pattern Applications
 
-## APP-MNT-01 — PS17: advice, selected intervention and return to use
+<a id="app-mnt-01--ps17-advice-selected-intervention-and-return-to-use"></a>
+
+## MNT.Application:1 - APP-MNT-01 — PS17: advice, selected intervention and return to use
 
 The constructed case begins on 18 September 2026 with rising bearing-related vibration in PumpTrain-PS17-B, configuration C41. DistrictHeatingOperation-East supplies a qualified capacity result for the stated horizon: its agreed reduced-capacity operation can last four hours under the specified demand and fallback conditions. That operating contribution is the result exchange also identified as XRI-09.
 
@@ -1629,7 +1631,9 @@ In the performed branch, [MNT.9](#mnt9---perform-and-record-the-maintenance-inte
 
 Long-horizon recurrence remains unresolved. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) can retain the current programme account, and [MNT.16](#mnt16---deliberately-continue-and-change-maintenance-culture) can describe the team's observed use only within the constructed case. A further investigation or practice intervention is selected for its worthwhile attainable contribution; it is not required to make the local recommendation or repair result true.
 
-## APP-MNT-02 — A fleet comparison that reverses when exposure is counted
+<a id="app-mnt-02--a-fleet-comparison-that-reverses-when-exposure-is-counted"></a>
+
+## MNT.Application:2 - APP-MNT-02 — A fleet comparison that reverses when exposure is counted
 
 The constructed fleet contains 48 pumps in two groups. One has fewer counted failures but also substantially less operating exposure. [MNT.13](#mnt13---coordinate-the-maintenance-programme-and-fleet-learning) contains the numerical comparison and its decision: the crude rates do not establish a causal policy advantage. Retaining the current policy rests on its existing failure-and-response basis remaining adequate for the stated duties; the rates do not establish that adequacy.
 
@@ -1639,7 +1643,9 @@ The constructed fleet contains 48 pumps in two groups. One has fewer counted fai
 
 A proposed further comparison needs a question that the available population, time and access can answer. Its acquisition and interpretation burden belongs in the choice. “Collect more data” is not the automatic result of a limited causal account.
 
-## APP-MNT-03 — Individually feasible jobs and one shared specialist
+<a id="app-mnt-03--individually-feasible-jobs-and-one-shared-specialist"></a>
+
+## MNT.Application:3 - APP-MNT-03 — Individually feasible jobs and one shared specialist
 
 The constructed packaging-plant case has two jobs that each fit a six-hour access window but together exceed the available time of one qualified specialist. [MNT.15](#mnt15---reconcile-simultaneous-maintenance-operation-and-support-work) contains the whole-demand calculation and the alternatives that change it.
 
@@ -1649,9 +1655,14 @@ Preparation that can overlap production remains useful but does not resolve a sh
 
 When a shared fallback or isolation dependency joins the conflict, the comparison expands to those actual System and protection relations. A work-breakdown diagram's hierarchy does not establish them.
 
+## MNT.Application:End
+
+
 # Source Responsibility and References
 
-## Source roles and scope of reliance
+<a id="source-roles-and-scope-of-reliance"></a>
+
+## MNT.Reference:1 - Source roles and scope of reliance
 
 This framework is an original selective synthesis, not a replacement edition or complete translation of a Guide, standard or paper. Source accounts contribute to specific decisions; their complete procedures, derivations and jurisdictional provisions remain with the original works.
 
@@ -1673,6 +1684,9 @@ Use [SYSE.12](SYSTEMS-ENGINEERING-PRINCIPLES-FRAMEWORK.md#syse12---develop-or-re
 
 For related explanations across the engineering languages, use the [Engineering DPF Suite Reference](ENGINEERING-DPF-SUITE-REFERENCE.md). Direct governing Methods remain with FPF and the named DPF patterns; a source catalogue is a finding aid rather than independent confirmation of their claims.
 
+## MNT.Reference:End
+
+
 # Framework Boundary and Refresh
 
 The framework's code remains MNT. Earlier references to Maintenance Engineering Principles Framework name this same product; the fuller name makes the engineering-and-management scope explicit. PatternIDs identify its continuing practical contributions; Parts and positions describe this edition's reading order. A changed title or publication position does not by itself create a new Method. A changed problem, action or result needs an explicit continuity decision and a return for affected users.
@@ -1684,3 +1698,5 @@ Refresh the affected contribution when new failure behaviour changes a policy, a
 A new source date alone need not reopen a completed maintenance answer. Conversely, an old but applicable source can remain useful with its stated limits. For a specialist legal use, recover the actual current law and procedure instead of relying on the dated illustrations in this edition.
 
 The framework can help a reader give a smaller supported answer while a stronger question remains open. Continuing that stronger inquiry is a separate practical choice with its own attainable value, burden and authority.
+
+## MNT.Boundary:End
